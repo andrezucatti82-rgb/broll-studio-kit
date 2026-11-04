@@ -1,6 +1,6 @@
 # Histórico de versões
 
-## 2.0.0 — Direção e revisão audiovisual
+## 2.0.1 — Direção e revisão audiovisual
 
 - Critérios explícitos contra execução dominada por fotos com zoom, profundidade limitada, cortes uniformes e transições escolhidas por índice.
 - Plano por cena com ação interna, estado inicial/final, mídia, luz, oclusão, câmera, conexão entre planos e som.
