@@ -1,20 +1,22 @@
-# B-roll Studio
+# Vídeo Multimarcas
+
+**Skill pública de uso geral.** Identificador: `video-multimarcas`. Adapta cada produção à marca informada; não carrega identidade ou voz pessoal como padrão.
 
 **Uma temática vira um vídeo narrado, com pesquisa e identidade adaptada à sua marca.** Skill para agentes de IA, acompanhada de código editável para produção.
 
 Informe o assunto. Opcionalmente, acrescente o nome da marca, logotipo ou site. O agente pesquisa, desenvolve roteiro e direção, prepara mídia, monta, revisa e entrega o vídeo. Sem avatar por padrão; câmera livre, imagens grandes e movimento com propósito.
 
-[Baixar a skill](dist/broll-studio.skill) · [ZIP da skill](dist/broll-studio.zip) · [Instruções da skill](.agents/skills/broll-studio/SKILL.md)
+[Baixar a skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Instruções da skill](.agents/skills/video-multimarcas/SKILL.md)
 
 Este repositório não apresenta um vídeo de demonstração. O arquivo `templates/project.json` é um rascunho técnico com espaços reservados, destinado à configuração do editor.
 
 ## Usar a skill
 
-Copie a pasta `.agents/skills/broll-studio/` inteira para a pasta de skills do seu agente, preservando `references/`. Em agentes compatíveis com a convenção `.agents/skills`, mantenha esse caminho no projeto. Não substitua skills existentes: o identificador desta é `broll-studio`.
+Copie a pasta `.agents/skills/video-multimarcas/` inteira para a pasta de skills do seu agente, preservando `references/`. Em agentes compatíveis com a convenção `.agents/skills`, mantenha esse caminho no projeto. Não substitua skills existentes: o identificador desta é `video-multimarcas`.
 
-> Use $broll-studio. Tema: como escolher plantas para um apartamento.
+> Use $video-multimarcas. Tema: como escolher plantas para um apartamento.
 
-> Use $broll-studio. Marca: Minha Marca. Site: https://exemplo.com. Tema: como escolher o produto ideal. Faça um vídeo de 30 segundos.
+> Use $video-multimarcas. Marca: Minha Marca. Site: https://exemplo.com. Tema: como escolher o produto ideal. Faça um vídeo de 30 segundos.
 
 A skill depende das capacidades do agente para pesquisar, gerar mídia e sintetizar voz. Não é um serviço hospedado nem um aplicativo de geração autônoma sem modelo de IA. Não inclui contas, créditos ou credenciais. Somente tema pode usar identidade editorial provisória; nome de marca ambíguo pode exigir esclarecimento.
 

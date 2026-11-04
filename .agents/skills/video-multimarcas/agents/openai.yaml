@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vídeo Multimarcas"
+  short_description: "Uso geral: vídeos adaptados à marca, logo ou site informado"
+  default_prompt: "Use $video-multimarcas. Pesquise o tema e adapte roteiro, identidade e vídeo à marca informada, sem reutilizar marca ou voz de outro projeto."

@@ -1,9 +1,9 @@
 ---
-name: broll-studio
-description: Produz vídeos B-roll narrados a partir de uma temática, pesquisando fontes e adaptando roteiro, identidade visual e direção à marca informada por nome, logotipo ou site. Sem avatar por padrão. Inclui pré-produção, mídia, montagem, revisão e entrega.
+name: video-multimarcas
+description: Skill de uso geral para qualquer marca. Produz vídeos B-roll narrados a partir de uma temática, pesquisando fontes e adaptando roteiro, identidade visual e direção à marca informada por nome, logotipo ou site. Sem avatar por padrão. Inclui pré-produção, mídia, montagem, revisão e entrega.
 ---
 
-# B-roll Studio
+# Vídeo Multimarcas
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 

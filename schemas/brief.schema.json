@@ -1,6 +1,6 @@
 {
   "$schema":"https://json-schema.org/draft/2020-12/schema",
-  "title":"B-roll Studio intake",
+  "title":"Vídeo Multimarcas intake",
   "type":"object",
   "required":["schemaVersion","topic"],
   "properties":{
