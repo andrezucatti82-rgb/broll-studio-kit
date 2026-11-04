@@ -19,4 +19,4 @@ export function validate(p){
  let end=0;for(const c of p.captions){if(!Number.isFinite(c.start)||!Number.isFinite(c.end)||c.start<end||c.end<=c.start||c.end>p.duration||typeof c.text!=='string')fail('Invalid caption timing');end=c.end;}
  return p;
 }
-if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){validate(JSON.parse(fs.readFileSync(process.argv[2]||'examples/dipilatti/project.json','utf8')));console.log('Project valid.');}
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){validate(JSON.parse(fs.readFileSync(process.argv[2]||'templates/project.json','utf8')));console.log('Project valid.');}

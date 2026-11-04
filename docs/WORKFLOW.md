@@ -12,8 +12,8 @@
 
 Ele aceita um `Project` definido em `src/Film.tsx`: marca, tema, seis cenas, rótulos de apoio, caminho do áudio e legendas temporizadas. `scripts/validate.mjs` valida entradas e disponibilidade dos assets. Cada cena tem `eyebrow`, `title`, `detail`, `image` e `focus` (posição de enquadramento CSS). Cores aceitam hexadecimal de seis dígitos. Os assets devem estar em `public/`. O total de frames deve ser divisível por seis neste layout.
 
-Este renderer demonstra ritmo e recursos de uma peça específica. Para outras estruturas, crie componentes e metadados próprios; não force temas diferentes a uma mesma sequência de slides. A skill descreve pesquisa e decisões criativas que o scaffold sozinho não realiza.
+O arquivo `templates/project.json` contém somente um rascunho técnico. Para outras estruturas, crie componentes e metadados próprios; não force temas diferentes a uma mesma sequência de slides. A skill descreve pesquisa e decisões criativas que o scaffold sozinho não realiza.
 
 ## Portabilidade
 
-A pasta da skill pode ser instalada separadamente, mantendo `references/`. O repositório completo é necessário para renderizar a demonstração. Não há instalador que substitua skills anteriores. Nenhum arquivo deste kit depende de caminhos privados absolutos, tokens, IDs de contas sociais ou voz pessoal.
+A pasta da skill pode ser instalada separadamente, mantendo `references/`. O repositório completo é necessário para usar o renderizador. Não há instalador que substitua skills anteriores. Nenhum arquivo deste kit depende de caminhos privados absolutos, tokens, IDs de contas sociais ou voz pessoal.

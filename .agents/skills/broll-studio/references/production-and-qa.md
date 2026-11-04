@@ -8,7 +8,7 @@ Use música com licença verificável ou trilha original, volume abaixo da fala,
 
 ## Montagem
 
-Use o motor disponível e apropriado. O kit inclui Remotion com um exemplo determinístico; é permitido criar outros layouts, cenas e motores. Prepare mídia e animações antes de renderizar. Para imagens, movimento de câmera não corrige baixa resolução. Para cenas geradas, confira consistência e artefatos. Não use filtros caros em toda a tela sem avaliar qualidade e custo.
+Use o motor disponível e apropriado. O kit inclui Remotion com uma composição inicial editável; é permitido criar outros layouts, cenas e motores. Prepare mídia e animações antes de renderizar. Para imagens, movimento de câmera não corrige baixa resolução. Para cenas geradas, confira consistência e artefatos. Não use filtros caros em toda a tela sem avaliar qualidade e custo.
 
 ## Checklist de entrega
 

@@ -15,4 +15,4 @@ git remote add origin https://github.com/SEU_USUARIO/broll-studio-kit.git
 git push -u origin main
 ```
 
-Não use force push. Se o repositório já tiver conteúdo, verifique-o antes de integrar as alterações. A criação/publicação de uma cópia comercial exige revisar os assets de demonstração e suas condições em `THIRD_PARTY.md`.
+Não use force push. Se o repositório já tiver conteúdo, verifique-o antes de integrar as alterações. A criação/publicação de uma cópia comercial exige revisar os assets incorporados e suas condições em `THIRD_PARTY.md`.

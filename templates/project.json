@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "topic": "Rascunho técnico — substitua pelo tema",
+  "duration": 30,
+  "fps": 30,
+  "brand": {
+    "name": "SUA MARCA",
+    "website": "https://example.com",
+    "logo": "template/logo.svg",
+    "primary": "#3947A7",
+    "ink": "#202124",
+    "paper": "#F1F2F5",
+    "tagline": "Identidade provisória"
+  },
+  "audio": "",
+  "captions": [],
+  "labels": {
+    "badge": "Texto de apoio",
+    "illustration": "DIAGRAMA ILUSTRATIVO — PERSONALIZE",
+    "categories": [
+      "Categoria 1",
+      "Categoria 2",
+      "Categoria 3",
+      "Categoria 4"
+    ]
+  },
+  "scenes": [
+    {
+      "eyebrow": "RASCUNHO / CENA 1",
+      "title": "Título da\ncena 1.",
+      "detail": "Substitua o texto e a mídia deste rascunho.",
+      "image": "template/placeholder.svg",
+      "focus": "50% 50%"
+    },
+    {
+      "eyebrow": "RASCUNHO / CENA 2",
+      "title": "Título da\ncena 2.",
+      "detail": "Substitua o texto e a mídia deste rascunho.",
+      "image": "template/placeholder.svg",
+      "focus": "50% 50%"
+    },
+    {
+      "eyebrow": "RASCUNHO / CENA 3",
+      "title": "Título da\ncena 3.",
+      "detail": "Substitua o texto e a mídia deste rascunho.",
+      "image": "template/placeholder.svg",
+      "focus": "50% 50%"
+    },
+    {
+      "eyebrow": "RASCUNHO / CENA 4",
+      "title": "Título da\ncena 4.",
+      "detail": "Substitua o texto e a mídia deste rascunho.",
+      "image": "template/placeholder.svg",
+      "focus": "50% 50%"
+    },
+    {
+      "eyebrow": "RASCUNHO / CENA 5",
+      "title": "Título da\ncena 5.",
+      "detail": "Substitua o texto e a mídia deste rascunho.",
+      "image": "template/placeholder.svg",
+      "focus": "50% 50%"
+    },
+    {
+      "eyebrow": "RASCUNHO / CENA 6",
+      "title": "Título da\ncena 6.",
+      "detail": "Substitua o texto e a mídia deste rascunho.",
+      "image": "template/placeholder.svg",
+      "focus": "50% 50%"
+    }
+  ]
+}

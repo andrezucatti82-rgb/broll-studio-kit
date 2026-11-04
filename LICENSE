@@ -20,6 +20,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Scope: original source code, original documentation and original synthesized
-score. Third-party brand assets, photography, fonts and generated speech are
+Scope: original source code, original documentation and original SVG placeholders. Third-party fonts and dependencies are
 excluded from this grant. See THIRD_PARTY.md.

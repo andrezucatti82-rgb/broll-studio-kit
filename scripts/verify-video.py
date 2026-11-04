@@ -1,11 +1,15 @@
-"""Measure the delivered MP4. Requires ffmpeg and ffprobe. Does not claim listening or playback review."""
-import json,re,subprocess,hashlib
+"""Measure and decode a supplied video. Does not claim visual or auditory review."""
+import argparse,hashlib,json,re,subprocess
 from pathlib import Path
-r=Path(__file__).resolve().parent.parent;p=r/'examples/dipilatti/output/video.mp4'
-probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration,size:stream=codec_name,width,height,r_frame_rate,nb_frames','-of','json',str(p)]))
-v=next(s for s in probe['streams'] if s['codec_name']=='h264');assert(v['width'],v['height'],int(v['nb_frames']))==(1080,1920,900);assert abs(float(probe['format']['duration'])-30)<.001
-subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(p),'-f','null','-'],check=True)
-a=subprocess.run(['ffmpeg','-hide_banner','-nostats','-i',str(p),'-af','loudnorm=I=-15:TP=-1.5:LRA=7:print_format=json','-f','null','-'],capture_output=True,text=True,check=True)
-measure=json.loads(re.search(r'\{\s*"input_i".*?\}',a.stderr,re.S).group())
-qa={'video':'output/video.mp4','sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'technical':{'status':'passed','durationSeconds':float(probe['format']['duration']),'dimensions':[v['width'],v['height']],'fps':v['r_frame_rate'],'frames':int(v['nb_frames']),'codecs':['h264','aac'],'decode':'passed','loudnessLUFS':float(measure['input_i']),'truePeakDbTP':float(measure['input_tp'])},'visualReview':{'status':'stills_reviewed','frames':'Six scene midpoints and ten frames around the five transitions','result':'Titles and logo legible; no missing arrow glyphs after correction; transition coverage checked','continuousPlayback':'not_run'},'audioListening':{'status':'not_run','reason':'No audio audition capability used; waveform duration, presence, loudness and peak were measured. Pronunciation and subjective voice quality remain for listener review.'},'content':{'source':'https://dipilatti.com.br/','claims':'Official rental categories; editorial composition suggestions','avatar':False,'voice':'public Portuguese synthesis'},'limitations':['2.5D photographic motion and projected diagram; no real 3D scene or generated live-action footage.','Third-party example media is excluded from the code license.']}
-(r/'examples/dipilatti/qa.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2)+'\n');print(json.dumps(qa['technical']))
+parser=argparse.ArgumentParser();parser.add_argument('video',type=Path);parser.add_argument('--out',type=Path);args=parser.parse_args()
+probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration,size:stream=codec_type,codec_name,width,height,r_frame_rate,nb_frames','-of','json',str(args.video)]))
+subprocess.run(['ffmpeg','-v','error','-xerror','-i',str(args.video),'-f','null','-'],check=True)
+report={'file':args.video.name,'sha256':hashlib.sha256(args.video.read_bytes()).hexdigest(),'metadata':probe,'decode':'passed','visualReview':'not_run','audioListening':'not_run'}
+if any(s.get('codec_type')=='audio' for s in probe['streams']):
+ result=subprocess.run(['ffmpeg','-hide_banner','-nostats','-i',str(args.video),'-vn','-af','loudnorm=I=-15:TP=-1.5:LRA=7:print_format=json','-f','null','-'],capture_output=True,text=True,check=True)
+ match=re.search(r'\{\s*"input_i".*?\}',result.stderr,re.S)
+ if match:
+  metrics=json.loads(match.group());report['loudness']={k:metrics[k] for k in ['input_i','input_tp','input_lra']}
+text=json.dumps(report,ensure_ascii=False,indent=2)+'\n'
+if args.out:args.out.write_text(text)
+else:print(text,end='')
