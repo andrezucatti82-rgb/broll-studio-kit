@@ -1,0 +1,22 @@
+{
+  "name": "Dipilatti",
+  "website": "https://dipilatti.com.br/",
+  "category": "Locações & Eventos",
+  "colors": {
+    "observedPrimary": "#C52E32",
+    "editorialInk": "#291E20",
+    "editorialPaper": "#F3EEE5"
+  },
+  "fonts": {
+    "observed": "Gotham Rounded",
+    "rendered": "Geist",
+    "reason": "Open-licensed substitute"
+  },
+  "confidence": "Observed website identity; no official brand manual supplied",
+  "tone": "Acolhedor, editorial, atento aos detalhes",
+  "cta": "Conheça as possibilidades em dipilatti.com.br",
+  "evidence": [
+    "https://dipilatti.com.br/"
+  ],
+  "assetRights": "See THIRD_PARTY.md"
+}

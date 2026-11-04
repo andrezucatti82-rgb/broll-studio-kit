@@ -1,0 +1,33 @@
+{
+  "name": "broll-studio-kit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Brand-adaptive agent skill and reproducible narrated B-roll example",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "remotion studio src/index.tsx",
+    "render": "node scripts/render.mjs",
+    "stills": "node scripts/render.mjs --stills",
+    "check": "tsc --noEmit",
+    "test": "node tests/project.test.mjs",
+    "new": "node scripts/new-project.mjs",
+    "validate": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.540",
+    "@remotion/bundler": "4.0.540",
+    "@remotion/renderer": "4.0.540",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "typescript": "5.9.3"
+  }
+}

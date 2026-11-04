@@ -1,0 +1,44 @@
+[
+  {
+    "file": "public/demo/photo-1.jpg",
+    "source": "https://dipilatti.com.br/assets/dipilatti-banner-5da4de905446d-B2_We575.jpg",
+    "retrieved": "2026-11-04",
+    "rights": "Third-party website photography; no open license identified; excluded from MIT",
+    "sha256": "eb4d7ea29cc46cece3c3a917f676f041a0010ae9bd309bc6436f3c0d6b994c49"
+  },
+  {
+    "file": "public/demo/photo-2.jpg",
+    "source": "https://dipilatti.com.br/assets/dipilatti-banner-5d76c23c526d4-CbN1ML_X.jpg",
+    "retrieved": "2026-11-04",
+    "rights": "Third-party website photography; no open license identified; excluded from MIT",
+    "sha256": "44d0fe82a55beddbf97a61cea5237cefd950175b0c16eb962cf43b1c8972fce9"
+  },
+  {
+    "file": "public/demo/photo-3.jpg",
+    "source": "https://dipilatti.com.br/assets/dipilatti-banner-5caccf34aa1bb-DY9PzO2V.jpg",
+    "retrieved": "2026-11-04",
+    "rights": "Third-party website photography; no open license identified; excluded from MIT",
+    "sha256": "e482805503456da40c4ab7fcff5666a2074012e0a9457223950986f0c098110b"
+  },
+  {
+    "file": "public/demo/photo-4.jpg",
+    "source": "https://dipilatti.com.br/assets/dipilatti-banner-5c6b022980079-DyRHPC0l.jpg",
+    "retrieved": "2026-11-04",
+    "rights": "Third-party website photography; no open license identified; excluded from MIT",
+    "sha256": "26f3beea159da38bf1329876a6d566b052761fdec0108fd61409e511422c74e3"
+  },
+  {
+    "file": "public/demo/photo-5.jpg",
+    "source": "https://dipilatti.com.br/assets/dipilatti-banner-5c5b11dee3a1b-BXbnX4zt.jpg",
+    "retrieved": "2026-11-04",
+    "rights": "Third-party website photography; no open license identified; excluded from MIT",
+    "sha256": "286e00469738af4c1d1af1c53c3a27f1b51fd59523cb7fcbd32c283020e9b45d"
+  },
+  {
+    "file": "public/demo/logo.png",
+    "source": "https://dipilatti.com.br/assets/dipilatti-logo-BvHzbks8.png",
+    "retrieved": "2026-11-04",
+    "rights": "Third-party trademark and artwork; excluded from MIT",
+    "sha256": "600fb7f73ffb138729c91cb5897ad45f825fd23b836d5e2f6e51bdf41286965f"
+  }
+]

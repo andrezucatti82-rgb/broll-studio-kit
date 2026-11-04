@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';
+import {createProject} from '../scripts/new-project.mjs';import {validate} from '../scripts/validate.mjs';
+const example=()=>JSON.parse(fs.readFileSync('examples/dipilatti/project.json'));
+test('example validates and rejects escaping asset paths',()=>{validate(example());const x=example();x.scenes[0].image='../secret';assert.throws(()=>validate(x),/safe relative/)});
+test('overlapping captions and incomplete timing fail',()=>{const x=example();x.captions=[{start:1,end:4,text:'a'},{start:3,end:5,text:'b'}];assert.throws(()=>validate(x),/timing/);x.captions=[];x.duration=30.1;assert.throws(()=>validate(x),/divide/)});
+test('new projects carry no example identity and never overwrite',()=>{const root=fs.mkdtempSync(path.join(os.tmpdir(),'broll-test-'));try{const dest=createProject({topic:'Coffee roasting',slug:'coffee',root});const b=JSON.parse(fs.readFileSync(path.join(dest,'brief.json')));assert.equal(b.brand.name,'');assert.equal(b.researchStatus,'pending');assert.throws(()=>createProject({topic:'Other',slug:'coffee',root}));assert.throws(()=>createProject({topic:'Other',slug:'../escape',root}));}finally{fs.rmSync(root,{recursive:true,force:true})}});
