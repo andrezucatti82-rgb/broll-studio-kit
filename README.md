@@ -10,9 +10,19 @@ Informe o assunto. Opcionalmente, acrescente o nome da marca, logotipo ou site. 
 
 Este repositório não apresenta um vídeo de demonstração. O arquivo `templates/project.json` é um rascunho técnico com espaços reservados, destinado à configuração do editor.
 
+## Qualidade na versão 2
+
+A direção exige ação dentro do quadro, profundidade coerente, cortes ligados à locução e transições motivadas. Antes do filme inteiro, o agente deve testar o plano mais exigente e sua passagem. Fotografias com zoom e cartões inclinados não bastam para atender um pedido de cinema e interação.
+
+Um MP4 renderizado é um candidato. Acabamento revisado exige playback e escuta integrais do arquivo entregue, além de verificação técnica. Sem essas capacidades, a entrega fica como **revisão pendente**. A ficha de revisão é vinculada ao SHA256; alterar o vídeo invalida a revisão anterior.
+
+O kit oferece infraestrutura, não transforma mídia automaticamente em cinema: travessia por objeto, 3D, rotoscopia e tracking precisam de produção e implementação próprias. O código inclui corte e dissolvência explícitos; não escolhe wipes pela posição da cena.
+
+Veja [migração do formato de render](docs/MIGRATION-2.md) e [fluxo de produção e revisão](docs/WORKFLOW.md).
+
 ## Usar a skill
 
-Copie a pasta `.agents/skills/video-multimarcas/` inteira para a pasta de skills do seu agente, preservando `references/`. Em agentes compatíveis com a convenção `.agents/skills`, mantenha esse caminho no projeto. Não substitua skills existentes: o identificador desta é `video-multimarcas`.
+Copie a pasta `.agents/skills/video-multimarcas/` inteira para a pasta de skills do seu agente, preservando `references/`, `templates/` e `agents/`. Em agentes compatíveis com a convenção `.agents/skills`, mantenha esse caminho no projeto. Não substitua skills existentes: o identificador desta é `video-multimarcas`.
 
 > Use $video-multimarcas. Tema: como escolher plantas para um apartamento.
 
@@ -40,18 +50,20 @@ O editor abre o rascunho técnico. Substitua textos, logo, fotografias, direçã
 npm run new -- --topic "Como escolher o café" --brand "Minha Marca" --website "https://exemplo.com" --slug cafe
 ```
 
-Também aceita `--logo ./meu-logo.png`. Só `--topic` é obrigatório. O comando cria `projects/cafe/brief.json` e `START.md`, sem sobrescrever projetos existentes. É um scaffold de briefing: entregue essa pasta ao agente com a skill para pesquisar e produzir.
+Também aceita `--logo ./meu-logo.png`. Só `--topic` é obrigatório. O comando cria `projects/cafe/brief.json`, `shot-plan.json`, `review.json` e `START.md`, sem sobrescrever projetos existentes. É um scaffold de briefing: entregue essa pasta ao agente com a skill para pesquisar e produzir.
 
 O agente pode preparar uma configuração a partir de `templates/project.json`, colocar seus assets em `public/` e executar:
 
 ```bash
 npm run validate -- projects/cafe/project.json
-npm run render -- --project projects/cafe/project.json --out projects/cafe/final
+npm run render -- --project projects/cafe/project.json --out projects/cafe/candidate
 npm run stills -- --project projects/cafe/project.json --out projects/cafe/review
-python scripts/verify-video.py projects/cafe/final/video.mp4 --out projects/cafe/final/qa.json
+python scripts/verify-video.py projects/cafe/candidate/video.mp4 --out projects/cafe/technical.json
+# Depois de assistir, escutar e registrar a revisão real:
+npm run review -- projects/cafe/candidate/video.mp4 projects/cafe/review.json
 ```
 
-`render` e `stills` exigem uma configuração explícita. O renderizador incluído usa seis cenas em 1080 × 1920; para outras narrativas e formatos, crie ou altere a composição em `src/`. A skill não se limita a essa estrutura ou estética. Veja [o fluxo de adaptação](docs/WORKFLOW.md).
+`render` e `stills` exigem uma configuração explícita. O renderizador aceita quantidade livre de planos, tempos por cena, imagens, vídeos e camadas independentes em 1080 × 1920; para outras narrativas e formatos, crie ou altere a composição em `src/`. A skill não se limita a essa estrutura ou estética. Veja [o fluxo de adaptação](docs/WORKFLOW.md).
 
 O render não chama APIs de IA. A primeira execução pode baixar o navegador. Para usar Chromium já instalado, defina `CHROME_PATH`; por exemplo, no Linux:
 

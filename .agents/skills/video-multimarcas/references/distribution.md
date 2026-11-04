@@ -6,7 +6,7 @@ Para um repositório público:
 - História nova, sem histórico privado, tokens, registros brutos, mídias pessoais ou dados de clientes.
 - Código e instruções genéricos; marcas e configurações comerciais somente em exemplos identificados.
 - Licença do código separada dos direitos de logos, fotografias, fontes, vozes e ferramentas.
-- Lockfile, comandos, requisitos, exemplo final, fontes, manifesto e QA.
+- Lockfile, comandos, requisitos, fontes, manifesto e QA. Vídeo de demonstração somente quando solicitado e com estado de revisão informado.
 - Não prometa uso comercial irrestrito de dependências ou conteúdo de terceiros.
 - Verifique o repositório e seu commit após enviar. Informe URL e limitações que persistirem.
 

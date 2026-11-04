@@ -1,7 +1,6 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "topic": "Rascunho técnico — substitua pelo tema",
-  "duration": 30,
   "fps": 30,
   "brand": {
     "name": "SUA MARCA",
@@ -29,43 +28,73 @@
       "eyebrow": "RASCUNHO / CENA 1",
       "title": "Título da\ncena 1.",
       "detail": "Substitua o texto e a mídia deste rascunho.",
-      "image": "template/placeholder.svg",
-      "focus": "50% 50%"
+      "focus": "50% 50%",
+      "id": "shot-1",
+      "durationFrames": 84,
+      "layout": "hero",
+      "media": {
+        "type": "image",
+        "src": "template/placeholder.svg"
+      },
+      "transition": {
+        "type": "cut",
+        "durationFrames": 0
+      },
+      "layers": []
     },
     {
       "eyebrow": "RASCUNHO / CENA 2",
       "title": "Título da\ncena 2.",
       "detail": "Substitua o texto e a mídia deste rascunho.",
-      "image": "template/placeholder.svg",
-      "focus": "50% 50%"
+      "focus": "50% 50%",
+      "id": "shot-2",
+      "durationFrames": 156,
+      "layout": "photo",
+      "media": {
+        "type": "image",
+        "src": "template/placeholder.svg"
+      },
+      "transition": {
+        "type": "cut",
+        "durationFrames": 0
+      },
+      "layers": []
     },
     {
       "eyebrow": "RASCUNHO / CENA 3",
       "title": "Título da\ncena 3.",
       "detail": "Substitua o texto e a mídia deste rascunho.",
-      "image": "template/placeholder.svg",
-      "focus": "50% 50%"
+      "focus": "50% 50%",
+      "id": "shot-3",
+      "durationFrames": 111,
+      "layout": "palette",
+      "media": {
+        "type": "image",
+        "src": "template/placeholder.svg"
+      },
+      "transition": {
+        "type": "cut",
+        "durationFrames": 0
+      },
+      "layers": []
     },
     {
       "eyebrow": "RASCUNHO / CENA 4",
       "title": "Título da\ncena 4.",
       "detail": "Substitua o texto e a mídia deste rascunho.",
-      "image": "template/placeholder.svg",
-      "focus": "50% 50%"
-    },
-    {
-      "eyebrow": "RASCUNHO / CENA 5",
-      "title": "Título da\ncena 5.",
-      "detail": "Substitua o texto e a mídia deste rascunho.",
-      "image": "template/placeholder.svg",
-      "focus": "50% 50%"
-    },
-    {
-      "eyebrow": "RASCUNHO / CENA 6",
-      "title": "Título da\ncena 6.",
-      "detail": "Substitua o texto e a mídia deste rascunho.",
-      "image": "template/placeholder.svg",
-      "focus": "50% 50%"
+      "focus": "50% 50%",
+      "id": "shot-4",
+      "durationFrames": 99,
+      "layout": "closing",
+      "media": {
+        "type": "image",
+        "src": "template/placeholder.svg"
+      },
+      "transition": {
+        "type": "cut",
+        "durationFrames": 0
+      },
+      "layers": []
     }
   ]
 }

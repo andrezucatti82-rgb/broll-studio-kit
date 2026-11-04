@@ -1,0 +1,44 @@
+{
+  "status": "planning",
+  "creativeIntent": "",
+  "audience": "",
+  "brandEvidence": [],
+  "referencesAnalysis": [],
+  "voice": {
+    "source": "",
+    "durationSeconds": null,
+    "reviewStatus": "not_run"
+  },
+  "shots": [
+    {
+      "id": "shot-1",
+      "narrationCue": "",
+      "durationFrames": null,
+      "purpose": "",
+      "stateBefore": "",
+      "actionWithinFrame": "",
+      "stateAfter": "",
+      "mediaSource": "",
+      "assetRights": "",
+      "framing": "",
+      "depth": {
+        "foreground": "",
+        "subject": "",
+        "background": "",
+        "occlusion": "",
+        "lighting": ""
+      },
+      "camera": "",
+      "transitionOut": {
+        "reason": "",
+        "anchorObject": "",
+        "matchingFeature": "",
+        "implementation": "",
+        "status": "planned"
+      },
+      "soundCue": "",
+      "acceptance": "",
+      "status": "planned"
+    }
+  ]
+}

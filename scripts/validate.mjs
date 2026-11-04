@@ -1,22 +1,38 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
+import {buildTimeline} from '../src/timeline.mjs';
 export function validate(p){
  const fail=m=>{throw new Error(m)};
- if(p.schemaVersion!==1)fail('Unsupported schemaVersion');
+ if(p.schemaVersion!==2)fail('schemaVersion 2 required; see docs/MIGRATION-2.md');
  if(!p.topic?.trim()||!p.brand?.name?.trim())fail('Topic and brand name required');
  if(!Number.isInteger(p.fps)||p.fps<24||p.fps>60)fail('fps must be 24–60');
- if(!Number.isFinite(p.duration)||p.duration<6||p.duration>180)fail('duration must be 6–180 seconds');
- if(!Array.isArray(p.scenes)||p.scenes.length!==6)fail('This example renderer needs six scenes; write a new composition for other structures');
- if(Math.round(p.duration*p.fps)%6!==0)fail('Frame count must divide evenly across six scenes');
+ if(!Array.isArray(p.scenes)||p.scenes.length<1)fail('At least one scene required');
+ const ids=new Set();
+ for(const [i,s] of p.scenes.entries()){
+  if(!s.id||ids.has(s.id))fail('Scene IDs must be unique');ids.add(s.id);
+  if(!Number.isInteger(s.durationFrames)||s.durationFrames<2)fail('Scene durationFrames must be an integer >= 2');
+  if(!['hero','photo','palette','spatial','catalog','closing'].includes(s.layout))fail('Unknown layout; implement custom layouts explicitly');
+  const t=s.transition;
+  if(!t||!['cut','dissolve'].includes(t.type)||!Number.isInteger(t.durationFrames)||t.durationFrames<0)fail('Invalid transition');
+  if(t.type==='cut'&&t.durationFrames!==0)fail('Cut duration must be zero');
+  if(t.type==='dissolve'&&(i===0||t.durationFrames<1||t.durationFrames>=Math.min(s.durationFrames,p.scenes[i-1].durationFrames)))fail('Dissolve must fit both adjacent scenes; first scene starts with a cut');
+ }
+ const duration=buildTimeline(p.scenes).durationInFrames/p.fps;
+ if(duration<1||duration>180)fail('Timeline must be 1–180 seconds');
  for(const k of ['primary','ink','paper'])if(!/^#[0-9a-f]{6}$/i.test(p.brand[k]))fail(`Invalid color ${k}`);
  let u;try{u=new URL(p.brand.website)}catch{fail('Invalid website')};if(!['https:','http:'].includes(u.protocol))fail('Website must be HTTP(S)');
- const assets=[p.brand.logo,p.audio,...p.scenes.map(s=>s.image)].filter(Boolean);
- for(const a of assets){if(typeof a!=='string'||a.includes('..')||a.startsWith('/')||/[:\\]/.test(a))fail('Assets must be safe relative paths in public/');if(!fs.existsSync(path.join('public',a)))fail(`Missing asset: ${a}`);}
- for(const s of p.scenes)if(!s.title?.trim()||s.title.length>90||!s.eyebrow||!s.detail)fail('Each scene needs concise copy');
+ const asset=a=>{if(typeof a!=='string'||!a||a.includes('..')||a.startsWith('/')||/[:\\]/.test(a))fail('Assets must be safe relative paths in public/');if(!fs.existsSync(path.join('public',a)))fail(`Missing asset: ${a}`);};
+ const media=m=>{if(!m||!['image','video'].includes(m.type))fail('Media must be image or video');asset(m.src);if(m.startFrom!==undefined&&(!Number.isInteger(m.startFrom)||m.startFrom<0))fail('Video startFrom must be a nonnegative frame');};
+ asset(p.brand.logo);if(p.audio)asset(p.audio);
+ for(const s of p.scenes){
+  if(!s.title?.trim()||s.title.length>90||!s.eyebrow||!s.detail)fail('Each scene needs concise copy');media(s.media);
+  if(s.layers!==undefined&&!Array.isArray(s.layers))fail('layers must be an array');
+  for(const layer of s.layers??[]){media(layer.media);for(const k of ['left','top','width','height'])if(!Number.isFinite(layer[k]))fail('Layer geometry must be finite');if(layer.width<=0||layer.height<=0)fail('Layer size must be positive');for(const pose of [layer.from,layer.to])if(!pose||![pose.x,pose.y,pose.scale].every(Number.isFinite)||pose.scale<=0)fail('Layer poses must be finite with positive scale');}
+ }
  if(!p.labels||typeof p.labels.badge!=='string'||typeof p.labels.illustration!=='string'||!Array.isArray(p.labels.categories)||p.labels.categories.length!==4||p.labels.categories.some(x=>typeof x!=='string'||!x.trim()))fail('Four category labels and supporting labels required');
  if(!Array.isArray(p.captions))fail('captions must be an array');
- let end=0;for(const c of p.captions){if(!Number.isFinite(c.start)||!Number.isFinite(c.end)||c.start<end||c.end<=c.start||c.end>p.duration||typeof c.text!=='string')fail('Invalid caption timing');end=c.end;}
+ let end=0;for(const c of p.captions){if(!Number.isFinite(c.start)||!Number.isFinite(c.end)||c.start<end||c.end<=c.start||c.end>duration||typeof c.text!=='string')fail('Invalid caption timing');end=c.end;}
  return p;
 }
-if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){validate(JSON.parse(fs.readFileSync(process.argv[2]||'templates/project.json','utf8')));console.log('Project valid.');}
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){validate(JSON.parse(fs.readFileSync(process.argv[2]||'templates/project.json','utf8')));console.log('Project valid. This does not certify creative quality.');}

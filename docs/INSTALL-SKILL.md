@@ -1,6 +1,6 @@
 # Instalar a skill
 
-Copie a pasta `video-multimarcas` completa para a pasta de skills do seu agente, preservando `SKILL.md` e `references/`. Para agentes que usam a convenção do projeto, o destino é `.agents/skills/video-multimarcas/`.
+Copie a pasta `video-multimarcas` completa para a pasta de skills do seu agente, preservando `SKILL.md`, `references/`, `templates/` e `agents/`. Para agentes que usam a convenção do projeto, o destino é `.agents/skills/video-multimarcas/`.
 
 O identificador é `video-multimarcas`. Instale lado a lado com outras skills, sem sobrescrevê-las. Diga ao agente: “Use $video-multimarcas. Tema: ...”, acrescentando nome, site ou logo se quiser.
 
