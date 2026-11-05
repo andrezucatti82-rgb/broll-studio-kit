@@ -119,7 +119,7 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 
 ## Pacotes de instalação e atualização
 
-[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.2.7, kit 2.3.0 e catálogo 4.0 (540 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
+[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.2.8, kit 2.3.0 e catálogo 4.0 (540 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
 
 ## Referências visuais para o pedido
 

@@ -18,10 +18,24 @@ codex plugin list --json
 
 Para usar um checkout local, substitua o primeiro comando por `codex plugin marketplace add /caminho/absoluto/broll-studio-kit`. Use a origem já configurada quando atualizar uma instalação existente; não instale uma segunda cópia com outro nome de marketplace sem necessidade. Não remova a configuração pessoal `video-b-roll`.
 
-A versão do plugin é **2.2.7**, a do kit executável **2.3.0** e a do catálogo **4.0**, com **540 estilos em 18 categorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
+A versão do plugin é **2.2.8**, a do kit executável **2.3.0** e a do catálogo **4.0**, com **540 estilos em 18 categorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
+
+## Atualizar uma instalação existente do Codex
+
+Para a origem Git configurada como `video-multimarcas-kit`, atualize o snapshot antes de reinstalar:
+
+```bash
+codex plugin marketplace upgrade video-multimarcas-kit --json
+codex plugin add video-multimarcas@video-multimarcas-kit --json
+codex plugin list --marketplace video-multimarcas-kit --json
+```
+
+Se o marketplace usa um checkout local, execute `git pull --ff-only` nesse checkout e reinstale usando o nome já configurado. Se houver alterações locais, preserve-as e resolva a atualização sem descartá-las. Reabra a sessão e confira a versão efetivamente carregada. Instalação pela pasta de skills exige atualizar a pasta completa, não somente `SKILL.md`.
+
+Além dos 540 estilos em 18 categorias, esta edição usa **1.000 referências visuais em dez categorias exclusivas**, com filtro **Novas · 460**, imagens completas e cinco colunas no desktop. O catálogo de referências é **2.0**. Não precisa instalar ferramentas de pesquisa para navegar no acervo existente; gerar vídeo exige os recursos adequados ao pedido.
 
 ## ChatGPT e outros dispositivos
 
 Instalar no Codex deste computador ou ambiente não atualiza o pacote da conta do ChatGPT nem outro computador. Se sua interface oferecer importação de plugins personalizados, use o ZIP do plugin no fluxo de atualização existente. Se ela aceitar apenas skills, use `.skill` ou o ZIP correspondente. Não há um botão universal garantido para todos os planos e superfícies. Sem importação compatível, use o pedido da galeria e anexe as instruções no projeto/conversa.
 
-Depois da atualização, peça ao agente para identificar `video-multimarcas`, localizar **Motion Design de Campanha**, confirmar **540 estilos**, ler as regras de **preservação de identidade** e indicar a primeira entrega de **10 segundos**. Não considere o pacote instalado apenas porque foi baixado ou enviado como anexo. Uma sessão já aberta pode precisar ser reaberta para carregar a versão instalada.
+Depois da atualização, peça ao agente para identificar `video-multimarcas` e sua versão carregada, localizar **Motion Design de Campanha**, confirmar **540 estilos e 1.000 referências**, ler as regras de **preservação de identidade** e indicar a primeira entrega de **10 segundos**. Não considere o pacote instalado apenas porque foi baixado ou enviado como anexo. Uma sessão já aberta pode precisar ser reaberta para carregar a versão instalada.

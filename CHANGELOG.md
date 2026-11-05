@@ -53,3 +53,10 @@ Galeria de referências com cinco colunas no desktop e redução responsiva para
 - Contadores combinam busca, favoritos e novidades; cinco colunas no desktop.
 - IDs anteriores e posições preservados, inclusive os favoritos salvos no widget da Page.
 - Curadoria visual registrada e validação de imagens/metadados antes da publicação.
+
+## Plugin 2.2.8 — Sincronização e atualização por superfície
+
+- Identificação da edição na skill e guia de versões, recursos disponíveis e limites de instalação.
+- Atualização documentada do snapshot do marketplace Git antes de reinstalar o plugin.
+- Conferência de 540 estilos e 1.000 referências com 460 novidades, separando os dois catálogos.
+- Pacotes regenerados a partir da skill canônica; configuração pessoal preservada.

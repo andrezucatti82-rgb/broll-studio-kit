@@ -7,6 +7,8 @@ description: Skill de uso geral para qualquer marca. Produz vídeos B-roll narra
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
+Edição do pacote: **2.2.8**. O atlas contém **540 estilos em 18 categorias** e, separadamente, **1.000 referências visuais em dez categorias exclusivas**, com filtro **Novas · 460**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+
 ## Atlas, publicidade e primeira aprovação
 
 Leia [publicidade e fidelidade](references/advertising-and-fidelity.md) para estilos, produtos, imóveis, softwares, apresentações, tipografia, avatares e áudio. Entregue primeiro **roteiro, storyboard visual e vídeo de 10 segundos para aprovação**; não avance ao filme completo antes da aprovação, salvo dispensa explícita posterior. Os presets da galeria pública incluem recursos e limites, não garantem execução automática. Preserve produtos, rótulos, imóveis e interfaces reais; não invente ângulos ocultos, métricas ou funcionalidades. Sem avatar por padrão; selecionar explicitamente um preset de Avatares e apresentadores habilita seu personagem fictício apenas naquele projeto. Avatar de pessoa real exige autorização de imagem/voz e identificação sintética.
