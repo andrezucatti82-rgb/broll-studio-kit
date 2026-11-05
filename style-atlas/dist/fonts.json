@@ -1,0 +1,504 @@
+{
+  "version": 1,
+  "options": [
+    {
+      "id": "inter",
+      "label": "Contemporânea · Inter + Manrope",
+      "heading": "Inter",
+      "body": "Manrope",
+      "weight": 700,
+      "headingKey": "Inter:700",
+      "bodyKey": "Manrope:400"
+    },
+    {
+      "id": "source-serif-4",
+      "label": "Editorial · Source Serif 4 + Inter",
+      "heading": "Source Serif 4",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Source Serif 4:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "bebas-neue",
+      "label": "Condensada · Bebas Neue + Manrope",
+      "heading": "Bebas Neue",
+      "body": "Manrope",
+      "weight": 400,
+      "headingKey": "Bebas Neue:400",
+      "bodyKey": "Manrope:400"
+    },
+    {
+      "id": "cormorant-garamond",
+      "label": "Premium · Cormorant Garamond + Inter",
+      "heading": "Cormorant Garamond",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Cormorant Garamond:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "sora",
+      "label": "Tecnológica · Sora + Inter",
+      "heading": "Sora",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Sora:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "ibm-plex-mono",
+      "label": "Técnica · IBM Plex Mono + IBM Plex Sans",
+      "heading": "IBM Plex Mono",
+      "body": "IBM Plex Sans",
+      "weight": 700,
+      "headingKey": "IBM Plex Mono:700",
+      "bodyKey": "IBM Plex Sans:400"
+    },
+    {
+      "id": "archivo-black",
+      "label": "Expressiva · Archivo Black + Inter",
+      "heading": "Archivo Black",
+      "body": "Inter",
+      "weight": 400,
+      "headingKey": "Archivo Black:400",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "rubik",
+      "label": "Amigável · Rubik + Nunito Sans",
+      "heading": "Rubik",
+      "body": "Nunito Sans",
+      "weight": 700,
+      "headingKey": "Rubik:700",
+      "bodyKey": "Nunito Sans:400"
+    },
+    {
+      "id": "playfair-display",
+      "label": "Elegância clássica · Playfair Display + Inter",
+      "heading": "Playfair Display",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Playfair Display:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "oswald",
+      "label": "Impacto vertical · Oswald + Inter",
+      "heading": "Oswald",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Oswald:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "montserrat",
+      "label": "Geométrica · Montserrat + Inter",
+      "heading": "Montserrat",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Montserrat:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "poppins",
+      "label": "Circular · Poppins + Inter",
+      "heading": "Poppins",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Poppins:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "roboto-slab",
+      "label": "Serifa robusta · Roboto Slab + Inter",
+      "heading": "Roboto Slab",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Roboto Slab:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "merriweather",
+      "label": "Leitura editorial · Merriweather + Inter",
+      "heading": "Merriweather",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Merriweather:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "lora",
+      "label": "Literária · Lora + Inter",
+      "heading": "Lora",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Lora:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "dm-serif-display",
+      "label": "Contraste de revista · DM Serif Display + Inter",
+      "heading": "DM Serif Display",
+      "body": "Inter",
+      "weight": 400,
+      "headingKey": "DM Serif Display:400",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "space-grotesk",
+      "label": "Digital expressiva · Space Grotesk + Inter",
+      "heading": "Space Grotesk",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Space Grotesk:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "space-mono",
+      "label": "Código criativo · Space Mono + Inter",
+      "heading": "Space Mono",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Space Mono:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "barlow-condensed",
+      "label": "Esportiva · Barlow Condensed + Inter",
+      "heading": "Barlow Condensed",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Barlow Condensed:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "anton",
+      "label": "Cartaz de impacto · Anton + Inter",
+      "heading": "Anton",
+      "body": "Inter",
+      "weight": 400,
+      "headingKey": "Anton:400",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "abril-fatface",
+      "label": "Moda de alto contraste · Abril Fatface + Inter",
+      "heading": "Abril Fatface",
+      "body": "Inter",
+      "weight": 400,
+      "headingKey": "Abril Fatface:400",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "permanent-marker",
+      "label": "Marcador autoral · Permanent Marker + Inter",
+      "heading": "Permanent Marker",
+      "body": "Inter",
+      "weight": 400,
+      "headingKey": "Permanent Marker:400",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "caveat",
+      "label": "Manuscrita espontânea · Caveat + Inter",
+      "heading": "Caveat",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Caveat:700",
+      "bodyKey": "Inter:400"
+    },
+    {
+      "id": "source-sans-3",
+      "label": "Humanista · Source Sans 3 + Inter",
+      "heading": "Source Sans 3",
+      "body": "Inter",
+      "weight": 700,
+      "headingKey": "Source Sans 3:700",
+      "bodyKey": "Inter:400"
+    }
+  ],
+  "files": {
+    "Inter:700": {
+      "family": "Inter",
+      "weight": 700,
+      "file": "assets/fonts/inter-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYAZ9hiA.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "bytes": 24356
+    },
+    "Manrope:400": {
+      "family": "Manrope",
+      "weight": 400,
+      "file": "assets/fonts/manrope-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/manrope/v23/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FN_C-bk.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap",
+      "sha256": "463fd434ad53bc5796edc5b39081c50c50af11e317ba4fe361bdb5313efbcf4d",
+      "bytes": 14404
+    },
+    "Source Serif 4:700": {
+      "family": "Source Serif 4",
+      "weight": 700,
+      "file": "assets/fonts/sourceserif4-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/sourceserif4/v15/vEFy2_tTDB4M7-auWDN0ahZJW3IX2ih5nk3AucvUHf6OAVIJmeUDygwjivBtnhtdDg.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@700&display=swap",
+      "sha256": "7691c51bc286a9014db0048277d2c3f2ad0a90b533dc8adfb16cb22a95390d39",
+      "bytes": 21716
+    },
+    "Inter:400": {
+      "family": "Inter",
+      "weight": 400,
+      "file": "assets/fonts/inter-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfAZ9hiA.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "bytes": 23664
+    },
+    "Bebas Neue:400": {
+      "family": "Bebas Neue",
+      "weight": 400,
+      "file": "assets/fonts/bebasneue-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Bebas+Neue:wght@400&display=swap",
+      "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412",
+      "bytes": 13768
+    },
+    "Cormorant Garamond:700": {
+      "family": "Cormorant Garamond",
+      "weight": 700,
+      "file": "assets/fonts/cormorantgaramond-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3umX5slCNuHLi8bLeY9MK7whWMhyjypVO7abI26QOD_hg9KnTOig.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap",
+      "sha256": "21a0fc1c5c22708cf4aa0c147fd32982e25bf9e21efec0ca31a4495ba41753eb",
+      "bytes": 22340
+    },
+    "Sora:700": {
+      "family": "Sora",
+      "weight": 700,
+      "file": "assets/fonts/sora-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/sora/v17/xMQOuFFYT72X5wkB_18qmnndmSe1mU-NKQI.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Sora:wght@700&display=swap",
+      "sha256": "c3337a673c9bbbfe433091d3831714dd9a257951f16f41eb3fc650ec593cfac2",
+      "bytes": 15128
+    },
+    "IBM Plex Mono:700": {
+      "family": "IBM Plex Mono",
+      "weight": 700,
+      "file": "assets/fonts/ibmplexmono-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/ibmplexmono/v20/-F6qfjptAgt5VM-kVkqdyU8n3pQPwlBFgg.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap",
+      "sha256": "4f84d86cfd060f4ded334358ff8a4c81d4db2ed5addd568359d693f44a87765a",
+      "bytes": 14908
+    },
+    "IBM Plex Sans:400": {
+      "family": "IBM Plex Sans",
+      "weight": 400,
+      "file": "assets/fonts/ibmplexsans-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/ibmplexsans/v23/zYXGKVElMYYaJe8bpLHnCwDKr932-G7dytD-Dmu1swZSAXcomDVmadSD6llDB6g4.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&display=swap",
+      "sha256": "3b646991d30055a93a4ecc499713d4347953a74a947ecab435ab72070cbdab0e",
+      "bytes": 22588
+    },
+    "Archivo Black:400": {
+      "family": "Archivo Black",
+      "weight": 400,
+      "file": "assets/fonts/archivoblack-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/archivoblack/v23/HTxqL289NzCGg4MzN6KJ7eW6CYyF_g.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Archivo+Black:wght@400&display=swap",
+      "sha256": "25f33e61cf995abd6be62931cf03bf427286259177b43618cc410ee0157cfd30",
+      "bytes": 18604
+    },
+    "Rubik:700": {
+      "family": "Rubik",
+      "weight": 700,
+      "file": "assets/fonts/rubik-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/rubik/v31/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-4I-FV0U1.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap",
+      "sha256": "e423f8ae1668156addf5e32f1056d5b22b5b113a9a23afd364df84a6fa88602d",
+      "bytes": 19112
+    },
+    "Nunito Sans:400": {
+      "family": "Nunito Sans",
+      "weight": 400,
+      "file": "assets/fonts/nunitosans-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/nunitosans/v19/pe1mMImSLYBIv1o4X1M8ce2xCx3yop4tQpF_MeTm0lfGWVpNn64CL7U8upHZIbMV51Q42ptCp5F5bxqqtQ1yiU4G1ilXs1Ul.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400&display=swap",
+      "sha256": "d9976dd1dc9c0d65046b52810e7cc69cfc229ee9939628ffe637e17efe4ef1ed",
+      "bytes": 13892
+    },
+    "Playfair Display:700": {
+      "family": "Playfair Display",
+      "weight": 700,
+      "file": "assets/fonts/playfairdisplay-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/playfairdisplay/v40/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtM.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap",
+      "sha256": "28453852ea165c47b5a941be00e418402e1407002ed87507f062a1e316328fe6",
+      "bytes": 23224
+    },
+    "Oswald:700": {
+      "family": "Oswald",
+      "weight": 700,
+      "file": "assets/fonts/oswald-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/oswald/v57/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUZiZQ.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap",
+      "sha256": "aae665c75af89ea7cb7d8ccc8b0911ea72267442ebcd84f6e3efa041ad3b3c16",
+      "bytes": 12672
+    },
+    "Montserrat:700": {
+      "family": "Montserrat",
+      "weight": 700,
+      "file": "assets/fonts/montserrat-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap",
+      "sha256": "f9d9e65b15372cebcafc3acd1e664a564c5c4b23278de4d5760de9a13c530371",
+      "bytes": 18824
+    },
+    "Poppins:700": {
+      "family": "Poppins",
+      "weight": 700,
+      "file": "assets/fonts/poppins-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap",
+      "sha256": "9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526",
+      "bytes": 7816
+    },
+    "Roboto Slab:700": {
+      "family": "Roboto Slab",
+      "weight": 700,
+      "file": "assets/fonts/robotoslab-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/robotoslab/v36/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjoa4Omb2Rj.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap",
+      "sha256": "66fa77aafb51fb5058e1fd7e34977f55e84494600bccb2d4cc9d0cbc998eb5cb",
+      "bytes": 14184
+    },
+    "Merriweather:700": {
+      "family": "Merriweather",
+      "weight": 700,
+      "file": "assets/fonts/merriweather-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/merriweather/v33/u-4D0qyriQwlOrhSvowK_l5UcA6zuSYEqOzpPe3HOZJ5eX1WtLaQwmYiScCmDxhtNOKl8yDrOSAaFF31.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap",
+      "sha256": "4e1ab49396c02be0d9a2a25eed7bc73781c047d85fcb5dfc2889873eaf992b09",
+      "bytes": 48660
+    },
+    "Lora:700": {
+      "family": "Lora",
+      "weight": 700,
+      "file": "assets/fonts/lora-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/lora/v37/0QI6MX1D_JOuGQbT0gvTJPa787z5vBJBkq0.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap",
+      "sha256": "c05fd5289492ed310ed882259b944ca5287e76e572a65d92d3941f9f44f0342a",
+      "bytes": 21044
+    },
+    "DM Serif Display:400": {
+      "family": "DM Serif Display",
+      "weight": 400,
+      "file": "assets/fonts/dmserifdisplay-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/dmserifdisplay/v17/-nFnOHM81r4j6k0gjAW3mujVU2B2G_Bx0g.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap",
+      "sha256": "fdf61e20fd2c0108e0ea28da4daca0035205b4b7fc031a3974b865b704de160a",
+      "bytes": 24744
+    },
+    "Space Grotesk:700": {
+      "family": "Space Grotesk",
+      "weight": 700,
+      "file": "assets/fonts/spacegrotesk-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj4PVnskPMA.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap",
+      "sha256": "35f8aec56cfd5cbfdb03cc68733a54a0b05bb3617ffcd5fd332badc0b045ca55",
+      "bytes": 12840
+    },
+    "Space Mono:700": {
+      "family": "Space Mono",
+      "weight": 700,
+      "file": "assets/fonts/spacemono-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/spacemono/v17/i7dMIFZifjKcF5UAWdDRaPpZUFWaHg.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap",
+      "sha256": "2d46bd159b53f55c41167a4f1540a074649464194fd1e416f5b4694a6c0f282c",
+      "bytes": 16724
+    },
+    "Barlow Condensed:700": {
+      "family": "Barlow Condensed",
+      "weight": 700,
+      "file": "assets/fonts/barlowcondensed-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap",
+      "sha256": "3787a5a419171630e6890cfa47c4da067474d005cd0ff8dc11ec090fdc3ee2b8",
+      "bytes": 22444
+    },
+    "Anton:400": {
+      "family": "Anton",
+      "weight": 400,
+      "file": "assets/fonts/anton-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/anton/v27/1Ptgg87LROyAm3Kz-C8.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Anton:wght@400&display=swap",
+      "sha256": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b",
+      "bytes": 18612
+    },
+    "Abril Fatface:400": {
+      "family": "Abril Fatface",
+      "weight": 400,
+      "file": "assets/fonts/abrilfatface-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/abrilfatface/v25/zOL64pLDlL1D99S8g8PtiKchq-dmjQ.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Abril+Fatface:wght@400&display=swap",
+      "sha256": "edf7a1f3bc22e815ea426b102fa0493d20af482b242066e689a1263ebb2eeb68",
+      "bytes": 13156
+    },
+    "Permanent Marker:400": {
+      "family": "Permanent Marker",
+      "weight": 400,
+      "file": "assets/fonts/permanentmarker-400.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/permanentmarker/v16/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cfw.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Permanent+Marker:wght@400&display=swap",
+      "sha256": "4884fec2c73aa52a2461073c1b87d1ceb80f400520391b43f97ca7d3c39eeb24",
+      "bytes": 29564
+    },
+    "Caveat:700": {
+      "family": "Caveat",
+      "weight": 700,
+      "file": "assets/fonts/caveat-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/caveat/v23/WnznHAc5bAfYB2QRah7pcpNvOx-pjRV6eIWpYQ.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap",
+      "sha256": "15f9638095ad5ec9816f93d66805ca1a87e71dc5a76b596bfce1c78d4704c405",
+      "bytes": 51020
+    },
+    "Source Sans 3:700": {
+      "family": "Source Sans 3",
+      "weight": 700,
+      "file": "assets/fonts/sourcesans3-700.woff2",
+      "sourceUrl": "https://fonts.gstatic.com/s/sourcesans3/v20/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Kxf7GEK9Cs.woff2",
+      "cssSource": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap",
+      "sha256": "ae35266f2ab0d5314ff9a04127931eb26c793e4f1269bb240046d4d2db4b7bb1",
+      "bytes": 15596
+    }
+  },
+  "licenses": {
+    "Inter": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/OFL.txt",
+    "Manrope": "https://raw.githubusercontent.com/google/fonts/main/ofl/manrope/OFL.txt",
+    "Source Serif 4": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourceserif4/OFL.txt",
+    "Bebas Neue": "https://raw.githubusercontent.com/google/fonts/main/ofl/bebasneue/OFL.txt",
+    "Cormorant Garamond": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt",
+    "Sora": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/OFL.txt",
+    "IBM Plex Mono": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/OFL.txt",
+    "IBM Plex Sans": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/OFL.txt",
+    "Archivo Black": "https://raw.githubusercontent.com/google/fonts/main/ofl/archivoblack/OFL.txt",
+    "Rubik": "https://raw.githubusercontent.com/google/fonts/main/ofl/rubik/OFL.txt",
+    "Nunito Sans": "https://raw.githubusercontent.com/google/fonts/main/ofl/nunitosans/OFL.txt",
+    "Playfair Display": "https://raw.githubusercontent.com/google/fonts/main/ofl/playfairdisplay/OFL.txt",
+    "Oswald": "https://raw.githubusercontent.com/google/fonts/main/ofl/oswald/OFL.txt",
+    "Montserrat": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+    "Poppins": "https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/OFL.txt",
+    "Roboto Slab": "https://raw.githubusercontent.com/google/fonts/main/apache/robotoslab/LICENSE.txt",
+    "Merriweather": "https://raw.githubusercontent.com/google/fonts/main/ofl/merriweather/OFL.txt",
+    "Lora": "https://raw.githubusercontent.com/google/fonts/main/ofl/lora/OFL.txt",
+    "DM Serif Display": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmserifdisplay/OFL.txt",
+    "Space Grotesk": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/OFL.txt",
+    "Space Mono": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacemono/OFL.txt",
+    "Barlow Condensed": "https://raw.githubusercontent.com/google/fonts/main/ofl/barlowcondensed/OFL.txt",
+    "Anton": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/OFL.txt",
+    "Abril Fatface": "https://raw.githubusercontent.com/google/fonts/main/ofl/abrilfatface/OFL.txt",
+    "Permanent Marker": "https://raw.githubusercontent.com/google/fonts/main/apache/permanentmarker/LICENSE.txt",
+    "Caveat": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/OFL.txt",
+    "Source Sans 3": "https://raw.githubusercontent.com/google/fonts/main/ofl/sourcesans3/OFL.txt"
+  }
+}

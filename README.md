@@ -6,9 +6,17 @@
 
 Informe o assunto. Opcionalmente, acrescente o nome da marca, logotipo ou site. O agente pesquisa, desenvolve roteiro e direção, prepara mídia, monta, revisa e entrega o vídeo. Sem avatar por padrão; câmera livre, imagens grandes e movimento com propósito.
 
+[**Instalação completa com sua própria conta**](docs/START-HERE.md) · [**Galeria GDA Vídeos**](https://videos.gerenciadordeanuncios.com.br/)
+
 [Baixar a skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Instruções da skill](.agents/skills/video-multimarcas/SKILL.md)
 
 Este repositório não apresenta um vídeo de demonstração. O arquivo `templates/project.json` é um rascunho técnico com espaços reservados, destinado à configuração do editor.
+
+## Biblioteca visual e publicidade
+
+[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 280 direções em 14 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 20 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
+
+A primeira entrega é **roteiro, storyboard visual e vídeo de 10 segundos para aprovação**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
 
 ## Qualidade na versão 2
 

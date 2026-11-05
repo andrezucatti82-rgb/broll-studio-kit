@@ -1,0 +1,14 @@
+import {spawnSync} from 'node:child_process';
+import {existsSync} from 'node:fs';
+const checks=[];
+const command=(name,args)=>{const p=spawnSync(name,args,{encoding:'utf8',timeout:10000});return !p.error&&p.status===0;};
+checks.push({item:'Node.js >= 22',ok:Number(process.versions.node.split('.')[0])>=22});
+checks.push({item:'Dependências locais (npm ci)',ok:existsSync('node_modules/remotion/package.json')});
+checks.push({item:'FFmpeg',ok:command('ffmpeg',['-version'])});
+checks.push({item:'FFprobe',ok:command('ffprobe',['-version'])});
+checks.push({item:'Skill e referências',ok:existsSync('.agents/skills/video-multimarcas/SKILL.md')&&existsSync('.agents/skills/video-multimarcas/references/advertising-and-fidelity.md')});
+checks.push({item:'Atlas local',ok:existsSync('style-atlas/dist/catalog.json')});
+for(const c of checks)console.log(`${c.ok?'OK':'FALTA'}  ${c.item}`);
+console.log('\nNavegador: confira o Chromium do Remotion ou CHROME_PATH antes do render.');
+console.log('Este diagnóstico NÃO verifica apps conectados, créditos, voz, mídia ou revisão audiovisual. O agente deve verificar essas capacidades na sessão.');
+if(checks.some(c=>!c.ok))process.exitCode=1;

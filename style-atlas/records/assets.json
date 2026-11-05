@@ -1,0 +1,292 @@
+{
+  "assets": [
+    {
+      "family": "cinema",
+      "file": "dist/assets/cinema.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Imagem gerada por IA para este catálogo",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "b280e808e86cd4cc1860875708738e8bb7359e50dae39b46e381144fa7d29dac"
+    },
+    {
+      "family": "grafico",
+      "file": "dist/assets/grafico.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Imagem gerada por IA para este catálogo",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "f8b19a60321fbfd907e7583fe87f10911531c1691eae51e95d1ec99734c0f5c2"
+    },
+    {
+      "family": "ilustracao",
+      "file": "dist/assets/ilustracao.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Imagem gerada por IA para este catálogo",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "8005d9c1f703186e82b1ec7d78c3be48ffd79baf4d781b628a28f8a0f63f3721"
+    },
+    {
+      "family": "materiais",
+      "file": "dist/assets/materiais.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Imagem gerada por IA para este catálogo",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "3532e1b8d399df7ec47d579f44338c823c32615d38c01f4efd5120623255fa58"
+    },
+    {
+      "family": "tecnologia",
+      "file": "dist/assets/tecnologia.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Imagem gerada por IA para este catálogo",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "5b28bccc86a166922113c16452e2e7d175f3bc8a70ae77e48fb6e6212bf1a6a7"
+    },
+    {
+      "family": "motion",
+      "file": "dist/assets/motion.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Imagem gerada por IA para este catálogo",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "309c19995f1c2e1c6a913f0bb6fdd544e142315ce8b5a1aeeaf6b320028d993e"
+    },
+    {
+      "family": "volume",
+      "file": "dist/assets/volume.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Imagem gerada por IA para este catálogo",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "5a387df8254c4486103a6dd1720eab8d4fa0294dd186892a23893dd884ea8594"
+    },
+    {
+      "family": "hibridos",
+      "file": "dist/assets/hibridos.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Imagem gerada por IA para este catálogo",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "b97cbd83c68c323184ab95ed6b86dad1868aade03f4f611f177a4ef5f65d35e2"
+    },
+    {
+      "family": "anuncios",
+      "file": "dist/assets/anuncios.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Estudo publicitário IA; produto fictício sem marca real",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "018f3abc63ab861b2a03b0d945b8ef097cf09b281ea8f0cea89e340c73a14f98"
+    },
+    {
+      "family": "campanhas",
+      "file": "dist/assets/campanhas.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Estudo publicitário IA; produto fictício sem marca real",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "47ad754100ad6a12ad59443538b15ad2b5ce93fa7459428d7700dad1562fe668"
+    },
+    {
+      "family": "imoveis",
+      "file": "dist/assets/imoveis.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Estudo IA; imóveis e pessoas fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "9e10fd81e4034b36c26979f19644c53c049fc6a9473bd67ca1aefab3b9ccfbf1"
+    },
+    {
+      "family": "software",
+      "file": "dist/assets/software.webp",
+      "width": 1920,
+      "height": 1280,
+      "cells": 12,
+      "source": "Interfaces demonstrativas originais construídas em HTML/CSS/SVG; ícones geométricos e dados ilustrativos; não são capturas de plataformas",
+      "processing": "Render Chromium; conversão para WebP",
+      "sha256": "75551053fb93456f3e6e175476eb0cfa4f6a2e192061905a133afb5a0809d17e"
+    },
+    {
+      "family": "apresentacoes",
+      "file": "dist/assets/apresentacoes.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 12,
+      "source": "Estudo estático de motion e tipografia gerado por IA; texto final deve ser editável",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "73ff1abf13e203e657bf136626eb33fcd9293a1a00c3edb8830b9df5305eac5d"
+    },
+    {
+      "family": "software-extra",
+      "file": "dist/assets/software-extra.webp",
+      "width": 1920,
+      "height": 1280,
+      "cells": 8,
+      "source": "Interfaces demonstrativas originais construídas em HTML/CSS/SVG; ícones geométricos e dados ilustrativos; não são capturas de plataformas",
+      "processing": "Render Chromium; conversão para WebP",
+      "sha256": "a5e17b4f971b712a7780b580f812838d9bdff2e955a902608411583a85cd3f21"
+    },
+    {
+      "family": "cinema-extra",
+      "file": "dist/assets/cinema-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "1f7a66e687abe8e69d0f6e86b81f2f5fe00cdbaef6a63fbbefabf16cc25ce0bf"
+    },
+    {
+      "family": "grafico-extra",
+      "file": "dist/assets/grafico-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "07d5468d4272dca5c3ae0c25a3418012dda93a2e69712e74b5d2db792946087c"
+    },
+    {
+      "family": "ilustracao-extra",
+      "file": "dist/assets/ilustracao-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "ab8e887a8068d0b680639be4527834a9f606b48986a49443896f5c5f045e582d"
+    },
+    {
+      "family": "materiais-extra",
+      "file": "dist/assets/materiais-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "87e342ee19ae9da6a943fc9c3c37ef573324895127956896454fcb17cf3ca1cd"
+    },
+    {
+      "family": "tecnologia-extra",
+      "file": "dist/assets/tecnologia-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "a0e0bec43c89a98a2762bf8c3e76253b4827a382b58d7b9ce5862dbd584889f5"
+    },
+    {
+      "family": "motion-extra",
+      "file": "dist/assets/motion-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "20f31a20b12491f9a6612acfd07568897d6f445b4053e45e495fb0e8f1ac93e1"
+    },
+    {
+      "family": "volume-extra",
+      "file": "dist/assets/volume-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "8b7c591d9d670b03922f1b3ae8e72df3543ccbfe90232eed3ab3acfb013b27ec"
+    },
+    {
+      "family": "hibridos-extra",
+      "file": "dist/assets/hibridos-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "2147bbd2cdb4617a74fda7c77f141efda122629b0eac40573e1ac9895404033c"
+    },
+    {
+      "family": "anuncios-extra",
+      "file": "dist/assets/anuncios-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "4af5266e11b7430045dc50a0eadf46caf64635e39997ff00f755307d2fcf8764"
+    },
+    {
+      "family": "campanhas-extra",
+      "file": "dist/assets/campanhas-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "6d8b3ab1ae5c409f52141b825075dccff5cbb73850977b74c486d0959a42d4be"
+    },
+    {
+      "family": "imoveis-extra",
+      "file": "dist/assets/imoveis-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "6afd077f43520b7dc53eff6fa251b9edadea42549ca2bac7d3523062e46850ee"
+    },
+    {
+      "family": "apresentacoes-extra",
+      "file": "dist/assets/apresentacoes-extra.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 8,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "6f1daa72d11eea34e5a46e57838cfb865a9c0f52df20996889f39bc2938ffb3b"
+    },
+    {
+      "family": "avatares-internos",
+      "file": "dist/assets/avatares-internos.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "061d9a78d8c7c632be0d6c918ebff05131c43085a429c81e3551b5702ff214a3"
+    },
+    {
+      "family": "avatares-externos",
+      "file": "dist/assets/avatares-externos.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "ae54114b2d02776ae020875f712d314a176e1adcd102c196dc74e1f4e8a5d906"
+    }
+  ],
+  "notes": "Estudos ilustrativos originais. Não representam produtos de marcas reais, dados verificados ou screenshots autênticos.",
+  "brand": {
+    "file": "dist/assets/logo-gda.png",
+    "source": "https://gerenciadordeanuncios.com.br/",
+    "use": "Identidade da galeria GDA autorizada pelo mantenedor; substituir em cópias de outra marca",
+    "sha256": "f561ce8d7c814a450db633dd0852486e3855d9c02755951f74b391a62b3fa9d4"
+  },
+  "fonts": "dist/fonts.json e licenças em dist/assets/fonts/"
+}
