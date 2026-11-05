@@ -10,3 +10,7 @@ projects/
 
 # Private hosting backups and receipts
 deployment-backup/
+
+__pycache__/
+*.pyc
+style-atlas/records/catalog-source.json

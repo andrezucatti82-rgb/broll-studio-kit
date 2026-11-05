@@ -1,0 +1,75 @@
+{
+  "status": "review_pending",
+  "date": "2026-11-05",
+  "scope": "First round: three fictional samples. No full video or second round approved.",
+  "method": "FFprobe metadata, complete FFmpeg decoding, measured final AAC loudness and peak, sampled-frame inspection; no perceptual continuous playback or full listening performed.",
+  "provider": "HeyGen direct HTTP API, heygen-video-1",
+  "composition": "Original Blender reference scenes; typography and demonstration UI composed locally.",
+  "generationCostUSD": 1.2,
+  "costEvidence": "Three completed generation charges of USD 0.40 each, confirmed in the provider request log. Raw account data remains private.",
+  "samples": [
+    {
+      "file": "01-product.mp4",
+      "sha256": "1fd16ee62a53c8b23dfab25d6e0f47077dac3f1f6ba396866edb2fcb2bee1509",
+      "durationSeconds": 10.0,
+      "width": 1080,
+      "height": 1920,
+      "fps": 24,
+      "frames": 240,
+      "audioCodec": "aac",
+      "loudnessLUFS": -14.85,
+      "truePeakDBTP": -1.54,
+      "decode": "passed",
+      "frameInspection": "sampled frames inspected; not a continuous playback assessment",
+      "continuousPlayback": "pending",
+      "fullListening": "pending",
+      "creativeApproval": "pending",
+      "identityPreservation": {
+        "status": "not_applicable",
+        "reason": "No person or real identity appears in these fictional concepts."
+      }
+    },
+    {
+      "file": "02-software.mp4",
+      "sha256": "60a9191815c88dad8983a98a56aeef7395c9d9c3ddb26be59994ce4e2e1b00c8",
+      "durationSeconds": 10.0,
+      "width": 1080,
+      "height": 1920,
+      "fps": 24,
+      "frames": 240,
+      "audioCodec": "aac",
+      "loudnessLUFS": -15.8,
+      "truePeakDBTP": -6.45,
+      "decode": "passed",
+      "frameInspection": "sampled frames inspected; not a continuous playback assessment",
+      "continuousPlayback": "pending",
+      "fullListening": "pending",
+      "creativeApproval": "pending",
+      "identityPreservation": {
+        "status": "not_applicable",
+        "reason": "No person or real identity appears in these fictional concepts."
+      }
+    },
+    {
+      "file": "03-agent.mp4",
+      "sha256": "f7b99eb888c52ef3ebd0ea69ca32247d730cba2632b0f537a550e5fe610a8fcd",
+      "durationSeconds": 10.0,
+      "width": 1080,
+      "height": 1920,
+      "fps": 24,
+      "frames": 240,
+      "audioCodec": "aac",
+      "loudnessLUFS": -16.22,
+      "truePeakDBTP": -7.78,
+      "decode": "passed",
+      "frameInspection": "sampled frames inspected; not a continuous playback assessment",
+      "continuousPlayback": "pending",
+      "fullListening": "pending",
+      "creativeApproval": "pending",
+      "identityPreservation": {
+        "status": "not_applicable",
+        "reason": "No person or real identity appears in these fictional concepts."
+      }
+    }
+  ]
+}

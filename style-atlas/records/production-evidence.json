@@ -1,0 +1,48 @@
+{
+  "workflow": {
+    "sequence": [
+      "materials_and_resources",
+      "script",
+      "visual_storyboard",
+      "sample"
+    ],
+    "videoProvider": "heygen_direct_api",
+    "technicalReview": "agent",
+    "creativeApproval": "user"
+  },
+  "samples": {
+    "diagrama-de-sistemas": {
+      "preview": {
+        "url": "previews/automation-pilot/03-agent.mp4",
+        "poster": "previews/automation-pilot/03-agent.jpg",
+        "note": "Piloto fictício, 10 segundos, HeyGen via API + composição em código. Revisão audiovisual e aprovação pendentes; não comprova todas as variações do estilo."
+      },
+      "readiness": {
+        "status": "sample_review_pending",
+        "evidence": "Piloto HeyGen com composição em código: quadros e arquivo conferidos; playback perceptivo, escuta integral e aprovação do usuário pendentes."
+      }
+    },
+    "hero-premium-sensorial": {
+      "preview": {
+        "url": "previews/automation-pilot/01-product.mp4",
+        "poster": "previews/automation-pilot/01-product.jpg",
+        "note": "Piloto fictício, 10 segundos, HeyGen via API + composição em código. Revisão audiovisual e aprovação pendentes; não comprova todas as variações do estilo."
+      },
+      "readiness": {
+        "status": "sample_review_pending",
+        "evidence": "Piloto HeyGen com composição em código: quadros e arquivo conferidos; playback perceptivo, escuta integral e aprovação do usuário pendentes."
+      }
+    },
+    "tour-de-uma-funcionalidade": {
+      "preview": {
+        "url": "previews/automation-pilot/02-software.mp4",
+        "poster": "previews/automation-pilot/02-software.jpg",
+        "note": "Piloto fictício, 10 segundos, HeyGen via API + composição em código. Revisão audiovisual e aprovação pendentes; não comprova todas as variações do estilo."
+      },
+      "readiness": {
+        "status": "sample_review_pending",
+        "evidence": "Piloto HeyGen com composição em código: quadros e arquivo conferidos; playback perceptivo, escuta integral e aprovação do usuário pendentes."
+      }
+    }
+  }
+}

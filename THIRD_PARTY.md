@@ -27,3 +27,7 @@ A edição 4.0 acrescenta 12 imagens IA fictícias, dez estudos em Canvas e oito
 ## Catálogo de referências visuais
 
 `style-atlas/dist/visual-references.json` contém metadados de projetos públicos, URLs de capas externas, créditos e cores aproximadas extraídas das capas. As 1.000 capas são carregadas da fonte original; seus bytes não são redistribuídos no kit. Obras, marcas e fontes pertencem aos respectivos titulares e não estão cobertas pela licença MIT. A seleção orienta a direção criativa e não concede licença para incorporar os ativos a um vídeo. A ficha conserva o link original e a condição de licença informada na coleta.
+
+## Piloto de automação de novembro de 2026
+
+Os três clipes de `style-atlas/dist/previews/automation-pilot/` foram gerados pela API do HeyGen (`heygen-video-1`) a partir de cenas 3D originais, sem pessoas ou marcas reais. Tipografia Inter e Source Serif 4 usa os arquivos e licenças já registrados no atlas. UI construída localmente e identificada como demonstrativa. Áudio solicitado ao próprio gerador; não há clonagem de voz pessoal. Consulta de referências criativas não reutilizou seus ativos. Os arquivos são amostras com revisão pendente, não evidência de aprovação profissional; o uso dos resultados gerados continua sujeito aos termos do provedor.

@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import os from 'node:os';import path from 'node:path';
+import {prepareProduction} from '../scripts/production-plan.mjs';
+test('resuming a production preserves evidence and never approves a sample',()=>{
+ const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'production-plan-'));
+ try{const preset=path.join(tmp,'brief.json'),out=path.join(tmp,'production');fs.writeFileSync(preset,JSON.stringify({topic:'Fictional product',format:'9:16',selectedStyles:[{id:'hero-premium-sensorial'}]}));prepareProduction(preset,out);const r=JSON.parse(fs.readFileSync(path.join(out,'production.json')));assert.equal(r.stages.user_approval.status,'pending');assert.equal(r.fullVideoBlockedUntilUserApproval,true);fs.writeFileSync(path.join(out,'notes.txt'),'preserve');assert.equal(prepareProduction(preset,out).status,'resumed_without_overwrite');assert.equal(fs.readFileSync(path.join(out,'notes.txt'),'utf8'),'preserve');fs.writeFileSync(preset,JSON.stringify({topic:'Changed',format:'9:16',selectedStyles:['hero-premium-sensorial']}));assert.throws(()=>prepareProduction(preset,out),/preserving/);}finally{fs.rmSync(tmp,{recursive:true,force:true});}
+});

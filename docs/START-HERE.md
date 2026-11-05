@@ -18,7 +18,7 @@ Abrir ChatGPT não envia o pedido automaticamente. Uma conta do ChatGPT, sozinha
 
 Recomendado: Codex/ambiente de agente com acesso a arquivos, terminal e internet, ou outro agente compatível. No desktop, abra a pasta clonada. Na nuvem, conecte sua própria conta GitHub e selecione um fork seu do repositório, ou clone o repositório público no ambiente.
 
-Instale Git, Node.js **22 ou superior**, FFmpeg e um navegador Chromium compatível com Remotion. Python 3 é opcional para ferramentas de empacotamento e revisão. As instruções oficiais dos respectivos instaladores prevalecem sobre comandos específicos de um sistema operacional.
+Instale Git, Node.js **22 ou superior**, FFmpeg e um navegador Chromium compatível com Remotion. Python 3 é necessário para o cliente HTTP direto do HeyGen; também é usado no empacotamento e na revisão. As instruções oficiais dos respectivos instaladores prevalecem sobre comandos específicos de um sistema operacional.
 
 ```bash
 git clone https://github.com/andrezucatti82-rgb/broll-studio-kit.git
@@ -56,7 +56,7 @@ Você não precisa instalar todos os fornecedores. Escolha pelo menos uma opçã
 |---|---|---|
 | Pesquisa | Pesquisa web do agente, Firecrawl ou fonte oficial acessível | Fatos, marca, especificações e roteiro |
 | Imagens | Ferramenta de imagens do ChatGPT ou serviço de imagem conectado | Storyboard e assets sintéticos |
-| B-roll e vídeo | Seus vídeos licenciados; banco de mídia; serviço como Magnific/HeyGen/Higgsfield quando disponível | Ação que não será produzida em código |
+| B-roll e vídeo | HeyGen pela API HTTP direta como prioridade; seus vídeos licenciados quando previstos pelo plano | Ação que não será produzida em código |
 | Voz | Áudio enviado com autorização ou serviço de voz disponível na sua conta | Narração; não há voz pessoal distribuída |
 | Motion e montagem | Node + Remotion + Chromium + FFmpeg deste kit | Render local/nuvem e composição editável |
 | Revisão | Player com reprodução contínua e escuta, inspeção técnica e revisão humana | Aprovar fidelidade, voz, movimento e acabamento |
@@ -65,6 +65,8 @@ Você não precisa instalar todos os fornecedores. Escolha pelo menos uma opçã
 No ChatGPT, conecte os aplicativos necessários usando as opções de apps/conectores disponíveis à sua conta. Faça login em **suas** contas dos provedores. Nomes e disponibilidade podem mudar. O agente deve descobrir ferramentas efetivamente expostas; um plugin instalado em outra superfície não prova conexão na sessão atual.
 
 Se usar APIs diretas, guarde suas chaves em segredos do ambiente ou variáveis locais fora do Git. Nunca cole chaves no prompt público, HTML, preset ou commit. Créditos, assinaturas e licenças de cada provedor são seus e devem ser verificados antes de chamadas pagas. A assinatura do ChatGPT não inclui automaticamente créditos de APIs externas ou da API OpenAI.
+
+O fluxo confere materiais e recursos antes de roteiro, storyboard e amostra. A ficha de cada estilo mostra requisitos e maturidade; a imagem do catálogo não certifica execução. Para retomar etapas e controlar tentativas, veja [Automação](AUTOMATION.md).
 
 ## 5. Faça o primeiro projeto
 
