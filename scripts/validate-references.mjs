@@ -4,9 +4,11 @@ import {pathToFileURL} from 'node:url';
 export function validateReferences(data) {
   const fail = message => { throw new Error(`Visual references: ${message}`); };
   const refs = data.references;
-  if (!Array.isArray(refs) || refs.length !== 540 || data.count !== 540) fail('expected 540 references');
+  if (!Array.isArray(refs) || refs.length !== 1000 || data.count !== 1000) fail('expected 1000 references');
   if (data.categoryPolicy !== 'exclusive-primary') fail('exclusive categories required');
-  if (!Array.isArray(data.categories) || data.categories.length !== 5 || new Set(data.categories).size !== 5) fail('expected five distinct categories');
+  if (!Array.isArray(data.categories) || data.categories.length !== 10 || new Set(data.categories).size !== 10) fail('expected ten distinct categories');
+  if (data.addedCount !== 460 || refs.filter(x => x.addedIn === data.version).length !== 460) fail('expected 460 new references');
+  if (!data.categoryDetails || data.categories.some(c => !data.categoryDetails[c]?.description)) fail('category descriptions required');
   const groups = Object.fromEntries(data.categories.map(c => [c, 0]));
   const seen = {id:new Set(), url:new Set(), image:new Set(), sha256:new Set()};
   for (const ref of refs) {
@@ -19,8 +21,8 @@ export function validateReferences(data) {
       seen[key].add(value);
     }
   }
-  if (Object.values(groups).some(n => n === 0) || Object.values(groups).reduce((a,b) => a+b,0) !== 540) fail('category totals must sum to 540');
-  return {references:540, uniqueProjects:seen.id.size, uniqueImages:seen.sha256.size, crossCategoryDuplicates:0, categoryCounts:groups};
+  if (Object.values(groups).some(n => n === 0) || Object.values(groups).reduce((a,b) => a+b,0) !== 1000) fail('category totals must sum to 1000');
+  return {references:1000, uniqueProjects:seen.id.size, uniqueImages:seen.sha256.size, crossCategoryDuplicates:0, categoryCounts:groups};
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {

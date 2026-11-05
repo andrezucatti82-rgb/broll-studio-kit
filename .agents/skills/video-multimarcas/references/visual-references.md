@@ -14,4 +14,6 @@ O site público guarda a seleção no navegador; o usuário copia o pedido ou ba
 
 ## Categorias sem repetição
 
-O catálogo tem 540 projetos distintos distribuídos em cinco categorias exclusivas. Cada projeto aparece em somente uma categoria; a soma dos filtros deve corresponder ao total, sem duplicar IDs, URLs ou capas idênticas. A categoria organiza a navegação; os aspectos escolhidos (cores, tipografia, composição, materiais/luz) continuam combináveis em qualquer projeto. Ao manter o acervo, preserve IDs e ordem para não perder favoritos e execute `npm run validate:references` no repositório.
+O catálogo tem 1.000 projetos distintos distribuídos em dez categorias exclusivas. Cada projeto aparece em somente uma categoria; a soma dos filtros deve corresponder ao total, sem duplicar IDs, URLs ou capas idênticas. A categoria organiza a navegação; os aspectos escolhidos (cores, tipografia, composição, materiais/luz) continuam combináveis em qualquer projeto. Ao manter o acervo, preserve IDs e ordem para não perder favoritos e execute `npm run validate:references` no repositório.
+
+As áreas são Marcas e identidade, Cor e paletas, Tipografia e lettering, Editorial e layouts, Cartazes e campanhas, Interfaces e dados, Embalagens e produtos, Fotografia e luz, 3D e materiais e Espaços e arquitetura. O filtro Novas destaca 460 adições. A categoria indica o foco de exploração, não prova a técnica de produção nem que imagens ou interfaces sejam reais. Confira o projeto antes de atribuir autenticidade, ferramentas ou resultados.

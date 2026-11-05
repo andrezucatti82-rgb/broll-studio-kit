@@ -45,3 +45,11 @@ Imagens individuais com dimensões reais, etiquetas/favoritos fora da composiç�
 Os 540 projetos únicos agora pertencem a uma única categoria cada. Paletas tem seleção própria de 90 projetos; os filtros somam 540 sem sobreposição. IDs, imagens e ordem preservados. Validação de IDs, URLs, hashes e categorias antes do deploy.
 
 Galeria de referências com cinco colunas no desktop e redução responsiva para três e duas colunas.
+
+## 2026-11-05 — 1.000 referências e plugin 2.2.7
+
+- 460 novas referências, totalizando 1.000 projetos e capas únicos.
+- Dez categorias exclusivas por foco visual, descrições, correções manuais e filtro Novas.
+- Contadores combinam busca, favoritos e novidades; cinco colunas no desktop.
+- IDs anteriores e posições preservados, inclusive os favoritos salvos no widget da Page.
+- Curadoria visual registrada e validação de imagens/metadados antes da publicação.

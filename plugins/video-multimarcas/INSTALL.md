@@ -18,7 +18,7 @@ codex plugin list --json
 
 Para usar um checkout local, substitua o primeiro comando por `codex plugin marketplace add /caminho/absoluto/broll-studio-kit`. Use a origem já configurada quando atualizar uma instalação existente; não instale uma segunda cópia com outro nome de marketplace sem necessidade. Não remova a configuração pessoal `video-b-roll`.
 
-A versão do plugin é **2.2.6**, a do kit executável **2.3.0** e a do catálogo **4.0**, com **540 estilos em 18 categorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
+A versão do plugin é **2.2.7**, a do kit executável **2.3.0** e a do catálogo **4.0**, com **540 estilos em 18 categorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
 
 ## ChatGPT e outros dispositivos
 

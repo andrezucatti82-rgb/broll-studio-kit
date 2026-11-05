@@ -26,4 +26,4 @@ A edição 4.0 acrescenta 12 imagens IA fictícias, dez estudos em Canvas e oito
 
 ## Catálogo de referências visuais
 
-`style-atlas/dist/visual-references.json` contém metadados de projetos públicos, URLs de capas externas, créditos e cores aproximadas extraídas das capas. As 540 capas são carregadas da fonte original; seus bytes não são redistribuídos no kit. Obras, marcas e fontes pertencem aos respectivos titulares e não estão cobertas pela licença MIT. A seleção orienta a direção criativa e não concede licença para incorporar os ativos a um vídeo. A ficha conserva o link original e a condição de licença informada na coleta.
+`style-atlas/dist/visual-references.json` contém metadados de projetos públicos, URLs de capas externas, créditos e cores aproximadas extraídas das capas. As 1.000 capas são carregadas da fonte original; seus bytes não são redistribuídos no kit. Obras, marcas e fontes pertencem aos respectivos titulares e não estão cobertas pela licença MIT. A seleção orienta a direção criativa e não concede licença para incorporar os ativos a um vídeo. A ficha conserva o link original e a condição de licença informada na coleta.
