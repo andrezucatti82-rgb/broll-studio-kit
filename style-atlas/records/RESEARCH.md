@@ -53,3 +53,15 @@ São novas combinações de propósito e mecanismo visual, com comparação expl
 - [Teachable · Student success and course design](https://www.teachable.com/blog/student-success) — Orientar início, próxima ação, prática, feedback e apoio. Alegações promocionais da plataforma não foram convertidas em garantias.
 - [Hotmart · Engajamento no curso online](https://hotmart.com/pt-br/blog/engajamento-no-curso-online) — Necessidade de motivação, dinâmica de aula e trocas em comunidade; aplicar ao conteúdo real do produtor.
 - [Vanderbilt · Effective Educational Videos](https://cft.vanderbilt.edu/wp-content/uploads/sites/59/Effective_Educational_Videos.pdf) — Sinalização, segmentação, carga cognitiva e aprendizagem ativa; evitar efeitos e música que disputem atenção com o ensino.
+
+## Edição 3.2 · revisão dos 30 formatos de infoprodutores
+
+A categoria foi redesenhada por necessidade, sem aumentar a contagem: venda/aquisição, demonstração/ensino e experiência do aluno. Cada formato conserva seu identificador para favoritos existentes, mas recebe novo nome, direção, recursos, movimento e prova de 10 segundos. As 30 referências visuais são individuais: 18 estudos fotográficos IA fictícios e 12 estudos editoriais/UI em código. O tema pode ser educação sem obrigar uma aparência de ilustração.
+
+As consultas textuais ao Firecrawl cobriram lançamento, mini-aula, webinar, ebooks, mentoria, boas-vindas, comunidade e aplicação de materiais. Vídeos incorporados não foram assistidos. Os textos informam necessidades e técnicas, não garantem aumento de vendas, permanência, renda ou resultado do aluno. Na produção, capturas, trabalhos, depoimentos e pessoas reais exigem originais e autorização. As amostras são conceitos e não resultados de clientes.
+
+- [Thinkific · Online course launch checklist](https://www.thinkific.com/blog/online-course-launch-checklist/) — Distinguir lançamento, prévia, webinar, oferta, acesso inicial e comunicação pós-compra; texto consultado, sem adotar promessas de conversão.
+- [Thinkific · Marketing an online course](https://www.thinkific.com/blog/55-proven-marketing-strategies-to-increase-online-course-sales/) — Promo, mini-curso, webinar, conteúdo gratuito e prova de processo são usos diferentes; uma única estética não atende a todos.
+- [Teachable · Building a membership site](https://www.teachable.com/blog/how-to-build-a-membership-site) — Boas-vindas, início claro, encontros, materiais e relevância do conteúdo; não converter estimativas promocionais de receita em promessa.
+- [Hotmart · Tipos de infoprodutos](https://hotmart.com/pt-br/blog/tipos-de-infoprodutos) — Cursos, ebooks, videoaulas, webinars e mentorias pedem demonstrações e recursos próprios; não restringir o nicho a sala de aula.
+- [Wistia · Lighting for video](https://wistia.com/learn/production/down-and-dirty-lighting-kit?ref=axbom.com) — Luz de chave, preenchimento, separação e ambiente ajudam a produzir fala e demonstração com aparência fotográfica; texto consultado, vídeo não assistido.

@@ -1,5 +1,5 @@
 {
-  "edition": "3.1",
+  "edition": "3.2",
   "method": "Pesquisa textual com Firecrawl e Exa; direções autorais informadas por princípios documentados. Fontes são referências de técnica e método, não autoria das combinações propostas nem imagens reutilizadas.",
   "sources": [
     {
@@ -304,6 +304,51 @@
         "infoprodutores"
       ],
       "access": "2026-11-05"
+    },
+    {
+      "id": "info-launch",
+      "title": "Thinkific · Online course launch checklist",
+      "url": "https://www.thinkific.com/blog/online-course-launch-checklist/",
+      "families": [
+        "infoprodutores"
+      ],
+      "lesson": "Distinguir lançamento, prévia, webinar, oferta, acesso inicial e comunicação pós-compra; texto consultado, sem adotar promessas de conversão."
+    },
+    {
+      "id": "info-marketing",
+      "title": "Thinkific · Marketing an online course",
+      "url": "https://www.thinkific.com/blog/55-proven-marketing-strategies-to-increase-online-course-sales/",
+      "families": [
+        "infoprodutores"
+      ],
+      "lesson": "Promo, mini-curso, webinar, conteúdo gratuito e prova de processo são usos diferentes; uma única estética não atende a todos."
+    },
+    {
+      "id": "info-membership",
+      "title": "Teachable · Building a membership site",
+      "url": "https://www.teachable.com/blog/how-to-build-a-membership-site",
+      "families": [
+        "infoprodutores"
+      ],
+      "lesson": "Boas-vindas, início claro, encontros, materiais e relevância do conteúdo; não converter estimativas promocionais de receita em promessa."
+    },
+    {
+      "id": "info-formats",
+      "title": "Hotmart · Tipos de infoprodutos",
+      "url": "https://hotmart.com/pt-br/blog/tipos-de-infoprodutos",
+      "families": [
+        "infoprodutores"
+      ],
+      "lesson": "Cursos, ebooks, videoaulas, webinars e mentorias pedem demonstrações e recursos próprios; não restringir o nicho a sala de aula."
+    },
+    {
+      "id": "info-lighting",
+      "title": "Wistia · Lighting for video",
+      "url": "https://wistia.com/learn/production/down-and-dirty-lighting-kit?ref=axbom.com",
+      "families": [
+        "infoprodutores"
+      ],
+      "lesson": "Luz de chave, preenchimento, separação e ambiente ajudam a produzir fala e demonstração com aparência fotográfica; texto consultado, vídeo não assistido."
     }
   ]
 }

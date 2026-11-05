@@ -20,7 +20,7 @@ O site público guarda favoritos e briefing apenas no localStorage do navegador.
 
 ## Assets
 
-47 pranchas são estudos visuais gerados por IA; quatro pranchas de dados e softwares são construídas em HTML/CSS/SVG para este catálogo. Não são capturas reais, depoimentos, produtos de marcas existentes ou provas de técnicas de animação. Interface em Geist; seletor com 24 combinações e arquivos reais, documentados em `dist/fonts.json`. As pranchas PNG originais ficam fora do pacote público; WebP é apenas uma conversão de formato para carregamento mais leve. Créditos e proveniência em `records/assets.json`.
+O acervo inclui estudos visuais gerados por IA e estudos de dados, interfaces e tipografia construídos em HTML/CSS/SVG. A revisão 3.2 substitui as três pranchas de infoprodutores por 30 imagens individuais: 18 fotografias fictícias e 12 estudos editoriais/UI; as pranchas anteriores ficam apenas no histórico de arquivos. Não são capturas reais, depoimentos, produtos de marcas existentes ou provas de técnicas de animação. Interface em Geist; seletor com 24 combinações e arquivos reais, documentados em `dist/fonts.json`. As pranchas PNG originais ficam fora do pacote público; WebP é apenas uma conversão de formato para carregamento mais leve. Créditos e proveniência em `records/assets.json`.
 
 ## Manutenção
 
@@ -75,3 +75,7 @@ Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e
 ## Pessoas e preservação de identidade
 
 Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/identity-preservation.md).
+
+## Infoprodutores: revisão 3.2
+
+As 30 opções agora separam necessidade e execução: trailers, UGC, podcast, multicâmera, POV, documentário, aftermovie, editorial, tipografia e interfaces. São 18 estudos fotográficos fictícios e 12 layouts/UI demonstrativos em arquivos individuais grandes. Os identificadores foram preservados; as outras 480 direções não mudaram. Fontes e limites estão em `records/RESEARCH.md`. Reconstruir dados com `records/build_catalog.py`; os layouts em código com `records/build_infopro_samples.py`. Assets IA aprovados são versionados, não regenerados pelo build.

@@ -102,3 +102,7 @@ Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e
 ## Pessoas e preservação de identidade
 
 Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/identity-preservation.md).
+
+## Infoprodutores: revisão 3.2
+
+As 30 direções foram refeitas a partir de necessidades de venda, demonstração do ensino e experiência do aluno, com cinema, documental, UGC, podcast, multicâmera, screencast e motion tipográfico. São 30 estudos visuais individuais (18 fotográficos fictícios e 12 editoriais/UI), com materiais necessários, áudio e prova criativa de 10 segundos. Os IDs anteriores e as outras 480 direções foram preservados. [Pesquisa e critérios](style-atlas/records/RESEARCH.md).

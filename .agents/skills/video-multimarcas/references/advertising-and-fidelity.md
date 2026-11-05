@@ -6,7 +6,7 @@ Entregar roteiro, storyboard com imagens e uma prévia de **10 segundos**, com l
 
 ## Seleção de direção
 
-O [Atlas Vídeo Multimarcas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) tem 510 direções em 17 famílias, na edição 3.1. Não é uma lista exaustiva. Aceitar tema, estilo principal e complementar opcional, formato, tipografia e marca opcional. Ler o preset completo, `audio`, `requirements` e as referências fornecidas; nomes de estilos não substituem seus critérios. Os arquivos versionados estão em `style-atlas/` no repositório. A skill isolada funciona com este guia mesmo sem acesso à galeria.
+O [Atlas Vídeo Multimarcas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) tem 510 direções em 17 famílias, na edição 3.2. Não é uma lista exaustiva. Aceitar tema, estilo principal e complementar opcional, formato, tipografia e marca opcional. Ler o preset completo, `audio`, `requirements` e as referências fornecidas; nomes de estilos não substituem seus critérios. Os arquivos versionados estão em `style-atlas/` no repositório. A skill isolada funciona com este guia mesmo sem acesso à galeria.
 
 No site externo, copiar o pedido e enviá-lo no ChatGPT. O site não envia automaticamente à conversa atual. Na Page, salvar a escolha no widget e usar o botão nativo de chat; confirmar o estado atual antes de produzir. Instalação e ferramentas dependem da superfície. Não alegar conexão ou instalação universal sem verificação.
 
@@ -83,3 +83,9 @@ Comércio eletrônico: confirmar SKU, variante, rótulo, dimensões, compatibili
 Infoprodutores: pedir ementa, método, atividades, oferta, pré-requisitos, suporte e condições relevantes. Demonstrar ensino, prática e feedback reais. Trabalhos de alunos exigem autorização; não fabricar depoimentos, renda, empregabilidade ou reconhecimento de certificado. Distinguir assistir aulas de demonstrar aprendizagem. Reduzir estímulos que disputem atenção com explicação e tarefa.
 
 Os novos presets entram na coleta guiada e no diagnóstico: conferir anexos e ferramentas, pedir apenas faltas pertinentes, explicar bloqueio com causa verificada e alternativa. Preservar o marco de roteiro, storyboard visual e 10 segundos para aprovação. Pesquisa e fontes: https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/style-atlas/records/RESEARCH.md .
+
+## Infoprodutores: formato não é uma estética única
+
+Na revisão 3.2, os 30 formatos separam necessidade e linguagem. Identifique primeiro venda/aquisição, demonstração/ensino ou experiência do aluno. Depois escolha execução: filme de lançamento, multicâmera, POV, UGC, podcast, documentário, aftermovie, screencast, motion tipográfico ou editorial. Não transformar todos os formatos em ilustrações, caixinhas, cadernos e metáforas de objetos. Variar câmera, composição, contraste, paleta, ritmo e áudio de acordo com a função. O mesmo nicho comporta estilos diferentes.
+
+O atlas contém 18 novos estudos fotográficos fictícios e 12 layouts/UI demonstrativos individuais para esta categoria. São referências de aparência, não vídeos, capturas reais, alunos ou prova de resultado. Para filmagens, falas, trabalhos, depoimentos e interfaces reais, pedir os originais autorizados; preservar identidade e informações. Não produzir avatar por inferência. Toda promessa visual precisa aparecer na prévia de 10 segundos. Recursos devem servir à decisão ou aprendizagem; composição chamativa não substitui clareza e execução. IDs das 30 opções foram mantidos, as direções e imagens foram revisadas.

@@ -123,3 +123,9 @@ Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e
 ## Pessoas e preservação de identidade
 
 Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/identity-preservation.md).
+
+## Infoprodutores: formato não é uma estética única
+
+Na revisão 3.2, os 30 formatos separam necessidade e linguagem. Identifique primeiro venda/aquisição, demonstração/ensino ou experiência do aluno. Depois escolha execução: filme de lançamento, multicâmera, POV, UGC, podcast, documentário, aftermovie, screencast, motion tipográfico ou editorial. Não transformar todos os formatos em ilustrações, caixinhas, cadernos e metáforas de objetos. Variar câmera, composição, contraste, paleta, ritmo e áudio de acordo com a função. O mesmo nicho comporta estilos diferentes.
+
+O atlas contém 18 novos estudos fotográficos fictícios e 12 layouts/UI demonstrativos individuais para esta categoria. São referências de aparência, não vídeos, capturas reais, alunos ou prova de resultado. Para filmagens, falas, trabalhos, depoimentos e interfaces reais, pedir os originais autorizados; preservar identidade e informações. Não produzir avatar por inferência. Toda promessa visual precisa aparecer na prévia de 10 segundos. Recursos devem servir à decisão ou aprendizagem; composição chamativa não substitui clareza e execução. IDs das 30 opções foram mantidos, as direções e imagens foram revisadas.
