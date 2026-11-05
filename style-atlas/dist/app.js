@@ -38,7 +38,7 @@
  let visibleCount=window.ATLAS_PAGE_MODE?12:24;
  let family='',onlyFav=false,onlyNew=false,compared=new Set(),selected=[],favorites=new Set(),toastTimer;
  const storeKey='video-multimarcas-atlas-v1';
- const imageStyle=s=>{if(s.image.columns===1)return `background-image:url('${base+s.image.atlas}');background-size:cover;background-position:center`;const [x,y,w,h]=s.image.rect||[s.image.column/4,s.image.row/3,1/4,1/3];return `background-image:url('${base+s.image.atlas}');background-size:${100/w}% ${100/h}%;background-position:${x/(1-w)*100}% ${y/(1-h)*100}%`};
+ const imageStyle=s=>{if(s.image.columns===1)return `background-image:url('${base+s.image.atlas}');background-size:contain;background-position:center;background-repeat:no-repeat;background-color:#f3f1e9;aspect-ratio:1.5`;const [x,y,w,h]=s.image.rect||[s.image.column/4,s.image.row/3,1/4,1/3];return `background-image:url('${base+s.image.atlas}');background-size:${100/w}% ${100/h}%;background-position:${x/(1-w)*100}% ${y/(1-h)*100}%`};
  function toast(msg){$('toast').textContent=msg;$('toast').classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('toast').classList.remove('show'),3600)}
  function intakePlan(){
   const styles=selected.map(id=>byId.get(id)),families=new Set(styles.map(s=>s.family));
