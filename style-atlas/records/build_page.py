@@ -13,6 +13,8 @@ for selector in ['.hero','.workflow','.section-head','.closing','.setup-box','fo
 header=soup.select_one('.mast');header.clear();header.append(BeautifulSoup('<div class="page-toolbar"><span>Compare, escolha e salve seu briefing.</span><button id="openBrief" class="pill">Minha escolha <span id="chosenCount">0</span></button></div>','html.parser'))
 link=soup.find('link',rel='stylesheet');link.decompose()
 css=(r/'dist/styles.css').read_text().replace("url('assets/","url('"+origin+"assets/")
+for font in ['Geist-Regular.ttf','Geist-Bold.ttf']:
+ css=css.replace(origin+'assets/'+font,'data:font/ttf;base64,'+base64.b64encode((r/'dist/assets'/font).read_bytes()).decode())
 css+='\n.mast{padding:12px 16px}.page-toolbar{display:flex;align-items:center;justify-content:space-between;width:100%;gap:15px;font-size:12px;color:var(--muted)}main{padding:20px 16px}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:700px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}'
 style=soup.new_tag('style');style.string=css;soup.head.append(style)
 script=soup.find('script',src='app.js');script.decompose()
