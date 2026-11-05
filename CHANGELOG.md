@@ -35,3 +35,7 @@ Retirada da demonstração comercial. Kit com rascunho técnico neutro.
 - Seleção de até seis referências com papéis por projeto e integração ao prompt/preset.
 - Widget independente na Page com estado compartilhado e comando que combina briefing e referências.
 - Diretrizes de adaptação, acesso às imagens, atribuição e prioridade da marca/originais.
+
+## 2026-11-05 — Enquadramento e plugin 2.2.5
+
+Imagens individuais com dimensões reais, etiquetas/favoritos fora da composição, referências sem preenchimento com corte e sem zoom de hover. Revisão dos textos para distinguir 540 estilos de 540 referências; orientação de enquadramento no protocolo de acabamento.

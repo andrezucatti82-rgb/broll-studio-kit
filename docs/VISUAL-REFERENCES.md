@@ -25,3 +25,7 @@ As cores são aproximações da capa. Fontes não foram identificadas automatica
 - `style-atlas/records/build_reference_page.py`: widget independente para a Page, com catálogo comprimido e estado limitado a seis escolhas.
 
 Para publicar uma cópia própria, hospede os arquivos estáticos com HTTPS, troque a marca GDA pela sua e revise as URLs de navegação, espelho e Page. Não precisa contratar Apify/Firecrawl para usar o catálogo existente; essas ferramentas foram usadas na curadoria. Atualizar a pesquisa requer conta própria e revisão antes de substituir o JSON. Não inclua contatos, credenciais ou respostas brutas dos serviços no repositório.
+
+## Apresentação das imagens
+
+As capas de referência são exibidas integralmente, sem zoom de hover. Nos estilos com imagem individual, a moldura acompanha as dimensões reais do arquivo. Favoritos e etiquetas ficam fora da imagem. A ficha e a comparação também preservam o enquadramento. Esta proteção vale para a exibição do arquivo: não recupera conteúdo que já estava fora do enquadramento original.

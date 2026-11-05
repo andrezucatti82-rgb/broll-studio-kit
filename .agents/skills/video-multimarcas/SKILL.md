@@ -57,3 +57,7 @@ Em **todos os estilos**, aplique [naturalidade e acabamento profissional](refere
 ## Identidade de pessoas: regra global
 
 Aplique [preservação de identidade e características físicas](references/identity-preservation.md) a qualquer pessoa na composição, em todos os estilos. Originais têm prioridade; sem alterações físicas não solicitadas. Escolha ferramenta e planos compatíveis, informe limites antes de gastar créditos e valide rosto/corpo em teste curto comparado aos originais antes do vídeo completo. Alteração perceptível bloqueia avanço; registre referências e o que foi efetivamente conferido. Esta regra não autoriza avatar onde ele está desabilitado.
+
+## Apresentação de imagens para aprovação
+
+Mostre referências e storyboards completos, respeitando as dimensões reais e sem controles sobre a composição. Confira os enquadramentos no desktop, no celular e na comparação. A regra está no protocolo de acabamento; preservar a moldura não autoriza alterar os originais.
