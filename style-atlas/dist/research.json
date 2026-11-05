@@ -1,0 +1,309 @@
+{
+  "edition": "3.1",
+  "method": "Pesquisa textual com Firecrawl e Exa; direções autorais informadas por princípios documentados. Fontes são referências de técnica e método, não autoria das combinações propostas nem imagens reutilizadas.",
+  "sources": [
+    {
+      "id": "split",
+      "title": "SCI-Arc · Split Diopter",
+      "url": "https://www.sciarc.edu/events/exhibitions/split-diopter-2",
+      "lesson": "Foco simultâneo em planos próximos e distantes.",
+      "families": [
+        "cinema"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "optics",
+      "title": "IOP · The Physics and Art of Photography",
+      "url": "https://iopscience.iop.org/book/mono/978-1-64327-332-7",
+      "lesson": "Óptica, fotogramas, sombras e fotografia estenopeica; resumo e índice públicos, não livro integral.",
+      "families": [
+        "cinema"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "schlieren",
+      "title": "Springer · Schlieren and Shadowgraph Techniques",
+      "url": "https://link.springer.com/book/10.1007/978-3-642-56640-0",
+      "lesson": "Visualização de variações ópticas em meios transparentes; resumo público.",
+      "families": [
+        "cinema"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "suprematism",
+      "title": "The Graphic Design School · Suprematism",
+      "url": "https://www.thegraphicdesignschool.com/design-history/suprematism/",
+      "lesson": "Composição geométrica não representativa.",
+      "families": [
+        "grafico"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "lenticular",
+      "title": "Whatever Together · Surface Treatment",
+      "url": "https://whatevertogether.net/projects/surface-treatment-and-printing-research",
+      "lesson": "Imagem lenticular muda com o ponto de observação.",
+      "families": [
+        "grafico"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "met",
+      "title": "The Met · Materials and Techniques",
+      "url": "https://www.metmuseum.org/about-the-met/collection-areas/drawings-and-prints/materials-and-techniques",
+      "lesson": "Materiais e processos determinam marcas visuais; referência metodológica, não fonte específica de cada técnica.",
+      "families": [
+        "ilustracao",
+        "materiais"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "ebru",
+      "title": "UNESCO · Ebru",
+      "url": "https://ich.unesco.org/en/RL/ebru-turkish-art-of-marbling-00644",
+      "lesson": "Pigmentos flutuantes e transferência para papel; respeitar contexto cultural.",
+      "families": [
+        "materiais"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "uncertainty",
+      "title": "Taxonomy of Uncertainty Visualization Methods",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4319674/",
+      "lesson": "Separar representação, incerteza, legibilidade e carga visual.",
+      "families": [
+        "tecnologia"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "experimental",
+      "title": "RMCAD · Experimental Animation",
+      "url": "https://www.rmcad.edu/blog/experimental-animation-pushing-the-boundaries-of-the-medium/",
+      "lesson": "Animação experimental como investigação de meio e processo.",
+      "families": [
+        "motion",
+        "hibridos"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "kinetic",
+      "title": "Optical Arts · T-Tension",
+      "url": "https://opticalarts.studio/work/t-tension",
+      "lesson": "Tensão, suspensão e liberação conduzem ação física. Não copiar escultura ou campanha.",
+      "families": [
+        "motion"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "ferro",
+      "title": "Sachiko Kodama · Morpho Towers",
+      "url": "https://www.kodama.hc.uec.ac.jp/spiral/",
+      "lesson": "Resposta de ferrofluido a campos magnéticos; estudar mecanismo, não reproduzir obra.",
+      "families": [
+        "volume"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "beats",
+      "title": "Builders Club · Beats 360",
+      "url": "https://builders-club.com/projects/beats-360",
+      "lesson": "Atributos e ações do produto orientam motivos visuais. Texto do caso consultado; reprodução do vídeo não verificada.",
+      "families": [
+        "anuncios",
+        "campanhas"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "architecture",
+      "title": "Adobe · Architectural Photography",
+      "url": "https://www.adobe.com/creativecloud/photography/type/architecture-photography.html",
+      "lesson": "Enquadramento, luz e documentação de espaços.",
+      "families": [
+        "imoveis"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "scan",
+      "title": "Pixpro · Photogrammetry Limitations",
+      "url": "https://www.pix-pro.com/blog/photogrammetry-limitations",
+      "lesson": "Cobertura, cena estável, reflexos e falhas de reconstrução.",
+      "families": [
+        "imoveis"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "iso",
+      "title": "Google Maps · Isochrones Best Practices",
+      "url": "https://developers.google.com/maps/documentation/isochrones/best-practices",
+      "lesson": "Resolução, rede viária e limites de áreas alcançáveis; conferir disponibilidade do serviço.",
+      "families": [
+        "imoveis"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "figma",
+      "title": "Figma · Keyboard Controls",
+      "url": "https://help.figma.com/hc/en-us/articles/360040328653-Use-Figma-products-with-a-keyboard",
+      "lesson": "Ações e limitações reais de teclado, navegação e acessibilidade.",
+      "families": [
+        "software"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "variable",
+      "title": "Google Fonts · Introducing Variable Fonts",
+      "url": "https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts",
+      "lesson": "Eixos reais de peso, largura e outras variações; conferir eixos disponíveis na fonte.",
+      "families": [
+        "apresentacoes"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "flaps",
+      "title": "Designboom · Kinetic Storefront",
+      "url": "https://www.designboom.com/readers/kinetic-storefront-window-display-by-drawing-and-manual/",
+      "lesson": "Painéis físicos articulados revelam sequência por rotação.",
+      "families": [
+        "apresentacoes"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "puppet",
+      "title": "Jim Henson's Creature Shop · Earth to Ned",
+      "url": "https://creatureshop.com/projects/earth-to-ned-2020-2021/",
+      "lesson": "Atuação de personagens exige sistema de manipulação, rastreamento e revisão; não copiar personagens.",
+      "families": [
+        "avatares"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "wool",
+      "title": "Nexus Studios · Marc & Emma",
+      "url": "https://nexusstudios.com/work/marc-emma-showreel/",
+      "lesson": "Materialidade artesanal em personagens e ambientes; personagens deste atlas são originais.",
+      "families": [
+        "avatares"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "aad",
+      "title": "AAD · Questions before cosmetic treatment",
+      "url": "https://www.aad.org/public/cosmetic/safety/ask-questions",
+      "lesson": "Dúvidas sobre objetivos, opções, riscos, recuperação, custo e qualificação; orientação dos EUA, não substitui regras profissionais brasileiras.",
+      "families": [
+        "saude"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "ucla",
+      "title": "UCLA Dentistry · Desensitization resources",
+      "url": "https://dentistry.ucla.edu/patient-care/clinic-locations/westwood-clinics/special-patient-care-hospital-dentistry/resources-for-patients/desensitization-resources",
+      "lesson": "Familiarização com ambiente, cadeira e sons odontológicos. Texto consultado; vídeos não considerados assistidos.",
+      "families": [
+        "saude"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "teachback",
+      "title": "Revisão sobre teach-back em educação de pacientes",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6590951/",
+      "lesson": "Verificar entendimento por reformulação, com limites de evidência; não confundir comunicação educativa com diagnóstico.",
+      "families": [
+        "saude"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "marketclips",
+      "title": "Mercado Livre · Clips de produtos",
+      "url": "https://vendedores.mercadolivre.com.br/nota/carregue-videos-dos-seus-produtos-para-chegar-a-mais-pessoas",
+      "lesson": "Vídeos vinculados ao item para mostrar funções e responder dúvidas; verificar regras atuais do canal antes da exportação.",
+      "families": [
+        "ecommerce"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "amazonvideo",
+      "title": "Amazon · Product videos",
+      "url": "https://sell.amazon.com/blog/amazon-product-video",
+      "lesson": "Demonstração, setup, troubleshooting e compreensão sem som. Regras variam por modalidade e região; não adotar números promocionais como promessa.",
+      "families": [
+        "ecommerce"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "baymardscale",
+      "title": "Baymard · In-scale product images",
+      "url": "https://baymard.com/research-articles/in-scale-product-images",
+      "lesson": "Referências de escala ajudam a avaliar dimensões; vídeo complementa e não substitui imagens úteis do produto.",
+      "families": [
+        "ecommerce"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "baymardvideo",
+      "title": "Baymard · Embedding product videos",
+      "url": "https://baymard.com/research-articles/embedding-product-page-videos",
+      "lesson": "Vídeos precisam ser encontráveis junto às imagens, com miniatura clara; pesquisa contextual, não garantia de conversão.",
+      "families": [
+        "ecommerce"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "teachable",
+      "title": "Teachable · Student success and course design",
+      "url": "https://www.teachable.com/blog/student-success",
+      "lesson": "Orientar início, próxima ação, prática, feedback e apoio. Alegações promocionais da plataforma não foram convertidas em garantias.",
+      "families": [
+        "infoprodutores"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "hotmart",
+      "title": "Hotmart · Engajamento no curso online",
+      "url": "https://hotmart.com/pt-br/blog/engajamento-no-curso-online",
+      "lesson": "Necessidade de motivação, dinâmica de aula e trocas em comunidade; aplicar ao conteúdo real do produtor.",
+      "families": [
+        "infoprodutores"
+      ],
+      "access": "2026-11-05"
+    },
+    {
+      "id": "vanderbilt",
+      "title": "Vanderbilt · Effective Educational Videos",
+      "url": "https://cft.vanderbilt.edu/wp-content/uploads/sites/59/Effective_Educational_Videos.pdf",
+      "lesson": "Sinalização, segmentação, carga cognitiva e aprendizagem ativa; evitar efeitos e música que disputem atenção com o ensino.",
+      "families": [
+        "infoprodutores"
+      ],
+      "access": "2026-11-05"
+    }
+  ]
+}

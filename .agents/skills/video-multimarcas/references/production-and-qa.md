@@ -40,3 +40,9 @@ Copie `../templates/review.json`. Preencha SHA256 do MP4, evidência técnica, r
 Qualquer alteração posterior ao arquivo revisado muda seu hash e invalida a aprovação daquele arquivo. Faça nova revisão do novo corte, inclusive emendas, voz e transições afetadas, antes de marcá-lo como revisado.
 
 No kit, `npm run review -- video.mp4 review.json` verifica preenchimento, pendências e correspondência do arquivo. O comando **não assiste, não escuta e não mede qualidade artística**. Aprovação registrada exige avaliação verdadeira; não preencha o formulário só para passar na validação.
+
+## Portas de avaliação obrigatórias
+
+Aplicar `natural-finish.md` e preencher `qualityGates` no relatório para `imageGeneration`, `videoGeneration` e `finishing`. Cada etapa aplicável exige responsável, observações e assets com arquivo, SHA256 e evidência. Geração IA não utilizada pode ser `not_applicable` com justificativa; acabamento nunca. Relatórios antigos precisam dessas evidências antes de uma nova aprovação. O validador verifica completude e bloqueios, não executa a avaliação audiovisual.
+
+Aplique também `identity-preservation.md`, registre `identityPreservation` e execute `npm run identity-check -- review.json` antes de avançar da amostra ao vídeo completo. `npm run review` rejeita o relatório final sem esse registro. Revise novamente a identidade em todos os planos finais, além do teste de movimento.

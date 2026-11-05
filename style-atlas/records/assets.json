@@ -279,6 +279,236 @@
       "source": "Imagem gerada por IA para este catálogo; pessoas e ambientes fictícios",
       "processing": "Conversão PNG para WebP; sem alteração artística",
       "sha256": "ae54114b2d02776ae020875f712d314a176e1adcd102c196dc74e1f4e8a5d906"
+    },
+    {
+      "family": "cinema-bold",
+      "file": "dist/assets/cinema-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "b19573234b27eee174ba576d7bb8fb1c30120013301d1d839bc44824950cd888"
+    },
+    {
+      "family": "grafico-bold",
+      "file": "dist/assets/grafico-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "293ed537d6a06078ed7b2b94a81d27bd9a39aef6887b6c5f24c70be80234d671"
+    },
+    {
+      "family": "ilustracao-bold",
+      "file": "dist/assets/ilustracao-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "6627a17a7d460a32ea5e340e7392580ca71070da629560c54eb79ebf23ce327b"
+    },
+    {
+      "family": "materiais-bold",
+      "file": "dist/assets/materiais-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "c18962ed9a7a0f61b0c9a27074157de6a7e0f24d1b05e6a45b317407ad1e22d6"
+    },
+    {
+      "family": "motion-bold",
+      "file": "dist/assets/motion-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "c00fa901aad3a205f8ea591483095f7637134a272c0e097776eceb86dc74b41f"
+    },
+    {
+      "family": "volume-bold",
+      "file": "dist/assets/volume-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "cf3c36f2c230735bf4ff8e6e04ac9f0559a580893720a61f9ed3881195d1c6a6"
+    },
+    {
+      "family": "hibridos-bold",
+      "file": "dist/assets/hibridos-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "5501d406a01aa494c7878c97c862fd7c9dc1dea5bc05f1cbeeef7fdc9cdeb681"
+    },
+    {
+      "family": "anuncios-bold",
+      "file": "dist/assets/anuncios-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "0d0dbd01d96087b12efdd8ac4a14a2bc5e3f2b4a34f7718b34323b8757a4cb94"
+    },
+    {
+      "family": "campanhas-bold",
+      "file": "dist/assets/campanhas-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "bb38bdd57a6c078d4ecfa7dad356c3b6a4d89946164faeb2816931b01fbe93f8"
+    },
+    {
+      "family": "imoveis-bold",
+      "file": "dist/assets/imoveis-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "2437263562ef855e92aa16be002b86cd6b926b50a026fd1e3ecd98bcb658f1e2"
+    },
+    {
+      "family": "apresentacoes-bold",
+      "file": "dist/assets/apresentacoes-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "9ac0654ecf1d4aa3a94332ad5a09033231373c0a94d2df68cf984393f2cbeae9"
+    },
+    {
+      "family": "avatares-bold",
+      "file": "dist/assets/avatares-bold.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Amostras originais geradas por IA para a edição 3; referências pesquisadas não reutilizadas",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "4cb937ac77243e5f609403d18d50e6271bc4a6c16b3c7d4775c4ecd421e986cc"
+    },
+    {
+      "family": "tecnologia-bold",
+      "file": "dist/assets/tecnologia-bold.webp",
+      "width": 1920,
+      "height": 1280,
+      "cells": 10,
+      "source": "Demonstração original HTML/CSS/SVG, dados fictícios, sem captura oficial",
+      "processing": "Render Chromium; conversão WebP",
+      "sha256": "1defff31d91e9ed66060a49e3cbc035c1d03733dfe189fca1588f0cfd94392e2"
+    },
+    {
+      "family": "software-bold",
+      "file": "dist/assets/software-bold.webp",
+      "width": 1920,
+      "height": 1280,
+      "cells": 10,
+      "source": "Demonstração original HTML/CSS/SVG, dados fictícios, sem captura oficial",
+      "processing": "Render Chromium; conversão WebP",
+      "sha256": "448c0cb7edee029c5f5abe5c400e1d6e067aa42f6430133ce2e6dd6996eb1d79"
+    },
+    {
+      "family": "saude-niche-1",
+      "file": "dist/assets/saude-niche-1.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício para nicho; não representa caso real, resultado ou captura oficial",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "4026fd6ba6cd601ad64d1173dfb8a588b9570da00dd1df0150c9b49f99dbcab4"
+    },
+    {
+      "family": "saude-niche-2",
+      "file": "dist/assets/saude-niche-2.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício para nicho; não representa caso real, resultado ou captura oficial",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "7277e1e98b0df90dbe0a09421f7b84a9ca16cd101352ee6b627808df4a68c30b"
+    },
+    {
+      "family": "saude-niche-3",
+      "file": "dist/assets/saude-niche-3.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício, revisado para evitar promessas ou dados não confirmados",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "f4e68a55d2cb4ed42d6deb803ab823193e50fa4a81944524154035f7cace851f"
+    },
+    {
+      "family": "ecommerce-niche-1",
+      "file": "dist/assets/ecommerce-niche-1.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício para nicho; não representa caso real, resultado ou captura oficial",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "4cf3c63a8c565d5e37cf5a4fcc331f05590dbd1d0f0c19d5767c4119fe6b0aac"
+    },
+    {
+      "family": "ecommerce-niche-2",
+      "file": "dist/assets/ecommerce-niche-2.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício para nicho; não representa caso real, resultado ou captura oficial",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "7f5e30b85d320dc6896829f1d201324fc800542064e1fccdbb5f337f0328c021"
+    },
+    {
+      "family": "ecommerce-niche-3",
+      "file": "dist/assets/ecommerce-niche-3.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício, revisado para evitar promessas ou dados não confirmados",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "1efae3fcfef85d8681325bf378c3dfe05c81136da6a17e7580daece59415a4b7"
+    },
+    {
+      "family": "infoprodutores-niche-1",
+      "file": "dist/assets/infoprodutores-niche-1.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício para nicho; não representa caso real, resultado ou captura oficial",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "7468c94ca279012dda9eca6b556c0344c58863b831238c9039c991ff76e91c81"
+    },
+    {
+      "family": "infoprodutores-niche-2",
+      "file": "dist/assets/infoprodutores-niche-2.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício, revisado para evitar promessas ou dados não confirmados",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "d7215d2145a483553afcefcab43a9aabf5510e749d69795b8f898f61cf10d6c5"
+    },
+    {
+      "family": "infoprodutores-niche-3",
+      "file": "dist/assets/infoprodutores-niche-3.webp",
+      "width": 1536,
+      "height": 1024,
+      "cells": 10,
+      "source": "Estudo original IA fictício, revisado para evitar promessas ou dados não confirmados",
+      "processing": "Conversão PNG para WebP; sem alteração artística",
+      "sha256": "d1fca8335e294cde728667f10e231b8908753ed515d1fae509a2424424534ace"
     }
   ],
   "notes": "Estudos ilustrativos originais. Não representam produtos de marcas reais, dados verificados ou screenshots autênticos.",

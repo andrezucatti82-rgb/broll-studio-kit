@@ -43,3 +43,15 @@ Exemplos de pedido:
 No repositório do kit, use `npm ci`, `npm run check`, `npm test`, `npm run render -- --project caminho/project.json`. Leia o README para navegador, FFmpeg e licença do renderizador. O rascunho técnico incluído não contém vídeo final nem mídia comercial; a criação de vídeos novos é conduzida pelo agente com as ferramentas disponíveis. `npm run new -- --topic "..."` cria briefing, plano de cenas e ficha de revisão vazios: não pesquisa, não gera mídia nem realiza avaliação audiovisual sozinho.
 
 Se a skill foi copiada isoladamente, os caminhos relativos `references/` continuam funcionando, mas o renderizador exige o repositório completo. Não faça referências a diretórios absolutos do computador de quem criou o kit.
+
+## Coleta de materiais e diagnóstico
+
+Antes de prometer a execução, leia [coleta e diagnóstico](references/intake-and-diagnostics.md). Confira anexos, contexto e capacidades da sessão; peça apenas faltas que afetem a direção. Use perguntas nativas quando disponíveis para decisões textuais e solicite arquivos pelo anexo normal do chat. Se não conseguir gerar o vídeo, explique etapa bloqueada, motivo verificado, entregas existentes, solução e alternativa. Não invente causa, créditos ou conexão, nem chame roteiro de vídeo pronto.
+
+## Avaliação obrigatória em três etapas
+
+Em **todos os estilos**, aplique [naturalidade e acabamento profissional](references/natural-finish.md). Avalie imagens IA antes de animar, clipes IA antes de montar e tratamento/edição antes da entrega, incluindo a amostra de 10 segundos. Corrija artefatos e confira fidelidade aos originais. Registre evidências e reveja cada versão corrigida; bloqueadores impedem aprovação. Preserve a linguagem dos estilos ilustrados e busque aparência natural nos realistas. Sem capacidade real de revisão, mantenha revisão pendente.
+
+## Identidade de pessoas: regra global
+
+Aplique [preservação de identidade e características físicas](references/identity-preservation.md) a qualquer pessoa na composição, em todos os estilos. Originais têm prioridade; sem alterações físicas não solicitadas. Escolha ferramenta e planos compatíveis, informe limites antes de gastar créditos e valide rosto/corpo em teste curto comparado aos originais antes do vídeo completo. Alteração perceptível bloqueia avanço; registre referências e o que foi efetivamente conferido. Esta regra não autoriza avatar onde ele está desabilitado.

@@ -1,6 +1,7 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
-import json,re,gzip,base64
+import json,re,gzip,base64,io
+from fontTools.ttLib import TTFont
 r=Path(__file__).resolve().parents[1]
 origin='https://video-multimarcas-estilos.andrezucatti82.chatgpt.site/'
 catalog=json.loads((r/'dist/catalog.json').read_text())
@@ -14,14 +15,15 @@ header=soup.select_one('.mast');header.clear();header.append(BeautifulSoup('<div
 link=soup.find('link',rel='stylesheet');link.decompose()
 css=(r/'dist/styles.css').read_text().replace("url('assets/","url('"+origin+"assets/")
 for font in ['Geist-Regular.ttf','Geist-Bold.ttf']:
- css=css.replace(origin+'assets/'+font,'data:font/ttf;base64,'+base64.b64encode((r/'dist/assets'/font).read_bytes()).decode())
+ face=TTFont(r/'dist/assets'/font);face.flavor='woff2';buf=io.BytesIO();face.save(buf)
+ css=css.replace(origin+'assets/'+font,'data:font/woff2;base64,'+base64.b64encode(buf.getvalue()).decode())
 css+='\n.mast{padding:12px 16px}.page-toolbar{display:flex;align-items:center;justify-content:space-between;width:100%;gap:15px;font-size:12px;color:var(--muted)}main{padding:20px 16px}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:700px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}'
-style=soup.new_tag('style');style.string=css;soup.head.append(style)
+def pack(text):return base64.b64encode(gzip.compress(text.encode(),mtime=0)).decode()
 script=soup.find('script',src='app.js');script.decompose()
 packed=base64.b64encode(gzip.compress(json.dumps(catalog,ensure_ascii=False,separators=(',',':')).encode(),mtime=0)).decode()
 boot=soup.new_tag('script');boot.string='window.ATLAS_PAGE_MODE=true;window.ATLAS_ASSET_BASE='+json.dumps(origin)+';window.ATLAS_CATALOG_PROMISE=(async()=>{const bytes=Uint8Array.from(atob('+json.dumps(packed)+'),c=>c.charCodeAt(0));const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"));return JSON.parse(await new Response(stream).text());})();';soup.body.append(boot)
 fonts=soup.new_tag('script');fonts.string='window.ATLAS_FONT_CATALOG='+json.dumps(json.loads((r/'dist/fonts.json').read_text()),ensure_ascii=False).replace('</','<\\/')+';';soup.body.append(fonts)
-app=soup.new_tag('script');app.string=(r/'dist/app.js').read_text();soup.body.append(app)
+app=soup.new_tag('script');app.string='(async()=>{async function inflate(s){return await new Response(new Blob([Uint8Array.from(atob(s),c=>c.charCodeAt(0))]).stream().pipeThrough(new DecompressionStream("gzip"))).text();}const css=await inflate('+json.dumps(pack(css))+');const style=document.createElement("style");style.textContent=css;document.head.append(style);const source=await inflate('+json.dumps(pack((r/'dist/app.js').read_text()))+');const script=document.createElement("script");script.textContent=source;document.body.append(script);})().catch(()=>{document.getElementById("grid").textContent="Não foi possível abrir a biblioteca nesta superfície. Use o site público."});';soup.body.append(app)
 # Catalogue uses standard gzip decompression in modern browsers, without eval.
 html=str(soup);assert len(html.encode())<262144,len(html.encode())
 (r/'records/page-embed.html').write_text(html)

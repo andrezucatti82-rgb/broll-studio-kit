@@ -14,7 +14,7 @@ Este repositório não apresenta um vídeo de demonstração. O arquivo `templat
 
 ## Biblioteca visual e publicidade
 
-[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 280 direções em 14 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 20 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
+[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 510 direções em 17 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 30 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
 
 A primeira entrega é **roteiro, storyboard visual e vídeo de 10 segundos para aprovação**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
 
@@ -94,3 +94,11 @@ Windows PowerShell: `$env:CHROME_PATH='C:\caminho\chrome.exe'` antes do comando.
 Código, documentação e SVGs originais: MIT. As fontes e dependências têm condições próprias; consulte [THIRD_PARTY.md](THIRD_PARTY.md). O Remotion tem [licença própria](https://www.remotion.dev/license), com condições comerciais que dependem do uso e da organização.
 
 Pesquisa web exige internet; geração por provedores pode ter custo e limites. Cada novo projeto precisa registrar fontes, direitos de mídia e verificações reais. O verificador técnico não substitui revisão visual e escuta.
+
+## Naturalidade e acabamento em todos os estilos
+
+Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e tratamento/edição final, com correção e nova revisão. A regra vale também para estilos anteriores e para a amostra de 10 segundos: fidelidade aos originais, continuidade, composição e áudio natural. Linguagens ilustradas mantêm seu estilo. Estudos estáticos não certificam vídeo pronto; sem playback e escuta reais, a revisão permanece pendente. Veja [o protocolo](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/natural-finish.md).
+
+## Pessoas e preservação de identidade
+
+Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/identity-preservation.md).

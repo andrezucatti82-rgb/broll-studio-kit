@@ -105,3 +105,21 @@ A GDA é a identidade da galeria hospedada. O vídeo é adaptado à marca do bri
 - **“O estilo virou uma sequência de fotos.”** Exija ação interna, plano mais exigente e transição demonstrados na amostra; não aceite apenas render técnico.
 - **“O produto mudou.”** Rejeite o plano e use o original protegido, captação real ou modelo validado. Mais efeitos não compensam perda de fidelidade.
 - **“Instalei, mas o serviço pede créditos.”** A licença do repositório não inclui contas, franquias ou licenças dos provedores. Remotion também tem condições próprias.
+
+## Novas direções da edição 3.1
+
+Na galeria, use **Novos · 230**. Há 510 presets em 17 categorias de 30. A ficha mostra diferenças, recursos, áudio e referências; esses dados acompanham o pedido e o JSON exportado. Atualize o repositório com `git pull` e reimporte o pacote da skill na superfície que exigir instalação própria. Atualizar GitHub ou o site não atualiza automaticamente plugins já importados em outras contas. Consulte [a pesquisa](../style-atlas/records/RESEARCH.md).
+
+## Materiais e solução de bloqueios
+
+Clique em **Ver materiais necessários para este vídeo** no briefing. A lista adapta-se aos estilos e explica o que fornecer, quando é necessário e o que pode substituí-lo. Ela não faz upload: anexe os arquivos na conversa do ChatGPT. Ao colar o pedido, o agente deve conferir o contexto, abrir perguntas textuais quando a ferramenta existir e pedir somente as faltas relevantes.
+
+Se não conseguir gerar, o agente deve explicar a etapa bloqueada, o motivo confirmado (ou desconhecido), o que já está pronto, como resolver e a alternativa. Gerador não conectado, falta de renderização, permissões, arquivo ausente e limite confirmado são situações diferentes. Nem todo estilo exige gerador IA; motion em código pode ser suficiente se houver renderizador. O site não consulta suas conexões ou créditos. [Guia completo](../.agents/skills/video-multimarcas/references/intake-and-diagnostics.md).
+
+## Naturalidade e acabamento em todos os estilos
+
+Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e tratamento/edição final, com correção e nova revisão. A regra vale também para estilos anteriores e para a amostra de 10 segundos: fidelidade aos originais, continuidade, composição e áudio natural. Linguagens ilustradas mantêm seu estilo. Estudos estáticos não certificam vídeo pronto; sem playback e escuta reais, a revisão permanece pendente. Veja [o protocolo](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/natural-finish.md).
+
+## Pessoas e preservação de identidade
+
+Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/identity-preservation.md).

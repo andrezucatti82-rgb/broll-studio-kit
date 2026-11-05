@@ -1,17 +1,26 @@
 import fs from 'node:fs';
 import crypto from 'node:crypto';
 import {pathToFileURL} from 'node:url';
+import {checkIdentityReview} from './identity-check.mjs';
 export const creativeChecks=['narrative','internalAction','depth','rhythm','transitions','readability','voice','sound'];
 export function checkReview(report,expectedHash){
  const errors=[];
  if(report.schemaVersion!==1)errors.push('Unsupported review schema');
  if(report.videoSha256!==expectedHash)errors.push('Review does not match the current video hash');
+ errors.push(...checkIdentityReview(report.identityPreservation).errors);
  if(report.technical?.status!=='passed'||!report.technical?.evidence?.trim())errors.push('Technical verification evidence missing');
  for(const [key,method] of [['playback','continuous-playback'],['listening','listening']]){
   const r=report[key];
   if(r?.status!=='passed'||r?.method!==method||r?.scope!=='entire-video'||!r?.reviewer?.trim()||!r?.notes?.trim())errors.push(`${key}: complete review with method, reviewer and observations required`);
  }
  for(const key of creativeChecks)if(report.creative?.[key]?.status!=='passed'||!report.creative?.[key]?.notes?.trim())errors.push(`Creative review missing: ${key}`);
+ for(const key of ['imageGeneration','videoGeneration','finishing']){
+  const gate=report.qualityGates?.[key];
+  if(key!=='finishing'&&gate?.status==='not_applicable'&&gate?.notes?.trim())continue;
+  if(gate?.status!=='passed'||!gate?.reviewer?.trim()||!gate?.notes?.trim()||!Array.isArray(gate?.assets)||gate.assets.length===0){errors.push(`Quality gate missing: ${key}`);continue;}
+  for(const asset of gate.assets)if(!asset?.file?.trim()||!/^[a-f0-9]{64}$/i.test(asset?.sha256||'')||!asset?.evidence?.trim())errors.push(`Asset review evidence missing: ${key}`);
+  if(key==='finishing'&&!gate.assets.some(a=>a.sha256===expectedHash))errors.push('Finishing review does not match the current video hash');
+ }
  if(!Array.isArray(report.issues)||report.issues.some(x=>x.status!=='resolved'&&x.severity==='blocking'))errors.push('Unresolved blocking issues or missing issue list');
  return {ready:errors.length===0,errors};
 }

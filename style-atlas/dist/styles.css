@@ -21,3 +21,7 @@ button:active,.button:active{transform:scale(.985)}.text-button .ui-icon,.hero-a
 dialog[open]{animation:dialog-enter .23s cubic-bezier(.2,.7,.2,1)}dialog[open]::backdrop{animation:backdrop-enter .2s ease}
 .font-card:hover{box-shadow:0 6px 20px #23455f12;transform:translateY(-2px)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hero-art{transform:none;will-change:auto}.reveal-card{opacity:1;translate:none}.card:hover,.font-card:hover,.hero-actions a:hover .ui-icon{transform:none}}
+
+.new-tag{display:inline-block;padding:3px 6px;border-radius:4px;background:#dce6fc;color:#1253bd;font-size:9px;letter-spacing:.08em}.novelty{background:#eee9dd;border-radius:16px;padding:22px;margin-top:24px}.research ul{padding-left:20px}.research li{margin:12px 0}.research a{color:var(--blue,#145ad6)}#newFilter[aria-pressed=true]{background:#145ad6;color:white;border-color:#145ad6}
+
+.material-item{border-top:1px solid var(--line,#dedfd7);padding:18px 0}.material-item h3{font-size:18px;margin:0 0 10px}.material-item p{font-size:14px;line-height:1.6;margin:8px 0}#materialsContent details{margin-top:15px}#materialsContent summary{cursor:pointer;font-weight:600}

@@ -140,15 +140,21 @@ from extra_styles import extend as extend_extra
 extend_extra(styles,families)
 from avatar_styles import extend as extend_avatars
 extend_avatars(styles,families)
-assert len(styles)==280 and len({s['id'] for s in styles})==280
-assert all(len(rows)==20 for _,_,_,rows in families)
+from bold_styles import extend as extend_bold
+extend_bold(styles,families)
+from niche_styles import extend as extend_niches
+extend_niches(styles,families)
+assert len(styles)==510 and len({s['id'] for s in styles})==510
+assert all(len(rows)==30 for _,_,_,rows in families)
 # Measured row boundaries keep generated sprite cells aligned without editing images.
 bounds={'materiais-extra':[0,320,640], 'tecnologia-extra':[0,310,620], 'hibridos-extra':[0,320,640], 'campanhas-extra':[0,378,724], 'imoveis-extra':[0,362,724], 'avatares-externos':[0,342,682,1024]}
 for item in styles:
  key=Path(item['image']['atlas']).stem
  if key in bounds:
   b=bounds[key]; row=item['image']['row']; item['image']['rect']=[item['image']['column']/4,b[row]/1024,1/4,(b[row+1]-b[row])/1024]
-catalog={'title':'Biblioteca de estilos Vídeo Multimarcas','version':'2.0','scope':'280 direções visuais, técnicas e formatos. Catálogo amplo e combinável, não uma lista exaustiva de todos os estilos existentes.','imageDisclaimer':'Amostras de aparência geradas por IA e interfaces demonstrativas construídas em código. Telas, personagens e números são ilustrativos; não constituem evidência de produtos ou resultados. Imagens estáticas não comprovam uma técnica de animação.','workflow':'Estilo + tema + marca opcional → roteiro + storyboard visual + vídeo de 10 segundos para aprovação.','families':[{'id':f,'name':t,'kind':k,'count':len(rows)} for f,t,k,rows in families],'styles':styles}
+catalog={'title':'Biblioteca de estilos Vídeo Multimarcas','version':'3.1','scope':'510 direções visuais, técnicas e formatos. Catálogo amplo e combinável, não uma lista exaustiva de todos os estilos existentes.','imageDisclaimer':'Amostras de aparência geradas por IA e interfaces demonstrativas construídas em código. Telas, personagens e números são ilustrativos; não constituem evidência de produtos ou resultados. Imagens estáticas não comprovam uma técnica de animação.','workflow':'Estilo + tema + marca opcional → roteiro + storyboard visual + vídeo de 10 segundos para aprovação.','research':json.loads((ROOT/'dist/research.json').read_text()),'families':[{'id':f,'name':t,'kind':k,'count':len(rows)} for f,t,k,rows in families],'styles':styles}
+catalog['qualityPolicy']='ACABAMENTO OBRIGATÓRIO EM TODOS OS ESTILOS: avaliar imagens IA antes de animar, clipes IA antes de montar e tratamento/edição antes de entregar. Corrigir ou substituir deformações, pele plástica, textura instável, flicker, morphing involuntário, física/luz incoerentes, recortes e voz artificiais. Conferir originais, rótulos, textos e continuidade; compor textos finais como vetores. Realismo natural nos estilos fotográficos; execução artesanal consistente nos ilustrados, sem descaracterizá-los. Registrar versão, evidência, defeito e correção em cada etapa; rever o arquivo corrigido com playback e escuta. Bloqueadores impedem aprovação; sem avaliação real, revisão pendente. Não garantir ausência absoluta de artefatos nem ocultar identificação sintética necessária.'
+catalog['identityPolicy']='IDENTIDADE — REGRA GLOBAL PARA PESSOAS: preservar rosto, traços, tom de pele, idade aparente, cabelo, biotipo e proporções; sem embelezar, rejuvenescer ou emagrecer sem pedido explícito. Originais são referência principal; storyboard/montagem/gerados são secundários. Imagem para vídeo: preferir quadro individual validado, não colagem como única referência. Manter identidade entre planos; limitar câmera à cobertura disponível ou pedir referências, sem inventar corpo/ângulos ocultos. Fantasia altera somente elementos solicitados e preserva a pessoa reconhecível. Avaliar fidelidade da ferramenta antes de consumir créditos; informar limitações e propor alternativa se insuficiente, sem prometer identidade idêntica. Antes do vídeo completo, testar movimento curto e comparar rosto/corpo aos originais no início, meio, fim e mudanças de ângulo. Alteração perceptível bloqueia avanço. Registrar referências, versões, ferramenta, mudanças autorizadas e validação real; prompt sozinho não comprova preservação.'
 (ROOT/'dist/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2))
 (ROOT/'records/catalog-source.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2))
-print('280 presets, 14 families; all include use, resources, motion and 10-second approval flow.')
+print('510 presets, 17 families; all include use, resources, motion and 10-second approval flow.')

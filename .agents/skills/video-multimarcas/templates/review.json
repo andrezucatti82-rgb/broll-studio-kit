@@ -53,5 +53,43 @@
       "notes": ""
     }
   },
-  "issues": []
+  "issues": [],
+  "qualityGates": {
+    "imageGeneration": {
+      "status": "not_run",
+      "reviewer": "",
+      "notes": "",
+      "assets": []
+    },
+    "videoGeneration": {
+      "status": "not_run",
+      "reviewer": "",
+      "notes": "",
+      "assets": []
+    },
+    "finishing": {
+      "status": "not_run",
+      "reviewer": "",
+      "notes": "",
+      "assets": []
+    }
+  },
+  "identityPreservation": {
+    "realPeoplePresent": null,
+    "status": "not_run",
+    "notes": "",
+    "reviewer": "",
+    "toolAssessment": {
+      "tool": "",
+      "capabilities": "",
+      "limitations": "",
+      "creditDecision": ""
+    },
+    "test": {
+      "file": "",
+      "sha256": "",
+      "durationSeconds": null
+    },
+    "people": []
+  }
 }
