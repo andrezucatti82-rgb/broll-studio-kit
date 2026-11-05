@@ -87,8 +87,28 @@ if(paths.includes('motion-campaign.html')){
  const published=await fetch(`https://${domain}/motion-campaign.html?release=${release}`,{signal:AbortSignal.timeout(45000),redirect:'error'});
  if(!published.ok||hash(Buffer.from(await published.arrayBuffer()))!==hash(Buffer.from(sample)))throw Error('Sample page public verification failed.');
 }
+// Keep the reference gallery bookmark stable while its scripts/data are immutable.
+if(paths.includes('references.html')){
+ const entry=entries.find(x=>x.file==='references.html'&&x.type==='file');
+ let previous=null;
+ if(entry){
+  const saved=await api('Fileman','get_file_content',{dir:root,file:'references.html',from_charset:'UTF-8',to_charset:'UTF-8',update_html_document_encoding:0});
+  if(typeof saved.content!=='string'||Buffer.byteLength(saved.content)!==Number(entry.size))throw Error('Reference gallery backup size mismatch.');
+  previous=Buffer.from(saved.content);await upload(backupDir,'references.html',previous);
+ }
+ let gallery=await readFile(path.join(source,'references.html'),'utf8');
+ gallery=gallery.replaceAll('src="assets/',`src="/${release}/assets/`);
+ for(const file of ['styles.css','references.css','reference-bridge.js','references.js'])gallery=gallery.replaceAll(`="${file}"`,`="/${release}/${file}"`);
+ gallery=gallery.replace('</head>',`<meta name="gda-atlas-release" content="${release}"><script>window.ATLAS_ASSET_BASE=${JSON.stringify('/'+release+'/')};</script></head>`);
+ try{
+  await upload(root,'references.html',Buffer.from(gallery));
+  const response=await fetch(`https://${domain}/references.html?release=${release}`,{headers:{'User-Agent':'GDA-Static-Deploy/1.0'},signal:AbortSignal.timeout(45000),redirect:'error'});
+  if(!response.ok||hash(Buffer.from(await response.arrayBuffer()))!==hash(Buffer.from(gallery)))throw Error('Reference gallery public verification failed.');
+ }catch(error){if(previous)await upload(root,'references.html',previous);throw error;}
+}
 let html=await readFile(path.join(source,'index.html'),'utf8');
 html=html.replaceAll('src="assets/',`src="${release}/assets/`).replace('href="styles.css"',`href="${release}/styles.css"`).replace('src="app.js"',`src="${release}/app.js"`).replace('href="catalog.json"',`href="${release}/catalog.json"`);
+for(const file of ['references.css','reference-bridge.js'])html=html.replaceAll(`="${file}"`,`="${release}/${file}"`);
 html=html.replace('</head>',`<meta name="gda-atlas-release" content="${release}"><script>window.ATLAS_ASSET_BASE=${JSON.stringify(release+'/')};window.ATLAS_CATALOG_URL=${JSON.stringify(release+'/catalog.json')};</script></head>`);
 try{
  await upload(root,'index.html',Buffer.from(html));

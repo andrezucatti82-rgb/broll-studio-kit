@@ -1,0 +1,33 @@
+{
+  "candidates": 720,
+  "usable": 716,
+  "selected": 540,
+  "uniqueImages": 540,
+  "failures": [],
+  "queryCounts": {
+    "luxury brand identity": 30,
+    "experimental typography": 30,
+    "editorial magazine layout": 30,
+    "cosmetics packaging design": 30,
+    "restaurant visual identity": 30,
+    "architectural art direction": 30,
+    "fashion campaign design": 30,
+    "technology brand identity": 30,
+    "sports graphic design": 30,
+    "cultural poster design": 30,
+    "organic sustainable branding": 30,
+    "music festival identity": 30,
+    "colorful ecommerce design": 30,
+    "financial dashboard design": 30,
+    "health wellness branding": 30,
+    "kids playful branding": 30,
+    "cinematic motion design": 30,
+    "minimal swiss typography": 30
+  },
+  "reviewStatus": "540 selected covers inspected in 18 contact sheets, plus four replacement covers individually. Full project media not reviewed.",
+  "excludedByVisualReview": [
+    23533997,
+    67629967,
+    258013527
+  ]
+}

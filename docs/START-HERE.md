@@ -139,3 +139,7 @@ Há três prévias audiovisuais de dez segundos: **Frase que reorganiza o quadro
 Definir estado inicial → ação → resultado; planejar uma transição motivada, pausas de leitura, locução natural, trilha e SFX ligados à ação. Cena 3D, rotação, tracking, transparência técnica e reflexos exigem material e execução compatíveis. Não chamar zoom sobre uma foto de voo, tour ou novo ângulo. Não transformar referência estática em garantia de movimento. Preservar produto, pessoa, imóvel e interface conforme os protocolos globais; não alterar a identidade para facilitar um efeito.
 
 Verificar quadros de início, meio, fim e transições, além de reprodução integral com escuta. Registrar separadamente o que foi observado, medido e ainda depende de revisão. `review_pending` continua pendente até aprovação; renderização, metadados e medição de áudio não certificam acabamento. Pedir somente os materiais pertinentes ao estilo e explicar ferramenta ausente, limite de fidelidade ou cota antes de consumir créditos. Trocar de ferramenta não autoriza clonar voz nem reutilizar identidade de outro projeto.
+
+## Referências visuais para o pedido
+
+Além dos 540 estilos, há [540 referências visuais](https://videos.gerenciadordeanuncios.com.br/references.html) com imagens, autoria e paletas aproximadas. Selecione até seis e escolha o que aproveitar: cores, tipografia, composição e materiais/luz. A seleção acompanha o prompt e o preset. [Como usar e manter](VISUAL-REFERENCES.md). Não transfere automaticamente arquivos nem licenças.

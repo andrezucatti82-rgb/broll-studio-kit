@@ -41,7 +41,7 @@ with zipfile.ZipFile(output) as archive:
         if source.is_file():
             assert archive.read('skills/'+name+'/'+str(source.relative_to(skill)))==source.read_bytes()
 catalog=json.loads((root/'style-atlas/dist/catalog.json').read_text())
-release={'plugin':name,'pluginVersion':manifest['version'],'kitVersion':json.loads((root/'package.json').read_text())['version'],'catalogVersion':catalog['version'],'styleCount':len(catalog['styles']),'categoryCount':len(catalog['families']),'installationScope':'Packages do not install or update a ChatGPT account automatically.','packages':{}}
+release={'visualReferenceCount':len(json.loads((root/'style-atlas/dist/visual-references.json').read_text())['references']),'plugin':name,'pluginVersion':manifest['version'],'kitVersion':json.loads((root/'package.json').read_text())['version'],'catalogVersion':catalog['version'],'styleCount':len(catalog['styles']),'categoryCount':len(catalog['families']),'installationScope':'Packages do not install or update a ChatGPT account automatically.','packages':{}}
 for source in sorted((root/'dist').glob('video-multimarcas*')):
     if source.is_file():release['packages'][source.name]={'bytes':source.stat().st_size,'sha256':hashlib.sha256(source.read_bytes()).hexdigest()}
 (root/'dist/release-manifest.json').write_text(json.dumps(release,ensure_ascii=False,indent=2)+'\n')

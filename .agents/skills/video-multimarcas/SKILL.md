@@ -13,6 +13,8 @@ Leia [publicidade e fidelidade](references/advertising-and-fidelity.md) para est
 
 ## Critério de qualidade
 
+Quando o briefing contiver referências de paleta, tipografia, composição ou materiais, leia [referências visuais](references/visual-references.md). Considere apenas os aspectos selecionados, confirme acesso às imagens e preserve a prioridade da marca e dos arquivos originais. A seleção de uma referência não autoriza copiar seus ativos.
+
 Entregar um MP4 válido não basta. Para pedidos de acabamento profissional, não aceite como solução dominante fotografias com zoom, cartões inclinados e títulos. Defina ação dentro do quadro, profundidade coerente, duração motivada pela fala e conexão entre planos. Use fotografias estáticas quando tiverem função narrativa explícita. Recursos prometidos precisam ser demonstrados na execução; não rebaixe a direção por conveniência do render ou do repositório.
 
 O status `reviewed` exige playback e escuta do arquivo final inteiro, além das verificações técnicas. Sem essas capacidades, entregue uma prévia com revisão pendente e não declare acabamento aprovado. Consulte `references/production-and-qa.md`.

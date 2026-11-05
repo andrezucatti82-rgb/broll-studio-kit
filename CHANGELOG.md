@@ -28,3 +28,10 @@ Retirada da demonstração comercial. Kit com rascunho técnico neutro.
 - Primeira entrega: roteiro, storyboard e prévia de 10 segundos para aprovação.
 - Publicidade com narração, música, SFX e protocolos de fidelidade para produtos, imóveis e interfaces.
 - Fonte do atlas incluída, sem exemplos de clientes e sem dados da skill pessoal.
+
+## 2026-11-05 — Referências visuais e plugin 2.2.4
+
+- Catálogo separado de 540 projetos, busca, categorias, favoritos, paletas e créditos.
+- Seleção de até seis referências com papéis por projeto e integração ao prompt/preset.
+- Widget independente na Page com estado compartilhado e comando que combina briefing e referências.
+- Diretrizes de adaptação, acesso às imagens, atribuição e prioridade da marca/originais.

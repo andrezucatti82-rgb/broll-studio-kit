@@ -23,3 +23,7 @@ Não há mídia privada de clientes. O Atlas inclui as prévias genéricas descr
 ## Motion de campanha
 
 A edição 4.0 acrescenta 12 imagens IA fictícias, dez estudos em Canvas e oito cenas Three.js originais. Três MP4s incluem locução sintética pública Kokoro-82M (modelo Apache-2.0, runtime kokoro-onnx MIT), trilha e efeitos procedurais originais. Não foi usada voz pessoal nem clonagem. Three.js/RoomEnvironment 0.181 têm licença MIT incluída em `style-atlas/records/motion-campaign/vendor/LICENSE-three.txt`. Os modelos de voz não são redistribuídos. Procedência, roteiros e estado pendente de revisão em `style-atlas/records/motion-campaign/production.json`. As campanhas citadas na pesquisa são referências de método; suas imagens, vídeos e músicas não foram reutilizados.
+
+## Catálogo de referências visuais
+
+`style-atlas/dist/visual-references.json` contém metadados de projetos públicos, URLs de capas externas, créditos e cores aproximadas extraídas das capas. As 540 capas são carregadas da fonte original; seus bytes não são redistribuídos no kit. Obras, marcas e fontes pertencem aos respectivos titulares e não estão cobertas pela licença MIT. A seleção orienta a direção criativa e não concede licença para incorporar os ativos a um vídeo. A ficha conserva o link original e a condição de licença informada na coleta.
