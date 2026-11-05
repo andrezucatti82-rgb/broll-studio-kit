@@ -39,3 +39,9 @@ Retirada da demonstração comercial. Kit com rascunho técnico neutro.
 ## 2026-11-05 — Enquadramento e plugin 2.2.5
 
 Imagens individuais com dimensões reais, etiquetas/favoritos fora da composição, referências sem preenchimento com corte e sem zoom de hover. Revisão dos textos para distinguir 540 estilos de 540 referências; orientação de enquadramento no protocolo de acabamento.
+
+## 2026-11-05 — Categorias exclusivas e plugin 2.2.6
+
+Os 540 projetos únicos agora pertencem a uma única categoria cada. Paletas tem seleção própria de 90 projetos; os filtros somam 540 sem sobreposição. IDs, imagens e ordem preservados. Validação de IDs, URLs, hashes e categorias antes do deploy.
+
+Galeria de referências com cinco colunas no desktop e redução responsiva para três e duas colunas.

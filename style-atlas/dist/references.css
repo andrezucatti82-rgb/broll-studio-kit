@@ -5,3 +5,8 @@
 
 /* Whole reference artwork, including edges, remains visible at every size. */
 .ref-image-button{background:#eeeae1;padding:10px;position:relative}.ref-card .ref-image-button img{object-fit:contain;transform:none!important}.ref-card:hover .ref-image-button img{transform:none}.ref-selected img{object-fit:contain;background:#eeeae1}.ref-card .ref-favorite{position:static;flex-shrink:0;width:30px;height:30px;font-size:19px;background:transparent;border:1px solid var(--line)}.ref-card-bottom{flex-wrap:wrap}.ref-swatches{flex:1}.ref-card h3{min-height:0;max-height:none;-webkit-line-clamp:unset;display:block}.ref-card-body{display:flex;flex-direction:column;flex:1}.ref-card{display:flex;flex-direction:column}.ref-card-bottom{margin-top:auto;padding-top:15px}.ref-card .small{margin-bottom:4px}
+
+/* Five desktop columns; progressively reduce them where cards would be too narrow. */
+@media(min-width:1200px){.ref-workspace{grid-template-columns:minmax(0,1fr) 270px;gap:24px}.ref-grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:16px}.ref-card-body{padding:12px}.direction-panel{padding:20px}.ref-card .ref-swatches{flex-basis:100%}}
+@media(min-width:761px) and (max-width:1199px){.ref-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.ref-workspace{grid-template-columns:minmax(0,1fr) 250px;gap:20px}.direction-panel{padding:18px}}
+@media(max-width:760px){.ref-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}

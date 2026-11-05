@@ -2,9 +2,12 @@
 import {readFile,writeFile,mkdir,readdir,lstat} from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
+import {validateReferences} from './validate-references.mjs';
 const argv=process.argv.slice(2),get=k=>{const i=argv.indexOf(k);return i<0?undefined:argv[i+1]};
 const domain=get('--domain'),source=path.resolve(get('--source')||'style-atlas/dist');
 const apply=argv.includes('--apply');
+// Reject duplicate projects, covers or category memberships before any hosting call.
+validateReferences(JSON.parse(await readFile(path.join(source,'visual-references.json'),'utf8')));
 const {CPANEL_HOST:host,CPANEL_USER:user,CPANEL_TOKEN:token}=process.env;
 const hash=b=>createHash('sha256').update(b).digest('hex');
 if(!domain||!/^([a-z0-9-]+\.)+[a-z]{2,}$/.test(domain))throw Error('Provide --domain with the authorized hostname.');

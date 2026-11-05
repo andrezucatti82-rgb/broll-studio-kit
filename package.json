@@ -14,11 +14,12 @@
     "check": "tsc --noEmit",
     "test": "node tests/project.test.mjs",
     "new": "node scripts/new-project.mjs",
-    "validate": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs && npm run validate:references",
     "review": "node scripts/review.mjs",
     "doctor": "node scripts/doctor.mjs",
     "atlas": "node scripts/serve-atlas.mjs",
-    "identity-check": "node scripts/identity-check.mjs"
+    "identity-check": "node scripts/identity-check.mjs",
+    "validate:references": "node scripts/validate-references.mjs"
   },
   "dependencies": {
     "@remotion/cli": "4.0.540",

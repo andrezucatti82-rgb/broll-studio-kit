@@ -11,3 +11,7 @@ A biblioteca de referências é independente dos 540 estilos de vídeo. O usuár
 7. Registre o projeto consultado, aspectos escolhidos, data, o que foi efetivamente visto e como a direção foi adaptada. Mantenha as etapas de avaliação de imagem, clipe e edição, e a primeira entrega de roteiro, storyboard e prévia de 10 segundos para aprovação.
 
 O site público guarda a seleção no navegador; o usuário copia o pedido ou baixa o preset. A Page salva a seleção no estado do widget, visível aos leitores autorizados da Page. Não prometa sincronização automática entre origens, instalação de plugins ou acesso a ferramentas por selecionar referências.
+
+## Categorias sem repetição
+
+O catálogo tem 540 projetos distintos distribuídos em cinco categorias exclusivas. Cada projeto aparece em somente uma categoria; a soma dos filtros deve corresponder ao total, sem duplicar IDs, URLs ou capas idênticas. A categoria organiza a navegação; os aspectos escolhidos (cores, tipografia, composição, materiais/luz) continuam combináveis em qualquer projeto. Ao manter o acervo, preserve IDs e ordem para não perder favoritos e execute `npm run validate:references` no repositório.

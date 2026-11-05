@@ -142,4 +142,4 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 
 ## Referências visuais para o pedido
 
-Além dos 540 estilos, há [540 referências visuais](https://videos.gerenciadordeanuncios.com.br/references.html) com imagens, autoria e paletas aproximadas. Selecione até seis e escolha o que aproveitar: cores, tipografia, composição e materiais/luz. A seleção acompanha o prompt e o preset. [Como usar e manter](VISUAL-REFERENCES.md). Não transfere automaticamente arquivos nem licenças.
+Além dos 540 estilos, há [540 referências visuais](https://videos.gerenciadordeanuncios.com.br/references.html) com imagens, autoria e paletas aproximadas, distribuídas em cinco categorias sem repetição. Selecione até seis e escolha o que aproveitar: cores, tipografia, composição e materiais/luz. A seleção acompanha o prompt e o preset. [Como usar e manter](VISUAL-REFERENCES.md). Não transfere automaticamente arquivos nem licenças.

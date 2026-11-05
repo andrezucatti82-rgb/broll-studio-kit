@@ -12,7 +12,7 @@ No site, as escolhas ficam no armazenamento local do navegador. Outra máquina, 
 
 ## Procedência e limites
 
-A pesquisa reuniu 720 candidatos em 18 buscas públicas. O catálogo seleciona 540 IDs e 540 capas únicas; cada imagem teve download/decodificação conferidos e inspeção em prancha. Não houve revisão integral de todos os textos, vídeos ou arquivos dos projetos. As categorias derivam dos títulos e metadados e podem se sobrepor.
+A pesquisa reuniu 720 candidatos em 18 buscas públicas. O catálogo seleciona 540 IDs e 540 capas únicas; cada imagem teve download/decodificação conferidos e inspeção em prancha. Não houve revisão integral de todos os textos, vídeos ou arquivos dos projetos. Cada projeto pertence a uma única categoria principal. A seleção de Paletas reúne projetos pesquisados por combinações naturais, comércio com uso expressivo de cor e identidade lúdica. Os demais projetos são organizados pelo foco indicado nos títulos e metadados. Os filtros não se sobrepõem; somam 540 referências. As opções Paleta, Tipografia, Composição e Materiais/luz continuam disponíveis em qualquer referência: são aspectos de uso, não categorias adicionais.
 
 As cores são aproximações da capa. Fontes não foram identificadas automaticamente: o agente deve confirmar a família e a licença no projeto. Projetos e capas continuam pertencendo aos respectivos autores; não acompanham a licença MIT do código. As capas não são redistribuídas no repositório, que armazena URLs, atribuição e cores derivadas. A ficha oferece crédito e link original. Se a fonte remover uma capa, a interface informa a indisponibilidade e mantém o link.
 
@@ -29,3 +29,9 @@ Para publicar uma cópia própria, hospede os arquivos estáticos com HTTPS, tro
 ## Apresentação das imagens
 
 As capas de referência são exibidas integralmente, sem zoom de hover. Nos estilos com imagem individual, a moldura acompanha as dimensões reais do arquivo. Favoritos e etiquetas ficam fora da imagem. A ficha e a comparação também preservam o enquadramento. Esta proteção vale para a exibição do arquivo: não recupera conteúdo que já estava fora do enquadramento original.
+
+## Verificação contra repetição
+
+Execute `npm run validate:references`. O validador exige 540 IDs, URLs de projeto, URLs de capa e hashes de imagem únicos, uma categoria por referência e soma de categorias igual a 540. O deploy executa a mesma validação antes de acessar a hospedagem. Preserve IDs e ordem ao reclassificar para manter favoritos e seleções salvos.
+
+A galeria usa cinco colunas em telas a partir de 1200 px, três nas intermediárias e duas no celular. As capas continuam inteiras e o painel de seleção permanece acessível.

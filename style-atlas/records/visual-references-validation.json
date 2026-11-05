@@ -29,5 +29,18 @@
     23533997,
     67629967,
     258013527
-  ]
+  ],
+  "catalogVersion": "1.1",
+  "uniqueProjects": 540,
+  "categoryPolicy": "exclusive-primary",
+  "categoryCounts": {
+    "Identidade visual": 165,
+    "Tipografia": 114,
+    "Layouts": 120,
+    "Paletas": 90,
+    "Direção de arte": 51
+  },
+  "categoryMemberships": 540,
+  "crossCategoryDuplicates": 0,
+  "stableIdsAndOrderPreserved": true
 }
