@@ -16,7 +16,7 @@ const headers={Authorization:`cpanel ${user}:${token}`};
 async function api(module,fn,params={}){
  const u=new URL(`/execute/${module}/${fn}`,apiBase);for(const [k,v]of Object.entries(params))u.searchParams.set(k,String(v));
  const r=await fetch(u,{headers,signal:AbortSignal.timeout(45000),redirect:'error'});
- const raw=await r.json();const j=raw.result||raw;if(!r.ok||j.status!==1)throw Error(`cPanel ${module}/${fn} failed (HTTP ${r.status}). No content printed.`);return j.data;
+ const raw=await r.json();const j=raw.result||raw;if(!r.ok||j.status!==1)throw Error(`cPanel ${module}/${fn} failed (HTTP ${r.status}): ${JSON.stringify(j.errors||[]).replaceAll(token,'[redacted]').replaceAll(user,'[account]').slice(0,700)}`);return j.data;
 }
 async function upload(dir,name,bytes){
  const form=new FormData();form.set('dir',dir);form.set('overwrite','1');form.set('file-1',new Blob([bytes]),name);
