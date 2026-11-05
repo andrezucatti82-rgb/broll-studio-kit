@@ -3,6 +3,31 @@
  const $=id=>document.getElementById(id);
  const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const catalog=window.ATLAS_CATALOG||(window.ATLAS_CATALOG_PROMISE?await window.ATLAS_CATALOG_PROMISE:null)||await fetch(window.ATLAS_CATALOG_URL||'catalog.json').then(r=>{if(!r.ok)throw Error('Catálogo indisponível');return r.json()});
+ const iconPaths={
+ grid:'<rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>',
+ cinema:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4m-4 6h4m10-6h4m-4 6h4"/>',
+ grafico:'<circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18M6 6l12 12"/>',
+ ilustracao:'<path d="m4 16-1 5 5-1L21 7l-4-4Z M14 6l4 4 M4 16l4 4"/>',
+ materiais:'<path d="m12 3 10 5-10 5L2 8Zm-9 10 9 5 9-5M3 18l9 5 9-5"/>',
+ tecnologia:'<path d="M4 3v18h17M8 16v-5m5 5V6m5 10V9"/>',
+ motion:'<path d="m10 5 10 7-10 7ZM3 7h3M1 12h5m-3 5h3"/>',
+ volume:'<path d="m12 2 9 5v10l-9 5-9-5V7Zm0 10 9-5M3 7l9 5v10"/>',
+ hibridos:'<circle cx="5" cy="6" r="3"/><circle cx="19" cy="18" r="3"/><path d="M8 6h8a4 4 0 0 1 0 8H8a4 4 0 0 0 0 8h5"/>',
+ anuncios:'<rect x="4" y="7" width="16" height="14" rx="2"/><path d="M8 7V5a4 4 0 0 1 8 0v2M8 12h8"/>',
+ campanhas:'<path d="m3 10 14-6v16L3 14Zm14-1 4-2m-4 8 4 2M6 15l2 6h3l-2-5"/>',
+ imoveis:'<path d="m2 11 10-8 10 8M5 9v12h14V9M9 21v-7h6v7"/>',
+ software:'<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4M6 7h4m-4 4h12"/>',
+ apresentacoes:'<path d="M4 4h16M12 4v17M8 21h8M4 4v4m16-4v4"/>',
+ avatares:'<circle cx="12" cy="7" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2"/>',
+ search:'<circle cx="10" cy="10" r="7"/><path d="m15 15 6 6"/>',
+ heart:'<path d="M20 5a5 5 0 0 0-8 1 5 5 0 0 0-8-1C0 9 6 15 12 21c6-6 12-12 8-16Z"/>',
+ copy:'<rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 4V3H3v13h1"/>',
+ download:'<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',
+ check:'<path d="m5 12 4 4L19 6"/>',
+ compare:'<rect x="2" y="4" width="8" height="16" rx="1"/><rect x="14" y="4" width="8" height="16" rx="1"/>',
+ arrow:'<path d="M4 12h16m-7-7 7 7-7 7"/>'};
+ const icon=name=>`<svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round">${iconPaths[name]||iconPaths.grid}</svg>`;
+
  const byId=new Map(catalog.styles.map(s=>[s.id,s]));
  const base=window.ATLAS_ASSET_BASE||'';
  const pageMode=window.ATLAS_PAGE_MODE===true;
@@ -17,11 +42,11 @@
  if(pageMode){applyState(window.openai?.widgetState);window.addEventListener('openai:set_globals',e=>{const state=e.detail?.globals?.widgetState;if(state){applyState(state);render()}});$('privacyNote').textContent='A escolha e o briefing são salvos nesta Page para o ChatGPT ler. Para usar um logotipo, anexe-o no chat de produção.';$('prepare').textContent='Salvar escolha para o ChatGPT';$('chatLink').hidden=true;$('handoffHelp').textContent='Depois de salvar, use o botão nativo “Chat about this” no bloco de pedido logo abaixo desta galeria. Ele inicia um novo chat da Page com sua escolha. O texto completo também pode ser copiado.';}
  else{try{applyState(JSON.parse(localStorage.getItem(storeKey)||'null'))}catch{}}
  const hashId=new URLSearchParams(location.search).get('estilo')||decodeURIComponent(location.hash.replace(/^#estilo=/,''));if(byId.has(hashId)){selected=[hashId];renderSelection()}
- $('families').innerHTML=`<button data-family="" aria-pressed="true">Todas · ${catalog.styles.length}</button>`+catalog.families.map(f=>`<button data-family="${f.id}" aria-pressed="false">${esc(f.name)} <small>${f.count}</small></button>`).join('');
+ $('families').innerHTML=`<button data-family="" aria-pressed="true">${icon('grid')}Todas · ${catalog.styles.length}</button>`+catalog.families.map(f=>`<button data-family="${f.id}" aria-pressed="false">${icon(f.id)}${esc(f.name)} <small>${f.count}</small></button>`).join('');
  const normalize=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
  function render(){const q=normalize($('search').value.trim());const kind=$('kind').value;const items=catalog.styles.filter(s=>(!family||s.family===family)&&(!kind||s.kind===kind)&&(!onlyFav||favorites.has(s.id))&&(!q||normalize([s.name,s.signature,s.exampleTopic,s.uses,...s.resources].join(' ')).includes(q)));$('resultCount').textContent=`${items.length} ${items.length===1?'opção':'opções'} · ${catalog.families.length} famílias`;$('empty').hidden=items.length>0;
  $('loadMore').hidden=items.length<=visibleCount;
- $('grid').innerHTML=items.slice(0,visibleCount).map(s=>`<article class="card"><div class="thumb-wrap"><button class="thumb" style="${imageStyle(s)}" data-detail="${s.id}" aria-label="Ver direção ${esc(s.name)}"><span class="badge">${s.family==="software"?"INTERFACE DEMONSTRATIVA":"ESTUDO VISUAL IA"}</span></button><button class="fav" data-fav="${s.id}" aria-pressed="${favorites.has(s.id)}" aria-label="${favorites.has(s.id)?'Remover dos':'Adicionar aos'} favoritos: ${esc(s.name)}">${favorites.has(s.id)?'♥':'♡'}</button></div><div class="card-body"><p class="type">${esc(s.kind)}</p><h3>${esc(s.name)}</h3><p class="summary">${esc(s.signature)}</p><div class="card-actions"><button class="text-button" data-detail="${s.id}">Ver direção ↗</button><label class="compare-toggle"><input type="checkbox" data-compare="${s.id}" ${compared.has(s.id)?'checked':''}>Comparar</label></div></div></article>`).join('');
+ $('grid').innerHTML=items.slice(0,visibleCount).map(s=>`<article class="card"><div class="thumb-wrap"><button class="thumb" style="${imageStyle(s)}" data-detail="${s.id}" aria-label="Ver direção ${esc(s.name)}"><span class="badge">${s.family==="software"?"INTERFACE DEMONSTRATIVA":"ESTUDO VISUAL IA"}</span></button><button class="fav" data-fav="${s.id}" aria-pressed="${favorites.has(s.id)}" aria-label="${favorites.has(s.id)?'Remover dos':'Adicionar aos'} favoritos: ${esc(s.name)}">${icon('heart')}</button></div><div class="card-body"><p class="type">${esc(s.kind)}</p><h3>${esc(s.name)}</h3><p class="summary">${esc(s.signature)}</p><div class="card-actions"><button class="text-button" data-detail="${s.id}">Ver direção</button><label class="compare-toggle"><input type="checkbox" data-compare="${s.id}" ${compared.has(s.id)?'checked':''}>Comparar</label></div></div></article>`).join('');
  document.querySelectorAll('[data-family]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.family===family)));$('favoriteFilter').setAttribute('aria-pressed',String(onlyFav));updateCompare();}
  function updateCompare(){$('compareBar').hidden=compared.size===0;$('compareLabel').textContent=`${compared.size} de 3 direções`;$('compareOpen').disabled=compared.size<2}
  function renderSelection(){$('chosenCount').textContent=selected.length;$('selectionList').innerHTML=selected.map((id,i)=>`<span class="selected-chip">${i===0?'Principal':'Complementar'} · ${esc(byId.get(id).name)}<button type="button" data-remove="${id}" aria-label="Remover ${esc(byId.get(id).name)}">×</button></span>`).join('');$('handoff').hidden=true}
@@ -44,7 +69,7 @@
  $('typography').value=previousFont;
  function loadFont(key){if(fontLoads.has(key))return fontLoads.get(key);const file=fontCatalog.files[key],alias='AtlasFont'+(++fontSeq);fontAliases.set(key,alias);const pending=(async()=>{const face=new FontFace(alias,`url("${pageMode?file.sourceUrl:base+file.file}")`,{weight:String(file.weight),style:'normal'});await face.load();document.fonts.add(face);return alias})();fontLoads.set(key,pending);return pending;}
  async function renderSelectedFont(){const value=$('typography').value,f=fontCatalog.options.find(o=>o.label===value);if(!f){$('selectedFontPreview').innerHTML='<strong>Direção do estilo · automática</strong><p>A fonte acompanha a marca e a linguagem escolhida.</p>';return;}$('selectedFontPreview').innerHTML=`<strong>${esc(f.label)}</strong><p class="small">Carregando prévia real…</p>`;try{const alias=await loadFont(f.headingKey);if($('typography').value!==value)return;$('selectedFontPreview').innerHTML=`<strong>${esc(f.label)}</strong><p class="sample-head" style="font-family:${alias};font-weight:${f.weight}">${esc($('fontPhrase').value||'Sua próxima ideia ganha vida.')}</p>`;}catch{if($('typography').value===value)$('selectedFontPreview').innerHTML=`<strong>${esc(f.label)}</strong><p>Não foi possível carregar a prévia desta fonte.</p>`;}}
- function renderFonts(){const query=normalize($('fontSearch').value),phrase=$('fontPhrase').value||'Sua próxima ideia ganha vida.';const options=fontCatalog.options.filter(f=>normalize(f.label).includes(query));$('fontGrid').innerHTML=options.map(f=>`<button type="button" class="font-card" data-font="${f.id}" data-font-ready="false" aria-pressed="${$('typography').value===f.label}"><span class="font-label">${esc(f.label)}</span><span class="font-sample" style="font-weight:${f.weight}">${esc(phrase)}</span><span class="font-body">Ação, precisão e clareza em cada mensagem. 0123456789</span><span class="font-state">Carregando fonte real…</span></button>`).join('');options.forEach(async f=>{const button=$('fontGrid').querySelector(`[data-font="${f.id}"]`);try{const [head,body]=await Promise.all([loadFont(f.headingKey),loadFont(f.bodyKey)]);if(!button.isConnected)return;button.querySelector('.font-sample').style.fontFamily=head;button.querySelector('.font-body').style.fontFamily=body;button.dataset.fontReady='true';button.querySelector('.font-state').textContent='Usar esta combinação ↗';}catch{if(button.isConnected)button.querySelector('.font-state').textContent='Prévia indisponível. Verifique sua conexão.';}});$('fontStatus').textContent=`${options.length} combinações · título e texto com fontes reais`;
+ function renderFonts(){const query=normalize($('fontSearch').value),phrase=$('fontPhrase').value||'Sua próxima ideia ganha vida.';const options=fontCatalog.options.filter(f=>normalize(f.label).includes(query));$('fontGrid').innerHTML=options.map(f=>`<button type="button" class="font-card" data-font="${f.id}" data-font-ready="false" aria-pressed="${$('typography').value===f.label}"><span class="font-label">${esc(f.label)}</span><span class="font-sample" style="font-weight:${f.weight}">${esc(phrase)}</span><span class="font-body">Ação, precisão e clareza em cada mensagem. 0123456789</span><span class="font-state">Carregando fonte real…</span></button>`).join('');options.forEach(async f=>{const button=$('fontGrid').querySelector(`[data-font="${f.id}"]`);try{const [head,body]=await Promise.all([loadFont(f.headingKey),loadFont(f.bodyKey)]);if(!button.isConnected)return;button.querySelector('.font-sample').style.fontFamily=head;button.querySelector('.font-body').style.fontFamily=body;button.dataset.fontReady='true';button.querySelector('.font-state').textContent='Usar esta combinação';}catch{if(button.isConnected)button.querySelector('.font-state').textContent='Prévia indisponível. Verifique sua conexão.';}});$('fontStatus').textContent=`${options.length} combinações · título e texto com fontes reais`;
  }
  async function selectFont(f){$('typography').value=f?f.label:'auto';$('handoff').hidden=true;renderSelectedFont();save();$('fontDialog').close();}
  $('openFonts').addEventListener('click',()=>{renderFonts();$('fontDialog').showModal();});
@@ -54,5 +79,11 @@
  renderSelectedFont();
 
  if(pageMode)applyState(window.openai?.widgetState);else{try{applyState(JSON.parse(localStorage.getItem(storeKey)||"null"))}catch{}}
+ $('kind').innerHTML='<option value="">Todos os tipos</option>'+[...new Set(catalog.styles.map(s=>s.kind))].map(k=>`<option>${esc(k)}</option>`).join('');
+ document.querySelector('.search>span').innerHTML=icon('search');
+ const actionIcons={openBrief:'check',favoriteFilter:'heart',loadMore:'grid',openFonts:'apresentacoes',prepare:'check',downloadPreset:'download',copyPrompt:'copy',compareOpen:'compare'};
+ for(const [id,name] of Object.entries(actionIcons)){const el=$(id);if(id==='favoriteFilter')el.textContent='Favoritos';el.insertAdjacentHTML('afterbegin',icon(name));}
+ document.querySelectorAll('.hero-actions a').forEach((el,i)=>el.insertAdjacentHTML('afterbegin',icon(i?'avatares':'grid')));
+ document.querySelectorAll('.workflow b').forEach((el,i)=>el.innerHTML=icon(['grid','ilustracao','motion'][i]));
  renderSelectedFont();renderSelection();render();window.ATLAS_READY=true;
 })().catch(e=>{const el=document.getElementById('grid');if(el)el.textContent='Não foi possível carregar a biblioteca. Recarregue a página.';console.error(e)});

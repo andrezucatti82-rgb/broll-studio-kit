@@ -12,7 +12,7 @@ Qualquer hospedagem estática que sirva HTML/CSS/JS/JSON e imagens pode funciona
 
 ## cPanel / HostGator
 
-`scripts/deploy-static-cpanel.mjs` usa a UAPI com `CPANEL_HOST`, `CPANEL_USER`, `CPANEL_TOKEN` fornecidos por segredos. Nunca coloque valores no Git. O script confirma o document root do domínio, recusa raiz principal/compartilhada, inspeciona `index.html`, salva backup local e remoto fora da área pública, publica assets em uma pasta de versão e substitui a homepage somente após verificar os assets. Os demais arquivos anteriores são preservados. Uma falha de verificação da homepage tenta restaurar o original.
+`scripts/deploy-static-cpanel.mjs` usa a UAPI com `CPANEL_HOST`, `CPANEL_USER`, `CPANEL_TOKEN` fornecidos por segredos. Nunca coloque valores no Git. O script confirma o document root do domínio, recusa raiz principal/compartilhada, inspeciona `index.html`, salva backup local e remoto fora da área pública, publica assets em uma pasta de versão e substitui a homepage somente após verificar os assets. Os demais arquivos anteriores são preservados. Uma falha de verificação da homepage tenta restaurar o original. Para HTML acima do limite de 1 MiB do editor cPanel, lê o caminho público explícito sem compressão/cache e exige tamanho idêntico ao arquivo listado pela API. O backup remoto inclui o HTML e partes base64 verificadas individualmente; concatenar essas partes na ordem do recibo e decodificar recupera os bytes originais. Se tamanho ou verificação falharem, a homepage não é substituída.
 
 Primeiro, inspeção sem escrita:
 

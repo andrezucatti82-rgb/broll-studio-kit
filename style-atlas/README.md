@@ -50,4 +50,4 @@ Para reconstruir: `python records/build_catalog.py`. O gerador de Page exige `be
 
 ## Identidade e fontes
 
-Interface GDA: fundo creme claro, azul e Geist; a identidade dos vídeos segue a marca do usuário. Substitua logo e identidade da GDA ao hospedar sua própria versão. `dist/fonts.json` registra os 24 pares tipográficos, arquivos reais e procedência; licenças em `dist/assets/fonts/`.
+Interface GDA: fundo creme claro, azul, tipografia Geist e ícones SVG originais; a identidade dos vídeos segue a marca do usuário. Substitua logo e identidade da GDA ao hospedar sua própria versão. `dist/fonts.json` registra os 24 pares tipográficos, arquivos reais e procedência; licenças em `dist/assets/fonts/`.

@@ -37,9 +37,18 @@ if(info.domain!==domain||!root.startsWith(home+'/')||!home.startsWith('/home')||
 const listing=await api('Fileman','list_files',{dir:root,show_hidden:1,include_mime:1});
 const entries=Array.isArray(listing)?listing:[...(listing.files||[]),...(listing.dirs||[])];
 const oldEntry=entries.find(x=>x.file==='index.html'&&x.type==='file');if(!oldEntry)throw Error('Expected existing index.html not found; inspect before deploying.');
-const old=await api('Fileman','get_file_content',{dir:root,file:'index.html',from_charset:'UTF-8',to_charset:'UTF-8',update_html_document_encoding:0});
-if(typeof old.content!=='string'||!old.content.toLowerCase().includes('<html'))throw Error('Existing homepage is not expected UTF-8 HTML.');
-const oldBytes=Buffer.from(old.content);if(oldEntry.size!=null&&Number(oldEntry.size)!==oldBytes.length)throw Error('Backup encoding/size mismatch; no overwrite.');
+let oldBytes;
+if(Number(oldEntry.size)>1024*1024){
+ // cPanel refuses editor reads over 1 MiB. This target is an existing static HTML file.
+ // Fetch its explicit public path without compression/cache, and require the server's exact byte size.
+ const response=await fetch(`https://${domain}/index.html?backup=${Date.now()}`,{headers:{'User-Agent':'GDA-Static-Deploy/1.0','Accept-Encoding':'identity','Cache-Control':'no-cache'},signal:AbortSignal.timeout(45000),redirect:'error'});
+ if(!response.ok||!response.headers.get('content-type')?.includes('text/html'))throw Error('Cannot read the existing static homepage for backup.');
+ oldBytes=Buffer.from(await response.arrayBuffer());
+}else{
+ const old=await api('Fileman','get_file_content',{dir:root,file:'index.html',from_charset:'UTF-8',to_charset:'UTF-8',update_html_document_encoding:0});
+ if(typeof old.content!=='string')throw Error('Cannot read existing homepage.');oldBytes=Buffer.from(old.content);
+}
+if(!oldBytes.toString('utf8').toLowerCase().includes('<html')||!Number.isFinite(Number(oldEntry.size))||Number(oldEntry.size)!==oldBytes.length)throw Error('Backup encoding/size mismatch; no overwrite.');
 const paths=await files(source);if(!paths.includes('index.html')||!paths.includes('catalog.json'))throw Error('Missing static entry/catalog.');
 const catalog=JSON.parse(await readFile(path.join(source,'catalog.json'),'utf8'));if(!Array.isArray(catalog.styles)||catalog.styles.length<1)throw Error('Invalid catalog.');
 const release='atlas-'+new Date().toISOString().replace(/[^0-9]/g,'').slice(0,14);
@@ -51,8 +60,14 @@ console.log(JSON.stringify({domain,root,release,files:paths.length,styles:catalo
 if(!apply){console.log('Read-only inspection complete; no server file modified.');process.exit(0);}
 // Preserve the exact entry being replaced. Existing application files remain in place.
 await upload(backupDir,'index.html',oldBytes);
-const saved=await api('Fileman','get_file_content',{dir:backupDir,file:'index.html',from_charset:'UTF-8',to_charset:'UTF-8',update_html_document_encoding:0});
-if(hash(Buffer.from(saved.content||''))!==receipt.previousSha256)throw Error('Remote backup verification failed; homepage not modified.');
+// Verify byte-exact recovery parts below cPanel's 1 MiB editor-read limit.
+const encodedBackup=oldBytes.toString('base64');receipt.backupParts=[];
+for(let offset=0;offset<encodedBackup.length;offset+=512000){
+ const part=encodedBackup.slice(offset,offset+512000),name=`index.html.part-${String(receipt.backupParts.length).padStart(3,'0')}.b64`;
+ await upload(backupDir,name,Buffer.from(part));
+ const saved=await api('Fileman','get_file_content',{dir:backupDir,file:name,from_charset:'UTF-8',to_charset:'UTF-8',update_html_document_encoding:0});
+ if(saved.content!==part)throw Error('Remote backup part verification failed; homepage not modified.');receipt.backupParts.push(name);
+}
 await upload(backupDir,'receipt.json',Buffer.from(JSON.stringify(receipt,null,2)));
 for(const rel of paths){if(rel==='index.html')continue;const dir=path.posix.join(root,release,path.posix.dirname(rel));await upload(dir,path.posix.basename(rel),await readFile(path.join(source,rel)));}
 // Verify immutable release assets before switching the homepage.
