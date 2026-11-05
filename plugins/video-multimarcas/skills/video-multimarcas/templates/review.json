@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "videoSha256": "",
+  "technical": {
+    "status": "not_run",
+    "evidence": ""
+  },
+  "playback": {
+    "status": "not_run",
+    "method": "continuous-playback",
+    "scope": "entire-video",
+    "reviewer": "",
+    "notes": ""
+  },
+  "listening": {
+    "status": "not_run",
+    "method": "listening",
+    "scope": "entire-video",
+    "reviewer": "",
+    "notes": ""
+  },
+  "creative": {
+    "narrative": {
+      "status": "not_run",
+      "notes": ""
+    },
+    "internalAction": {
+      "status": "not_run",
+      "notes": ""
+    },
+    "depth": {
+      "status": "not_run",
+      "notes": ""
+    },
+    "rhythm": {
+      "status": "not_run",
+      "notes": ""
+    },
+    "transitions": {
+      "status": "not_run",
+      "notes": ""
+    },
+    "readability": {
+      "status": "not_run",
+      "notes": ""
+    },
+    "voice": {
+      "status": "not_run",
+      "notes": ""
+    },
+    "sound": {
+      "status": "not_run",
+      "notes": ""
+    }
+  },
+  "issues": [],
+  "qualityGates": {
+    "imageGeneration": {
+      "status": "not_run",
+      "reviewer": "",
+      "notes": "",
+      "assets": []
+    },
+    "videoGeneration": {
+      "status": "not_run",
+      "reviewer": "",
+      "notes": "",
+      "assets": []
+    },
+    "finishing": {
+      "status": "not_run",
+      "reviewer": "",
+      "notes": "",
+      "assets": []
+    }
+  },
+  "identityPreservation": {
+    "realPeoplePresent": null,
+    "status": "not_run",
+    "notes": "",
+    "reviewer": "",
+    "toolAssessment": {
+      "tool": "",
+      "capabilities": "",
+      "limitations": "",
+      "creditDecision": ""
+    },
+    "test": {
+      "file": "",
+      "sha256": "",
+      "durationSeconds": null
+    },
+    "people": []
+  }
+}

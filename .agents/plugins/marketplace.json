@@ -1,0 +1,9 @@
+{
+  "name": "video-multimarcas-kit",
+  "plugins": [
+    {
+      "name": "video-multimarcas",
+      "source": {"source": "local", "path": "./plugins/video-multimarcas"}
+    }
+  ]
+}

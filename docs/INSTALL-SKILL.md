@@ -5,3 +5,23 @@ Copie a pasta `video-multimarcas` completa para a pasta de skills do seu agente,
 O identificador é `video-multimarcas`. Instale lado a lado com outras skills, sem sobrescrevê-las. Diga ao agente: “Use $video-multimarcas. Tema: ...”, acrescentando nome, site ou logo se quiser.
 
 O arquivo `.skill` é um ZIP instalável em ferramentas compatíveis com esse formato. Se o seu agente não tiver importador, use o ZIP e copie a pasta manualmente. Compatibilidade de importação depende do agente. O renderizador e a configuração inicial estão no repositório completo, não no pacote mínimo da skill.
+
+## Plugin para Codex
+
+O pacote `dist/video-multimarcas-plugin.zip` contém o manifesto de plugin e a skill completa. O repositório também fornece um marketplace com apenas a versão multimarcas. Com um Codex CLI que ofereça `codex plugin`, execute:
+
+```bash
+codex plugin marketplace add andrezucatti82-rgb/broll-studio-kit --ref main
+codex plugin add video-multimarcas@video-multimarcas-kit --json
+codex plugin list --json
+```
+
+Para usar um checkout local, substitua o primeiro comando por `codex plugin marketplace add /caminho/absoluto/broll-studio-kit`. Use a origem já configurada quando atualizar uma instalação existente; não instale uma segunda cópia com outro nome de marketplace sem necessidade. Não remova a configuração pessoal `video-b-roll`.
+
+A versão do plugin é **2.2.3**, a do kit executável **2.3.0** e a do catálogo **4.0**, com **540 estilos em 18 categorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
+
+## ChatGPT e outros dispositivos
+
+Instalar no Codex deste computador ou ambiente não atualiza o pacote da conta do ChatGPT nem outro computador. Se sua interface oferecer importação de plugins personalizados, use o ZIP do plugin no fluxo de atualização existente. Se ela aceitar apenas skills, use `.skill` ou o ZIP correspondente. Não há um botão universal garantido para todos os planos e superfícies. Sem importação compatível, use o pedido da galeria e anexe as instruções no projeto/conversa.
+
+Depois da atualização, peça ao agente para identificar `video-multimarcas`, localizar **Motion Design de Campanha**, confirmar **540 estilos**, ler as regras de **preservação de identidade** e indicar a primeira entrega de **10 segundos**. Não considere o pacote instalado apenas porque foi baixado ou enviado como anexo. Uma sessão já aberta pode precisar ser reaberta para carregar a versão instalada.

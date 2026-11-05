@@ -1,13 +1,13 @@
 # Comece aqui — sua conta, suas marcas
 
-[Galeria GDA Vídeos](https://videos.gerenciadordeanuncios.com.br/) · [Espelho do atlas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) · [Baixar skill](../dist/video-multimarcas.skill) · [ZIP](../dist/video-multimarcas.zip)
+[Galeria GDA Vídeos](https://videos.gerenciadordeanuncios.com.br/) · [Espelho do atlas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) · [Baixar skill](../dist/video-multimarcas.skill) · [ZIP](../dist/video-multimarcas.zip) · [Plugin](../dist/video-multimarcas-plugin.zip) · [Instalar ou atualizar](INSTALL-SKILL.md)
 
 Este é um kit para um agente de IA produzir vídeos. A página ajuda a escolher direção e montar o pedido; não renderiza vídeos sozinha. Cada pessoa usa sua própria conta do ChatGPT, seus materiais e suas conexões. Não há acesso à conta, voz, chaves ou créditos da GDA.
 
 ## 1. Experimente sem instalar programas
 
 1. Abra a galeria. Compare estilos e clique em **Usar este estilo**. A página tem movimento suave, paralaxe discreta e ícones; a preferência de movimento reduzido do dispositivo desativa as animações. Uma direção complementar é opcional.
-2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Ver e comparar 24 tipografias** para ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 20 personagens fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
+2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Ver e comparar 24 tipografias** para ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 30 personagens fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
 3. Abra seu ChatGPT, entre na sua conta, cole o pedido e anexe suas fotos, logo, vídeos ou capturas. Envie a mensagem.
 4. Se a skill não estiver instalada, o pedido ainda contém as regras principais. Para contexto completo, anexe o ZIP da skill ou adicione os arquivos ao projeto compatível.
 5. Peça ao agente para verificar suas ferramentas antes da produção. A primeira entrega será **roteiro, storyboard visual e amostra de 10 segundos para aprovação**. O vídeo completo depende dessa aprovação.

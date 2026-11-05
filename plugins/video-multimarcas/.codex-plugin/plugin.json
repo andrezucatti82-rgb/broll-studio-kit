@@ -1,0 +1,13 @@
+{
+  "name": "video-multimarcas",
+  "version": "2.2.3",
+  "description": "Produção de vídeo para qualquer marca, com pesquisa, fidelidade, teste curto e revisão.",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Vídeo Multimarcas",
+    "shortDescription": "Produção de vídeo para qualquer marca, com pesquisa, fidelidade, teste curto e revisão.",
+    "defaultPrompt": [
+      "Use $video-multimarcas para criar uma amostra de 10 segundos com roteiro e storyboard."
+    ]
+  }
+}
