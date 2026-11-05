@@ -3,6 +3,7 @@ import {readFile,writeFile,mkdir,readdir,lstat} from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {validateReferences} from './validate-references.mjs';
+import {stableGalleryHtml} from './static-release.mjs';
 const argv=process.argv.slice(2),get=k=>{const i=argv.indexOf(k);return i<0?undefined:argv[i+1]};
 const domain=get('--domain'),source=path.resolve(get('--source')||'style-atlas/dist');
 const apply=argv.includes('--apply');
@@ -108,6 +109,22 @@ if(paths.includes('references.html')){
   const response=await fetch(`https://${domain}/references.html?release=${release}`,{headers:{'User-Agent':'GDA-Static-Deploy/1.0'},signal:AbortSignal.timeout(45000),redirect:'error'});
   if(!response.ok||hash(Buffer.from(await response.arrayBuffer()))!==hash(Buffer.from(gallery)))throw Error('Reference gallery public verification failed.');
  }catch(error){if(previous)await upload(root,'references.html',previous);throw error;}
+}
+// Keep the pilot approval page bookmarked at the root, with media in the release.
+if(paths.includes('automation-pilot.html')){
+ const name='automation-pilot.html',entry=entries.find(x=>x.file===name&&x.type==='file');
+ let previous=null;
+ if(entry){
+  const saved=await api('Fileman','get_file_content',{dir:root,file:name,from_charset:'UTF-8',to_charset:'UTF-8',update_html_document_encoding:0});
+  if(typeof saved.content!=='string'||Buffer.byteLength(saved.content)!==Number(entry.size))throw Error('Pilot gallery backup size mismatch.');
+  previous=Buffer.from(saved.content);await upload(backupDir,name,previous);
+ }
+ const gallery=Buffer.from(stableGalleryHtml(await readFile(path.join(source,name),'utf8'),release));
+ try{
+  await upload(root,name,gallery);
+  const response=await fetch(`https://${domain}/${name}?release=${release}`,{headers:{'User-Agent':'GDA-Static-Deploy/1.0'},signal:AbortSignal.timeout(45000),redirect:'error'});
+  if(!response.ok||hash(Buffer.from(await response.arrayBuffer()))!==hash(gallery))throw Error('Pilot gallery public verification failed.');
+ }catch(error){if(previous)await upload(root,name,previous);throw error;}
 }
 let html=await readFile(path.join(source,'index.html'),'utf8');
 html=html.replaceAll('src="assets/',`src="${release}/assets/`).replace('href="styles.css"',`href="${release}/styles.css"`).replace('src="app.js"',`src="${release}/app.js"`).replace('href="catalog.json"',`href="${release}/catalog.json"`);
