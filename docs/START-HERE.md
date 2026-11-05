@@ -108,7 +108,7 @@ A GDA é a identidade da galeria hospedada. O vídeo é adaptado à marca do bri
 
 ## Novas direções da edição 3.1
 
-Na galeria, use **Novos · 230**. Há 510 presets em 17 categorias de 30. A ficha mostra diferenças, recursos, áudio e referências; esses dados acompanham o pedido e o JSON exportado. Atualize o repositório com `git pull` e reimporte o pacote da skill na superfície que exigir instalação própria. Atualizar GitHub ou o site não atualiza automaticamente plugins já importados em outras contas. Consulte [a pesquisa](../style-atlas/records/RESEARCH.md).
+Na galeria, use **Novos · 260**. Há 540 presets em 18 categorias de 30. A ficha mostra diferenças, recursos, áudio e referências; esses dados acompanham o pedido e o JSON exportado. Atualize o repositório com `git pull` e reimporte o pacote da skill na superfície que exigir instalação própria. Atualizar GitHub ou o site não atualiza automaticamente plugins já importados em outras contas. Consulte [a pesquisa](../style-atlas/records/RESEARCH.md).
 
 ## Materiais e solução de bloqueios
 
@@ -129,3 +129,13 @@ Regra global para todos os estilos: originais como referência principal, sem al
 Na revisão 3.2, os 30 formatos separam necessidade e linguagem. Identifique primeiro venda/aquisição, demonstração/ensino ou experiência do aluno. Depois escolha execução: filme de lançamento, multicâmera, POV, UGC, podcast, documentário, aftermovie, screencast, motion tipográfico ou editorial. Não transformar todos os formatos em ilustrações, caixinhas, cadernos e metáforas de objetos. Variar câmera, composição, contraste, paleta, ritmo e áudio de acordo com a função. O mesmo nicho comporta estilos diferentes.
 
 O atlas contém 18 novos estudos fotográficos fictícios e 12 layouts/UI demonstrativos individuais para esta categoria. São referências de aparência, não vídeos, capturas reais, alunos ou prova de resultado. Para filmagens, falas, trabalhos, depoimentos e interfaces reais, pedir os originais autorizados; preservar identidade e informações. Não produzir avatar por inferência. Toda promessa visual precisa aparecer na prévia de 10 segundos. Recursos devem servir à decisão ou aprendizagem; composição chamativa não substitui clareza e execução. IDs das 30 opções foram mantidos, as direções e imagens foram revisadas.
+
+## Motion Design de Campanha · edição 4.0
+
+30 direções para anúncios, explicações, lançamentos e marca, com 12 estudos fotográficos IA fictícios, dez composições gráficas e oito cenas 3D originais. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. O acervo passa a 540 direções em 18 categorias, mantendo os 510 IDs anteriores.
+
+Há três prévias audiovisuais de dez segundos: **Frase que reorganiza o quadro**, **Peça única em palco de íris** e **Janela óptica sobre fotografia**. São estudos para aprovação, não exemplos de vídeos finais aprovados. A lente amplia a mesma fotografia, sem inventar vistas; o frasco 3D é fictício. A fonte da animação, o mix e a proveniência acompanham o repositório em `style-atlas/records/motion-campaign/`. Veja as amostras em https://videos.gerenciadordeanuncios.com.br/motion-campaign.html .
+
+Definir estado inicial → ação → resultado; planejar uma transição motivada, pausas de leitura, locução natural, trilha e SFX ligados à ação. Cena 3D, rotação, tracking, transparência técnica e reflexos exigem material e execução compatíveis. Não chamar zoom sobre uma foto de voo, tour ou novo ângulo. Não transformar referência estática em garantia de movimento. Preservar produto, pessoa, imóvel e interface conforme os protocolos globais; não alterar a identidade para facilitar um efeito.
+
+Verificar quadros de início, meio, fim e transições, além de reprodução integral com escuta. Registrar separadamente o que foi observado, medido e ainda depende de revisão. `review_pending` continua pendente até aprovação; renderização, metadados e medição de áudio não certificam acabamento. Pedir somente os materiais pertinentes ao estilo e explicar ferramenta ausente, limite de fidelidade ou cota antes de consumir créditos. Trocar de ferramenta não autoriza clonar voz nem reutilizar identidade de outro projeto.

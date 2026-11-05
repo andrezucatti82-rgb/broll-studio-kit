@@ -1,0 +1,167 @@
+{
+  "edition": "4.0",
+  "status": "review_pending",
+  "costs": {
+    "freepikTts": "daily free cap blocked; no charge",
+    "localRendering": "no external generation call",
+    "localVoice": "Kokoro model downloaded and run locally"
+  },
+  "samples": [
+    {
+      "styleId": "campanha-frase-que-reorganiza-o-quadro",
+      "video": "previews/motion-campaign-01.mp4",
+      "durationSeconds": 10,
+      "resolution": "1280x720",
+      "fps": 24,
+      "sha256": "570bebba48c354a2aedcae89cbf048410c5199bad57ab1dcf4cf96dc97591581",
+      "audioMeasurement": {
+        "integratedLUFS": -16.8,
+        "loudnessRangeLU": 4.5,
+        "truePeakDBFS": -1.5
+      },
+      "frameChecks": [
+        {
+          "seconds": 0.0
+        },
+        {
+          "seconds": 1.5
+        },
+        {
+          "seconds": 3
+        },
+        {
+          "seconds": 5
+        },
+        {
+          "seconds": 7.5
+        },
+        {
+          "seconds": 9.9
+        }
+      ],
+      "status": "review_pending",
+      "validation": {
+        "decode": "passed",
+        "metadata": "passed",
+        "frameInspection": "checked at 0, 1.5, 3, 5, 7.5 and 9.9 seconds; no blocking layout error in inspected frames",
+        "continuousPlayback": "pending",
+        "listening": "pending",
+        "humanApproval": "pending"
+      },
+      "voice": {
+        "engine": "Kokoro-82M / kokoro-onnx",
+        "voice": "pf_dora",
+        "language": "pt-br",
+        "speed": 1.08,
+        "script": "Quando tudo disputa atenção, a mensagem se perde. Dê espaço à ideia. Organize o movimento. Faça o essencial aparecer."
+      },
+      "music": "Original procedural score, mix_audio.py",
+      "sfx": "Original procedural action cues, mix_audio.py",
+      "reviewSheet": "review-sheet-01.webp"
+    },
+    {
+      "styleId": "campanha-peca-unica-em-palco-de-iris",
+      "video": "previews/motion-campaign-02.mp4",
+      "durationSeconds": 10,
+      "resolution": "1280x720",
+      "fps": 24,
+      "sha256": "7f03e0dcb1afcb5990e5de10d028a4a85a0b7b8c7ceb00d289d62df7b11c6074",
+      "audioMeasurement": {
+        "integratedLUFS": -18.1,
+        "loudnessRangeLU": 5.4,
+        "truePeakDBFS": -1.5
+      },
+      "frameChecks": [
+        {
+          "seconds": 0.0
+        },
+        {
+          "seconds": 1.5
+        },
+        {
+          "seconds": 3
+        },
+        {
+          "seconds": 5
+        },
+        {
+          "seconds": 7.5
+        },
+        {
+          "seconds": 9.9
+        }
+      ],
+      "status": "review_pending",
+      "validation": {
+        "decode": "passed",
+        "metadata": "passed",
+        "frameInspection": "checked at 0, 1.5, 3, 5, 7.5 and 9.9 seconds; no blocking layout error in inspected frames",
+        "continuousPlayback": "pending",
+        "listening": "pending",
+        "humanApproval": "pending"
+      },
+      "voice": {
+        "engine": "Kokoro-82M / kokoro-onnx",
+        "voice": "pf_dora",
+        "language": "pt-br",
+        "speed": 1.08,
+        "script": "Cada detalhe merece o seu momento. A luz revela a forma. O movimento apresenta o produto. E a ideia fica."
+      },
+      "music": "Original procedural score, mix_audio.py",
+      "sfx": "Original procedural action cues, mix_audio.py",
+      "reviewSheet": "review-sheet-02.webp"
+    },
+    {
+      "styleId": "campanha-janela-optica-sobre-fotografia",
+      "video": "previews/motion-campaign-03.mp4",
+      "durationSeconds": 10,
+      "resolution": "1280x720",
+      "fps": 24,
+      "sha256": "375333d0c620c0d7b8d97dd334168bd7475ce51a7c4b3e70951c590a0904f6a2",
+      "audioMeasurement": {
+        "integratedLUFS": -18.5,
+        "loudnessRangeLU": 5.0,
+        "truePeakDBFS": -1.6
+      },
+      "frameChecks": [
+        {
+          "seconds": 0.0
+        },
+        {
+          "seconds": 1.5
+        },
+        {
+          "seconds": 3
+        },
+        {
+          "seconds": 5
+        },
+        {
+          "seconds": 7.5
+        },
+        {
+          "seconds": 9.9
+        }
+      ],
+      "status": "review_pending",
+      "validation": {
+        "decode": "passed",
+        "metadata": "passed",
+        "frameInspection": "checked at 0, 1.5, 3, 5, 7.5 and 9.9 seconds; no blocking layout error in inspected frames",
+        "continuousPlayback": "pending",
+        "listening": "pending",
+        "humanApproval": "pending"
+      },
+      "voice": {
+        "engine": "Kokoro-82M / kokoro-onnx",
+        "voice": "pf_dora",
+        "language": "pt-br",
+        "speed": 1.08,
+        "script": "Um detalhe muda a maneira de olhar. Aproxime, descubra a textura e veja o conjunto com outros olhos."
+      },
+      "music": "Original procedural score, mix_audio.py",
+      "sfx": "Original procedural action cues, mix_audio.py",
+      "reviewSheet": "review-sheet-03.webp"
+    }
+  ]
+}

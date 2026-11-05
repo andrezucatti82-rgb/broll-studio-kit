@@ -1,5 +1,5 @@
 {
-  "edition": "3.2",
+  "edition": "4.0",
   "method": "Pesquisa textual com Firecrawl e Exa; direções autorais informadas por princípios documentados. Fontes são referências de técnica e método, não autoria das combinações propostas nem imagens reutilizadas.",
   "sources": [
     {
@@ -349,6 +349,42 @@
         "infoprodutores"
       ],
       "lesson": "Luz de chave, preenchimento, separação e ambiente ajudam a produzir fala e demonstração com aparência fotográfica; texto consultado, vídeo não assistido."
+    },
+    {
+      "id": "motion-behavior",
+      "title": "Mitch Paone · Time Is the Material",
+      "url": "https://mitchpaone.substack.com/p/time-is-the-material-from-motion",
+      "families": [
+        "motion-campanha"
+      ],
+      "lesson": "Comportamento, ritmo e proporção como sistema de identidade; texto consultado."
+    },
+    {
+      "id": "motion-citrix",
+      "title": "BUCK · Citrix",
+      "url": "https://buck.co/work/citrix",
+      "families": [
+        "motion-campanha"
+      ],
+      "lesson": "Articulação entre filmagem representacional, CG abstrato, material, iluminação e composição; estudo textual, vídeo incorporado não assistido."
+    },
+    {
+      "id": "motion-oura",
+      "title": "BUCK · Oura: Ring True to You",
+      "url": "https://buck.co/work/oura-ring-true-to-you",
+      "families": [
+        "motion-campanha"
+      ],
+      "lesson": "Campanha com cenas de pessoas, 3D e mundos de cor ligados ao conceito; sem reutilizar imagens ou promessas comerciais."
+    },
+    {
+      "id": "motion-surface",
+      "title": "BUCK · Microsoft Surface Pro",
+      "url": "https://buck.co/work/microsoft-surface-pro",
+      "families": [
+        "motion-campanha"
+      ],
+      "lesson": "Integração de filmagem, cenário, composição e cor; consulta ao texto e créditos, não playback do filme."
     }
   ]
 }

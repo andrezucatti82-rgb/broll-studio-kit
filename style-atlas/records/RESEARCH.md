@@ -65,3 +65,20 @@ As consultas textuais ao Firecrawl cobriram lançamento, mini-aula, webinar, ebo
 - [Teachable · Building a membership site](https://www.teachable.com/blog/how-to-build-a-membership-site) — Boas-vindas, início claro, encontros, materiais e relevância do conteúdo; não converter estimativas promocionais de receita em promessa.
 - [Hotmart · Tipos de infoprodutos](https://hotmart.com/pt-br/blog/tipos-de-infoprodutos) — Cursos, ebooks, videoaulas, webinars e mentorias pedem demonstrações e recursos próprios; não restringir o nicho a sala de aula.
 - [Wistia · Lighting for video](https://wistia.com/learn/production/down-and-dirty-lighting-kit?ref=axbom.com) — Luz de chave, preenchimento, separação e ambiente ajudam a produzir fala e demonstração com aparência fotográfica; texto consultado, vídeo não assistido.
+
+## Motion Design de Campanha · edição 4.0
+
+30 direções para anúncios, explicações, lançamentos e marca, com 12 estudos fotográficos IA fictícios, dez composições gráficas e oito cenas 3D originais. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. O acervo passa a 540 direções em 18 categorias, mantendo os 510 IDs anteriores.
+
+Há três prévias audiovisuais de dez segundos: **Frase que reorganiza o quadro**, **Peça única em palco de íris** e **Janela óptica sobre fotografia**. São estudos para aprovação, não exemplos de vídeos finais aprovados. A lente amplia a mesma fotografia, sem inventar vistas; o frasco 3D é fictício. A fonte da animação, o mix e a proveniência acompanham o repositório em `style-atlas/records/motion-campaign/`. Veja as amostras em https://videos.gerenciadordeanuncios.com.br/motion-campaign.html .
+
+Definir estado inicial → ação → resultado; planejar uma transição motivada, pausas de leitura, locução natural, trilha e SFX ligados à ação. Cena 3D, rotação, tracking, transparência técnica e reflexos exigem material e execução compatíveis. Não chamar zoom sobre uma foto de voo, tour ou novo ângulo. Não transformar referência estática em garantia de movimento. Preservar produto, pessoa, imóvel e interface conforme os protocolos globais; não alterar a identidade para facilitar um efeito.
+
+Verificar quadros de início, meio, fim e transições, além de reprodução integral com escuta. Registrar separadamente o que foi observado, medido e ainda depende de revisão. `review_pending` continua pendente até aprovação; renderização, metadados e medição de áudio não certificam acabamento. Pedir somente os materiais pertinentes ao estilo e explicar ferramenta ausente, limite de fidelidade ou cota antes de consumir créditos. Trocar de ferramenta não autoriza clonar voz nem reutilizar identidade de outro projeto.
+
+Fontes desta expansão (texto consultado, vídeos não assistidos):
+
+- Mitch Paone · Time Is the Material: https://mitchpaone.substack.com/p/time-is-the-material-from-motion
+- BUCK · Citrix: https://buck.co/work/citrix
+- BUCK · Oura: Ring True to You: https://buck.co/work/oura-ring-true-to-you
+- BUCK · Microsoft Surface Pro: https://buck.co/work/microsoft-surface-pro

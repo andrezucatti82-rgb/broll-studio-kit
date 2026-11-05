@@ -1,11 +1,11 @@
 {
   "title": "Biblioteca de estilos Vídeo Multimarcas",
-  "version": "3.2",
-  "scope": "510 direções visuais, técnicas e formatos. Catálogo amplo e combinável, não uma lista exaustiva de todos os estilos existentes.",
+  "version": "4.0",
+  "scope": "540 direções visuais, técnicas e formatos. Catálogo amplo e combinável, não uma lista exaustiva de todos os estilos existentes.",
   "imageDisclaimer": "Amostras de aparência geradas por IA e interfaces demonstrativas construídas em código. Telas, personagens e números são ilustrativos; não constituem evidência de produtos ou resultados. Imagens estáticas não comprovam uma técnica de animação.",
   "workflow": "Estilo + tema + marca opcional → roteiro + storyboard visual + vídeo de 10 segundos para aprovação.",
   "research": {
-    "edition": "3.2",
+    "edition": "4.0",
     "method": "Pesquisa textual com Firecrawl e Exa; direções autorais informadas por princípios documentados. Fontes são referências de técnica e método, não autoria das combinações propostas nem imagens reutilizadas.",
     "sources": [
       {
@@ -355,6 +355,42 @@
           "infoprodutores"
         ],
         "lesson": "Luz de chave, preenchimento, separação e ambiente ajudam a produzir fala e demonstração com aparência fotográfica; texto consultado, vídeo não assistido."
+      },
+      {
+        "id": "motion-behavior",
+        "title": "Mitch Paone · Time Is the Material",
+        "url": "https://mitchpaone.substack.com/p/time-is-the-material-from-motion",
+        "families": [
+          "motion-campanha"
+        ],
+        "lesson": "Comportamento, ritmo e proporção como sistema de identidade; texto consultado."
+      },
+      {
+        "id": "motion-citrix",
+        "title": "BUCK · Citrix",
+        "url": "https://buck.co/work/citrix",
+        "families": [
+          "motion-campanha"
+        ],
+        "lesson": "Articulação entre filmagem representacional, CG abstrato, material, iluminação e composição; estudo textual, vídeo incorporado não assistido."
+      },
+      {
+        "id": "motion-oura",
+        "title": "BUCK · Oura: Ring True to You",
+        "url": "https://buck.co/work/oura-ring-true-to-you",
+        "families": [
+          "motion-campanha"
+        ],
+        "lesson": "Campanha com cenas de pessoas, 3D e mundos de cor ligados ao conceito; sem reutilizar imagens ou promessas comerciais."
+      },
+      {
+        "id": "motion-surface",
+        "title": "BUCK · Microsoft Surface Pro",
+        "url": "https://buck.co/work/microsoft-surface-pro",
+        "families": [
+          "motion-campanha"
+        ],
+        "lesson": "Integração de filmagem, cenário, composição e cor; consulta ao texto e créditos, não playback do filme."
       }
     ]
   },
@@ -459,6 +495,12 @@
       "id": "infoprodutores",
       "name": "Infoprodutores e educação",
       "kind": "Educação e conhecimento",
+      "count": 30
+    },
+    {
+      "id": "motion-campanha",
+      "name": "Motion Design de Campanha",
+      "kind": "Direção de campanha",
       "count": 30
     }
   ],
@@ -27876,6 +27918,1928 @@
       "revision": "3.2",
       "previousName": "Próximo passo em bifurcação de autonomia",
       "visualLanguage": "Retrato ambiental amplo"
+    },
+    {
+      "id": "campanha-frase-que-reorganiza-o-quadro",
+      "name": "Frase que reorganiza o quadro",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion 2D editorial em preto, marfim e azul-elétrico, com hierarquia tipográfica mutável.",
+      "exampleTopic": "Uma ideia ganha espaço entre palavras concorrentes",
+      "uses": "Explicar uma proposta e fixar a mensagem principal",
+      "resources": [
+        "Texto aprovado",
+        "fontes licenciadas",
+        "animação vetorial",
+        "locução"
+      ],
+      "motion": "Palavras periféricas cedem espaço; a frase central se organiza; uma linha conecta a conclusão",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-01.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "tipografia-cinetica",
+        "nearestName": "Tipografia cinética",
+        "difference": "A redistribuição do espaço demonstra prioridade e organiza o argumento, não apenas anima palavras"
+      },
+      "proof": "Nos 10 segundos: Palavras periféricas cedem espaço; a frase central se organiza; uma linha conecta a conclusão. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Texto aprovado; fontes licenciadas; animação vetorial; locução. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      },
+      "preview": {
+        "url": "previews/motion-campaign-01.mp4",
+        "seconds": 10,
+        "status": "review_pending",
+        "note": "Prévia para aprovação. Conferência técnica e de quadros; playback e escuta humanos pendentes.",
+        "poster": "assets/motion-campaign-01.webp"
+      }
+    },
+    {
+      "id": "campanha-peca-unica-em-palco-de-iris",
+      "name": "Peça única em palco de íris",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · 3D e cenografia",
+      "signature": "Cenografia 3D azul-petróleo e cobre, painéis radiais articulados, sombras de contato e câmera orbital curta.",
+      "exampleTopic": "Frasco fictício sobre pedestal cercado por painéis que abrem",
+      "uses": "Apresentar um lançamento com produto protagonista",
+      "resources": [
+        "Modelo 3D validado ou objeto fictício",
+        "materiais",
+        "luz",
+        "câmera",
+        "foley"
+      ],
+      "motion": "Painéis abrem em sequência; a luz encontra a peça; a câmera revela volume sem giro completo",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-02.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "render3d"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "produto-em-estudio",
+        "nearestName": "Produto em estúdio",
+        "difference": "A abertura mecânica do cenário cria a revelação e guia a luz; o produto mantém forma estável"
+      },
+      "proof": "Nos 10 segundos: Painéis abrem em sequência; a luz encontra a peça; a câmera revela volume sem giro completo. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Modelo 3D validado ou objeto fictício; materiais; luz; câmera; foley. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Quadro de uma cena 3D original construída em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      },
+      "preview": {
+        "url": "previews/motion-campaign-02.mp4",
+        "seconds": 10,
+        "status": "review_pending",
+        "note": "Prévia para aprovação. Conferência técnica e de quadros; playback e escuta humanos pendentes.",
+        "poster": "assets/motion-campaign-02.webp"
+      }
+    },
+    {
+      "id": "campanha-janela-optica-sobre-fotografia",
+      "name": "Janela óptica sobre fotografia",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Composição fotográfica com lente editorial móvel, ampliação localizada e grafismo discreto.",
+      "exampleTopic": "Vaso fictício de cerâmica em cenário terracota",
+      "uses": "Destacar textura e acabamento sem inventar novas vistas",
+      "resources": [
+        "Foto original em alta resolução",
+        "máscara",
+        "detalhe da mesma imagem",
+        "texto editável"
+      ],
+      "motion": "A lente percorre um detalhe; uma linha o identifica; a lente recua e devolve o conjunto",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-03.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "macrofotografia",
+        "nearestName": "Macrofotografia",
+        "difference": "A ampliação é uma janela independente na fotografia original; não simula novo ângulo nem 3D do produto"
+      },
+      "proof": "Nos 10 segundos: A lente percorre um detalhe; uma linha o identifica; a lente recua e devolve o conjunto. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Foto original em alta resolução; máscara; detalhe da mesma imagem; texto editável. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      },
+      "preview": {
+        "url": "previews/motion-campaign-03.mp4",
+        "seconds": 10,
+        "status": "review_pending",
+        "note": "Prévia para aprovação. Conferência técnica e de quadros; playback e escuta humanos pendentes.",
+        "poster": "assets/motion-campaign-03.webp"
+      }
+    },
+    {
+      "id": "campanha-ritmo-culinario-em-tres-escalas",
+      "name": "Ritmo culinário em três escalas",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Filmagem food com macro tátil, plano de ação e quadro amplo, cortes por textura e luz quente.",
+      "exampleTopic": "Mel escorrendo sobre pão artesanal fictício",
+      "uses": "Criar desejo mostrando preparação e produto",
+      "resources": [
+        "Filmagem real ou clipes validados",
+        "macro",
+        "som direto",
+        "montagem"
+      ],
+      "motion": "O fio de mel inicia a ação; o corte amplia o contato; o plano aberto revela a porção real",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-04.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "food-cinematografico",
+        "nearestName": "Food cinematográfico",
+        "difference": "Três escalas da mesma ação organizam ritmo e som, evitando uma sequência de pratos sem continuidade"
+      },
+      "proof": "Nos 10 segundos: O fio de mel inicia a ação; o corte amplia o contato; o plano aberto revela a porção real. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Filmagem real ou clipes validados; macro; som direto; montagem. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-rede-que-constroi-uma-paisagem",
+      "name": "Rede que constrói uma paisagem",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · 3D e cenografia",
+      "signature": "Motion 3D de conexões tubulares em cenário mineral, nós com volumes e luz lateral.",
+      "exampleTopic": "Sistema fictício de quatro serviços em uma paisagem abstrata",
+      "uses": "Explicar relações de um serviço ou ecossistema",
+      "resources": [
+        "Relações confirmadas",
+        "geometria 3D",
+        "rótulos vetoriais",
+        "locução"
+      ],
+      "motion": "Um trajeto chega ao primeiro nó; os demais se conectam por dependência; a câmera abre a visão geral",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-05.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "render3d"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "diagrama-de-sistemas",
+        "nearestName": "Diagrama de sistemas",
+        "difference": "A conectividade constrói a própria paisagem espacial; cada nó corresponde a uma relação explicada"
+      },
+      "proof": "Nos 10 segundos: Um trajeto chega ao primeiro nó; os demais se conectam por dependência; a câmera abre a visão geral. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Relações confirmadas; geometria 3D; rótulos vetoriais; locução. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Quadro de uma cena 3D original construída em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-fachada-como-anuncio-luminoso",
+      "name": "Fachada como anúncio luminoso",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Composição de projeção arquitetônica com superfícies reais, noite azul e reflexos contidos.",
+      "exampleTopic": "Fachada cultural fictícia recebe faixas de cor",
+      "uses": "Anunciar evento ou lançamento ligado a um lugar",
+      "resources": [
+        "Foto/vídeo autorizado",
+        "medidas ou câmera calibrada",
+        "máscaras da fachada",
+        "texto"
+      ],
+      "motion": "Uma coluna recebe luz; o feixe conecta o conjunto; a data entra em área plana legível",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-06.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "projecao-pratica-sobre-cenario",
+        "nearestName": "Projeção prática sobre cenário",
+        "difference": "A projeção organiza mensagem e fachada de evento; limites arquitetônicos permanecem fixos e verificáveis"
+      },
+      "proof": "Nos 10 segundos: Uma coluna recebe luz; o feixe conecta o conjunto; a data entra em área plana legível. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Foto/vídeo autorizado; medidas ou câmera calibrada; máscaras da fachada; texto. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-oferta-por-subtracao-visual",
+      "name": "Oferta por subtração visual",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion gráfico incisivo em branco, verde-lima e preto; áreas de ruído desaparecem em cortes precisos.",
+      "exampleTopic": "Uma única condição de oferta permanece em foco",
+      "uses": "Explicar uma oferta sem sobrecarregar o anúncio",
+      "resources": [
+        "Oferta confirmada",
+        "hierarquia",
+        "vetores",
+        "tipografia",
+        "voz"
+      ],
+      "motion": "O excesso se afasta; benefício e condição ficam juntos; CTA ocupa um espaço reservado",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-07.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "mosaico-de-sintese",
+        "nearestName": "Mosaico de síntese",
+        "difference": "A redução sequencial prova clareza comercial; não esconde restrições nem depende de um mosaico de conteúdo"
+      },
+      "proof": "Nos 10 segundos: O excesso se afasta; benefício e condição ficam juntos; CTA ocupa um espaço reservado. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Oferta confirmada; hierarquia; vetores; tipografia; voz. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-rastro-tecnico-sobre-gesto-real",
+      "name": "Rastro técnico sobre gesto real",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Filmagem editorial com linhas de tracking aderentes à ação, poucos pontos e tempo de leitura.",
+      "exampleTopic": "Ciclista fictícia em rua industrial",
+      "uses": "Demonstrar uso, ergonomia ou processo com movimento real",
+      "resources": [
+        "Vídeo autorizado",
+        "tracking",
+        "dados confirmados",
+        "máscaras",
+        "revisão de identidade"
+      ],
+      "motion": "O gesto ocorre; uma marca acompanha o ponto correto; o destaque some antes do próximo movimento",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-08.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "rotoscopia",
+        "nearestName": "Rotoscopia",
+        "difference": "O traço explica um gesto no espaço da filmagem e precisa aderir ao ponto; não é contorno decorativo da pessoa"
+      },
+      "proof": "Nos 10 segundos: O gesto ocorre; uma marca acompanha o ponto correto; o destaque some antes do próximo movimento. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Vídeo autorizado; tracking; dados confirmados; máscaras; revisão de identidade. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-mosaico-continuo-de-raciocinio",
+      "name": "Mosaico contínuo de raciocínio",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion 2D modular em azul, coral e creme, elementos que mudam de função dentro da grade.",
+      "exampleTopic": "Peças de um fluxo fictício se reorganizam numa solução",
+      "uses": "Explicar etapas sem trocar de slide a cada frase",
+      "resources": [
+        "Processo confirmado",
+        "ícones originais",
+        "sistema de grade",
+        "texto"
+      ],
+      "motion": "Um bloco muda de estado; os vizinhos respondem; a mesma grade vira síntese final",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-09.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "canvas-de-raciocinio-causal",
+        "nearestName": "Canvas de raciocínio causal",
+        "difference": "A grade persiste enquanto seus componentes mudam de função; a transição acontece dentro da explicação"
+      },
+      "proof": "Nos 10 segundos: Um bloco muda de estado; os vizinhos respondem; a mesma grade vira síntese final. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Processo confirmado; ícones originais; sistema de grade; texto. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-mecanica-em-transparencia-controlada",
+      "name": "Mecânica em transparência controlada",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · 3D e cenografia",
+      "signature": "3D técnico com carcaça translúcida, eixo metálico e luz de bancada.",
+      "exampleTopic": "Mecanismo didático fictício com três componentes",
+      "uses": "Explicar funcionamento interno com limites explícitos",
+      "resources": [
+        "Modelo e estrutura validados",
+        "transparência",
+        "corte técnico",
+        "nomenclatura"
+      ],
+      "motion": "A carcaça reduz opacidade; um componente atua; o conjunto volta a fechar",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-10.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "render3d"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "explodido-tecnico-validado",
+        "nearestName": "Explodido técnico validado",
+        "difference": "O mecanismo permanece montado e funciona em transparência, sem separar peças para sugerir arquitetura desconhecida"
+      },
+      "proof": "Nos 10 segundos: A carcaça reduz opacidade; um componente atua; o conjunto volta a fechar. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Modelo e estrutura validados; transparência; corte técnico; nomenclatura. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Quadro de uma cena 3D original construída em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-campanha-entre-duas-temperaturas",
+      "name": "Campanha entre duas temperaturas",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Filmagem de produto com luz âmbar e azul no mesmo espaço, reflexos e superfície contínua.",
+      "exampleTopic": "Frasco fictício entre dois campos de luz",
+      "uses": "Diferenciar sensações de campanha sem alterar o produto",
+      "resources": [
+        "Produto real protegido",
+        "iluminação ou composição",
+        "referências de cor"
+      ],
+      "motion": "Uma fonte assume o foco; o reflexo cruza o frasco; ambas estabilizam no packshot",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-11.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "contraste-de-ritmo",
+        "nearestName": "Contraste de ritmo",
+        "difference": "A mudança acontece na iluminação e no clima; cor do produto e rótulo são conferidos sob luz neutra"
+      },
+      "proof": "Nos 10 segundos: Uma fonte assume o foco; o reflexo cruza o frasco; ambas estabilizam no packshot. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Produto real protegido; iluminação ou composição; referências de cor. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-arquivo-em-mesa-optica",
+      "name": "Arquivo em mesa óptica",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Composição 2.5D de fotografias, acetato e transparências com sombras físicas e câmera superior.",
+      "exampleTopic": "Estudos fictícios de um processo criativo sobre mesa de luz",
+      "uses": "Contar trajetória, pesquisa ou processo de marca",
+      "resources": [
+        "Arquivo autorizado",
+        "recortes",
+        "camadas",
+        "texturas",
+        "datas confirmadas"
+      ],
+      "motion": "Uma transparência desliza; revela a relação entre duas fotos; a câmera aproxima uma evidência",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-12.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "arquivo-analogico",
+        "nearestName": "Arquivo analógico",
+        "difference": "As camadas demonstram relações documentais; a textura antiga não serve de prova de uma história inventada"
+      },
+      "proof": "Nos 10 segundos: Uma transparência desliza; revela a relação entre duas fotos; a câmera aproxima uma evidência. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Arquivo autorizado; recortes; camadas; texturas; datas confirmadas. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-calendario-cenografico-de-lancamento",
+      "name": "Calendário cenográfico de lançamento",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · 3D e cenografia",
+      "signature": "Palco 3D com lâminas de calendário em papel espesso, luz rosada e números editáveis.",
+      "exampleTopic": "Contagem de etapas de um evento fictício",
+      "uses": "Organizar aquecimento, abertura e data do lançamento",
+      "resources": [
+        "Datas confirmadas",
+        "geometria",
+        "texto vetorial",
+        "som de lâminas"
+      ],
+      "motion": "Uma lâmina vira; a seguinte revela a ação daquela fase; a data final permanece",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-13.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "render3d"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "livro-digital-de-capitulos",
+        "nearestName": "Livro digital de capítulos",
+        "difference": "Cada lâmina representa compromisso temporal real, com datas verificadas e ação distinta por fase"
+      },
+      "proof": "Nos 10 segundos: Uma lâmina vira; a seguinte revela a ação daquela fase; a data final permanece. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Datas confirmadas; geometria; texto vetorial; som de lâminas. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Quadro de uma cena 3D original construída em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-letras-como-mecanismo-de-acesso",
+      "name": "Letras como mecanismo de acesso",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion 2D de letras recortadas, encaixes e portas gráficas em vermelho e marfim.",
+      "exampleTopic": "A palavra ABRE organiza uma revelação editorial",
+      "uses": "Apresentar acesso, novidade ou descoberta",
+      "resources": [
+        "Texto curto",
+        "fontes licenciadas",
+        "máscaras",
+        "narração"
+      ],
+      "motion": "Os intervalos das letras abrem; uma área de conteúdo se revela; a palavra recompõe a assinatura",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-14.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "letras-como-cenario-construido",
+        "nearestName": "Letras como cenário construído",
+        "difference": "O mecanismo opera nos espaços internos do texto em plano gráfico, sem arquitetura 3D de letras"
+      },
+      "proof": "Nos 10 segundos: Os intervalos das letras abrem; uma área de conteúdo se revela; a palavra recompõe a assinatura. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Texto curto; fontes licenciadas; máscaras; narração. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-retrato-em-luz-coreografada",
+      "name": "Retrato em luz coreografada",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Retrato filmado com três estados suaves de luz, fundo vinho e títulos discretos.",
+      "exampleTopic": "Especialista fictícia em cenário editorial",
+      "uses": "Apresentar pessoa e posicionamento com presença profissional",
+      "resources": [
+        "Vídeo autorizado",
+        "luz real ou composição validada",
+        "originais da pessoa",
+        "texto"
+      ],
+      "motion": "A luz separa o fundo; a fala introduz a ideia; o título aparece fora do rosto",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-15.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "entrevista-com-evidencias",
+        "nearestName": "Entrevista com evidências",
+        "difference": "A luz dá estrutura à apresentação; não muda traços, idade, pele ou expressão da pessoa"
+      },
+      "proof": "Nos 10 segundos: A luz separa o fundo; a fala introduz a ideia; o título aparece fora do rosto. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Vídeo autorizado; luz real ou composição validada; originais da pessoa; texto. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-produto-em-galeria-de-espelhos",
+      "name": "Produto em galeria de espelhos",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · 3D e cenografia",
+      "signature": "3D de vitrine com espelhos verticais, objeto central e reflexos limitados.",
+      "exampleTopic": "Objeto fictício de design em galeria prateada",
+      "uses": "Apresentar silhueta e acabamento em campanha premium",
+      "resources": [
+        "Produto/modelo multivista validado",
+        "reflexos",
+        "geometria",
+        "iluminação"
+      ],
+      "motion": "Um espelho se alinha; revela uma face já documentada; a câmera fixa o objeto real",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-16.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "render3d"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "vidro-e-refracao",
+        "nearestName": "Vidro e refração",
+        "difference": "Reflexos multiplicam vistas verificadas da mesma peça; não deformam produto para criar espetáculo"
+      },
+      "proof": "Nos 10 segundos: Um espelho se alinha; revela uma face já documentada; a câmera fixa o objeto real. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Produto/modelo multivista validado; reflexos; geometria; iluminação. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Quadro de uma cena 3D original construída em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-jornada-de-servico-em-trilho-editorial",
+      "name": "Jornada de serviço em trilho editorial",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion 2D com linha contínua, estações tipográficas e estados claramente distintos.",
+      "exampleTopic": "Do pedido à entrega em um serviço fictício",
+      "uses": "Explicar como contratar e o que acontece depois",
+      "resources": [
+        "Etapas e responsabilidades",
+        "prazos confirmados",
+        "vetores",
+        "locução"
+      ],
+      "motion": "O marcador percorre uma etapa; transfere responsabilidade; encerra no próximo passo",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-17.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "linha-do-tempo",
+        "nearestName": "Linha do tempo",
+        "difference": "O trilho mostra ação e responsável, não apenas datas ou crescimento abstrato"
+      },
+      "proof": "Nos 10 segundos: O marcador percorre uma etapa; transfere responsabilidade; encerra no próximo passo. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Etapas e responsabilidades; prazos confirmados; vetores; locução. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-dispositivo-em-cenario-construido",
+      "name": "Dispositivo em cenário construído",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Campanha híbrida com aparelho real e miniambiente físico ou 3D integrado à tela.",
+      "exampleTopic": "Celular fictício diante de miniatura de praia",
+      "uses": "Lançar uma experiência digital com contexto concreto",
+      "resources": [
+        "Aparelho/modelo validado",
+        "captura real da tela",
+        "cenário",
+        "tracking"
+      ],
+      "motion": "A tela mostra uma ação real; o cenário responde por associação; o aparelho permanece protagonista",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-18.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "hibrido-2d-e-3d",
+        "nearestName": "Híbrido 2D e 3D",
+        "difference": "A relação tela-cenário explica uma experiência sem inventar funcionalidades ou transformar captura em fantasia indistinta"
+      },
+      "proof": "Nos 10 segundos: A tela mostra uma ação real; o cenário responde por associação; o aparelho permanece protagonista. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Aparelho/modelo validado; captura real da tela; cenário; tracking. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-lente-fresnel-como-cenario",
+      "name": "Lente Fresnel como cenário",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · 3D e cenografia",
+      "signature": "3D óptico com lâminas concêntricas e refração controlada em estúdio verde profundo.",
+      "exampleTopic": "Objeto fictício observado através de lente cenográfica",
+      "uses": "Criar descoberta visual em campanhas de design",
+      "resources": [
+        "Geometria óptica",
+        "objeto validado",
+        "luz",
+        "composição",
+        "packshot neutro"
+      ],
+      "motion": "A lente se desloca; o detalhe entra em foco; a lente sai para revelar a peça sem distorção",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-19.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "render3d"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "vidro-e-refracao",
+        "nearestName": "Vidro e refração",
+        "difference": "O efeito óptico é uma etapa identificada e termina numa vista íntegra, sem vender refração como característica do produto"
+      },
+      "proof": "Nos 10 segundos: A lente se desloca; o detalhe entra em foco; a lente sai para revelar a peça sem distorção. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Geometria óptica; objeto validado; luz; composição; packshot neutro. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Quadro de uma cena 3D original construída em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-lancamento-em-parede-led",
+      "name": "Lançamento em parede LED",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Filmagem e composição de produto em cenário LED, cores saturadas e reflexos coerentes.",
+      "exampleTopic": "Tênis fictício em palco azul e coral",
+      "uses": "Criar uma campanha de lançamento com energia de evento",
+      "resources": [
+        "Produto real",
+        "vídeo/captura",
+        "parede LED ou composição",
+        "máscara",
+        "luz"
+      ],
+      "motion": "A faixa na parede guia o olhar; o produto recebe um destaque; o grafismo fecha numa chamada",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-20.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "videoclipe-experimental",
+        "nearestName": "Videoclipe experimental",
+        "difference": "A energia gráfica serve a um produto e CTA claros, com luz refletida coerente e sem flashes agressivos"
+      },
+      "proof": "Nos 10 segundos: A faixa na parede guia o olhar; o produto recebe um destaque; o grafismo fecha numa chamada. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Produto real; vídeo/captura; parede LED ou composição; máscara; luz. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-dados-em-faixas-de-comparacao",
+      "name": "Dados em faixas de comparação",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion 2D de faixas horizontais com escala comum, rótulos legíveis e cor funcional.",
+      "exampleTopic": "Comparação demonstrativa de três etapas sem métricas inventadas",
+      "uses": "Explicar diferenças verificáveis numa apresentação ou campanha",
+      "resources": [
+        "Dados e fonte",
+        "unidade",
+        "escala",
+        "vetor",
+        "locução"
+      ],
+      "motion": "A escala se estabelece; as faixas entram pelo valor real; o destaque aponta a interpretação",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-21.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "dados-com-narrativa-editorial",
+        "nearestName": "Dados com narrativa editorial",
+        "difference": "A comparação preserva escala e incerteza antes do destaque; movimento não exagera diferenças"
+      },
+      "proof": "Nos 10 segundos: A escala se estabelece; as faixas entram pelo valor real; o destaque aponta a interpretação. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Dados e fonte; unidade; escala; vetor; locução. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-formas-de-marca-em-contrapeso",
+      "name": "Formas de marca em contrapeso",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · 3D e cenografia",
+      "signature": "Escultura cinética 3D com dois braços equilibrados, metal fosco e cenário lilás.",
+      "exampleTopic": "Símbolos fictícios de precisão e cuidado em equilíbrio",
+      "uses": "Comunicar valores de marca por comportamento consistente",
+      "resources": [
+        "Geometria original",
+        "sistema de pesos",
+        "animação",
+        "assinatura sonora"
+      ],
+      "motion": "Um elemento se move; o sistema compensa suavemente; o equilíbrio resolve a composição",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-22.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "render3d"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "argumento-em-balanca-cenografica",
+        "nearestName": "Argumento em balança cenográfica",
+        "difference": "A mecânica define comportamento de identidade recorrente, sem usar balança para decidir entre argumentos"
+      },
+      "proof": "Nos 10 segundos: Um elemento se move; o sistema compensa suavemente; o equilíbrio resolve a composição. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Geometria original; sistema de pesos; animação; assinatura sonora. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Quadro de uma cena 3D original construída em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-corte-por-gesto-e-cor",
+      "name": "Corte por gesto e cor",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Montagem híbrida de filmagem e grafismo: um gesto real transfere cor à próxima composição.",
+      "exampleTopic": "Mãos fictícias em cerâmica com mangas azuis",
+      "uses": "Conectar trabalho humano e identidade de marca",
+      "resources": [
+        "Filmagem autorizada",
+        "cobertura de gestos",
+        "máscaras",
+        "paleta",
+        "som direto"
+      ],
+      "motion": "A mão conclui um gesto; a direção e cor continuam no grafismo; o plano seguinte retoma a ação",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-23.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "match-cut",
+        "nearestName": "Match cut",
+        "difference": "A continuidade combina gesto, cor e significado do trabalho, não só semelhança de formas"
+      },
+      "proof": "Nos 10 segundos: A mão conclui um gesto; a direção e cor continuam no grafismo; o plano seguinte retoma a ação. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Filmagem autorizada; cobertura de gestos; máscaras; paleta; som direto. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-legenda-como-faixa-editorial-movel",
+      "name": "Legenda como faixa editorial móvel",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Tipografia grande em faixas de margem, com recortes que seguem a fala sem cobrir o assunto.",
+      "exampleTopic": "Uma mensagem institucional em três ênfases",
+      "uses": "Tornar um vídeo compreensível também sem áudio",
+      "resources": [
+        "Fala transcrita",
+        "hierarquia",
+        "safe areas",
+        "fontes",
+        "sincronização"
+      ],
+      "motion": "A frase entra por unidade de sentido; a ênfase muda; a linha concluída dá lugar à próxima",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-24.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "legenda-como-protagonista",
+        "nearestName": "Legenda como protagonista",
+        "difference": "As faixas conservam área fixa de imagem e leitura por frase; não multiplicam palavras em todo o quadro"
+      },
+      "proof": "Nos 10 segundos: A frase entra por unidade de sentido; a ênfase muda; a linha concluída dá lugar à próxima. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Fala transcrita; hierarquia; safe areas; fontes; sincronização. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-vitrine-em-gravidade-coreografada",
+      "name": "Vitrine em gravidade coreografada",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · 3D e cenografia",
+      "signature": "Cenografia 3D com objetos em trajetórias controladas, aterrissagem e sombras legíveis.",
+      "exampleTopic": "Três formas fictícias de embalagem numa vitrine coral",
+      "uses": "Apresentar família de produtos e diferenças reais",
+      "resources": [
+        "Modelos de cada SKU",
+        "física dirigida",
+        "luz",
+        "textos verificáveis"
+      ],
+      "motion": "Uma peça entra; as demais encontram posições; todas assentam antes da comparação",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-25.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "render3d"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "gravidade-em-revezamento",
+        "nearestName": "Gravidade em revezamento",
+        "difference": "O movimento termina numa vitrine comparável e respeita cada SKU; a física serve ao sortimento"
+      },
+      "proof": "Nos 10 segundos: Uma peça entra; as demais encontram posições; todas assentam antes da comparação. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Modelos de cada SKU; física dirigida; luz; textos verificáveis. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Quadro de uma cena 3D original construída em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-fotografia-editorial-com-molduras-moveis",
+      "name": "Fotografia editorial com molduras móveis",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Composição de joia e tecido com molduras de primeiro plano, profundidade 2.5D e foco seletivo.",
+      "exampleTopic": "Brinco fictício sobre seda marfim e acrílico vermelho",
+      "uses": "Destacar detalhe de moda ou design com elegância",
+      "resources": [
+        "Foto original",
+        "recortes autorizados",
+        "máscaras",
+        "sombras",
+        "alta resolução"
+      ],
+      "motion": "A moldura cruza o primeiro plano; o detalhe permanece livre; o enquadramento final isola a peça",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-26.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "fotografia-com-paralaxe",
+        "nearestName": "Fotografia com paralaxe",
+        "difference": "A moldura controla o olhar sem fabricar o verso ou a geometria do objeto; profundidade pertence às camadas"
+      },
+      "proof": "Nos 10 segundos: A moldura cruza o primeiro plano; o detalhe permanece livre; o enquadramento final isola a peça. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Foto original; recortes autorizados; máscaras; sombras; alta resolução. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-manual-em-montagem-editorial",
+      "name": "Manual em montagem editorial",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion gráfico de instruções modulares, desenho técnico simples e organização por ação.",
+      "exampleTopic": "Três comandos de um procedimento fictício",
+      "uses": "Explicar operação ou onboarding com leitura rápida",
+      "resources": [
+        "Procedimento validado",
+        "ícones",
+        "sequência",
+        "locução",
+        "legendas"
+      ],
+      "motion": "A instrução chama a ação; um estado confirma a execução; a próxima instrução ocupa o mesmo ponto",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-27.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "explicacao-tecnica-desenhada",
+        "nearestName": "Explicação técnica desenhada",
+        "difference": "A confirmação de estado organiza o manual, sem reduzir tudo a um traço que se desenha"
+      },
+      "proof": "Nos 10 segundos: A instrução chama a ação; um estado confirma a execução; a próxima instrução ocupa o mesmo ponto. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Procedimento validado; ícones; sequência; locução; legendas. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-cartaz-cromatico-em-batidas-assimetricas",
+      "name": "Cartaz cromático em batidas assimétricas",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion 2D de cartaz cultural, cores chapadas e tipografia condensada com pausas desiguais.",
+      "exampleTopic": "Convite fictício para encontro de criação",
+      "uses": "Divulgar evento com data e chamada memoráveis",
+      "resources": [
+        "Texto confirmado",
+        "fontes",
+        "paleta",
+        "grade",
+        "trilha original/licenciada"
+      ],
+      "motion": "O título ocupa o quadro; a cor muda em corte motivado; data e local recebem pausa maior",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-28.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "manifesto-de-tipografia-cinetica",
+        "nearestName": "Manifesto de tipografia cinética",
+        "difference": "O ritmo reserva a maior pausa para a informação de comparecimento, não para o efeito mais vistoso"
+      },
+      "proof": "Nos 10 segundos: O título ocupa o quadro; a cor muda em corte motivado; data e local recebem pausa maior. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Texto confirmado; fontes; paleta; grade; trilha original/licenciada. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-cenario-em-cortes-de-luz",
+      "name": "Cenário em cortes de luz",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · filmagem e composição",
+      "signature": "Filmagem de mobiliário com faixas de luz prática, câmera contida e sombras contínuas.",
+      "exampleTopic": "Poltrona fictícia de madeira em estúdio verde",
+      "uses": "Mostrar acabamento e presença espacial de um objeto",
+      "resources": [
+        "Fotos/vídeo real",
+        "iluminação",
+        "produto validado",
+        "referência neutra"
+      ],
+      "motion": "A luz revela encosto; depois assento; o plano amplo mantém os três detalhes visíveis",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-29.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "ai"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "titulos-em-relevo-por-luz-rasante",
+        "nearestName": "Títulos em relevo por luz rasante",
+        "difference": "A luz revela partes materiais do objeto no mesmo espaço, não relevo tipográfico nem troca de modelo"
+      },
+      "proof": "Nos 10 segundos: A luz revela encosto; depois assento; o plano amplo mantém os três detalhes visíveis. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Fotos/vídeo real; iluminação; produto validado; referência neutra. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Estudo fotográfico IA fictício, sem representar produto, pessoa ou resultado real. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
+    },
+    {
+      "id": "campanha-assinatura-em-sistema-responsivo",
+      "name": "Assinatura em sistema responsivo",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "kind": "Campanha · grafismo e tipografia",
+      "signature": "Motion 2D de identidade que preserva proporções ao mudar entre formatos e áreas de leitura.",
+      "exampleTopic": "Marca demonstrativa escrita como FORMA",
+      "uses": "Criar encerramentos e aberturas reutilizáveis de campanha",
+      "resources": [
+        "Logo vetorial autorizado",
+        "regras de proporção",
+        "formatos",
+        "som de assinatura"
+      ],
+      "motion": "Uma unidade gráfica se organiza; adapta o enquadramento; a assinatura repousa legível",
+      "complexity": "Alta",
+      "edition": "4.0",
+      "segment": "Direção de campanha",
+      "image": {
+        "atlas": "assets/motion-campaign-30.webp",
+        "columns": 1,
+        "rows": 1,
+        "column": 0,
+        "row": 0,
+        "sourceKind": "code"
+      },
+      "preset": {
+        "version": 4,
+        "skill": "video-multimarcas",
+        "firstDelivery": [
+          "roteiro",
+          "storyboard visual",
+          "vídeo de 10 segundos para aprovação"
+        ],
+        "avatar": false,
+        "camera": "Livre e motivada pela narrativa; sem tremor aleatório.",
+        "brand": "Adaptar à marca fornecida. Sem marca, identidade editorial provisória.",
+        "approvalGate": "Não produzir o vídeo completo antes da aprovação da amostra de 10 segundos.",
+        "research": "Pesquisar fontes confiáveis e distinguir fatos de exemplos fictícios.",
+        "quality": "Provar estado inicial, ação interna e resultado. Conferir legibilidade, câmera confortável, continuidade, sombra, contato e som. Aprovação técnica não certifica acabamento.",
+        "productFidelity": "Preservar originais de produto, pessoa, imóvel e interface. Exigir referências suficientes para ângulos, reflexos e detalhes. Identificar simulações; nunca inventar dados ou características."
+      },
+      "novelty": {
+        "nearestId": "heraldica-modular-contemporanea",
+        "nearestName": "Heráldica modular contemporânea",
+        "difference": "O sistema testa comportamento da mesma identidade entre formatos, sem criar brasões ou versões incoerentes"
+      },
+      "proof": "Nos 10 segundos: Uma unidade gráfica se organiza; adapta o enquadramento; a assinatura repousa legível. Demonstrar a técnica principal e uma transição com leitura e som; uma imagem estática não comprova movimento.",
+      "researchRefs": [
+        "motion-behavior",
+        "motion-citrix",
+        "motion-oura"
+      ],
+      "requirements": "Confirmar objetivo, mensagem, marca e CTA. Solicitar apenas recursos necessários desta direção: Logo vetorial autorizado; regras de proporção; formatos; som de assinatura. Se faltar cobertura, ferramenta ou fidelidade, explicar o bloqueio e propor enquadramento ou técnica executável antes de gastar créditos. Pessoas reais exigem originais e teste curto de identidade em movimento.",
+      "note": "Composição editorial/vetorial original em código. É uma referência estática; produção completa depende de prévia audiovisual e aprovação.",
+      "audio": {
+        "voice": "Locução natural e concisa, com pausas por significado; voz pública/licenciada ou gravação autorizada.",
+        "music": "Trilha original/licenciada com arco e fechamento; dinâmica reduzida sob a fala.",
+        "sfx": "Sons sincronizados com ações, textura e contato; evitar whooshes repetidos em todos os cortes.",
+        "mix": "Conferir inteligibilidade e escutar o arquivo completo; medição não substitui audição."
+      }
     }
   ],
   "qualityPolicy": "ACABAMENTO OBRIGATÓRIO EM TODOS OS ESTILOS: avaliar imagens IA antes de animar, clipes IA antes de montar e tratamento/edição antes de entregar. Corrigir ou substituir deformações, pele plástica, textura instável, flicker, morphing involuntário, física/luz incoerentes, recortes e voz artificiais. Conferir originais, rótulos, textos e continuidade; compor textos finais como vetores. Realismo natural nos estilos fotográficos; execução artesanal consistente nos ilustrados, sem descaracterizá-los. Registrar versão, evidência, defeito e correção em cada etapa; rever o arquivo corrigido com playback e escuta. Bloqueadores impedem aprovação; sem avaliação real, revisão pendente. Não garantir ausência absoluta de artefatos nem ocultar identificação sintética necessária.",

@@ -14,7 +14,7 @@ Este repositório não apresenta um vídeo de demonstração. O arquivo `templat
 
 ## Biblioteca visual e publicidade
 
-[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 510 direções em 17 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 30 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
+[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 540 direções em 18 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 30 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
 
 A primeira entrega é **roteiro, storyboard visual e vídeo de 10 segundos para aprovação**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
 
@@ -106,3 +106,13 @@ Regra global para todos os estilos: originais como referência principal, sem al
 ## Infoprodutores: revisão 3.2
 
 As 30 direções foram refeitas a partir de necessidades de venda, demonstração do ensino e experiência do aluno, com cinema, documental, UGC, podcast, multicâmera, screencast e motion tipográfico. São 30 estudos visuais individuais (18 fotográficos fictícios e 12 editoriais/UI), com materiais necessários, áudio e prova criativa de 10 segundos. Os IDs anteriores e as outras 480 direções foram preservados. [Pesquisa e critérios](style-atlas/records/RESEARCH.md).
+
+## Motion Design de Campanha · edição 4.0
+
+30 direções para anúncios, explicações, lançamentos e marca, com 12 estudos fotográficos IA fictícios, dez composições gráficas e oito cenas 3D originais. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. O acervo passa a 540 direções em 18 categorias, mantendo os 510 IDs anteriores.
+
+Há três prévias audiovisuais de dez segundos: **Frase que reorganiza o quadro**, **Peça única em palco de íris** e **Janela óptica sobre fotografia**. São estudos para aprovação, não exemplos de vídeos finais aprovados. A lente amplia a mesma fotografia, sem inventar vistas; o frasco 3D é fictício. A fonte da animação, o mix e a proveniência acompanham o repositório em `style-atlas/records/motion-campaign/`. Veja as amostras em https://videos.gerenciadordeanuncios.com.br/motion-campaign.html .
+
+Definir estado inicial → ação → resultado; planejar uma transição motivada, pausas de leitura, locução natural, trilha e SFX ligados à ação. Cena 3D, rotação, tracking, transparência técnica e reflexos exigem material e execução compatíveis. Não chamar zoom sobre uma foto de voo, tour ou novo ângulo. Não transformar referência estática em garantia de movimento. Preservar produto, pessoa, imóvel e interface conforme os protocolos globais; não alterar a identidade para facilitar um efeito.
+
+Verificar quadros de início, meio, fim e transições, além de reprodução integral com escuta. Registrar separadamente o que foi observado, medido e ainda depende de revisão. `review_pending` continua pendente até aprovação; renderização, metadados e medição de áudio não certificam acabamento. Pedir somente os materiais pertinentes ao estilo e explicar ferramenta ausente, limite de fidelidade ou cota antes de consumir créditos. Trocar de ferramenta não autoriza clonar voz nem reutilizar identidade de outro projeto.

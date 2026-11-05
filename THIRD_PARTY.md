@@ -14,8 +14,12 @@ Remotion tem licença própria: https://www.remotion.dev/license. React, TypeScr
 
 ## Mídia de novos projetos
 
-Não há fotografias comerciais, logo de cliente, voz ou trilha sonora distribuídos nesta versão. Para cada produção, registre origem e condições da mídia incorporada; não presuma que estar disponível publicamente concede licença de reutilização.
+Não há mídia privada de clientes. O Atlas inclui as prévias genéricas descritas abaixo. Para cada produção, registre origem e condições da mídia incorporada; não presuma que estar disponível publicamente concede licença de reutilização.
 
 ## Atlas visual
 
 `style-atlas/dist/assets/`: 26 pranchas de estudos visuais gerados por IA (incluindo 20 avatares fictícios) e duas pranchas de interfaces demonstrativas originais em HTML/CSS/SVG. Produtos, imóveis, pessoas e dados são fictícios; não são screenshots oficiais nem provas de resultados. Procedência e hashes em `style-atlas/records/assets.json`. Nenhum asset de cliente foi incluído. A interface distribui Geist (OFL), e o seletor carrega 28 arquivos WOFF2 reais para 24 combinações. Licenças OFL/Apache ficam junto aos arquivos em `style-atlas/dist/assets/fonts/`; URLs e hashes estão em `style-atlas/dist/fonts.json`. A versão embutida em Pages pode carregar os mesmos arquivos do Google Fonts. O logotipo GDA foi fornecido pelo site oficial para a página autorizada do mantenedor; a licença do código não concede direito de usar a marca GDA como sua. Substitua o logo em cópias próprias.
+
+## Motion de campanha
+
+A edição 4.0 acrescenta 12 imagens IA fictícias, dez estudos em Canvas e oito cenas Three.js originais. Três MP4s incluem locução sintética pública Kokoro-82M (modelo Apache-2.0, runtime kokoro-onnx MIT), trilha e efeitos procedurais originais. Não foi usada voz pessoal nem clonagem. Three.js/RoomEnvironment 0.181 têm licença MIT incluída em `style-atlas/records/motion-campaign/vendor/LICENSE-three.txt`. Os modelos de voz não são redistribuídos. Procedência, roteiros e estado pendente de revisão em `style-atlas/records/motion-campaign/production.json`. As campanhas citadas na pesquisa são referências de método; suas imagens, vídeos e músicas não foram reutilizados.

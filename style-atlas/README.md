@@ -1,6 +1,6 @@
 # Atlas visual — Vídeo Multimarcas
 
-Página simples em HTML, CSS e JavaScript. Não exige framework, login próprio, banco de dados ou chave de API. Contém 510 direções, técnicas e formatos em 17 famílias; não pretende esgotar todos os estilos existentes.
+Página simples em HTML, CSS e JavaScript. Não exige framework, login próprio, banco de dados ou chave de API. Contém 540 direções, técnicas e formatos em 18 famílias; não pretende esgotar todos os estilos existentes.
 
 Cada ficha inclui imagem ilustrativa, usos, recursos, movimento sugerido e preset. O usuário escolhe até duas direções, informa tema e marca opcional. A primeira entrega definida é roteiro, storyboard visual e vídeo de 10 segundos, sujeito à aprovação antes de produzir o vídeo completo.
 
@@ -66,7 +66,7 @@ O briefing mostra um diálogo de materiais condicionado às direções escolhida
 
 ## Três categorias por necessidade
 
-Mais 90 direções para saúde/estética/odontologia, e-commerce/marketplaces e infoprodutores. `records/niche_styles.py` mantém necessidades, comparações e regras específicas. Total atual: **510 direções, 17 categorias, 30 por categoria**. O filtro **Novos · 230** reúne as duas expansões desta atualização.
+Mais 90 direções para saúde/estética/odontologia, e-commerce/marketplaces e infoprodutores. `records/niche_styles.py` mantém necessidades, comparações e regras específicas. Total atual: **540 direções, 18 categorias, 30 por categoria**. O filtro **Novos · 260** reúne as duas expansões desta atualização.
 
 ## Naturalidade e acabamento em todos os estilos
 
@@ -79,3 +79,13 @@ Regra global para todos os estilos: originais como referência principal, sem al
 ## Infoprodutores: revisão 3.2
 
 As 30 opções agora separam necessidade e execução: trailers, UGC, podcast, multicâmera, POV, documentário, aftermovie, editorial, tipografia e interfaces. São 18 estudos fotográficos fictícios e 12 layouts/UI demonstrativos em arquivos individuais grandes. Os identificadores foram preservados; as outras 480 direções não mudaram. Fontes e limites estão em `records/RESEARCH.md`. Reconstruir dados com `records/build_catalog.py`; os layouts em código com `records/build_infopro_samples.py`. Assets IA aprovados são versionados, não regenerados pelo build.
+
+## Motion Design de Campanha · edição 4.0
+
+30 direções para anúncios, explicações, lançamentos e marca, com 12 estudos fotográficos IA fictícios, dez composições gráficas e oito cenas 3D originais. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. O acervo passa a 540 direções em 18 categorias, mantendo os 510 IDs anteriores.
+
+Há três prévias audiovisuais de dez segundos: **Frase que reorganiza o quadro**, **Peça única em palco de íris** e **Janela óptica sobre fotografia**. São estudos para aprovação, não exemplos de vídeos finais aprovados. A lente amplia a mesma fotografia, sem inventar vistas; o frasco 3D é fictício. A fonte da animação, o mix e a proveniência acompanham o repositório em `style-atlas/records/motion-campaign/`. Veja as amostras em https://videos.gerenciadordeanuncios.com.br/motion-campaign.html .
+
+Definir estado inicial → ação → resultado; planejar uma transição motivada, pausas de leitura, locução natural, trilha e SFX ligados à ação. Cena 3D, rotação, tracking, transparência técnica e reflexos exigem material e execução compatíveis. Não chamar zoom sobre uma foto de voo, tour ou novo ângulo. Não transformar referência estática em garantia de movimento. Preservar produto, pessoa, imóvel e interface conforme os protocolos globais; não alterar a identidade para facilitar um efeito.
+
+Verificar quadros de início, meio, fim e transições, além de reprodução integral com escuta. Registrar separadamente o que foi observado, medido e ainda depende de revisão. `review_pending` continua pendente até aprovação; renderização, metadados e medição de áudio não certificam acabamento. Pedir somente os materiais pertinentes ao estilo e explicar ferramenta ausente, limite de fidelidade ou cota antes de consumir créditos. Trocar de ferramenta não autoriza clonar voz nem reutilizar identidade de outro projeto.
