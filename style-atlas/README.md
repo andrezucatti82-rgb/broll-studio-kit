@@ -51,3 +51,7 @@ Para reconstruir: `python records/build_catalog.py`. O gerador de Page exige `be
 ## Identidade e fontes
 
 Interface GDA: fundo creme claro, azul, tipografia Geist e ícones SVG originais; a identidade dos vídeos segue a marca do usuário. Substitua logo e identidade da GDA ao hospedar sua própria versão. `dist/fonts.json` registra os 24 pares tipográficos, arquivos reais e procedência; licenças em `dist/assets/fonts/`.
+
+## Movimento e acessibilidade
+
+Imagens do topo flutuam suavemente e respondem ao mouse com paralaxe limitada. Cartões entram ao rolar; botões e diálogos têm transições breves. Textos de leitura ficam estáveis. A preferência `prefers-reduced-motion` desativa as animações e o movimento por ponteiro.

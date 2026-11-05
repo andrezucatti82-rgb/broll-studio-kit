@@ -6,3 +6,18 @@
 
 /* GDA typography and original line icons. Preset previews retain the chosen font. */
 h1,h2,h3,h4,button,input,textarea,select{font-family:Geist,Arial,sans-serif}.ui-icon{width:18px;height:18px;display:inline-block;vertical-align:-3px;flex-shrink:0;margin-right:7px}.families button{display:inline-flex;align-items:center;gap:5px}.families .ui-icon{width:16px;height:16px;margin-right:3px;color:var(--muted)}.families button[aria-pressed=true] .ui-icon{color:white}.fav .ui-icon{width:18px;height:18px;margin:0;vertical-align:middle}.fav[aria-pressed=true] .ui-icon{fill:currentColor}.search .ui-icon{margin-right:3px;width:20px;height:20px;vertical-align:middle}.workflow b .ui-icon{width:26px;height:26px;margin:0}.hero-actions .ui-icon{vertical-align:-4px}.brand-title{font-family:Geist,Arial,sans-serif}.font-card .font-sample,.font-card .font-body{font-synthesis:none}.setup-box .outline{color:#174990}.selected-font .sample-head{color:var(--ink)}
+
+/* Subtle motion supports exploration without moving reading text. */
+@keyframes hero-float{0%,100%{translate:0 0}50%{translate:0 -7px}}
+@keyframes dialog-enter{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+@keyframes backdrop-enter{from{opacity:0}to{opacity:1}}
+.hero-art{transform:translate3d(var(--pointer-x,0px),var(--pointer-y,0px),0);will-change:transform}
+.hero-photo{animation:hero-float 7s ease-in-out infinite}.hero-photo.two{animation-duration:8s;animation-delay:-2s}.hero-photo.three{animation-duration:9s;animation-delay:-4s}
+.reveal-card{opacity:0;translate:0 12px;transition:opacity .48s ease var(--reveal-delay,0ms),translate .48s cubic-bezier(.2,.7,.2,1) var(--reveal-delay,0ms),box-shadow .24s ease,transform .24s ease,border-color .24s ease}
+.reveal-card.is-visible{opacity:1;translate:0 0}
+button,.button,.hero-actions a{transition:background-color .2s ease,border-color .2s ease,box-shadow .2s ease,transform .2s ease}
+.primary:hover{background:#0028c5;box-shadow:0 5px 16px #0032eb24}.outline:hover,.pill:hover{background:#eaf0f5;border-color:#a1b5c4}
+button:active,.button:active{transform:scale(.985)}.text-button .ui-icon,.hero-actions .ui-icon{transition:transform .25s ease}.hero-actions a:hover .ui-icon{transform:translateX(2px)}
+dialog[open]{animation:dialog-enter .23s cubic-bezier(.2,.7,.2,1)}dialog[open]::backdrop{animation:backdrop-enter .2s ease}
+.font-card:hover{box-shadow:0 6px 20px #23455f12;transform:translateY(-2px)}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.hero-art{transform:none;will-change:auto}.reveal-card{opacity:1;translate:none}.card:hover,.font-card:hover,.hero-actions a:hover .ui-icon{transform:none}}

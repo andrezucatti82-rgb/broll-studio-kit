@@ -23,6 +23,8 @@ Retirada da demonstração comercial. Kit com rascunho técnico neutro.
 ## 2.1.0 — 2026-11-05
 
 - Atlas público com 280 presets, 14 famílias, amostras, comparação, 20 avatares fictícios e 24 combinações tipográficas com prévia real.
+- Galeria GDA clara em creme, tipografia Geist, ícones SVG e motion suave com movimento reduzido.
+- Guia de instalação por conta/superfície e deploy cPanel com backups verificados.
 - Primeira entrega: roteiro, storyboard e prévia de 10 segundos para aprovação.
 - Publicidade com narração, música, SFX e protocolos de fidelidade para produtos, imóveis e interfaces.
 - Fonte do atlas incluída, sem exemplos de clientes e sem dados da skill pessoal.

@@ -6,7 +6,7 @@ Este é um kit para um agente de IA produzir vídeos. A página ajuda a escolher
 
 ## 1. Experimente sem instalar programas
 
-1. Abra a galeria. Compare estilos e clique em **Usar este estilo**. Uma direção complementar é opcional.
+1. Abra a galeria. Compare estilos e clique em **Usar este estilo**. A página tem movimento suave, paralaxe discreta e ícones; a preferência de movimento reduzido do dispositivo desativa as animações. Uma direção complementar é opcional.
 2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Ver e comparar 24 tipografias** para ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 20 personagens fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
 3. Abra seu ChatGPT, entre na sua conta, cole o pedido e anexe suas fotos, logo, vídeos ou capturas. Envie a mensagem.
 4. Se a skill não estiver instalada, o pedido ainda contém as regras principais. Para contexto completo, anexe o ZIP da skill ou adicione os arquivos ao projeto compatível.
