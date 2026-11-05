@@ -1,6 +1,6 @@
 {
   "name": "video-multimarcas",
-  "version": "2.2.8",
+  "version": "2.2.9",
   "description": "Produção de vídeo para qualquer marca, com pesquisa, fidelidade, teste curto e revisão.",
   "skills": "./skills/",
   "interface": {

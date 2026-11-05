@@ -46,3 +46,7 @@ No kit, `npm run review -- video.mp4 review.json` verifica preenchimento, pendê
 Aplicar `natural-finish.md` e preencher `qualityGates` no relatório para `imageGeneration`, `videoGeneration` e `finishing`. Cada etapa aplicável exige responsável, observações e assets com arquivo, SHA256 e evidência. Geração IA não utilizada pode ser `not_applicable` com justificativa; acabamento nunca. Relatórios antigos precisam dessas evidências antes de uma nova aprovação. O validador verifica completude e bloqueios, não executa a avaliação audiovisual.
 
 Aplique também `identity-preservation.md`, registre `identityPreservation` e execute `npm run identity-check -- review.json` antes de avançar da amostra ao vídeo completo. `npm run review` rejeita o relatório final sem esse registro. Revise novamente a identidade em todos os planos finais, além do teste de movimento.
+
+## Prioridade de geração de vídeo
+
+Avalie primeiro o HeyGen pela API HTTP direta. Confirme na documentação oficial o endpoint/modelo apropriado à cena; autenticação por leitura não comprova saldo, acesso ao modelo ou fidelidade. Não faça geração paga apenas para testar conexão. Use outra solução quando houver necessidade comprovada, informando o motivo e preservando a direção aprovada. Montagem, motion em código, tipografia, som e revisão continuam etapas próprias.

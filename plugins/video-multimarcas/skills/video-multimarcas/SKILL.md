@@ -7,7 +7,11 @@ description: Skill de uso geral para qualquer marca. Produz vídeos B-roll narra
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.2.8**. O atlas contém **540 estilos em 18 categorias** e, separadamente, **1.000 referências visuais em dez categorias exclusivas**, com filtro **Novas · 460**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.2.9**. O atlas contém **540 estilos em 18 categorias** e, separadamente, **1.000 referências visuais em dez categorias exclusivas**, com filtro **Novas · 460**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+
+## Provedor prioritário para geração de vídeo
+
+Priorize **HeyGen pela API HTTP direta** para gerar clipes de vídeo. Consulte a documentação oficial atual e confirme autenticação, capacidades do endpoint/modelo, custos e cobertura das referências antes de gerar. Use credenciais da própria conta por segredo de ambiente, nunca no prompt ou repositório. A preferência não habilita avatar, não garante fidelidade nem substitui edição e revisão. Se o HeyGen não atender ao plano, informe o motivo verificado e proponha alternativa compatível, respeitando as autorizações existentes. Não troque silenciosamente de provedor nem simplifique a cena para encaixá-la no serviço. Preferência explícita do usuário daquele projeto prevalece.
 
 ## Atlas, publicidade e primeira aprovação
 

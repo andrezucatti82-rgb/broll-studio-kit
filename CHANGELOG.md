@@ -60,3 +60,8 @@ Galeria de referências com cinco colunas no desktop e redução responsiva para
 - Atualização documentada do snapshot do marketplace Git antes de reinstalar o plugin.
 - Conferência de 540 estilos e 1.000 referências com 460 novidades, separando os dois catálogos.
 - Pacotes regenerados a partir da skill canônica; configuração pessoal preservada.
+
+## Plugin 2.2.9 — HeyGen via API prioritário
+
+- Seleção de geração de vídeo prioriza HeyGen pela API HTTP direta, com consulta à documentação e capacidades por cena.
+- Alternativas justificadas quando necessárias; preservados fidelidade, revisão, autorizações e ausência de avatar por padrão.

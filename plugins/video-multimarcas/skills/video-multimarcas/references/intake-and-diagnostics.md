@@ -41,3 +41,7 @@ Dizer se está em planejamento, materiais pendentes, bloqueado, prévia gerada c
 ## Materiais dos novos nichos
 
 Saúde: serviço, identificação pública confirmada e informações revisadas pelo profissional; usar conteúdo geral com fontes quando não houver caso autorizado. Comércio eletrônico: marketplace, país/modalidade, anúncio/SKU e condições atuais, além das referências do produto. Infoprodutores: ementa, método, atividade, oferta, suporte e termos; exemplos de aluno somente autorizados. A falta desses materiais pode permitir planejamento conceitual, mas não autoriza inventar fatos ou prova de resultado.
+
+## Prioridade de geração de vídeo
+
+Avalie primeiro o HeyGen pela API HTTP direta. Confirme na documentação oficial o endpoint/modelo apropriado à cena; autenticação por leitura não comprova saldo, acesso ao modelo ou fidelidade. Não faça geração paga apenas para testar conexão. Use outra solução quando houver necessidade comprovada, informando o motivo e preservando a direção aprovada. Montagem, motion em código, tipografia, som e revisão continuam etapas próprias.
