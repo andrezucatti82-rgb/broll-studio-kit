@@ -42,3 +42,13 @@ Abra http://127.0.0.1:8770/. Para reproduzir os testes de navegador, instale Pyt
 ## Teste real proposto, não executado
 
 Escolher um dos 534 estilos sem preview e usar o mesmo tema, originais, modelo e orçamento nos dois fluxos. No novo, anexar PNG e escolher a cena mais difícil; no antigo, usar só nome/texto. Gerar apenas a amostra de 10 s após autorização. Comparar aparência lado a lado, movimento em playback integral, texto em celular e invariantes de produto/pessoa/marca contra os originais. Registrar hashes, custos, diferenças, correções e aprovação do usuário. Não inferir fidelidade do vídeo inteiro a partir da amostra.
+
+## Revisão de experiência após a publicação
+
+Acompanhamento movido para depois da biblioteca, oculto até uma escolha e centrado na próxima ação. Atualizações técnicas, histórico e arquivos ficam em seções opcionais recolhidas. A aprovação usa quatro perguntas simples; cada correção abre seu campo somente quando escolhida.
+
+Painel de direção dos estilos com até duas escolhas, miniaturas e seleção de aparência, movimento, tipografia e som. As partes marcadas são salvas na ficha/preset e restringem a orientação enviada ao agente. Controles acessíveis por teclado, relevo e textura discretos, animações suaves e movimento reduzido respeitado.
+
+A seção comercial “Produzir meu vídeo” e seus links foram removidos por solicitação do usuário. WhatsApp e GA4 seguem sem ativação.
+
+Verificação adicional: `python tests/browser-style-panel.py`, com o atlas local aberto, testa seleção sem abrir o briefing, partes escolhidas, persistência, aprovação/correção, segurança de texto, 375 px e movimento reduzido. Bundle Page recompilado e testado com a ponte simulada. Não houve teste audiovisual nem geração de vídeo.
