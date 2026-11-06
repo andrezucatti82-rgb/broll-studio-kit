@@ -1,6 +1,6 @@
 # Automação com evidências
 
-Siga materiais e recursos → roteiro → storyboard visual → amostra de 10 segundos. Reaproveite respostas, anexos e decisões do projeto atual. Pergunte apenas o que falta e muda a execução. Prossiga com etapas independentes; não repita aprovações já dadas.
+Siga materiais e recursos → roteiro → moodboard aprovado → storyboard aprovado → amostra de 10 segundos. Reaproveite respostas, anexos e decisões do projeto atual. Pergunte apenas o que falta e muda a execução. Prossiga com etapas independentes; não repita aprovações já dadas.
 
 No kit completo, `npm run plan -- --preset arquivo.json --out projects/nome` cria um registro retomável, sem gerar mídia. Consulte `docs/AUTOMATION.md`. Registre estado e evidências em cada etapa. Um comando bem-sucedido não conclui revisão ou aprovação.
 

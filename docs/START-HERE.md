@@ -10,7 +10,7 @@ Este é um kit para um agente de IA produzir vídeos. A página ajuda a escolher
 2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Ver e comparar 24 tipografias** para ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 30 personagens fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
 3. Abra seu ChatGPT, entre na sua conta, cole o pedido e anexe suas fotos, logo, vídeos ou capturas. Envie a mensagem.
 4. Se a skill não estiver instalada, o pedido ainda contém as regras principais. Para contexto completo, anexe o ZIP da skill ou adicione os arquivos ao projeto compatível.
-5. Peça ao agente para verificar suas ferramentas antes da produção. A primeira entrega será **roteiro, storyboard visual e amostra de 10 segundos para aprovação**. O vídeo completo depende dessa aprovação.
+5. Peça ao agente para verificar suas ferramentas antes da produção. A primeira entrega será **roteiro, moodboard aprovado, storyboard aprovado e amostra de 10 segundos para aprovação**. O vídeo completo depende dessa aprovação.
 
 Abrir ChatGPT não envia o pedido automaticamente. Uma conta do ChatGPT, sozinha, não garante acesso a pesquisa, síntese de voz, geração de vídeo ou execução de render. A disponibilidade varia por plano, região, superfície e conexões. Quando faltar uma capacidade, o agente deve apontar exatamente qual, concluir etapas independentes e não dizer que gerou um vídeo inexistente.
 
@@ -42,7 +42,7 @@ Abra o endereço local informado. O servidor só atende no computador local e n�
 
 O repositório contém `.agents/skills/video-multimarcas/SKILL.md`, suas referências e templates. Abra a pasta no agente e peça explicitamente:
 
-> Leia AGENTS.md e a skill .agents/skills/video-multimarcas/SKILL.md. Verifique as capacidades disponíveis. Vou fornecer tema, marca e estilo. Entregue primeiro roteiro, storyboard e vídeo de 10 segundos para aprovação.
+> Leia AGENTS.md e a skill .agents/skills/video-multimarcas/SKILL.md. Verifique as capacidades disponíveis. Vou fornecer tema, marca e estilo. Entregue primeiro roteiro e moodboard para aprovação; após o aceite, storyboard para aprovação própria; só depois, amostra de 10 segundos.
 
 Em superfícies que aceitam importação de skills, importe `dist/video-multimarcas.skill` ou o ZIP conforme a interface disponível. Se a superfície não oferecer importação, use a pasta no ambiente do agente ou os arquivos como instruções de projeto. **Copiar arquivos não instala um plugin na conta nem sincroniza automaticamente desktop e nuvem.** Faça a ativação em cada superfície e confira se o agente consegue ler as referências.
 
@@ -66,7 +66,7 @@ No ChatGPT, conecte os aplicativos necessários usando as opções de apps/conec
 
 Se usar APIs diretas, guarde suas chaves em segredos do ambiente ou variáveis locais fora do Git. Nunca cole chaves no prompt público, HTML, preset ou commit. Créditos, assinaturas e licenças de cada provedor são seus e devem ser verificados antes de chamadas pagas. A assinatura do ChatGPT não inclui automaticamente créditos de APIs externas ou da API OpenAI.
 
-O fluxo confere materiais e recursos antes de roteiro, storyboard e amostra. A ficha de cada estilo mostra requisitos e maturidade; a imagem do catálogo não certifica execução. Para retomar etapas e controlar tentativas, veja [Automação](AUTOMATION.md).
+O fluxo confere materiais e recursos antes de roteiro, moodboard, storyboard e amostra. A ficha de cada estilo mostra requisitos e maturidade; a imagem do catálogo não certifica execução. Para retomar etapas e controlar tentativas, veja [Automação](AUTOMATION.md).
 
 ## 5. Faça o primeiro projeto
 

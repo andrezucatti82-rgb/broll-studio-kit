@@ -16,7 +16,7 @@ Este repositório não apresenta um vídeo de demonstração. O arquivo `templat
 
 [Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 540 direções em 18 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 30 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
 
-A primeira entrega é **roteiro, storyboard visual e vídeo de 10 segundos para aprovação**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
+A primeira entrega é **roteiro e moodboard visual para aprovação; após o aceite, storyboard visual para aprovação própria e, depois, amostra de 10 segundos**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
 
 ## Qualidade na versão 2
 
@@ -119,7 +119,7 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 
 ## Pacotes de instalação e atualização
 
-[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.2.12, kit 2.3.0 e catálogo 4.0 (540 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
+[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.3.0, kit 2.3.0 e catálogo 4.0 (540 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
 
 ## Referências visuais para o pedido
 
@@ -128,6 +128,6 @@ Geração de vídeo: HeyGen via API HTTP direta é a primeira opção a avaliar.
 
 ## Automação de produção
 
-O atlas agora mostra materiais, ferramentas e maturidade dentro de cada ficha. O fluxo segue materiais → roteiro → storyboard → amostra, com aprovação criativa separada da revisão técnica. Consulte [produção retomável e HeyGen direto](docs/AUTOMATION.md) para `npm run plan`, orçamento local, consultas de jobs e limites de automação.
+O atlas agora mostra materiais, ferramentas e maturidade dentro de cada ficha. O fluxo segue materiais → roteiro → moodboard aprovado → storyboard aprovado → amostra, com aprovação criativa separada da revisão técnica. Consulte [produção retomável e HeyGen direto](docs/AUTOMATION.md) para `npm run plan`, orçamento local, consultas de jobs e limites de automação.
 
 [Primeira rodada de três amostras HeyGen](https://videos.gerenciadordeanuncios.com.br/automation-pilot.html): produto fictício, interface demonstrativa e explicação de agente de IA. Dez segundos cada, ainda com revisão audiovisual e aprovação criativa pendentes. Não são referências de acabamento aprovado.

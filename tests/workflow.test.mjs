@@ -24,3 +24,15 @@ test('ten-style combinations survive sheets, presets and prompts; eleven are ref
  const prompt=W.buildPrompt(choice);for(const s of choice.selectedStyles)assert.ok(prompt.includes(s.id));assert.ok(prompt.includes('todas as demais são complementares'));assert.ok(!prompt.includes('a segunda complementa'));
  const oversized={...choice,selectedStyles:styles};assert.throws(()=>validatePreset(oversized));assert.throws(()=>W.importProject(JSON.stringify(W.exportProject(oversized,{history:[],approvals:W.emptyApprovals()})),c.styles.map(s=>s.id)));
 });
+
+test('visual preproduction has separate decisions, legacy migration and strict validation',()=>{
+ const choice={selectedStyles:[{...c.styles[0],referenceFrame:W.referenceFrame(c.styles[0])}],targetDurationSeconds:30,format:'9:16',topic:'Visual plan',typography:'auto',fidelityContract:W.fidelityContract};
+ const old=W.exportProject(choice,{history:[{...good,etapa:'visual_storyboard',estado:'concluido'}],approvals:W.emptyApprovals()});delete old.preProductionApprovals;
+ const migrated=W.importProject(JSON.stringify(old),c.styles.map(s=>s.id));assert.deepEqual(migrated.history,old.history);assert.deepEqual(migrated.approvals,old.approvals);assert.equal(W.isPreProductionApproved(migrated.preProductionApprovals),false);
+ assert.equal(W.parseStatusBlock(block({...good,etapa:'moodboard',estado:'concluido'})).etapa,'moodboard');assert.equal(W.isPreProductionApproved(migrated.preProductionApprovals),false);
+ const decisions=W.emptyPreProductionApprovals();decisions.moodboard.status='approved';assert.equal(W.isPreProductionApproved(decisions),false);decisions.visual_storyboard.status='approved';assert.equal(W.isPreProductionApproved(decisions),true);
+ const approved={...migrated,preProductionApprovals:decisions};assert.deepEqual(W.importProject(JSON.stringify(approved),c.styles.map(s=>s.id)).preProductionApprovals,decisions);
+ for(const invalid of [{},null,{...decisions,extra:{}},{moodboard:{status:'approved',correction:''},visual_storyboard:{status:'correction',correction:''}},{...decisions,moodboard:{status:'automatic',correction:''}}])assert.throws(()=>W.importProject(JSON.stringify({...migrated,preProductionApprovals:invalid}),c.styles.map(s=>s.id)));
+ const prompt=W.buildPrompt(choice);for(const phrase of ['Moodboard: gerar e mostrar','Aprovação do moodboard não aprova automaticamente o storyboard','não iniciar a amostra','quadro inicial individual validado'])assert.ok(prompt.includes(phrase));
+ for(const s of c.styles){assert.ok(s.preset.firstDelivery.some(v=>v.includes('moodboard')));assert.ok(s.preset.approvalGate.includes('duas aprovações explícitas'));}
+});

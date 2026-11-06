@@ -12,7 +12,7 @@ Para produto real, pedir fotos nítidas, rótulo e ficha da variante. Giro/parte
 
 Não pedir senhas, tokens ou chaves no chat. Usar conexões seguras da ferramenta. Não solicitar documentos pessoais sem necessidade. Não pedir que o usuário forneça um software como se fosse um arquivo de mídia. Conferir ferramentas e licenças de execução por conta própria.
 
-Enquanto aguarda, continuar pesquisa, roteiro e planejamento independentes. Não executar cenas que dependam de material ausente ou inventar fatos para preencher lacunas. Se a promessa visual precisar mudar, explicar a diferença e obter a escolha da alternativa: um zoom não substitui silenciosamente um giro 360°, nem fotos substituem um tour documentado. Não tratar o silêncio como aprovação. Após a coleta necessária, entregar roteiro, storyboard visual e amostra de 10 segundos para aprovação.
+Enquanto aguarda, continuar pesquisa, roteiro e planejamento independentes. Não executar cenas que dependam de material ausente ou inventar fatos para preencher lacunas. Se a promessa visual precisar mudar, explicar a diferença e obter a escolha da alternativa: um zoom não substitui silenciosamente um giro 360°, nem fotos substituem um tour documentado. Não tratar o silêncio como aprovação. Após a coleta necessária, entregar roteiro e moodboard visual; após aprovação, gerar storyboard visual para seu aceite; depois, amostra de 10 segundos para aprovação. Consulte `preproduction-approval.md`.
 
 ## Diagnóstico antes de prometer o vídeo
 

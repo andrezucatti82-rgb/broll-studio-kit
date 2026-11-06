@@ -2,7 +2,7 @@
 
 ## Primeiro resultado revisável
 
-Entregar roteiro, storyboard com imagens e uma prévia de **10 segundos**, com locução, música e efeitos quando previstos. Não produzir o vídeo completo antes da aprovação dessa prévia, salvo autorização explícita posterior que dispense essa etapa. A prévia deve demonstrar a ação mais exigente e sua transição; uma prancha estática não prova motion, tracking, 360° ou som. Respeitar duração explicitamente diferente pedida pelo usuário.
+Entregar roteiro e moodboard visual para aprovação; após o aceite, storyboard completo com imagens para uma aprovação própria; só depois, uma prévia de **10 segundos**, com locução, música e efeitos quando previstos. Não produzir o vídeo completo antes da aprovação dessa prévia, salvo autorização explícita posterior que dispense essa etapa. A prévia deve demonstrar a ação mais exigente e sua transição; uma prancha estática não prova motion, tracking, 360° ou som. Respeitar duração explicitamente diferente pedida pelo usuário.
 
 ## Seleção de direção
 
@@ -82,7 +82,7 @@ Comércio eletrônico: confirmar SKU, variante, rótulo, dimensões, compatibili
 
 Infoprodutores: pedir ementa, método, atividades, oferta, pré-requisitos, suporte e condições relevantes. Demonstrar ensino, prática e feedback reais. Trabalhos de alunos exigem autorização; não fabricar depoimentos, renda, empregabilidade ou reconhecimento de certificado. Distinguir assistir aulas de demonstrar aprendizagem. Reduzir estímulos que disputem atenção com explicação e tarefa.
 
-Os novos presets entram na coleta guiada e no diagnóstico: conferir anexos e ferramentas, pedir apenas faltas pertinentes, explicar bloqueio com causa verificada e alternativa. Preservar o marco de roteiro, storyboard visual e 10 segundos para aprovação. Pesquisa e fontes: https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/style-atlas/records/RESEARCH.md .
+Os novos presets entram na coleta guiada e no diagnóstico: conferir anexos e ferramentas, pedir apenas faltas pertinentes, explicar bloqueio com causa verificada e alternativa. Aplicar `preproduction-approval.md`: aprovar moodboard e storyboard antes da amostra de 10 segundos. Pesquisa e fontes: https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/style-atlas/records/RESEARCH.md .
 
 ## Infoprodutores: formato não é uma estética única
 

@@ -1,6 +1,6 @@
 # Produção retomável e HeyGen direto
 
-O fluxo é **materiais e recursos → roteiro → storyboard visual → amostra de 10 segundos → revisão técnica → aprovação do usuário**. O atlas informa os requisitos e o estado de cada direção. Uma imagem de referência não comprova que o vídeo daquele estilo já foi executado.
+O fluxo é **materiais e recursos → roteiro → moodboard aprovado → storyboard aprovado → amostra de 10 segundos → revisão técnica → aprovação do usuário**. O atlas informa os requisitos e o estado de cada direção. Uma imagem de referência não comprova que o vídeo daquele estilo já foi executado.
 
 ## Retomar sem refazer o briefing
 
@@ -60,6 +60,12 @@ Faça uma tentativa por direção; examine o resultado antes de corrigir. Quando
 
 ## Evidência e publicação
 
-Guarde originais, quadro inicial individual validado, roteiro, storyboard, mídia, hashes, custos e revisão no projeto. UI e texto podem ser compostos em código; uma interface fictícia deve ser identificada. Verifique imagem, clipe e acabamento; informe o que não foi possível avaliar. Decodificação, contato de quadros, transcrição e LUFS não equivalem a playback e escuta completos. Sem estes, mantenha `review_pending`.
+Guarde originais, quadro inicial individual validado, roteiro, moodboard, storyboard, versões aprovadas, mídia, hashes, custos e revisão no projeto. UI e texto podem ser compostos em código; uma interface fictícia deve ser identificada. Verifique imagem, clipe e acabamento; informe o que não foi possível avaliar. Decodificação, contato de quadros, transcrição e LUFS não equivalem a playback e escuta completos. Sem estes, mantenha `review_pending`.
 
 O selo de aprovação exige revisão técnica real e aprovação criativa do usuário para aquele arquivo exato. Não estenda a aprovação de uma amostra a todas as variações do estilo. Não publique registros privados de cobrança, IDs de conta, respostas brutas, credenciais ou mídia de clientes. O site público é uma biblioteca e prepara o pedido; não executa chamadas pagas nem consulta a conta do visitante.
+
+## Aprovação da pré-produção visual
+
+O moodboard mostra conceito, atmosfera, imagens, cores, texturas, luz e tipografia. Depois de aprovado, o storyboard mostra todos os planos na sequência do roteiro, com ação, câmera, texto, transição e som. O agente gera os arquivos visuais; o site prepara o pedido e registra decisões, sem gerar mídia ou inspecionar anexos. Use [o protocolo](../.agents/skills/video-multimarcas/references/preproduction-approval.md) e [o modelo](../templates/preproduction-plan.json).
+
+As duas aprovações são independentes. O site recebe somente a decisão declarada pelo usuário; blocos de status não aprovam por ele. Projetos e fichas antigos preservam histórico e aprovação da amostra, e recebem os novos marcos pendentes. Alterações pertinentes invalidam as aprovações que delas dependem. Antes de continuar uma geração, o agente confere as versões reais e as decisões na conversa.

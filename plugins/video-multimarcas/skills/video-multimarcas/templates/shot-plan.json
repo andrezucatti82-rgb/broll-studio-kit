@@ -58,5 +58,13 @@
     "coverageLimits": "",
     "toolCapabilityAssessment": "",
     "testRequiredBeforeFullVideo": true
+  },
+  "preProduction": {
+    "record": "preproduction-plan.json",
+    "moodboardVersion": null,
+    "storyboardVersion": null,
+    "moodboardApproved": false,
+    "storyboardApproved": false,
+    "evidence": ""
   }
 }
