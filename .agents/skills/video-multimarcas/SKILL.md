@@ -75,3 +75,7 @@ Mostre referências e storyboards completos, respeitando as dimensões reais e s
 ## Contrato de fidelidade da amostra
 
 Peça o PNG individual indicado por referenceFrame. Se ausente, explique a limitação de aparência. É quadro fictício, sem prova de movimento ou produto real. Quatro travas exigem evidência e aprovação do usuário: aparência (comparar quadros), movimento (estado inicial → ação → resultado, playback inteiro; zoom em foto não conta), texto (código editável, fonte/acentos/leitura no celular), identidade (originais e invariantes de produto, pessoa e marca, protocolos existentes). Não prometer fidelidade total. Registre cada trava no relatório de revisão.
+
+## Duração e prova representativa
+
+Preserve targetDurationSeconds (padrão 30 s); firstDeliverySeconds permanece 10 s. Estimativa de clipes é apenas orçamento, nunca divisão uniforme da duração. A primeira entrega inclui materiais, roteiro, storyboard e amostra da cena mais difícil, com justificativa da escolha. Para 60 s ou mais, aprovar blocos após a amostra. A amostra aprovada reduz o risco sem garantir o filme inteiro.

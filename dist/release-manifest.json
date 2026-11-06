@@ -12,16 +12,16 @@
   "installationScope": "Packages do not install or update a ChatGPT account automatically.",
   "packages": {
     "video-multimarcas-plugin.zip": {
-      "bytes": 39252,
-      "sha256": "b160102e9bf18c1055e3c66f91513ecf726f991037c93904ec1fabb4a27ad9f1"
+      "bytes": 39429,
+      "sha256": "02b4a97c75998ee503fad45999d4684aa4b38956a2c62b1c9c65e6e770576c9f"
     },
     "video-multimarcas.skill": {
-      "bytes": 38733,
-      "sha256": "342721165043655f0552171bc646012b042c22d86d8f7cf9bc73856ad6f53182"
+      "bytes": 38910,
+      "sha256": "c0ce6234da425e21f79680b2040f97c59de16992cf716de3869fc5f15ad0d0c7"
     },
     "video-multimarcas.zip": {
-      "bytes": 38733,
-      "sha256": "342721165043655f0552171bc646012b042c22d86d8f7cf9bc73856ad6f53182"
+      "bytes": 38910,
+      "sha256": "c0ce6234da425e21f79680b2040f97c59de16992cf716de3869fc5f15ad0d0c7"
     }
   }
 }
