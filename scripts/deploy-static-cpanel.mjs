@@ -3,7 +3,7 @@ import {readFile,writeFile,mkdir,readdir,lstat} from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {validateReferences} from './validate-references.mjs';
-import {stableGalleryHtml} from './static-release.mjs';
+import {stableGalleryHtml,releaseEntryHtml} from './static-release.mjs';
 const argv=process.argv.slice(2),get=k=>{const i=argv.indexOf(k);return i<0?undefined:argv[i+1]};
 const domain=get('--domain'),source=path.resolve(get('--source')||'style-atlas/dist');
 const apply=argv.includes('--apply');
@@ -126,7 +126,7 @@ if(paths.includes('automation-pilot.html')){
   if(!response.ok||hash(Buffer.from(await response.arrayBuffer()))!==hash(gallery))throw Error('Pilot gallery public verification failed.');
  }catch(error){if(previous)await upload(root,name,previous);throw error;}
 }
-let html=await readFile(path.join(source,'index.html'),'utf8');
+let html=releaseEntryHtml(await readFile(path.join(source,'index.html'),'utf8'),release);
 html=html.replaceAll('src="assets/',`src="${release}/assets/`).replace('href="styles.css"',`href="${release}/styles.css"`).replace('src="app.js"',`src="${release}/app.js"`).replace('href="catalog.json"',`href="${release}/catalog.json"`);
 for(const file of ['references.css','reference-bridge.js'])html=html.replaceAll(`="${file}"`,`="${release}/${file}"`);
 html=html.replace('</head>',`<meta name="gda-atlas-release" content="${release}"><script>window.ATLAS_ASSET_BASE=${JSON.stringify(release+'/')};window.ATLAS_CATALOG_URL=${JSON.stringify(release+'/catalog.json')};</script></head>`);
