@@ -85,7 +85,7 @@ if(paths.includes('motion-campaign.html')){
   if(typeof saved.content!=='string'||Buffer.byteLength(saved.content)!==Number(oldSample.size))throw Error('Sample page backup size mismatch.');
   await upload(backupDir,'motion-campaign.html',Buffer.from(saved.content));
  }
- let sample=await readFile(path.join(source,'motion-campaign.html'),'utf8');
+ let sample=releaseEntryHtml(await readFile(path.join(source,'motion-campaign.html'),'utf8'),release);
  sample=sample.replaceAll('src="previews/',`src="/${release}/previews/`).replaceAll('href="previews/',`href="/${release}/previews/`).replaceAll('poster="assets/',`poster="/${release}/assets/`).replaceAll('url(assets/',`url(/${release}/assets/`);
  await upload(root,'motion-campaign.html',Buffer.from(sample));
  const published=await fetch(`https://${domain}/motion-campaign.html?release=${release}`,{signal:AbortSignal.timeout(45000),redirect:'error'});
@@ -100,7 +100,7 @@ if(paths.includes('references.html')){
   if(typeof saved.content!=='string'||Buffer.byteLength(saved.content)!==Number(entry.size))throw Error('Reference gallery backup size mismatch.');
   previous=Buffer.from(saved.content);await upload(backupDir,'references.html',previous);
  }
- let gallery=await readFile(path.join(source,'references.html'),'utf8');
+ let gallery=releaseEntryHtml(await readFile(path.join(source,'references.html'),'utf8'),release);
  gallery=gallery.replaceAll('src="assets/',`src="/${release}/assets/`);
  for(const file of ['styles.css','references.css','reference-bridge.js','references.js'])gallery=gallery.replaceAll(`="${file}"`,`="/${release}/${file}"`);
  gallery=gallery.replace('</head>',`<meta name="gda-atlas-release" content="${release}"><script>window.ATLAS_ASSET_BASE=${JSON.stringify('/'+release+'/')};</script></head>`);

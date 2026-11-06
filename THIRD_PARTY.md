@@ -31,3 +31,7 @@ A edição 4.0 acrescenta 12 imagens IA fictícias, dez estudos em Canvas e oito
 ## Piloto de automação de novembro de 2026
 
 Os três clipes de `style-atlas/dist/previews/automation-pilot/` foram gerados pela API do HeyGen (`heygen-video-1`) a partir de cenas 3D originais, sem pessoas ou marcas reais. Tipografia Inter e Source Serif 4 usa os arquivos e licenças já registrados no atlas. UI construída localmente e identificada como demonstrativa. Áudio solicitado ao próprio gerador; não há clonagem de voz pessoal. Consulta de referências criativas não reutilizou seus ativos. Os arquivos são amostras com revisão pendente, não evidência de aprovação profissional; o uso dos resultados gerados continua sujeito aos termos do provedor.
+
+## Favicon GDA
+
+Os favicons em `style-atlas/dist/assets/` são uma adaptação visual do símbolo GDA fornecido pelo site do mantenedor, gerada para este site e convertida para tamanhos de navegador e ícone de toque. A licença do código não concede direito de uso da marca GDA em outros projetos.

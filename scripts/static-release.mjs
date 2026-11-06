@@ -9,5 +9,7 @@ export function stableGalleryHtml(html, release) {
 export function releaseEntryHtml(html, release) {
   if (!/^atlas-\d{14}$/.test(release)) throw Error('Invalid static release');
   return html.replace(/\b(src|href)="([a-zA-Z0-9_.-]+\.(?:js|css))"/g,
-    (_, attribute, file) => `${attribute}="${release}/${file}"`);
+    (_, attribute, file) => `${attribute}="${release}/${file}"`)
+    .replace(/\b(src|href)="(assets\/[^"<>]+)"/g,
+      (_, attribute, file) => `${attribute}="${release}/${file}"`);
 }

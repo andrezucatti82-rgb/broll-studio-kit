@@ -18,5 +18,6 @@ test('every homepage script and stylesheet resolves inside the release, includin
  assert.ok(files.includes('workflow.js'));assert.ok(files.includes('site-ui.js'));
  for(const file of files){assert.ok(html.includes(`="${release}/${file}"`));assert.ok(!html.includes(`="${file}"`));}
  assert.ok(html.includes('https://gerenciadordeanuncios.com.br/'));
+ for(const file of ['favicon.ico','favicon-32.png','favicon-16.png','apple-touch-icon.png']){assert.ok(html.includes(`href="${release}/assets/${file}"`));assert.ok(fs.existsSync(new URL('../style-atlas/dist/assets/'+file,import.meta.url)));}
  assert.throws(()=>releaseEntryHtml(source,'../other'),/Invalid/);
 });
