@@ -7,7 +7,7 @@ description: Skill de uso geral para qualquer marca. Produz vídeos B-roll narra
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.2.10**. O atlas contém **540 estilos em 18 categorias** e, separadamente, **1.000 referências visuais em dez categorias exclusivas**, com filtro **Novas · 460**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.2.12**. O atlas contém **540 estilos em 18 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
 
 ## Provedor prioritário para geração de vídeo
 
@@ -19,7 +19,7 @@ Leia [publicidade e fidelidade](references/advertising-and-fidelity.md) para est
 
 ## Critério de qualidade
 
-Quando o briefing contiver referências de paleta, tipografia, composição ou materiais, leia [referências visuais](references/visual-references.md). Considere apenas os aspectos selecionados, confirme acesso às imagens e preserve a prioridade da marca e dos arquivos originais. A seleção de uma referência não autoriza copiar seus ativos.
+Use os quadros dos estilos selecionados e os arquivos originais fornecidos pelo usuário como referências. Confirme direitos antes de reutilizar qualquer ativo.
 
 Entregar um MP4 válido não basta. Para pedidos de acabamento profissional, não aceite como solução dominante fotografias com zoom, cartões inclinados e títulos. Defina ação dentro do quadro, profundidade coerente, duração motivada pela fala e conexão entre planos. Use fotografias estáticas quando tiverem função narrativa explícita. Recursos prometidos precisam ser demonstrados na execução; não rebaixe a direção por conveniência do render ou do repositório.
 
@@ -71,3 +71,15 @@ Aplique [preservação de identidade e características físicas](references/ide
 ## Apresentação de imagens para aprovação
 
 Mostre referências e storyboards completos, respeitando as dimensões reais e sem controles sobre a composição. Confira os enquadramentos no desktop, no celular e na comparação. A regra está no protocolo de acabamento; preservar a moldura não autoriza alterar os originais.
+
+## Contrato de fidelidade da amostra
+
+Peça o PNG individual indicado por referenceFrame. Se ausente, explique a limitação de aparência. É quadro fictício, sem prova de movimento ou produto real. Quatro travas exigem evidência e aprovação do usuário: aparência (comparar quadros), movimento (estado inicial → ação → resultado, playback inteiro; zoom em foto não conta), texto (código editável, fonte/acentos/leitura no celular), identidade (originais e invariantes de produto, pessoa e marca, protocolos existentes). Não prometer fidelidade total. Registre cada trava no relatório de revisão.
+
+## Duração e prova representativa
+
+Preserve targetDurationSeconds (padrão 30 s); firstDeliverySeconds permanece 10 s. Estimativa de clipes é apenas orçamento, nunca divisão uniforme da duração. A primeira entrega inclui materiais, roteiro, storyboard e amostra da cena mais difícil, com justificativa da escolha. Para 60 s ou mais, aprovar blocos após a amostra. A amostra aprovada reduz o risco sem garantir o filme inteiro.
+
+## Ficha de continuidade
+
+Encerre cada etapa com <<<STATUS_PROJETO seguido de JSON com etapa, estado, versao:1, custoInformadoUSD, resumo e pendencias, e feche com STATUS_PROJETO>>>. Etapas: choice, materials_and_resources, script, visual_storyboard, sample, technical_review, user_approval, final_video. Estados: pendente, em_andamento, aguardando_aprovacao, concluido, bloqueado, correcao. Resumo até 500 caracteres e até 12 pendências de 300. Custos são informados, não consulta de conta. O bloco nunca concede aprovação pelo usuário.

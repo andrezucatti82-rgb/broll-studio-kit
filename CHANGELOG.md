@@ -1,3 +1,8 @@
+# 2026-11-06 — Biblioteca somente de estilos
+
+- 540 estilos preservados, com galeria em largura total e escolha no briefing.
+- Pacotes de skill/plugin 2.2.12 e migração de fichas antigas.
+
 # Histórico de versões
 
 ## 2.0.1 — Direção e revisão audiovisual

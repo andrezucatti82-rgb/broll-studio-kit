@@ -24,10 +24,11 @@ Não há mídia privada de clientes. O Atlas inclui as prévias genéricas descr
 
 A edição 4.0 acrescenta 12 imagens IA fictícias, dez estudos em Canvas e oito cenas Three.js originais. Três MP4s incluem locução sintética pública Kokoro-82M (modelo Apache-2.0, runtime kokoro-onnx MIT), trilha e efeitos procedurais originais. Não foi usada voz pessoal nem clonagem. Three.js/RoomEnvironment 0.181 têm licença MIT incluída em `style-atlas/records/motion-campaign/vendor/LICENSE-three.txt`. Os modelos de voz não são redistribuídos. Procedência, roteiros e estado pendente de revisão em `style-atlas/records/motion-campaign/production.json`. As campanhas citadas na pesquisa são referências de método; suas imagens, vídeos e músicas não foram reutilizados.
 
-## Catálogo de referências visuais
-
-`style-atlas/dist/visual-references.json` contém metadados de projetos públicos, URLs de capas externas, créditos e cores aproximadas extraídas das capas. As 1.000 capas são carregadas da fonte original; seus bytes não são redistribuídos no kit. Obras, marcas e fontes pertencem aos respectivos titulares e não estão cobertas pela licença MIT. A seleção orienta a direção criativa e não concede licença para incorporar os ativos a um vídeo. A ficha conserva o link original e a condição de licença informada na coleta.
 
 ## Piloto de automação de novembro de 2026
 
 Os três clipes de `style-atlas/dist/previews/automation-pilot/` foram gerados pela API do HeyGen (`heygen-video-1`) a partir de cenas 3D originais, sem pessoas ou marcas reais. Tipografia Inter e Source Serif 4 usa os arquivos e licenças já registrados no atlas. UI construída localmente e identificada como demonstrativa. Áudio solicitado ao próprio gerador; não há clonagem de voz pessoal. Consulta de referências criativas não reutilizou seus ativos. Os arquivos são amostras com revisão pendente, não evidência de aprovação profissional; o uso dos resultados gerados continua sujeito aos termos do provedor.
+
+## Favicon GDA
+
+Os favicons em `style-atlas/dist/assets/` são uma adaptação visual do símbolo GDA fornecido pelo site do mantenedor, gerada para este site e convertida para tamanhos de navegador e ícone de toque. A licença do código não concede direito de uso da marca GDA em outros projetos.
