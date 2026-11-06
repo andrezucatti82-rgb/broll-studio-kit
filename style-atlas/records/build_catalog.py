@@ -168,6 +168,8 @@ from production_readiness import apply as apply_readiness
 apply_readiness(catalog)
 from complete_contract import apply as complete_contract
 complete_contract(catalog)
+from visual_preproduction import apply as apply_visual_preproduction
+apply_visual_preproduction(catalog)
 (ROOT/'dist/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2))
 (ROOT/'records/catalog-source.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2))
 print('540 presets, 18 families; all include use, resources, motion and 10-second approval flow.')

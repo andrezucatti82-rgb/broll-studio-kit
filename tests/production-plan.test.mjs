@@ -12,3 +12,9 @@ test('production keeps ten selected styles and rejects eleven',()=>{
  fs.writeFileSync(preset,JSON.stringify({topic:'Combination',format:'9:16',selectedStyles:styles}));assert.throws(()=>prepareProduction(preset,path.join(tmp,'eleven')),/ten styles/);
  }finally{fs.rmSync(tmp,{recursive:true,force:true});}
 });
+
+test('resuming a legacy production adds visual stages without approving or losing evidence',()=>{
+ const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'production-visual-'));
+ try{const preset=path.join(tmp,'brief.json'),out=path.join(tmp,'production');fs.writeFileSync(preset,JSON.stringify({topic:'Test',format:'9:16',selectedStyles:['hero-premium-sensorial']}));prepareProduction(preset,out);const file=path.join(out,'production.json'),legacy=JSON.parse(fs.readFileSync(file));delete legacy.stages.moodboard;delete legacy.preProduction;delete legacy.preProductionApprovals;legacy.stages.sample={status:'concluido',evidence:['preserved-sample.mp4']};fs.writeFileSync(file,JSON.stringify(legacy));prepareProduction(preset,out);const resumed=JSON.parse(fs.readFileSync(file));assert.deepEqual(resumed.stages.sample,legacy.stages.sample);assert.equal(resumed.stages.moodboard.status,'pending');assert.equal(resumed.preProductionApprovals.moodboard.status,'pending');assert.equal(resumed.sampleBlockedUntilPreProductionApproval,true);assert.ok(fs.existsSync(path.join(out,'preproduction-plan.json')));
+ }finally{fs.rmSync(tmp,{recursive:true,force:true});}
+});
