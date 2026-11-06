@@ -46,7 +46,7 @@ Escolher um dos 534 estilos sem preview e usar o mesmo tema, originais, modelo e
 
 Acompanhamento movido para depois da biblioteca, oculto até uma escolha e centrado na próxima ação. Atualizações técnicas, histórico e arquivos ficam em seções opcionais recolhidas. A aprovação usa quatro perguntas simples; cada correção abre seu campo somente quando escolhida.
 
-Escolha de até dois estilos diretamente na galeria e no briefing. Controles acessíveis por teclado, relevo e textura discretos, animações suaves e movimento reduzido respeitado.
+Escolha de até 10 estilos (um principal e até nove complementares) diretamente na galeria e no briefing. Controles acessíveis por teclado, relevo e textura discretos, animações suaves e movimento reduzido respeitado.
 
 A seção comercial “Produzir meu vídeo” e seus links foram removidos por solicitação do usuário. WhatsApp e GA4 seguem sem ativação.
 

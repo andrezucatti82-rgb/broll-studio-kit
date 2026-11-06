@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import '../style-atlas/dist/workflow.js';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {buildTimeline} from '../src/timeline.mjs';
@@ -43,7 +44,7 @@ if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)valida
 export function validatePreset(p){
  if(!p.fidelityContract||!['appearance','movement','text','identity'].every(k=>typeof p.fidelityContract[k]==='string'&&p.fidelityContract[k]))throw Error('Four fidelity locks required');
  if(p.firstDeliverySeconds!==10||!Number.isInteger(p.targetDurationSeconds)||p.targetDurationSeconds<15||!p.scenePlan?.budgetOnly)throw Error('Separate target and sample duration required');
- if(!Array.isArray(p.selectedStyles)||p.selectedStyles.length<1||p.selectedStyles.length>2)throw Error('Choose one or two styles');
+ if(!Array.isArray(p.selectedStyles)||p.selectedStyles.length<1||p.selectedStyles.length>AtlasWorkflow.MAX_SELECTED_STYLES)throw Error('Choose one to ten styles');
  for(const s of p.selectedStyles)if(!s.proof||!s.requirements||!s.audio||!s.preset?.productFidelity||s.referenceFrame?.styleId!==s.id||!s.referenceFrame?.path)throw Error('Incomplete style/reference contract');
  return p;
 }

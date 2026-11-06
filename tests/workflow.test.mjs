@@ -14,3 +14,13 @@ test('pasted status cannot grant approval; all four user locks required',()=>{co
 test('style aspects survive project sheets and scope direction in prompt',()=>{const style={...c.styles[0],referenceFrame:W.referenceFrame(c.styles[0]),selectedAspects:['appearance']},choice={selectedStyles:[style],targetDurationSeconds:30,format:'9:16',topic:'Teste',typography:'auto',fidelityContract:W.fidelityContract};const sheet=W.exportProject(choice,{history:[],approvals:W.emptyApprovals()});assert.deepEqual(W.importProject(JSON.stringify(sheet),c.styles.map(s=>s.id)).styleAspects[style.id],['appearance']);const prompt=W.buildPrompt(choice);assert.ok(prompt.includes('selectedAspects'));assert.ok(!prompt.includes(JSON.stringify(style.audio)));assert.throws(()=>W.importProject(JSON.stringify({...sheet,styleAspects:{[style.id]:['invalid']}}),c.styles.map(s=>s.id)));});
 
 test('retired library data is discarded from legacy sheets and never exported or prompted',()=>{const style={...c.styles[0],referenceFrame:W.referenceFrame(c.styles[0])},choice={selectedStyles:[style],targetDurationSeconds:30,format:'9:16',topic:'Teste',typography:'auto',fidelityContract:W.fidelityContract,visualReferences:[{title:'LEGACY LIBRARY CONTENT'}]};const sheet=W.exportProject(choice,{history:[],approvals:W.emptyApprovals()});assert.equal('visualReferences' in sheet,false);const migrated=W.importProject(JSON.stringify({...sheet,visualReferences:choice.visualReferences}),c.styles.map(s=>s.id));assert.equal('visualReferences' in migrated,false);assert.deepEqual(migrated.styles,sheet.styles);assert.ok(!W.buildPrompt(choice).includes('LEGACY LIBRARY CONTENT'));});
+
+test('ten-style combinations survive sheets, presets and prompts; eleven are refused',()=>{
+ const styles=c.styles.slice(0,11).map(s=>({...s,referenceFrame:W.referenceFrame(s)}));
+ const choice={selectedStyles:styles.slice(0,10),targetDurationSeconds:30,firstDeliverySeconds:10,scenePlan:W.estimateScenePlan(30),format:'9:16',topic:'Combinação',typography:'auto',fidelityContract:W.fidelityContract};
+ validatePreset(choice);
+ const sheet=W.exportProject(choice,{history:[],approvals:W.emptyApprovals()});
+ assert.deepEqual(W.importProject(JSON.stringify(sheet),c.styles.map(s=>s.id)).styles,styles.slice(0,10).map(s=>s.id));
+ const prompt=W.buildPrompt(choice);for(const s of choice.selectedStyles)assert.ok(prompt.includes(s.id));assert.ok(prompt.includes('todas as demais são complementares'));assert.ok(!prompt.includes('a segunda complementa'));
+ const oversized={...choice,selectedStyles:styles};assert.throws(()=>validatePreset(oversized));assert.throws(()=>W.importProject(JSON.stringify(W.exportProject(oversized,{history:[],approvals:W.emptyApprovals()})),c.styles.map(s=>s.id)));
+});

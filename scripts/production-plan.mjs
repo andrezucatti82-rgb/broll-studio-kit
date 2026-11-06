@@ -8,7 +8,7 @@ export function prepareProduction(presetFile,output){
  const preset=JSON.parse(fs.readFileSync(presetFile,'utf8'));
  if(typeof preset.topic!=='string'||!preset.topic.trim())throw Error('A topic is required');
  if(!['9:16','16:9','1:1'].includes(preset.format))throw Error('Unsupported format');
- if(!Array.isArray(preset.selectedStyles)||preset.selectedStyles.length<1||preset.selectedStyles.length>2)throw Error('Select one or two styles');
+ if(!Array.isArray(preset.selectedStyles)||preset.selectedStyles.length<1||preset.selectedStyles.length>AtlasWorkflow.MAX_SELECTED_STYLES)throw Error('Select one to ten styles');
  const catalog=JSON.parse(fs.readFileSync(path.join(root,'style-atlas/dist/catalog.json'),'utf8'));
  const styles=preset.selectedStyles.map(s=>catalog.styles.find(x=>x.id===(typeof s==='string'?s:s.id)));
  if(styles.some(x=>!x))throw Error('Unknown style; refresh the preset from the current atlas');
