@@ -71,3 +71,7 @@ Aplique [preservação de identidade e características físicas](references/ide
 ## Apresentação de imagens para aprovação
 
 Mostre referências e storyboards completos, respeitando as dimensões reais e sem controles sobre a composição. Confira os enquadramentos no desktop, no celular e na comparação. A regra está no protocolo de acabamento; preservar a moldura não autoriza alterar os originais.
+
+## Contrato de fidelidade da amostra
+
+Peça o PNG individual indicado por referenceFrame. Se ausente, explique a limitação de aparência. É quadro fictício, sem prova de movimento ou produto real. Quatro travas exigem evidência e aprovação do usuário: aparência (comparar quadros), movimento (estado inicial → ação → resultado, playback inteiro; zoom em foto não conta), texto (código editável, fonte/acentos/leitura no celular), identidade (originais e invariantes de produto, pessoa e marca, protocolos existentes). Não prometer fidelidade total. Registre cada trava no relatório de revisão.

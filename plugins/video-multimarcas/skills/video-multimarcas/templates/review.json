@@ -91,5 +91,27 @@
       "durationSeconds": null
     },
     "people": []
+  },
+  "fidelityContract": {
+    "appearance": {
+      "status": "pending",
+      "evidence": "",
+      "userApproval": false
+    },
+    "movement": {
+      "status": "pending",
+      "evidence": "",
+      "userApproval": false
+    },
+    "text": {
+      "status": "pending",
+      "evidence": "",
+      "userApproval": false
+    },
+    "identity": {
+      "status": "pending",
+      "evidence": "",
+      "userApproval": false
+    }
   }
 }

@@ -166,6 +166,8 @@ catalog['qualityPolicy']='ACABAMENTO OBRIGATÓRIO EM TODOS OS ESTILOS: avaliar i
 catalog['identityPolicy']='IDENTIDADE — REGRA GLOBAL PARA PESSOAS: preservar rosto, traços, tom de pele, idade aparente, cabelo, biotipo e proporções; sem embelezar, rejuvenescer ou emagrecer sem pedido explícito. Originais são referência principal; storyboard/montagem/gerados são secundários. Imagem para vídeo: preferir quadro individual validado, não colagem como única referência. Manter identidade entre planos; limitar câmera à cobertura disponível ou pedir referências, sem inventar corpo/ângulos ocultos. Fantasia altera somente elementos solicitados e preserva a pessoa reconhecível. Avaliar fidelidade da ferramenta antes de consumir créditos; informar limitações e propor alternativa se insuficiente, sem prometer identidade idêntica. Antes do vídeo completo, testar movimento curto e comparar rosto/corpo aos originais no início, meio, fim e mudanças de ângulo. Alteração perceptível bloqueia avanço. Registrar referências, versões, ferramenta, mudanças autorizadas e validação real; prompt sozinho não comprova preservação.'
 from production_readiness import apply as apply_readiness
 apply_readiness(catalog)
+from complete_contract import apply as complete_contract
+complete_contract(catalog)
 (ROOT/'dist/catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2))
 (ROOT/'records/catalog-source.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2))
 print('540 presets, 18 families; all include use, resources, motion and 10-second approval flow.')
