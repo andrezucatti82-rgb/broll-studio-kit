@@ -7,7 +7,7 @@ description: Skill de uso geral para qualquer marca. Produz vídeos B-roll narra
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.2.11**. O atlas contém **540 estilos em 18 categorias** e, separadamente, **1.000 referências visuais em dez categorias exclusivas**, com filtro **Novas · 460**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.2.12**. O atlas contém **540 estilos em 18 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
 
 ## Provedor prioritário para geração de vídeo
 
@@ -19,7 +19,7 @@ Leia [publicidade e fidelidade](references/advertising-and-fidelity.md) para est
 
 ## Critério de qualidade
 
-Quando o briefing contiver referências de paleta, tipografia, composição ou materiais, leia [referências visuais](references/visual-references.md). Considere apenas os aspectos selecionados, confirme acesso às imagens e preserve a prioridade da marca e dos arquivos originais. A seleção de uma referência não autoriza copiar seus ativos.
+Use os quadros dos estilos selecionados e os arquivos originais fornecidos pelo usuário como referências. Confirme direitos antes de reutilizar qualquer ativo.
 
 Entregar um MP4 válido não basta. Para pedidos de acabamento profissional, não aceite como solução dominante fotografias com zoom, cartões inclinados e títulos. Defina ação dentro do quadro, profundidade coerente, duração motivada pela fala e conexão entre planos. Use fotografias estáticas quando tiverem função narrativa explícita. Recursos prometidos precisam ser demonstrados na execução; não rebaixe a direção por conveniência do render ou do repositório.
 

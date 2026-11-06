@@ -22,9 +22,7 @@ for selector in ['.hero','.workflow','.section-head','.closing','.setup-box:not(
  for node in soup.select(selector):node.decompose()
 header=soup.select_one('.mast');header.clear();header.append(BeautifulSoup('<div class="page-toolbar"><span>Compare, escolha e salve seu briefing.</span><button id="openBrief" class="pill">Minha escolha <span id="chosenCount">0</span></button></div>','html.parser'))
 for link in soup.find_all('link',rel='stylesheet'):link.decompose()
-bridge=soup.find('script',src='reference-bridge.js')
-if bridge:bridge.decompose()
-css=((r/'dist/styles.css').read_text()+(r/'dist/references.css').read_text()).replace("url('assets/","url('"+origin+"assets/")
+css=(r/'dist/styles.css').read_text().replace("url('assets/","url('"+origin+"assets/")
 for font in ['Geist-Regular.ttf','Geist-Bold.ttf']:
  face=TTFont(r/'dist/assets'/font)
  # Embed Latin/Portuguese and UI symbols; unsupported scripts use browser fallback.

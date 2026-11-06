@@ -6,12 +6,12 @@ Branch: `feat/fidelity-project-workflow`. Trabalho local para revisão; não aut
 2. **Duração:** 15/30/60 ou 61–3600 segundos; amostra sempre 10 s. Estimativa por limites do adaptador, sem distribuir uniformemente as cenas. Testes puros de estimativa, migração e pedido passaram.
 3. **Contato:** menu Produzir meu vídeo e escolha fazer sozinho/produção pela GDA. A versão final remove WhatsApp por decisão posterior do usuário; somente link institucional, sem briefing na URL. GA4 vazio: nenhum script de medição. Se configurado futuramente, carregamento somente após consentimento explícito da sessão; só três eventos permitidos e nenhum campo digitado nos eventos. Fluxo de medição com ID real não foi verificado.
 4. **Continuidade:** ficha versionada exportável/importável, histórico e parser limitado. Dados colados são renderizados como texto. Aprovação exige quatro decisões do usuário; status nunca as concede. Projetos CLI antigos preservam evidências e recebem a etapa final pendente. Testes de ficha e parser passaram.
-5. **Escolha:** seis recomendações determinísticas, selos conforme preview (seis existentes), referências opcionais recolhidas e avisos técnicos acessíveis. Integração inclui retirada do WhatsApp, validadores de travas e compilação Page compatível.
+5. **Escolha:** seis recomendações determinísticas, selos conforme preview (seis existentes), estilos selecionados no briefing e avisos técnicos acessíveis. Integração inclui retirada do WhatsApp, validadores de travas e compilação Page compatível.
 
 ## Verificação executada
 
 - `npm ci --cache /tmp/gda-npm-cache` passou. As primeiras tentativas falharam por rede restrita e cache fora das pastas graváveis; não se alterou o lockfile para contornar a instalação.
-- `npm run check`, `npm test`, `npm run validate` passaram, incluindo 540 IDs preservados, maturidade inalterada e 1.000 referências sem duplicatas.
+- `npm run check`, `npm test`, `npm run validate` passaram, incluindo 540 IDs preservados, maturidade inalterada.
 - `npm run atlas` executado e usado nos testes Playwright/Chromium.
 - PNG dos estilos `publicidade-cinematografica` (atlas) e `aula-amostra-em-bancada-de-raciocinio` (individual) baixados e dimensões conferidas contra a fonte. Não é uma avaliação artística de todos os quadros.
 - Pedidos de 30/90 s, recarga, status válido e HTML/instruções maliciosas exibidos como texto, JSON quebrado recusado, exportação/importação e preservação do projeto após ficha inválida, seis recomendações e viewport 375 px passaram.
@@ -36,7 +36,6 @@ Abra http://127.0.0.1:8770/. Para reproduzir os testes de navegador, instale Pyt
 
 - Aprovar a chamada **Conhecer a produção da GDA** e o destino institucional; WhatsApp foi retirado.
 - Manter GA4 vazio ou fornecer ID e aprovar o consentimento e os três eventos. Não houve verificação jurídica nem teste de coleta real.
-- Aprovar continuidade das capas externas do Behance: requisições ao domínio de origem, disponibilidade/CORS e direitos de terceiros continuam relevantes. Nenhuma nova coleta ou licença foi realizada. O quadro de um estilo continua independente dessas referências opcionais.
 - Autorizar publicação e eventual atualização das instalações separadamente.
 
 ## Teste real proposto, não executado
@@ -47,8 +46,12 @@ Escolher um dos 534 estilos sem preview e usar o mesmo tema, originais, modelo e
 
 Acompanhamento movido para depois da biblioteca, oculto até uma escolha e centrado na próxima ação. Atualizações técnicas, histórico e arquivos ficam em seções opcionais recolhidas. A aprovação usa quatro perguntas simples; cada correção abre seu campo somente quando escolhida.
 
-Painel de direção dos estilos com até duas escolhas, miniaturas e seleção de aparência, movimento, tipografia e som. As partes marcadas são salvas na ficha/preset e restringem a orientação enviada ao agente. Controles acessíveis por teclado, relevo e textura discretos, animações suaves e movimento reduzido respeitado.
+Escolha de até dois estilos diretamente na galeria e no briefing. Controles acessíveis por teclado, relevo e textura discretos, animações suaves e movimento reduzido respeitado.
 
 A seção comercial “Produzir meu vídeo” e seus links foram removidos por solicitação do usuário. WhatsApp e GA4 seguem sem ativação.
 
-Verificação adicional: `python tests/browser-style-panel.py`, com o atlas local aberto, testa seleção sem abrir o briefing, partes escolhidas, persistência, aprovação/correção, segurança de texto, 375 px e movimento reduzido. Bundle Page recompilado e testado com a ponte simulada. Não houve teste audiovisual nem geração de vídeo.
+Verificação adicional: galeria em largura total, seleção no cartão, briefing, persistência, aprovação, 375 px e movimento reduzido. Não houve geração de vídeo.
+
+## Acervo simplificado
+
+A biblioteca externa e os painéis laterais foram retirados. A galeria usa toda a largura. Fichas antigas continuam importáveis: o campo legado da biblioteca externa é descartado, preservando estilos, duração, histórico e aprovações. Os quadros individuais dos estilos e os originais de clientes continuam necessários à fidelidade.

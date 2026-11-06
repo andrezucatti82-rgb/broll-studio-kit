@@ -2,13 +2,13 @@
 import {readFile,writeFile,mkdir,readdir,lstat} from 'node:fs/promises';
 import path from 'node:path';
 import {createHash} from 'node:crypto';
-import {validateReferences} from './validate-references.mjs';
+import {validateCatalog} from './validate.mjs';
 import {stableGalleryHtml,releaseEntryHtml} from './static-release.mjs';
 const argv=process.argv.slice(2),get=k=>{const i=argv.indexOf(k);return i<0?undefined:argv[i+1]};
 const domain=get('--domain'),source=path.resolve(get('--source')||'style-atlas/dist');
 const apply=argv.includes('--apply');
-// Reject duplicate projects, covers or category memberships before any hosting call.
-validateReferences(JSON.parse(await readFile(path.join(source,'visual-references.json'),'utf8')));
+// Check the retained 540-style catalog before accessing hosting.
+validateCatalog(JSON.parse(await readFile(path.join(source,'catalog.json'),'utf8')));
 const {CPANEL_HOST:host,CPANEL_USER:user,CPANEL_TOKEN:token}=process.env;
 const hash=b=>createHash('sha256').update(b).digest('hex');
 if(!domain||!/^([a-z0-9-]+\.)+[a-z]{2,}$/.test(domain))throw Error('Provide --domain with the authorized hostname.');
@@ -91,25 +91,6 @@ if(paths.includes('motion-campaign.html')){
  const published=await fetch(`https://${domain}/motion-campaign.html?release=${release}`,{signal:AbortSignal.timeout(45000),redirect:'error'});
  if(!published.ok||hash(Buffer.from(await published.arrayBuffer()))!==hash(Buffer.from(sample)))throw Error('Sample page public verification failed.');
 }
-// Keep the reference gallery bookmark stable while its scripts/data are immutable.
-if(paths.includes('references.html')){
- const entry=entries.find(x=>x.file==='references.html'&&x.type==='file');
- let previous=null;
- if(entry){
-  const saved=await api('Fileman','get_file_content',{dir:root,file:'references.html',from_charset:'UTF-8',to_charset:'UTF-8',update_html_document_encoding:0});
-  if(typeof saved.content!=='string'||Buffer.byteLength(saved.content)!==Number(entry.size))throw Error('Reference gallery backup size mismatch.');
-  previous=Buffer.from(saved.content);await upload(backupDir,'references.html',previous);
- }
- let gallery=releaseEntryHtml(await readFile(path.join(source,'references.html'),'utf8'),release);
- gallery=gallery.replaceAll('src="assets/',`src="/${release}/assets/`);
- for(const file of ['styles.css','references.css','reference-bridge.js','references.js'])gallery=gallery.replaceAll(`="${file}"`,`="/${release}/${file}"`);
- gallery=gallery.replace('</head>',`<meta name="gda-atlas-release" content="${release}"><script>window.ATLAS_ASSET_BASE=${JSON.stringify('/'+release+'/')};</script></head>`);
- try{
-  await upload(root,'references.html',Buffer.from(gallery));
-  const response=await fetch(`https://${domain}/references.html?release=${release}`,{headers:{'User-Agent':'GDA-Static-Deploy/1.0'},signal:AbortSignal.timeout(45000),redirect:'error'});
-  if(!response.ok||hash(Buffer.from(await response.arrayBuffer()))!==hash(Buffer.from(gallery)))throw Error('Reference gallery public verification failed.');
- }catch(error){if(previous)await upload(root,'references.html',previous);throw error;}
-}
 // Keep the pilot approval page bookmarked at the root, with media in the release.
 if(paths.includes('automation-pilot.html')){
  const name='automation-pilot.html',entry=entries.find(x=>x.file===name&&x.type==='file');
@@ -128,7 +109,6 @@ if(paths.includes('automation-pilot.html')){
 }
 let html=releaseEntryHtml(await readFile(path.join(source,'index.html'),'utf8'),release);
 html=html.replaceAll('src="assets/',`src="${release}/assets/`).replace('href="styles.css"',`href="${release}/styles.css"`).replace('src="app.js"',`src="${release}/app.js"`).replace('href="catalog.json"',`href="${release}/catalog.json"`);
-for(const file of ['references.css','reference-bridge.js'])html=html.replaceAll(`="${file}"`,`="${release}/${file}"`);
 html=html.replace('</head>',`<meta name="gda-atlas-release" content="${release}"><script>window.ATLAS_ASSET_BASE=${JSON.stringify(release+'/')};window.ATLAS_CATALOG_URL=${JSON.stringify(release+'/catalog.json')};</script></head>`);
 try{
  await upload(root,'index.html',Buffer.from(html));
@@ -136,5 +116,29 @@ try{
  if(!r.ok||!text.includes(`content="${release}"`)||!text.includes(`${release}/app.js`))throw Error('Homepage readback failed.');
  receipt.status='published';receipt.url=`https://${domain}/`;receipt.newSha256=hash(Buffer.from(html));
 }catch(e){await upload(root,'index.html',oldBytes);receipt.status='rolled_back';await writeFile('deployment-backup/receipt.json',JSON.stringify(receipt,null,2));throw Error('Publication verification failed; original homepage restored.');}
+await writeFile('deployment-backup/receipt.json',JSON.stringify(receipt,null,2));await upload(backupDir,'receipt.json',Buffer.from(JSON.stringify(receipt,null,2)));
+// Remove the former library from all known static releases, including direct bookmarks.
+const retired=['references.html','references.css','references.js','reference-bridge.js','visual-references.json'];
+const redirect=Buffer.from('<!doctype html><html lang="pt-BR"><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/"><meta name="robots" content="noindex"><title>Estilos de vídeo</title></head><body><a href="/">Explorar estilos de vídeo</a></body></html>');
+const previousDirs=entries.filter(x=>/^atlas-\d{14}$/.test(x.file||'')).map(x=>x.file);
+receipt.retiredLibraryFolders=[];
+for(const rel of ['',...previousDirs]){
+ const dir=rel?path.posix.join(root,rel):root;
+ const listing=rel?await api('Fileman','list_files',{dir,show_hidden:0}):entries;
+ const rows=Array.isArray(listing)?listing:[...(listing.files||[]),...(listing.dirs||[])];
+ const present=rows.filter(x=>retired.includes(x.file)&&x.type==='file');
+ if(!present.length)continue;
+ for(const entry of present){
+  // Preserve previous bytes via the hosting copy API outside the public directory.
+  let bytes;
+  if(Number(entry.size)>1024*1024){const response=await fetch(`https://${domain}/${rel?rel+'/':''}${entry.file}?backup=${release}`,{headers:{'Accept-Encoding':'identity','User-Agent':'GDA-Static-Deploy/1.0'},signal:AbortSignal.timeout(45000),redirect:'error'});if(!response.ok)throw Error('Retired asset read failed');bytes=Buffer.from(await response.arrayBuffer());}
+  else{const old=await api('Fileman','get_file_content',{dir,file:entry.file,from_charset:'UTF-8',to_charset:'UTF-8',update_html_document_encoding:0});if(typeof old.content!=='string')throw Error('Retired asset read failed');bytes=Buffer.from(old.content);}
+  if(bytes.length!==Number(entry.size))throw Error('Retired asset backup mismatch: '+entry.file);
+  await upload(path.posix.join(backupDir,'retired',rel||'root'),entry.file,bytes);
+  const replacement=entry.file.endsWith('.html')?redirect:Buffer.from(entry.file.endsWith('.json')?'{}\n':'/* retired */\n');
+  await upload(dir,entry.file,replacement);
+ }
+ receipt.retiredLibraryFolders.push(rel||'root');
+}
 await writeFile('deployment-backup/receipt.json',JSON.stringify(receipt,null,2));await upload(backupDir,'receipt.json',Buffer.from(JSON.stringify(receipt,null,2)));
 console.log(JSON.stringify({status:receipt.status,url:receipt.url,release,backupDir,previousSha256:receipt.previousSha256,newSha256:receipt.newSha256}));

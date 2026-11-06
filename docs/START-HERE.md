@@ -142,6 +142,4 @@ Definir estado inicial → ação → resultado; planejar uma transição motiva
 
 Verificar quadros de início, meio, fim e transições, além de reprodução integral com escuta. Registrar separadamente o que foi observado, medido e ainda depende de revisão. `review_pending` continua pendente até aprovação; renderização, metadados e medição de áudio não certificam acabamento. Pedir somente os materiais pertinentes ao estilo e explicar ferramenta ausente, limite de fidelidade ou cota antes de consumir créditos. Trocar de ferramenta não autoriza clonar voz nem reutilizar identidade de outro projeto.
 
-## Referências visuais para o pedido
 
-Além dos 540 estilos, há [1.000 referências visuais](https://videos.gerenciadordeanuncios.com.br/references.html) com imagens, autoria e paletas aproximadas, distribuídas em dez categorias sem repetição. Selecione até seis e escolha o que aproveitar: cores, tipografia, composição e materiais/luz. A seleção acompanha o prompt e o preset. [Como usar e manter](VISUAL-REFERENCES.md). Não transfere automaticamente arquivos nem licenças.

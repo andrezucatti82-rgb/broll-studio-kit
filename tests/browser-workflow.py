@@ -12,7 +12,7 @@ with sync_playwright() as p:
   with page.expect_download() as dl:page.locator('#detailContent [data-frame]').click()
   dl.value.save_as(w/dl.value.suggested_filename);page.locator('#detailDialog [data-close]').click()
   print('download',s['id'],flush=True)
- page.locator('#search').fill('');page.locator('[data-detail]').first.click();page.locator('[data-choose]').click();page.locator('#topic').fill('Teste de produto')
+ page.locator('#search').fill('');page.locator('[data-detail]').first.click();page.locator('#detailContent [data-choose]').click();page.locator('#topic').fill('Teste de produto')
  for n in [30,90]:
   page.locator('#duration').select_option('30' if n==30 else 'custom')
   if n==90:page.locator('#customDuration').fill('90')
@@ -27,7 +27,7 @@ with sync_playwright() as p:
  page.set_viewport_size({'width':375,'height':812});assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1');page.screenshot(path=str(w/'mobile.png'))
  # Page mode: forbid even reading localStorage; use a simulated native bridge.
  pg=b.new_page();pg.add_init_script("window.ATLAS_PAGE_MODE=true;Object.defineProperty(window,'localStorage',{get(){throw Error('storage forbidden')}});window.openai={widgetState:null,setWidgetState:async s=>{window.__saved=s}}")
- pg.on('pageerror',lambda e:errors.append(str(e)));pg.goto('http://127.0.0.1:8770/',wait_until='networkidle');pg.wait_for_function('window.ATLAS_READY');pg.locator('[data-detail]').first.click();pg.locator('[data-choose]').click();pg.locator('#topic').fill('Teste Page');pg.locator('#prepare').click();assert pg.evaluate('window.__saved.modelContent.targetDurationSeconds')==30
- assert not page.locator('script[src*="googletagmanager"]').count();assert not errors,errors
+ pg.on('pageerror',lambda e:errors.append(str(e)));pg.goto('http://127.0.0.1:8770/',wait_until='networkidle');pg.wait_for_function('window.ATLAS_READY');pg.locator('[data-detail]').first.click();pg.locator('#detailContent [data-choose]').click();pg.locator('#topic').fill('Teste Page');pg.locator('#prepare').click();assert pg.evaluate('window.__saved.modelContent.targetDurationSeconds')==30
+ assert not page.locator('script[src*="googletagmanager"]').count();assert not page.locator('#styleDirectionPanel').count();assert not page.locator('#visualReferenceSummary').count();assert not page.locator('a[href*="references.html"]').count();assert not errors,errors
  b.close()
 (w/'browser-results.json').write_text(json.dumps({'passed':['atlas and individual PNG download','30/90 second prompt','reload','plain text malicious status','invalid status','project export import and invalid preservation','6 recommendations and full catalog','375px width','simulated Page without localStorage','no GA script'],'errors':errors},indent=2));print('BROWSER CHECKS PASSED')
