@@ -79,3 +79,7 @@ Peça o PNG individual indicado por referenceFrame. Se ausente, explique a limit
 ## Duração e prova representativa
 
 Preserve targetDurationSeconds (padrão 30 s); firstDeliverySeconds permanece 10 s. Estimativa de clipes é apenas orçamento, nunca divisão uniforme da duração. A primeira entrega inclui materiais, roteiro, storyboard e amostra da cena mais difícil, com justificativa da escolha. Para 60 s ou mais, aprovar blocos após a amostra. A amostra aprovada reduz o risco sem garantir o filme inteiro.
+
+## Ficha de continuidade
+
+Encerre cada etapa com <<<STATUS_PROJETO seguido de JSON com etapa, estado, versao:1, custoInformadoUSD, resumo e pendencias, e feche com STATUS_PROJETO>>>. Etapas: choice, materials_and_resources, script, visual_storyboard, sample, technical_review, user_approval, final_video. Estados: pendente, em_andamento, aguardando_aprovacao, concluido, bloqueado, correcao. Resumo até 500 caracteres e até 12 pendências de 300. Custos são informados, não consulta de conta. O bloco nunca concede aprovação pelo usuário.

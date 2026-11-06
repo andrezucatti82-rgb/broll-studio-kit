@@ -15,9 +15,9 @@ export function prepareProduction(presetFile,output){
  const hash=crypto.createHash('sha256').update(JSON.stringify(preset)).digest('hex'),dest=path.resolve(output),record=path.join(dest,'production.json');
  if(fs.existsSync(dest)){
   if(!fs.existsSync(record)||JSON.parse(fs.readFileSync(record,'utf8')).presetSha256!==hash)throw Error('Destination exists with different content; preserving all files');
-  return {directory:dest,status:'resumed_without_overwrite'};
+  const previous=JSON.parse(fs.readFileSync(record,'utf8'));if(!previous.stages.final_video){previous.stages.final_video={status:'pending',evidence:[]};fs.writeFileSync(record,JSON.stringify(previous,null,2)+'\n');}return {directory:dest,status:'resumed_without_overwrite'};
  }
- const stages=['materials_and_resources','script','visual_storyboard','sample','technical_review','user_approval'];
+ const stages=['materials_and_resources','script','visual_storyboard','sample','technical_review','user_approval','final_video'];
  const plan={schemaVersion:1,presetSha256:hash,topic:preset.topic,format:preset.format,targetDurationSeconds:AtlasWorkflow.normalizeDuration(preset.targetDurationSeconds),scenePlan:AtlasWorkflow.estimateScenePlan(AtlasWorkflow.normalizeDuration(preset.targetDurationSeconds)),firstDeliverySeconds:10,provider:'heygen_direct_api',providerFallback:'propose_same_provider_alternative_for_approval',fullVideoBlockedUntilUserApproval:true,styles:styles.map(s=>({id:s.id,name:s.name,resources:s.resources,motion:s.motion,readiness:s.readiness})),stages:Object.fromEntries(stages.map(s=>[s,{status:'pending',evidence:[]}]))};
  fs.mkdirSync(dest,{recursive:true});fs.writeFileSync(record,JSON.stringify(plan,null,2)+'\n');
  fs.writeFileSync(path.join(dest,'brief.json'),JSON.stringify(preset,null,2)+'\n');
