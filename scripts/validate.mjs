@@ -35,7 +35,15 @@ export function validate(p){
  let end=0;for(const c of p.captions){if(!Number.isFinite(c.start)||!Number.isFinite(c.end)||c.start<end||c.end<=c.start||c.end>duration||typeof c.text!=='string')fail('Invalid caption timing');end=c.end;}
  return p;
 }
-if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){validate(JSON.parse(fs.readFileSync(process.argv[2]||'templates/project.json','utf8')));console.log('Project valid. This does not certify creative quality.');}
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){const input=JSON.parse(fs.readFileSync(process.argv[2]||'templates/project.json','utf8'));(input.selectedStyles?validatePreset:validate)(input);console.log('Project valid. This does not certify creative quality.');}
 
 export function validateCatalog(c){if(c.styles.length!==540||new Set(c.styles.map(s=>s.id)).size!==540)throw Error('540 unique styles required');for(const s of c.styles)if(!s.proof||!s.requirements||!s.preset?.productFidelity||!['voice','music','sfx','mix'].every(k=>s.audio?.[k]))throw Error('Incomplete fidelity fields: '+s.id);return c;}
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)validateCatalog(JSON.parse(fs.readFileSync(new URL('../style-atlas/dist/catalog.json',import.meta.url))));
+
+export function validatePreset(p){
+ if(!p.fidelityContract||!['appearance','movement','text','identity'].every(k=>typeof p.fidelityContract[k]==='string'&&p.fidelityContract[k]))throw Error('Four fidelity locks required');
+ if(p.firstDeliverySeconds!==10||!Number.isInteger(p.targetDurationSeconds)||p.targetDurationSeconds<15||!p.scenePlan?.budgetOnly)throw Error('Separate target and sample duration required');
+ if(!Array.isArray(p.selectedStyles)||p.selectedStyles.length<1||p.selectedStyles.length>2)throw Error('Choose one or two styles');
+ for(const s of p.selectedStyles)if(!s.proof||!s.requirements||!s.audio||!s.preset?.productFidelity||s.referenceFrame?.styleId!==s.id||!s.referenceFrame?.path)throw Error('Incomplete style/reference contract');
+ return p;
+}

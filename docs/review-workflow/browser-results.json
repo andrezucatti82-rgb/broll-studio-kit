@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "atlas and individual PNG download",
+    "30/90 second prompt",
+    "reload",
+    "plain text malicious status",
+    "invalid status",
+    "project export import and invalid preservation",
+    "6 recommendations and full catalog",
+    "375px width",
+    "simulated Page without localStorage",
+    "no GA script"
+  ],
+  "errors": []
+}

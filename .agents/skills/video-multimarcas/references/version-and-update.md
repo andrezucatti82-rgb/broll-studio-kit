@@ -1,6 +1,6 @@
 # Versão, instalação e atualização
 
-Esta edição é `video-multimarcas` **2.2.10**, genérica e independente de `video-b-roll`. O kit executável é 2.3.0; estilos são catálogo 4.0 (540/18 categorias); referências visuais são catálogo 2.0 (1.000/10 categorias, 460 novas). Não confunda versão da skill, do plugin, do kit e dos catálogos.
+Esta edição é `video-multimarcas` **2.2.11**, genérica e independente de `video-b-roll`. O kit executável é 2.3.0; estilos são catálogo 4.0 (540/18 categorias); referências visuais são catálogo 2.0 (1.000/10 categorias, 460 novas). Não confunda versão da skill, do plugin, do kit e dos catálogos.
 
 Fontes públicas:
 - Repositório: https://github.com/andrezucatti82-rgb/broll-studio-kit

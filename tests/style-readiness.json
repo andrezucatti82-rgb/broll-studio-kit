@@ -1,0 +1,2162 @@
+{
+  "publicidade-cinematografica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "documental-observacional": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "noir": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "macrofotografia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "produto-em-estudio": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "food-cinematografico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "viagem-e-natureza": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "arquivo-analogico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "videoclipe-experimental": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "camera-subjetiva": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "dupla-exposicao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "surrealismo-fotografico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "design-suico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "bauhaus": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "construtivismo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "art-deco": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pop-art": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "memphis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "brutalismo-grafico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "editorial-maximalista": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "minimalismo-de-luxo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "editorial-de-revista": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "psicodelia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "y2k-grafico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "flat-vetorial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "linha-continua": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "line-art-tecnico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cartoon-expressivo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "quadrinhos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "manga": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "anime": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "aquarela": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "guache": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pintura-a-oleo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "gravura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "colagem-digital-ilustrada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "recorte-de-papel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "papel-em-camadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "origami": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "massinha": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tecido-e-feltro": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "bordado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "recortes-de-revista": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "risografia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "serigrafia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "carimbos-e-xilogravura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "colagem-vintage": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "quadro-de-giz": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "interfaces-reais": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "interface-demonstrativa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "blueprint": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "diagrama-de-sistemas": {
+    "status": "sample_review_pending",
+    "evidence": "Piloto HeyGen com composição em código: quadros e arquivo conferidos; playback perceptivo, escuta integral e aprovação do usuário pendentes."
+  },
+  "infografia-de-dados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cartografia-animada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "terminal-ascii": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pixel-art": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "retro-computacional": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "hud-futurista": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "glitch-e-datamoshing": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "visualizacao-generativa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tipografia-cinetica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "morphing": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "liquid-motion": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "trim-paths": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "frame-a-frame": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "rotoscopia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fotografia-com-paralaxe": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "match-cut": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "travessia-por-objeto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tela-dividida": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "rastros-de-luz": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "stop-motion": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "3d-fotorrealista": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "clay-render": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "low-poly": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "papercraft-3d": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "voxel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "wireframe": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "isometria-3d": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "toy-design": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "skeuomorfismo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "vidro-e-refracao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "metal-e-cromado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "holografia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "investigacao-visual": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "explicador-por-metafora": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "demonstracao-de-produto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tutorial-de-interface": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "historia-com-personagem": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "antes-e-depois": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "linha-do-tempo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "caso-de-uso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "manifesto-de-marca": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "colagem-com-rotoscopia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cinema-com-dados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "hibrido-2d-e-3d": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "hero-premium-sensorial": {
+    "status": "sample_review_pending",
+    "evidence": "Piloto HeyGen com composição em código: quadros e arquivo conferidos; playback perceptivo, escuta integral e aprovação do usuário pendentes."
+  },
+  "vitrine-orbital-360": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "macro-tatil-de-materiais": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "produto-com-widgets-rastreados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "explodido-tecnico-validado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "produto-gigante-em-mundo-miniatura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fashion-editorial-em-modelo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "joia-em-detalhe-e-uso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "colagem-streetwear": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "decoracao-em-ambientes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "imovel-editorial-imersivo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "gastronomia-em-camadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "food-asmr-com-narracao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "bem-estar-botanico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pet-em-uso-cotidiano": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "gaming-neon-de-lancamento": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "smartphone-camera-em-foco": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "demonstracao-com-maos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "unboxing-artesanal": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "portal-pelo-detalhe": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "splash-publicitario-controlado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mundos-de-uso-em-miniatura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "triptico-de-beneficios": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "packshot-com-chamada-editorial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "satelite-ate-a-fachada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "drone-de-aproximacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fachada-com-revelacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tour-conectado-por-planta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "interiores-com-luz-natural": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "acabamentos-em-macro": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "vista-e-entorno-verificaveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "staging-virtual-identificado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "corretor-real-com-b-roll": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "avatar-do-corretor-sobre-fotos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "planta-que-orienta-a-visita": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ficha-imobiliaria-cinematografica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanhas-em-camadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pesquisa-paga-em-foco": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "jornada-analitica-ga4": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "e-commerce-do-catalogo-ao-pedido": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "conversa-que-resolve": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pipeline-comercial-em-acao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tour-de-uma-funcionalidade": {
+    "status": "sample_review_pending",
+    "evidence": "Piloto HeyGen com composição em código: quadros e arquivo conferidos; playback perceptivo, escuta integral e aprovação do usuário pendentes."
+  },
+  "integracoes-em-fluxo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "dashboard-que-explica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "comparacao-de-fluxo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "zoom-de-precisao-na-interface": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "central-de-atendimento-multicanal": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "editorial-tipografico-em-profundidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "manifesto-de-tipografia-cinetica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "vidro-editorial-em-camadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "bokeh-cinematografico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "arquitetura-de-papel-informativa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "dados-com-narrativa-editorial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "formas-fluidas-e-palavras": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "exposicao-de-uma-ideia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "contraste-de-ritmo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "explicacao-tecnica-desenhada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "colagem-editorial-de-perspectivas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "do-todo-ao-detalhe": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "western-panoramico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ficcao-cientifica-industrial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cinema-subaquatico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "infravermelho-botanico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "quadro-simetrico-teatral": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "plano-sequencia-coreografado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "projecao-pratica-sobre-cenario": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "silhueta-cromatica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "art-nouveau-botanico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "de-stijl-ortogonal": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "op-art-controlada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "zine-punk-xerocado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "vaporwave-arquitetonico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "caligrafia-gestual": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "letreiro-vernacular": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pictogramas-de-sinalizacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pontilhismo-cromatico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pastel-seco": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "carvao-expressivo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "vitral-ilustrado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "croqui-de-moda-a-marcador": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "sumi-e-de-tinta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "miniatura-ornamental": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "desenho-de-luz-neon": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mosaico-ceramico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "areia-sobre-luz": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cianotipia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "esmalte-cloisonne": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "metal-repuxado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "resina-com-inclusoes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "madeira-entalhada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "acetatos-sobrepostos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fluxos-sankey": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "matriz-de-calor": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "rede-topologica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "espectrograma-visual": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cartograma-hexagonal": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "dendrograma-de-classificacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "matriz-de-decisao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "calendario-radial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "teatro-de-silhuetas-articuladas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "enxame-procedural": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cordas-e-restricoes-fisicas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "reacao-em-domino": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "eco-temporal-de-movimento": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "zootropio-digital": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "painel-de-pinos-animados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "anamorfose-por-perspectiva": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "nuvem-de-pontos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "nevoa-volumetrica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cristais-procedurais": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ceramica-esmaltada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "volumes-inflaveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fibras-e-pelagem-escultorica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "metaballs-escultoricas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "corte-seccional-espacial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "entrevista-com-evidencias": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pergunta-e-descoberta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "narrativa-ramificada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "historia-em-ordem-reversa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "causa-e-consequencia-paralelas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "jornada-de-um-objeto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mito,-teste-e-evidencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cronica-guiada-pelo-som": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "radiografia-documental": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "catalogo-de-variantes-verificadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "escala-humana-comparada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "still-life-espelhado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "sombra-como-assinatura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "percurso-funcional-documentado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "inventario-funcional-visto-de-cima": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "padrao-optico-de-multiplos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "reparo-e-segunda-vida": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "um-dia-com-o-produto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "depoimento-autorizado-em-contexto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "escolha-guiada-por-necessidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "desafio-cronometrado-verificavel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "resposta-visual-a-objecoes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-sazonal-cenografica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "produto-e-criador-em-dialogo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "limites-de-terreno-documentados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "topografia-e-implantacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "estudo-solar-identificado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "percurso-de-acessibilidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "dimensoes-de-ambiente-em-escala": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "areas-comuns-em-sequencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "obra-em-marcos-documentados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "passeio-de-rua-verificavel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "trilha-de-auditoria": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "permissoes-por-papel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "atalhos-e-paleta-de-comandos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "diferencas-entre-versoes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "interface-entre-dispositivos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "importacao-com-validacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "busca-que-refina-resultados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "erro-e-recuperacao-guiada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mosaico-de-sintese": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "canvas-de-raciocinio-causal": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "debate-tipografico-em-duas-vozes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "imagem-dentro-da-tipografia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "partitura-de-apresentacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "letras-como-cenario-construido": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "livro-digital-de-capitulos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "sinalizacao-de-conferencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-executiva-em-estudio": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-casual-em-home-office": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-criativa-em-atelie": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-de-terno-em-escritorio": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-casual-em-cozinha": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-maduro-em-biblioteca": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-de-tecnologia-em-setup": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-despojado-em-lounge": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-de-produto-em-showroom": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-acessivel-em-coworking": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-urbana-ao-ar-livre": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-esportivo-em-parque": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-elegante-em-terraco": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-casual-na-praia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-de-campo-em-jardim": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-de-negocios-em-rua": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-despojada-em-cafe-externo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-de-viagem-em-mirante": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-madura-em-praca": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-criativo-em-patio-cultural": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "foco-bifocal-de-duas-historias": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fenda-temporal-cinematografica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "termografia-como-linguagem": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cinema-estenopeico-de-longa-presenca": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fotograma-de-objetos-sem-camera": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "polarizacao-que-revela-tensoes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cinemagrafo-de-um-unico-gesto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "perspectiva-forcada-pratica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "schlieren-do-invisivel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "prisma-na-borda-da-lente": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "poesia-concreta-de-palavras-objeto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "suprematismo-em-suspensao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "heraldica-modular-contemporanea": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "filatelia-editorial-de-colecao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "guilloche-contemporaneo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "lenticular-editorial-de-dois-sentidos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "supergrafica-que-atravessa-arquitetura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "negativo-tipografico-de-objetos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "microficha-editorial-ampliada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "streamline-grafico-aerodinamico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "scratchboard-de-luz-escavada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ponta-de-prata-contemplativa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "prancha-botanica-de-anatomia-pictorica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "afresco-mineral-narrativo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "encaustica-de-memoria-translucida": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "grisaille-que-recebe-uma-cor": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cubismo-de-acoes-simultaneas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fauvismo-de-cor-impossivel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "naif-panoramico-de-pequenas-historias": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fumage-de-aparicoes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ebru-de-pigmentos-flutuantes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "quilling-de-espirais-arquitetadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "marchetaria-de-veios-dirigidos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "terrazzo-de-fragmentos-compostos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "litofania-de-luz-atravessada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "renda-de-bilros-em-tensao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "relevo-seco-de-papel-escultorico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "termocromia-cenografica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "lacre-de-cera-em-escala-monumental": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "palha-trancada-em-topologia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pequenos-multiplos-em-constelacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "coordenadas-paralelas-guiadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cordilheiras-de-distribuicoes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "horizonte-de-series-compactas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "enxame-de-observacoes-individuais": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "linhas-de-inclinacao-entre-dois-momentos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mapa-de-arvore-por-proporcao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cordas-de-trocas-verificadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "intervalos-que-mostram-a-duvida": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "rio-de-composicao-temporal": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "strata-cut-de-mundos-internos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "persianas-cineticas-de-cena": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "fita-mobius-de-continuidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "substituicao-impossivel-de-objetos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "gravidade-em-revezamento": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pinca-robotica-como-coreografa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "desenho-por-apagamento": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tesselacao-articulada-em-abertura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "engates-magneticos-coreografados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "engrenagens-excentricas-de-ritmo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ferrofluido-de-espinhos-vivos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "espuma-microcelular-translucida": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "filme-fino-iridescente": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "geologia-estratificada-procedural": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "malha-auxetica-que-se-expande": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "porcelana-de-luz-subsuperficial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "causticas-de-agua-sobre-materia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "lava-mineral-de-resfriamento": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "trico-parametrico-de-lacadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "membranas-tensionadas-em-pontos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tres-testemunhos-de-uma-mesma-cena": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "inventario-afetivo-de-objetos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "relogio-visual-de-uma-decisao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "manual-impresso-que-ganha-consequencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "dialogo-visual-entre-geracoes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "hipotese-que-se-desfaz-em-evidencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ecossistema-de-escalas-conectadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "loop-narrativo-de-segunda-leitura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "o-lugar-da-peca-ausente": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "historia-contada-por-comprovantes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "produto-em-iris-mecanica-monumental": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "paisagem-de-materia-prima-confirmada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "vitrine-entre-placas-de-gelo-cenografico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "automato-de-vitrine-publicitaria": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "prateleira-que-dobra-o-espaco": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "rotulo-como-painel-de-exposicao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "topografia-de-tecido-em-torno-do-objeto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "natureza-morta-em-gravidade-diagonal": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "gabinete-de-especimes-de-produto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "dueto-entre-produto-e-vazio-moldado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "o-cenario-desmonta-a-propria-promessa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "orquestra-de-objetos-em-uso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tribunal-cenografico-de-uma-duvida": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "revelacao-tardia-por-consequencias": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "encomenda-em-mundo-dobravel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "coreografia-de-compatibilidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "prova-cega-com-criterios-visiveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "galeria-de-microproblemas-cotidianos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "estafeta-entre-cenarios-de-uso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "produto-como-pausa-no-caos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "diptico-documentado-entre-dia-e-hora-azul": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "atlas-de-soleiras-e-passagens": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "secao-habitada-com-fotos-encaixadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "maquete-fotogrametrica-com-cobertura-declarada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "paisagem-sonora-de-ambientes-reais": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mapa-de-materiais-por-ambiente": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ventilacao-como-diagrama-verificado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "faixas-de-uso-e-privacidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "galeria-de-enquadramentos-arquitetonicos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "isocronas-de-acesso-com-fonte": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "teatro-de-cursores-colaborativos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "linhagem-de-um-campo-de-dados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "maquina-de-estados-a-vista": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "navegacao-por-acessibilidade-real": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cascata-de-uma-resposta-tecnica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "canvas-infinito-de-objetos-conectados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "formula-de-planilha-em-decomposicao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "configuracao-por-dependencias-visiveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "notificacao-do-gatilho-a-leitura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "orcamento-em-simulacao-reversivel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "painel-split-flap-de-ideias": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "manifesto-em-fita-perfurada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tipografia-variavel-de-sentido": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "margens-que-pensam-junto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "legenda-como-protagonista": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "leitura-em-duas-distancias": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mapa-dobravel-de-argumentos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "palavras-costuradas-por-continuidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "argumento-em-balanca-cenografica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "titulos-em-relevo-por-luz-rasante": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "curadora-ficticia-em-planetario-cenico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "reporter-ficticio-entre-janelas-moveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-de-recorte-articulado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "anfitriao-de-la-em-jardim-miniatura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mentora-em-pintura-de-presenca": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentador-ceramico-em-patio-solar": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-entre-desenho-e-presenca": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "guia-em-diorama-mecanico": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "apresentadora-em-jardim-de-sombras-projetadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "anfitriao-de-cinema-em-bastidores-visiveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pele-em-luz-padronizada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "foliculo-em-capsulas-de-aumento": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "espelho-de-perguntas-da-consulta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "janelas-de-retomada-da-rotina": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "expectativas-em-lentes-graduadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "triagem-em-gavetas-de-contexto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tecnologia-estetica-em-feixes-explicados": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "caderno-de-cuidados-acompanhado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "credenciais-por-rastros-verificaveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "consulta-estetica-sem-transformacao-simulada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cadeira-odontologica-em-ensaio-sensorial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "arcada-em-pecas-de-funcao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "trajeto-do-fio-em-escala-de-bancada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "contato-dentario-em-papel-de-articulacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "alinhador-sob-contorno-de-conferencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "implante-como-conjunto-didatico-modular": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "escovacao-em-teatro-de-superficies": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "plano-odontologico-em-envelopes-de-etapa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "denticao-em-album-de-fases": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "manutencao-protetica-em-estacao-de-cuidado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "consulta-medica-em-mala-de-perguntas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "laudo-entre-contexto-e-interpretacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "decisao-compartilhada-em-fichas-de-frequencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "explicacao-que-volta-em-palavras-do-paciente": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "teleconsulta-em-enquadramento-de-prontidao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "preparo-de-exame-em-lacres-de-confirmacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "rede-de-cuidado-com-pontos-de-responsabilidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "orientacao-clinica-em-dupla-via-acessivel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "diario-de-observacoes-em-trilhos-paralelos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "retorno-assistido-por-portas-de-contato": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "gabarito-de-encaixe-antes-da-compra": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "conector-em-chave-de-correspondencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "cor-sob-tres-iluminacoes-declaradas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "capacidade-em-volumes-de-referencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "variante-em-carimbo-de-identidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "tamanho-de-roupa-em-fita-corporal-neutra": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "transparencia-do-tecido-em-luz-de-leitura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ruido-real-em-janela-de-escuta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "primeiro-uso-em-sequencia-sem-salto": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "limpeza-em-zonas-removiveis-autorizadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "entrega-volumosa-em-dobradicas-de-acesso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "embalagem-de-envio-em-corte-de-protecao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "recebimento-em-mesa-de-conferencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "troca-em-caminho-de-etiquetas-reversiveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "garantia-em-camadas-de-cobertura": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "consumivel-em-encaixe-de-reposicao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "modo-de-guardar-em-silhueta-de-volume": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "produto-recondicionado-em-mapa-de-condicao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "kit-versus-unidade-em-bandejas-vinculadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "consumo-em-janela-de-condicao-de-uso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "alimento-em-painel-de-leitura-do-rotulo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "montagem-em-contagem-de-ferramentas-reais": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ajuste-para-pet-em-manequim-medido": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "oferta-em-recibo-de-condicoes-visiveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "assinatura-em-roda-de-recorrencia-aberta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "prazo-por-faixas-de-destino-confirmadas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pergunta-do-anuncio-em-recorte-de-evidencia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pagina-sem-som-em-sequencia-de-gestos-claros": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "vitrine-de-busca-com-assinatura-de-silhueta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "compra-responsavel-em-cenario-de-limites": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "aula-amostra-em-bancada-de-raciocinio": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "metodo-em-trilhos-de-decisao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pre-requisitos-em-ponte-de-acesso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "ementa-em-mapa-de-competencias-observaveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "erro-comentado-em-laminas-de-raciocinio": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "projeto-final-em-moldura-de-processo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "primeira-aula-em-corredor-de-orientacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "retomada-do-curso-em-marcador-de-continuidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "pratica-guiada-com-espaco-de-resposta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "criterio-de-qualidade-em-regua-comentada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "conhecimento-em-cartoes-de-recuperacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "conceito-em-exemplo-e-nao-exemplo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "transferencia-em-contexto-inesperado": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "carga-de-estudo-em-blocos-honestos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "suporte-em-balcoes-de-finalidade": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "mentoria-em-mesa-de-compromisso-mutuo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "comunidade-em-circulo-de-contribuicoes": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "certificado-em-janela-de-criterios-reais": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "oferta-de-curso-em-caixas-de-escopo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "garantia-do-curso-em-porta-de-saida-clara": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "webinar-em-pistas-de-participacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "objecao-de-tempo-em-agenda-de-pratica-minima": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "caso-de-aluno-em-evidencia-autorizada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "atualizacao-de-curso-em-mapa-de-mudancas-uteis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "biblioteca-de-recursos-em-chave-de-tarefa": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "professor-pensando-em-voz-alta": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "desafio-de-turma-em-mosaico-de-tentativas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "conteudo-gratuito-com-fronteira-explicita": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "progresso-por-evidencias-de-pratica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "proximo-passo-em-bifurcacao-de-autonomia": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-frase-que-reorganiza-o-quadro": {
+    "status": "sample_review_pending",
+    "evidence": "Prévia de 10 segundos existente; playback, escuta e aprovação ainda pendentes."
+  },
+  "campanha-peca-unica-em-palco-de-iris": {
+    "status": "sample_review_pending",
+    "evidence": "Prévia de 10 segundos existente; playback, escuta e aprovação ainda pendentes."
+  },
+  "campanha-janela-optica-sobre-fotografia": {
+    "status": "sample_review_pending",
+    "evidence": "Prévia de 10 segundos existente; playback, escuta e aprovação ainda pendentes."
+  },
+  "campanha-ritmo-culinario-em-tres-escalas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-rede-que-constroi-uma-paisagem": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-fachada-como-anuncio-luminoso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-oferta-por-subtracao-visual": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-rastro-tecnico-sobre-gesto-real": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-mosaico-continuo-de-raciocinio": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-mecanica-em-transparencia-controlada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-campanha-entre-duas-temperaturas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-arquivo-em-mesa-optica": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-calendario-cenografico-de-lancamento": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-letras-como-mecanismo-de-acesso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-retrato-em-luz-coreografada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-produto-em-galeria-de-espelhos": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-jornada-de-servico-em-trilho-editorial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-dispositivo-em-cenario-construido": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-lente-fresnel-como-cenario": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-lancamento-em-parede-led": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-dados-em-faixas-de-comparacao": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-formas-de-marca-em-contrapeso": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-corte-por-gesto-e-cor": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-legenda-como-faixa-editorial-movel": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-vitrine-em-gravidade-coreografada": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-fotografia-editorial-com-molduras-moveis": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-manual-em-montagem-editorial": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-cartaz-cromatico-em-batidas-assimetricas": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-cenario-em-cortes-de-luz": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  },
+  "campanha-assinatura-em-sistema-responsivo": {
+    "status": "visual_reference",
+    "evidence": "Estudo visual; sem amostra audiovisual aprovada registrada."
+  }
+}
