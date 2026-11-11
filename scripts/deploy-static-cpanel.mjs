@@ -7,7 +7,7 @@ import {stableGalleryHtml,releaseEntryHtml} from './static-release.mjs';
 const argv=process.argv.slice(2),get=k=>{const i=argv.indexOf(k);return i<0?undefined:argv[i+1]};
 const domain=get('--domain'),source=path.resolve(get('--source')||'style-atlas/dist');
 const apply=argv.includes('--apply');
-// Check the retained 540-style catalog before accessing hosting.
+// Check the expanded catalog and complete fidelity fields before accessing hosting.
 validateCatalog(JSON.parse(await readFile(path.join(source,'catalog.json'),'utf8')));
 const {CPANEL_HOST:host,CPANEL_USER:user,CPANEL_TOKEN:token}=process.env;
 const hash=b=>createHash('sha256').update(b).digest('hex');

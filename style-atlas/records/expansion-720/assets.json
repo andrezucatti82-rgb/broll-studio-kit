@@ -1,0 +1,2706 @@
+{
+  "boards": [
+    {
+      "id": "cinema-1",
+      "sourceSha256": "dfa813799f9d895b29fb01fc5a5ee5dea8843be17fc6ea86d27204b6703bc96b",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        363,
+        729,
+        1092,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Retrato em colódio de prata: Botanista fictícia numa estufa, retrato de placa úmida com prata nas bordas, ameixa e sépia. Depict a clear, attractive moment related to: A revelação química avança pelas bordas e encontra o olhar imóvel.\n2. Prata retida de turno noturno: Padeiro numa cozinha noturna, contraste bleach bypass, aço prateado e sombras oliva. Depict a clear, attractive moment related to: Uma bandeja sai do forno; a exposição acompanha o vapor sem apagar os rostos.\n3. Sol de cromia reversível: Piscina modernista, guarda-sol vermelhão e água turquesa, fotografia de diapositivo saturado. Depict a clear, attractive moment related to: Uma boia cruza a água e suas ondas levam ao plano seguinte.\n4. Minerais sob luz ultravioleta: Pedras fluorescentes ciano e magenta em fundo negro absoluto, macro científico. Depict a clear, attractive moment related to: A luz branca cede ao UV e revela emissão apenas nos minerais adequados.\n5. Revelação por bandeira de luz: Bouquet fotográfico em teatro preto, pétalas parcialmente cobertas por anteparo opaco. Depict a clear, attractive moment related to: Um anteparo físico atravessa o feixe e revela grupos de pétalas em sequência.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is cinema. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "cinema-2",
+      "sourceSha256": "ca0e5530227d0caf1e4a6c1599806acfafb0771b31f493d5308851c4368b8f8e",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        363,
+        727,
+        1091,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Arquitetura de verticais precisas: Escadaria brutalista fotografada em grande formato, pedra quente e perspectiva corrigida. Depict a clear, attractive moment related to: Uma pessoa sobe e ocupa sucessivos patamares; a câmera conserva as verticais.\n2. Sala como câmera obscura: Um jardim invertido projetado pela janela sobre a parede escura de um quarto real. Depict a clear, attractive moment related to: A janela abre, a projeção nasce e uma nuvem altera a luz do jardim.\n3. Teleobjetiva de planos comprimidos: Dançarina de capa vermelha minúscula diante de muitas varandas rosas sobrepostas. Depict a clear, attractive moment related to: A dançarina percorre uma passarela enquanto os planos comprimidos ocultam e revelam sua silhueta.\n4. Fotografia por sombra de líquido: Chá âmbar em vidro projeta desenho de líquido sobre reboco creme, mesa lateral iluminada. Depict a clear, attractive moment related to: A infusão gira e sua sombra muda; o desenho se estabiliza para o fechamento.\n5. Noite sob lua e bioluminescência: Pescador distante junto a ondas naturalmente luminosas, céu azul profundo e lua suave. Depict a clear, attractive moment related to: A onda quebra, ilumina a borda da praia e se apaga sem pulsação artificial.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is cinema. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "ilustracao-1",
+      "sourceSha256": "a6e6745b05a7b8115c0e0b0f2a045603ae3da9eaa3cefb9a47bb02a12dffa1ba",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        362,
+        726,
+        1090,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Sanguínea de gesto cotidiano: Desenho de mãos fazendo pão em giz vermelho-terra sobre papel amarelado. Depict a clear, attractive moment related to: O gesto é redesenhado com linhas de construção que permanecem brevemente.\n2. Lápis de cor em papel negro: Mariposa desenhada com lápis opaco turquesa e amarelo sobre papel negro texturado. Depict a clear, attractive moment related to: As asas abrem por poses desenhadas e o pigmento revela suas nervuras.\n3. Aerógrafo de poster ensolarado: Prancha de surf e laranja em ilustração de aerógrafo, degradês precisos pêssego e azul. Depict a clear, attractive moment related to: O volume recebe luz progressiva; uma faixa de sombra atravessa a prancha.\n4. Desenho de grafite apagado: Retrato fictício surge em campo de grafite através de marcas claras de borracha. Depict a clear, attractive moment related to: A borracha esculpe a luz; o contorno do rosto mantém anatomia estável.\n5. Tinta de esferográfica cruzada: Motocicleta desenhada inteiramente com hachura de caneta azul, papel branco. Depict a clear, attractive moment related to: Camadas de hachura revelam roda, quadro e motor na ordem da explicação.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is ilustracao. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "ilustracao-2",
+      "sourceSha256": "8b15d3fcd4ef4fe0fc4286acbcf2ea81cf1bc23909177a6b1af462335af635c6",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        359,
+        724,
+        1095,
+        1455,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Pintura de esmalte sobre vidro: Peixes pintados no verso de vidro transparente, brilhos vítreos e fundo coral. Depict a clear, attractive moment related to: O vidro muda levemente de inclinação e revela profundidade entre tinta e reflexo.\n2. Desenho simultâneo de duas mãos: Duas mãos reais desenham metades diferentes de uma cidade em carvão e azul. Depict a clear, attractive moment related to: Os traços se encontram no centro e resolvem uma rua compartilhada.\n3. Impressão de folhas como personagem: Folhas reais estampadas viram uma ave com nervuras visíveis em verde e ferrugem. Depict a clear, attractive moment related to: As impressões se articulam preservando suas bordas e a ave dá um passo.\n4. Monotipia de noite chuvosa: Rua noturna em impressão única com tinta azul arrastada e reflexos amarelos. Depict a clear, attractive moment related to: Uma passagem de rolo revela reflexos e o guarda-chuva se desloca por recortes.\n5. Pintura em azulejo narrativo: Pequena cena de mercado em azulejos pintados azul e branco com craquelado real. Depict a clear, attractive moment related to: Uma ação atravessa a junta dos azulejos e termina numa banca inteira.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is ilustracao. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "materiais-1",
+      "sourceSha256": "ff0a3447037357aa7a970fcd274f2144ccb45b0e3c83dcfaab770b0b0bb20eba",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        367,
+        728,
+        1090,
+        1457,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Papel machê de polpa aparente: Pera escultórica de polpa de papel rosa, fibras grossas, pedestal de cartão. Depict a clear, attractive moment related to: Camadas úmidas se depositam sobre a forma e secam até revelar o objeto.\n2. Cortiça em mosaico de espessuras: Barco em peças de cortiça cortadas, poros visíveis e fundo azul profundo. Depict a clear, attractive moment related to: Peças de diferentes espessuras encaixam e criam relevo funcional.\n3. Veludo escovado em duas direções: Ondas desenhadas apenas pela orientação dos pelos de veludo verde escuro. Depict a clear, attractive moment related to: Uma escova passa, muda o brilho e revela a marca do gesto.\n4. Papel-carbono de transferência: Bicicleta em marcas azuis transferidas de uma folha de carbono preta. Depict a clear, attractive moment related to: A pressão do traço imprime a cópia e o original é levantado.\n5. Jornal de papel-semente: Folha artesanal com sementes aparentes e forma botânica em baixo relevo. Depict a clear, attractive moment related to: Água escurece a fibra; um corte temporal identificado mostra germinação real.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is materiais. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "materiais-2",
+      "sourceSha256": "aeb372ddda8d06909e246a5d5f7dd7d4f5a92efd586f6d0bf60bb833575caed9",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        359,
+        726,
+        1089,
+        1454,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Cerâmica raku de fissuras: Vaso raku negro com cobre iridescente e craquelado amplo sobre areia. Depict a clear, attractive moment related to: A peça sai da caixa de redução e a fumaça revela o acabamento específico.\n2. Fio metálico em escultura contínua: Cadeira de fio de cobre dobrado com sombras finas sobre fundo azul. Depict a clear, attractive moment related to: O fio é dobrado em pontos definidos e termina numa estrutura estável.\n3. Marcas de ferramenta em linóleo: Matriz de linóleo verde com sulcos de goiva e tinta creme fresca. Depict a clear, attractive moment related to: A goiva remove uma faixa e a tinta entra somente na superfície elevada.\n4. Pigmento prensado em argila seca: Discos de terra colorida comprimida com bordas quebradiças e relevo geométrico. Depict a clear, attractive moment related to: Uma prensa imprime uma matriz e o pó solto se acomoda ao redor.\n5. Papel de arroz sob contraluz: Lanterna de papel de arroz com fibras longas, estrutura de bambu e luz âmbar. Depict a clear, attractive moment related to: A lanterna se expande pela armação e a luz percorre suas fibras.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is materiais. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "motion-1",
+      "sourceSha256": "033846f180ae4a7a9bf85292ab217497b22fafadcab94b1951c4df288d49abbf",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        387,
+        724,
+        1069,
+        1454,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Pêndulos em fase que se encontram: Pêndulos de madeira em arcos diferentes sobre fundo azul acinzentado. Depict a clear, attractive moment related to: Oscilações independentes sincronizam por um instante e formam uma linha.\n2. Animação por máscara de grade: Imagem de cavalo em tiras verticais sob grade preta deslizante. Depict a clear, attractive moment related to: A grade atravessa as tiras e revela poses sequenciais sem mover a câmera.\n3. Transferência por carrossel de rolos: Três cilindros impressos giram numa máquina editorial marfim e vermelho. Depict a clear, attractive moment related to: Um desenho passa de rolo a rolo e chega inteiro ao papel.\n4. Ação em exposição de obturador: Dançarino visto como um arco contínuo de tecido e corpo nítido final. Depict a clear, attractive moment related to: Uma ação deixa rastro seletivo e termina numa pose estável.\n5. Balé de guindastes em miniatura: Peças geométricas grandes são erguidas por pequenos guindastes amarelos. Depict a clear, attractive moment related to: Cabos içam, giram e assentam peças com contato e peso coerentes.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is motion. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "motion-2",
+      "sourceSha256": "449e6a813184c503a3124acaa0d86ea5bab8ed731b358a7b3c6fcfb943d0fc6e",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        389,
+        724,
+        1087,
+        1450,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Revelação em anéis de crescimento: Disco de madeira mostra anéis concêntricos com pequenos cenários gravados. Depict a clear, attractive moment related to: Anéis surgem do centro para fora e revelam etapas de uma história.\n2. Composição por levitação acústica: Pequenas esferas suspensas entre dois transdutores sobre bancada escura. Depict a clear, attractive moment related to: Esferas ocupam nós de uma onda e mudam de posição de forma controlada.\n3. Percurso por trilhos de agulha: Carrinhos coloridos percorrem trilhos que se bifurcam numa mesa branca. Depict a clear, attractive moment related to: Uma agulha muda a rota de um carrinho e o leva ao destino destacado.\n4. Desenho em tambor de luz: Tambor translúcido giratório com formas recortadas e projeção âmbar. Depict a clear, attractive moment related to: O tambor gira e seus recortes projetam uma sequência no cenário.\n5. Coreografia de válvulas pneumáticas: Bolsas de tecido cilíndricas infladas em série sobre palco preto. Depict a clear, attractive moment related to: Válvulas liberam ar em sequência e as bolsas mudam de altura com estabilidade.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is motion. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "volume-1",
+      "sourceSha256": "dd3f7c62e69d59e8a13f6f42ba368c138b1c780f3e660e560cf7c77598c74a14",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        363,
+        728,
+        1092,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Aerogel de bordas luminosas: Bloco de aerogel azul quase invisível, luz lateral e objeto visto através dele. Depict a clear, attractive moment related to: Uma luz contorna o bloco e revela o volume por espalhamento.\n2. Anodização em alumínio escovado: Peças de alumínio em oliva, cobre e azul com micro-ranhuras coerentes. Depict a clear, attractive moment related to: A luz percorre a escovação enquanto uma peça se encaixa na outra.\n3. Sal cristalizado em evaporação: Bacia rasa turquesa com crostas de sal branco e cristalização facetada. Depict a clear, attractive moment related to: A água recua em lapso temporal e os cristais crescem nas bordas.\n4. Borrachas de durezas distintas: Três blocos de borracha fosca em cores minerais sob um peso comum. Depict a clear, attractive moment related to: O peso desce e cada bloco deforma conforme parâmetros declarados.\n5. Couro perfurado com costura funcional: Bolsa fictícia em couro conhaque com perfurações precisas e costura creme. Depict a clear, attractive moment related to: O fecho tensiona o couro e a costura acompanha sem atravessar a superfície.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is volume. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "volume-2",
+      "sourceSha256": "d585b6ff6e587d06197839cbb2a8f9f8a0d7fab88fce6e363cfe8f5622a06e29",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        361,
+        730,
+        1091,
+        1451,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Basalto poroso em corte lapidado: Pedra basáltica escura com face polida e cavidades ásperas num fundo areia. Depict a clear, attractive moment related to: A peça gira parcialmente e alterna face lisa e porosa em luz rasante.\n2. Concreto translúcido de fibras ópticas: Painel cinza atravessado por minúsculos pontos luminosos de fibras. Depict a clear, attractive moment related to: Uma mão passa atrás e a luz transmite sua sombra de forma descontínua.\n3. Vidro espumado de célula aberta: Escultura de espuma vítrea verde com poros amplos e bordas brilhantes. Depict a clear, attractive moment related to: A câmera cruza um poro real modelado e encontra a face posterior.\n4. Lâminas piezoelétricas de flexão: Lâminas cerâmicas delgadas sobre suportes de cobre, geometria precisa. Depict a clear, attractive moment related to: Uma lâmina flexiona pouco sob acionamento e retorna com amortecimento.\n5. Madeira carbonizada em escamas: Prancha de madeira negra com escamas de carvão e veio quente exposto. Depict a clear, attractive moment related to: Uma escova remove fuligem solta e revela o relevo carbonizado.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is volume. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "hibridos-1",
+      "sourceSha256": "b84e015dae1ef1c6ea01451b95e009904ba5c73d96abee93746964e1f7e75ac0",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        371,
+        726,
+        1091,
+        1450,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. História por aquilo que fica fora: Cadeira vazia, casaco e janela numa sala real, enquadramento lateral. Depict a clear, attractive moment related to: Sons fora do quadro motivam pequenas mudanças nos objetos até revelar a chegada.\n2. Uma pergunta em quatro profissões: Quatro bancadas reais muito diferentes unidas por um objeto comum. Depict a clear, attractive moment related to: A mesma pergunta recebe respostas concretas através de ações de cada ofício.\n3. Receita de decisão com tentativas: Mesa de teste com alternativas descartadas, marcas e resultado final. Depict a clear, attractive moment related to: Cada tentativa deixa um vestígio; o acerto incorpora o aprendizado anterior.\n4. Narrativa por uma medida constante: Régua vertical fixa acompanha cenas de crescimento diferentes. Depict a clear, attractive moment related to: O mundo muda ao redor da medida constante, tornando as diferenças legíveis.\n5. Carta visual para o futuro: Pessoa guardando três objetos numa cápsula transparente com data fictícia. Depict a clear, attractive moment related to: Um objeto presente evoca um cenário futuro explicitamente hipotético.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is hibridos. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "hibridos-2",
+      "sourceSha256": "3aa7e8bf558f5eebfaea6aae2ba12448c022225fce9343c6b2b884b14b3b7248",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        365,
+        725,
+        1091,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Duas versões de uma mesma tarefa: Uma tarefa filmada em duas soluções igualmente válidas, contraste de materiais. Depict a clear, attractive moment related to: Os caminhos alternam e convergem no resultado, com limites de cada abordagem.\n2. História narrada pelo intervalo: Fila de cadeiras e relógio de parede, pessoas reais em planos fixos. Depict a clear, attractive moment related to: O tempo entre ações revela o problema; a solução reorganiza as esperas.\n3. Objeto emprestado entre desconhecidos: Guarda-chuva amarelo passa entre pessoas fictícias em espaços diversos. Depict a clear, attractive moment related to: Cada pessoa resolve uma necessidade e entrega o objeto à próxima.\n4. Explicação pela exceção visível: Conjunto de objetos organizados e um único caso com regra diferente. Depict a clear, attractive moment related to: A regra aparece, o caso excepcional interrompe e a explicação resolve a diferença.\n5. Arquivo de uma coisa que mudou de nome: Etiquetas de épocas diferentes junto ao mesmo objeto preservado. Depict a clear, attractive moment related to: Nomes são substituídos enquanto a câmera mantém o objeto como referência.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is hibridos. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "anuncios-1",
+      "sourceSha256": "961cfe0e230b2f06ee3284cf8a7ed96b4f362c0383007c86bf67989a46e5778a",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        362,
+        726,
+        1091,
+        1455,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Produto em bancada de alfaiataria: Fone fictício sobre base de modelagem, linhas de corte e ferramentas de precisão. Depict a clear, attractive moment related to: Um molde de papel se ajusta ao produto e revela sua silhueta sem alterá-lo.\n2. Packshot em jardim de condensação: Frasco sem rótulo real entre vidros embaçados e folhas úmidas, verde frio. Depict a clear, attractive moment related to: A condensação escorre no vidro cenográfico e abre uma janela para o produto seco.\n3. Produto em balcão de leilão editorial: Relógio fictício sobre almofada vinho, cartão de catálogo e luz de inspeção. Depict a clear, attractive moment related to: A bandeja desliza para a luz e revela um detalhe por vez.\n4. Cinema de embalagem reaberta: Caixa rígida coral vista por dentro com encaixes e produto intacto. Depict a clear, attractive moment related to: As paredes da embalagem se desdobram para mostrar organização e acesso.\n5. Produto em paisagem de sombra quadriculada: Óculos fictícios numa mesa areia sob sombra precisa de um brise. Depict a clear, attractive moment related to: A sombra atravessa a mesa enquanto os óculos permanecem estáveis e legíveis.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is anuncios. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "anuncios-2",
+      "sourceSha256": "d09b9caf03efdeb95ab996fa373c2c855bffde03f67991eddc84b892d7cadd66",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        363,
+        726,
+        1092,
+        1455,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Costura como rota de descoberta: Tênis fictício visto em macro com costura laranja que conduz o olhar. Depict a clear, attractive moment related to: A câmera acompanha a costura até revelar o produto inteiro.\n2. Cenário de embalagem moldada: Luminária fictícia entre polpas moldadas de proteção como arquitetura monumental. Depict a clear, attractive moment related to: As peças de proteção se afastam fisicamente e deixam o objeto em uso.\n3. Packshot em caixa de luz modular: Câmera fictícia em caixa de luz com painéis coloridos e refletores visíveis. Depict a clear, attractive moment related to: Painéis acendem alternadamente para explicar superfícies e controles.\n4. Produto e gesto de conservação: Bolsa fictícia apoiada numa bancada de cuidado com escova e pano. Depict a clear, attractive moment related to: Uma mão limpa uma área permitida, guarda acessórios e conclui com packshot.\n5. Anúncio em mesa de gravação sonora: Teclado mecânico fictício próximo a microfone e espuma acústica cinza. Depict a clear, attractive moment related to: Uma tecla é acionada; o som real abre espaço para o detalhe do mecanismo.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is anuncios. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "campanhas-1",
+      "sourceSha256": "30a3b166f1c2f437d57e60a30a3c007e472f04433601951b0018614a4315e4c3",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        383,
+        769,
+        1129,
+        1454,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Pequeno obstáculo em comédia de precisão: Cozinha real com uma tampa teimosa e mãos em pausa, luz clara e enquadramento seco. Depict a clear, attractive moment related to: Três tentativas curtas tornam o incômodo visível; o gesto correto resolve com clareza.\n2. Bancada de comparação por esforço: Duas ferramentas reais lado a lado em bancada de trabalho, sem placar fictício. Depict a clear, attractive moment related to: O mesmo gesto autorizado é executado nas mesmas condições e os limites ficam visíveis.\n3. Campanha de silêncio conquistado: Sala real com objetos ruidosos e um espaço de descanso bem iluminado. Depict a clear, attractive moment related to: Fontes sonoras cessam uma a uma até revelar a condição de uso do produto.\n4. Guia de presente por histórias: Três objetos distintos junto a pequenos vestígios de hobbies em mesa de madeira. Depict a clear, attractive moment related to: Uma lembrança filmada motiva a escolha de cada presente.\n5. Campanha de manutenção preventiva: Objeto cotidiano em uso com sinal discreto de desgaste real, luz de oficina. Depict a clear, attractive moment related to: Um detalhe pede atenção, a manutenção acontece e o uso é retomado.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is campanhas. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "campanhas-2",
+      "sourceSha256": "119d080ff4d909179a97043deb6815263adb29792957690eea44b46dc72701ed",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        369,
+        728,
+        1090,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Cena interrompida por pergunta útil: Uma ação cotidiana congelada em pose legível, pergunta tipográfica grande ao lado. Depict a clear, attractive moment related to: A ação pausa no ponto de decisão e continua após a explicação.\n2. Teste de transporte em percurso real: Mochila fictícia em trajeto documentado de ônibus, escada e mesa. Depict a clear, attractive moment related to: A mesma carga percorre o trajeto com continuidade de peso e posição.\n3. Campanha em ensaio de montagem: Cenário publicitário com marcações de chão e equipe preparando um objeto. Depict a clear, attractive moment related to: A preparação é parte da história e culmina numa composição final limpa.\n4. Produto acessível em gesto adaptado: Objeto real sobre bancada com pegadores alternativos documentados. Depict a clear, attractive moment related to: Uma pessoa autorizada demonstra uma forma específica de uso com enquadramento claro.\n5. Uma função explicada por som e imagem: Utensílio em fundo claro junto a onda sonora desenhada por dados reais. Depict a clear, attractive moment related to: A ação acontece, o som é isolado e a imagem explica sua origem.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is campanhas. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "imoveis-1",
+      "sourceSha256": "1fa05bc9000c8c9b6506b867391c3fba53ec74c970b56c468248eecc683f26f5",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        380,
+        751,
+        1104,
+        1440,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. O que permanece na entrega: Ambiente real com itens incluídos destacados por contornos finos, itens móveis neutros. Depict a clear, attractive moment related to: Cada item confirmado ganha identificação enquanto a câmera permanece no mesmo plano.\n2. Condomínio explicado por serviços: Portaria, elevador e área técnica em sequência documental com ícones discretos. Depict a clear, attractive moment related to: Um serviço aparece em uso e sua responsabilidade é apresentada com fonte.\n3. Visita com percurso de mudança: Carrinho de mudança diante de elevador real com medidas discretas em tela. Depict a clear, attractive moment related to: O percurso documentado segue portaria, elevador e entrada com restrições indicadas.\n4. Garagem em manobra documentada: Vaga real com colunas e veículo autorizado, câmera fixa ampla e medidas confirmadas. Depict a clear, attractive moment related to: O veículo entra, manobra e estaciona numa única continuidade observável.\n5. Documentos da compra em mesa real: Planta, matrícula demonstrativa sem dados privados e pastas em mesa clara. Depict a clear, attractive moment related to: Documentos entram na ordem da análise e cada finalidade recebe explicação breve.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is imoveis. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "imoveis-2",
+      "sourceSha256": "a426ee1449041636aefcaa6472edf190098a5c0e0b207c55a4117745675ba933",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        395,
+        772,
+        1070,
+        1493,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Imóvel vazio em leitura de rotina: Fotos reais de ambiente vazio com discretos percursos de uso em linhas. Depict a clear, attractive moment related to: Trajetos de atividades aparecem sem inserir móveis ou alterar paredes.\n2. Visita de detalhes que costumam faltar: Tomadas, armários internos e registros reais em planos grandes e luz neutra. Depict a clear, attractive moment related to: Cada detalhe é aberto ou acionado em filmagem autorizada.\n3. Locação em calendário de ocupação: Chaves, contrato demonstrativo e calendário físico numa mesa de entrada. Depict a clear, attractive moment related to: Datas confirmadas ocupam o calendário e revelam etapas da entrada.\n4. Reforma possível versus existente: Foto real à esquerda e desenho técnico autorizado à direita com legenda permanente. Depict a clear, attractive moment related to: Uma proposta aparece em painel separado sem substituir a condição atual.\n5. Visita em altura de quem habita: Ambiente real filmado à altura sentada, com portas e comandos visíveis. Depict a clear, attractive moment related to: O percurso mostra alcance e campo de visão sem inventar dimensões.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is imoveis. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "avatares-1",
+      "sourceSha256": "5123cd52217d14c806a109ea7411810064a76d90fb86e78088cddf902d438042",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        362,
+        725,
+        1091,
+        1457,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Anfitriã em estação de rádio comunitária: Mulher fictícia negra de cabelo curto, camisa terracota, estúdio de rádio com microfone e luz âmbar. Depict a clear, attractive moment related to: Olha para a câmera, apresenta um tópico e um insert mostra o material citado.\n2. Apresentador em oficina de bicicletas: Homem fictício asiático de meia-idade, avental azul, bicicleta em suporte numa oficina clara. Depict a clear, attractive moment related to: Fala à câmera com mãos livres; planos separados mostram a peça em uso.\n3. Guia em observatório de campo: Mulher fictícia madura de cabelos grisalhos, jaqueta verde, observatório em paisagem seca. Depict a clear, attractive moment related to: Apresenta à câmera e a montagem alterna instrumentos e céu documentado.\n4. Anfitrião em cozinha de escola técnica: Homem fictício gordo de barba curta, uniforme creme, bancada de ensino culinário. Depict a clear, attractive moment related to: Fala de frente e entra um plano detalhe separado da técnica explicada.\n5. Mediadora em auditório vazio: Mulher fictícia de pele morena, cabelo cacheado, blazer violeta, auditório iluminado. Depict a clear, attractive moment related to: Abre a apresentação olhando para a câmera e o telão recebe tópicos editáveis.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is avatares. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "avatares-2",
+      "sourceSha256": "35e732364a175a5dbb1576159f2f7f97fbb642af78f8a72760a3ce72a91d41e1",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        363,
+        728,
+        1091,
+        1457,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Apresentador em estufa de pesquisa: Homem fictício idoso de pele clara, camisa casual, estufa com bancadas vegetais. Depict a clear, attractive moment related to: Fala de frente com gestos pequenos; inserts mostram folhas sem deformação.\n2. Curadora em reserva de museu: Mulher fictícia asiática de meia-idade, roupa preta simples, gaveteiros e objetos protegidos. Depict a clear, attractive moment related to: Introduz a coleção à câmera; detalhes dos objetos entram em planos independentes.\n3. Anfitrião em pista de skate vazia: Homem fictício negro jovem adulto, roupa casual larga, pista ao amanhecer. Depict a clear, attractive moment related to: Fala em posição estável olhando à câmera e B-roll separado apresenta o ambiente.\n4. Apresentadora em laboratório de materiais: Mulher fictícia branca com cabelo raspado, jaleco sobre camiseta, bancada de amostras. Depict a clear, attractive moment related to: Explica à câmera; uma demonstração real ou ilustrativa identificada ocupa o insert.\n5. Anfitrião em marina de trabalho: Homem fictício de pele morena e cabelo grisalho, camisa de linho, marina em hora azul. Depict a clear, attractive moment related to: Apresenta à câmera com barco estável ao fundo e cortes de contexto.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is avatares. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "saude-1",
+      "sourceSha256": "eea2c6b372a2d27192c5e3c2d3b221e8d7925e35a25628afd60d4c81c442610f",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        332,
+        689,
+        1055,
+        1487,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Consentimento explicado em mesa de opções: Profissional real e paciente autorizado diante de opções em cartões grandes, luz calma. Depict a clear, attractive moment related to: Benefícios, riscos e alternativas são expostos sem pressionar uma escolha.\n2. Como descrever um sintoma: Pessoa fictícia diante de diário visual com relógio, intensidade e contexto. Depict a clear, attractive moment related to: Uma observação é organizada em quando, onde e como para levar à consulta.\n3. Medicamentos organizados para consulta: Embalagens reais autorizadas com dados privados ocultos e lista legível. Depict a clear, attractive moment related to: Itens são registrados sem sugerir mudança de dose ou suspensão.\n4. Sala de espera de baixa estimulação: Recepção real com luz suave, sinalização grande e poucos estímulos. Depict a clear, attractive moment related to: O percurso de chegada é mostrado lentamente com sons discretos.\n5. Pós-procedimento com sinais de contato: Mesa com instruções aprovadas e canais de contato visíveis, composição serena. Depict a clear, attractive moment related to: Cuidados esperados e sinais para procurar orientação aparecem em grupos separados.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is saude. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "saude-2",
+      "sourceSha256": "d2610b0738f2b80935285c57bb159cff3449fbdaf88736bed39e7b2f063ace9d",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        364,
+        727,
+        1092,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Perguntas sobre anestesia em cenário real: Consultório real e instrumentos sem exposição gráfica, iluminação acolhedora. Depict a clear, attractive moment related to: Uma pergunta por vez recebe explicação e indicação de avaliação individual.\n2. Odontologia preventiva para cuidadores: Manequim dental e mãos demonstrando cuidado em bancada clara. Depict a clear, attractive moment related to: O gesto é mostrado de dois ângulos com pressão e sequência aprovadas.\n3. Rotina de fotoproteção sem milagre: Produto real, chapéu e sombra em cenário cotidiano com pele natural. Depict a clear, attractive moment related to: Ações complementares são demonstradas sem filtro de embelezamento.\n4. Exame infantil em ensaio com brinquedo: Boneco e equipamento demonstrativo numa sala real acolhedora. Depict a clear, attractive moment related to: O profissional explica a sequência no brinquedo antes do procedimento real.\n5. Direito de perguntar em consulta: Pessoa fictícia e profissional em conversa à altura dos olhos, perguntas tipográficas grandes. Depict a clear, attractive moment related to: Uma pausa abre espaço à dúvida e a resposta é resumida para confirmação.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is saude. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "ecommerce-1",
+      "sourceSha256": "951f30138c8cf448c113ad0e0c6b822c595dff19f727f3c39b44483e99525313",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        365,
+        727,
+        1093,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Conteúdo da caixa em ordem de conferência: Produto fictício e todos os acessórios separados em fundo claro, numeração editorial. Depict a clear, attractive moment related to: Cada item sai da caixa e ocupa sua posição de conferência.\n2. Compatibilidade por versão exata: Conector real ao lado de identificação de modelo e versão em texto grande. Depict a clear, attractive moment related to: O código é conferido antes do encaixe documentado.\n3. Produto dobrado versus em uso: Carrinho ou objeto dobrável fictício em duas condições sobre piso quadriculado. Depict a clear, attractive moment related to: O mecanismo real abre e fecha com dimensões verificadas nas duas condições.\n4. Detalhe de fecho em gesto contínuo: Fecho real de bolsa ou roupa em plano grande com mãos autorizadas. Depict a clear, attractive moment related to: Abrir e fechar acontece sem cortes que escondam dificuldade.\n5. Leitura de manual em ação real: Manual aprovado e objeto real numa bancada, página relevante ampliada. Depict a clear, attractive moment related to: A instrução é lida e executada numa ação contínua.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is ecommerce. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "ecommerce-2",
+      "sourceSha256": "6b30e5863408d4f4020637710ecb07f55e67d991feaf867e2eaa49ed56871473",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        363,
+        727,
+        1092,
+        1457,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Textura comparada com objeto cotidiano: Material real ao lado de referência neutra de escala, luz lateral padronizada. Depict a clear, attractive moment related to: A mão mostra flexibilidade e textura sem alterar cor ou superfície.\n2. Reposição de peça em bancada limpa: Peça de reposição real, ferramenta necessária e objeto aberto conforme manual. Depict a clear, attractive moment related to: A peça antiga sai e a nova entra com encaixe e limites documentados.\n3. Validade e lote em leitura ampliada: Embalagem real com área de lote ampliada por recorte de alta resolução. Depict a clear, attractive moment related to: O local do código é apontado e a leitura explica seu significado sem reescrever rótulo.\n4. Uso em mãos de tamanhos diferentes: Mesmo produto real usado por pessoas autorizadas com referências de tamanho. Depict a clear, attractive moment related to: O gesto é repetido sem alterar escala do produto e mostra limites de alcance.\n5. Pedido personalizado em prova digital: Prévia de personalização fiel ao sistema ao lado do produto-base real. Depict a clear, attractive moment related to: Texto ou arte são conferidos numa prova antes da produção.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is ecommerce. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "infoprodutores-1",
+      "sourceSha256": "58ee22d5ece29b3557ea33f590efb08a05d3e94ddfe902cc9baf2673f99a2702",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        364,
+        725,
+        1091,
+        1457,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Aula zero em laboratório de pré-requisitos: Instrutor real em bancada com três ferramentas de entrada e cenário claro. Depict a clear, attractive moment related to: Cada pré-requisito é verificado numa tarefa curta antes de começar.\n2. Uma habilidade em critério de domínio: Trabalho real de aluno autorizado ao lado de rubrica visual grande. Depict a clear, attractive moment related to: O avaliador aponta evidências para cada critério sem notas inventadas.\n3. Curso por dentro em visita guiada real: Plataforma real do curso em tela grande com professor em insert discreto. Depict a clear, attractive moment related to: Uma aula, material e exercício reais são abertos com continuidade.\n4. Tempo de estudo em agenda possível: Agenda física com blocos reais de trabalho, descanso e estudo, luz cotidiana. Depict a clear, attractive moment related to: O curso é distribuído em intervalos plausíveis sem prometer resultado em prazo fixo.\n5. Dificuldade assumida em bastidor de treino: Instrutor real errando uma tentativa e ajustando uma técnica em ambiente de trabalho. Depict a clear, attractive moment related to: O erro é mostrado, a correção explicada e nova tentativa comparada.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is infoprodutores. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "infoprodutores-2",
+      "sourceSha256": "259770abd46da5be83b7859be70f13c0df6b1947a0df363a45cc6ce421defe30",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        377,
+        732,
+        1111,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Prévia de exercício com solução parcial: Exercício real grande em mesa ou tela, uma etapa resolvida e outra aberta. Depict a clear, attractive moment related to: O professor demonstra o raciocínio inicial e convida à prática restante.\n2. Mapa de trilhas por experiência prévia: Três percursos de aprendizagem em painéis físicos com materiais reais do curso. Depict a clear, attractive moment related to: Um diagnóstico simples indica percurso introdutório ou avançado com limites claros.\n3. Biblioteca de dúvidas em objetos de cena: Perguntas reais anonimizadas em etiquetas junto aos materiais de aula. Depict a clear, attractive moment related to: Uma dúvida recorrente escolhe o objeto e desencadeia demonstração filmada.\n4. Devolutiva em três camadas de trabalho: Projeto real autorizado com marcações de estrutura, técnica e acabamento. Depict a clear, attractive moment related to: Cada camada de feedback aparece com exemplo e ação de melhoria.\n5. Certificação explicada por evidências: Portfólio, avaliação e certificado demonstrativo separados numa mesa institucional. Depict a clear, attractive moment related to: O que é exigido e o que o certificado não garante aparecem em sequência.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is infoprodutores. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "motion-campanha-1",
+      "sourceSha256": "da4ddc2b6b0c9fb49ed1dd483c366b910ec0e2fd707152a3747f26bed19a07a0",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        363,
+        725,
+        1089,
+        1454,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Campanha em obturador de facetas: Painéis triangulares de metal fosco formam uma abertura assimétrica diante de produto fictício. Depict a clear, attractive moment related to: Facetas giram por dobradiças diferentes e revelam o objeto com oclusão coerente.\n2. Mensagem em elevador cenográfico: Plataformas de cena sobem em um poço editorial coral e azul, letras grandes. Depict a clear, attractive moment related to: Uma plataforma leva a ideia a outro nível e a mensagem final ocupa o topo.\n3. Campanha de pigmento em sedimentação: Partículas minerais coloridas decantam num tanque transparente diante de fundo escuro. Depict a clear, attractive moment related to: Camadas se depositam por densidade e revelam uma composição estável.\n4. Palavra em trilho de montagem industrial: Letras robustas em peças passam por gabaritos numa bancada branca. Depict a clear, attractive moment related to: Cada estação resolve um componente e a palavra termina legível.\n5. Anúncio em cenário de contraluz recortável: Objetos reais e grandes painéis de sombra formam uma paisagem em estúdio. Depict a clear, attractive moment related to: Painéis se movem e a luz reconstrói o ambiente sem mover o produto.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is motion-campanha. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "id": "motion-campanha-2",
+      "sourceSha256": "da7e9df78ef1bf6934067673cc7a403c09a2eb2942fecd3794d3464f4c1cd209",
+      "sourceSize": [
+        864,
+        1821
+      ],
+      "rowBoundaries": [
+        0,
+        363,
+        728,
+        1092,
+        1456,
+        1821
+      ],
+      "prompt": "Create a beautifully art-directed contact sheet containing EXACTLY FIVE independent LANDSCAPE pictures stacked vertically in ONE column, FIVE equal rows. Canvas is extremely tall and narrow: width 768 height 2160; each of the five frames has a wide 16:9 landscape composition. NO additional columns, NO margins, NO gutters, NO labels, NO lettering, NO logos, NO numbers, NO frames inside frames. Preserve the whole scene inside each tile. Every tile is a different original video style visual study, not five shots of the same scene. Professional finishing, intentional light, coherent volume, material texture, avoid generic AI plasticity. All people, products, properties fictitious. Match exactly the five scenes in this TOP TO BOTTOM order:\n1. Campanha por transição de focalização física: Objetos em planos reais distintos com texto composto em profundidade controlada. Depict a clear, attractive moment related to: O foco passa do detalhe à evidência, enquanto o texto essencial permanece legível.\n2. Benefício em mecanismo de came: Roda excêntrica e seguidor acionam um elemento de campanha em palco pastel. Depict a clear, attractive moment related to: O came gira, o seguidor sobe e o resultado demonstra uma relação causal.\n3. Campanha de arena tipográfica: Letras grandes delimitam uma arena circular com objeto central em escala real. Depict a clear, attractive moment related to: A câmera percorre um arco curto e as palavras mudam de posição sem colidir.\n4. Identidade em painel de cabos tensionados: Cabos coloridos atravessam pontos de ancoragem numa parede clara. Depict a clear, attractive moment related to: Cabos são tensionados até formar uma silhueta estável e reconhecível.\n5. Mensagem em relevo de superfície mutável: Superfície de tecido cobre pequenos atuadores formando relevo legível. Depict a clear, attractive moment related to: Atuadores levantam uma forma por vez e a superfície retorna sem tremulação.\nFor photographic directions use realistic high-end photography and authentic anatomy. For drawn or material-art directions honor their specified physical medium, not a generic 3D aesthetic. The category is motion-campanha. Make all five compositions visibly different in palette, framing and layout. Large protagonists, fully contained in their own landscape cell. Do not add text; typography is composed separately in code.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/expansion-720/cinema-31.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        363
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "d69680f711b6e445db6d9597fe49a6a1e1fd3fb33c5df785f4ae5ec3da1f8aae"
+    },
+    {
+      "path": "assets/expansion-720/cinema-32.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        0,
+        363,
+        864,
+        729
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "46a6d206fdb32c8e791352fc22ccc73c56fd094ad30036f376dc010be1c06fa3"
+    },
+    {
+      "path": "assets/expansion-720/cinema-33.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        0,
+        729,
+        864,
+        1092
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "099ac68f2b9909b9030ca05284e7e2c529ea40ee4f3850437f9f6f77701cf5da"
+    },
+    {
+      "path": "assets/expansion-720/cinema-34.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        0,
+        1092,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "75ef69f1ff46e1ec5f54fd4cac96ec9bed01f8313b5afe242aaa8437349003d5"
+    },
+    {
+      "path": "assets/expansion-720/cinema-35.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "7e00079fe90135a37e8016197904d8adce518e81cde5b2b87b2bdfb530fadfe0"
+    },
+    {
+      "path": "assets/expansion-720/cinema-36.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        363
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "d9625ffa5eec751683289a7c32f5cb1a32ba538afbf47529766ee51e19fda5d9"
+    },
+    {
+      "path": "assets/expansion-720/cinema-37.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        0,
+        363,
+        864,
+        727
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "6fee3d69ebc6194d9076a6c24d2b889cf90bae36c352593209d5006340099740"
+    },
+    {
+      "path": "assets/expansion-720/cinema-38.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        0,
+        727,
+        864,
+        1091
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "c685d84256fd5adab04f8722ed4af50c844f70de6a7b3764fa7da83de376a407"
+    },
+    {
+      "path": "assets/expansion-720/cinema-39.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        0,
+        1091,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "af89d0eb0553a8bed8c6e49027ee38c3cdd060acda1f8186d1a33e86a70a4b46"
+    },
+    {
+      "path": "assets/expansion-720/cinema-40.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "9e3ac111fc4f589373516c095242e6a96b421e096998f1947317221f7e451936"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-31.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        362
+      ],
+      "width": 864,
+      "height": 362,
+      "sha256": "294d5a7b44ff337cfa9b088f6c5e0e2d054d0a6ea42b425ff79843bf4c80c72b"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-32.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        0,
+        362,
+        864,
+        726
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "c5ee023ab0bec15226d16f103ee3015b0099ac97e2e9213487f045ea31af760d"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-33.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        0,
+        726,
+        864,
+        1090
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "22e2712d87dce4a15f4fe4c2fb989539c7f5d68b24e194fb3ccf153ee3019de2"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-34.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        0,
+        1090,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "2da026174e7f282e979972b6d2dc78fa97a765c3dbc2564a315f8dc69ae51d70"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-35.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "ba4176d9681067ff230249e85166a330eb3337bf9df8ec212d8a01a8436bdf59"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-36.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        359
+      ],
+      "width": 864,
+      "height": 359,
+      "sha256": "a042239b1a0edb2d24e8d0712783a95294689afa5fd808edf40d75813a2caa2a"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-37.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        0,
+        359,
+        864,
+        724
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "a6393f9ade85844d23b9f91d2a9d66343d83567ad1275da6c9b1be110297f1ce"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-38.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        0,
+        724,
+        864,
+        1095
+      ],
+      "width": 864,
+      "height": 371,
+      "sha256": "5992cf66c290d0052515ca7ab2cc875ae8b30b9f0f19013d305ae9fe4bf24746"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-39.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        0,
+        1095,
+        864,
+        1455
+      ],
+      "width": 864,
+      "height": 360,
+      "sha256": "3b1c1fdd01544a6fa78aff5bc3528c133c9e5d80ecb0eaf8cfd3ec7e85ddb1bf"
+    },
+    {
+      "path": "assets/expansion-720/ilustracao-40.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        0,
+        1455,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "8ac860cba8a0c2e10681d3a32fa97d6bd6b983d93ff98c1092ef3d52236276a3"
+    },
+    {
+      "path": "assets/expansion-720/materiais-31.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        367
+      ],
+      "width": 864,
+      "height": 367,
+      "sha256": "f7ce82441cf1bc93e2db0771f962b61c56ab9032d754c6206dde624f1903b934"
+    },
+    {
+      "path": "assets/expansion-720/materiais-32.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        0,
+        367,
+        864,
+        728
+      ],
+      "width": 864,
+      "height": 361,
+      "sha256": "e8aa6d4d9fd34c85997589449ea5589804de93919b9f18d683e1b1a42ebf55ae"
+    },
+    {
+      "path": "assets/expansion-720/materiais-33.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        0,
+        728,
+        864,
+        1090
+      ],
+      "width": 864,
+      "height": 362,
+      "sha256": "0771dfd83a2ccc7c80956ab4a4947404648cbd53333a2aa6596d7e536bb51f8f"
+    },
+    {
+      "path": "assets/expansion-720/materiais-34.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        0,
+        1090,
+        864,
+        1457
+      ],
+      "width": 864,
+      "height": 367,
+      "sha256": "9c4acd25384c93b47163241db36052c2a6a50dae6abc6c89bcea2c3917e47ad5"
+    },
+    {
+      "path": "assets/expansion-720/materiais-35.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        0,
+        1457,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "5b09949cb69c5d0d12235fdfc2bb31dbb8a26706ddd39f7c6a7f4b0071955f29"
+    },
+    {
+      "path": "assets/expansion-720/materiais-36.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        359
+      ],
+      "width": 864,
+      "height": 359,
+      "sha256": "decdf64d42b419be3b042d02c5d6eb7fd0623d1c7edb8c9f86053456db46895c"
+    },
+    {
+      "path": "assets/expansion-720/materiais-37.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        0,
+        359,
+        864,
+        726
+      ],
+      "width": 864,
+      "height": 367,
+      "sha256": "0fd0ac14fa3ef68581fd0c78b464345317594c0a0c1018e1e6b69b2f0b761f8f"
+    },
+    {
+      "path": "assets/expansion-720/materiais-38.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        0,
+        726,
+        864,
+        1089
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "33896b254c46bf92fcf5f157e8efc80930158bd33995f8c19e9b8f6d7ef0eba3"
+    },
+    {
+      "path": "assets/expansion-720/materiais-39.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        0,
+        1089,
+        864,
+        1454
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "cffd606f58451fbae12588ee6c0a7ea6b8cf08a18dc82abf5a4d35e3529716e9"
+    },
+    {
+      "path": "assets/expansion-720/materiais-40.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        0,
+        1454,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 367,
+      "sha256": "f6d69e18a310e5baaec17da1c535db0f476479eaaaeb24e79c8d1d3d1aa95be6"
+    },
+    {
+      "path": "assets/expansion-720/motion-31.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        387
+      ],
+      "width": 864,
+      "height": 387,
+      "sha256": "6c47a47d1b681413e5ed0bd7cc9ad1a8231872a8f574fd146dec365226b00bef"
+    },
+    {
+      "path": "assets/expansion-720/motion-32.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        0,
+        387,
+        864,
+        724
+      ],
+      "width": 864,
+      "height": 337,
+      "sha256": "0166eb7b0c89c4330c770fa406077a243393255c6fe4b3880545a6cda2ea3be6"
+    },
+    {
+      "path": "assets/expansion-720/motion-33.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        0,
+        724,
+        864,
+        1069
+      ],
+      "width": 864,
+      "height": 345,
+      "sha256": "7ffd802b1a83d833ed2ab4919c63d30d045d076022ddaa8eb8e7650f939a4457"
+    },
+    {
+      "path": "assets/expansion-720/motion-34.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        0,
+        1069,
+        864,
+        1454
+      ],
+      "width": 864,
+      "height": 385,
+      "sha256": "dcd5f6e9930c66fb11500661a1a4a99112d6dec53cbf9a84531dd4a019fc0757"
+    },
+    {
+      "path": "assets/expansion-720/motion-35.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        0,
+        1454,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 367,
+      "sha256": "802ade934c4f38792116cf31be395c02d3936db98d1bc49b65a013366c4720c4"
+    },
+    {
+      "path": "assets/expansion-720/motion-36.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        389
+      ],
+      "width": 864,
+      "height": 389,
+      "sha256": "6120dc5f68c1af2aef6a663951f92f7e29a70c261853b52b8575786b087ef971"
+    },
+    {
+      "path": "assets/expansion-720/motion-37.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        0,
+        389,
+        864,
+        724
+      ],
+      "width": 864,
+      "height": 335,
+      "sha256": "ac4c021c4af902f55e27fed6a2ca0ff448768df8245e315a1db30830b21caf28"
+    },
+    {
+      "path": "assets/expansion-720/motion-38.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        0,
+        724,
+        864,
+        1087
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "5f0fd6e4ae9733b6eed6c1fceaebfabe861c0f189647831203820866994cf005"
+    },
+    {
+      "path": "assets/expansion-720/motion-39.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        0,
+        1087,
+        864,
+        1450
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "ce319b7dec4beb69f9aab29d8d8d89f431a595f3d5b38f9f8cd771ddab143734"
+    },
+    {
+      "path": "assets/expansion-720/motion-40.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        0,
+        1450,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 371,
+      "sha256": "f6fa00601f17b1d161d69990350feeb0ec01624bc872204da5527a192c891b85"
+    },
+    {
+      "path": "assets/expansion-720/volume-31.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        363
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "b7df6adb65d7a2d38995acce0dffbc241808f1bdf31f25ce2f6ea0b283bdd8c4"
+    },
+    {
+      "path": "assets/expansion-720/volume-32.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        0,
+        363,
+        864,
+        728
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "5ba6918dac283a8b3e66c0ba5528ee8157b999cd6040419ba0a451cf6f5693fc"
+    },
+    {
+      "path": "assets/expansion-720/volume-33.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        0,
+        728,
+        864,
+        1092
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "665054d3138357bbddaec29d1fb9cac8f6ad5482222e3e572b86795d9343da00"
+    },
+    {
+      "path": "assets/expansion-720/volume-34.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        0,
+        1092,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "f31ceb990c67a52872b764b528efe5e520a1643df818e4c6a7e7b6f5660afd66"
+    },
+    {
+      "path": "assets/expansion-720/volume-35.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "527e29be741ab9bc5c7029199f2049e2b83647258da77ef801cb4f8ad27b9e6c"
+    },
+    {
+      "path": "assets/expansion-720/volume-36.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        361
+      ],
+      "width": 864,
+      "height": 361,
+      "sha256": "65b95f3ca6bc859ba0e307b557849930ebe6f02a590f4897053949003df77da1"
+    },
+    {
+      "path": "assets/expansion-720/volume-37.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        0,
+        361,
+        864,
+        730
+      ],
+      "width": 864,
+      "height": 369,
+      "sha256": "3f99979941ffd9e0f7856950a39acff0fa03a80a823c3e5dc3fc43e72ccc9ae8"
+    },
+    {
+      "path": "assets/expansion-720/volume-38.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        0,
+        730,
+        864,
+        1091
+      ],
+      "width": 864,
+      "height": 361,
+      "sha256": "ad3f36d3f31a1276b1dcd52e399e0e2185b852dd802cf83b9c7ea9cf17f6a9ef"
+    },
+    {
+      "path": "assets/expansion-720/volume-39.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        0,
+        1091,
+        864,
+        1451
+      ],
+      "width": 864,
+      "height": 360,
+      "sha256": "b8a33c5c32682b068a96f2ca17c15504bb1d7dac223d35252a31386426b99337"
+    },
+    {
+      "path": "assets/expansion-720/volume-40.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        0,
+        1451,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 370,
+      "sha256": "2b0a0341009b79cd2f76d7a3de9d0ac059de445244230b7595a774500a5c54ef"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-31.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        371
+      ],
+      "width": 864,
+      "height": 371,
+      "sha256": "6c5a6e9c3be2853f31aca10bbaa18f64ec9c5cb5b45359b2e74f6d1ec62b7c6c"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-32.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        0,
+        371,
+        864,
+        726
+      ],
+      "width": 864,
+      "height": 355,
+      "sha256": "2bd163562a88c0fc9832ab115f74e8c3eea460e7895d85d39f57223bdb117e89"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-33.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        0,
+        726,
+        864,
+        1091
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "a45f51a48e4d1128d6c1af2be3ba66237198c263e1496e0f7410e6a4fba92bbd"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-34.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        0,
+        1091,
+        864,
+        1450
+      ],
+      "width": 864,
+      "height": 359,
+      "sha256": "c2d4cc45bdebf37281b9d39aa2e3ea16ddc752f5e13393969eabe884ec7f4563"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-35.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        0,
+        1450,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 371,
+      "sha256": "40423ab3079082e26176118965db0acd5ece69acc79bfa63c55e9ef1ac591d05"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-36.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        365
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "4718d36bba14da8400398ef6b4b282e3ae1f06b2314efa0e8891bf53e06690d7"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-37.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        0,
+        365,
+        864,
+        725
+      ],
+      "width": 864,
+      "height": 360,
+      "sha256": "148aaf549be24dd25eb1cc7bc271c727b5db251f46fc35ddf803e3e7af78db99"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-38.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        0,
+        725,
+        864,
+        1091
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "ffab6497444c188d46e5a3fb65aa1a3cdebfa09445095b75565146a858de07ee"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-39.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        0,
+        1091,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "5632df04227aa4d7eab20ec0451a4cc099cc1b511f0a37d10a518e96711ad4df"
+    },
+    {
+      "path": "assets/expansion-720/hibridos-40.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "c4137ffd270dcabdc6d33f8c778ee4cfc09868a5622b06197b5214e1f0cd38e9"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-31.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        362
+      ],
+      "width": 864,
+      "height": 362,
+      "sha256": "938664198bc582523c35a9d878964f9388c3d70e1040a222327809f882efe995"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-32.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        0,
+        362,
+        864,
+        726
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "404fca7e963a4b325fe851e609695ba10bd96cf62d28db4236e23a84ed123244"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-33.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        0,
+        726,
+        864,
+        1091
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "a7fa287e3597fed1bbd5e0679848fb459e5f91bef2035457a276129b9de57024"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-34.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        0,
+        1091,
+        864,
+        1455
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "22f1eaacc6335020c80a019fe0571837d9666b07c678ee1cfed1eb077afb81c2"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-35.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        0,
+        1455,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "a6f2f9b363b427437785891b7544afd3aa1589956d4d2fbdc097d21a23d71ad8"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-36.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        363
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "bb050a82f0f5dc45b7660dbc5ef417ce508c7c8b9dc08e52191c93bd1b1f1f82"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-37.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        0,
+        363,
+        864,
+        726
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "f47d2af4a1c712aedc1f07c1edad8c2592eda6899f9591f5b05c3b377397a414"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-38.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        0,
+        726,
+        864,
+        1092
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "14c2bfdecf6985e1ec167f9ca58f7f5aed8b255a649e14263bea19c16fb5a91e"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-39.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        0,
+        1092,
+        864,
+        1455
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "aab5f8505f00fd3ec083382ef7e739769a8ddcc659a3125f67c38390bb4aabe5"
+    },
+    {
+      "path": "assets/expansion-720/anuncios-40.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        0,
+        1455,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "d5779bb70b7c3001366ba5a81688a7f75e7d1698dbfd036abdd8ed3598ac5d9f"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-31.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        383
+      ],
+      "width": 864,
+      "height": 383,
+      "sha256": "983251c41b193b4049730254e01781d769a9f788acf32f20f6d85c6d28f835e6"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-32.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        0,
+        383,
+        864,
+        769
+      ],
+      "width": 864,
+      "height": 386,
+      "sha256": "5f554aa6140d2f6994e32439b8f1244e38a87ae92838a7f1aa4cf5b6fc4f3530"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-33.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        0,
+        769,
+        864,
+        1129
+      ],
+      "width": 864,
+      "height": 360,
+      "sha256": "07f8615d581eb1a44acab147458ad6d35b34d671c19c1662d5c3c8d6ea6fa149"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-34.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        0,
+        1129,
+        864,
+        1454
+      ],
+      "width": 864,
+      "height": 325,
+      "sha256": "624ac05f595b6058c0c6fb26ca8d81e4382c9eaeb9139370bdd3a9176b5753c1"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-35.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        0,
+        1454,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 367,
+      "sha256": "8ef47eeb1371c09774cfb6797f08d6da7bb4c401b1e13e320c7ad2f3b38ed5e2"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-36.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        369
+      ],
+      "width": 864,
+      "height": 369,
+      "sha256": "11b4cab66d2df758898e4e8b7072db3634748880996fb0b9c4db1a3986ec163d"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-37.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        0,
+        369,
+        864,
+        728
+      ],
+      "width": 864,
+      "height": 359,
+      "sha256": "d8a98c6f1b7a618d46633f90253827ec4c9691b5c6307942ce77b357c94fd39f"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-38.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        0,
+        728,
+        864,
+        1090
+      ],
+      "width": 864,
+      "height": 362,
+      "sha256": "8b2c8349741885a7a56e7c43df2e9c026c226ec0ee8b10e38368bd400fe14227"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-39.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        0,
+        1090,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "425aff59c1cf9b259b21218abc48964660c78935e5dfa8f9b002013a5383e65a"
+    },
+    {
+      "path": "assets/expansion-720/campanhas-40.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "0b0d697cb6b0ce96e31b20c7ae81ed4912fcff82b417b87e602cd48eac22bb31"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-31.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        380
+      ],
+      "width": 864,
+      "height": 380,
+      "sha256": "bff47c54d50c7087210d38c88fea3f98c7ff9376b89b24aadd4c67226806fc12"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-32.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        0,
+        380,
+        864,
+        751
+      ],
+      "width": 864,
+      "height": 371,
+      "sha256": "9c905e3f9d8704669e7c414c0488e87844caedcbe18eb944e2bccd576b6f8a72"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-33.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        0,
+        751,
+        864,
+        1104
+      ],
+      "width": 864,
+      "height": 353,
+      "sha256": "cdfb8579e00a6f8117b55a729f26c642f622051d25935b7d5130bec3627cb759"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-34.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        0,
+        1104,
+        864,
+        1440
+      ],
+      "width": 864,
+      "height": 336,
+      "sha256": "2ba96cff32a950097dcfc65b4021e7fcd71702105382e55555013c5a567d01cc"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-35.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        0,
+        1440,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 381,
+      "sha256": "0bbda8d45e63dea36abd096cef32eb6689934ad4b8b79084d0ffc66ab322d7ff"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-36.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        395
+      ],
+      "width": 864,
+      "height": 395,
+      "sha256": "59f896c62964e090f7fa999a027fd08eeee76ea25504477af30b320310429493"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-37.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        0,
+        395,
+        864,
+        772
+      ],
+      "width": 864,
+      "height": 377,
+      "sha256": "e69ef31a30afa5a085354ad72bb7ea86ce98190b898bc4107a45b4d290098034"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-38.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        0,
+        772,
+        864,
+        1070
+      ],
+      "width": 864,
+      "height": 298,
+      "sha256": "ba0842c781c1918653b008ffa4949318cbc5571c5364e47c64e165cd464ef924"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-39.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        0,
+        1070,
+        864,
+        1493
+      ],
+      "width": 864,
+      "height": 423,
+      "sha256": "035bd057afe1a5cd3e99b2a0f15df57dad3d48d21ae940bf33e24f5786da0dc3"
+    },
+    {
+      "path": "assets/expansion-720/imoveis-40.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        0,
+        1493,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 328,
+      "sha256": "0469a47fc65e8d4bd2456cdaed437fb9240cff6b293bdb565464391ebc2d7df9"
+    },
+    {
+      "path": "assets/expansion-720/avatares-31.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        362
+      ],
+      "width": 864,
+      "height": 362,
+      "sha256": "21e0854207d8c2e501b2b9f3bad41e3779bbbcaa129cc2926d0333d44271663a"
+    },
+    {
+      "path": "assets/expansion-720/avatares-32.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        0,
+        362,
+        864,
+        725
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "ca72040a691131bfaa8e8a487a9c4913070cd9521b12030afc278c2f812b2880"
+    },
+    {
+      "path": "assets/expansion-720/avatares-33.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        0,
+        725,
+        864,
+        1091
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "bdf0e62157df5ad7e5c66b86ee728d05cace4e133b946fa1481a7173118a0abe"
+    },
+    {
+      "path": "assets/expansion-720/avatares-34.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        0,
+        1091,
+        864,
+        1457
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "1945bf73480be9e451ab5f00e2f116bc569f60283b605b2dd589ff98f85190df"
+    },
+    {
+      "path": "assets/expansion-720/avatares-35.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        0,
+        1457,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "55dcf2d47edb9485ac009ec5d8797916b37535c8c12f48dd63904a381ba923f9"
+    },
+    {
+      "path": "assets/expansion-720/avatares-36.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        363
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "5965e0f537e3e1604bd86a4636c39d095e4a9aec9a973d903c006b02163dd1d8"
+    },
+    {
+      "path": "assets/expansion-720/avatares-37.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        0,
+        363,
+        864,
+        728
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "47934fd2a9481e94634f47e8b51b5dc922575f14f8fb852d32b24d3f71c7cc4e"
+    },
+    {
+      "path": "assets/expansion-720/avatares-38.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        0,
+        728,
+        864,
+        1091
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "63d9071fdaf7e7e45938a4747c8624e83712b1fd0b28ebc178ee5b28c7c0a48f"
+    },
+    {
+      "path": "assets/expansion-720/avatares-39.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        0,
+        1091,
+        864,
+        1457
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "8aa4df35169975c9a0d2e39dfd537bea5496857e9363343cdf7997cb329e784a"
+    },
+    {
+      "path": "assets/expansion-720/avatares-40.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        0,
+        1457,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "6c8cff4060088d09edd51bbd443b2f2115e47090b56c51516b3979e30ea795cf"
+    },
+    {
+      "path": "assets/expansion-720/saude-31.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        332
+      ],
+      "width": 864,
+      "height": 332,
+      "sha256": "ad58d63d609b7cddadd2bb983396078f14b8b21d986e8d1b3b66c46fe96a7bd9"
+    },
+    {
+      "path": "assets/expansion-720/saude-32.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        0,
+        332,
+        864,
+        689
+      ],
+      "width": 864,
+      "height": 357,
+      "sha256": "9e850d15236bce6e1d67b1ac73e9982d315d60f5db939c09367e4c03597fd74c"
+    },
+    {
+      "path": "assets/expansion-720/saude-33.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        0,
+        689,
+        864,
+        1055
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "b5875d191b73af76c5109e6c9c00de48a4ffb67c71218004e6e08c910164ce6f"
+    },
+    {
+      "path": "assets/expansion-720/saude-34.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        0,
+        1055,
+        864,
+        1487
+      ],
+      "width": 864,
+      "height": 432,
+      "sha256": "e7231e692fe11d90a5ce3136baaec63267c66ecb54bf38317cbe0c73b9eec845"
+    },
+    {
+      "path": "assets/expansion-720/saude-35.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        0,
+        1487,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 334,
+      "sha256": "9f4b0dfdafe407d824969535b05506432db756f46c30bf709548f1a859b29224"
+    },
+    {
+      "path": "assets/expansion-720/saude-36.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        364
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "15988f5a864c2d473be7e54a62fb1ce1a8eb494950e9344d2e83c306dba9888c"
+    },
+    {
+      "path": "assets/expansion-720/saude-37.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        0,
+        364,
+        864,
+        727
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "74a8c8e1adc634e6b562b0a941999cbcf61713bf149e662ad0177da13a5128c4"
+    },
+    {
+      "path": "assets/expansion-720/saude-38.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        0,
+        727,
+        864,
+        1092
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "77bfbfaa76aaf99cbac2d4a49fc974c4ab26f083b1ba54597d10c28a96badc5e"
+    },
+    {
+      "path": "assets/expansion-720/saude-39.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        0,
+        1092,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "64c63318ff41618087e0034fcede775aa750fcec82cca7671dc0836909196ef8"
+    },
+    {
+      "path": "assets/expansion-720/saude-40.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "18047bb9f0d6c6867ebd44d82550dcbdb448bd08a96380545416ff95a8dcd7d4"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-31.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        365
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "dacf1bd4c6f91ab796f805dc648d993938c00d7bb4dd341a2117ae2dbfe2ed57"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-32.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        0,
+        365,
+        864,
+        727
+      ],
+      "width": 864,
+      "height": 362,
+      "sha256": "4fb07418d6c423f65136a0eb6cc4effc2bf762b32287472e9ed4aa02a32014df"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-33.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        0,
+        727,
+        864,
+        1093
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "6b9cb2cd0eef99139c338e0260a3769b38db4d4d2ab087d250d38a5fa9737933"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-34.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        0,
+        1093,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "492eda501692c9bbfce6da89758e1a1e684d128c009016c13a1acbe1cb94a66c"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-35.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "0d7d6affabb4405cd136cd052d6ef963bdec69df31bddb33b34ebf0457563cd5"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-36.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        363
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "cb88aa2d2dafe5c4d943c24b954fd719164ac3933c7993429815dcaa2d9450f4"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-37.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        0,
+        363,
+        864,
+        727
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "ad11a29801affc41229f173a39d0a7efbfd1ca4db2544914a3dd5b871cce1437"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-38.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        0,
+        727,
+        864,
+        1092
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "d66785b1e8eb095dbb3192fa1102a15231f1e78cc0250a2a2c8925b1089745e0"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-39.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        0,
+        1092,
+        864,
+        1457
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "d0947fbd470fc211a55d9c0ba22e711eb86383794b382023f714d9c856562568"
+    },
+    {
+      "path": "assets/expansion-720/ecommerce-40.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        0,
+        1457,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "4ea240b46b2454bd1832971d28b7c1380ce3d41b0a5122caa471ec9dfb28c172"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-31.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        364
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "6e0d7c0bddf2ae162874dfdda5ab52e8889a78aa7cd6dbb94694bad42cd2796a"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-32.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        0,
+        364,
+        864,
+        725
+      ],
+      "width": 864,
+      "height": 361,
+      "sha256": "18951900e4e134467036adc2e709d00e4d44a90ad501f1ab2cec9ce04aa5e055"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-33.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        0,
+        725,
+        864,
+        1091
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "b89ae49c14cc44c4b42a6f911c7572d85e83a582817ceb24bb3f5a79b0d63fe7"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-34.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        0,
+        1091,
+        864,
+        1457
+      ],
+      "width": 864,
+      "height": 366,
+      "sha256": "638d638cfd6f3c4a8db8fcdb54b15986d2a1a9e04d3e580daf61abb4bcea3431"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-35.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        0,
+        1457,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "1e4391e5bcea1b19160ec97d122245568be3637dda971cff54a27dcccf7bf748"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-36.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        377
+      ],
+      "width": 864,
+      "height": 377,
+      "sha256": "692aa4c341a722420447a83412f2742d80fa146e9b4f5449545dcbf6a180893b"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-37.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        0,
+        377,
+        864,
+        732
+      ],
+      "width": 864,
+      "height": 355,
+      "sha256": "e7822a14f58b10c7a0425b2c1c5d799627383aa0d7923b3c33231d431b31fa67"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-38.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        0,
+        732,
+        864,
+        1111
+      ],
+      "width": 864,
+      "height": 379,
+      "sha256": "0099bf49cd693cc42dd092396638c5c770d80f0869000925b5d8429e82045b8c"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-39.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        0,
+        1111,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 345,
+      "sha256": "0ee75c8ea22dbf360c06bfef5f9e966ee5b2c875ecfed8a17e8da541514509ce"
+    },
+    {
+      "path": "assets/expansion-720/infoprodutores-40.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "dff73b6b8debfb4cfd06ceff3691adc8e5a70e89790a08d9179d6852ffb86ccf"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-31.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        363
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "4b071b4f8906aba49900def6de4292c09b78fc6a52588afdfffeef4dfb005848"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-32.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        0,
+        363,
+        864,
+        725
+      ],
+      "width": 864,
+      "height": 362,
+      "sha256": "6eccaa68873ff20f0d9d4af425824348527a4baa84b1a26c157723dd7af0596d"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-33.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        0,
+        725,
+        864,
+        1089
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "4b8978f6bea26bf0609c374c7fd0102c2a91721ac5067ef62f29d19713f64cd1"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-34.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        0,
+        1089,
+        864,
+        1454
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "1d2e4abb88bd8b0008e91fd13305964f809432ae85979b6d7c4e7962d53234a2"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-35.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        0,
+        1454,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 367,
+      "sha256": "e5d85483ba370ad78c9c9de22761c4396970c727928f8d01e8c4a229e9b96d81"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-36.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        0,
+        0,
+        864,
+        363
+      ],
+      "width": 864,
+      "height": 363,
+      "sha256": "1784999cc5e60d7dff781a80316a5b89ec4eb2a2e81c0e8bc95f70cc0a0a7be0"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-37.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        0,
+        363,
+        864,
+        728
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "dccdd5883ebd81d1afccc86d9985d4a05ba6979713eef9ade47500463ed61f24"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-38.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        0,
+        728,
+        864,
+        1092
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "97a396a274257d7a2685671213f84eef4ae538c8c83cb6b833c65c43d130805d"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-39.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        0,
+        1092,
+        864,
+        1456
+      ],
+      "width": 864,
+      "height": 364,
+      "sha256": "c4200730e476448d52db54c1fc272b29b96d3900c8269f468379fc591df0741f"
+    },
+    {
+      "path": "assets/expansion-720/motion-campanha-40.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        0,
+        1456,
+        864,
+        1821
+      ],
+      "width": 864,
+      "height": 365,
+      "sha256": "3ac6509c50fb3ef5ae6cb4d4d03168e4424880fc6154a9d2b9d3d4ed7c80ab10"
+    },
+    {
+      "path": "assets/expansion-720/grafico-31.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2d8539b75037ad124c232d6983e6f8629dd222b3f10cf2e65d4f38ff6c202416"
+    },
+    {
+      "path": "assets/expansion-720/grafico-32.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "7828198ff04118c8d477bf3f1498b56acaf5eb9b2ffdc118d08bbfa99aaf2380"
+    },
+    {
+      "path": "assets/expansion-720/grafico-33.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "4eaea87ed65f9703467a767a09b4fbd7dad08530e3ebaeb018fc86158f954de4"
+    },
+    {
+      "path": "assets/expansion-720/grafico-34.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "df168476e112862d17bf60fb32a49eec30b334f124ab6e5cba9d9637b1ecdb1f"
+    },
+    {
+      "path": "assets/expansion-720/grafico-35.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "725fc84bbc242051e7f5bf84f78fcd3214d5fe576ebf272f396359ac0a4b1cb0"
+    },
+    {
+      "path": "assets/expansion-720/grafico-36.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "de7e77f7daf5162139e9f4e616f62369ae8dc60b41adb80c568fc10831d59160"
+    },
+    {
+      "path": "assets/expansion-720/grafico-37.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a7f4ea298b5cade5d4b8d84198eee90469b52b348e3007f97442a0cc7f5ce4c3"
+    },
+    {
+      "path": "assets/expansion-720/grafico-38.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "79723e159c267ccd080a12819afcf4519df2ff7793355fe315fd831ade8e5d61"
+    },
+    {
+      "path": "assets/expansion-720/grafico-39.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a83632dafe6121f157e1471c320223c796482759f5ad4d57472bcf96f9500ccf"
+    },
+    {
+      "path": "assets/expansion-720/grafico-40.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0acbff158972e0707d5ef9b1bde2af3321fc0069c29dcfc03a3180b2f417bc36"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-31.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2a30e1a3ecc940ac46e99bec5928dcca40a1fd119c25eb9be4a6d7cbe6b494d8"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-32.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "c1c47dd5d79ac00b4d41f2ad07785a28a2b7e4ad3323fc6ac87e4397f6a4f020"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-33.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a47acee08ea46187d96a095e39be50b6f650fa45acde45eaffce907869440d90"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-34.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "b09e15c4b1f2044a123af0d167ef181b7edf23f16946c0a71c772b42a99a5107"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-35.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "94580cae78d752269b0125bad556328620d25548d7795153742e02829cb71ddd"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-36.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "f8911c669cfccf0aa2b103128ded4c96f6eda087b68bbaf86533ab0fe7d77910"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-37.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "309bcd9262786034818b3732f1ad4a6aa5677acf21ce0706e171ed41a49414ac"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-38.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "6a0aca7a558dfeeb3a7117b83dcf8388811bf8c1558b828a3cd6ac9bd6307f9a"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-39.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a2059e66b74d05f1231f8ca6b35423ab4c3ee70f508d1173103830d7aa6706d4"
+    },
+    {
+      "path": "assets/expansion-720/tecnologia-40.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "5bb4c49c7b54bc70f5d98f162d66c639606a31512ec24c16774169adab1b1f6b"
+    },
+    {
+      "path": "assets/expansion-720/software-31.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "5125c6bf90bb46616fc97c02bc4ea97721dbf90e98a69c34e8b3827887184fca"
+    },
+    {
+      "path": "assets/expansion-720/software-32.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "3da55372dd0687b6cfb403f81f102756e0452af1403941dd9312697f3e86cc4b"
+    },
+    {
+      "path": "assets/expansion-720/software-33.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "6628f1ec7fada81f69f21b36f9ceb5c75e1676913cea1a88c53659eadb109895"
+    },
+    {
+      "path": "assets/expansion-720/software-34.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "8e9c95d57c3d90bbfafb8f1b5230df3d4cac0939e3bf745f20ec707409ebe224"
+    },
+    {
+      "path": "assets/expansion-720/software-35.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "df9aafb1ef690123562efd29aa6cb34ac057b8e3cdbf1564d50f9e2014ee9256"
+    },
+    {
+      "path": "assets/expansion-720/software-36.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "be3216bb4431c098983cbb8649f527fd4f15170b330a1762f6a99be3d2270d56"
+    },
+    {
+      "path": "assets/expansion-720/software-37.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "32d8f8a42cea870b356a9b006e2f7ba073c130c0ea7abef005adbb295f0379d6"
+    },
+    {
+      "path": "assets/expansion-720/software-38.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "5caab15dd19e20d872b98d750264a0b01aa33ba553e7203cff1ea047ec8ecd19"
+    },
+    {
+      "path": "assets/expansion-720/software-39.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "67d5b80eb0f275a6351d37a3451e5d3d4ff7f585457df5e0f97b4cbef97fad88"
+    },
+    {
+      "path": "assets/expansion-720/software-40.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "28257caa36df109a394656fd32b0f52d8815b0b470d1bc8df7c5b99055da77d5"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-31.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "a347631e143f6c15182700315df1ce04be9ae839a7900593d5a77ffb7b105675"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-32.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "22ee1f9c02d93b2b54d0f1f47ac38632202c9bf6d3bdc13dd4807cbea0071e20"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-33.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "0a0ff1c7a144d2fa13b625613982fe8e30dc3a41044c646585f9b1651ae2f13b"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-34.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "63a97f48cf8063ffe0a9b2c87a10ec34e6e203880f53c023df84635d2f16c19d"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-35.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "38b3d957df92a4f0587733e8e90cfc9b5144790284d703deaf7a54ff8c19cc22"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-36.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "2360f5daff217402ff2a223c7ced130273a5a35c947e7d3f2bdde12a4e61e63f"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-37.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "8f63095ed83c491d410ced4e3a5031394d9c72db7cecb5923aa5c2fac62f02a9"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-38.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "90119219e59bf6a0ba1cd17c954b0d097a727048cc7322a99a3b9e4e279032d2"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-39.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "63ea3137b0a78902604ad23a1f303a46f6095fc099c4760df03f81845362c570"
+    },
+    {
+      "path": "assets/expansion-720/apresentacoes-40.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1440,
+      "height": 810,
+      "sha256": "6724ad9d81a18e4e43519454febceafe685580e1bd82d2643c62a503853399a8"
+    }
+  ]
+}

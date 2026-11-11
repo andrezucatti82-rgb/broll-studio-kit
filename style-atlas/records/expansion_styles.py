@@ -1,0 +1,37 @@
+"""Append 180 directions. Existing entries and their order are preserved."""
+import json,unicodedata,re,copy
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[1]
+DATA=ROOT/'records/expansion-720'
+RESOURCES={
+'cinema':['Captação ou geração de cena fictícia','Controle de lente e iluminação','Color grading por plano','Composição e foley'],
+'grafico':['Composição editorial em código ou vetores','Fontes licenciadas e texto editável','Camadas separadas','Animação de layout'],
+'ilustracao':['Ilustração original em camadas','Poses-chave e desenho de intervalos','Textura do meio declarado','Composição 2D'],
+'materiais':['Materiais físicos ou estudo sintético identificado','Captação macro ou modelagem','Máscaras e sombras de contato','Foley de material'],
+ 'tecnologia':['Dados autorizados e fonte','Gráficos programados com legenda','Escalas e unidades verificadas','Roteiro de leitura dos dados'],
+'motion':['Geometria e rig específicos','Simulação ou animação por poses','Câmera com âncora estável','Som sincronizado ao mecanismo'],
+'volume':['Modelagem compatível com o material','Shader e iluminação controlados','Simulação quando necessária','Render em camadas'],
+'hibridos':['Roteiro de situação e consequência','Filmagens ou cenas fictícias identificadas','Continuidade de objetos','Montagem e desenho de som'],
+'anuncios':['Fotos e vídeos originais do produto real','Cenário independente do produto','Máscaras de produto e rótulo','Luz, montagem e packshot'],
+'campanhas':['Briefing e benefício comprovável','Captação da demonstração','Condições do teste declaradas','Locução, música e foley'],
+'imoveis':['Fotos e vídeos originais de todos os ambientes mostrados','Planta e medidas confirmadas quando usadas','Dados comerciais autorizados','Legendas editáveis e montagem documental'],
+'software':['Capturas ou gravações reais da versão usada','Conta de demonstração sem dados privados','Interações verificadas','Cursor e destaques em código'],
+'apresentacoes':['Mensagem e evidências aprovadas','Fontes licenciadas','Composição tipográfica editável','Animação guiada pela fala'],
+'avatares':['Personagem fictício autorizado ou originais da pessoa real','Voz licenciada ou autorizada','Cenário separado e B-roll','Teste de rosto e corpo em movimento'],
+'saude':['Conteúdo revisado pelo profissional responsável','Referências e protocolos aplicáveis','Pessoas e ambientes autorizados','Legendas acessíveis e aprovação clínica'],
+'ecommerce':['Produto e embalagem originais','Manual e variantes confirmadas','Demonstração real das características','Textos e dados comerciais editáveis'],
+'infoprodutores':['Conteúdo e plataforma reais do curso','Aulas ou materiais autorizados','Critérios e condições confirmados','Captação do especialista ou voz licenciada'],
+'motion-campanha':['Mensagem principal e ativos de marca','Cenografia e mecanismos em camadas','Rig ou composição específica','Locução, música e efeitos de ação']}
+MUSIC={'cinema':'Trilha cinematográfica contida, com dinâmica por acontecimento','grafico':'Pulso editorial seco e espaçado','ilustracao':'Instrumentos acústicos leves, coerentes com a técnica','materiais':'Percussão tátil discreta e textura orgânica','tecnologia':'Pulso eletrônico neutro, sem som de vitória para dados','motion':'Percussão sincronizada aos ciclos sem loop mecânico dominante','volume':'Paisagem sonora de material e graves leves','hibridos':'Motivo narrativo que muda com a consequência','anuncios':'Tema publicitário curto com fechamento claro','campanhas':'Trilha com arco de problema, demonstração e solução','imoveis':'Ambiência real do espaço com música discreta','software':'Base eletrônica limpa, sem alarmes que confundam o uso','apresentacoes':'Música mínima com pausas para leitura','avatares':'Base discreta preservando presença e inteligibilidade da voz','saude':'Ambiência calma, sem dramatizar sintomas ou prometer resultado','ecommerce':'Trilha leve que abre espaço à demonstração real','infoprodutores':'Base editorial convidativa, com pausas para explicar','motion-campanha':'Trilha de campanha com acentos ligados às mudanças de estado'}
+def slug(s):return re.sub(r'[^a-z0-9]+','-',unicodedata.normalize('NFKD',s).encode('ascii','ignore').decode().lower()).strip('-')
+def extend(styles,families):
+ data=json.loads((DATA/'directions.json').read_text());near=json.loads((DATA/'distinctions.json').read_text())
+ original=list(styles);byfam={x[0]:x for x in families}
+ for fam,rows in data.items():
+  _,family_name,kind,family_rows=byfam[fam]
+  base=next(s for s in original if s['family']==fam)
+  for i,r in enumerate(rows):
+   code=fam in ['grafico','tecnologia','software','apresentacoes']
+   s={'id':'exp-'+slug(r['name']),'name':r['name'],'family':fam,'familyName':family_name,'kind':kind,'signature':r['scene']+'.','exampleTopic':r['scene'],'uses':r['uses'],'resources':RESOURCES[fam], 'motion':r['motion']+'.','complexity':'Alta' if fam in ['motion','volume','motion-campanha','avatares'] else 'Média','edition':'4.1','segment':'Expansão autoral · direção e uso','image':{'atlas':f'assets/expansion-720/{fam}-{i+31:02}.webp','columns':1,'rows':1,'column':0,'row':0,'sourceKind':'code' if code else 'ai'},'preset':copy.deepcopy(base['preset']),'readiness':{'status':'visual_reference','evidence':'Novo estudo estático; não há amostra audiovisual produzida ou aprovada para esta direção.'},'novelty':near[fam][i], 'researchRefs':['exp-optics'] if fam=='cinema' else ['exp-data'] if fam=='tecnologia' else ['exp-learning'] if fam in ['software','infoprodutores'] else ['exp-health'] if fam=='saude' else ['exp-print'] if fam in ['ilustracao','materiais'] else ['exp-tactile'], 'proof':f"Na amostra, demonstrar esta ação inteira: {r['motion']}. Verificar estado inicial, ação e resultado, transição e legibilidade em playback com áudio. O quadro da galeria não comprova movimento nem fidelidade a item real.", 'requirements':f"Para {r['name']}: preparar "+'; '.join(RESOURCES[fam])+'. Confirmar o que existe, o que pode ser mostrado e o que não pode mudar. Gerar moodboard e storyboard e obter seus aceites separados antes de produzir a amostra. Se referências, ferramenta ou fidelidade forem insuficientes, explicar o limite e propor execução viável antes de consumir créditos.', 'audio':{'voice':'Locução licenciada natural em português, com pausas por significado; voz pessoal somente mediante autorização.','music':MUSIC[fam]+', original ou licenciada, ajustada à fala.','sfx':'Captar ou desenhar sons do acontecimento: '+r['motion']+'. Evitar efeitos decorativos a cada palavra.','mix':'Conferir fala inteligível, ducking e escuta completa; não marcar revisão por medição isolada.'},'note':('Composição original em código; dados e telas fictícios, não capturas oficiais.' if code else 'Estudo de aparência gerado por IA; pessoas, produtos, imóveis e situações fictícios.')+' Texto final sempre editável em código. Reprodução da técnica, naturalidade e fidelidade dependem de produção, revisão e aprovação da amostra.'}
+   s['preset']['avatar']=fam=='avatares';s['preset']['productFidelity']='Usar arquivos originais para pessoas, produtos, rótulos, marcas, imóveis e interfaces reais. Preservar identidade, proporções e características. A imagem fictícia da galeria não é referência factual. Limitar ângulos à cobertura disponível, registrar invariantes e comparar originais na amostra. Não prometer fidelidade total.'
+   styles.append(s);family_rows.append(tuple(r.values()))
