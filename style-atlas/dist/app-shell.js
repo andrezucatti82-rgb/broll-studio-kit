@@ -128,6 +128,13 @@
   $('openCategories').onclick=openDrawer;$('closeCategories').onclick=closeDrawer;
   $('categoryDrawer').addEventListener('close',()=>{$('sidebarHome').append($('categorySidebar'));document.body.style.overflow=previousOverflow;$('openCategories').setAttribute('aria-expanded','false');if(mobile.matches)$('openCategories').focus()});
   $('categoryDrawer').addEventListener('click',e=>{if(e.target===$('categoryDrawer'))closeDrawer()});
+  $('categoryDrawer').addEventListener('keydown',e=>{
+   if(e.key!=='Tab')return;
+   const items=[...$('categoryDrawer').querySelectorAll('a[href],button,input,select,textarea,[tabindex]')].filter(el=>!el.disabled&&el.tabIndex>=0&&el.getClientRects().length);
+   const first=items[0],last=items.at(-1);if(!first)return;
+   if(e.shiftKey&&(document.activeElement===first||!$('categoryDrawer').contains(document.activeElement))){e.preventDefault();last.focus()}
+   else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}
+  });
   mobile.addEventListener('change',()=>{if(!mobile.matches)closeDrawer()});
   $('exploreCategory').onclick=()=>choose(family(),{close:true});
   $('categorySearch').addEventListener('input',()=>{query=$('categorySearch').value;sidebar()});
