@@ -42,6 +42,10 @@ for s in catalog['styles']:
             if not target.exists() or target.stat().st_mtime<source.stat().st_mtime:
                 frame=im.crop(rect);frame.save(target,'WEBP',quality=92,method=6)
                 frame.thumbnail((240,420));frame.save(thumb,'WEBP',quality=82,method=6)
+            data=target.read_bytes()
+            if len(data)%65536==65534 and data[:4]==b'RIFF':
+                data+=b'JUNK'+struct.pack('<I',0)
+                target.write_bytes(data[:4]+struct.pack('<I',len(data)-8)+data[8:])
             width,height=rect[2]-rect[0],rect[3]-rect[1]
             frames.append({'src':str(target.relative_to(DIST)),'thumbnail':str(thumb.relative_to(DIST)),'width':width,'height':height,'label':labels[i],'action':beats[i],'caption':([theme+'.',s['motion'].rstrip('.')+'.','A ação transforma o estado inicial.','A sequência encerra a mensagem.'][i] if beats[i].startswith(('Estabeleça','Início da ação','Consequência visível','Resolva visualmente')) else beats[i]),'alt':s['name']+' — '+labels[i].lower()+'. '+beats[i]})
             crops.append({'src':str(target.relative_to(DIST)),'rect':list(rect),'sha256':sha(target)})

@@ -33330,7 +33330,8 @@
           1024,
           1536
         ],
-        "sha256": "c38326591e22223dc04479a8a022df26a8f0ebd15aa7a86127ad2a0019d8abc0"
+        "sha256": "20ff0b08a9d58a4823c0d7ed7ae7e9e13565f8d3a29279fde8ee1878cda3cf85",
+        "containerPadding": "Empty RIFF JUNK chunk avoids cPanel appending CRLF at the 65534-byte boundary. Decoded pixels verified identical."
       }
     ],
     "conceptApproval": "pending_user_review",
