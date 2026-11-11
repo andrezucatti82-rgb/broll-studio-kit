@@ -131,3 +131,9 @@ Geração de vídeo: HeyGen via API HTTP direta é a primeira opção a avaliar.
 O atlas agora mostra materiais, ferramentas e maturidade dentro de cada ficha. O fluxo segue materiais → roteiro → storyboard → amostra, com aprovação criativa separada da revisão técnica. Consulte [produção retomável e HeyGen direto](docs/AUTOMATION.md) para `npm run plan`, orçamento local, consultas de jobs e limites de automação.
 
 [Primeira rodada de três amostras HeyGen](https://videos.gerenciadordeanuncios.com.br/automation-pilot.html): produto fictício, interface demonstrativa e explicação de agente de IA. Dez segundos cada, ainda com revisão audiovisual e aprovação criativa pendentes. Não são referências de acabamento aprovado.
+
+## Aprovação visual antes de geração IA
+
+Leia [a regra universal](docs/VISUAL-APPROVAL.md). Comece por imagens aprovadas, inclusive para testes de avatar e B-roll. Copie `templates/workflow.json` para a pasta do projeto e registre aprovações reais. `node scripts/workflow-gate.mjs ai-video projects/exemplo/workflow.json` verifica o aceite visual. O cliente HeyGen exige `workflow` (caminho relativo ao job) e `visualSha256` antes de executar. `render` aceita `--stage animatic`, `--stage sample` (até 15 segundos) e, por padrão, `full-render`; `--stills` continua disponível para preparar imagens. O render completo exige as aprovações da amostra integrada. Nenhuma checagem automática assiste ou ouve o vídeo.
+
+Para aplicar a regra a outras skills locais de vídeo, use `scripts/apply-visual-policy.py` primeiro sem `--apply`, indicando `--root`, `--policy docs/VISUAL-APPROVAL.md` e uma pasta externa em `--backup`. Revise a seleção e então aplique. A ferramenta preserva backups e é idempotente; não altera serviços remotos.

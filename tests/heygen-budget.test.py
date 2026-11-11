@@ -1,8 +1,15 @@
-import importlib.util, unittest
+import importlib.util, unittest, tempfile, json
+from unittest.mock import patch
 from pathlib import Path
 spec=importlib.util.spec_from_file_location('heygen_clips',Path(__file__).parents[1]/'scripts/heygen-clips.py')
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 class BudgetTests(unittest.TestCase):
+ def test_no_visual_approval_prevents_all_api_calls(self):
+  with tempfile.TemporaryDirectory() as directory:
+   job=Path(directory)/'job.json';job.write_text(json.dumps({'reserveUSD':1}))
+   with patch.object(m,'api') as api:
+    with self.assertRaisesRegex(ValueError,'Visual approval required'):m.submit(job,Path(directory)/'ledger.json',True)
+    api.assert_not_called()
  def ledger(self):return {'planningBRLPerUSD':7,'limitBRL':100,'pricingBasis':'Explicit estimate fixture','jobs':[]}
  def test_unknown_and_failed_charges_keep_reservation(self):
   d=self.ledger();d['jobs']=[{'reservedUSD':14,'chargedUSD':None,'status':'submission_unknown'}]

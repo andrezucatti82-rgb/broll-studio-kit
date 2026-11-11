@@ -1,3 +1,10 @@
+# 2.3.1 — Aprovação visual anterior à geração IA
+
+- Política aplicável a testes, avatares, B-roll e amostras em qualquer provedor.
+- Aprovações separadas por escopo e arquivo; styleframes, animatic e amostra integrada.
+- Bloqueio no cliente HeyGen antes da API e no render completo; testes de regressão.
+- Aplicador local reversível e política portátil para skills e plugins.
+
 # 2026-11-06 — Biblioteca somente de estilos
 
 - 540 estilos preservados, com galeria em largura total e escolha no briefing.
