@@ -4,7 +4,7 @@ Run repeatedly while generation continues; --complete requires all 720 sequences
 """
 from pathlib import Path
 from PIL import Image
-import hashlib,json,sys
+import hashlib,json,sys,struct
 
 ROOT=Path(__file__).resolve().parents[3]; DIST=ROOT/'style-atlas/dist'; RECORD=Path(__file__).parent
 WORK=Path('/workspace/work/sequences-720'); OUT=DIST/'assets/style-sequences';OUT.mkdir(exist_ok=True)
