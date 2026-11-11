@@ -7,3 +7,11 @@ export async function boundedWork(items,limit,work){
  }));
  if(failure)throw failure;
 }
+
+// Only use for idempotent operations such as overwriting the same release asset.
+export async function retryIdempotent(work,attempts=3,delay=ms=>new Promise(r=>setTimeout(r,ms))){
+ if(!Number.isInteger(attempts)||attempts<1||attempts>4)throw Error('Invalid attempts');
+ for(let attempt=1;attempt<=attempts;attempt++){
+  try{return await work(attempt)}catch(error){if(attempt===attempts)throw error;await delay(300*attempt)}
+ }
+}

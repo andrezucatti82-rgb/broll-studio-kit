@@ -5,7 +5,7 @@ import {createHash} from 'node:crypto';
 import {validateCatalog} from './validate.mjs';
 import {stableGalleryHtml,releaseEntryHtml} from './static-release.mjs';
 import {readPublicAsset} from './public-asset.mjs';
-import {boundedWork} from './bounded-work.mjs';
+import {boundedWork,retryIdempotent} from './bounded-work.mjs';
 const argv=process.argv.slice(2),get=k=>{const i=argv.indexOf(k);return i<0?undefined:argv[i+1]};
 const domain=get('--domain'),source=path.resolve(get('--source')||'style-atlas/dist');
 const apply=argv.includes('--apply');
@@ -25,10 +25,12 @@ async function api(module,fn,params={}){
  const raw=await r.json();const j=raw.result||raw;if(!r.ok||j.status!==1)throw Error(`cPanel ${module}/${fn} failed (HTTP ${r.status}): ${JSON.stringify(j.errors||[]).replaceAll(token,'[redacted]').replaceAll(user,'[account]').slice(0,700)}`);return j.data;
 }
 async function upload(dir,name,bytes){
+ return retryIdempotent(async()=>{
  const form=new FormData();form.set('dir',dir);form.set('overwrite','1');form.set('file-1',new Blob([bytes]),name);
  const r=await fetch(`${apiBase}/execute/Fileman/upload_files`,{method:'POST',headers,body:form,signal:AbortSignal.timeout(60000),redirect:'error'});
  const raw=await r.json();const j=raw.result||raw;const item=j.data?.uploads?.[0];if(!r.ok||j.status!==1||item?.status!==1)throw Error(`Upload failed for ${name}; HTTP ${r.status}.`);
- if(item.size!=null&&Number(item.size)!==bytes.length)throw Error(`Upload size mismatch: ${name}`);
+ if(item.size!=null&&Number(item.size)!==bytes.length)throw Error(`Upload size mismatch: ${name}; expected ${bytes.length}, received ${Number(item.size)}.`);
+ });
 }
 async function files(dir,rel=''){
  const out=[];for(const e of await readdir(path.join(dir,rel),{withFileTypes:true})){
