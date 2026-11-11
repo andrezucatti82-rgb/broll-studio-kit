@@ -7,7 +7,7 @@ description: Skill de uso geral para qualquer marca. Produz vídeos B-roll narra
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.3.1**. O atlas contém **720 estilos em 18 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.3.2**. O atlas contém **720 estilos em 18 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
 
 ## Provedor prioritário para geração de vídeo
 
@@ -87,3 +87,7 @@ Encerre cada etapa com <<<STATUS_PROJETO seguido de JSON com etapa, estado, vers
 ## Pré-produção visual com aprovação
 
 Aplique [moodboard e storyboard](references/preproduction-approval.md) antes da amostra, em todos os estilos. Gere e mostre primeiro o moodboard real, reunindo imagens, paleta, texturas, luz, tipografia e atmosfera; solicite sua aprovação. Após o aceite, gere o storyboard visual completo de planos numerados na sequência do roteiro, com quadros individuais, ação, câmera, texto, transições e áudio; peça aprovação separada. Só então gere a amostra de 10 segundos. Não substituir imagens por descrições, não usar colagens como única referência de identidade e não interpretar status ou silêncio como aprovação. Registre arquivos, versões e decisões em `templates/preproduction-plan.json`; mantenha os limites de identidade e as quatro travas da amostra.
+
+## Execução dos estilos e combinações
+
+Ao receber seleção do atlas, aplique [do estilo à execução](references/style-execution.md). Resolva os registros completos por ID, inspecione os quadros individuais e distribua os papéis de até dez estilos. Registre critérios, recursos, desvios e provas em `templates/style-execution-plan.json`; nomes e imagens estáticas não garantem movimento. Preserve os aceites de moodboard, storyboard e amostra.

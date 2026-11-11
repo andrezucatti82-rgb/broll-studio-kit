@@ -6,7 +6,7 @@ Entregar roteiro e moodboard visual para aprovação; após o aceite, storyboard
 
 ## Seleção de direção
 
-O [Atlas Vídeo Multimarcas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) tem 720 direções em 18 famílias, na edição 4.1. Não é uma lista exaustiva. Aceitar tema, estilo principal e complementar opcional, formato, tipografia e marca opcional. Ler o preset completo, `audio`, `requirements` e as referências fornecidas; nomes de estilos não substituem seus critérios. Os arquivos versionados estão em `style-atlas/` no repositório. A skill isolada funciona com este guia mesmo sem acesso à galeria.
+O [Atlas Vídeo Multimarcas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) tem 720 direções em 18 famílias, na edição 4.1. Não é uma lista exaustiva. Aceitar tema, um estilo principal e até nove complementares opcionais, formato, tipografia e marca opcional. Ler o preset completo, `audio`, `requirements` e as referências fornecidas; nomes de estilos não substituem seus critérios. Os arquivos versionados estão em `style-atlas/` no repositório. A skill isolada funciona com este guia mesmo sem acesso à galeria.
 
 No site externo, copiar o pedido e enviá-lo no ChatGPT. O site não envia automaticamente à conversa atual. Na Page, salvar a escolha no widget e usar o botão nativo de chat; confirmar o estado atual antes de produzir. Instalação e ferramentas dependem da superfície. Não alegar conexão ou instalação universal sem verificação.
 
@@ -62,7 +62,7 @@ Sem avatar por padrão. A seleção explícita de um preset da categoria Avatare
 
 ## Galeria e identidade da interface
 
-Galeria pública: https://videos.gerenciadordeanuncios.com.br/ ; espelho: https://video-multimarcas-estilos.andrezucatti82.chatgpt.site . A interface usa fundo creme, Geist e ícones GDA, com animações suaves e respeito a movimento reduzido. Isso não impõe essa direção ao vídeo: ler marca, estilo e tipografia escolhidos para cada produção. No site, preparar/copiar e enviar o pedido; na Page, salvar estado e usar o botão nativo de chat. A instalação e os conectores precisam existir na conta e superfície usadas, sem alegar sincronização universal.
+Galeria pública: https://videos.gerenciadordeanuncios.com.br/ ; espelho: https://video-multimarcas-estilos.andrezucatti82.chatgpt.site . A identidade da interface da galeria não impõe a direção do vídeo: ler marca, estilo e tipografia escolhidos para cada produção. No site, preparar/copiar e enviar o pedido; na Page, salvar estado e usar o botão nativo de chat. A instalação e os conectores precisam existir na conta e superfície usadas, sem alegar sincronização universal.
 
 ## Direções experimentais pesquisadas · edição 3.1
 
@@ -74,7 +74,7 @@ A prévia de 10 segundos deve provar a ação central e sua consequência com vo
 
 ## Saúde, comércio eletrônico e infoprodutores
 
-A edição 3.1 reúne 510 direções em 17 categorias de 40. As três novas categorias têm 30 propostas cada: saúde (dez estética, dez odontologia, dez medicina), e-commerce/marketplaces e infoprodutores. Ler a necessidade em `uses`, a distinção em `novelty`, os recursos, o movimento e a prova exigida. Escolher por problema real de comunicação, não só aparência.
+Na edição histórica 3.1 havia 510 direções em 17 categorias de 30. As três novas categorias têm 30 propostas cada: saúde (dez estética, dez odontologia, dez medicina), e-commerce/marketplaces e infoprodutores. Ler a necessidade em `uses`, a distinção em `novelty`, os recursos, o movimento e a prova exigida. Escolher por problema real de comunicação, não só aparência.
 
 Saúde: pedir serviço e informações revisadas pelo responsável; preservar identidade e características reais. Não inventar caso clínico, resultado, credencial, antes/depois, diagnóstico ou prazo individual. Anatomia, preparo, cuidados e alegações precisam de fontes e revisão habilitada. Casos reais exigem autorização e proteção de dados. Verificar regras profissionais e do canal; referências estrangeiras não substituem requisitos locais. Não orientar suspensão de medicamentos por inferência.
 

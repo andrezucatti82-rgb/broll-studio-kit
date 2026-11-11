@@ -119,7 +119,7 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 
 ## Pacotes de instalação e atualização
 
-[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.3.1, kit 2.3.1 e catálogo 4.1 (720 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
+[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.3.2, kit 2.3.2 e catálogo 4.1 (720 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
 
 ## Referências visuais para o pedido
 
@@ -137,3 +137,7 @@ O atlas agora mostra materiais, ferramentas e maturidade dentro de cada ficha. O
 Cada uma das 18 categorias recebe dez propostas, passando a 40 estilos e 720 no total. O filtro **Novos · 180** isola esta edição. Os 540 IDs e sua ordem anterior foram preservados para migrar favoritos e projetos. Há 140 estudos IA fictícios e 40 composições originais em código, cada um em arquivo individual; nenhum vídeo foi gerado nesta expansão.
 
 As fichas incluem ação, uso, recursos, áudio, comparação com um conceito próximo e critério da amostra. Técnicas podem ser compartilhadas; a diferenciação é editorial e não uma garantia de originalidade absoluta. Pesquisa, procedência e auditoria estão em [expansion-720](style-atlas/records/expansion-720/). A aprovação de moodboard, storyboard e amostra continua obrigatória.
+
+## Execução dos estilos · pacote 2.3.2
+
+As instruções e o planejador agora preservam os critérios completos dos estilos em `style-execution-plan.json`: quadros, ação, áudio, recursos, prova esperada e fidelidade. Atribua papéis ao principal e a até nove complementares. O registro novo nasce pendente, é criado em retomadas antigas quando ausente e não sobrescreve decisões existentes. Moodboard, storyboard e amostra continuam com aprovações próprias. Esta edição está na branch `feat/atlas-720-directions` (PR #4), ainda sem merge na main.
