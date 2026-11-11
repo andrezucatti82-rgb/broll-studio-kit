@@ -21,7 +21,7 @@ test('every new visual is its own file with provenance and complete, non-approve
   assert.equal(s.readiness.status,'visual_reference');assert.ok(!s.preview);assert.ok(s.proof&&s.requirements&&s.novelty.difference);assert.ok(ids.has(s.novelty.nearestId));
   assert.ok(s.resources.length>=4);for(const k of ['voice','music','sfx','mix'])assert.ok(s.audio[k]);
   assert.equal(s.preset.avatar,s.family==='avatares');assert.ok(s.preset.approvalGate.includes('moodboard'));assert.ok(s.preset.approvalGate.includes('storyboard'));
-  const a=manifest.assets.find(x=>x.path===s.image.atlas);assert.ok(a);assert.ok(a.width>=500&&a.height>=440);assert.ok(Math.abs(a.width/a.height-1.125)<.04);assert.match(s.image.atlas,/assets\/(expansion-720-r2|editorial-r3)\//);
+  const historical=s.legacyImage||s.image;const a=manifest.assets.find(x=>x.path===historical.atlas);assert.ok(a);assert.ok(a.width>=500&&a.height>=440);assert.ok(Math.abs(a.width/a.height-1.125)<.04);assert.match(historical.atlas,/assets\/(expansion-720-r2|editorial-r3)\//);
   const hash=crypto.createHash('sha256').update(fs.readFileSync(new URL('style-atlas/dist/'+a.path,root))).digest('hex');assert.equal(hash,a.sha256);paths.add(a.path);hashes.add(hash);
   const prompt=globalThis.AtlasWorkflow.buildPrompt({selectedStyles:[{...s,referenceFrame:globalThis.AtlasWorkflow.referenceFrame(s)}],targetDurationSeconds:30,format:'9:16',topic:'Exemplo',fidelityContract:globalThis.AtlasWorkflow.fidelityContract});assert.ok(prompt.includes(s.image.atlas));assert.ok(prompt.includes(s.proof));assert.doesNotMatch(prompt,/\bGDA\b|wa\.me|WHATSAPP/);
  }

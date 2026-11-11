@@ -7,7 +7,7 @@ description: Skill de uso geral para qualquer marca. Produz vídeos B-roll narra
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.3.2**. O atlas contém **720 estilos em 18 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.4.0**. O atlas contém **720 estilos em 18 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
 
 ## Provedor prioritário para geração de vídeo
 
@@ -90,4 +90,4 @@ Aplique [moodboard e storyboard](references/preproduction-approval.md) antes da 
 
 ## Execução dos estilos e combinações
 
-Ao receber seleção do atlas, aplique [do estilo à execução](references/style-execution.md). Resolva os registros completos por ID, inspecione os quadros individuais e distribua os papéis de até dez estilos. Registre critérios, recursos, desvios e provas em `templates/style-execution-plan.json`; nomes e imagens estáticas não garantem movimento. Preserve os aceites de moodboard, storyboard e amostra.
+Ao receber seleção do atlas, aplique [do estilo à execução](references/style-execution.md). Resolva os registros completos por ID, inspecione o quadro principal e os quatro momentos da sequência, relacione visualSequence a executionPlan e distribua os papéis de até dez estilos. Registre critérios, recursos, desvios e provas em `templates/style-execution-plan.json`; nomes e imagens estáticas não garantem movimento. Preserve os aceites de moodboard, storyboard e amostra.

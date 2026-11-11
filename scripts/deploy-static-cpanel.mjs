@@ -5,6 +5,7 @@ import {createHash} from 'node:crypto';
 import {validateCatalog} from './validate.mjs';
 import {stableGalleryHtml,releaseEntryHtml} from './static-release.mjs';
 import {readPublicAsset} from './public-asset.mjs';
+import {boundedWork} from './bounded-work.mjs';
 const argv=process.argv.slice(2),get=k=>{const i=argv.indexOf(k);return i<0?undefined:argv[i+1]};
 const domain=get('--domain'),source=path.resolve(get('--source')||'style-atlas/dist');
 const apply=argv.includes('--apply');
@@ -74,9 +75,9 @@ for(let offset=0;offset<encodedBackup.length;offset+=512000){
  if(saved.content!==part)throw Error('Remote backup part verification failed; homepage not modified.');receipt.backupParts.push(name);
 }
 await upload(backupDir,'receipt.json',Buffer.from(JSON.stringify(receipt,null,2)));
-for(const rel of paths){if(rel==='index.html')continue;const dir=path.posix.join(root,release,path.posix.dirname(rel));await upload(dir,path.posix.basename(rel),await readFile(path.join(source,rel)));}
+await boundedWork(paths.filter(rel=>rel!=='index.html'),6,async rel=>{const dir=path.posix.join(root,release,path.posix.dirname(rel));await upload(dir,path.posix.basename(rel),await readFile(path.join(source,rel)));});
 // Verify immutable release assets before switching the homepage.
-for(const rel of paths){if(rel==='index.html')continue;const url=`https://${domain}/${release}/${rel}`;const bytes=await readPublicAsset(url);if(hash(bytes)!==hash(await readFile(path.join(source,rel))))throw Error(`Public release verification failed: ${rel}. Homepage unchanged.`);}
+await boundedWork(paths.filter(rel=>rel!=='index.html'),8,async rel=>{const url=`https://${domain}/${release}/${rel}`;const bytes=await readPublicAsset(url);if(hash(bytes)!==hash(await readFile(path.join(source,rel))))throw Error(`Public release verification failed: ${rel}. Homepage unchanged.`);});
 // A stable, bookmarked sample URL must resolve media from its immutable release.
 // Back up an existing sample page before replacing it, like the main entry.
 if(paths.includes('motion-campaign.html')){

@@ -1,6 +1,6 @@
-# Proposta visual de interface — aguardando aprovação
+# Proposta visual de interface — aprovada
 
-O usuário aprovou os 36 conceitos de sequência em 11/11/2026 e solicitou sua extensão aos estilos restantes. Antes dessa expansão, pediu uma amostra visual de uma interface com aparência de aplicativo. Esta proposta não altera a página pública nem afirma implementar as telas dos mockups.
+O usuário aprovou os 36 conceitos de sequência em 11/11/2026 e solicitou sua extensão aos estilos restantes. Antes dessa expansão, pediu uma amostra visual de uma interface com aparência de aplicativo. Os três mockups foram aprovados pelo usuário. A implementação está na branch `feat/visual-app-720`; publicação e testes são registrados separadamente.
 
 ## Telas para aprovação
 
@@ -18,7 +18,7 @@ O usuário aprovou os 36 conceitos de sequência em 11/11/2026 e solicitou sua e
 - Arquivos enviados no ChatGPT; não simular upload, processamento ou integração automática inexistentes no site.
 - Aprovação de direção visual separada da revisão e aprovação do vídeo.
 
-## Depois da aprovação do layout
+## Escopo aprovado
 
 Ampliar as sequências aos 684 estilos restantes, mantendo linguagens distintas. Revisar os prompts dos 720 estilos lado a lado com seus quatro quadros: aparência e materiais; estado inicial, ação e resultado por plano; câmera e transição; tipografia editável; voz e som; recursos exigidos; invariantes e critérios verificáveis da amostra.
 

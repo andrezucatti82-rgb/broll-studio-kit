@@ -42,3 +42,7 @@ Revisão editorial 3: dez composições de `grafico-31` a `grafico-40` foram sub
 ## Piloto de sequências visuais
 
 Os 144 quadros de `style-atlas/dist/assets/film-sequences/` pertencem a 36 sequências conceituais geradas com a ferramenta de imagens OpenAI, com personagens, produtos, interfaces, imóveis e dados fictícios. Não são clipes de vídeo nem evidência de fidelidade a produtos reais. Prompts, recortes e hashes estão em `style-atlas/records/sequence-pilot/assets.json`. Os termos do provedor aplicam-se aos resultados. Nenhum ativo de cliente foi incluído. Os mockups de layout são propostas visuais geradas, não capturas de testes em navegador.
+
+## Sequências do catálogo 4.2
+
+Mais 684 sequências conceituais geradas com OpenAI image_gen completam os 720 estilos e 2.880 quadros. Arquivos extraídos e miniaturas em `assets/style-sequences/`; dimensões, recortes, prompts e hashes em `records/sequences-720/assets.json`. Os arquivos anteriores permanecem históricos. São exemplos fictícios de direção, incluindo pessoas, números, produtos, marcas ilustrativas, imóveis e interfaces. Não representam resultados, testes, certificações, propriedades físicas ou autorizações reais. Texto e dados devem ser reconstruídos em código e verificados na produção. Modelos anatômicos e mecanismos são ilustrações, não documentação científica. Não foram gerados novos vídeos. A revisão estática e suas limitações estão em `records/sequences-720/visual-review.json`; não equivale a aprovação de movimento ou fidelidade. Os termos do provedor aplicam-se às imagens geradas.

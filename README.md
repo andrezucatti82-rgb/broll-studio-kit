@@ -119,7 +119,7 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 
 ## Pacotes de instalação e atualização
 
-[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.3.2, kit 2.3.2 e catálogo 4.1 (720 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
+[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.4.0, kit 2.4.0 e catálogo 4.2 (720 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
 
 ## Referências visuais para o pedido
 
@@ -134,20 +134,31 @@ O atlas agora mostra materiais, ferramentas e maturidade dentro de cada ficha. O
 
 ## Expansão 4.1 · 180 novas direções
 
-Cada uma das 18 categorias recebe dez propostas, passando a 40 estilos e 720 no total. O filtro **Novos · 180** isola esta edição. Os 540 IDs e sua ordem anterior foram preservados para migrar favoritos e projetos. Há 140 estudos IA fictícios e 40 composições originais em código, cada um em arquivo individual; nenhum vídeo foi gerado nesta expansão.
+Cada uma das 18 categorias recebe dez propostas, passando a 40 estilos e 720 no total. Essa expansão está preservada no histórico do catálogo. Os 540 IDs e sua ordem anterior foram preservados para migrar favoritos e projetos. Há 140 estudos IA fictícios e 40 composições originais em código, cada um em arquivo individual; nenhum vídeo foi gerado nesta expansão.
 
 As fichas incluem ação, uso, recursos, áudio, comparação com um conceito próximo e critério da amostra. Técnicas podem ser compartilhadas; a diferenciação é editorial e não uma garantia de originalidade absoluta. Pesquisa, procedência e auditoria estão em [expansion-720](style-atlas/records/expansion-720/). A aprovação de moodboard, storyboard e amostra continua obrigatória.
 
-## Execução dos estilos · pacote 2.3.2
+## Execução dos estilos · histórico do pacote 2.3.2
 
 As instruções e o planejador agora preservam os critérios completos dos estilos em `style-execution-plan.json`: quadros, ação, áudio, recursos, prova esperada e fidelidade. Atribua papéis ao principal e a até nove complementares. O registro novo nasce pendente, é criado em retomadas antigas quando ausente e não sobrescreve decisões existentes. Moodboard, storyboard e amostra continuam com aprovações próprias. Esta edição está na branch `feat/atlas-720-directions` (PR #4), ainda sem merge na main.
 
-## Galeria mobile e revisão visual 2
+## Galeria mobile e revisão visual 2 · histórico
 
 As 180 amostras novas foram recompostas no formato próximo de 9:8, com molduras uniformes e sem cortes de assunto. No celular, imagens grandes em uma coluna, título e ações; a descrição completa fica na ficha. Categorias estão em um menu compacto, com busca, novidades, favoritos e filtro opcional por tipo. Desktop e Page compartilham o catálogo; a Page preserva o modo sem localStorage.
 
 ## Piloto de sequências para aprovação
 
-O piloto local em `style-atlas/dist/sequencias.html` reúne 36 exemplos e os mockups desktop/mobile. São dois estilos existentes por categoria, com quatro quadros conceituais por sequência. A revisão inclui duas propostas mais elaboradas para Interfaces, dados e sistemas e duas para Motion Design de Campanha. O catálogo de 720 estilos permanece intacto enquanto a nova interface aguarda aprovação. Os 36 exemplos foram aprovados como direção visual pelo usuário, sem aprovação de movimento ou de vídeo final.
+O piloto local em `style-atlas/dist/sequencias.html` reúne 36 exemplos e os mockups desktop/mobile. São dois estilos existentes por categoria, com quatro quadros conceituais por sequência. A revisão inclui duas propostas mais elaboradas para Interfaces, dados e sistemas e duas para Motion Design de Campanha. O usuário também aprovou os três mockups da interface; a implementação 4.2 preserva os 720 IDs. Os 36 exemplos foram aprovados como direção visual pelo usuário, sem aprovação de movimento ou de vídeo final.
 
 Para abrir localmente: `npm ci`, `npm run atlas` e acesse `http://127.0.0.1:8770/sequencias.html`. Não é necessário conectar geradores ou gastar créditos para ver esta página. Preferências e comentários são locais; use “Baixar observações” para compartilhar a revisão. Consulte [procedência, limites e revisão](style-atlas/records/sequence-pilot/README.md).
+
+
+## Interface de aplicativo e sequências · 4.2
+
+A biblioteca mantém o site estático, público e sem login. A navegação agora separa Estilos, Meu vídeo e Como usar. O briefing termina em um resumo legível; o comando completo fica em uma seção recolhida. Combine até dez estilos, escolha formato e duração, baixe o quadro principal e a sequência, copie o pedido e anexe as imagens na conversa de produção. O site não envia arquivos nem inicia gerações no ChatGPT.
+
+Cada direção recebe quatro estados conceituais e um plano de execução com aparência, ações, câmera, profundidade, transição, texto editável, áudio, recursos e critérios de revisão. São referências visuais fictícias, não 720 vídeos executados. Os seis vídeos históricos continuam disponíveis com aviso de aprovação pendente e de que antecedem estas imagens. A validação de movimento depende de uma nova amostra.
+
+As capas e miniaturas usam molduras uniformes com contenção: o enquadramento completo permanece visível, sem esticar ou recortar pessoas, produtos e texto. A proporção real de cada imagem é registrada; o formato final do vídeo é decidido no projeto. Mudanças nas referências reabrem os aceites afetados e preservam histórico e favoritos.
+
+Fontes: [implementação e limites](docs/VISUAL-APP-4.2.md), [procedência das sequências](style-atlas/records/sequences-720/) e [proposta aprovada](docs/WEBAPP-VISUAL-PROPOSAL.md). Branch de trabalho: `feat/visual-app-720`; sem merge automático na main.

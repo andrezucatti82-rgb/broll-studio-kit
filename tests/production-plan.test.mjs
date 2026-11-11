@@ -25,7 +25,7 @@ test('production retains complete old and new style directions and preserves edi
   const catalog=JSON.parse(fs.readFileSync(new URL('../style-atlas/dist/catalog.json',import.meta.url))),selected=[catalog.styles[0],catalog.styles.at(-1)],preset=path.join(tmp,'brief.json'),out=path.join(tmp,'production');
   fs.writeFileSync(preset,JSON.stringify({topic:'Style execution',format:'9:16',targetDurationSeconds:90,selectedStyles:selected.map(s=>({id:s.id}))}));prepareProduction(preset,out);
   const file=path.join(out,'style-execution-plan.json'),plan=JSON.parse(fs.readFileSync(file));
-  assert.equal(plan.catalogSnapshot.version,'4.1');assert.equal(plan.targetDurationSeconds,90);assert.equal(plan.sample.targetSeconds,10);assert.equal(plan.sample.userApproval.status,'pending');
+  assert.equal(plan.catalogSnapshot.version,catalog.version);assert.equal(plan.targetDurationSeconds,90);assert.equal(plan.sample.targetSeconds,10);assert.equal(plan.sample.userApproval.status,'pending');
   for(const [i,s] of selected.entries())for(const key of ['id','signature','motion','resources','audio','requirements','proof','readiness'])assert.deepEqual(plan.selectedStyles[i][key],s[key]);
   assert.equal(plan.selectedStyles[1].referenceFrame.styleId,selected[1].id);
   plan.deviations.push({reason:'User note retained'});fs.writeFileSync(file,JSON.stringify(plan));prepareProduction(preset,out);assert.deepEqual(JSON.parse(fs.readFileSync(file)),plan);
