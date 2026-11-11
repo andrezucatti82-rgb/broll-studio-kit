@@ -21,6 +21,9 @@ soup=BeautifulSoup((r/'dist/index.html').read_text(),'html.parser')
 for selector in ['footer']:
  for node in soup.select(selector):node.decompose()
 for link in soup.find_all('link',rel='stylesheet'):link.decompose()
+# Use the original brand asset in Pages without a relative-URL dependency.
+for logo in soup.select('img.app-brand-logo'):
+ logo['src']='data:image/png;base64,'+base64.b64encode((r/'dist/assets/logo-gda.png').read_bytes()).decode()
 css=((r/'dist/styles.css').read_text()+'\n'+(r/'dist/app-shell.css').read_text()).replace("url('assets/","url('"+origin+"assets/")
 for font in ['Geist-Regular.ttf','Geist-Bold.ttf']:
  face=TTFont(r/'dist/assets'/font)
