@@ -1,0 +1,2930 @@
+{
+  "boards": [
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "cinema-1",
+      "sourceSha256": "ced978cc714ea8e5501c7c693ddec72f04c505e5bc3ae5749c0b1b02c5927ad9",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Retrato em colódio de prata. Botanista fictícia numa estufa, retrato de placa úmida com prata nas bordas, ameixa e sépia. Capture a key visual moment suggesting: A revelação química avança pelas bordas e encontra o olhar imóvel.\nCELL 2: Prata retida de turno noturno. Padeiro numa cozinha noturna, contraste bleach bypass, aço prateado e sombras oliva. Capture a key visual moment suggesting: Uma bandeja sai do forno; a exposição acompanha o vapor sem apagar os rostos.\nCELL 3: Sol de cromia reversível. Piscina modernista, guarda-sol vermelhão e água turquesa, fotografia de diapositivo saturado. Capture a key visual moment suggesting: Uma boia cruza a água e suas ondas levam ao plano seguinte.\nCELL 4: Minerais sob luz ultravioleta. Pedras fluorescentes ciano e magenta em fundo negro absoluto, macro científico. Capture a key visual moment suggesting: A luz branca cede ao UV e revela emissão apenas nos minerais adequados.\nCELL 5: Revelação por bandeira de luz. Bouquet fotográfico em teatro preto, pétalas parcialmente cobertas por anteparo opaco. Capture a key visual moment suggesting: Um anteparo físico atravessa o feixe e revela grupos de pétalas em sequência.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "cinema-2",
+      "sourceSha256": "017d77284a7a90616fee13b01b2c86a191b4e1e391faef4e176317b9e2a1a19a",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Arquitetura de verticais precisas. Escadaria brutalista fotografada em grande formato, pedra quente e perspectiva corrigida. Capture a key visual moment suggesting: Uma pessoa sobe e ocupa sucessivos patamares; a câmera conserva as verticais.\nCELL 2: Sala como câmera obscura. Um jardim invertido projetado pela janela sobre a parede escura de um quarto real. Capture a key visual moment suggesting: A janela abre, a projeção nasce e uma nuvem altera a luz do jardim.\nCELL 3: Teleobjetiva de planos comprimidos. Dançarina de capa vermelha minúscula diante de muitas varandas rosas sobrepostas. Capture a key visual moment suggesting: A dançarina percorre uma passarela enquanto os planos comprimidos ocultam e revelam sua silhueta.\nCELL 4: Fotografia por sombra de líquido. Chá âmbar em vidro projeta desenho de líquido sobre reboco creme, mesa lateral iluminada. Capture a key visual moment suggesting: A infusão gira e sua sombra muda; o desenho se estabiliza para o fechamento.\nCELL 5: Noite sob lua e bioluminescência. Pescador distante junto a ondas naturalmente luminosas, céu azul profundo e lua suave. Capture a key visual moment suggesting: A onda quebra, ilumina a borda da praia e se apaga sem pulsação artificial.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "ilustracao-1",
+      "sourceSha256": "98b5cb567ad8f3933d52c87afa1fa8621a22ada432d616a8f382833e63784723",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Sanguínea de gesto cotidiano. Desenho de mãos fazendo pão em giz vermelho-terra sobre papel amarelado. Capture a key visual moment suggesting: O gesto é redesenhado com linhas de construção que permanecem brevemente.\nCELL 2: Lápis de cor em papel negro. Mariposa desenhada com lápis opaco turquesa e amarelo sobre papel negro texturado. Capture a key visual moment suggesting: As asas abrem por poses desenhadas e o pigmento revela suas nervuras.\nCELL 3: Aerógrafo de poster ensolarado. Prancha de surf e laranja em ilustração de aerógrafo, degradês precisos pêssego e azul. Capture a key visual moment suggesting: O volume recebe luz progressiva; uma faixa de sombra atravessa a prancha.\nCELL 4: Desenho de grafite apagado. Retrato fictício surge em campo de grafite através de marcas claras de borracha. Capture a key visual moment suggesting: A borracha esculpe a luz; o contorno do rosto mantém anatomia estável.\nCELL 5: Tinta de esferográfica cruzada. Motocicleta desenhada inteiramente com hachura de caneta azul, papel branco. Capture a key visual moment suggesting: Camadas de hachura revelam roda, quadro e motor na ordem da explicação.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "ilustracao-2",
+      "sourceSha256": "143e780a486ff1c2174ef73bb8c58918af5d804cf20a98aa7a649dc50d74ac99",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Pintura de esmalte sobre vidro. Peixes pintados no verso de vidro transparente, brilhos vítreos e fundo coral. Capture a key visual moment suggesting: O vidro muda levemente de inclinação e revela profundidade entre tinta e reflexo.\nCELL 2: Desenho simultâneo de duas mãos. Duas mãos reais desenham metades diferentes de uma cidade em carvão e azul. Capture a key visual moment suggesting: Os traços se encontram no centro e resolvem uma rua compartilhada.\nCELL 3: Impressão de folhas como personagem. Folhas reais estampadas viram uma ave com nervuras visíveis em verde e ferrugem. Capture a key visual moment suggesting: As impressões se articulam preservando suas bordas e a ave dá um passo.\nCELL 4: Monotipia de noite chuvosa. Rua noturna em impressão única com tinta azul arrastada e reflexos amarelos. Capture a key visual moment suggesting: Uma passagem de rolo revela reflexos e o guarda-chuva se desloca por recortes.\nCELL 5: Pintura em azulejo narrativo. Pequena cena de mercado em azulejos pintados azul e branco com craquelado real. Capture a key visual moment suggesting: Uma ação atravessa a junta dos azulejos e termina numa banca inteira.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "materiais-1",
+      "sourceSha256": "d9b03ee62a8ef7e4a143343c752e022acf10f3a88f1e589200906336e0ac8a6d",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Papel machê de polpa aparente. Pera escultórica de polpa de papel rosa, fibras grossas, pedestal de cartão. Capture a key visual moment suggesting: Camadas úmidas se depositam sobre a forma e secam até revelar o objeto.\nCELL 2: Cortiça em mosaico de espessuras. Barco em peças de cortiça cortadas, poros visíveis e fundo azul profundo. Capture a key visual moment suggesting: Peças de diferentes espessuras encaixam e criam relevo funcional.\nCELL 3: Veludo escovado em duas direções. Ondas desenhadas apenas pela orientação dos pelos de veludo verde escuro. Capture a key visual moment suggesting: Uma escova passa, muda o brilho e revela a marca do gesto.\nCELL 4: Papel-carbono de transferência. Bicicleta em marcas azuis transferidas de uma folha de carbono preta. Capture a key visual moment suggesting: A pressão do traço imprime a cópia e o original é levantado.\nCELL 5: Jornal de papel-semente. Folha artesanal com sementes aparentes e forma botânica em baixo relevo. Capture a key visual moment suggesting: Água escurece a fibra; um corte temporal identificado mostra germinação real.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "materiais-2",
+      "sourceSha256": "8f410021f4410ea48359a54d327b1db34b662d88b58381e2a158982c1e4666db",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Cerâmica raku de fissuras. Vaso raku negro com cobre iridescente e craquelado amplo sobre areia. Capture a key visual moment suggesting: A peça sai da caixa de redução e a fumaça revela o acabamento específico.\nCELL 2: Fio metálico em escultura contínua. Cadeira de fio de cobre dobrado com sombras finas sobre fundo azul. Capture a key visual moment suggesting: O fio é dobrado em pontos definidos e termina numa estrutura estável.\nCELL 3: Marcas de ferramenta em linóleo. Matriz de linóleo verde com sulcos de goiva e tinta creme fresca. Capture a key visual moment suggesting: A goiva remove uma faixa e a tinta entra somente na superfície elevada.\nCELL 4: Pigmento prensado em argila seca. Discos de terra colorida comprimida com bordas quebradiças e relevo geométrico. Capture a key visual moment suggesting: Uma prensa imprime uma matriz e o pó solto se acomoda ao redor.\nCELL 5: Papel de arroz sob contraluz. Lanterna de papel de arroz com fibras longas, estrutura de bambu e luz âmbar. Capture a key visual moment suggesting: A lanterna se expande pela armação e a luz percorre suas fibras.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "motion-1",
+      "sourceSha256": "1ac44cd81a82430c6e85b280bda9622feb12eceab7def62fcbb8aafa8b85b2cb",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Pêndulos em fase que se encontram. Pêndulos de madeira em arcos diferentes sobre fundo azul acinzentado. Capture a key visual moment suggesting: Oscilações independentes sincronizam por um instante e formam uma linha.\nCELL 2: Animação por máscara de grade. Imagem de cavalo em tiras verticais sob grade preta deslizante. Capture a key visual moment suggesting: A grade atravessa as tiras e revela poses sequenciais sem mover a câmera.\nCELL 3: Transferência por carrossel de rolos. Três cilindros impressos giram numa máquina editorial marfim e vermelho. Capture a key visual moment suggesting: Um desenho passa de rolo a rolo e chega inteiro ao papel.\nCELL 4: Ação em exposição de obturador. Dançarino visto como um arco contínuo de tecido e corpo nítido final. Capture a key visual moment suggesting: Uma ação deixa rastro seletivo e termina numa pose estável.\nCELL 5: Balé de guindastes em miniatura. Peças geométricas grandes são erguidas por pequenos guindastes amarelos. Capture a key visual moment suggesting: Cabos içam, giram e assentam peças com contato e peso coerentes.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "motion-2",
+      "sourceSha256": "9c63e5b1273248d87f5303a5d0900877ce71fd68a752f8958f5f5a15f66dc20d",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Revelação em anéis de crescimento. Disco de madeira mostra anéis concêntricos com pequenos cenários gravados. Capture a key visual moment suggesting: Anéis surgem do centro para fora e revelam etapas de uma história.\nCELL 2: Composição por levitação acústica. Pequenas esferas suspensas entre dois transdutores sobre bancada escura. Capture a key visual moment suggesting: Esferas ocupam nós de uma onda e mudam de posição de forma controlada.\nCELL 3: Percurso por trilhos de agulha. Carrinhos coloridos percorrem trilhos que se bifurcam numa mesa branca. Capture a key visual moment suggesting: Uma agulha muda a rota de um carrinho e o leva ao destino destacado.\nCELL 4: Desenho em tambor de luz. Tambor translúcido giratório com formas recortadas e projeção âmbar. Capture a key visual moment suggesting: O tambor gira e seus recortes projetam uma sequência no cenário.\nCELL 5: Coreografia de válvulas pneumáticas. Bolsas de tecido cilíndricas infladas em série sobre palco preto. Capture a key visual moment suggesting: Válvulas liberam ar em sequência e as bolsas mudam de altura com estabilidade.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "volume-1",
+      "sourceSha256": "71b6eb37d3193c337f9fad68794f8b8cfcc741e9a420acb6e61da3ca3e4f61dd",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Aerogel de bordas luminosas. Bloco de aerogel azul quase invisível, luz lateral e objeto visto através dele. Capture a key visual moment suggesting: Uma luz contorna o bloco e revela o volume por espalhamento.\nCELL 2: Anodização em alumínio escovado. Peças de alumínio em oliva, cobre e azul com micro-ranhuras coerentes. Capture a key visual moment suggesting: A luz percorre a escovação enquanto uma peça se encaixa na outra.\nCELL 3: Sal cristalizado em evaporação. Bacia rasa turquesa com crostas de sal branco e cristalização facetada. Capture a key visual moment suggesting: A água recua em lapso temporal e os cristais crescem nas bordas.\nCELL 4: Borrachas de durezas distintas. Três blocos de borracha fosca em cores minerais sob um peso comum. Capture a key visual moment suggesting: O peso desce e cada bloco deforma conforme parâmetros declarados.\nCELL 5: Couro perfurado com costura funcional. Bolsa fictícia em couro conhaque com perfurações precisas e costura creme. Capture a key visual moment suggesting: O fecho tensiona o couro e a costura acompanha sem atravessar a superfície.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "volume-2",
+      "sourceSha256": "dcfd0644a0dd4617d18c3409f822bd551dfa9de7acf8cc8d02e00961750b3882",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Basalto poroso em corte lapidado. Pedra basáltica escura com face polida e cavidades ásperas num fundo areia. Capture a key visual moment suggesting: A peça gira parcialmente e alterna face lisa e porosa em luz rasante.\nCELL 2: Concreto translúcido de fibras ópticas. Painel cinza atravessado por minúsculos pontos luminosos de fibras. Capture a key visual moment suggesting: Uma mão passa atrás e a luz transmite sua sombra de forma descontínua.\nCELL 3: Vidro espumado de célula aberta. Escultura de espuma vítrea verde com poros amplos e bordas brilhantes. Capture a key visual moment suggesting: A câmera cruza um poro real modelado e encontra a face posterior.\nCELL 4: Lâminas piezoelétricas de flexão. Lâminas cerâmicas delgadas sobre suportes de cobre, geometria precisa. Capture a key visual moment suggesting: Uma lâmina flexiona pouco sob acionamento e retorna com amortecimento.\nCELL 5: Madeira carbonizada em escamas. Prancha de madeira negra com escamas de carvão e veio quente exposto. Capture a key visual moment suggesting: Uma escova remove fuligem solta e revela o relevo carbonizado.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "hibridos-1",
+      "sourceSha256": "85f81fa90eed34f7d0e952550d99467d7412134cb2389e2effa3e56cd26783d5",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: História por aquilo que fica fora. Cadeira vazia, casaco e janela numa sala real, enquadramento lateral. Capture a key visual moment suggesting: Sons fora do quadro motivam pequenas mudanças nos objetos até revelar a chegada.\nCELL 2: Uma pergunta em quatro profissões. Quatro bancadas reais muito diferentes unidas por um objeto comum. Capture a key visual moment suggesting: A mesma pergunta recebe respostas concretas através de ações de cada ofício.\nCELL 3: Receita de decisão com tentativas. Mesa de teste com alternativas descartadas, marcas e resultado final. Capture a key visual moment suggesting: Cada tentativa deixa um vestígio; o acerto incorpora o aprendizado anterior.\nCELL 4: Narrativa por uma medida constante. Régua vertical fixa acompanha cenas de crescimento diferentes. Capture a key visual moment suggesting: O mundo muda ao redor da medida constante, tornando as diferenças legíveis.\nCELL 5: Carta visual para o futuro. Pessoa guardando três objetos numa cápsula transparente com data fictícia. Capture a key visual moment suggesting: Um objeto presente evoca um cenário futuro explicitamente hipotético.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "hibridos-2",
+      "sourceSha256": "98aa69e251fc87d0427932b5663aee274d36681c738eb55f61fc6f2bd2c74824",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Duas versões de uma mesma tarefa. Uma tarefa filmada em duas soluções igualmente válidas, contraste de materiais. Capture a key visual moment suggesting: Os caminhos alternam e convergem no resultado, com limites de cada abordagem.\nCELL 2: História narrada pelo intervalo. Fila de cadeiras e relógio de parede, pessoas reais em planos fixos. Capture a key visual moment suggesting: O tempo entre ações revela o problema; a solução reorganiza as esperas.\nCELL 3: Objeto emprestado entre desconhecidos. Guarda-chuva amarelo passa entre pessoas fictícias em espaços diversos. Capture a key visual moment suggesting: Cada pessoa resolve uma necessidade e entrega o objeto à próxima.\nCELL 4: Explicação pela exceção visível. Conjunto de objetos organizados e um único caso com regra diferente. Capture a key visual moment suggesting: A regra aparece, o caso excepcional interrompe e a explicação resolve a diferença.\nCELL 5: Arquivo de uma coisa que mudou de nome. Etiquetas de épocas diferentes junto ao mesmo objeto preservado. Capture a key visual moment suggesting: Nomes são substituídos enquanto a câmera mantém o objeto como referência.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "anuncios-1",
+      "sourceSha256": "0b201975e8503b2cd47fff7d25743d634af0b389fb7c7a8daac498e30fd539d1",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Produto em bancada de alfaiataria. Fone fictício sobre base de modelagem, linhas de corte e ferramentas de precisão. Capture a key visual moment suggesting: Um molde de papel se ajusta ao produto e revela sua silhueta sem alterá-lo.\nCELL 2: Packshot em jardim de condensação. Frasco sem rótulo real entre vidros embaçados e folhas úmidas, verde frio. Capture a key visual moment suggesting: A condensação escorre no vidro cenográfico e abre uma janela para o produto seco.\nCELL 3: Produto em balcão de leilão editorial. Relógio fictício sobre almofada vinho, cartão de catálogo e luz de inspeção. Capture a key visual moment suggesting: A bandeja desliza para a luz e revela um detalhe por vez.\nCELL 4: Cinema de embalagem reaberta. Caixa rígida coral vista por dentro com encaixes e produto intacto. Capture a key visual moment suggesting: As paredes da embalagem se desdobram para mostrar organização e acesso.\nCELL 5: Produto em paisagem de sombra quadriculada. Óculos fictícios numa mesa areia sob sombra precisa de um brise. Capture a key visual moment suggesting: A sombra atravessa a mesa enquanto os óculos permanecem estáveis e legíveis.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "anuncios-2",
+      "sourceSha256": "da8013c026f62c2d770273716af6de111b828f9f54d74df0233f66c6457357c3",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Costura como rota de descoberta. Tênis fictício visto em macro com costura laranja que conduz o olhar. Capture a key visual moment suggesting: A câmera acompanha a costura até revelar o produto inteiro.\nCELL 2: Cenário de embalagem moldada. Luminária fictícia entre polpas moldadas de proteção como arquitetura monumental. Capture a key visual moment suggesting: As peças de proteção se afastam fisicamente e deixam o objeto em uso.\nCELL 3: Packshot em caixa de luz modular. Câmera fictícia em caixa de luz com painéis coloridos e refletores visíveis. Capture a key visual moment suggesting: Painéis acendem alternadamente para explicar superfícies e controles.\nCELL 4: Produto e gesto de conservação. Bolsa fictícia apoiada numa bancada de cuidado com escova e pano. Capture a key visual moment suggesting: Uma mão limpa uma área permitida, guarda acessórios e conclui com packshot.\nCELL 5: Anúncio em mesa de gravação sonora. Teclado mecânico fictício próximo a microfone e espuma acústica cinza. Capture a key visual moment suggesting: Uma tecla é acionada; o som real abre espaço para o detalhe do mecanismo.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "campanhas-1",
+      "sourceSha256": "eb95dab67b89e72f5b93c936bc38ff23858badb7c2b8b7d1329b3dc3a01c8aee",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Pequeno obstáculo em comédia de precisão. Cozinha real com uma tampa teimosa e mãos em pausa, luz clara e enquadramento seco. Capture a key visual moment suggesting: Três tentativas curtas tornam o incômodo visível; o gesto correto resolve com clareza.\nCELL 2: Bancada de comparação por esforço. Duas ferramentas reais lado a lado em bancada de trabalho, sem placar fictício. Capture a key visual moment suggesting: O mesmo gesto autorizado é executado nas mesmas condições e os limites ficam visíveis.\nCELL 3: Campanha de silêncio conquistado. Sala real com objetos ruidosos e um espaço de descanso bem iluminado. Capture a key visual moment suggesting: Fontes sonoras cessam uma a uma até revelar a condição de uso do produto.\nCELL 4: Guia de presente por histórias. Três objetos distintos junto a pequenos vestígios de hobbies em mesa de madeira. Capture a key visual moment suggesting: Uma lembrança filmada motiva a escolha de cada presente.\nCELL 5: Campanha de manutenção preventiva. Objeto cotidiano em uso com sinal discreto de desgaste real, luz de oficina. Capture a key visual moment suggesting: Um detalhe pede atenção, a manutenção acontece e o uso é retomado.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "campanhas-2",
+      "sourceSha256": "b0ac61e007ac639ca4867e0a1bf08a89b3c1f370e3e4ec484f4d316abb5ef1da",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Cena interrompida por pergunta útil. Uma ação cotidiana congelada em pose legível, pergunta tipográfica grande ao lado. Capture a key visual moment suggesting: A ação pausa no ponto de decisão e continua após a explicação.\nCELL 2: Teste de transporte em percurso real. Mochila fictícia em trajeto documentado de ônibus, escada e mesa. Capture a key visual moment suggesting: A mesma carga percorre o trajeto com continuidade de peso e posição.\nCELL 3: Campanha em ensaio de montagem. Cenário publicitário com marcações de chão e equipe preparando um objeto. Capture a key visual moment suggesting: A preparação é parte da história e culmina numa composição final limpa.\nCELL 4: Produto acessível em gesto adaptado. Objeto real sobre bancada com pegadores alternativos documentados. Capture a key visual moment suggesting: Uma pessoa autorizada demonstra uma forma específica de uso com enquadramento claro.\nCELL 5: Uma função explicada por som e imagem. Utensílio em fundo claro junto a onda sonora desenhada por dados reais. Capture a key visual moment suggesting: A ação acontece, o som é isolado e a imagem explica sua origem.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "imoveis-1",
+      "sourceSha256": "6f944139b56363e65266a13aeb2f9975bd66cd0646ef84544013248e63e0bb23",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: O que permanece na entrega. Ambiente real com itens incluídos destacados por contornos finos, itens móveis neutros. Capture a key visual moment suggesting: Cada item confirmado ganha identificação enquanto a câmera permanece no mesmo plano.\nCELL 2: Condomínio explicado por serviços. Portaria, elevador e área técnica em sequência documental com ícones discretos. Capture a key visual moment suggesting: Um serviço aparece em uso e sua responsabilidade é apresentada com fonte.\nCELL 3: Visita com percurso de mudança. Carrinho de mudança diante de elevador real com medidas discretas em tela. Capture a key visual moment suggesting: O percurso documentado segue portaria, elevador e entrada com restrições indicadas.\nCELL 4: Garagem em manobra documentada. Vaga real com colunas e veículo autorizado, câmera fixa ampla e medidas confirmadas. Capture a key visual moment suggesting: O veículo entra, manobra e estaciona numa única continuidade observável.\nCELL 5: Documentos da compra em mesa real. Planta, matrícula demonstrativa sem dados privados e pastas em mesa clara. Capture a key visual moment suggesting: Documentos entram na ordem da análise e cada finalidade recebe explicação breve.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "imoveis-2",
+      "sourceSha256": "40ec378d7036eceb2884d197c4369c7f9eca03e88fb3b863e1785839442fe6d9",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Imóvel vazio em leitura de rotina. Fotos reais de ambiente vazio com discretos percursos de uso em linhas. Capture a key visual moment suggesting: Trajetos de atividades aparecem sem inserir móveis ou alterar paredes.\nCELL 2: Visita de detalhes que costumam faltar. Tomadas, armários internos e registros reais em planos grandes e luz neutra. Capture a key visual moment suggesting: Cada detalhe é aberto ou acionado em filmagem autorizada.\nCELL 3: Locação em calendário de ocupação. Chaves, contrato demonstrativo e calendário físico numa mesa de entrada. Capture a key visual moment suggesting: Datas confirmadas ocupam o calendário e revelam etapas da entrada.\nCELL 4: Reforma possível versus existente. Foto real à esquerda e desenho técnico autorizado à direita com legenda permanente. Capture a key visual moment suggesting: Uma proposta aparece em painel separado sem substituir a condição atual.\nCELL 5: Visita em altura de quem habita. Ambiente real filmado à altura sentada, com portas e comandos visíveis. Capture a key visual moment suggesting: O percurso mostra alcance e campo de visão sem inventar dimensões.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "avatares-1",
+      "sourceSha256": "04ad0ae8a8729e9468209231fe5b6b1f01720282c0f046b4771981ec9ed0dbcb",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Anfitriã em estação de rádio comunitária. Mulher fictícia negra de cabelo curto, camisa terracota, estúdio de rádio com microfone e luz âmbar. Capture a key visual moment suggesting: Olha para a câmera, apresenta um tópico e um insert mostra o material citado.\nCELL 2: Apresentador em oficina de bicicletas. Homem fictício asiático de meia-idade, avental azul, bicicleta em suporte numa oficina clara. Capture a key visual moment suggesting: Fala à câmera com mãos livres; planos separados mostram a peça em uso.\nCELL 3: Guia em observatório de campo. Mulher fictícia madura de cabelos grisalhos, jaqueta verde, observatório em paisagem seca. Capture a key visual moment suggesting: Apresenta à câmera e a montagem alterna instrumentos e céu documentado.\nCELL 4: Anfitrião em cozinha de escola técnica. Homem fictício gordo de barba curta, uniforme creme, bancada de ensino culinário. Capture a key visual moment suggesting: Fala de frente e entra um plano detalhe separado da técnica explicada.\nCELL 5: Mediadora em auditório vazio. Mulher fictícia de pele morena, cabelo cacheado, blazer violeta, auditório iluminado. Capture a key visual moment suggesting: Abre a apresentação olhando para a câmera e o telão recebe tópicos editáveis.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "avatares-2",
+      "sourceSha256": "9d35d7246229b7b32dc31069e09eef04a9481d5721c782577a6921a2b5c43802",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Apresentador em estufa de pesquisa. Homem fictício idoso de pele clara, camisa casual, estufa com bancadas vegetais. Capture a key visual moment suggesting: Fala de frente com gestos pequenos; inserts mostram folhas sem deformação.\nCELL 2: Curadora em reserva de museu. Mulher fictícia asiática de meia-idade, roupa preta simples, gaveteiros e objetos protegidos. Capture a key visual moment suggesting: Introduz a coleção à câmera; detalhes dos objetos entram em planos independentes.\nCELL 3: Anfitrião em pista de skate vazia. Homem fictício negro jovem adulto, roupa casual larga, pista ao amanhecer. Capture a key visual moment suggesting: Fala em posição estável olhando à câmera e B-roll separado apresenta o ambiente.\nCELL 4: Apresentadora em laboratório de materiais. Mulher fictícia branca com cabelo raspado, jaleco sobre camiseta, bancada de amostras. Capture a key visual moment suggesting: Explica à câmera; uma demonstração real ou ilustrativa identificada ocupa o insert.\nCELL 5: Anfitrião em marina de trabalho. Homem fictício de pele morena e cabelo grisalho, camisa de linho, marina em hora azul. Capture a key visual moment suggesting: Apresenta à câmera com barco estável ao fundo e cortes de contexto.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "saude-1",
+      "sourceSha256": "b86690581fde772f32a0cfb6eff039eb7bd83153866550a6d4337d4941c3fc7e",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Consentimento explicado em mesa de opções. Profissional real e paciente autorizado diante de opções em cartões grandes, luz calma. Capture a key visual moment suggesting: Benefícios, riscos e alternativas são expostos sem pressionar uma escolha.\nCELL 2: Como descrever um sintoma. Pessoa fictícia diante de diário visual com relógio, intensidade e contexto. Capture a key visual moment suggesting: Uma observação é organizada em quando, onde e como para levar à consulta.\nCELL 3: Medicamentos organizados para consulta. Embalagens reais autorizadas com dados privados ocultos e lista legível. Capture a key visual moment suggesting: Itens são registrados sem sugerir mudança de dose ou suspensão.\nCELL 4: Sala de espera de baixa estimulação. Recepção real com luz suave, sinalização grande e poucos estímulos. Capture a key visual moment suggesting: O percurso de chegada é mostrado lentamente com sons discretos.\nCELL 5: Pós-procedimento com sinais de contato. Mesa com instruções aprovadas e canais de contato visíveis, composição serena. Capture a key visual moment suggesting: Cuidados esperados e sinais para procurar orientação aparecem em grupos separados.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "saude-2",
+      "sourceSha256": "4a36402f019bdd88d44ef22bf6e2f449b91cee2d19dee8e707af5610079365de",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Perguntas sobre anestesia em cenário real. Consultório real e instrumentos sem exposição gráfica, iluminação acolhedora. Capture a key visual moment suggesting: Uma pergunta por vez recebe explicação e indicação de avaliação individual.\nCELL 2: Odontologia preventiva para cuidadores. Manequim dental e mãos demonstrando cuidado em bancada clara. Capture a key visual moment suggesting: O gesto é mostrado de dois ângulos com pressão e sequência aprovadas.\nCELL 3: Rotina de fotoproteção sem milagre. Produto real, chapéu e sombra em cenário cotidiano com pele natural. Capture a key visual moment suggesting: Ações complementares são demonstradas sem filtro de embelezamento.\nCELL 4: Exame infantil em ensaio com brinquedo. Boneco e equipamento demonstrativo numa sala real acolhedora. Capture a key visual moment suggesting: O profissional explica a sequência no brinquedo antes do procedimento real.\nCELL 5: Direito de perguntar em consulta. Pessoa fictícia e profissional em conversa à altura dos olhos, perguntas tipográficas grandes. Capture a key visual moment suggesting: Uma pausa abre espaço à dúvida e a resposta é resumida para confirmação.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "ecommerce-1",
+      "sourceSha256": "a7bf3d4acb44e40f5947b25a2018fbc4f0a2d096aa229818dd6f4f346cf3eeb9",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Conteúdo da caixa em ordem de conferência. Produto fictício e todos os acessórios separados em fundo claro, numeração editorial. Capture a key visual moment suggesting: Cada item sai da caixa e ocupa sua posição de conferência.\nCELL 2: Compatibilidade por versão exata. Conector real ao lado de identificação de modelo e versão em texto grande. Capture a key visual moment suggesting: O código é conferido antes do encaixe documentado.\nCELL 3: Produto dobrado versus em uso. Carrinho ou objeto dobrável fictício em duas condições sobre piso quadriculado. Capture a key visual moment suggesting: O mecanismo real abre e fecha com dimensões verificadas nas duas condições.\nCELL 4: Detalhe de fecho em gesto contínuo. Fecho real de bolsa ou roupa em plano grande com mãos autorizadas. Capture a key visual moment suggesting: Abrir e fechar acontece sem cortes que escondam dificuldade.\nCELL 5: Leitura de manual em ação real. Manual aprovado e objeto real numa bancada, página relevante ampliada. Capture a key visual moment suggesting: A instrução é lida e executada numa ação contínua.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "ecommerce-2",
+      "sourceSha256": "2bc10dd89938361027494d04b7411ade45d7ed3e220ea46bf11abc8dbe7d0eb1",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Textura comparada com objeto cotidiano. Material real ao lado de referência neutra de escala, luz lateral padronizada. Capture a key visual moment suggesting: A mão mostra flexibilidade e textura sem alterar cor ou superfície.\nCELL 2: Reposição de peça em bancada limpa. Peça de reposição real, ferramenta necessária e objeto aberto conforme manual. Capture a key visual moment suggesting: A peça antiga sai e a nova entra com encaixe e limites documentados.\nCELL 3: Validade e lote em leitura ampliada. Embalagem real com área de lote ampliada por recorte de alta resolução. Capture a key visual moment suggesting: O local do código é apontado e a leitura explica seu significado sem reescrever rótulo.\nCELL 4: Uso em mãos de tamanhos diferentes. Mesmo produto real usado por pessoas autorizadas com referências de tamanho. Capture a key visual moment suggesting: O gesto é repetido sem alterar escala do produto e mostra limites de alcance.\nCELL 5: Pedido personalizado em prova digital. Prévia de personalização fiel ao sistema ao lado do produto-base real. Capture a key visual moment suggesting: Texto ou arte são conferidos numa prova antes da produção.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "infoprodutores-1",
+      "sourceSha256": "6d328fdc4c02302b55e2ebc454eb9ca32fd804656258bca3cc2ed8dbd5448ed3",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Aula zero em laboratório de pré-requisitos. Instrutor real em bancada com três ferramentas de entrada e cenário claro. Capture a key visual moment suggesting: Cada pré-requisito é verificado numa tarefa curta antes de começar.\nCELL 2: Uma habilidade em critério de domínio. Trabalho real de aluno autorizado ao lado de rubrica visual grande. Capture a key visual moment suggesting: O avaliador aponta evidências para cada critério sem notas inventadas.\nCELL 3: Curso por dentro em visita guiada real. Plataforma real do curso em tela grande com professor em insert discreto. Capture a key visual moment suggesting: Uma aula, material e exercício reais são abertos com continuidade.\nCELL 4: Tempo de estudo em agenda possível. Agenda física com blocos reais de trabalho, descanso e estudo, luz cotidiana. Capture a key visual moment suggesting: O curso é distribuído em intervalos plausíveis sem prometer resultado em prazo fixo.\nCELL 5: Dificuldade assumida em bastidor de treino. Instrutor real errando uma tentativa e ajustando uma técnica em ambiente de trabalho. Capture a key visual moment suggesting: O erro é mostrado, a correção explicada e nova tentativa comparada.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "infoprodutores-2",
+      "sourceSha256": "e19b0cef8417dc000c27ddfa6307e5896a7691bd3e492e335dfaf2012ac2b0e2",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Prévia de exercício com solução parcial. Exercício real grande em mesa ou tela, uma etapa resolvida e outra aberta. Capture a key visual moment suggesting: O professor demonstra o raciocínio inicial e convida à prática restante.\nCELL 2: Mapa de trilhas por experiência prévia. Três percursos de aprendizagem em painéis físicos com materiais reais do curso. Capture a key visual moment suggesting: Um diagnóstico simples indica percurso introdutório ou avançado com limites claros.\nCELL 3: Biblioteca de dúvidas em objetos de cena. Perguntas reais anonimizadas em etiquetas junto aos materiais de aula. Capture a key visual moment suggesting: Uma dúvida recorrente escolhe o objeto e desencadeia demonstração filmada.\nCELL 4: Devolutiva em três camadas de trabalho. Projeto real autorizado com marcações de estrutura, técnica e acabamento. Capture a key visual moment suggesting: Cada camada de feedback aparece com exemplo e ação de melhoria.\nCELL 5: Certificação explicada por evidências. Portfólio, avaliação e certificado demonstrativo separados numa mesa institucional. Capture a key visual moment suggesting: O que é exigido e o que o certificado não garante aparecem em sequência.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "motion-campanha-1",
+      "sourceSha256": "29546ff965528d6cf715c5009322347a42a5a91253e86c29c8fe6fbbfdc5e816",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Campanha em obturador de facetas. Painéis triangulares de metal fosco formam uma abertura assimétrica diante de produto fictício. Capture a key visual moment suggesting: Facetas giram por dobradiças diferentes e revelam o objeto com oclusão coerente.\nCELL 2: Mensagem em elevador cenográfico. Plataformas de cena sobem em um poço editorial coral e azul, letras grandes. Capture a key visual moment suggesting: Uma plataforma leva a ideia a outro nível e a mensagem final ocupa o topo.\nCELL 3: Campanha de pigmento em sedimentação. Partículas minerais coloridas decantam num tanque transparente diante de fundo escuro. Capture a key visual moment suggesting: Camadas se depositam por densidade e revelam uma composição estável.\nCELL 4: Palavra em trilho de montagem industrial. Letras robustas em peças passam por gabaritos numa bancada branca. Capture a key visual moment suggesting: Cada estação resolve um componente e a palavra termina legível.\nCELL 5: Anúncio em cenário de contraluz recortável. Objetos reais e grandes painéis de sombra formam uma paisagem em estúdio. Capture a key visual moment suggesting: Painéis se movem e a luz reconstrói o ambiente sem mover o produto.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    },
+    {
+      "layout": {
+        "columns": 2,
+        "rows": 3,
+        "usedCells": 5
+      },
+      "columnBoundaries": [
+        0,
+        543,
+        1086
+      ],
+      "id": "motion-campanha-2",
+      "sourceSha256": "9c8091eb18f825602449ac4a5d29eee2078ef299e517d0c785e77e98849074c4",
+      "sourceSize": [
+        1086,
+        1448
+      ],
+      "rowBoundaries": [
+        0,
+        483,
+        965,
+        1448
+      ],
+      "prompt": "Create a premium visual reference contact sheet. CRITICAL LAYOUT: portrait canvas exactly 3:4 (1536x2048 or same ratio), a perfectly regular 2-column by 3-row grid. Each of SIX cells is a complete near-square landscape composition (9:8 ratio), never a panoramic strip. ZERO gaps, ZERO borders, ZERO padding, ZERO text labels. Equal cells with clear rectangular boundaries at x=50%, y=33.333% and 66.667%. Read left-to-right, then top-to-bottom. First five cells are independent artworks described below. Sixth cell is a solid neutral ivory swatch, empty. Each artwork fills its cell edge-to-edge. Compose subjects in three-dimensional space with full head/body/object visibility as needed, atmospheric depth, high quality lighting, no deformed anatomy, no fake labels, no text. These are fictional visual concepts, not real people/products. All FIVE artworks must remain distinct and faithful to their own technique. This is a new rendition of each direction, purpose-built for a 9:8 gallery thumbnail. Do NOT put five horizontal strips or a single scene across cells.\nCELL 1: Campanha por transição de focalização física. Objetos em planos reais distintos com texto composto em profundidade controlada. Capture a key visual moment suggesting: O foco passa do detalhe à evidência, enquanto o texto essencial permanece legível.\nCELL 2: Benefício em mecanismo de came. Roda excêntrica e seguidor acionam um elemento de campanha em palco pastel. Capture a key visual moment suggesting: O came gira, o seguidor sobe e o resultado demonstra uma relação causal.\nCELL 3: Campanha de arena tipográfica. Letras grandes delimitam uma arena circular com objeto central em escala real. Capture a key visual moment suggesting: A câmera percorre um arco curto e as palavras mudam de posição sem colidir.\nCELL 4: Identidade em painel de cabos tensionados. Cabos coloridos atravessam pontos de ancoragem numa parede clara. Capture a key visual moment suggesting: Cabos são tensionados até formar uma silhueta estável e reconhecível.\nCELL 5: Mensagem em relevo de superfície mutável. Superfície de tecido cobre pequenos atuadores formando relevo legível. Capture a key visual moment suggesting: Atuadores levantam uma forma por vez e a superfície retorna sem tremulação.\nAll figures and situations fictional; do not write labels or invent medical claims. Compose each scene for its near-square 9:8 cell, using foreground, subject and background. High-end creative art direction, consistent technique per cell, no panorama bands.",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional visual study",
+      "review": "Static visual review required; no video execution evidence."
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/expansion-720-r2/cinema-31.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "e77eb35e554174f33ad9ab969a0bed800da2f8bba1cf006227897ecd69577033"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-32.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "8bba1648b0217b6f9315b3d7e1390b3db57ccaa7575cfa33426993b7cdb1d207"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-33.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "52debcca5b75aede6d0dbdcc0f203380a10b66aca2871a44d10aa971b6a62209"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-34.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "de1160410da18f6f85efdbb7ac1456d570daeadcf3e6d6d5b9468d2b6dac3b0f"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-35.webp",
+      "board": "cinema-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "e599a1b02e0d0fa0aee2e317f69fa69073d0ee74697012669766b11f905c1e1f"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-36.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "b9323e3b883f1ed8196660cfa4e4e5ad4bf0581bee9c28120f9795183a915f84"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-37.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "b4451a77d8b1916ab21a9d3dec01d771a801997cfce402e888b6f650663a3045"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-38.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "e1c5d11950463552018503e526bc03064d4e5a43534ad604b3c13fa8bae4a718"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-39.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "6cbfcc1488718bfd585b4ed1cd0ecd244a7dcf0cdf4ccdfaf2ef55fd146b0faa"
+    },
+    {
+      "path": "assets/expansion-720-r2/cinema-40.webp",
+      "board": "cinema-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "ad216721c600dad2139e4f2079eedd1c12873449d8c412b5ebf34d68805f49b6"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-31.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "7f46e7711a896cf88e8bac8deec769d98dd5f5957a81f5f5963046c49d27d6ec"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-32.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "9428624a96424e1e5af1561e18b86d3fe05b4b5ca7dbceeff9a1932976cba185"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-33.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "1e839d75b6c994ae968f97e17dbc1269785bc77596c96d7a549a9f16d8509a15"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-34.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "7bef9a798bd0a107e2b66102b11d5a35988586f5c00780563639c9a2e18b021b"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-35.webp",
+      "board": "ilustracao-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "1d74e6721d4021d6dd56417cf86df53732beaf3bca2bdb8f1c033d588a476165"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-36.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "6691d9a45becdf78bf0cb8799aa14fa54b65cd4a6fd2a21547b1bf820f3ea5c3"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-37.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "6740b10bc3d7f1ba71e3fbdd42619189d1cda00ae8ccce8423073f7e8f4937a7"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-38.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "b829cab08295c940ceb5842179482edcd9b73c4886ddddea1182a5fd68ef8542"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-39.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "c9e269a5e26d5dc595c26d8d72489c4dcd7bdb09c5b2b9f19d7ad51672a679fe"
+    },
+    {
+      "path": "assets/expansion-720-r2/ilustracao-40.webp",
+      "board": "ilustracao-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "6ab25c337e9058623546fc8a2a2cf7896f9e573300fa27f56fd398bdd7dc6941"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-31.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "702d8eb78c47278bd81120503b88171fe7327e1af492071f04f8091d2b665ba1"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-32.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "2e6be7de7ddcfb4847eb020897577aed98266e1af98d4ccc03a24d7d8a0f05c0"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-33.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "34b051a63dcaa58eedcfc147d9b273946e0a9d9f451a64dce54b6ea8ee1c34a1"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-34.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "90dacff457071307df92f723e781872f97a53af51ca55e02ba43e6cabb6a09bf"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-35.webp",
+      "board": "materiais-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "74c773c1b82ed168e6285ac3fa65db24f6951e588990d39f11b166c8f2cf6987"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-36.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "08296b294682db9b5fa5f9b5a5af4bf42d92b66f8f133aed61f25749247d1a4f"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-37.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "ac4383b441713fe9c8044aed78d67bf5037530841ea9b6e14086debc93ea6cdc"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-38.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "413a0521ce89b31f46fa0153b7083e93c974d588be9f03ec93da452f4703a60a"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-39.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "eaad40d14b78d4fb864bd57e85753e6796df819092ac2060fb3a94f95f59284f"
+    },
+    {
+      "path": "assets/expansion-720-r2/materiais-40.webp",
+      "board": "materiais-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "c1314b9534e5d82303f3a7c8b1974562cfd119c57fc68bd8dc935d3243eb43c2"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-31.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "9694aef19ba84db1e96c7838856da83e55fc121df8c9579166ed497f58c8d473"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-32.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "552561f2b04a1b9efe4267fd17ac91ae61d0507859c88130c6bba76055d0965e"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-33.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "5e1cbb5f88b79929f7049e59b4e8a58338e70483ea80767dfecb5d83fd986104"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-34.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "d416b4f87a4e565a5b826aa08faa6fb01c083e93cbfefb2ea8a1381790ac9519"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-35.webp",
+      "board": "motion-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "03ec8deb46d6844071ffb07a0f3df25bb55d0f71f21a3e9a5afab7b25c01fd8f"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-36.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "9fd9df269b5ee2811d32fe81c44287ac533095aedd9c2ef54efa63df80c0837b"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-37.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "0ec7a506eed21de7f025b9bbe4465aefcdbc73dd253ec46eee34b66d0b037707"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-38.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "0218f860eedf2ab8e364e4b52be12a24508db114fe91bf022e4603dda9bbc7cb"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-39.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "bce85dd70bbb56892743e293c188e86606bc76bb0e04ee9ce3b8250a8203de8b"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-40.webp",
+      "board": "motion-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "ee0f9511017ef861502f045ddcd4a95a81033c9e9a4b30716852e4e3ad70eab1"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-31.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "9b46b851949a4aff4db51165eb9f9ced50b3adcbdb5bf215b46e1cd8511eec71"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-32.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "62e9ab3eb85dac27ef671307fc2b5798f8db4eb5d3179e1dc2ffaca2f7e63927"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-33.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "aa32664acb189e31213a83f450ad82103bd5b9cd5770e5c17b183399df0054c8"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-34.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "9f4cfd8734869cd390d99b51f91ba2f7f3ceeb9847b4dca992c74e06dcb20578"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-35.webp",
+      "board": "volume-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "c4c0d97e693c38645d67a8f38500e747eb2305899a6f1eb6519ab6b2997fb996"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-36.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "5b976037f8ff5cba5acd42c70f07e5e83ec8b73222c7ee20a035c8c0ebc7f1b6"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-37.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "420cca08090981745a103950620a919ddc2a14593082c80bfc4d475d8a2bc8f8"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-38.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "3dfa9a240944ec3ecda2ba23d5086281f0b136d71ca1362e306cbe9bd5d3ed4b"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-39.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "89d03bfef75b5aa817c9ffda86467626aa82e07aae0920ff35311b69394497fb"
+    },
+    {
+      "path": "assets/expansion-720-r2/volume-40.webp",
+      "board": "volume-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "b418b2771ddc77cc1285a75079a2501ffff17d343f6b32a19253d967c79a65a7"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-31.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "014bf0d0f0d4856d0bd45a571087231948bcb10ae671b3c0dbd2582a6357cf51"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-32.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "c97d314a4a591faab05596acd9ce7a664c2a3bbbfca9d66d332ff891f479f69f"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-33.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "94bb737ac0096a378acbe6885f3f07bd8de51714d39ab367323074624dea3829"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-34.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "65fdf690163c9abfea844c15572fd9dd109913727950d7ba44ed3550a91b7fd6"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-35.webp",
+      "board": "hibridos-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "19d40bcc281c27d05de5604658f074eca75871d457f5be490ef205d36da61b0f"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-36.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "f283f4beb70a99f7edec145c33fa7d5e77af8a776d82a29f04f22edea7e6c64e"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-37.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "243f4049b115fbbd2b3db2fbfed9e73ec095654fc98b5b0847334e640d0ef3eb"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-38.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "e2916a5d497b6b6444a28a88e3b94db412a2199aebbcbfbdafcfbb2229df9ec1"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-39.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "d10db154a82ff23070897972178aade46b6053cd528f29822a154bea06cea5a8"
+    },
+    {
+      "path": "assets/expansion-720-r2/hibridos-40.webp",
+      "board": "hibridos-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "3717cfa9ef515b0f74f2af567eee9dfa05e5c3f39ba81d6eaaa13a84e4d666b5"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-31.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "7b9a96882df95c39ace07ece5f243b6a975c84ad44548929d458f99b825d64c5"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-32.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "d779a520d72e8bddaa1c8e7a105ecae4f84f41f91b84c9fdc0f640e1a790689e"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-33.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "6698cd4c3a400b57bdff5b7be72b52bdf989a2b4e8c134a3618edc56e8106334"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-34.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "eb596f27a9da1833778cc414086781f42757bbf14f84e2391811e1e42bed93c8"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-35.webp",
+      "board": "anuncios-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "3f3065c07c957e0780de8e85daa1ad3be0a85cc323ae9384616242b160e1b1fa"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-36.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "5aff34688f8e3aa87df3904836167d76adac19f05cf085ae8c75bb1af521a018"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-37.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "6a078af537284c71e27f849eb21c707e29204246b10d94f56bbfaa31af5eed96"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-38.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "df91621a2d19249fdb12e7e9e82fb35206628eea081c4c0c56f641c70c9ac853"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-39.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "0d1b88137927c9e4a84342194a7171e2c8dde73d1c2fc1baf5aacbbd952cebc1"
+    },
+    {
+      "path": "assets/expansion-720-r2/anuncios-40.webp",
+      "board": "anuncios-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "fefdc477e9a9df549889700242cf52e29a75ebaf280352112120e673170f5494"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-31.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "50a7a4baed3ee55280753e4cdb1807c87e5d21049fe29e66d0e5fc829820aa09"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-32.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "38668d990a6022f935227c60e2bd67b88e57e39d4f0d2eb36136af743b56b8c7"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-33.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "99a337412a403b94c53389b24e2952e9363fda4e3b7b80d42d993719277990cf"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-34.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "8eeaf951b52953d0439cbb2a60d9fb8385b473475f4987c64830e946ebc1eefb"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-35.webp",
+      "board": "campanhas-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "6ac0e326f0b257306c63525206be5606d443f78661fb657642027f3f23cc7bca"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-36.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "eb8e671c743275057cfb2b060333d10663f0665562857f7a27e1fc5cc7a5d70d"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-37.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "6c1d1249c52d0f595529143d9f3bbc2031d08a1b03e922b82de4977353c36bed"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-38.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "02ff438286ac55bc356ca491b7443d4a7bca78003d0b98aa61f18a60527a4b02"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-39.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "3cb9a417c1b8652063c1d16ef1ccc26a5efadb066f4dc0a19f15851d265558bd"
+    },
+    {
+      "path": "assets/expansion-720-r2/campanhas-40.webp",
+      "board": "campanhas-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "384955fc80b50e628cdff56dfa7b40327692e2eefd94510dc3a6f17749224a0e"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-31.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "b5f98eee9bd462345bb9979a2bba5a71de507b7e0003d9078174189cf3f11c16"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-32.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "3077b6c537d99e47f4d75377c3a42730dd0af363fd5755df7f4268fc1b405063"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-33.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "bccbd25e6ace086f56c6a6e772de1147d53f6278afddac731edc16c28a7460ca"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-34.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "0a94e7f0143c6a1705fe78623c88817e217878cbd33a5e73407c234ecfefefdc"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-35.webp",
+      "board": "imoveis-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "26f1e6a611cf88d3d74a5fd981886c3659b691dd6b5b582403408c463c63d130"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-36.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "03ccdb6e04cc4fc686373d9a38d7066a1372b253927099a46aa10d02e92d1aec"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-37.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "7a82b1e241d11a97089f7aae97563fb59f5447c77a0b1e6a36f4a5101eb59a5b"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-38.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "696ac854622339ac212720de8d26dfd0f8fca1c94b048d0887b2a45bfe5bb942"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-39.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "e5d414b58676da06df63c3fa7c0c8639ba70c648d0482e76a60263c9c107e658"
+    },
+    {
+      "path": "assets/expansion-720-r2/imoveis-40.webp",
+      "board": "imoveis-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "21b1f4acf44d801ae9378fa8a1a3e115a1ddb703492d3aaa9003f03af62b8c04"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-31.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "278b47a53e2b3cba02a0befaa0d815cf8c42a91c4cee924c7b1d74799b841237"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-32.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "3a633fd65dc5983b58b8142a578817227e34a33bd4d2376ddd2188ac9575508c"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-33.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "4bde345927a6d167a2069d2c19cd9809da68a2d3f0e6562a9f9a11d297054268"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-34.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "1c0e4872b524f00ae9fdfefde357600956c614932b1f0647c6435f50823f3e03"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-35.webp",
+      "board": "avatares-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "a480131d203d0218b7f7162f0b9585db6917822f698a2b9467bcdb090bf2e65f"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-36.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "23f16c935a3d2648c328b64a270566d43c239212a18c75726d8eb218bdfdac46"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-37.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "45ce2d0f673458bbd93180dc52a102f91f8ed2a792137892cbb1ade6f5ba24ef"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-38.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "0587970b41416572e229894946c5a83b2a54b56afa9e51efa16861681b7cdbfa"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-39.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "f8ba6bae4298001eecc77ec4c92087ac90cb7dee7429af4c6a620b548d9e5bca"
+    },
+    {
+      "path": "assets/expansion-720-r2/avatares-40.webp",
+      "board": "avatares-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "e54456a54f413e26f6f417c2becd3d6759b8af6c952b273e1a04584006f569dc"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-31.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "460824d8460f623798a36dcb42f414d00be6c4238c2d4d800888cb4476dd64ef"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-32.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "b3ddf74ef0752f80091ddc6e19dd70687144a79b522cfc40080669be65e1bd61"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-33.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "9a845f5bd97fa46f2229bc3f546d3fa6b3aa2ce5450a2d336919a6b13f8bae3c"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-34.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "0cbd133052e37f7ecea93b06c913abc846afa37bbf0137061b5c594b8255b70a"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-35.webp",
+      "board": "saude-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "ba3444eda2ef609ca1755a3c38b291ec3181e1150ad949b5c0189d8b613bc2aa"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-36.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "51960ade1003f5ba601527cd852903f74fe31649bf4102eac051dd4fbde53cf0"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-37.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "21719f05542267f6554e51a2e82f0e04bfd50c954aa10fe3f6f25a352d825f82"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-38.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "3d160fbbb2d23c47bfe60ae438427503113993e1cf89e36651f7f5ec64ac877d"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-39.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "70d40e20a1d9125db8f3b37e8e96944c3143437a50ee08be27c575b7fbaaf868"
+    },
+    {
+      "path": "assets/expansion-720-r2/saude-40.webp",
+      "board": "saude-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "f4bde6ae294db2a39a6522a6a536796d0554d781fe50a7a9797b26677607260d"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-31.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "800be5903e034e1f3f401edb9636ac35bd84ec1b7b1ddc7de66bda354eefeda0"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-32.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "e4293df06f50ff94abc616f56f725a54177366fc23c6d7f1e5173a4bc31abbab"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-33.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "7080ebd636daba85fd6246e5609d9a58cae8497933f637d0b36bd4578ba64539"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-34.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "3b4a79eec7170beae3bf4095400c27f4f3ecadb9b97f1ddb48a417b8f46c0254"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-35.webp",
+      "board": "ecommerce-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "b923ced714ef18e79ec064bb80e7f30bacac1d0e4537ada87606e32e1a79ad1b"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-36.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "bb90babb6554777dfdaa575864a55f4242d5b8ff39ebd2f523edb5589153dc86"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-37.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "625c25100a91f573b1187bff42f02b618ab85aa4f0c5211407d5f34f42ef1c37"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-38.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "7f4e34ddcc7cc2cfecc333358a5f319c7bdf4abc75cd4d4e1c7b473c390457b6"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-39.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "3dcfb9e32df645fa436c6c9f46b09d74dcb1d884360e3dbfdb8b7f4395c94a63"
+    },
+    {
+      "path": "assets/expansion-720-r2/ecommerce-40.webp",
+      "board": "ecommerce-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "fca8e6c55fec49b58c8e81f0b5addebb2d587a0fb2904806b6adeb73fa3ddae5"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-31.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "3d0930416b6068ca2b9eb5d88242e5a04d6b7d6f41754471e357bf7a11296b05"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-32.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "fbce76ae8abaf46140ecf654dfd7c6bd70dcf0a1fbfe7da801f77cf33294211e"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-33.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "06db5f917958376229421d1490726a1332ae189bfda378e85371fdcd9c1b0b7b"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-34.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "74c9a814d214aa2ef94b783701c7f36d889123e1efa80e2f4ad210041e24d84b"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-35.webp",
+      "board": "infoprodutores-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "4e60f94274b32b7d09ade9ecf7bed9afa5948bd6c8ccaa7f28379f2a82aabf3c"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-36.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "b77bd8df2c74fe1ffd7d6da41006bf350ff22d8233223223865e6312df599064"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-37.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "3ac91793787615e63f8d33f378571f35e413f68422b2f00d8bcf4ec98cc19970"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-38.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "bc708ea64011911cfd45c8475b4139316fd348ab0a30d83f2fced1d591275be7"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-39.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "aa426bc1b5d9c271d10c47032e050d8af13142a20a41df8efc1d4ca9ff87e69e"
+    },
+    {
+      "path": "assets/expansion-720-r2/infoprodutores-40.webp",
+      "board": "infoprodutores-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "1b60ca1c2e78b0e2302f10b265f446969d4baa6f8df40adb5152f9779be50038"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-31.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "04f301cf927163edbaf941221e5cdd3fbe47c8b75b7619da2b85855eabe33e85"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-32.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "7c3a84859217581c3ba81810cb23742ba065da0d852eae0aaf7c44855d41702d"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-33.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "880431c82e49305ec393a03ddc3da770699ee47b7fc2e44a6df6b29ec7d14a8a"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-34.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "21f7dd6deba2153901dae4b03de1a8a62640300e2bf8eed170e06f68c0a85272"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-35.webp",
+      "board": "motion-campanha-1",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "d272bb533e1f75b4140240eabb9cba6ef36791ea3baeb67436112eac3d2f9b54"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-36.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        0,
+        0,
+        543,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "eb35558c8c1128a31cbf11de707064a6d380a1189aca50ce2a6923f6f3b6c0c5"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-37.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        543,
+        0,
+        1086,
+        483
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "242a74587ef589fb843c3b7c1a2dd0034eb5d6609c22e764afa8109042cfbb2e"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-38.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        0,
+        483,
+        543,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "e75c7aedde1b0de1b55491401656d12f0f3717487a3c6722a4eccbb4c85dcb19"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-39.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        543,
+        483,
+        1086,
+        965
+      ],
+      "width": 543,
+      "height": 482,
+      "sha256": "851ab125e36f781078b19c5ab7e99919426ebdf5883e03a28763c820048e4c59"
+    },
+    {
+      "path": "assets/expansion-720-r2/motion-campanha-40.webp",
+      "board": "motion-campanha-2",
+      "rectPixels": [
+        0,
+        965,
+        543,
+        1448
+      ],
+      "width": 543,
+      "height": 483,
+      "sha256": "b6261805921768ae72de256dd25bce257614a361bd1578ebe4318385782d020c"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-31.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "7bf5edf445d4142045875427d3f646809d41966474ae8835215616efe20b8855"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-32.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "81c6eb180efebf555d8fa1158cda83f2ae70421c4f1b2e336c66d74beeb29f0d"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-33.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "e51fee807b5b92e504c02699b4bb4b4f5ce7c7c910f08850696ef1d51697142a"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-34.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "e07739240e4c2a058d70e8dfbc672e44cc3f7479b88fc18686729c2ee3f442c6"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-35.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "28057f419db041d4b81901fbdb1b88b4b63f3e55eedaa9e6a6e554fe8366b08e"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-36.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "aeeacfaa8e3a9c3886211372377c41ad6a14dd44882365b7318d6c2e0a1e9d70"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-37.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "eb22aff8105db4bc5fe07a4aa59ed74c32e04192ae0ad1f76f5220144442f564"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-38.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "8c30dbb005d774245229f1c817e941c1a6386dd9e5b3400c31036d0098384269"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-39.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "0a9874b81b28f6cf28eb3bd80137eef2c59fcef8ecd4d8fc66120d8227b7289c"
+    },
+    {
+      "path": "assets/expansion-720-r2/grafico-40.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "d4594258d93bc5e10a53797a57e0973913af8d95038b2aee157254c2299e4b7d"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-31.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "fd7d95feb82ea0ec3de092751db4bb1f9bbbd5457d70c5cadfc0291bd0563728"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-32.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "b1cbb30daacfb82d750e93e05b72e21d7adecb75e91880a7fd735fc36725776f"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-33.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "92e7aa3a43d306f5abdb7e5a922f7ca7eadfb6668c17d1cba153a326dd70d26e"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-34.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "6ec0a41b69d769bea77a5b09daf95cf7a099f17cdb2aea03895db0c7f6bd2926"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-35.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "69e026560cdfd946ec923265be3ffe9bdb8834ba094aba368bef002c38c61a50"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-36.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "baa0e068ade6ec237e68fcb392d28584aa73d23de3465ca1eb04b15bb75a64ee"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-37.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "bee68a907dfce1be72871cadf0b23e64154060f44cedcb52910d17fd3745d1aa"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-38.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "bb0af0fafa790f27d9044de696c1a438471b53fab9f577baed1d7f57e89c178a"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-39.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "a4ba7f0fde5721c2a43f5a1073e537d014ad2f3dfaef93ca79ddbb5d5f60cb7d"
+    },
+    {
+      "path": "assets/expansion-720-r2/tecnologia-40.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "6f649f2fa8a9fb6fc04a0b207cf5c85e1f967c2ad5c4a1d5b859224348460b06"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-31.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "837fd67c89ab42d31760bd7e73c8826091d8f3d64a5de54d001e99ee658cde36"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-32.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "c19777c15b0393a2d16433495690ec275b57413d6a5367afa73cf5dd0fe94d80"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-33.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "e9153ad192ec54324168b37641a192afaa94698c9105ecb0796b828b6a875a2c"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-34.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "682c619e7449aed684204a1a0630c9470afc5b375825b7b7677578f3e108afe5"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-35.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "eea04cb89f2672b329e5f3c395e4cd3953e4eb4fc5f5003f66eaaf2114c99f12"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-36.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "eabba87a23ee3a2f7a8dc2f87c7e5e5be659e7028fc6cdd54621753207e23574"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-37.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "952634bc38ab817526afdfa51347d20b41d5c6cfc34363c574ec57f2b2790e46"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-38.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "7c3c340e4cbe5a051e9e3f7a100bb5bafd42310d7c9386e98e3063062bc8e964"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-39.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "39791bd86789eef77e6d4e94cf132d776fa9e315fa9ef9ad82e5efeb7691dc96"
+    },
+    {
+      "path": "assets/expansion-720-r2/software-40.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "051ce6857031d7cb70163644bb0a14f8d4f79abf4a85a429e30621b97c83679d"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-31.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "012522c7323b519d5e94805902ff3ffee8b2fe457802e8a6d711318f6a31d8de"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-32.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "6d21071ef70947ce6144df81157c047468d3c380c7931b711d6c106c4b66c656"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-33.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "134cd0eeba9086fdda57afe7358335b0cdbf8dab555511680a41cda6946714ab"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-34.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "2ef65fe6e763c46b57c8d0baf7c711e54d066671159405ffef3fcf14f20ce046"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-35.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "e98adb5271e18e88d9c7a043a540cfe1611e09bea017014fdf2a5128f56d02d8"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-36.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "9f57f3c5c44943c527c720f4e32ebeeead250fa6e869997f3e3511705e22d0d1"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-37.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "221b0ab911e6ecb3750a285c38ecaa586c0e878d8590b5031cec65e2b50ae656"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-38.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "61ffcfd67921536bb3cc0b441b13d7768598dcea3feb13a5ce1bfc527b05ff91"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-39.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "59393c397d960c35d360e58b83eeedc30a2660adce0c77aff662b3f6f3dc7a6f"
+    },
+    {
+      "path": "assets/expansion-720-r2/apresentacoes-40.webp",
+      "source": "render_graphics.py",
+      "kind": "original coded composition; fictional data/interface",
+      "width": 1080,
+      "height": 960,
+      "sha256": "f79162b2c18e959f85f69e77fd569e22e411db664dbdc3f241203c79fa1411c5"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "edition": "4.0",
+  "edition": "4.1",
   "method": "Pesquisa textual com Firecrawl e Exa; direções autorais informadas por princípios documentados. Fontes são referências de técnica e método, não autoria das combinações propostas nem imagens reutilizadas.",
   "sources": [
     {
@@ -385,6 +385,54 @@
         "motion-campanha"
       ],
       "lesson": "Integração de filmagem, cenário, composição e cor; consulta ao texto e créditos, não playback do filme."
+    },
+    {
+      "id": "exp-optics",
+      "title": "V&A · An A to Z of photographic processes",
+      "url": "https://www.vam.ac.uk/articles/photographic-processes",
+      "lesson": "Óptica e processos históricos como direção de aparência; não copiar fotografias do acervo.",
+      "access": "2026-11-10",
+      "families": []
+    },
+    {
+      "id": "exp-print",
+      "title": "Saint Louis Art Museum · Glossary of Printmaking and Photographic Techniques",
+      "url": "https://www.slam.org/read-watch-listen/glossary-of-printmaking-and-photographic-techniques/",
+      "lesson": "O processo e a matriz determinam a marca visual; usar desenhos e materiais próprios.",
+      "access": "2026-11-10",
+      "families": []
+    },
+    {
+      "id": "exp-tactile",
+      "title": "Trollbäck+Company · Motion Conference",
+      "url": "https://www.trollback.com/projects/motion",
+      "lesson": "Experimentação física, fabricação e efeitos em câmera articulam campanhas táteis; texto do caso consultado, sem reutilizar ativos ou afirmar playback.",
+      "access": "2026-11-10",
+      "families": []
+    },
+    {
+      "id": "exp-learning",
+      "title": "Magic Pulpo · MyBerlitz Speaking Tutor",
+      "url": "https://magicpulpo.com/works/berlitz-speaking-tutor-explainer",
+      "lesson": "Capturas do produto e ações de aprendizagem podem organizar a explicação; funções precisam ser verificadas no sistema real.",
+      "access": "2026-11-10",
+      "families": []
+    },
+    {
+      "id": "exp-health",
+      "title": "Shakuro · Channel D",
+      "url": "https://shakuro.com/works/channeld",
+      "lesson": "Educação por vídeo na experiência do paciente, com linguagem clara; resultados comerciais do caso não são evidência clínica.",
+      "access": "2026-11-10",
+      "families": []
+    },
+    {
+      "id": "exp-data",
+      "title": "Observable · Bullet graph",
+      "url": "https://new.observablehq.com/@observablehq/plot-bullet-graph",
+      "lesson": "Referência textual de codificação gráfica; os dados da amostra são fictícios e cada produção exige escalas, unidades e fonte.",
+      "access": "2026-11-10",
+      "families": []
     }
   ]
 }

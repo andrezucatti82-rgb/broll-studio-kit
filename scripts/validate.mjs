@@ -38,7 +38,7 @@ export function validate(p){
 }
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){const input=JSON.parse(fs.readFileSync(process.argv[2]||'templates/project.json','utf8'));(input.selectedStyles?validatePreset:validate)(input);console.log('Project valid. This does not certify creative quality.');}
 
-export function validateCatalog(c){if(c.styles.length!==540||new Set(c.styles.map(s=>s.id)).size!==540)throw Error('540 unique styles required');for(const s of c.styles)if(!s.proof||!s.requirements||!s.preset?.productFidelity||!['voice','music','sfx','mix'].every(k=>s.audio?.[k]))throw Error('Incomplete fidelity fields: '+s.id);return c;}
+export function validateCatalog(c){if(c.styles.length!==720||new Set(c.styles.map(s=>s.id)).size!==720)throw Error('720 unique styles required');for(const s of c.styles)if(!s.proof||!s.requirements||!s.preset?.productFidelity||!['voice','music','sfx','mix'].every(k=>s.audio?.[k]))throw Error('Incomplete fidelity fields: '+s.id);return c;}
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)validateCatalog(JSON.parse(fs.readFileSync(new URL('../style-atlas/dist/catalog.json',import.meta.url))));
 
 export function validatePreset(p){
