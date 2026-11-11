@@ -141,3 +141,7 @@ As fichas incluem ação, uso, recursos, áudio, comparação com um conceito pr
 ## Execução dos estilos · pacote 2.3.2
 
 As instruções e o planejador agora preservam os critérios completos dos estilos em `style-execution-plan.json`: quadros, ação, áudio, recursos, prova esperada e fidelidade. Atribua papéis ao principal e a até nove complementares. O registro novo nasce pendente, é criado em retomadas antigas quando ausente e não sobrescreve decisões existentes. Moodboard, storyboard e amostra continuam com aprovações próprias. Esta edição está na branch `feat/atlas-720-directions` (PR #4), ainda sem merge na main.
+
+## Galeria mobile e revisão visual 2
+
+As 180 amostras novas foram recompostas no formato próximo de 9:8, com molduras uniformes e sem cortes de assunto. No celular, imagens grandes em uma coluna, título e ações; a descrição completa fica na ficha. Categorias estão em um menu compacto, com busca, novidades, favoritos e filtro opcional por tipo. Desktop e Page compartilham o catálogo; a Page preserva o modo sem localStorage.

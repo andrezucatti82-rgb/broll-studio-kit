@@ -29,7 +29,7 @@ for font in ['Geist-Regular.ttf','Geist-Bold.ttf']:
  sub=subset.Subsetter();sub.populate(unicodes=list(range(0x100))+list(range(0x300,0x370))+list(range(0x2000,0x2070))+list(range(0x2190,0x2200))+[0x2713,0x2714,0x2715,0x2716]);sub.subset(face)
  face.flavor='woff2';buf=io.BytesIO();face.save(buf)
  css=css.replace(origin+'assets/'+font,'data:font/woff2;base64,'+base64.b64encode(buf.getvalue()).decode())
-css+='\n.mast{padding:12px 16px}.page-toolbar{display:flex;align-items:center;justify-content:space-between;width:100%;gap:15px;font-size:12px;color:var(--muted)}main{padding:20px 16px}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:700px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}'
+css+='\n.mast{padding:12px 16px}.page-toolbar{display:flex;align-items:center;justify-content:space-between;width:100%;gap:15px;font-size:12px;color:var(--muted)}main{padding:20px 16px}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:700px){.grid{grid-template-columns:1fr}}'
 def pack(text):return base64.b64encode(gzip.compress(text.encode(),mtime=0)).decode()
 script=soup.find('script',src='app.js');script.decompose()
 for name in ['workflow.js','site-ui.js']:

@@ -33792,14 +33792,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-31.webp",
+        "atlas": "assets/expansion-720-r2/cinema-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -33860,14 +33860,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-32.webp",
+        "atlas": "assets/expansion-720-r2/cinema-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -33928,14 +33928,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-33.webp",
+        "atlas": "assets/expansion-720-r2/cinema-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -33996,14 +33996,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-34.webp",
+        "atlas": "assets/expansion-720-r2/cinema-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -34064,14 +34064,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-35.webp",
+        "atlas": "assets/expansion-720-r2/cinema-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -34132,14 +34132,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-36.webp",
+        "atlas": "assets/expansion-720-r2/cinema-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -34200,14 +34200,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-37.webp",
+        "atlas": "assets/expansion-720-r2/cinema-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -34268,14 +34268,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-38.webp",
+        "atlas": "assets/expansion-720-r2/cinema-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -34336,14 +34336,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-39.webp",
+        "atlas": "assets/expansion-720-r2/cinema-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -34404,14 +34404,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/cinema-40.webp",
+        "atlas": "assets/expansion-720-r2/cinema-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -34472,14 +34472,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-31.webp",
+        "atlas": "assets/expansion-720-r2/grafico-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -34540,14 +34540,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-32.webp",
+        "atlas": "assets/expansion-720-r2/grafico-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -34608,14 +34608,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-33.webp",
+        "atlas": "assets/expansion-720-r2/grafico-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -34676,14 +34676,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-34.webp",
+        "atlas": "assets/expansion-720-r2/grafico-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -34744,14 +34744,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-35.webp",
+        "atlas": "assets/expansion-720-r2/grafico-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -34812,14 +34812,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-36.webp",
+        "atlas": "assets/expansion-720-r2/grafico-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -34880,14 +34880,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-37.webp",
+        "atlas": "assets/expansion-720-r2/grafico-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -34948,14 +34948,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-38.webp",
+        "atlas": "assets/expansion-720-r2/grafico-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -35016,14 +35016,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-39.webp",
+        "atlas": "assets/expansion-720-r2/grafico-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -35084,14 +35084,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/grafico-40.webp",
+        "atlas": "assets/expansion-720-r2/grafico-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -35152,14 +35152,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-31.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 362
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -35220,14 +35220,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-32.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -35288,14 +35288,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-33.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -35356,14 +35356,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-34.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -35424,14 +35424,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-35.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -35492,14 +35492,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-36.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 359
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -35560,14 +35560,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-37.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -35628,14 +35628,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-38.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 371
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -35696,14 +35696,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-39.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 360
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -35764,14 +35764,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ilustracao-40.webp",
+        "atlas": "assets/expansion-720-r2/ilustracao-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -35832,14 +35832,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-31.webp",
+        "atlas": "assets/expansion-720-r2/materiais-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 367
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -35900,14 +35900,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-32.webp",
+        "atlas": "assets/expansion-720-r2/materiais-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 361
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -35968,14 +35968,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-33.webp",
+        "atlas": "assets/expansion-720-r2/materiais-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 362
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -36036,14 +36036,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-34.webp",
+        "atlas": "assets/expansion-720-r2/materiais-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 367
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -36104,14 +36104,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-35.webp",
+        "atlas": "assets/expansion-720-r2/materiais-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -36172,14 +36172,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-36.webp",
+        "atlas": "assets/expansion-720-r2/materiais-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 359
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -36240,14 +36240,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-37.webp",
+        "atlas": "assets/expansion-720-r2/materiais-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 367
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -36308,14 +36308,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-38.webp",
+        "atlas": "assets/expansion-720-r2/materiais-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -36376,14 +36376,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-39.webp",
+        "atlas": "assets/expansion-720-r2/materiais-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -36444,14 +36444,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/materiais-40.webp",
+        "atlas": "assets/expansion-720-r2/materiais-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 367
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -36512,14 +36512,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-31.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -36580,14 +36580,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-32.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -36648,14 +36648,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-33.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -36716,14 +36716,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-34.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -36784,14 +36784,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-35.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -36852,14 +36852,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-36.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -36920,14 +36920,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-37.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -36988,14 +36988,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-38.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -37056,14 +37056,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-39.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -37124,14 +37124,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/tecnologia-40.webp",
+        "atlas": "assets/expansion-720-r2/tecnologia-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 1,
@@ -37192,14 +37192,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-31.webp",
+        "atlas": "assets/expansion-720-r2/motion-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 387
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -37260,14 +37260,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-32.webp",
+        "atlas": "assets/expansion-720-r2/motion-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 337
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -37328,14 +37328,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-33.webp",
+        "atlas": "assets/expansion-720-r2/motion-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 345
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -37396,14 +37396,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-34.webp",
+        "atlas": "assets/expansion-720-r2/motion-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 385
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -37464,14 +37464,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-35.webp",
+        "atlas": "assets/expansion-720-r2/motion-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 367
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -37532,14 +37532,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-36.webp",
+        "atlas": "assets/expansion-720-r2/motion-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 389
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -37600,14 +37600,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-37.webp",
+        "atlas": "assets/expansion-720-r2/motion-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 335
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -37668,14 +37668,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-38.webp",
+        "atlas": "assets/expansion-720-r2/motion-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -37736,14 +37736,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-39.webp",
+        "atlas": "assets/expansion-720-r2/motion-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -37804,14 +37804,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-40.webp",
+        "atlas": "assets/expansion-720-r2/motion-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 371
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -37872,14 +37872,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-31.webp",
+        "atlas": "assets/expansion-720-r2/volume-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -37940,14 +37940,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-32.webp",
+        "atlas": "assets/expansion-720-r2/volume-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38008,14 +38008,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-33.webp",
+        "atlas": "assets/expansion-720-r2/volume-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -38076,14 +38076,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-34.webp",
+        "atlas": "assets/expansion-720-r2/volume-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -38144,14 +38144,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-35.webp",
+        "atlas": "assets/expansion-720-r2/volume-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38212,14 +38212,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-36.webp",
+        "atlas": "assets/expansion-720-r2/volume-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 361
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38280,14 +38280,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-37.webp",
+        "atlas": "assets/expansion-720-r2/volume-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 369
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38348,14 +38348,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-38.webp",
+        "atlas": "assets/expansion-720-r2/volume-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 361
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -38416,14 +38416,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-39.webp",
+        "atlas": "assets/expansion-720-r2/volume-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 360
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -38484,14 +38484,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/volume-40.webp",
+        "atlas": "assets/expansion-720-r2/volume-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 370
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38552,14 +38552,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-31.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 371
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38620,14 +38620,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-32.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 355
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38688,14 +38688,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-33.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -38756,14 +38756,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-34.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 359
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -38824,14 +38824,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-35.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 371
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38892,14 +38892,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-36.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -38960,14 +38960,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-37.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 360
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -39028,14 +39028,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-38.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -39096,14 +39096,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-39.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 1,
@@ -39164,14 +39164,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/hibridos-40.webp",
+        "atlas": "assets/expansion-720-r2/hibridos-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 1,
@@ -39232,14 +39232,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-31.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 362
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -39305,14 +39305,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-32.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -39378,14 +39378,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-33.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -39451,14 +39451,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-34.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -39524,14 +39524,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-35.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -39597,14 +39597,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-36.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -39670,14 +39670,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-37.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -39743,14 +39743,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-38.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -39816,14 +39816,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-39.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -39889,14 +39889,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/anuncios-40.webp",
+        "atlas": "assets/expansion-720-r2/anuncios-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -39962,14 +39962,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-31.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 383
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -40035,14 +40035,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-32.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 386
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -40108,14 +40108,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-33.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 360
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -40181,14 +40181,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-34.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 325
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -40254,14 +40254,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-35.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 367
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -40327,14 +40327,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-36.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 369
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -40400,14 +40400,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-37.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 359
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -40473,14 +40473,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-38.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 362
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -40546,14 +40546,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-39.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -40619,14 +40619,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/campanhas-40.webp",
+        "atlas": "assets/expansion-720-r2/campanhas-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -40692,14 +40692,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-31.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 380
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -40765,14 +40765,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-32.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 371
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -40838,14 +40838,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-33.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 353
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -40911,14 +40911,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-34.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 336
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -40984,14 +40984,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-35.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 381
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -41057,14 +41057,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-36.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 395
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -41130,14 +41130,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-37.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 377
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -41203,14 +41203,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-38.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 298
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -41276,14 +41276,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-39.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 423
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 2,
@@ -41349,14 +41349,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/imoveis-40.webp",
+        "atlas": "assets/expansion-720-r2/imoveis-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 328
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 2,
@@ -41422,14 +41422,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-31.webp",
+        "atlas": "assets/expansion-720-r2/software-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -41495,14 +41495,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-32.webp",
+        "atlas": "assets/expansion-720-r2/software-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -41568,14 +41568,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-33.webp",
+        "atlas": "assets/expansion-720-r2/software-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -41641,14 +41641,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-34.webp",
+        "atlas": "assets/expansion-720-r2/software-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -41714,14 +41714,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-35.webp",
+        "atlas": "assets/expansion-720-r2/software-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -41787,14 +41787,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-36.webp",
+        "atlas": "assets/expansion-720-r2/software-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -41860,14 +41860,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-37.webp",
+        "atlas": "assets/expansion-720-r2/software-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -41933,14 +41933,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-38.webp",
+        "atlas": "assets/expansion-720-r2/software-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42006,14 +42006,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-39.webp",
+        "atlas": "assets/expansion-720-r2/software-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42079,14 +42079,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/software-40.webp",
+        "atlas": "assets/expansion-720-r2/software-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42152,14 +42152,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-31.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42225,14 +42225,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-32.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42298,14 +42298,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-33.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42371,14 +42371,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-34.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42444,14 +42444,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-35.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42517,14 +42517,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-36.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42590,14 +42590,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-37.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42663,14 +42663,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-38.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42736,14 +42736,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-39.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42809,14 +42809,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/apresentacoes-40.webp",
+        "atlas": "assets/expansion-720-r2/apresentacoes-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "code",
-        "width": 1440,
-        "height": 810
+        "width": 1080,
+        "height": 960
       },
       "preset": {
         "version": 2,
@@ -42882,14 +42882,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-31.webp",
+        "atlas": "assets/expansion-720-r2/avatares-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 362
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 3,
@@ -42949,14 +42949,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-32.webp",
+        "atlas": "assets/expansion-720-r2/avatares-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 3,
@@ -43016,14 +43016,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-33.webp",
+        "atlas": "assets/expansion-720-r2/avatares-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 3,
@@ -43083,14 +43083,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-34.webp",
+        "atlas": "assets/expansion-720-r2/avatares-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 3,
@@ -43150,14 +43150,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-35.webp",
+        "atlas": "assets/expansion-720-r2/avatares-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 3,
@@ -43217,14 +43217,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-36.webp",
+        "atlas": "assets/expansion-720-r2/avatares-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 3,
@@ -43284,14 +43284,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-37.webp",
+        "atlas": "assets/expansion-720-r2/avatares-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 3,
@@ -43351,14 +43351,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-38.webp",
+        "atlas": "assets/expansion-720-r2/avatares-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 3,
@@ -43418,14 +43418,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-39.webp",
+        "atlas": "assets/expansion-720-r2/avatares-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 3,
@@ -43485,14 +43485,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/avatares-40.webp",
+        "atlas": "assets/expansion-720-r2/avatares-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 3,
@@ -43552,14 +43552,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-31.webp",
+        "atlas": "assets/expansion-720-r2/saude-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 332
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -43617,14 +43617,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-32.webp",
+        "atlas": "assets/expansion-720-r2/saude-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 357
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -43682,14 +43682,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-33.webp",
+        "atlas": "assets/expansion-720-r2/saude-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -43747,14 +43747,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-34.webp",
+        "atlas": "assets/expansion-720-r2/saude-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 432
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -43812,14 +43812,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-35.webp",
+        "atlas": "assets/expansion-720-r2/saude-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 334
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -43877,14 +43877,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-36.webp",
+        "atlas": "assets/expansion-720-r2/saude-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -43942,14 +43942,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-37.webp",
+        "atlas": "assets/expansion-720-r2/saude-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44007,14 +44007,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-38.webp",
+        "atlas": "assets/expansion-720-r2/saude-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -44072,14 +44072,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-39.webp",
+        "atlas": "assets/expansion-720-r2/saude-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -44137,14 +44137,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/saude-40.webp",
+        "atlas": "assets/expansion-720-r2/saude-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44202,14 +44202,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-31.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44267,14 +44267,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-32.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 362
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44332,14 +44332,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-33.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -44397,14 +44397,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-34.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -44462,14 +44462,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-35.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44527,14 +44527,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-36.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44592,14 +44592,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-37.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44657,14 +44657,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-38.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -44722,14 +44722,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-39.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -44787,14 +44787,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/ecommerce-40.webp",
+        "atlas": "assets/expansion-720-r2/ecommerce-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44852,14 +44852,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-31.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44917,14 +44917,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-32.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 361
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -44982,14 +44982,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-33.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -45047,14 +45047,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-34.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 366
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -45112,14 +45112,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-35.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45177,14 +45177,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-36.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 377
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45242,14 +45242,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-37.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 355
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45307,14 +45307,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-38.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 379
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -45372,14 +45372,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-39.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 345
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -45437,14 +45437,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/infoprodutores-40.webp",
+        "atlas": "assets/expansion-720-r2/infoprodutores-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45502,14 +45502,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-31.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-31.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45570,14 +45570,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-32.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-32.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 362
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45638,14 +45638,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-33.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-33.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -45706,14 +45706,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-34.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-34.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -45774,14 +45774,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-35.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-35.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 367
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45842,14 +45842,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-36.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-36.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 363
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45910,14 +45910,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-37.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-37.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,
@@ -45978,14 +45978,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-38.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-38.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -46046,14 +46046,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-39.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-39.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 364
+        "width": 543,
+        "height": 482
       },
       "preset": {
         "version": 4,
@@ -46114,14 +46114,14 @@
       "edition": "4.1",
       "segment": "Expansão autoral · direção e uso",
       "image": {
-        "atlas": "assets/expansion-720/motion-campanha-40.webp",
+        "atlas": "assets/expansion-720-r2/motion-campanha-40.webp",
         "columns": 1,
         "rows": 1,
         "column": 0,
         "row": 0,
         "sourceKind": "ai",
-        "width": 864,
-        "height": 365
+        "width": 543,
+        "height": 483
       },
       "preset": {
         "version": 4,

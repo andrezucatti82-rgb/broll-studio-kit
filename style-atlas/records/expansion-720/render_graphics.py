@@ -3,13 +3,30 @@ from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 import math,json
 ROOT=Path(__file__).resolve().parents[2]
-OUT=ROOT/'dist/assets/expansion-720';OUT.mkdir(exist_ok=True)
+OUT=ROOT/'dist/assets/expansion-720-r2';OUT.mkdir(exist_ok=True)
 FONTS=ROOT/'dist/assets'
-W,H=1440,810
+W,H=1080,960
+SX,SY=W/1440,H/810
+class LayoutDraw:
+ """Reflow vector coordinates into a 9:8 canvas; never resize a rendered image."""
+ def __init__(self,im):self.draw=ImageDraw.Draw(im)
+ def point(self,p):return (p[0]*SX,p[1]*SY)
+ def bounds(self,b,circle=False):
+  x0,y0,x1,y1=b
+  if circle and abs((x1-x0)-(y1-y0))<.01:
+   cx,cy=self.point(((x0+x1)/2,(y0+y1)/2));r=(x1-x0)*min(SX,SY)/2
+   return (cx-r,cy-r,cx+r,cy+r)
+  return (*self.point((x0,y0)),*self.point((x1,y1)))
+ def text(self,p,text,**kwargs):return self.draw.text(self.point(p),text,**kwargs)
+ def rounded_rectangle(self,b,radius,**kwargs):return self.draw.rounded_rectangle(self.bounds(b),radius*min(SX,SY),**kwargs)
+ def polygon(self,p,**kwargs):return self.draw.polygon([self.point(x) for x in p],**kwargs)
+ def ellipse(self,b,**kwargs):return self.draw.ellipse(self.bounds(b,circle=True),**kwargs)
+ def line(self,p,**kwargs):return self.draw.line([self.point(x) for x in p],**kwargs)
+ def arc(self,b,start,end,**kwargs):return self.draw.arc(self.bounds(b,circle=True),start,end,**kwargs)
 PALETTES=[('#efe9dc','#162c36','#e95039','#126376'),('#e7edf1','#152c49','#ea843b','#587b8d'),('#f5edda','#252624','#e54e46','#b4bf70'),('#dbd9ed','#29263c','#bc572f','#8473b2'),('#192c31','#f7ecd7','#ecc34b','#69b7ad')]
-def font(n,bold=False):return ImageFont.truetype(str(FONTS/('Geist-Bold.ttf' if bold else 'Geist-Regular.ttf')),n)
+def font(n,bold=False):return ImageFont.truetype(str(FONTS/('Geist-Bold.ttf' if bold else 'Geist-Regular.ttf')),max(10,round(n*SX)))
 def render(fam,i,row):
- bg,ink,accent,secondary=PALETTES[i%5];im=Image.new('RGB',(W,H),bg);d=ImageDraw.Draw(im)
+ bg,ink,accent,secondary=PALETTES[i%5];im=Image.new('RGB',(W,H),bg);d=LayoutDraw(im)
  def text(x,y,s,size=32,color=None,bold=False):d.text((x,y),s.replace('→',' / '),font=font(size,bold),fill=color or ink)
  def box(x,y,w,h,c,r=0):d.rounded_rectangle((x,y,x+w,y+h),r,fill=c)
  def line(points,c=ink,w=3):d.line(points,fill=c,width=w)
@@ -82,9 +99,9 @@ def render(fam,i,row):
   elif i==3:
    d.polygon([(650,390),(1280,210),(1280,635)],fill='#d9b78a');d.polygon([(650,390),(1280,300),(1280,530)],fill='#c98b51');line([(150,590),(270,520),(390,545),(500,430),(650,390)],secondary,8);line([(650,390),(1280,420)],ink,4);text(820,680,'INTERVALOS · NÃO CERTEZA',24)
   elif i==4:
-   overlay=Image.new('RGBA',im.size);o=ImageDraw.Draw(overlay)
+   overlay=Image.new('RGBA',im.size);o=LayoutDraw(overlay)
    for x,y,c in [(590,390,(236,195,75,130)),(840,390,(105,183,173,130)),(715,540,(230,100,80,130))]:o.ellipse((x-200,y-200,x+200,y+200),fill=c)
-   im=Image.alpha_composite(im.convert('RGBA'),overlay).convert('RGB');d=ImageDraw.Draw(im);text(660,430,'COMUM',28,ink,True)
+   im=Image.alpha_composite(im.convert('RGBA'),overlay).convert('RGB');d=LayoutDraw(im);text(660,430,'COMUM',28,ink,True)
   elif i==5:
    vals=[(150,400,220),(360,330,70),(570,260,70),(780,260,120),(990,380,70),(1200,450,170)]
    for k,(x,y,h) in enumerate(vals):box(x,y,100,h,accent if k in [3,4] else secondary);text(x,y-45,['INÍCIO','+','+','−','−','FINAL'][k],25)
@@ -110,7 +127,7 @@ def render(fam,i,row):
     x=220+k*120;up=k%3!=1;y=270-(k%2)*40 if up else 600;line([(x,430),(x,y)],secondary if up else accent,10);d.polygon([(x-13,y+(20 if up else -20)),(x,y),(x+13,y+(20 if up else -20))],fill=secondary if up else accent);text(x-22,690,str(k+1),24)
  elif fam=='software':
   # Purpose-built illustrative screens: never official screenshots or fabricated measured results.
-  bg='#e9edf2';im=Image.new('RGB',(W,H),bg);d=ImageDraw.Draw(im);ink='#18303d';accent='#145dd9';secondary='#527185'
+  bg='#e9edf2';im=Image.new('RGB',(W,H),bg);d=LayoutDraw(im);ink='#18303d';accent='#145dd9';secondary='#527185'
   box(60,40,1320,700,'#fbfcfe',22);box(60,40,1320,72,'#18303d',22);text(95,62,'AMBIENTE DEMONSTRATIVO',23,'#dce9ed',True)
   for k in range(3):circle(1280+k*25,76,5,'#83a5b6')
   titles=['Trabalhar sem conexão','Você confirma a ação','Ajustar a pesquisa','O plano acompanha a tarefa','Conferir o arquivo exportado','Experimentar e desfazer','Um encontro, dois fusos','Resposta acompanhada de fonte','Testar antes de publicar','Retomar o pagamento'];text(110,145,titles[i],48,ink,True)
@@ -173,4 +190,4 @@ if __name__=='__main__':
  data=json.loads((Path(__file__).parent/'directions.json').read_text())
  for fam in ['grafico','tecnologia','software','apresentacoes']:
   for i,row in enumerate(data[fam]):render(fam,i,row)
- print('40 original 1440×810 compositions rendered; no external assets.')
+ print('40 original 1080×960 compositions rendered; no external assets.')

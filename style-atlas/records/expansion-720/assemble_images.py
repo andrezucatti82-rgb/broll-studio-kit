@@ -1,9 +1,9 @@
-"""Extract the five independent generated frames; no creative editing or upscaling."""
+"""Extract independent generated frames at panel boundaries; no artwork cropping or upscaling."""
 import argparse,json,hashlib
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
 parser=argparse.ArgumentParser();parser.add_argument('--source-dir',type=Path,required=True);parser.add_argument('--partial',action='store_true');a=parser.parse_args()
-root=Path(__file__).resolve().parents[2];out=root/'dist/assets/expansion-720';record=Path(__file__).parent
+root=Path(__file__).resolve().parents[2];out=root/'dist/assets/expansion-720-r2';record=Path(__file__).parent
 rows=json.loads((record/'directions.json').read_text());assets=[];boards=[]
 for fam in rows:
  if fam in ['grafico','tecnologia','software','apresentacoes']:continue
@@ -13,11 +13,17 @@ for fam in rows:
    if a.partial:continue
    raise RuntimeError(f'Missing generated board: {meta.name}')
   j=json.loads(meta.read_text());src=Path(j['path']);im=Image.open(src).convert('RGB');w,h=im.size
-  boards.append({'id':f'{fam}-{part+1}','sourceSha256':hashlib.sha256(src.read_bytes()).hexdigest(),'sourceSize':[w,h],'rowBoundaries':j.get('bounds'),'prompt':j['prompt'],'provider':'OpenAI image generation tool','kind':'fictional visual study','review':'Static visual review required; no video execution evidence.'})
+  layout=j.get('layout',{'columns':1,'rows':5})
+  cols,rs=layout['columns'],layout['rows']
+  if cols==2:
+   assert abs(w/h-.75)<.025,('Unexpected board aspect',src,w,h)
+  xs=j.get('columnBounds',[round(n*w/cols) for n in range(cols+1)])
+  ys=j.get('bounds',[round(n*h/rs) for n in range(rs+1)])
+  boards.append({'layout':layout,'columnBoundaries':xs,'id':f'{fam}-{part+1}','sourceSha256':hashlib.sha256(src.read_bytes()).hexdigest(),'sourceSize':[w,h],'rowBoundaries':ys,'prompt':j['prompt'],'provider':'OpenAI image generation tool','kind':'fictional visual study','review':'Static visual review required; no video execution evidence.'})
   for k in range(5):
-   # Keep full frame width; measured generated row boundaries. No content-aware crop or stretch.
-   bounds=j.get("bounds",[round(n*h/5) for n in range(6)])
-   rect=[0,bounds[k],w,bounds[k+1]];frame=im.crop(rect);path=out/f'{fam}-{31+part*5+k:02}.webp';frame.save(path,quality=94)
+   # Extract an entire grid cell, never crop the composition to fill a UI frame.
+   column,row=k%cols,k//cols
+   rect=[xs[column],ys[row],xs[column+1],ys[row+1]];frame=im.crop(rect);path=out/f'{fam}-{31+part*5+k:02}.webp';frame.save(path,quality=94)
    assets.append({'path':str(path.relative_to(root/'dist')),'board':f'{fam}-{part+1}','rectPixels':rect,'width':frame.width,'height':frame.height,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
 for fam in ['grafico','tecnologia','software','apresentacoes']:
  for i in range(10):

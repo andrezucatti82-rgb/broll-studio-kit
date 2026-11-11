@@ -7,8 +7,8 @@ root=Path(__file__).resolve().parents[1];dist=root/'style-atlas/dist';catalog=js
 with sync_playwright() as p:
  browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox']);page=browser.new_page(viewport={'width':1440,'height':1000},ignore_https_errors=True,accept_downloads=True);page.on('pageerror',lambda e:errors.append(str(e)));page.goto(base,wait_until='networkidle');page.wait_for_function('window.ATLAS_READY');page.locator('#newFilter').click();assert '180 opções' in page.locator('#resultCount').inner_text()
  for family in catalog['families']:
-  page.locator(f'[data-family="{family["id"]}"]').click();assert '10 opções' in page.locator('#resultCount').inner_text();assert page.locator('#grid .card').count()==10
-  page.locator('#grid').scroll_into_view_if_needed();page.evaluate("document.querySelectorAll('#grid img').forEach(i=>i.loading='eager')");page.wait_for_function("Array.from(document.querySelectorAll('#grid img')).every(i=>i.complete&&i.naturalWidth>=800)")
+  page.locator('#familySelect').select_option(family['id']);assert '10 opções' in page.locator('#resultCount').inner_text();assert page.locator('#grid .card').count()==10
+  page.locator('#grid').scroll_into_view_if_needed();page.evaluate("document.querySelectorAll('#grid img').forEach(i=>i.loading='eager')");page.wait_for_function("Array.from(document.querySelectorAll('#grid img')).every(i=>i.complete&&i.naturalWidth>=500)")
  page.screenshot(path=str(shots/'new-desktop.png'))
  s=catalog['styles'][-1];page.locator(f'[data-detail="{s["id"]}"]').first.click()
  with page.expect_download() as dl:page.locator('#detailContent [data-frame]').click()
