@@ -28,6 +28,13 @@ for fam in rows:
 for fam in ['grafico','tecnologia','software','apresentacoes']:
  for i in range(10):
   path=out/f'{fam}-{31+i:02}.webp';im=Image.open(path);assets.append({'path':str(path.relative_to(root/'dist')),'source':'render_graphics.py','kind':'original coded composition; fictional data/interface','width':im.width,'height':im.height,'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
+# Preserve independently revised artworks instead of relabelling them as code.
+revision=record/'editorial-revision.json'
+if revision.exists():
+ for item in json.loads(revision.read_text())['assets']:
+  previous='assets/expansion-720-r2/'+Path(item['path']).name
+  assert hashlib.sha256((root/'dist'/item['path']).read_bytes()).hexdigest()==item['sha256']
+  assets=[item if row['path']==previous else row for row in assets]
 (record/'assets.json').write_text(json.dumps({'boards':boards,'assets':assets},ensure_ascii=False,indent=2)+'\n')
 qa=a.source_dir/'review';qa.mkdir(exist_ok=True);font=ImageFont.truetype(str(root/'dist/assets/Geist-Regular.ttf'),17)
 for fam in rows:
