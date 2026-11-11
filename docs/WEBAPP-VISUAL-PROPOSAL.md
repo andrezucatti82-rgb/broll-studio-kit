@@ -24,7 +24,7 @@ Ampliar as sequências aos 684 estilos restantes, mantendo linguagens distintas.
 
 Revisar os 40 estilos de Interfaces, dados e sistemas e os 40 de Motion Design de Campanha por esse mesmo critério. Não converter todo o catálogo em 3D nem prometer que um prompt ou uma imagem garante o movimento. A ferramenta, os originais e a amostra continuam determinando o que pode ser executado com fidelidade.
 
-As imagens desta proposta são mockups gerados, não screenshots de testes. Navegador conectado indisponível nesta sessão; a implementação futura deverá passar por revisão real em desktop e celular antes de publicação.
+As imagens desta proposta são mockups gerados, não screenshots de testes. A implementação passou por testes de código e DOM. A inspeção real em desktop e celular permanece pendente por indisponibilidade de navegador conectado; a autorização de publicação não transforma essa pendência em teste aprovado.
 
 ## Mockups
 

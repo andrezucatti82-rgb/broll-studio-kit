@@ -14,6 +14,8 @@ Este repositório não apresenta um vídeo de demonstração. O arquivo `templat
 
 ## Biblioteca visual e publicidade
 
+**Edição 4.2 / skill 2.4.0:** os 720 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Nova navegação estática, categorias compactas e imagens grandes no celular. [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
+
 [Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 720 direções em 18 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 40 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
 
 A primeira entrega é **roteiro e moodboard visual para aprovação; após o aceite, storyboard visual para aprovação própria e, depois, amostra de 10 segundos**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
