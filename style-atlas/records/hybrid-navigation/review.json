@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-11",
+  "sourceCommit": "51a246446dcfe745e16fa201d183017c3ac1f8af",
+  "catalog": {
+    "styles": 720,
+    "families": 18,
+    "idsChanged": false
+  },
+  "groups": {
+    "Linguagens visuais": 6,
+    "Movimento e apresentação": 4,
+    "Aplicações e negócios": 8
+  },
+  "mirror": {
+    "version": 25,
+    "url": "https://video-multimarcas-estilos.andrezucatti82.chatgpt.site",
+    "status": "succeeded"
+  },
+  "page": {
+    "sequence": 48,
+    "visualRenderingInspected": false
+  },
+  "checks": {
+    "install": "npm ci passed",
+    "typecheck": "passed",
+    "suite": "44 Node cases and 4 Python tests passed before final refinements",
+    "finalAppTests": "6 DOM cases passed after focus refinement",
+    "remoteBrowser": {
+      "desktopCategorySelection": true,
+      "mobileViewport": [
+        375,
+        812
+      ],
+      "drawerStyleShortcut": true,
+      "escapeReturnsFocus": true,
+      "tabLoopAfterFix": true,
+      "horizontalOverflow": false
+    },
+    "screenshots": {
+      "desktop-1440.png": "81f71adc73945ed464168b239b1c2de648d6b97215d3f4dc3860a2c19a3bacc5",
+      "mobile-375.png": "931c06832267b91af843bea704cd1989446e4f793f1bd86d83e60e80de23b69f"
+    }
+  },
+  "primaryWorkflowRun": 43099742908,
+  "primaryStatus": "in_progress"
+}

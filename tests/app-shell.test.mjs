@@ -127,3 +127,11 @@ test('hybrid category search, mobile drawer, focus target and Page mode without 
  assert.equal(d.getElementById('familySelect').value,'avatares');
  assert.equal(app.getStorageReads(),0);
 });
+test('mobile category drawer wraps keyboard focus at both ends',async()=>{
+ const {document:d,ctx,click}=await boot();click('#openCategories');
+ const drawer=d.getElementById('categoryDrawer');let active=d.getElementById('closeCategories');
+ Object.defineProperty(d,'activeElement',{configurable:true,get:()=>active});
+ for(const el of drawer.querySelectorAll('a[href],button,input')){el.getClientRects=()=>[{}];el.focus=()=>{active=el};Object.defineProperty(el,'tabIndex',{configurable:true,value:0});}
+ function tab(back){const e=new ctx.Event('keydown',{bubbles:true,cancelable:true});Object.defineProperties(e,{key:{value:'Tab'},shiftKey:{value:back}});active.dispatchEvent(e);assert.equal(e.defaultPrevented,true);}
+ tab(true);assert.equal(active.id,'exploreCategory');tab(false);assert.equal(active.id,'closeCategories');
+});
