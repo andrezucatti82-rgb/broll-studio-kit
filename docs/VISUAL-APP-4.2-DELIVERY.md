@@ -41,3 +41,12 @@ npm run atlas
 ```
 
 Abrir `http://127.0.0.1:8770`. Não foi feito merge na main.
+
+## Publicação confirmada
+
+- Domínio principal: https://videos.gerenciadordeanuncios.com.br/ — release `atlas-20261111093449`, workflow `42996329294` concluído em 2026-11-11. Publicação validou hashes antes de substituir o índice. Catálogo público lido por HTTP e comparado byte a byte ao local.
+- Espelho: https://video-multimarcas-estilos.andrezucatti82.chatgpt.site — versão 21, deployment `appgdep_6af439f72cec819195b05c981326fe74` com sucesso. Catálogo público idêntico ao local. Somente neste espelho, quadros novos usam WebP qualidade 84 para respeitar o limite de hospedagem; recortes e dimensões são os mesmos. Fonte pública e domínio principal conservam qualidade 92.
+- Page ChatGPT: https://chatgpt.com/space/page_05d0233621d081919b31df2863cab40b — visualização e quatro blocos nativos atualizados, recibos 42/43; leitura posterior confirmou a nova visualização, instruções e contagens. Renderização da Page não foi inspecionada em navegador.
+- GitHub: PR https://github.com/andrezucatti82-rgb/broll-studio-kit/pull/6, branch `feat/visual-app-720`, sem merge na main.
+
+As confirmações de publicação e leitura HTTP não substituem testes visuais em navegador ou aprovação criativa das novas sequências.
