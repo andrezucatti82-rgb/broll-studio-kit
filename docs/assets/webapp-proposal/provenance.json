@@ -1,0 +1,29 @@
+[
+  {
+    "key": "webapp-biblioteca-desktop",
+    "file": "docs/assets/webapp-proposal/webapp-biblioteca-desktop.webp",
+    "source": "exec-224069ad-2e81-4e7d-96b0-5f6c45f90cc6.png",
+    "prompt": "Design a very polished DESKTOP WEB APPLICATION UI visual mockup for GDA Vídeos, wide 16:10. This is a public static video-style library, not a video generator. Preserve warm ivory/cream background, cobalt blue accents, dark navy Geist-like typography, fine borders, tactile subtle grain and extremely subtle layered shadows. Professional, coherent, image-first and spacious. NO dark dashboard, no login, no account avatars, no credits counters, no charts of fake analytics, no reference library. App shell: slim left vertical sidebar about12%width with blue gda wordmark and small title Vídeos. Icon navigation 'Estilos' active blue, 'Meu vídeo', 'Como usar'. Lower sidebar tasteful info 'Crie com suas contas e ferramentas'. Main content area has header 'Encontre o visual do seu vídeo.' Short subtitle '720 estilos · 18 categorias'. Top-right compact outlined 'Minha escolha · 2/10'. Search field with magnifying icon 'Buscar um estilo' and a compact category dropdown 'Todas as categorias', filter pills 'Todos' 'Favoritos' 'Com vídeo'. Show FIVE equal image cards across desktop (not3or4), with LARGE portrait-ish cover art, short title, tiny3-frame storyboard strip, subtle outlined heart corner, blue plus/select action. First five cards use these distinct style examples: iris mechanical copper stage with ivory bottle from first attached board; cinematic espresso from second; ceramic letters from third; refined content-approval UI from fourth; additional layered paper forest. Use ONE main image from each board as cover, do not put full2x2boardascover. All artwork framed fully, consistent dimensions, no mismatched gutters. Titles respectively 'Palco de íris', 'Publicidade cinematográfica', 'Peças que viram letras', 'Interface demonstrativa', 'Papel em camadas'. Small metadata '4 quadros' with image icon instead of walls of description. Second row partially visible with rich imagery (blue ceramic mosaic, perfume, fashion bag, floral dramatic light, soft-clay3D), no repetitive flat graphs. Bottom floating slim selection tray contains two image thumbnails, label '2 estilos escolhidos', link 'Ajustar combinação', blue button 'Preparar pedido →'. No permanent right panel; image cards occupy main area. This is a concept for approval, show tiny footer 'Proposta visual'. Make the experience feel like refined creative software, not a marketing landing page. Text minimal and readable. Icons consistent thin stroke, radius12-16px, restrained smooth depth. No code blocks anywhere.",
+    "sha256": "893e134688255eebbda9918bf44c44ee510d2a727c609a95bff65dcb086bcb73",
+    "state": "awaiting_layout_approval",
+    "browserScreenshot": false
+  },
+  {
+    "key": "webapp-pedido-desktop",
+    "file": "docs/assets/webapp-proposal/webapp-pedido-desktop.webp",
+    "source": "exec-1149b1a1-20b9-4135-b78b-ce897a7dbeb8.png",
+    "prompt": "Correct ONLY the branding in the upper-left sidebar of this UI mockup. The word 'bluegda' is WRONG. Replace it with exactly 'gda' in cobalt blue, matching a clean bold lowercase geometric sans wordmark, with 'Vídeos' underneath in navy. No word 'blue', no other prefix. Preserve the entire rest of this desktop mockup exactly: layout, typography, image, labels, buttons, dimensions, colors, selected states. This is a minimal correction to the logo area only.",
+    "sha256": "7101ee55663be5d71728aa44649affe92cd1bab3e6c44cc98e08f448c134535c",
+    "state": "awaiting_layout_approval",
+    "browserScreenshot": false
+  },
+  {
+    "key": "webapp-mobile",
+    "file": "docs/assets/webapp-proposal/webapp-mobile.webp",
+    "source": "exec-ccca0709-f695-41ee-9e90-9baae2e7b3e9.png",
+    "prompt": "Create ONE visual presentation of a responsive MOBILE WEB APP UI for GDA Vídeos with TWO tall phone-width screens shown SIDE BY SIDE on neutral cream background, portrait overall3:4or4:5canvas. No physical phone hardware bezel. Both screens use cream, navy Geist-style text, cobalt blue, sophisticated small shadows and consistent thin-stroke icons. Left screen is the library: compact gda Vídeos header with search icon; title 'Estilos de vídeo'; full-width dropdown 'Motion Design de Campanha'; large image-first style card using portrait opened copper iris with ivory bottle from first attached board, tiny title 'Peça única em palco de íris', a3-frame thumbnailstrip, action '+ Escolher'. Hint of next card below. Fixed bottom tabbar icons 'Estilos' active, 'Meu vídeo' badge1, 'Ajuda'. No long descriptions. Right screen is the final handoff page matching same shell: header backarrow and 'Seu pedido'; compact image thumbnail of same iris with selectedstyletitle; tidy rows 'Tema: Lançamento de produto', 'Vertical · 9:16', '30 segundos'; materialbox withphotoicon 'Anexe fotos e informações do produto no ChatGPT'; firstdeliverystatement 'Roteiro, moodboard, storyboard e amostra de10s para aprovar'; collapsed disclosure 'Ver pedido completo'. Large blue button 'Copiar pedido' and outlined button 'Abrir ChatGPT ↗'. NO visible JSON, status blocks, code, huge textarea, login or video-generationbutton. Keep content uncluttered and plenty of image area. Product visible, covers fully contained without cropping. Navigation/touch targets readable. Micro footer onpresentation 'Proposta mobile · layout para aprovação'. This is a design mockup, not evidence of functionality or tested responsiveness.",
+    "sha256": "a6c7b8764296aa5a9c8f53fb8f4a1db7ab887bed62a088007bcd58995e86cb97",
+    "state": "awaiting_layout_approval",
+    "browserScreenshot": false
+  }
+]

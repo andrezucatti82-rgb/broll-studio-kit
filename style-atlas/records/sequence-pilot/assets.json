@@ -1,0 +1,2055 @@
+[
+  {
+    "key": "cinema-1",
+    "styleId": "publicidade-cinematografica",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Publicidade cinematográfica. Visual language: cinematic amber espresso studio, dark walnut, warm rim light, macro tactile crema; same ivory cup and copper espresso machine. Technique to illustrate: Travelling curto, detalhes em macro e cortes motivados pelo produto. Theme: Anúncio de um café fictício. CELL 1: Wide shot: empty ivory cup under copper espresso machine, quiet anticipation, title CAFÉ COM TEMPO. CELL 2: Macro: fresh espresso flows into that exact cup, crema forming, one continuous liquid stream. CELL 3: Lower side angle: cup is set on walnut beside its matching saucer, steam backlit; clear label AROMA. CELL 4: Pull back to finished cup and coffee beans, spacious amber backdrop, title SUA PAUSA.",
+    "sourceFile": "exec-eb34d02a-0c52-463a-a471-0a13931e124d.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "0304b3e6d4bb85a1209e812f683bfb6a0e54ce66132d75cbd5b0c47ee609cbb0",
+    "crops": [
+      {
+        "src": "assets/film-sequences/cinema-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "00b55e444f5357875811fcc9c68f4fede2b69d980b4d0e45487bf936a4b9c533"
+      },
+      {
+        "src": "assets/film-sequences/cinema-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "e57c00b4d0946094d33319b2c88eaf0f8c3eaa54d1c4163b58cc214bb5aaac06"
+      },
+      {
+        "src": "assets/film-sequences/cinema-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "90834db246c481da682e5a14014bc663f343f58416218fb4b86e03d0b1f5e434"
+      },
+      {
+        "src": "assets/film-sequences/cinema-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "4514518fdbcbc924b5378c40bfcc40f41aa4373e9dc53af5ffe2b4d9e8bdef5b"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "cinema-2",
+    "styleId": "exp-revelacao-por-bandeira-de-luz",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Revelação por bandeira de luz. Visual language: realistic editorial floral still life, ivory lilies and deep burgundy flowers in smoky glass vase, black theater, carefully shaped light not neon. Technique to illustrate: Um anteparo físico atravessa o feixe e revela grupos de pétalas em sequência.. Theme: Revelar uma coleção floral fictícia. CELL 1: Bouquet almost in silhouette with one lit petal; title A LUZ ESCOLHE. CELL 2: An opaque studio flag has moved so a narrow diagonal warm beam reveals two whole flowers. CELL 3: Beam widens across same arrangement exposing translucent petals and subtle vase reflections. CELL 4: Complete bouquet softly revealed against black, title CADA DETALHE.",
+    "sourceFile": "exec-0b450dc6-4428-49f5-8ef2-dc9c0d636d77.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "e802a2c9ca1f65bd602d941f325f1d5c4c38de39e3de3b6111f50316fff86ff9",
+    "crops": [
+      {
+        "src": "assets/film-sequences/cinema-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "07bf8ac5f54b4bb56db7990bbd7cd017c625dd9e2f2c2762c4cbb7881b9fe1e5"
+      },
+      {
+        "src": "assets/film-sequences/cinema-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "29e0fc5ef9c19b7bcdba3c6041331c9dc552199278727fe12e085a0297236ddc"
+      },
+      {
+        "src": "assets/film-sequences/cinema-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "501b7b3ede8b736658cbfd9ac4f4fa142e7691906559380d9fca286c965e222a"
+      },
+      {
+        "src": "assets/film-sequences/cinema-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "191b8299eda0b40158f9ea9491236d43811a8c8ab63d90effd4f0a1938a1faea"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "grafico-1",
+    "styleId": "exp-alfabeto-de-pecas-intercambiaveis",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Alfabeto de peças intercambiáveis. Visual language: glazed cobalt and burnt-orange ceramic type, warm ivory tabletop, large physically plausible letter modules, premium art photography. Technique to illustrate: Segmentos mudam de encaixe e compõem a palavra seguinte com estrutura visível.. Theme: Identidade modular de um estúdio fictício. CELL 1: Four separated ceramic letter modules on tabletop, empty spaces show how they fit, title PEÇAS DE UMA IDEIA. CELL 2: A realistic adult hand fits a cobalt crossbar onto an orange stem; coherent handmade ceramic T. CELL 3: The same pieces have assembled into readable word TIPO, with spare curved pieces beside it. CELL 4: A second arrangement makes word NOVO, same exact ceramic material vocabulary, title SUA MARCA EM MOVIMENTO.",
+    "sourceFile": "exec-24f0a319-22c7-4aab-a33f-8a6959fdd492.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "a0edee327e93e6c9dc6086782d93909f7dde79f3e8ba70f49749e4c7d1ac61f4",
+    "crops": [
+      {
+        "src": "assets/film-sequences/grafico-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "8b17afada3431a526d0f464dcd73bc44fb9bd47d5418183482ff0ecbdd95760e"
+      },
+      {
+        "src": "assets/film-sequences/grafico-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "6e27ee7f22908b346337601bb45b292d135f656f82ef372db17d3655f15fb2c0"
+      },
+      {
+        "src": "assets/film-sequences/grafico-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "12da7d6002e3df962a91297ef6508baa6d83dd85e0eccf03260a007bcbe27a3b"
+      },
+      {
+        "src": "assets/film-sequences/grafico-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "27c984cffe6b602cc41df629ad68b739cc3dc3ad6b255e864e899f1337c067b0"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "grafico-2",
+    "styleId": "exp-letra-de-transparencia-encaixada",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Letra de transparência encaixada. Visual language: smoky charcoal and transparent yellow acrylic sheets, ivory gallery, physical refraction, black stencil typography, restrained optical sophistication. Technique to illustrate: Lâminas se alinham e tornam uma única palavra legível.. Theme: Clareza de mensagem de marca fictícia. CELL 1: Two separate acetate planes with complementary abstract fragments of letters; no readable word yet. CELL 2: Planes slide toward each other, some stencil letter segments align in overlap, golden shadow on floor. CELL 3: Fully aligned planes reveal exact word CLARO in huge high-contrast stencil letters. CELL 4: Planes settle as one composed object, title MENSAGEM QUE SE ENCONTRA.",
+    "sourceFile": "exec-86b6ad26-cdeb-4f65-b853-f9b100a36d0b.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "3bfacf9c5b9ba3fdce5756ae6098b08548ad19748a30c388bf0396e4ebd1577d",
+    "crops": [
+      {
+        "src": "assets/film-sequences/grafico-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "16fed515863b9473b79bfb8541a1aee23df7e5fc8f1ffab95f3233ad48cf3b78"
+      },
+      {
+        "src": "assets/film-sequences/grafico-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "f9e828abe1a77467485e4215c6b0e72e0674cdb0c95cd1bbd4829600177a8cbc"
+      },
+      {
+        "src": "assets/film-sequences/grafico-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "6b40715409a1c9a3910715b52e7eec3c86c07c57451961e4a33edb0937dd7fa8"
+      },
+      {
+        "src": "assets/film-sequences/grafico-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "ab9ca12e7339688260e0d3a0e3cb259f5abc1be5b5014f886d58b9c9fbca10e1"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "ilustracao-1",
+    "styleId": "linha-continua",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Linha contínua. Visual language: one continuous dark navy ink line on warm ivory paper with minimal coral accent, sophisticated large line art, NOT generic flat clipart. Technique to illustrate: O traço transforma um objeto em outro mantendo continuidade. Theme: Explicar um serviço de organização. CELL 1: One single continuous line draws a tangled loop on left, broad title POR ONDE COMEÇAR? CELL 2: Same line extends from the tangle into a key shape while preserving continuity. CELL 3: Line continues and builds a simple open door; coral light shape beyond it, no separate icons. CELL 4: Line finishes as a clear path through doorway, title UM PASSO DE CADA VEZ.",
+    "sourceFile": "exec-f679935a-faa2-40b6-9704-0add5c0ec18a.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "b21456d71ca4d52d6463d7fdb4c8c607def4eb030b5b19ea4cb4e6b63324ff66",
+    "crops": [
+      {
+        "src": "assets/film-sequences/ilustracao-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "877007f4d4cff09fce92ac56d109391d50a610202767091382d0aa2f4d9cd45e"
+      },
+      {
+        "src": "assets/film-sequences/ilustracao-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "869ac6575d1bb6abae055acc64fb41ad33cbd6c6b736f0d16e44d88a9517322f"
+      },
+      {
+        "src": "assets/film-sequences/ilustracao-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "80222edb64ad71ae8e86627b109905ea6dc22d3902fe97e58d9bac09825b9d11"
+      },
+      {
+        "src": "assets/film-sequences/ilustracao-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "e233ead158895f8818cdaee22986fd361c04f584c413582dc812d08c69b27a01"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "ilustracao-2",
+    "styleId": "exp-monotipia-de-noite-chuvosa",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Monotipia de noite chuvosa. Visual language: hand-pulled blue monotype print, ink drag and grain, nocturnal rainy street, yellow reflected windows, same small red umbrella silhouette. Technique to illustrate: Uma passagem de rolo revela reflexos e o guarda-chuva se desloca por recortes.. Theme: Pequena história urbana ilustrada. CELL 1: A blue inked street starts appearing beneath a roller, one yellow light in distance. CELL 2: Rainy street fully revealed in monotype; same red umbrella enters lower left. CELL 3: Red umbrella reaches the yellow window, yellow reflections stretch on wet blue pavement. CELL 4: Umbrella pauses at warm doorway, title A CIDADE TAMBÉM ACOLHE.",
+    "sourceFile": "exec-e1e8eb61-f30d-4825-bc97-198327f4da3a.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "2cfb09ffe1cdd58c12488df49da404dfd792483c2daa736f6fd5c941be0ce220",
+    "crops": [
+      {
+        "src": "assets/film-sequences/ilustracao-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "6cd1171ca42da464f8aa7891af9536204c0b024f286c4a7415169bcf1bac38f6"
+      },
+      {
+        "src": "assets/film-sequences/ilustracao-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "8e3a4b3e28b227042de36e6cb2e3b9fe3606280aed368043479b9e299c08fa70"
+      },
+      {
+        "src": "assets/film-sequences/ilustracao-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "75c6bff520ab97a5ded3d0d9c16c8967c6694a0be780c09d3347a5959c1d001e"
+      },
+      {
+        "src": "assets/film-sequences/ilustracao-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "81cfeeba9a6cf62bd58f2b85c6b2252a7299c5f2b696fa31e8603e49c4e2f1b0"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "materiais-1",
+    "styleId": "papel-em-camadas",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Papel em camadas. Visual language: handcrafted layered paper diorama, forest teal, cream, terracotta, precise cut edges and contact shadows, no plastic material. Technique to illustrate: Passar entre planos e revelar ambientes por oclusão. Theme: Campanha de viagem com cenário de papel. CELL 1: Wide portal of layered paper forest and distant terracotta sun, title ENTRE NA HISTÓRIA. CELL 2: Camera has advanced between foreground paper leaves; parallax reveals a narrow blue paper river. CELL 3: Past the leaves a small cream cabin appears across river, the same landmarks stay coherent. CELL 4: Wide final diorama with river leading to cabin and sun, title SEU PRÓXIMO DESTINO.",
+    "sourceFile": "exec-a63439b5-c79d-41ef-a7e2-d996ee7d5f3f.png",
+    "sourceSize": [
+      940,
+      1672
+    ],
+    "sourceSHA256": "ea815e92bf5b6a2e1a37d92012b7fdd697eac8e318f0211d2703181c8a56dcdf",
+    "crops": [
+      {
+        "src": "assets/film-sequences/materiais-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "eb505688bdbe22cfd929ebfc893be94bbed49e8e6617200d366aa78d171850e5"
+      },
+      {
+        "src": "assets/film-sequences/materiais-1-02.webp",
+        "rect": [
+          470,
+          0,
+          940,
+          836
+        ],
+        "sha256": "2e95777c69d2584ff08da7baeaa864097ddc117297d3a9507f92d342e93cf976"
+      },
+      {
+        "src": "assets/film-sequences/materiais-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "19e04a53906e56639c375364d6665194f69b98963e4ad8633cf14b7162484945"
+      },
+      {
+        "src": "assets/film-sequences/materiais-1-04.webp",
+        "rect": [
+          470,
+          836,
+          940,
+          1672
+        ],
+        "sha256": "82c832726aa97619c3f4ed3b586fbec1ff075d082ced0d0ad9f65cfd0497a3fe"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "materiais-2",
+    "styleId": "mosaico-ceramico",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Mosaico cerâmico. Visual language: glazed ceramic mosaic, cobalt ultramarine ivory ochre, clear grout, tactile artisan tabletop, satisfying physical assembly. Technique to illustrate: Peças encaixam com contato e revelam o mosaico. Theme: Identidade de espaço cultural fictício. CELL 1: Loose ceramic tesserae surround an incomplete circular sun mosaic. CELL 2: Adult fingers place one ochre piece into a matching grout gap, geometry clean and precise. CELL 3: More segments complete the sun and flowing cobalt rays; close light reveals glaze. CELL 4: Finished mosaic photographed straight-on, title FEITO DE ENCONTROS.",
+    "sourceFile": "exec-441ae0a9-b3a0-45bb-8656-053d545363f1.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "ea94c60a344f1ff10b185aef248967a8d9012fe14ddc94407883e1cf8bee1d4f",
+    "crops": [
+      {
+        "src": "assets/film-sequences/materiais-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "1b2433591b4f326dc3748e6ef15c932182c749424f7ee193b0e166abe350eecb"
+      },
+      {
+        "src": "assets/film-sequences/materiais-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "138ef419a2c6366997a2382e7cafcba87af5a02d151d33ac7bb6242fe59eda6e"
+      },
+      {
+        "src": "assets/film-sequences/materiais-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "f53ab92e47d18104a17d9c5745d88a9a3c6f72cb5c0f2b1939bf0c7a3db23875"
+      },
+      {
+        "src": "assets/film-sequences/materiais-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "b1940df45bd0abfc202430d50930b951e7e4b10978106215ccb11a1d2b349890"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "tecnologia-1",
+    "styleId": "interface-demonstrativa",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Interface demonstrativa. Visual language: exceptionally refined enterprise SaaS UI, warm white canvas, ink navy typography, cobalt focus, subtle lavender selection, crisp grid, generous spacing, restrained depth, large readable task pane, NO glassy neon, NO robot mascot; same fictional product interface each frame. Technique to illustrate: Mostrar entrada, ação e mudança de estado; identificar como ilustração. Theme: Fluxo de aprovação de conteúdo em plataforma fictícia. CELL 1: Clean premium application screen with a single large content task titled Campanha de novembro and state RASCUNHO; small disclosure DEMONSTRAÇÃO. CELL 2: Task is expanded in large focused pane, a precise cursor on button ENVIAR PARA REVISÃO, contextual brand preview in side panel, sophisticated text and layout hierarchy. CELL 3: Same task now shows EM REVISÃO in restrained amber pill, a reviewer comment bubble reads Ajustar título; the relevant headline is highlighted. CELL 4: Same task is marked APROVADO with check, a short three-step activity trail proves the change; large editorial headline DO PEDIDO À APROVAÇÃO.",
+    "sourceFile": "exec-cf87fdbc-0c73-4692-a178-7d14cd6b232c.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "4de7422cdad7c05ca9e53ce65bd3b8f0cf0c542d9bb8d6b4f4cd937d825f29ce",
+    "crops": [
+      {
+        "src": "assets/film-sequences/tecnologia-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "626273bafc6139e47d238a10f5c50610de6fd3fe6921ca5f02cbe9bce3088965"
+      },
+      {
+        "src": "assets/film-sequences/tecnologia-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "3a896893b49b62ba4f85d992753bd6a1ad098697ec14b35c6f45efc66417eb98"
+      },
+      {
+        "src": "assets/film-sequences/tecnologia-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "019ba62fd010e21e495401eb47c41f82b244f3d6b34bce9ecb426e29b852108b"
+      },
+      {
+        "src": "assets/film-sequences/tecnologia-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "7d864d55302dd2e60ad867df6c59898dceb0d373a13f8ddfcb157183ac5f6af0"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "tecnologia-2",
+    "styleId": "fluxos-sankey",
+    "generator": "OpenAI image_gen",
+    "prompt": "Generate ONE portrait 9:16 storyboard canvas divided exactly into TWO columns TWO rows, no gutter, four independent vertical9:16 frames. Four sequential keyframes of a highly refined financial-data software campaign, high-end editorial information design with subtly layered white panels on deep midnight navy desk-like space, crisp typography, restrained cobalt and mint, precise aligned baseline, nuanced shadows and glass divider only for depth, large readable Sankey flow occupying60%of each shot, never neon sci-fi gibberish. All data fictional. Keep consistent fictional app named 'Fluxo'. Frame1: polished analytics panel seen frontally, header 'Distribuição do orçamento', large source block 'TOTAL 100', controls 'Resumo' 'Detalhes', small DEMONSTRAÇÃO label; flow just begins. Frame2: connected Sankey total100 splits into cobalt branch60 and mint branch40; blue branch1.5times green thickness; labels CONTEÚDO60 and MÍDIA40, same source. One slim sidebar balances composition. Frame3: camera moves closer to cobalt60 branch and its clear detail panel 'Conteúdo · 60%' with three refined small budget allocation icons, keep mainflowcontext; no extra invented numbers. Frame4: whole dashboard frontally clearly shows TOTAL100 → CONTEÚDO60 + MÍDIA40, each width proportional3:2, broad typography 'CADA PARTE TEM UM DESTINO'. Fine grain in background, tactile studio light but UI text sharp and orthographic, boutique SaaS campaign aesthetic. No generic giant text only, no visual clutter, real credible controls. Each keyframe different meaningful action, not four identical charts. No code or watermarks. Static concepts only.\n\nPORTRAIT REFRAMING REVISION: Reformat this storyboard into a TALL PORTRAIT 9:16 canvas (for example1024x1792). MUST be 9:16 overall, not3:4. Divide canvas exactly at50%widthand50%height into2columnsby2rows. EACH of FOUR cells must be a full9:16 vertical film composition. Keep all existing interface designs, numbers100/60/40, text and sequence accurately. Do not squeeze or distort the UI panels. Give each frame extra vertical breathing room by extending the navy tabletop/environment above and below the UI, with elegant light and material texture, while panel remains dominant and easily readable. No borders no gutters no outside captions. Preserve same4moments: sourcebudget; fullSankey; detailpopover; closingSankeytitle. The only change is portrait9:16 framing of EACH cell. Entire final board MUST be 9:16 portrait.",
+    "sourceFile": "exec-1375d6ea-b7cf-4573-a183-36d321ac9e8b.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "c375b4a6f6a6e207cbe0f40272c4f1c9e3683db91d3ce5a7d53fc7c634e61c82",
+    "crops": [
+      {
+        "src": "assets/film-sequences/tecnologia-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "7b7f5496f323a3b43e1956cfa34c7f83e876fc375da9e05b334d27e004fb075e"
+      },
+      {
+        "src": "assets/film-sequences/tecnologia-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "185d0c4be0b47a51c8be15356e09071a17bfeb234a3df37c1dd62110e315a174"
+      },
+      {
+        "src": "assets/film-sequences/tecnologia-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "32204497f6cfbae59fd0002fb90bb0df9548dd0ad573df6493147be2812c97a7"
+      },
+      {
+        "src": "assets/film-sequences/tecnologia-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "c313ff04ec384c441e17043f72c60f78323cd2fda97fd63b17a7110d7cf52705"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11",
+    "revisionSource": "exec-3055f8f5-d125-471e-a9d4-5e72c04db956.png"
+  },
+  {
+    "key": "motion-1",
+    "styleId": "tipografia-cinetica",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Tipografia cinética. Visual language: bold editorial kinetic typography, massive condensed navy words on warm ivory, electric cobalt paper bands, sharp foreground occlusion, highly crafted type geometry. Technique to illustrate: Animar por sentido e ritmo da fala; preservar tempo de leitura. Theme: Manifesto para uma marca de ideias. CELL 1: Large word IDEIA sits centered with an architectural cobalt line beneath. CELL 2: The same word expands into a diagonal stack of three repeated IDEIA words, one layer passes behind a cobalt band. CELL 3: Stack reorganizes into a broad visible word MOVIMENTO, with depth created by overlapping physical paper planes. CELL 4: Calm final composition reads IDEIAS EM MOVIMENTO with ample reading space.",
+    "sourceFile": "exec-0eb19d86-980e-4590-8f2a-a60e8100a151.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "3f2d883e17c4e6453e5de07a7254394ed1beae8d89de6768a910c7d4c35f3718",
+    "crops": [
+      {
+        "src": "assets/film-sequences/motion-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "28438797f7f7cfd7a7eed4b2ad78fa085fcf74e4c0ba8ccc1faf50c465b4e23d"
+      },
+      {
+        "src": "assets/film-sequences/motion-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "b1fd847c2c1c55565cbdb7f3c60b884a14e83a47cf5733c2ce2aec572ab8efdc"
+      },
+      {
+        "src": "assets/film-sequences/motion-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "aadb0aa38809461b5bbea2e0fcacfbae7b2fdb02ef6d5322de0d928cc019113a"
+      },
+      {
+        "src": "assets/film-sequences/motion-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "71131ea0afc7760f38de76ed8d8cfeee5e1d5df9a1104cc339ccc05101d310d9"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "motion-2",
+    "styleId": "morphing",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Morphing. Visual language: sculptural coral continuous ribbon on muted teal stage, silky matte material, coherent single shape, editorial dramatic but soft shadows. Technique to illustrate: Manter uma característica reconhecível durante a mudança. Theme: Metáfora de transformação de um serviço. CELL 1: A single coral loop stands on the teal stage, title UMA IDEIA. CELL 2: Loop stretches continuously into an open curved arch; same thickness and material, no new objects. CELL 3: Arch bends into a clear upward path with an arrowlike end, shadows maintain physical anchor. CELL 4: Ribbon settles into a circular brand-like symbol, title NOVAS POSSIBILIDADES.",
+    "sourceFile": "exec-f2504c1b-9cf6-4cd5-9291-ed5f197c3393.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "262bd0f1d64db92224dda7054eb8b589dc2ee52bf68fc5c426648c20d77d7950",
+    "crops": [
+      {
+        "src": "assets/film-sequences/motion-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "8443768176f78b4380c1a2eb823d63b2989fd8c3f3a8acd3e89301df19672003"
+      },
+      {
+        "src": "assets/film-sequences/motion-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "90e352cde5d7a3878432a6561e234cf8e38b888c7df5db8ec1d3aeaf408e5c45"
+      },
+      {
+        "src": "assets/film-sequences/motion-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "390c4d45154a4833e88ca5b71bd39fb57912f49c55412b07a5fa5558ca609260"
+      },
+      {
+        "src": "assets/film-sequences/motion-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "b7abcd56503c9bf5c6f2fe4baa46fec073972ff4a62cd03137ca0a9e99087427"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "volume-1",
+    "styleId": "3d-fotorrealista",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: 3D fotorrealista. Visual language: photorealistic premium over-ear headphones, matte graphite shell, warm copper hinges and ivory cushions, dark smoke studio with shaped rim light, realistic industrial design. Technique to illustrate: Movimento motivado por uma característica do objeto. Theme: Produto fictício de áudio. CELL 1: Whole headphones resting on a low graphite plinth, title OUÇA OS DETALHES. CELL 2: Macro of the exact copper hinge and stitched ivory cushion, product proportions preserved. CELL 3: Three-quarter wider angle reveals the same headset headband curvature, controlled reflection. CELL 4: Complete product packshot on the same plinth with title DESIGN EM CADA DETALHE.",
+    "sourceFile": "exec-f78c6393-0f6c-4023-8274-62f8856cecf8.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "ab95cfde8bd9a062a74f2a031e7e28daad8c16ef614c01dff3cafe028da2b6e8",
+    "crops": [
+      {
+        "src": "assets/film-sequences/volume-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "9985e0d9d5f7a57dc6e25ef90b9a9d28e2926e27d2320f925b981296b7f1a8bb"
+      },
+      {
+        "src": "assets/film-sequences/volume-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "a6fd96aa6ee753ba87a3c6babed5ac01874ebdd3f38201fc052aa0d23ae292ae"
+      },
+      {
+        "src": "assets/film-sequences/volume-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "12ebe5988fa55b1de0d66c092cb32f4a473aefd5d8f3a2d4050946552efd00d7"
+      },
+      {
+        "src": "assets/film-sequences/volume-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "e36795575f5f7caa9290943b161ab84176893f4ced8449513ac88cda863e7809"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "volume-2",
+    "styleId": "clay-render",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Clay render. Visual language: monochrome pale-lilac clay world, soft architectural extrusions, creamy shadows, refined miniature desktop sculpture, no glossy plastic. Technique to illustrate: Montar e revelar volumes com sombras claras. Theme: Explicar organização de tarefas em volumes. CELL 1: Three disorganized clay blocks on a tray, one circular clay marker nearby. CELL 2: Blocks slide into a precise stepped sequence, a stable low camera reveals their depth. CELL 3: Circular marker reaches the final block and casts a clear soft contact shadow. CELL 4: Completed ordered sculpture, large ink title TUDO EM SEU LUGAR.",
+    "sourceFile": "exec-03371fec-a7e1-4c8d-9bac-40d01d8946dc.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "935d932b03d940daae568c39b25fa15e9747881687c1396bd8c37a99bf147200",
+    "crops": [
+      {
+        "src": "assets/film-sequences/volume-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "e02d5474b05079e93344012ae143e082ee94fe827caffc466c8a147e9db75f13"
+      },
+      {
+        "src": "assets/film-sequences/volume-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "36fc7477dd65c4063933867c9242e95b2229b5dba7f777da25645dece0af3431"
+      },
+      {
+        "src": "assets/film-sequences/volume-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "33f0fbaac929cbeaf54c1c36ad89c91deebe25b35fd5ca61b69baa0c5393c0ad"
+      },
+      {
+        "src": "assets/film-sequences/volume-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "1144da20150ef292488f508f2cd157ffe9a4bdf3fb9c3c077a796d6fd53e2119"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "hibridos-1",
+    "styleId": "investigacao-visual",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Investigação visual. Visual language: documentary evidence table, charcoal and cream, copper clips, real paper and restrained editable analytical overlays, no conspiracy aesthetic. Technique to illustrate: Cada evidência responde uma pergunta e abre a próxima. Theme: Como investigar uma falha de entrega fictícia. CELL 1: Packing slip, shipping label and sealed sample box on an orderly desk; title ONDE ESTÁ A DIFERENÇA? CELL 2: Macro of the packing slip with one SKU field isolated by a fine coral bracket, no personal information. CELL 3: Box opens to show a different plain sample item; matching label areas are compared side-by-side. CELL 4: Both records and sample align into a simple cause chain labelled PEDIDO / CONFERÊNCIA / ENVIO.",
+    "sourceFile": "exec-35db6c7f-96f9-43c6-9ca3-f94a5e4bd741.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "ef1fdf2b3e7df86be468fa9eeedb7dfb62135d4c453a61d067cf6b27920a9292",
+    "crops": [
+      {
+        "src": "assets/film-sequences/hibridos-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "8f35afd36bf66bd1f2cf30e697bfcd58b48b0916730d2aa67bcbc054c3680755"
+      },
+      {
+        "src": "assets/film-sequences/hibridos-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "d1d4a583d7839c827781af82ec4614e9472f02decd63167344afc86a05b0ba02"
+      },
+      {
+        "src": "assets/film-sequences/hibridos-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "5ec61ef92d6537fb05fbb55839ef021a111a6ccad91703f442b323e199bc43a8"
+      },
+      {
+        "src": "assets/film-sequences/hibridos-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "3514d7e0f03a4de8599bd3f99edfd4b88937be403750f342179778be840bc6c8"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "hibridos-2",
+    "styleId": "explicador-por-metafora",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Explicador por metáfora. Visual language: photorealistic miniature sorting workshop, ivory routes, cobalt tokens, copper mechanical gates, adult hands only if necessary, coherent physical metaphor. Technique to illustrate: Ações da metáfora correspondem às etapas reais do conceito. Theme: Explicar como um agente recebe, decide e executa. CELL 1: One blue token arrives at a clearly marked entrance on an ivory tabletop, title RECEBER. CELL 2: A copper gate switches toward one of two visible routes, title ESCOLHER. CELL 3: Same blue token passes down selected route to a stamped output tray, title EXECUTAR. CELL 4: Wide view shows complete route with token at destination and a stop lever for human review.",
+    "sourceFile": "exec-7e0818f8-5d57-4113-a928-415900545bd7.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "6e411664b41192ee6d23d6884b7a7386bb58a7dff56351249ccdc1ea2122ab6f",
+    "crops": [
+      {
+        "src": "assets/film-sequences/hibridos-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "68365fe15276eb0ad718d757ce5f9d7c09fc96f0db30e22d455865ccef304146"
+      },
+      {
+        "src": "assets/film-sequences/hibridos-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "cb23cb1970df79f95969a9f06f17f6bd17bd651ac81db4aa9a9e8ac717fd9193"
+      },
+      {
+        "src": "assets/film-sequences/hibridos-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "89b8126ca6212f87384cc6f4e3ffe4b9fe524b7790c5f88b3e374d306f06552b"
+      },
+      {
+        "src": "assets/film-sequences/hibridos-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "3fa17af2a10a9314d3b150423346f9bba042ebe168b43be48f6d64df87003f29"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "anuncios-1",
+    "styleId": "hero-premium-sensorial",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Hero premium sensorial. Visual language: single amber rectangular perfume bottle, brushed brass cap, unbranded cream label, warm black stone, amber caustics, professional luxury product campaign. Technique to illustrate: Revelação por sombra, macro disponível e recuo para o packshot. Theme: Anúncio de perfume fictício sem rótulo comercial. CELL 1: Bottle mostly in silhouette, one narrow warm edge light, title PRESENÇA. CELL 2: Macro of thick amber glass and precisely seated brass cap, same bottle geometry. CELL 3: Controlled stream of warm reflected light crosses the intact bottle, background softened. CELL 4: Whole bottle centered with cap on and empty space for Sua marca, title CADA DETALHE CONTA.",
+    "sourceFile": "exec-a5d1d2d7-7db1-496a-a783-7c80d14ddd42.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "df2c34945f5c66701ffda9b63aa806d0488d261aca7552bf7071d4e49d88ecd5",
+    "crops": [
+      {
+        "src": "assets/film-sequences/anuncios-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "086329c0a23de84bebea6e86ba0e0b2eafc3450c3cf4990b03922d7b7e4f61ee"
+      },
+      {
+        "src": "assets/film-sequences/anuncios-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "c10707701eacff91940b85f1023ed726e03eba0ddbfdee7f43b8f959ab2e8cc3"
+      },
+      {
+        "src": "assets/film-sequences/anuncios-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "2d20a87f2b5d40c3173f105c3e2b2ca9daa16addf5f8c1c6e5569833f5edb7f1"
+      },
+      {
+        "src": "assets/film-sequences/anuncios-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "0114524adecfaf1bcfe780dfad567f18afad15eb591e18ed84a39870c49c1812"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "anuncios-2",
+    "styleId": "vitrine-orbital-360",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Vitrine orbital 360°. Visual language: one deep burgundy structured leather handbag, small brass clasp, no logo, ivory rotating plinth, pale warm studio, detailed leather grain. Technique to illustrate: Órbita com pausas em detalhes, sem deformar o produto. Theme: Apresentação de uma bolsa fictícia. CELL 1: Front view of whole bag with handle and clasp clearly visible, title VEJA POR INTEIRO. CELL 2: Three-quarter view from the right showing side gusset; identical bag, material and hardware. CELL 3: Back view shows plain leather panel and same handle attachments, believable continuous orbital change. CELL 4: Return to elegant front three-quarter packshot, title FEITA PARA ACOMPANHAR.",
+    "sourceFile": "exec-83897161-48be-4fe3-baaf-537b56fad368.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "1e195c8d88b3fa80366c9f4d9dee64ff443755caaed2cfcef215f75d80c4305f",
+    "crops": [
+      {
+        "src": "assets/film-sequences/anuncios-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "2506e76130743279f41326019a868fb0348f191c2b85edf17e2233a433613f10"
+      },
+      {
+        "src": "assets/film-sequences/anuncios-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "6a1d12915674e3563e2f6787dfb9ce9db96c8b944acce4e1dc73fe495baa666f"
+      },
+      {
+        "src": "assets/film-sequences/anuncios-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "3add74d0e04d6de894ee01bb83577d1780abb0fa87a3794fb0088abfa4458eca"
+      },
+      {
+        "src": "assets/film-sequences/anuncios-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "98ceb3f3246e8f671a1dec005dcd06d799c3ad5eb597750797c0e269f0d33dfd"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "campanhas-1",
+    "styleId": "food-asmr-com-narracao",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Food ASMR com narração. Visual language: warm artisan bakery, croissant on dark ceramic plate, honey and butter, professional macro food cinematography, real flaky layers no gooey distortions. Technique to illustrate: Derramar, aproximar e revelar resultado. Theme: Anúncio gastronômico fictício. CELL 1: Wide croissant beside butter and a honey dipper, title UMA PAUSA BEM FEITA. CELL 2: Macro of adult hands gently opening the same croissant to expose airy layers. CELL 3: Thin realistic honey stream lands on one opened half, beautiful restrained warm backlight. CELL 4: Both halves arranged on plate with cup in background, title SABOR EM CADA CAMADA.",
+    "sourceFile": "exec-22ceb4d1-1afb-4cca-a5bc-0188689e45fb.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "c258518af5758bf20de11f588927d8cf96e4c4cf31f6bb0471bf4abad6eeef82",
+    "crops": [
+      {
+        "src": "assets/film-sequences/campanhas-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "705f2e071e5e5aebf50ec6ab3121b17ccc8e7ed1a47cce833092c7e862443a8a"
+      },
+      {
+        "src": "assets/film-sequences/campanhas-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "5b74acb0ecd5486a808f8e2c7e6362dd12f9ff35344bed56e48c09d04baff1ba"
+      },
+      {
+        "src": "assets/film-sequences/campanhas-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "3f10e9160e42bba570b74b07f2c98afd3292bc2f2d652253fa1ca4ba648ac980"
+      },
+      {
+        "src": "assets/film-sequences/campanhas-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "e1ef467f8cb26b24e78ee82ca28559f210ad61007d972b0f8fd493217ab3a38f"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "campanhas-2",
+    "styleId": "reparo-e-segunda-vida",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Reparo e segunda vida. Visual language: daylit skilled repair workshop, same moss-green fabric backpack with one frayed shoulder seam, realistic adult hands and tools, calm documentary imagery. Technique to illustrate: Defeito documentado, reparo permitido e retorno ao uso. Theme: Reparo documentado de uma mochila fictícia. CELL 1: Backpack on workbench, one visibly frayed seam indicated with a subtle frame, title AINDA HÁ CAMINHO. CELL 2: Close-up of authorized seam repair with matching thread, needle handled plausibly. CELL 3: Finished seam shown at same angle, original bag wear remains, no magical restoration. CELL 4: Backpack carried by adult leaving workshop, title CONTINUAR TAMBÉM É ESCOLHA.",
+    "sourceFile": "exec-381573c4-83a2-40bd-95cd-13c7f425e005.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "5a060f3ac568b8ebd5e5244951d5cd7dabb5bac8bc832963e0dd30c40d343918",
+    "crops": [
+      {
+        "src": "assets/film-sequences/campanhas-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "c90a6807a1d40fb12afef7f4870bff9fd3bb79bf50228193a2f1b83e52c84148"
+      },
+      {
+        "src": "assets/film-sequences/campanhas-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "1d2e22a31d4cf1167ba1c4d895eeb87e79554038c2c01ffad0d372b4325dafa4"
+      },
+      {
+        "src": "assets/film-sequences/campanhas-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "d4422449a1cebe691115178138b5d803241cc215ed5c76b38b026cc25e501f3e"
+      },
+      {
+        "src": "assets/film-sequences/campanhas-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "762c00240d16cdac0d952b268709a476c8f13a04b863acbd826a8cb1ff2f69f9"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "imoveis-1",
+    "styleId": "satelite-ate-a-fachada",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Satélite até a fachada. Visual language: premium real estate documentary concept, fictional coastal neighborhood with one terracotta-roof modern white house, calm daylight, honest diagrammatic map not real satellite screenshot. Technique to illustrate: Zoom de cidade para bairro e corte correspondente para fachada. Theme: Localização de um imóvel inteiramente fictício. CELL 1: Wide fictional aerial neighborhood map with coast and small marked house location, label LOCALIZAÇÃO ILUSTRATIVA. CELL 2: Closer overhead of the same exact block and white house with terracotta roof, maintain roads and coastline positions. CELL 3: Matching high oblique aerial of that same house and garden, no different house. CELL 4: Ground-level façade of same white house, roof, three windows and garden aligned, title CONHEÇA O ENDEREÇO.",
+    "sourceFile": "exec-36e836da-193b-41fc-ade7-eaa0bb889d71.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "a03e508e7510b188c5b14e06da04e8a895c83319ad57d54c07f88ee28d877c2b",
+    "crops": [
+      {
+        "src": "assets/film-sequences/imoveis-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "dac1ae84dc99853d8fdf006f16544d64698f36f7c3b54bec207ae244da1fbaa2"
+      },
+      {
+        "src": "assets/film-sequences/imoveis-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "0141205ff50f88a4788e21aacfd55b76e6c33d5d77bd516f4d1fc083c419916f"
+      },
+      {
+        "src": "assets/film-sequences/imoveis-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "771ae02250195acfadfab6ca61af3f876cdf45d07a0125d97badaa5d7d50af3b"
+      },
+      {
+        "src": "assets/film-sequences/imoveis-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "0010f9583ac903ef116b6ecbcd127690eee5ba53cd57d60eeb7c5c155d6e7637"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "imoveis-2",
+    "styleId": "exp-o-que-permanece-na-entrega",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: O que permanece na entrega. Visual language: same daylight modern living room, pale oak fixed cabinetry, off-white walls, olive freestanding sofa, large window at right; exact architecture and camera stable throughout. Technique to illustrate: Cada item confirmado ganha identificação enquanto a câmera permanece no mesmo plano.. Theme: Mostrar o que está incluído em imóvel fictício. CELL 1: Full room with built-in oak cabinet, loose sofa and loose floor lamp; title O QUE FICA NA ENTREGA? CELL 2: Same camera and room: fine cobalt outline highlights only built-in oak cabinet, label MARCENARIA FIXA. CELL 3: Same view: window blinds highlighted with label PERSIANAS; sofa and lamp remain unhighlighted. CELL 4: Same room with discreet two-item list MARCENARIA / PERSIANAS and small EXEMPLO FICTÍCIO.",
+    "sourceFile": "exec-4f214ba3-c56c-451e-b2cb-498d798a91e5.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "f82a810b1b6b340ed24379f7aa23110d20d21e1a487c6ec7709016a5142ba891",
+    "crops": [
+      {
+        "src": "assets/film-sequences/imoveis-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "a66482bbe493aaf9eaa370a4cb35c96914d1b2f0eddbdf3d217c96e5ea175747"
+      },
+      {
+        "src": "assets/film-sequences/imoveis-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "eba2115f4e7caa2b4190bb65704a44e59868ea06d669a0bee15b8e979211e541"
+      },
+      {
+        "src": "assets/film-sequences/imoveis-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "0a2e18c3d84b09da3f6f95452f7905ffed25ede3e562950e2f957602391f45d5"
+      },
+      {
+        "src": "assets/film-sequences/imoveis-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "2ad5b318e340742f927541bd279c17c8fb921749a1e93b342abcfe1c1f3a2357"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "software-1",
+    "styleId": "trilha-de-auditoria",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Trilha de auditoria. Visual language: sophisticated enterprise audit interface, light graphite and ivory, navy text, restrained cobalt selected row, diff view in large readable panes, no fake platform logos or real personal data. Technique to illustrate: Selecionar evento e revelar mudança correspondente. Theme: Explicar uma trilha de auditoria em sistema fictício. CELL 1: Premium desktop-like application view dominated by timeline, three rows labelled CRIADO / EDITADO / REVISADO; badge DEMONSTRAÇÃO. CELL 2: A cursor selects EDITADO, opens a large event detail with a clear time marker 10:42 and role EDITOR. CELL 3: Side-by-side diff shows old title Campanha A and new title Campanha de novembro, change highlighted once. CELL 4: Timeline and revised item appear together with headline SAIBA O QUE MUDOU, no invented security certification.",
+    "sourceFile": "exec-3900d285-54c8-4aa6-bd1e-f04a59bc0367.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "50fce255075e532999ad02f1ad7df4ea6063676f1df17593c4b14a821175bc8b",
+    "crops": [
+      {
+        "src": "assets/film-sequences/software-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "ac9ad0f9176fd7154c8a3778a493231efe67813ba6e832bbb8f8c5963b7d7da5"
+      },
+      {
+        "src": "assets/film-sequences/software-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "b76e2f8277ace0399f4e37f25b1cc9109f05da923ab184a84ee97a06465e4338"
+      },
+      {
+        "src": "assets/film-sequences/software-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "88e8df2c55e9c2ead5dffd3b0d19b4e9070228463828a0b59d985dafead8fbd2"
+      },
+      {
+        "src": "assets/film-sequences/software-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "22e89a7584e7890b57ff0c09e33ae893a17b888e35e6c71a4650530445b83fdf"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "software-2",
+    "styleId": "exp-exportacao-que-chega-ao-destino",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Exportação que chega ao destino. Visual language: refined analytics product UI, ivory/navy/teal, deliberate hierarchy, large three-row table, clean controls, data integrity, limited legible text. Technique to illustrate: O filtro é aplicado, o arquivo exportado abre e os valores são conferidos.. Theme: Exportar e conferir um relatório fictício. CELL 1: Clean report table with three large rows A 12, B 8, C 5 and a visible filter Período; DEMONSTRAÇÃO label. CELL 2: A precise cursor activates export button EXPORTAR CSV; same three-row table unchanged. CELL 3: An exported sheet opens beside original report, exactly A 12, B 8, C 5 in both, no changed values. CELL 4: Matched table rows receive subtle checkmarks, title DO RELATÓRIO AO ARQUIVO.",
+    "sourceFile": "exec-903f96ae-7228-4094-90da-42169ca40916.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "c6d713bde4338327e8b34c7fe1677b1ab1056ca53f66a189c4b73c9db13ab50e",
+    "crops": [
+      {
+        "src": "assets/film-sequences/software-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "c44619fd8062a3edb2e447621ab188e63a40faf31add1ca9c94d5ae9116f9740"
+      },
+      {
+        "src": "assets/film-sequences/software-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "8cc75b4df4fc39127d9ca774c868f74e6b898c1219cb0871283745b9fe5bc79d"
+      },
+      {
+        "src": "assets/film-sequences/software-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "a31485cb14468b35ec80ca3ed161b6b91fe0f3cb042374b971ee5b72f770d601"
+      },
+      {
+        "src": "assets/film-sequences/software-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "b94bb6ef9c4c04bf06d06eb9765aad54a6d482b74382d8f495a5b222c1eca0e1"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "apresentacoes-1",
+    "styleId": "editorial-tipografico-em-profundidade",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Editorial tipográfico em profundidade. Visual language: large refined serif editorial typography, cream paper architecture, burgundy ink, ochre accent, tangible layered boards, no tiny body paragraphs. Technique to illustrate: Título se revela por oclusão e detalhe vira argumento; pausa de leitura. Theme: Apresentar uma estratégia de marca. CELL 1: Huge serif word DIREÇÃO partly revealed behind one cream paper plane, warm shadow. CELL 2: Paper plane moves aside and the full word DIREÇÃO is visible with a thin ochre underline. CELL 3: Three large separate planes show CONTEXTO, ESCOLHA, AÇÃO in a deep but calm composition. CELL 4: Planes settle into a single clean title CADA ESCOLHA TEM UM PORQUÊ.",
+    "sourceFile": "exec-46641437-55af-4516-9152-7282ebb76673.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "74ba7a24b70a25de91ef78511b39f9e41eb8ba3327839d3915d860f0cb1b03e0",
+    "crops": [
+      {
+        "src": "assets/film-sequences/apresentacoes-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "2d237d539f18853a2203f879d223adf4990f2276e8af1a269c76bbc0f1fa0c8b"
+      },
+      {
+        "src": "assets/film-sequences/apresentacoes-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "b6b83c172479e4ecc5cabd439f9bf3fe34204955f80e019bc3146372c9540ed0"
+      },
+      {
+        "src": "assets/film-sequences/apresentacoes-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "afd3d5074d0f89a3c61c71abbc339aa72b199546c55ae350c31cbd76fbf259d0"
+      },
+      {
+        "src": "assets/film-sequences/apresentacoes-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "0fa42f17a4526374ddd86a9d7458b601fdcec5cefe98a65803cf023d15848b0d"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "apresentacoes-2",
+    "styleId": "manifesto-de-tipografia-cinetica",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Manifesto de tipografia cinética. Visual language: high-impact black and warm-white condensed type with vivid cobalt accent, sophisticated screen typography, scale changes and precise negative space rather than 3D plastic letters. Technique to illustrate: Escala e posição acompanham a fala; manter palavra principal nítida. Theme: Manifesto de lançamento fictício. CELL 1: One huge readable word AGORA in black on ivory with small cobalt line. CELL 2: AGORA becomes a layered repeat receding in perspective, foremost word remains completely sharp. CELL 3: The composition reorganizes into FAÇA ACONTECER, cobalt rectangular mask passes behind lettering. CELL 4: Quiet final clear composition SUA PRÓXIMA IDEIA COMEÇA AQUI.",
+    "sourceFile": "exec-c1af7821-075b-4d7e-8643-bd0f495922aa.png",
+    "sourceSize": [
+      940,
+      1672
+    ],
+    "sourceSHA256": "e25bdbac0e9960ae71fb0d21dba5c0c72fabe0b287c6e260a89c58ec4e0f1d15",
+    "crops": [
+      {
+        "src": "assets/film-sequences/apresentacoes-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "bdff9fc7938611d22d21e58e05a77c3644294751f02609e0dcc7b43d9498bc2b"
+      },
+      {
+        "src": "assets/film-sequences/apresentacoes-2-02.webp",
+        "rect": [
+          470,
+          0,
+          940,
+          836
+        ],
+        "sha256": "5b95f0ee681fdc57ea3a9e0837c89e2a9eac03af258fc474691fc5a3cf3bc7ca"
+      },
+      {
+        "src": "assets/film-sequences/apresentacoes-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "bbfc1a911d9502edf5356840626a21c979c3483bccfa45c4018d2ebc4cb49fec"
+      },
+      {
+        "src": "assets/film-sequences/apresentacoes-2-04.webp",
+        "rect": [
+          470,
+          836,
+          940,
+          1672
+        ],
+        "sha256": "74d3098bf1f33686d8f32106ea4b88d3932ac97fd28a451d00035b92d78c49dc"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "avatares-1",
+    "styleId": "apresentadora-executiva-em-estudio",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Apresentadora executiva em estúdio. Visual language: same fictional adult Black woman around 38, navy blazer over ivory top, natural curly shoulder-length hair, studio gray, warm soft light, realistic skin and anatomy; always direct eye contact, torso grounded to lower frame, no gradient cutout. Technique to illustrate: Cintura para cima, postura segura e mãos discretas. Gestos contidos; câmera estável ou aproximação suave sem perder contato visual.. Theme: Apresentadora fictícia explica um serviço. CELL 1: Medium waist-up presenter looking directly into camera, relaxed hands, title VAMOS ENTENDER? CELL 2: Same presenter in slightly closer framing, one restrained open hand gesture, cobalt side panel says PRIMEIRO PASSO. CELL 3: Presenter remains facing camera at left, large separate clean illustrative checklist at right has CONTEXTO / AÇÃO / REVISÃO. CELL 4: Return to centered medium frame, hands calm, title PRONTO PARA COMEÇAR?; small AVATAR FICTÍCIO.",
+    "sourceFile": "exec-9c0e8427-e0dc-4410-8d76-6ae32bf53693.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "0140760cbd9cddc21df904b37c7d7dcceb8efb90b7b98a810938fb9c91b72621",
+    "crops": [
+      {
+        "src": "assets/film-sequences/avatares-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "fd65d3d82ae4eeb65b81c059af45812721b2278ce4d3e7a9871ccc7554049e44"
+      },
+      {
+        "src": "assets/film-sequences/avatares-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "a4f5ce4b544dd041cb4585851c7934782d8142bb266fba68f4ce497a7fff9b3f"
+      },
+      {
+        "src": "assets/film-sequences/avatares-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "7dae89f6d6da87a649b95f63300c005ce29366de66b1fb31e14dbb6ca8ed3ad7"
+      },
+      {
+        "src": "assets/film-sequences/avatares-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "9a38b9068980c54e097be4240a4dfc9d0bdbc941a8737e649fdab8be69a51a10"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "avatares-2",
+    "styleId": "apresentador-casual-em-home-office",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Apresentador casual em home office. Visual language: same fictional adult tan-skinned man about 35, short dark hair light beard, charcoal t-shirt and olive overshirt, warm tidy home office, natural window light; always faces camera, seated with real desk support, realistic proportions. Technique to illustrate: Meio corpo, sentado ou em pé com apoio real. Gestos contidos; câmera estável ou aproximação suave sem perder contato visual.. Theme: Apresentador fictício demonstra uma rotina. CELL 1: Medium seated presenter at wooden desk looking into lens, laptop closed beside him, title SIMPLIFIQUE SUA ROTINA. CELL 2: Same face and body, camera slightly closer, restrained explanatory hand gesture; subtitle UMA ETAPA POR VEZ. CELL 3: Same presenter faces camera while an independent large task card beside him shows PLANEJAR / FAZER / REVISAR, no grabbing graphic objects. CELL 4: Wider settled desk frame, title MENOS REPETIÇÃO. MAIS CLAREZA.; small AVATAR FICTÍCIO.",
+    "sourceFile": "exec-c6ae0558-08b4-4309-a03c-ab459f3b6f10.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "1ea94d3e6710fd2f0e05b9a3faf3f61a67964ba0784a8e3ed374687e2632ea53",
+    "crops": [
+      {
+        "src": "assets/film-sequences/avatares-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "573d1cc9ee00086eb491049739d859257f26f353973fabba8658d8237464adc9"
+      },
+      {
+        "src": "assets/film-sequences/avatares-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "9878a0ce96f21c90c3b5dbfe77f41415cb8ae480cd7954ddf00ac2d4c1c66393"
+      },
+      {
+        "src": "assets/film-sequences/avatares-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "ef4597985a35385de9f9d10376eaaff47064c2210311718673f94ae29a090a85"
+      },
+      {
+        "src": "assets/film-sequences/avatares-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "f5996c531f71a004e5ad3b872dea4b78857e8287390e1d328ab586ffa3773394"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "saude-1",
+    "styleId": "exp-consentimento-explicado-em-mesa-de-opcoes",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Consentimento explicado em mesa de opções. Visual language: calm documentary consultation, fictional adult woman clinician and adult patient, neutral respectful expressions, daylight, modest teal and cream clothing, medical room without brand; no before-after. Technique to illustrate: Benefícios, riscos e alternativas são expostos sem pressionar uma escolha.. Theme: Explicar consentimento sem prometer resultado. CELL 1: Wide two adults seated across a consultation desk with three large cards, title ENTENDA SUAS OPÇÕES. CELL 2: Close-up of card BENEFÍCIOS on desk while clinician explains, no fabricated numerical outcome. CELL 3: Same table shows RISCOS and ALTERNATIVAS cards at equal visual weight, patient hand points to question. CELL 4: Return to calm two-person conversation, title DECIDIR COM INFORMAÇÃO.; small CENA ILUSTRATIVA.",
+    "sourceFile": "exec-d383cb95-f31c-488c-a721-c4511c8ff33e.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "d1f10fd4476c2d18df296257aaf17c11012a8a514243991b7aea4d7ed98cdb6e",
+    "crops": [
+      {
+        "src": "assets/film-sequences/saude-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "44d441e69c46f71f824aab67fd87d82612c09176bfdc7fb256b334ee419b5acc"
+      },
+      {
+        "src": "assets/film-sequences/saude-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "bb417cb5af950e0962a571fa9bfbd024aac76253e7d8b02420fc54558fe62b41"
+      },
+      {
+        "src": "assets/film-sequences/saude-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "3688ad986198af98deeebdc99db8362f5667ae5a42190a63ceb617c5debe8abf"
+      },
+      {
+        "src": "assets/film-sequences/saude-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "4b736fd67eae49502b20aec4e768f2c7535254b6847984de3cbff8823230f8c4"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "saude-2",
+    "styleId": "exp-exame-infantil-em-ensaio-com-brinquedo",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Exame infantil em ensaio com brinquedo. Visual language: welcoming pediatric demonstration room, fictional adult clinician, teddy bear toy and stethoscope, warm pastel materials, gentle documentary photography, no real child needed, no diagnosis claims. Technique to illustrate: O profissional explica a sequência no brinquedo antes do procedimento real.. Theme: Preparar uma criança para conhecer um exame. CELL 1: Clinician at child-height table with teddy bear and stethoscope, title PRIMEIRO, VAMOS CONHECER. CELL 2: Close-up clinician shows the stethoscope chest piece to the teddy bear, hands natural. CELL 3: Clinician demonstrates placing chest piece on teddy chest, equipment unchanged and plausible. CELL 4: Teddy and stethoscope neatly on table, clinician smiles toward camera, title CUIDADO TAMBÉM É EXPLICAR.",
+    "sourceFile": "exec-e83b0963-d0b1-431a-9d48-b16d0c2838c7.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "b88f2b25d86769c39f4fcee918e910f1118f9e387deeb7945d910680e893b88f",
+    "crops": [
+      {
+        "src": "assets/film-sequences/saude-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "e03377ba1fada7e963e1f604f2be975cb1ce195f5afd5cdd72256c48497b73c9"
+      },
+      {
+        "src": "assets/film-sequences/saude-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "56205e5d28133cbe7b66405b4de5417336f8d2e6ac35bb00b6bf3d6ee21a25ed"
+      },
+      {
+        "src": "assets/film-sequences/saude-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "ba1c303484587057f3343339521c93ab388c7ab52f92f3701d90e0a2d9259bbf"
+      },
+      {
+        "src": "assets/film-sequences/saude-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "4c27205870e7cbec15b38fe168b7ca97de79a4919e7088dd5354d7171bae163c"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "ecommerce-1",
+    "styleId": "gabarito-de-encaixe-antes-da-compra",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Gabarito de encaixe antes da compra. Visual language: original unbranded terracotta desk lamp, small pale-oak workspace, realistic measurement demonstration, clean editorial overlays, neutral studio daylight. Technique to illustrate: O espaço é medido; o gabarito encontra o produto; a folga é mostrada. Theme: Verificar encaixe de uma luminária fictícia. CELL 1: Lamp beside a small shelf opening, title CABE NO SEU ESPAÇO? CELL 2: Orthographic front view of shelf opening measured with a real ruler; simple labelled outline ESPAÇO. CELL 3: Same lamp placed inside the outline with visibly clear top and side margins; exact dimensions not invented. CELL 4: Lamp in actual shelf position, clear profile and remaining space, title CONFIRA ANTES DE ESCOLHER.",
+    "sourceFile": "exec-2f3b3f7d-3a67-4fb7-8bc8-9cd5e970df59.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "d0c980d2afd554069f4877e88c7f1a40784f89161d1d9240b5fccebc5319005c",
+    "crops": [
+      {
+        "src": "assets/film-sequences/ecommerce-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "3c6b49b2eeab7122840d2350e79b3d8c747c465d146212578e61f1c7366cfccd"
+      },
+      {
+        "src": "assets/film-sequences/ecommerce-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "24b377ad0a6cfe4f25883ec77511efe8de21e4acb23d26e3c49edf4ccb5bd6bb"
+      },
+      {
+        "src": "assets/film-sequences/ecommerce-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "e88a705482d37593b8f7fbf2f9fd7abb6f455523054396d5be09273cbc5563d1"
+      },
+      {
+        "src": "assets/film-sequences/ecommerce-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "05378d04f00cda88cc467c1cbd212f6bade8085bfe1a31da5d7e1a5ececbb1c5"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "ecommerce-2",
+    "styleId": "exp-conteudo-da-caixa-em-ordem-de-conferencia",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Conteúdo da caixa em ordem de conferência. Visual language: same matte ivory wireless over-ear headset, matching ivory soft case, black USB cable and folded quickstart card, warm gray tabletop, premium controlled top-down product photography. Technique to illustrate: Cada item sai da caixa e ocupa sua posição de conferência.. Theme: Conferir conteúdo de caixa de fone fictício. CELL 1: Closed plain box and intact headphones product image-free beside it, title O QUE VEM NA CAIXA? CELL 2: Box opened with the same ivory headphones and soft case visible, hands adult natural. CELL 3: All four items arranged in a meticulous exploded flat lay, large editable numbers 01 02 03 04 beside respective items. CELL 4: Neat final checklist FONE / CASE / CABO / GUIA with all four actual pictured items, title CONFIRA CADA ITEM.",
+    "sourceFile": "exec-ef69d53b-e02a-4a26-ac48-303ae70a9a58.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "98c7cb8ac4cb9d078c01e49577507c6ff7f29768fda77c9be43c4ba87b409a97",
+    "crops": [
+      {
+        "src": "assets/film-sequences/ecommerce-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "2d9ac74f63ea3a566daa22c68aeb5df90844629d18631c29dc6c9ffb1b3a9c68"
+      },
+      {
+        "src": "assets/film-sequences/ecommerce-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "7383b8f3d52ec8c204479a532642590f0fce9bb2a7059346c7ff41e80fd7f751"
+      },
+      {
+        "src": "assets/film-sequences/ecommerce-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "5ff58923ba9b2aa51abffc18f67705f6a212a85eadf131cad9f97c80250d9ede"
+      },
+      {
+        "src": "assets/film-sequences/ecommerce-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "36d19625590c82a471823431dcbe864152ff5611e1e043f4c9c01947d79f85dc"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "infoprodutores-1",
+    "styleId": "aula-amostra-em-bancada-de-raciocinio",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Mini-aula com demonstração multicâmera. Visual language: same fictional adult woman ceramic instructor, cream apron, daylit pottery studio, same gray clay bowl on wheel, documentary medium and macro shots, no cartoon illustration. Technique to illustrate: Enunciar uma dificuldade; demonstrar um gesto; mostrar a diferença verificável no objeto, sem saltar a etapa. Theme: Mini-aula realista de cerâmica. CELL 1: Medium instructor at wheel facing camera, title COMO ALISAR A BORDA? CELL 2: Close-up instructor dampens a small sponge and steadies bowl with anatomically correct hands. CELL 3: Macro of sponge smoothing one section of the same bowl rim, rest of bowl retained, plausible clay transformation. CELL 4: Medium instructor shows bowl rim to camera, title OBSERVE. PRATIQUE. REVISE.",
+    "sourceFile": "exec-80690951-8345-4eb2-8bbe-bf5a402fdf49.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "bc747814beb74bfb9ed1a1d3591566cfa1080310e4881e0a0581adc8cfda9a09",
+    "crops": [
+      {
+        "src": "assets/film-sequences/infoprodutores-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "b155cf20ede66681ad61b1f98a8784d10e0bbe9bc693229df835a6263455ecd6"
+      },
+      {
+        "src": "assets/film-sequences/infoprodutores-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "dcb49230fa9cb3391f473b4540dc30c72f4aba8bd8cec0474b562359df1382ee"
+      },
+      {
+        "src": "assets/film-sequences/infoprodutores-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "8468856c809c80dd23b59ce0cf2e06de0512dad414db9c4f795e0477c459b1a5"
+      },
+      {
+        "src": "assets/film-sequences/infoprodutores-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "1b397fb48e7fb703633938f25df24b4c2ce5d4aec45ee9496132812cb65558a3"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "infoprodutores-2",
+    "styleId": "transferencia-em-contexto-inesperado",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Aplicação no trabalho em mini-documentário. Visual language: same fictional adult male photographer about40, dark overshirt, working in a real-looking small ceramics store, observational documentary light, same handmade vase subject. Technique to illustrate: Situar a tarefa; mostrar uma escolha; explicar a aplicação e seus limites. Theme: Mostrar aplicação de um curso de fotografia. CELL 1: Wide view photographer and ceramic vase by window, title O APRENDIZADO NO TRABALHO. CELL 2: Photographer adjusts a white reflector next to vase, window direction unchanged. CELL 3: Close-up camera LCD shows framed same vase with softer shadow, no fabricated sales metrics. CELL 4: Wider photographer discusses finished image with fictional shop owner, title DA AULA À PRÁTICA.",
+    "sourceFile": "exec-24343b11-ce5a-4314-9bc2-161f0466eadc.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "c8ace4e6f9e9bda672fc58baaa0959ba589d0500cefbb0bfb5c714b1fdb1b459",
+    "crops": [
+      {
+        "src": "assets/film-sequences/infoprodutores-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "1ffa4fa766d3fb6f96509c5884850b1a476e6266a20d8e8f857a9b5e2c8bc4dd"
+      },
+      {
+        "src": "assets/film-sequences/infoprodutores-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "cbd7e8e0a4a3670a7ee260628b800096120f1541d47db7cb1906570c4f020edd"
+      },
+      {
+        "src": "assets/film-sequences/infoprodutores-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "af5615713c2bc893c4467e9637eaba1302841265f620cf12ac7d14ea696d481f"
+      },
+      {
+        "src": "assets/film-sequences/infoprodutores-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "cdfff885eeff110c3d45cafe5f6d6ce3ba17fd74eb37511e39431fa496c588de"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "motion-campanha-1",
+    "styleId": "campanha-peca-unica-em-palco-de-iris",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Peça única em palco de íris. Visual language: exceptionally elaborate photorealistic 3D campaign set, deep petrol architectural iris pavilion with articulated brushed copper radial blades, travertine circular plinth, ivory ceramic cosmetic bottle with simple blank label, volumetric slit light and believable contact shadows; engineered elegant mechanism not simple low-poly petals. Technique to illustrate: Painéis abrem em sequência; a luz encontra a peça; a câmera revela volume sem giro completo. Theme: Campanha sofisticada de produto fictício em palco mecânico. CELL 1: Wide low-angle view of CLOSED copper iris pavilion around a hidden center, precise seams, atmospheric petrol backdrop, title REVELE O ESSENCIAL. CELL 2: Several articulated copper blades open in sequence at different plausible angles; a narrow warm shaft of light finds the ivory bottle at center. CELL 3: Camera now closer three-quarter, the opened blades create layered foreground occlusion and reflected copper bounce on bottle, real ceramic microtexture, no shape change. CELL 4: Full elevated packshot of same bottle on plinth framed by fully open engineered iris, clear negative space and title SUA MARCA EM CENA.",
+    "sourceFile": "exec-75291e59-779d-47a1-886c-df408565e82a.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "6ddf8d4f35ff7d09f21af10d6b4134eb949ed89d9df42f6b7b9e526d51e4b809",
+    "crops": [
+      {
+        "src": "assets/film-sequences/motion-campanha-1-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "92e214007da1536bec673a0acac971291ff48578f2e0a358a7241083fe73c64f"
+      },
+      {
+        "src": "assets/film-sequences/motion-campanha-1-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "a4d50a9b9be987273b4ba6791d6a202c84dfaa0d019b774bae6253fecfae2118"
+      },
+      {
+        "src": "assets/film-sequences/motion-campanha-1-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "b96e101e8e925dade1990f8122db9a0870f166ec2b43f1fe7d8147b678d5a808"
+      },
+      {
+        "src": "assets/film-sequences/motion-campanha-1-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "c0aebbc0b92a92bb3b1d90763b80de564121fff659920154fe2a288e6aa8ca9e"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  },
+  {
+    "key": "motion-campanha-2",
+    "styleId": "campanha-calendario-cenografico-de-lancamento",
+    "generator": "OpenAI image_gen",
+    "prompt": "Create a polished storyboard of FOUR keyframes from ONE coherent fictional video. OUTPUT one portrait canvas exactly 9:16, divided into a perfectly regular 2-column by 2-row grid, no gutters or borders, no external labels. Each of the four cells is a full independent VERTICAL 9:16 video frame. Read top left, top right, bottom left, bottom right. Preserve identity, same object geometry, materials, lighting logic and environment throughout. No collage within cells, no thumbnail mockup, no browser UI unless the subject is a software interface. Text must be sparse and big, in Portuguese exactly as specified, central safe area. Every frame must show a DIFFERENT narrative state, not four zooms of a photo. Still concept images only, not claims of actual video execution. All people, brands, products, data and properties are fictional. Style: Calendário cenográfico de lançamento. Visual language: elaborate premium physical 3D calendar theater, thick ivory paper slabs suspended on brushed champagne-metal hinge spine, dusty rose architectural backdrop, charcoal oversized serif numerals, multiple depth planes, long shaped light and physically convincing curling paper, not flat UI calendar cards. Technique to illustrate: Uma lâmina vira; a seguinte revela a ação daquela fase; a data final permanece. Theme: Campanha de lançamento em calendário cenográfico. CELL 1: Wide stage shows three thick pages on monumental hinged calendar, front page reads EM BREVE in confident editable type. CELL 2: The first page physically curls over hinge, reveals second page with large numeral 02 and CONHEÇA, deep occlusion and paper edges. CELL 3: Second page rotates fully away to reveal third large page numeral 03 and EXPLORE, camera shifts into negative space without jitter. CELL 4: All pages settle to reveal final facing page CHEGOU A HORA with small Sua marca, sophisticated editorial hero composition.",
+    "sourceFile": "exec-9db0e9e4-1939-4453-8828-c76d74c8a193.png",
+    "sourceSize": [
+      941,
+      1672
+    ],
+    "sourceSHA256": "4a5d2d65097e489a424f4d35f83e6a21eba9600b894ba5a2516cc35c80ff4569",
+    "crops": [
+      {
+        "src": "assets/film-sequences/motion-campanha-2-01.webp",
+        "rect": [
+          0,
+          0,
+          470,
+          836
+        ],
+        "sha256": "61c648e665564225a814b8433612d37d34cccd24d485b8ded4b66afe7678370e"
+      },
+      {
+        "src": "assets/film-sequences/motion-campanha-2-02.webp",
+        "rect": [
+          470,
+          0,
+          941,
+          836
+        ],
+        "sha256": "a3e85990d63f952c3cea9f371370f8e6a9d7ec64efb6d1525b026b1a2f5203a5"
+      },
+      {
+        "src": "assets/film-sequences/motion-campanha-2-03.webp",
+        "rect": [
+          0,
+          836,
+          470,
+          1672
+        ],
+        "sha256": "2a84e3c3e131945693a81d278b39cc438d2ec80e4d89b94fdce0dd8caffa930e"
+      },
+      {
+        "src": "assets/film-sequences/motion-campanha-2-04.webp",
+        "rect": [
+          470,
+          836,
+          941,
+          1672
+        ],
+        "sha256": "7aa1780f330065e1a9d9211f04837a05c3d27a6b93750e46cd191c4d79cd0ec4"
+      }
+    ],
+    "motionValidated": false,
+    "videoProductionApproved": false,
+    "conceptApproval": "approved_by_user_2026-11-11"
+  }
+]

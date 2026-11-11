@@ -1,0 +1,13 @@
+{
+  "npmCi": "passed after sandbox EPERM on esbuild, using authorized escalation",
+  "npmRunCheck": "passed",
+  "npmTest": "passed: 7 Node test files and 4 Python tests",
+  "npmRunValidate": "passed; does not certify creative quality",
+  "imageDecode": "144 WebP frames decoded and dimensions checked",
+  "javascriptSyntax": "node --check passed",
+  "localHttp": "Existing atlas server on 127.0.0.1:8770 served HTML, JSON and WebP with HTTP 200 and matching hashes; second server startup reported EADDRINUSE",
+  "browserInteraction": "not verified; connected browser unavailable",
+  "videoGeneration": "not performed",
+  "publication": "not performed for this pilot or webapp proposal",
+  "catalogSHA256": "3221007609e2e6ad271af4b090c44a3e8ee4d301b9cab131c504ab44456eb20d"
+}

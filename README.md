@@ -145,3 +145,9 @@ As instruções e o planejador agora preservam os critérios completos dos estil
 ## Galeria mobile e revisão visual 2
 
 As 180 amostras novas foram recompostas no formato próximo de 9:8, com molduras uniformes e sem cortes de assunto. No celular, imagens grandes em uma coluna, título e ações; a descrição completa fica na ficha. Categorias estão em um menu compacto, com busca, novidades, favoritos e filtro opcional por tipo. Desktop e Page compartilham o catálogo; a Page preserva o modo sem localStorage.
+
+## Piloto de sequências para aprovação
+
+O piloto local em `style-atlas/dist/sequencias.html` reúne 36 exemplos e os mockups desktop/mobile. São dois estilos existentes por categoria, com quatro quadros conceituais por sequência. A revisão inclui duas propostas mais elaboradas para Interfaces, dados e sistemas e duas para Motion Design de Campanha. O catálogo de 720 estilos permanece intacto enquanto a nova interface aguarda aprovação. Os 36 exemplos foram aprovados como direção visual pelo usuário, sem aprovação de movimento ou de vídeo final.
+
+Para abrir localmente: `npm ci`, `npm run atlas` e acesse `http://127.0.0.1:8770/sequencias.html`. Não é necessário conectar geradores ou gastar créditos para ver esta página. Preferências e comentários são locais; use “Baixar observações” para compartilhar a revisão. Consulte [procedência, limites e revisão](style-atlas/records/sequence-pilot/README.md).
