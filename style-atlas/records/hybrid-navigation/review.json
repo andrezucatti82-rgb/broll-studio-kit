@@ -42,5 +42,11 @@
     }
   },
   "primaryWorkflowRun": 43099742908,
-  "primaryStatus": "in_progress"
+  "primaryStatus": "published",
+  "primaryRelease": "atlas-20261111210336",
+  "primaryVerifiedFiles": {
+    "app-shell.js": "8ab9e5b1e1d23c7eaeb011f54e304469ac93e92b91b1ea5ab664fcdb520f5740",
+    "app-shell.css": "8eb94c8b2c209f35698dd24e8fa8dc6dc158ec9866825ffa1e59d811f12990b3"
+  },
+  "primaryURL": "https://videos.gerenciadordeanuncios.com.br/"
 }
