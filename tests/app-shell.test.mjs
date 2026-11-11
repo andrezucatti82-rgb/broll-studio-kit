@@ -84,3 +84,46 @@ test('Page migration retains 4.1 favourites and resets approvals when reference 
  resumed.click('#favoriteFilter');assert.equal(resumed.document.querySelectorAll('#grid .card').length,1);
  assert.equal(resumed.getStorageReads(),0);
 });
+
+test('hybrid categories: all 18 remain reachable, group visuals and style shortcuts share catalogue state',async()=>{
+ const {document:d,ctx,click}=await boot();
+ assert.equal(ctx.AtlasNavigation.groups.flatMap(g=>g.families).length,18);
+ assert.equal(new Set(ctx.AtlasNavigation.groups.flatMap(g=>g.families)).size,18);
+ assert.equal(d.querySelectorAll('#categoryGroups [data-nav-family]').length,18);
+ assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,6);
+ click('[data-nav-family="cinema"]');
+ assert.equal(d.querySelectorAll('#grid .card').length,40);
+ assert.equal(d.querySelectorAll('.category-shortcuts [data-nav-style]').length,3);
+ assert.match(d.getElementById('categoryResultsTitle').textContent,/Cinema e fotografia/);
+ click('[data-nav-style="publicidade-cinematografica"]');
+ assert.equal(d.getElementById('detailDialog').open,true);
+ assert.match(d.getElementById('detailContent').textContent,/Publicidade cinematográfica/);
+ d.getElementById('detailDialog').close();
+ click('[data-nav-group="business"]');
+ assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,8);
+ click('[data-visual-family="software"]');
+ assert.equal(d.getElementById('familySelect').value,'software');
+ assert.equal(d.querySelectorAll('#grid .card').length,40);
+ assert.equal(d.querySelector('[data-nav-family="software"]').getAttribute('aria-current'),'true');
+ assert.equal(ctx.AtlasCurrentChoice().selectedStyles.length,0,'navigation does not change the brief');
+ click('.category-all');assert.equal(d.getElementById('familySelect').value,'');
+ assert.equal(d.querySelectorAll('#grid .card').length,24);
+});
+test('hybrid category search, mobile drawer, focus target and Page mode without localStorage',async()=>{
+ const app=await boot({page:true});const {document:d,ctx,click}=app;
+ const input=d.getElementById('categorySearch');input.value='saude';input.dispatchEvent(new ctx.Event('input'));
+ assert.equal(d.querySelectorAll('#categoryGroups [data-nav-family]').length,1);
+ assert.equal(d.querySelector('#categoryGroups [data-nav-family]').dataset.navFamily,'saude');
+ input.value='<script>invalid</script>';input.dispatchEvent(new ctx.Event('input'));
+ assert.equal(d.getElementById('categoryNoResults').hidden,false);
+ assert.equal(d.querySelectorAll('#categoryGroups script').length,0);
+ input.value='';input.dispatchEvent(new ctx.Event('input'));
+ click('#openCategories');assert.equal(d.getElementById('categoryDrawer').open,true);
+ assert.equal(d.getElementById('categorySidebar').parentNode.id,'categoryDrawer');
+ click('[data-nav-family="avatares"]');click('#exploreCategory');
+ assert.equal(d.getElementById('categoryDrawer').open,false);
+ assert.equal(d.getElementById('categorySidebar').parentNode.id,'sidebarHome');
+ assert.equal(d.getElementById('openCategories').getAttribute('aria-expanded'),'false');
+ assert.equal(d.getElementById('familySelect').value,'avatares');
+ assert.equal(app.getStorageReads(),0);
+});

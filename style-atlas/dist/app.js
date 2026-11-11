@@ -160,6 +160,6 @@ const names=['Escolha','Materiais','Roteiro','Moodboard','Storyboard','Amostra',
  document.querySelectorAll('.hero-actions a').forEach((el,i)=>el.insertAdjacentHTML('afterbegin',icon(['grid','grafico','arrow'][i]||'arrow')));
  document.querySelectorAll('.workflow b').forEach((el,i)=>el.innerHTML=icon(['grid','ilustracao','motion'][i]));
  if(!pageMode){const requestedFamily=new URLSearchParams(location.search).get('categoria');if(catalog.families.some(f=>f.id===requestedFamily)){family=requestedFamily;visibleCount=40;}}
- renderSelectedFont();renderSelection();render();window.AtlasCurrentChoice=choice;window.AtlasApp={getStyle:id=>byId.get(id),prompt};window.ATLAS_READY=true;window.dispatchEvent(new Event('atlas:ready'));
+ renderSelectedFont();renderSelection();render();window.AtlasCurrentChoice=choice;window.AtlasApp={getStyle:id=>byId.get(id),getCatalog:()=>catalog,detail,prompt};window.ATLAS_READY=true;window.dispatchEvent(new Event('atlas:ready'));
  if(!pageMode&&new URLSearchParams(location.search).get('brief')==='1'){openBriefing();}
 })().catch(e=>{const el=document.getElementById('grid');if(el)el.textContent='Não foi possível carregar a biblioteca. Recarregue a página.';console.error(e)});
