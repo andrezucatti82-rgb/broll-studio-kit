@@ -14,6 +14,12 @@ Revisão estática: foram inspecionadas as pranchas de todas as categorias, com 
 
 ## Reconstrução
 
+### Revisão editorial 3
+
+As dez amostras novas de Design gráfico e editorial foram substituídas por imagens individuais em `dist/assets/editorial-r3/`: livro com cortes coloridos, esmalte, documento com tarja, embalagem de arquivo, cerâmica modular, prova tipográfica, aerograma, fichário, lâminas transparentes e trama editorial. Cada imagem foi gerada diretamente em aproximadamente 9:8, sem recorte, extensão, esticamento ou ampliação. O catálogo usa `image-overrides.json` para manter essa revisão ao reconstruir; `editorial-revision.json` registra prompts, dimensões, origem e hashes. As imagens antigas ficam preservadas. Agora a expansão usa 150 estudos IA e 30 composições em código.
+
+Houve inspeção visual individual de composição, material, palavras principais e enquadramento. Esses quadros não são provas de movimento nem objetos reais. A tipografia presente no estudo IA é referência de aparência; letreiros de vídeos finais continuam editáveis em código. IDs, nomes, contratos, prontidão e quantidade de estilos não mudaram. Aprovação criativa do usuário permanece pendente.
+
 ```sh
 python style-atlas/records/expansion-720/render_graphics.py
 python style-atlas/records/build_catalog.py
