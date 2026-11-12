@@ -12,13 +12,21 @@ Informe o assunto. Opcionalmente, acrescente o nome da marca, logotipo ou site. 
 
 Este repositório não apresenta um vídeo de demonstração. O arquivo `templates/project.json` é um rascunho técnico com espaços reservados, destinado à configuração do editor.
 
+## Produção guiada · 2.7.0
+
+O botão **Criar meu vídeo** organiza objetivo, três sugestões visuais, materiais e pedido para o ChatGPT. A biblioteca completa continua acessível. As receitas de produto, serviço e interfaces começam planejadas; ferramentas, arquivos e acabamento precisam ser verificados no projeto. [Como funciona e limites](docs/GUIDED-2.7.md) · [Três testes fictícios preparados](docs/three-recipe-tests.json).
+
+A produção usa roteiro → moodboard aprovado → storyboard aprovado → amostra de 10 s → aprovação → vídeo completo. O agente traduz ajustes simples, registra responsabilidades e retoma a próxima dependência. O site público é estático: arquivos são enviados na conversa, e cada pessoa usa suas próprias conexões e créditos.
+
+Esta edição usa a branch `feat/guided-production-2-7`, sem merge na main. [Instalar a edição revisada](docs/INSTALL-SKILL.md).
+
 ## Biblioteca visual e publicidade
 
 **60 anúncios novos:** joias, capachos, advocacia, moda masculina e feminina, biquínis, pijamas, orgânicos, barras proteicas e cereal. Seis conceitos por segmento, com DBO/AIDA, narração, legendas e CTA. [Como usar e limites](docs/NATURAL-ADS-4.3.md).
 
 [Revisão e limites da versão 2.5.1](docs/AUDIT-2.5.1.md).
 
-**Edição 4.3 / skill 2.5.1:** os 780 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Navegação híbrida com categorias agrupadas na lateral, atalhos de estilos, explorador visual recolhível e menu deslizante no celular. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
+**Edição 4.3 / skill 2.7.0:** os 780 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Navegação híbrida com categorias agrupadas na lateral, atalhos de estilos, explorador visual recolhível e menu deslizante no celular. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
 
 [Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 780 direções em 28 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 40 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
 

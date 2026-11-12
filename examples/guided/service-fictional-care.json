@@ -1,0 +1,116 @@
+{
+  "catalogVersion": "4.3",
+  "catalogUrl": "https://video-multimarcas-estilos.andrezucatti82.chatgpt.site/catalog.json",
+  "topic": "Explicar como funciona uma visita de organização de ambientes, sem prometer resultados",
+  "brand": "Casa Clara — serviço fictício",
+  "format": "9:16",
+  "targetDurationSeconds": 30,
+  "firstDeliverySeconds": 10,
+  "guidedBrief": {
+    "objective": "service",
+    "subject": "Explicar como funciona uma visita de organização de ambientes, sem prometer resultados",
+    "materials": [
+      "video",
+      "website"
+    ],
+    "complexity": "balanced"
+  },
+  "recipe": {
+    "id": "service",
+    "name": "Apresentação de serviço",
+    "status": "planned",
+    "audiovisualValidation": "not_run",
+    "providerPriority": "heygen_direct_api",
+    "route": "footage_editing",
+    "focus": "Problema atendido, processo real, valor do serviço e próximo passo; imagens relevantes e afirmações comprovadas.",
+    "materials": [
+      "Vídeos originais de boa resolução e autorização para pessoas, imagem e voz quando aplicável.",
+      "Endereço oficial do site; confirmar fatos, marca e condições atuais.",
+      "Serviço, público, processo real, informações revisadas e canal de contato."
+    ],
+    "sequence": [
+      "materials_and_resources",
+      "script",
+      "moodboard",
+      "visual_storyboard",
+      "sample",
+      "technical_review",
+      "user_approval",
+      "final_video"
+    ],
+    "roles": [
+      {
+        "role": "Coordenação",
+        "responsibility": "Manter referências, decisões, versões, orçamento e próxima ação; reaproveitar respostas já fornecidas.",
+        "output": "Ficha do projeto e histórico de decisões."
+      },
+      {
+        "role": "Pesquisa",
+        "responsibility": "Consultar fontes oficiais, conferir fatos e distinguir observado de inferido.",
+        "output": "Fontes, limitações e informações verificadas."
+      },
+      {
+        "role": "Roteiro",
+        "responsibility": "Escrever a mensagem e medir as durações pela locução; definir o fechamento.",
+        "output": "Roteiro e plano de cenas com durações explícitas."
+      },
+      {
+        "role": "Direção",
+        "responsibility": "Inspecionar os quatro quadros, distribuir os papéis dos estilos e apresentar moodboard e storyboard em etapas separadas para aprovação do usuário.",
+        "output": "Moodboard, storyboard completo e quadros individuais versionados."
+      },
+      {
+        "role": "Produção",
+        "responsibility": "Verificar ferramenta, modo, inputs e custos por cena; usar originais e quadro inicial validado antes de gerar.",
+        "output": "Arquivos por plano, registro de ferramentas utilizadas, custos e desvios."
+      },
+      {
+        "role": "Edição",
+        "responsibility": "Montar imagem, texto editável, legendas, voz, música e efeitos; conferir sincronização.",
+        "output": "Projeto editável, vídeo reproduzível e legendas."
+      },
+      {
+        "role": "Revisão",
+        "responsibility": "Comparar aparência e identidade aos originais, assistir e escutar integralmente; registrar ajustes e solicitar aceite do arquivo exato.",
+        "output": "Comparações, relatório técnico e decisão criativa do usuário."
+      }
+    ],
+    "outputs": [
+      "Briefing e lista de materiais.",
+      "Roteiro, fontes e plano de cenas.",
+      "Moodboard e storyboard com aprovações separadas.",
+      "Amostra representativa de 10 segundos e comparação referência → storyboard → resultado.",
+      "Após os aceites: vídeo completo, legendas, projeto editável e relatório de revisão."
+    ],
+    "acceptance": [
+      "Confirmar o processo e as informações profissionais.",
+      "Não fabricar clientes, depoimentos ou resultados.",
+      "Estado inicial → ação → resultado por plano; zoom em foto não prova ação interna.",
+      "Amostra de 10 s escolhida pela ação e passagem mais exigentes, depois dos dois aceites visuais.",
+      "Quatro travas: aparência, movimento, texto e identidade; comparação com originais e referências.",
+      "Playback e escuta reais, pendências registradas e aceite do arquivo/direção exatos."
+    ],
+    "alternatives": [
+      "Se faltar original, concluir pesquisa e roteiro independentes e pedir apenas o material necessário.",
+      "Se a rota não preservar a direção, propor execução compatível no HeyGen para aprovação; não trocar serviço silenciosamente.",
+      "Capturas e composição em código podem reduzir clipes pagos quando atendem à cena; verificar o plano."
+    ],
+    "limitations": [
+      "Conferir se a filmagem cobre as ações prometidas; pedir cobertura adicional quando faltar.",
+      "Arquivos são enviados pelo anexo da conversa. As ferramentas e a fidelidade precisam ser verificadas naquela sessão.",
+      "Receita planejada. Não comprova execução audiovisual; demonstrar e revisar a amostra antes de marcar como testada.",
+      "Funções são responsabilidades; registrar agentes separados somente quando realmente executados."
+    ]
+  },
+  "selectedStyles": [
+    {
+      "id": "documental-observacional",
+      "referenceFrame": {
+        "styleId": "documental-observacional",
+        "path": "assets/style-sequences/documental-observacional-02.webp",
+        "crop": null,
+        "fileName": "documental-observacional.png"
+      }
+    }
+  ]
+}

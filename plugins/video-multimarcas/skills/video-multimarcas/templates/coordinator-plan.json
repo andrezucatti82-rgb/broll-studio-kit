@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 1,
+  "status": "planning",
+  "recipeId": "",
+  "recipeMaturity": "planned",
+  "coordinator": {
+    "executor": "",
+    "executionMode": "not_assigned",
+    "evidence": ""
+  },
+  "projectRecords": {
+    "brief": "brief.json",
+    "styleExecution": "style-execution-plan.json",
+    "fidelity": "fidelity-plan.json",
+    "preproduction": "preproduction-plan.json",
+    "review": "review.json",
+    "shotPlan": "shot-plan.json"
+  },
+  "sharedDecisions": [],
+  "materialChecks": [],
+  "capabilityChecks": [],
+  "responsibilities": [
+    {
+      "role": "research",
+      "executor": "",
+      "executionMode": "not_assigned",
+      "status": "pending",
+      "inputs": [],
+      "outputs": [],
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "role": "script",
+      "executor": "",
+      "executionMode": "not_assigned",
+      "status": "pending",
+      "inputs": [],
+      "outputs": [],
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "role": "direction",
+      "executor": "",
+      "executionMode": "not_assigned",
+      "status": "pending",
+      "inputs": [],
+      "outputs": [],
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "role": "production",
+      "executor": "",
+      "executionMode": "not_assigned",
+      "status": "pending",
+      "inputs": [],
+      "outputs": [],
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "role": "editing",
+      "executor": "",
+      "executionMode": "not_assigned",
+      "status": "pending",
+      "inputs": [],
+      "outputs": [],
+      "dependencies": [],
+      "evidence": []
+    },
+    {
+      "role": "review",
+      "executor": "",
+      "executionMode": "not_assigned",
+      "status": "pending",
+      "inputs": [],
+      "outputs": [],
+      "dependencies": [],
+      "evidence": []
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-1",
+      "status": "planning",
+      "styleIds": [],
+      "referenceIds": [],
+      "invariants": [],
+      "initialState": "",
+      "action": "",
+      "result": "",
+      "framing": "",
+      "camera": "",
+      "transition": "",
+      "editableText": "",
+      "narration": "",
+      "sound": "",
+      "durationFromVoice": null,
+      "responsibleRoles": [],
+      "tool": {
+        "provider": "",
+        "endpointOrMode": "",
+        "verified": false,
+        "evidence": ""
+      },
+      "inputs": [],
+      "outputs": [],
+      "acceptanceCriteria": [],
+      "sourceRecords": {
+        "shotPlanId": "",
+        "fidelityShotId": ""
+      }
+    }
+  ],
+  "adjustments": [],
+  "budget": {
+    "currency": "USD",
+    "estimate": null,
+    "pricingCheckedAt": "",
+    "pricingSource": "",
+    "approvedLimit": null,
+    "authorizationEvidence": "",
+    "inheritedFromAnotherProject": false
+  },
+  "currentStep": "materials_and_resources",
+  "nextAction": "Conferir materiais e ferramentas realmente disponíveis.",
+  "blockers": [],
+  "history": []
+}
