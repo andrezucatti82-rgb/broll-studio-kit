@@ -168,3 +168,7 @@ Cada direção recebe quatro estados conceituais e um plano de execução com ap
 As capas e miniaturas usam molduras uniformes com contenção: o enquadramento completo permanece visível, sem esticar ou recortar pessoas, produtos e texto. A proporção real de cada imagem é registrada; o formato final do vídeo é decidido no projeto. Mudanças nas referências reabrem os aceites afetados e preservam histórico e favoritos.
 
 Fontes: [implementação e limites](docs/VISUAL-APP-4.2.md), [procedência das sequências](style-atlas/records/sequences-720/) e [proposta aprovada](docs/WEBAPP-VISUAL-PROPOSAL.md). Branch de trabalho: `feat/visual-app-720`; sem merge automático na main.
+
+## Fidelidade da direção (2.6.0)
+
+Pedidos incluem links dos quadros, inspeção obrigatória e execução por plano. O adaptador pago exige o registro de referências, arquivos aprovados e compatibilidade antes de gerar. Veja [protocolo e conexões verificadas](docs/FIDELITY-2.6.md). `npm run fidelity-check -- projects/exemplo/fidelity-plan.json --phase sample` verifica registros e integridade, sem certificar qualidade criativa.

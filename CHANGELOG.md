@@ -1,3 +1,10 @@
+## 2.6.0 — referências acessíveis e execução com evidências
+
+- Manifesto com links completos e inspeção por quadro nos pedidos dos 780 estilos.
+- Rota por plano, ferramentas verificadas e orientação simples ao usuário.
+- Controle de arquivos/direção aprovados antes da API paga; suporte a referências de imagem e reescrita automática desativada por padrão.
+- Comparação lado a lado e vínculo da aprovação com a amostra exata. Sem promessa de reprodução idêntica.
+
 ## 2.5.1 — revisão de materiais, navegação e sequência
 
 - Coleta específica para os dez segmentos de anúncios e interfaces.

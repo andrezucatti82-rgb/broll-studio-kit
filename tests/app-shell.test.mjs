@@ -21,7 +21,7 @@ async function boot({page=false,saved=null,hash=""}={}){
  for(const el of document.querySelectorAll('*')){el.focus=()=>{};el.scrollIntoView=()=>{};el.reportValidity=()=>true;}
  const events=new dom.EventTarget();
  const ctx={document,Event:dom.Event,URL,URLSearchParams,Blob,console:{error:e=>errors.push(e)},setTimeout,clearTimeout,
-  location:{search:'',hash},matchMedia:()=>({matches:true,addEventListener(){}}),requestAnimationFrame:()=>0,cancelAnimationFrame(){},
+  location:{search:'',hash,href:'https://example.org/release/index.html'},matchMedia:()=>({matches:true,addEventListener(){}}),requestAnimationFrame:()=>0,cancelAnimationFrame(){},
   scrollTo(){},confirm:()=>true,FontFace:class{load(){return Promise.resolve(this)}},
   fetch:async name=>({ok:true,json:async()=>JSON.parse(await read(String(name)))}),
   navigator:{clipboard:{writeText:async text=>{ctx.copied=text}}},
@@ -190,3 +190,5 @@ test('sequence numbering matches frame indices including the principal frame',as
   assert.deepEqual(steps,[1,2,3,4].filter(n=>n!==s.sequence.heroIndex+1));
  }
 });
+
+test('prepared request carries absolute catalog and individual frame URLs',async()=>{const a=await boot();a.click('#grid [data-choose]');a.change('topic','Teste');const c=a.ctx.AtlasCurrentChoice();assert.equal(c.catalogUrl,'https://example.org/release/catalog.json');const p=a.ctx.AtlasWorkflow.buildPrompt(c);assert.match(p,/https:\/\/example.org\/release\/assets\//);assert.match(p,/Agora \/ Entrega \/ Preciso de você \/ Próximo passo/);});
