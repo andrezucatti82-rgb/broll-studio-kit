@@ -32,3 +32,8 @@ test('production retains complete old and new style directions and preserves edi
   fs.unlinkSync(file);prepareProduction(preset,out);assert.equal(JSON.parse(fs.readFileSync(file)).sample.userApproval.status,'pending');
  }finally{fs.rmSync(tmp,{recursive:true,force:true});}
 });
+
+test('explicit avatar preference reaches both production records',()=>{
+ const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'avatar-plan-'));
+ try{const c=JSON.parse(fs.readFileSync(new URL('../style-atlas/dist/catalog.json',import.meta.url)));const s=c.styles.find(s=>s.preset.avatar===true),preset=path.join(tmp,'brief.json'),out=path.join(tmp,'production');fs.writeFileSync(preset,JSON.stringify({topic:'Apresentação fictícia',format:'9:16',selectedStyles:[{id:s.id}]}));prepareProduction(preset,out);for(const file of ['production.json','style-execution-plan.json']){const p=JSON.parse(fs.readFileSync(path.join(out,file)));assert.equal((p.selectedStyles||p.styles)[0].avatar,true);}}finally{fs.rmSync(tmp,{recursive:true,force:true});}
+});

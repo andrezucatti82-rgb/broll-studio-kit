@@ -1,0 +1,20 @@
+{
+  "categories": 28,
+  "styles": 780,
+  "types": 19,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440,
+    1920
+  ],
+  "foodMaterials": true,
+  "directPNGAndSequence": true,
+  "atlasCropPNG": true,
+  "invalidDownload": true,
+  "crossOriginPageDownload": true,
+  "nativeChatGPTViewerTested": false,
+  "pageAssetRouting": "published-origin URLs served from candidate files without CORS headers",
+  "errors": []
+}

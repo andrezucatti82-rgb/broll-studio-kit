@@ -7,7 +7,7 @@ import {parseHTML} from 'linkedom';
 const root=new URL('../style-atlas/dist/',import.meta.url);
 const read=name=>readFile(new URL(name,root),'utf8');
 // DOM integration tests: no layout engine, playback, canvas export or browser QA implied.
-async function boot({page=false,saved=null}={}){
+async function boot({page=false,saved=null,hash=""}={}){
  const {document,window:dom}=parseHTML(await read('index.html'));
  const errors=[],store=new Map(saved?[['video-multimarcas-atlas-v1',JSON.stringify(saved)]]:[]);
  let state=saved,storageReads=0;
@@ -21,7 +21,7 @@ async function boot({page=false,saved=null}={}){
  for(const el of document.querySelectorAll('*')){el.focus=()=>{};el.scrollIntoView=()=>{};el.reportValidity=()=>true;}
  const events=new dom.EventTarget();
  const ctx={document,Event:dom.Event,URL,URLSearchParams,Blob,console:{error:e=>errors.push(e)},setTimeout,clearTimeout,
-  location:{search:'',hash:''},matchMedia:()=>({matches:true,addEventListener(){}}),requestAnimationFrame:()=>0,cancelAnimationFrame(){},
+  location:{search:'',hash},matchMedia:()=>({matches:true,addEventListener(){}}),requestAnimationFrame:()=>0,cancelAnimationFrame(){},
   scrollTo(){},confirm:()=>true,FontFace:class{load(){return Promise.resolve(this)}},
   fetch:async name=>({ok:true,json:async()=>JSON.parse(await read(String(name)))}),
   navigator:{clipboard:{writeText:async text=>{ctx.copied=text}}},
@@ -156,4 +156,37 @@ test('mobile category drawer wraps keyboard focus at both ends',async()=>{
  for(const el of drawer.querySelectorAll('a[href],button,input')){el.getClientRects=()=>[{}];el.focus=()=>{active=el};Object.defineProperty(el,'tabIndex',{configurable:true,value:0});}
  function tab(back){const e=new ctx.Event('keydown',{bubbles:true,cancelable:true});Object.defineProperties(e,{key:{value:'Tab'},shiftKey:{value:back}});active.dispatchEvent(e);assert.equal(e.defaultPrevented,true);}
  tab(true);assert.equal(active.id,'exploreCategory');tab(false);assert.equal(active.id,'closeCategories');
+});
+
+
+test('all catalog kinds are filterable and new segments collect their specific originals',async()=>{
+ const app=await boot(),c=JSON.parse(await read('catalog.json'));const {document:d,ctx,click,change}=app;
+ assert.deepEqual(new Set([...d.querySelectorAll('#kind option')].map(o=>o.value).filter(Boolean)),new Set(c.styles.map(s=>s.kind)));
+ change('kind','Anúncio narrado');assert.equal(d.querySelectorAll('#grid .card').length,24);assert.match(d.getElementById('resultCount').textContent,/60 estilos/);change('kind','');
+ click('[data-nav-group="natural-ads"]');
+ for(const f of c.families.slice(18)){
+  click('[data-nav-family="'+f.id+'"]');click('#grid [data-detail]');click('#detailDialog [data-choose]');
+  const ids=ctx.AtlasCurrentChoice().intake.items.map(x=>x.id);
+  if(f.id==='ads-advocacia'){assert.ok(ids.includes('legal'));assert.ok(!ids.includes('product'));}
+  else assert.ok(ids.includes('product'),f.id);
+  if(['ads-organicos','ads-barras','ads-cereal'].includes(f.id))assert.ok(ids.includes('food'),f.id);
+  change('topic','Produto demonstrativo');d.getElementById('briefForm').dispatchEvent(new ctx.Event('submit',{bubbles:true,cancelable:true}));
+  assert.match(d.getElementById('summaryMaterials').textContent,f.id==='ads-advocacia'?/escritório/:/produto/);
+  click('#briefDialog [data-close]');
+ }
+});
+test('malformed Page selection and malformed URL fragment do not prevent startup',async()=>{
+ for(const selectedStyles of [{bad:true},[null,{id:'missing'},42]]){
+  const app=await boot({page:true,saved:{modelContent:{selectedStyles}},hash:'#estilo=%E0%A4%A'});
+  assert.equal(app.ctx.AtlasCurrentChoice().selectedStyles.length,0);assert.equal(app.getStorageReads(),0);
+ }
+});
+test('sequence numbering matches frame indices including the principal frame',async()=>{
+ const app=await boot(),c=JSON.parse(await read('catalog.json'));
+ for(const s of [c.styles[0],c.styles.find(s=>s.sequence.heroIndex===3),c.styles.at(-1)]){
+  const markup=app.ctx.AtlasViews.sequence(s);const {document:d}=parseHTML(markup);
+  assert.match(d.querySelector('.film-hero figcaption').textContent,new RegExp(String(s.sequence.heroIndex+1).padStart(2,'0')));
+  const steps=[...d.querySelectorAll('.film-steps figcaption strong')].map(e=>Number(e.textContent.slice(0,2)));
+  assert.deepEqual(steps,[1,2,3,4].filter(n=>n!==s.sequence.heroIndex+1));
+ }
 });

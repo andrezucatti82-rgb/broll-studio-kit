@@ -18,7 +18,7 @@ codex plugin list --json
 
 Para usar um checkout local, substitua o primeiro comando por `codex plugin marketplace add /caminho/absoluto/broll-studio-kit`. Use a origem já configurada quando atualizar uma instalação existente; não instale uma segunda cópia com outro nome de marketplace sem necessidade. Não remova a configuração pessoal `video-b-roll`.
 
-A versão do plugin é **2.5.0**, a do kit executável **2.5.0** e a do catálogo **4.3**, com **780 estilos em 28 categorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
+A versão do plugin é **2.5.1**, a do kit executável **2.5.1** e a do catálogo **4.3**, com **780 estilos em 28 categorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
 
 ## Atualizar uma instalação existente do Codex
 
@@ -38,4 +38,4 @@ Se o marketplace usa um checkout local, execute `git pull --ff-only` nesse check
 Instalar no Codex deste computador ou ambiente não atualiza o pacote da conta do ChatGPT nem outro computador. Se sua interface oferecer importação de plugins personalizados, use o ZIP do plugin no fluxo de atualização existente. Se ela aceitar apenas skills, use `.skill` ou o ZIP correspondente. Não há um botão universal garantido para todos os planos e superfícies. Sem importação compatível, use o pedido da galeria e anexe as instruções no projeto/conversa.
 
 
-Esta edição está na branch `feat/visual-app-720`, ainda sem merge na main. Para receber 2.5.0, use essa referência ou o checkout correspondente; a main pode fornecer uma edição anterior. O pacote agora inclui o protocolo e a ficha `style-execution-plan.json`, preservando os critérios dos estilos e as aprovações de pré-produção.
+Esta edição está na branch `feat/visual-app-720`, ainda sem merge na main. Para receber 2.5.1, use essa referência ou o checkout correspondente; a main pode fornecer uma edição anterior. O pacote agora inclui o protocolo e a ficha `style-execution-plan.json`, preservando os critérios dos estilos e as aprovações de pré-produção.

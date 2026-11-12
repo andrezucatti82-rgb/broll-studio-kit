@@ -25,3 +25,16 @@ test('every new prompt preserves narration, editable captions, structure, real e
  }
  const bad=structuredClone(c);delete bad.styles.at(-1).advertising.cta;assert.throws(()=>validateCatalog(bad),/narrated ad contract/);
 });
+
+
+test('presenter preference is explicit in prompts for avatar and non-avatar styles',()=>{
+ for(const s of [c.styles.find(s=>s.family==='avatares'),c.styles.at(-1)]){
+  const p=W.buildPrompt({selectedStyles:[{...s,referenceFrame:W.referenceFrame(s)}],targetDurationSeconds:30,format:'9:16',topic:'Exemplo',fidelityContract:W.fidelityContract});
+  assert.ok(p.includes('"avatar":'+String(s.preset.avatar===true)));
+ }
+});
+
+
+test('all 780 style prompts retain proof, materials and explicit presenter settings',()=>{
+ for(const s of c.styles){const p=W.buildPrompt({selectedStyles:[{...s,referenceFrame:W.referenceFrame(s),visualSequence:s.sequence}],topic:'Demonstração',format:'9:16',targetDurationSeconds:30,typography:'auto',scenePlan:W.estimateScenePlan(30),qualityPolicy:c.qualityPolicy,identityPolicy:c.identityPolicy,fidelityContract:W.fidelityContract,intake:{items:[]}});assert.doesNotMatch(p,/\bGDA\b|\[object Object\]|undefined/);assert.ok(p.includes(s.proof));assert.ok(p.includes(s.requirements));assert.ok(p.includes('"avatar":'+String(s.preset.avatar===true)));}
+});

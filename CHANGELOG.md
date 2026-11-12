@@ -1,3 +1,11 @@
+## 2.5.1 — revisão de materiais, navegação e sequência
+
+- Coleta específica para os dez segmentos de anúncios e interfaces.
+- Todos os tipos do catálogo disponíveis no filtro; numeração cronológica dos quadros.
+- Estado inválido e fragmentos de URL não impedem inicialização; preferência de avatar explícita no pedido.
+- Download da Page abre uma página na origem das imagens, evitando canvas entre domínios.
+- Sem novos vídeos, alteração de IDs ou aprovação audiovisual implícita.
+
 # 2.5.0 · 2026-11-12
 
 60 anúncios narrados em dez segmentos; catálogo 4.3 com 780 estilos. Quatro quadros por conceito, DBO/AIDA, narração, legendas e CTA no preset, pedido e planejador. Opção de 45 s e migração de favoritos Page preservada. Skill e plugin multimarcas atualizados, sem mudança da skill pessoal.

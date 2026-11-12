@@ -38,8 +38,8 @@
   if(!window.AtlasCurrentChoice)return;
   const c=window.AtlasCurrentChoice(),esc=AtlasViews.esc;
   $('requestSummary').innerHTML=[['Tema',c.topic||'Definir no briefing'],['Marca ou site',c.brand||'Identidade a definir'],['Formato e duração',`${c.format} · ${c.targetDurationSeconds} segundos`],['Tipografia',c.typography==='auto'?'Seguir o estilo e a marca':c.typography]].map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd><button type="button" data-edit-brief aria-label="Editar ${esc(k)}">✎</button></div>`).join('');
-  const ids=new Set(['product','property','ui','data','clinical','course','coverage','presenter','brand','facts']);
-  const materials=c.intake.items.filter(x=>ids.has(x.id));
+  const ids=new Set(['product','property','ui','data','clinical','course','coverage','presenter','legal','food','identity','voice','brand','facts']);
+  const materials=c.intake.items.filter(x=>ids.has(x.id)).sort((a,b)=>Number(['brand','facts','identity','voice'].includes(a.id))-Number(['brand','facts','identity','voice'].includes(b.id)));
   $('summaryMaterials').replaceChildren(...materials.slice(0,4).map(x=>{const row=document.createElement('li');const title=document.createElement('strong');title.textContent=x.title;const hint=document.createElement('span');hint.textContent=x.id==='brand'?'Opcional':'Conforme o conteúdo';row.append(title,hint);return row}));
  }
  function showFrame(id,index,trigger){
