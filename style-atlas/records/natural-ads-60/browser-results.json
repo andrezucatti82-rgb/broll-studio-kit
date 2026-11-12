@@ -8,5 +8,11 @@
   "downloadPNG": true,
   "reload": true,
   "pageNoLocalStorage": true,
-  "errors": []
+  "errors": [],
+  "compiledPageBundle": true,
+  "compiledPageFavoriteMigration": "4.2 → 4.3",
+  "mobileNewCategory": true,
+  "mobileDetail": true,
+  "liveMirrorBrowser": true,
+  "liveMirrorSegmentImageHashes": 10
 }

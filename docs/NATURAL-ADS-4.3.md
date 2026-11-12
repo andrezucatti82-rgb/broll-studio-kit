@@ -33,6 +33,6 @@ Os quatro quadros representam evolução narrativa; não impõem quatro cenas ne
 
 ## Verificação desta entrega
 
-`npm ci --ignore-scripts`, `npm run check`, `npm test` e `npm run validate` executados. Os 11 arquivos de testes Node e os 4 testes Python passaram. Chromium local: dez categorias com seis estilos, download PNG, pedido de 45 s, recuperação após recarregar, largura 375 px sem overflow e modo Page com acesso a localStorage proibido. O bridge de Page foi simulado; não equivale a teste em cada aplicativo instalado. Registros em `style-atlas/records/natural-ads-60/`.
+`npm ci` (também executado inicialmente com `--ignore-scripts`), `npm run check`, `npm test` e `npm run validate` executados. Os 11 arquivos de testes Node e os 4 testes Python passaram. Chromium local: dez categorias com seis estilos, download PNG, pedido de 45 s, recuperação após recarregar, largura 375 px sem overflow e modo Page com acesso a localStorage proibido. O bridge de Page foi simulado; não equivale a teste em cada aplicativo instalado. Registros em `style-atlas/records/natural-ads-60/`.
 
 As 60 pranchas foram inspecionadas em folhas de contato; composições sinalizadas foram revistas individualmente. Não houve teste de vídeo, locução ou identidade contra originais de clientes. Os seis pilotos têm aprovação conceitual; as outras direções aguardam avaliação do usuário.
