@@ -110,7 +110,7 @@ A GDA é a identidade da galeria hospedada. O vídeo é adaptado à marca do bri
 
 ## Novas direções da edição 3.1
 
-Na galeria, use **Novos · 260**. Há 720 presets em 18 categorias de 30. A ficha mostra diferenças, recursos, áudio e referências; esses dados acompanham o pedido e o JSON exportado. Atualize o repositório com `git pull` e reimporte o pacote da skill na superfície que exigir instalação própria. Atualizar GitHub ou o site não atualiza automaticamente plugins já importados em outras contas. Consulte [a pesquisa](../style-atlas/records/RESEARCH.md).
+Na galeria, explore o menu de categorias. Há 780 presets em 28 categorias: 18 famílias de 40 e dez segmentos de anúncios com seis direções cada. A ficha mostra diferenças, recursos, áudio e referências; esses dados acompanham o pedido e o JSON exportado. Atualize o repositório com `git pull` e reimporte o pacote da skill na superfície que exigir instalação própria. Atualizar GitHub ou o site não atualiza automaticamente plugins já importados em outras contas. Consulte [a pesquisa](../style-atlas/records/RESEARCH.md).
 
 ## Materiais e solução de bloqueios
 
