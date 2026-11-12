@@ -41,3 +41,11 @@ As regras de preservação de identidade, originais, texto editável, referênci
 Verificações locais executadas: npm ci, npm run check, npm test (13 arquivos Node e oito testes Python), npm run validate e build da Page. Chromium: três percursos guiados, sugestões com imagens, pacote exportado/reimportado, ajustes, restauração, 320/375/768/1440 px sem overflow e Page com bridge simulado, recursos remotos reais e localStorage proibido. A Page compilada preserva os botões do assistente; o visualizador nativo do ChatGPT não foi certificado. Os três presets de teste também prepararam registros locais de produção e coordenação, sem mídia gerada. Veja [os presets executáveis](../examples/guided/README.md). A publicação será registrada no recibo desta edição. A geração paga dos três casos continua dependendo da apresentação do teste e autorização de custo, seguida das aprovações visuais e da revisão audiovisual.
 
 A instalação é por superfície: atualizar repositório/pacotes não confirma a instalação de um plugin na conta do ChatGPT. A skill pessoal Video B-roll permanece separada. A identidade GDA pertence à interface; receitas, presets e instruções reutilizáveis são neutros.
+
+## Publicação e pendências desta entrega
+
+O domínio principal concluiu a rotina de publicação 43311927878. Uma consulta pública sem cache retornou HTTP200, o release `atlas-20261112213652` e os controles/módulos do modo guiado. A Page foi atualizada até a sequência60, e a instalação local do Codex2.7.0 foi confirmada antes da interrupção.
+
+O espelho permanece na versão anterior: seu endpoint Git retornou502 e o ambiente de execução ficou indisponível antes da nova tentativa. A verificação interativa pós-publicação também ficou pendente; os testes completos de navegador foram executados localmente antes da interrupção. O plugin da conta de nuvem não teve instalação confirmada. Nenhuma geração de vídeo, voz ou imagem foi executada.
+
+O [recibo de publicação](../style-atlas/records/guided-2.7/publication.json) registra esses estados. Para retomar no ambiente: preservar alterações locais, atualizar a branch por fast-forward quando possível, enviar os seis arquivos de interface alterados e os dois módulos guiados ao espelho conforme o diff, publicar sua versão e repetir os testes online. Não gerar os três casos pagos sem preço/escopo autorizados e aceites visuais.
