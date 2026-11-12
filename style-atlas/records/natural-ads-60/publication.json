@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-12",
+  "catalogVersion": "4.3",
+  "styles": 780,
+  "categories": 28,
+  "newStyles": 60,
+  "newFrames": 240,
+  "sourceCommit": "acef68e310caea0d7724e3bc7e8e4138409aa148",
+  "branch": "feat/visual-app-720",
+  "mainMerged": false,
+  "primary": {
+    "url": "https://videos.gerenciadordeanuncios.com.br/",
+    "release": "atlas-20261112010809",
+    "workflowRun": 43132315103,
+    "status": "success",
+    "checks": [
+      "780 styles / 28 categories",
+      "app.js, workflow.js and new image hashes match",
+      "Live Chromium desktop/mobile and narrated 45-second request passed"
+    ]
+  },
+  "mirror": {
+    "url": "https://video-multimarcas-estilos.andrezucatti82.chatgpt.site",
+    "version": 27,
+    "status": "succeeded",
+    "checks": [
+      "Live Chromium category, no JavaScript errors",
+      "Page payload and ten segment image hashes match"
+    ]
+  },
+  "page": {
+    "id": "page_05d0233621d081919b31df2863cab40b",
+    "sequence": 51,
+    "compiledBundleTestedWithSimulatedBridge": true,
+    "nativeViewerTested": false
+  },
+  "plugin": {
+    "name": "video-multimarcas",
+    "version": "2.5.0",
+    "codexLocalInstalledAndEnabled": true,
+    "chatgptAccountInstallationConfirmed": false,
+    "personalVideoBRollModified": false
+  },
+  "tests": [
+    "npm ci",
+    "npm run check",
+    "npm test: 11 Node test files + 4 Python tests",
+    "npm run validate"
+  ],
+  "newVideoOrAudioGenerated": false
+}
