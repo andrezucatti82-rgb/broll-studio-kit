@@ -12,3 +12,5 @@ test('missing or unsafe URL never becomes an invented public reference',()=>{ass
 test('approved direction cannot silently change after acceptance',()=>fixture((p,o)=>{p.shots[0].camera='different camera';assert.equal(checkFidelity(p,o).ready,false);}));
 
 test('submitted prompt cannot diverge from approved scene',()=>fixture((p,o,a)=>{const r=checkFidelity(p,{...o,shotId:'shot',job:{mode:'image_to_video',firstFrame:a.file,prompt:'Different scene',duration:10,model:'heygen-video-1',resolution:'768p',aspect_ratio:'9:16'}});assert.equal(r.ready,false);assert.ok(r.errors.some(e=>e.includes('parâmetros')));}));
+
+test('direction fingerprint ignores JSON key order and output review notes',()=>fixture((p,o)=>{const original=directionFingerprint(p);p.shots[0]=Object.fromEntries(Object.entries(p.shots[0]).reverse());p.shots[0].outputReviewNotes='Added after generation';assert.equal(directionFingerprint(p),original);assert.equal(checkFidelity(p,o).ready,true);}));

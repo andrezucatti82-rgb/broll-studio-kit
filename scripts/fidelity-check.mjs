@@ -4,7 +4,8 @@ import crypto from 'node:crypto';
 import {pathToFileURL} from 'node:url';
 const text=v=>typeof v==='string'&&v.trim().length>0;
 const hash=v=>/^[a-f0-9]{64}$/i.test(v||'');
-export function directionFingerprint(plan){return crypto.createHash('sha256').update(JSON.stringify({references:(plan.references||[]).map(r=>({id:r.id,sha256:r.sha256,role:r.role})),moodboard:plan.approvals?.moodboard?.sha256,storyboard:plan.approvals?.storyboard?.sha256,shots:plan.shots||[],tools:(plan.capabilities||[]).map(c=>({id:c.id,tool:c.tool,mode:c.mode,scope:c.scope}))})).digest('hex');}
+function canonical(value){if(Array.isArray(value))return value.map(canonical);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])]));return value;}
+export function directionFingerprint(plan){const fields=['id','styleId','referenceIds','originalReferenceIds','initialState','action','result','camera','transition','narration','audio','preserve','editableText','realSubject','route','capabilityId','initialFrame','inputReferenceIds','appearanceCritical','appearanceExceptionApproval','generationPrompt','durationSeconds','generationSettings'];const data={references:(plan.references||[]).map(r=>({id:r.id,sha256:r.sha256,role:r.role})),moodboard:plan.approvals?.moodboard?.sha256,storyboard:plan.approvals?.storyboard?.sha256,shots:(plan.shots||[]).map(s=>Object.fromEntries(fields.filter(k=>k in s).map(k=>[k,s[k]]))),tools:(plan.capabilities||[]).map(c=>({id:c.id,tool:c.tool,mode:c.mode,scope:c.scope}))};return crypto.createHash('sha256').update(JSON.stringify(canonical(data))).digest('hex');}
 export function checkFidelity(plan,{phase='sample',directory='.',shotId,job,jobDirectory=directory}={}){
  const errors=[],root=path.resolve(directory),refs=new Map(),caps=new Map();
  const fail=m=>errors.push(m);
