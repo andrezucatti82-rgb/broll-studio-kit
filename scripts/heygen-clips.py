@@ -85,8 +85,8 @@ def submit(job_path, ledger_path, execute=False):
         check_budget(ledger,job['reserveUSD']);payload=payload_for(job,job_path.parent)
         if not execute:return {'status':'planned','reserveUSD':job['reserveUSD'],'duration':job['duration'],'provider':'heygen_direct_api'}
         verify_direction(job,job_path)
-        account,_=api('/v3/users/me');wallet=account['data'].get('wallet',{})
-        if wallet.get('currency')!='usd' or wallet.get('remaining_balance') is None:raise ValueError('USD wallet could not be verified')
+        account,_=api('/v3/users/me');wallet=account['data'].get('wallet') or {}
+        if wallet.get('currency')!='usd' or wallet.get('remaining_balance') is None:raise ValueError('USD wallet could not be verified for this direct API account; subscription or MCP credits are not interchangeable. No generation submitted')
         balance=Decimal(str(wallet['remaining_balance']));reserve=Decimal(str(job['reserveUSD']))
         threshold=Decimal(str(wallet.get('auto_reload',{}).get('threshold_usd',0))) if wallet.get('auto_reload',{}).get('enabled') else Decimal(0)
         if balance-reserve<=threshold:raise ValueError('Insufficient safe balance or auto-reload threshold; no generation submitted')

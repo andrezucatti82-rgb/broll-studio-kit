@@ -36,7 +36,7 @@ O teste criativo recomendado é escolher um estilo sem vídeo, preparar originai
 
 ## Verificação desta edição
 
-`npm ci`, `npm run check`, `npm test` (12 arquivos Node e sete testes Python), `npm run validate` e build da Page. O teste dos 780 pedidos confere manifesto, URLs dos quatro quadros, protocolo e neutralidade de marca. Testes do controle cobrem arquivos alterados, referência faltante, origem real ausente, compatibilidade pendente, troca de prompt/quadro, direção modificada e aceite antigo. O teste Python confirma que a API não é chamada sem o registro obrigatório.
+`npm ci`, `npm run check`, `npm test` (12 arquivos Node e oito testes Python), `npm run validate` e build da Page. O teste dos 780 pedidos confere manifesto, URLs dos quatro quadros, protocolo e neutralidade de marca. Testes do controle cobrem arquivos alterados, referência faltante, origem real ausente, compatibilidade pendente, troca de prompt/quadro, direção modificada e aceite antigo. O teste Python confirma que a API não é chamada sem o registro obrigatório.
 
 A execução da Page com recursos remotos reais revelou bloqueio CORS no fetch de `fonts.json`, que impedia concluir a inicialização. O build agora inclui os metadados das fontes na Page; os arquivos de fontes continuam usando suas URLs de origem compatíveis. O teste anterior com roteamento de arquivos candidatos não detectava esse problema.
 

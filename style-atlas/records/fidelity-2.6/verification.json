@@ -29,7 +29,7 @@
   "checks": [
     "npm ci",
     "npm run check",
-    "npm test: 12 Node files and 7 Python tests",
+    "npm test: 12 Node files and 8 Python tests",
     "npm run validate",
     "Page build",
     "Chromium: 375px and 1440px, reference URLs and real remote Page data"

@@ -31,4 +31,10 @@ class BudgetTests(unittest.TestCase):
    with patch.object(m,'api') as api:
     with self.assertRaises(ValueError):m.submit(job,ledger,True)
     api.assert_not_called()
-if __name__=='__main__' :unittest.main()
+ def test_subscription_account_without_wallet_has_clear_block(self):
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d);job=p/'job.json';ledger=p/'ledger.json';job.write_text(json.dumps({'model':'heygen-video-1','duration':10,'mode':'text_to_video','reserveUSD':1}));ledger.write_text(json.dumps(self.ledger()))
+   with patch.object(m,'verify_direction'),patch.object(m,'api',return_value=({'data':{'wallet':None}},None)) as api:
+    with self.assertRaisesRegex(ValueError,'not interchangeable'):m.submit(job,ledger,True)
+    api.assert_called_once_with('/v3/users/me')
+if __name__=='__main__'  :unittest.main()
