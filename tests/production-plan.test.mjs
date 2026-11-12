@@ -26,7 +26,7 @@ test('production retains complete old and new style directions and preserves edi
   fs.writeFileSync(preset,JSON.stringify({topic:'Style execution',format:'9:16',targetDurationSeconds:90,selectedStyles:selected.map(s=>({id:s.id}))}));prepareProduction(preset,out);
   const file=path.join(out,'style-execution-plan.json'),plan=JSON.parse(fs.readFileSync(file));
   assert.equal(plan.catalogSnapshot.version,catalog.version);assert.equal(plan.targetDurationSeconds,90);assert.equal(plan.sample.targetSeconds,10);assert.equal(plan.sample.userApproval.status,'pending');
-  for(const [i,s] of selected.entries())for(const key of ['id','signature','motion','resources','audio','requirements','proof','readiness'])assert.deepEqual(plan.selectedStyles[i][key],s[key]);
+  for(const [i,s] of selected.entries())for(const key of ['id','signature','motion','resources','audio','requirements','proof','readiness','advertising'])assert.deepEqual(plan.selectedStyles[i][key],s[key]);
   assert.equal(plan.selectedStyles[1].referenceFrame.styleId,selected[1].id);
   plan.deviations.push({reason:'User note retained'});fs.writeFileSync(file,JSON.stringify(plan));prepareProduction(preset,out);assert.deepEqual(JSON.parse(fs.readFileSync(file)),plan);
   fs.unlinkSync(file);prepareProduction(preset,out);assert.equal(JSON.parse(fs.readFileSync(file)).sample.userApproval.status,'pending');

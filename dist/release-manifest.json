@@ -1,23 +1,23 @@
 {
   "plugin": "video-multimarcas",
-  "pluginVersion": "2.4.0",
-  "kitVersion": "2.4.0",
-  "catalogVersion": "4.2",
-  "styleCount": 720,
-  "categoryCount": 18,
+  "pluginVersion": "2.5.0",
+  "kitVersion": "2.5.0",
+  "catalogVersion": "4.3",
+  "styleCount": 780,
+  "categoryCount": 28,
   "installationScope": "Packages do not install or update a ChatGPT account automatically.",
   "packages": {
     "video-multimarcas-plugin.zip": {
-      "bytes": 44768,
-      "sha256": "857df48bef9a646f4cc5833201bc9a9eb6ef0d3208c74a6122aba92165d63362"
+      "bytes": 47449,
+      "sha256": "04ead00873e1ffa688e2d0104c2b2f9fd8fb032fc35deb5d155087e8bff0127c"
     },
     "video-multimarcas.skill": {
-      "bytes": 44149,
-      "sha256": "74f986443034d29d3460afe974f493bf69357d18fc2d953095dc41237c5a4286"
+      "bytes": 46816,
+      "sha256": "ca239c2003530696a377eb3bca51bf865ef057a940f3eaa41eb8bd1c00d55149"
     },
     "video-multimarcas.zip": {
-      "bytes": 44149,
-      "sha256": "74f986443034d29d3460afe974f493bf69357d18fc2d953095dc41237c5a4286"
+      "bytes": 46816,
+      "sha256": "ca239c2003530696a377eb3bca51bf865ef057a940f3eaa41eb8bd1c00d55149"
     }
   }
 }

@@ -1,6 +1,6 @@
 # Do estilo escolhido à execução
 
-Use este protocolo quando receber um pedido, preset ou seleção do atlas. A edição visual 4.2 mantém 720 estilos e seus IDs em 18 categorias. Cada direção tem quatro quadros conceituais e um plano que liga os estados visuais à execução. Imagem aprovada não comprova movimento. Os seis vídeos anteriores permanecem amostras pendentes e podem anteceder a revisão visual.
+Use este protocolo quando receber um pedido, preset ou seleção do atlas. A edição visual 4.3 mantém os 720 estilos anteriores e acrescenta 60 anúncios narrados; são 780 estilos em 28 categorias. Cada direção tem quatro quadros conceituais e um plano que liga os estados visuais à execução. Imagem aprovada não comprova movimento. Os seis vídeos anteriores permanecem amostras pendentes e podem anteceder a revisão visual.
 
 ## Recuperar a direção completa
 

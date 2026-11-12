@@ -67,6 +67,28 @@ test('Page mode never reads localStorage; 30 second choice saved using widget st
  app.click('#videoFilter');assert.equal(app.document.querySelectorAll('#grid .card').length,6);
 });
 
+test('narrated ads: ten segments, 45 second handoff and local restore retain the ad contract',async()=>{
+ const app=await boot();const {document:d,ctx,click,change}=app;
+ click('[data-nav-group="natural-ads"]');assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,10);
+ click('[data-nav-family="ads-joias"]');assert.equal(d.querySelectorAll('#grid .card').length,6);
+ click('#grid [data-choose]');change('duration','45');change('topic','Uma coleção demonstrativa');
+ d.getElementById('briefForm').dispatchEvent(new ctx.Event('submit',{bubbles:true,cancelable:true}));
+ await new Promise(r=>setTimeout(r,20));
+ const c=ctx.AtlasCurrentChoice();assert.equal(c.targetDurationSeconds,45);assert.equal(c.firstDeliverySeconds,10);
+ assert.equal(c.selectedStyles[0].advertising.narrationRequired,true);assert.equal(c.selectedStyles[0].advertising.captionsRequired,true);
+ assert.match(d.getElementById('promptOutput').value,/Duração alvo: 45 segundos/);
+ assert.ok(d.getElementById('promptOutput').value.includes(c.selectedStyles[0].advertising.cta));
+ const resumed=await boot({saved:JSON.parse(app.store.get('video-multimarcas-atlas-v1'))});
+ assert.equal(resumed.ctx.AtlasCurrentChoice().targetDurationSeconds,45);
+ assert.equal(resumed.ctx.AtlasCurrentChoice().selectedStyles[0].advertising.framework,c.selectedStyles[0].advertising.framework);
+});
+
+test('Page 4.2 favourites migrate by append-only positions without localStorage',async()=>{
+ const app=await boot({page:true,saved:{modelContent:{targetDurationSeconds:45},privateContent:{catalogVersion:'4.2',favoriteBits:'1'+'0'.repeat(718)+'1'}}});
+ app.click('#favoriteFilter');assert.equal(app.document.querySelectorAll('#grid .card').length,2);
+ assert.equal(app.ctx.AtlasCurrentChoice().targetDurationSeconds,45);assert.equal(app.getStorageReads(),0);
+});
+
 test('Page migration retains 4.1 favourites and resets approvals when reference images change',async()=>{
  const original=await boot({page:true});original.click('#grid [data-choose]');
  const c=JSON.parse(JSON.stringify(original.ctx.AtlasCurrentChoice()));
@@ -85,11 +107,11 @@ test('Page migration retains 4.1 favourites and resets approvals when reference 
  assert.equal(resumed.getStorageReads(),0);
 });
 
-test('hybrid categories: all 18 remain reachable, group visuals and style shortcuts share catalogue state',async()=>{
+test('hybrid categories: all 28 remain reachable, group visuals and style shortcuts share catalogue state',async()=>{
  const {document:d,ctx,click}=await boot();
- assert.equal(ctx.AtlasNavigation.groups.flatMap(g=>g.families).length,18);
- assert.equal(new Set(ctx.AtlasNavigation.groups.flatMap(g=>g.families)).size,18);
- assert.equal(d.querySelectorAll('#categoryGroups [data-nav-family]').length,18);
+ assert.equal(ctx.AtlasNavigation.groups.flatMap(g=>g.families).length,28);
+ assert.equal(new Set(ctx.AtlasNavigation.groups.flatMap(g=>g.families)).size,28);
+ assert.equal(d.querySelectorAll('#categoryGroups [data-nav-family]').length,28);
  assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,6);
  click('[data-nav-family="cinema"]');
  assert.equal(d.querySelectorAll('#grid .card').length,40);

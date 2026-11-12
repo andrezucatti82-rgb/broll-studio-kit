@@ -1,0 +1,12 @@
+{
+  "styles": 780,
+  "segments": 10,
+  "each": 6,
+  "desktop": 1440,
+  "mobile": 375,
+  "duration45": true,
+  "downloadPNG": true,
+  "reload": true,
+  "pageNoLocalStorage": true,
+  "errors": []
+}

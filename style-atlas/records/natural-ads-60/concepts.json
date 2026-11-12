@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "natural-joias-do-gesto-a-assinatura",
+    "name": "Do gesto à assinatura",
+    "family": "ads-joias",
+    "familyName": "Joias artesanais",
+    "framework": "AIDA",
+    "look": "Prata martelada, índigo lavado e bancada de madeira; pingente oval pequeno sem pedra.",
+    "beats": [
+      "Desenho e pingente na bancada",
+      "Mãos mostram a textura da prata",
+      "A artesã usa o pingente no café",
+      "Caixa aberta apresenta a mesma peça"
+    ],
+    "hook": "Uma joia começa antes de chegar até você.",
+    "benefit": "O desenho e o trabalho manual dão contexto à peça e à escolha.",
+    "objection": "A peça entra numa combinação cotidiana, sem exigir uma ocasião especial.",
+    "cta": "Conheça a coleção",
+    "sound": "Som de ferramentas e corrente; violão contemporâneo discreto",
+    "heroIndex": 1,
+    "pilot": "01-joias.png",
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Do gesto à assinatura. AMBIENTE E PRODUTO: Prata martelada, índigo lavado e bancada de madeira; pingente oval pequeno sem pedra.\nQUADRO 1: Desenho e pingente na bancada.\nQUADRO 2: Mãos mostram a textura da prata.\nQUADRO 3: A artesã usa o pingente no café.\nQUADRO 4: Caixa aberta apresenta a mesma peça.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-joias-o-presente-antes-da-caixa",
+    "name": "O presente antes da caixa",
+    "family": "ads-joias",
+    "familyName": "Joias artesanais",
+    "framework": "DBO",
+    "look": "Mesa azul-pálido, papel de seda pêssego, par de brincos de cerâmica terracota em argolas finas.",
+    "beats": [
+      "Pessoa indecisa diante de duas caixas vazias",
+      "Escolhe brincos pela cor de um lenço da presenteada",
+      "Embala as peças com bilhete sem texto",
+      "Entrega a caixa e a outra pessoa abre"
+    ],
+    "hook": "Quer presentear sem escolher qualquer coisa?",
+    "benefit": "Observar o estilo de quem recebe torna a escolha mais pessoal.",
+    "objection": "Antes de decidir, confira material, medidas e opções de embalagem disponíveis.",
+    "cta": "Veja as opções para presentear",
+    "sound": "Papel de seda, tampa e encontro de mãos; piano leve",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O presente antes da caixa. AMBIENTE E PRODUTO: Mesa azul-pálido, papel de seda pêssego, par de brincos de cerâmica terracota em argolas finas.\nQUADRO 1: Pessoa indecisa diante de duas caixas vazias.\nQUADRO 2: Escolhe brincos pela cor de um lenço da presenteada.\nQUADRO 3: Embala as peças com bilhete sem texto.\nQUADRO 4: Entrega a caixa e a outra pessoa abre.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-joias-a-medida-do-detalhe",
+    "name": "A medida do detalhe",
+    "family": "ads-joias",
+    "familyName": "Joias artesanais",
+    "framework": "DBO",
+    "look": "Luz branca de janela, mãos maduras, anel aberto de prata fosca, fita de medição sem números legíveis.",
+    "beats": [
+      "Anel na tela do celular gera dúvida sobre tamanho",
+      "Mãos colocam o anel ao lado da fita",
+      "Plano lateral mostra espessura e perfil",
+      "Mão usa a peça e fecha o estojo"
+    ],
+    "hook": "Na foto, uma joia pode parecer maior ou menor.",
+    "benefit": "Mostrar a escala, o perfil e o uso ajuda a entender a peça.",
+    "objection": "O tamanho deve vir das medidas reais e do guia da marca, sem prometer ajuste para todos.",
+    "cta": "Confira as medidas da peça",
+    "sound": "Toque metálico suave e estojo; batida mínima",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A medida do detalhe. AMBIENTE E PRODUTO: Luz branca de janela, mãos maduras, anel aberto de prata fosca, fita de medição sem números legíveis.\nQUADRO 1: Anel na tela do celular gera dúvida sobre tamanho.\nQUADRO 2: Mãos colocam o anel ao lado da fita.\nQUADRO 3: Plano lateral mostra espessura e perfil.\nQUADRO 4: Mão usa a peça e fecha o estojo.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-joias-a-escolha-encontra-a-luz",
+    "name": "A escolha encontra a luz",
+    "family": "ads-joias",
+    "familyName": "Joias artesanais",
+    "framework": "AIDA",
+    "look": "Brinco pequeno de vidro âmbar, janela de cozinha azul acinzentada, pele negra natural, sol suave.",
+    "beats": [
+      "Mão abre a cortina e traz luz para a mesa",
+      "Brinco gira lentamente entre dois dedos",
+      "Pessoa coloca o brinco diante do espelho",
+      "Sai pela porta usando a mesma peça"
+    ],
+    "hook": "Às vezes, um detalhe muda o jeito de olhar uma combinação.",
+    "benefit": "O vidro encontra a luz e revela cor, transparência e escala.",
+    "objection": "O uso real mostra como a peça participa do visual, sem brilho artificial exagerado.",
+    "cta": "Explore os detalhes da coleção",
+    "sound": "Cortina, fecho e passos; percussão delicada",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A escolha encontra a luz. AMBIENTE E PRODUTO: Brinco pequeno de vidro âmbar, janela de cozinha azul acinzentada, pele negra natural, sol suave.\nQUADRO 1: Mão abre a cortina e traz luz para a mesa.\nQUADRO 2: Brinco gira lentamente entre dois dedos.\nQUADRO 3: Pessoa coloca o brinco diante do espelho.\nQUADRO 4: Sai pela porta usando a mesma peça.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-joias-memoria-que-se-usa",
+    "name": "Memória que se usa",
+    "family": "ads-joias",
+    "familyName": "Joias artesanais",
+    "framework": "AIDA",
+    "look": "Mesa com fotos pessoais fictícias sem letras, pulseira de elos finos dourados e pequeno medalhão oval, oliva e creme.",
+    "beats": [
+      "Mulher adulta abre gaveta de lembranças",
+      "Escolhe pulseira junto a uma fotografia",
+      "Outra pessoa ajuda a fechar a pulseira",
+      "As duas caminham juntas com foco nas mãos"
+    ],
+    "hook": "Algumas escolhas guardam uma história.",
+    "benefit": "O gesto de dar e de usar conecta o objeto a um momento.",
+    "objection": "A cena é ficcional e emocional, sem fingir depoimento de cliente ou personalização indisponível.",
+    "cta": "Descubra a coleção",
+    "sound": "Gaveta, fecho e ambiente de rua; tema instrumental íntimo",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Memória que se usa. AMBIENTE E PRODUTO: Mesa com fotos pessoais fictícias sem letras, pulseira de elos finos dourados e pequeno medalhão oval, oliva e creme.\nQUADRO 1: Mulher adulta abre gaveta de lembranças.\nQUADRO 2: Escolhe pulseira junto a uma fotografia.\nQUADRO 3: Outra pessoa ajuda a fechar a pulseira.\nQUADRO 4: As duas caminham juntas com foco nas mãos.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-joias-tres-jeitos-de-fazer-seu",
+    "name": "Três jeitos de fazer seu",
+    "family": "ads-joias",
+    "familyName": "Joias artesanais",
+    "framework": "DBO",
+    "look": "Mesmo colar curto de contas cerâmicas verdes, camisa branca, camiseta cinza e malha azul em casa iluminada.",
+    "beats": [
+      "Pessoa hesita diante do colar sobre a cama",
+      "Combina com camisa branca no espelho",
+      "Troca a camada externa mantendo o mesmo colar",
+      "Reúne as três combinações sobre a cama e escolhe uma"
+    ],
+    "hook": "Gostou da peça, mas não sabe como combinar?",
+    "benefit": "Três composições reais mostram possibilidades para o mesmo acessório.",
+    "objection": "São sugestões de estilo, não regras de corpo ou promessas de versatilidade universal.",
+    "cta": "Veja as combinações e escolha a sua",
+    "sound": "Cabides e tecido; groove suave com cortes por gesto",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Três jeitos de fazer seu. AMBIENTE E PRODUTO: Mesmo colar curto de contas cerâmicas verdes, camisa branca, camiseta cinza e malha azul em casa iluminada.\nQUADRO 1: Pessoa hesita diante do colar sobre a cama.\nQUADRO 2: Combina com camisa branca no espelho.\nQUADRO 3: Troca a camada externa mantendo o mesmo colar.\nQUADRO 4: Reúne as três combinações sobre a cama e escolhe uma.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-capachos-a-casa-comeca-antes-da-porta",
+    "name": "A casa começa antes da porta",
+    "family": "ads-capachos",
+    "familyName": "Capachos de fibra de coco",
+    "framework": "DBO",
+    "look": "Porta vermelho queimado, pedra clara, planta de oliveira e capacho retangular liso com borda marrom.",
+    "beats": [
+      "Pessoa chega e encontra entrada sem capacho",
+      "Mãos assentam o capacho na soleira",
+      "Passo mostra escala e textura",
+      "Porta abre revelando entrada acolhedora"
+    ],
+    "hook": "A casa está pronta, mas a entrada parece incompleta?",
+    "benefit": "Textura e proporção ajudam a compor a chegada.",
+    "objection": "Confira medidas, vão da porta e cuidados antes de escolher.",
+    "cta": "Conheça os modelos",
+    "sound": "Chaves, fibra e porta; trilha doméstica leve",
+    "heroIndex": 1,
+    "pilot": "02-capachos.png",
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A casa começa antes da porta. AMBIENTE E PRODUTO: Porta vermelho queimado, pedra clara, planta de oliveira e capacho retangular liso com borda marrom.\nQUADRO 1: Pessoa chega e encontra entrada sem capacho.\nQUADRO 2: Mãos assentam o capacho na soleira.\nQUADRO 3: Passo mostra escala e textura.\nQUADRO 4: Porta abre revelando entrada acolhedora.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-capachos-antes-de-caber-medir",
+    "name": "Antes de caber, medir",
+    "family": "ads-capachos",
+    "familyName": "Capachos de fibra de coco",
+    "framework": "DBO",
+    "look": "Entrada estreita azul-petróleo, trena sem dígitos legíveis, capacho meia-lua liso de coco.",
+    "beats": [
+      "Mão segura capacho ainda enrolado diante da porta",
+      "Trena mede espaço da soleira",
+      "Capacho é colocado e a porta abre com folga",
+      "Vista superior mostra o encaixe real"
+    ],
+    "hook": "Seu espaço de entrada é pequeno?",
+    "benefit": "Medir o local ajuda a escolher um formato proporcional.",
+    "objection": "A abertura da porta e as dimensões precisam ser verificadas, sem simular um encaixe impossível.",
+    "cta": "Confira os formatos e medidas",
+    "sound": "Trena, desenrolar e dobradiça; pulso minimalista",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Antes de caber, medir. AMBIENTE E PRODUTO: Entrada estreita azul-petróleo, trena sem dígitos legíveis, capacho meia-lua liso de coco.\nQUADRO 1: Mão segura capacho ainda enrolado diante da porta.\nQUADRO 2: Trena mede espaço da soleira.\nQUADRO 3: Capacho é colocado e a porta abre com folga.\nQUADRO 4: Vista superior mostra o encaixe real.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-capachos-textura-de-perto-casa-de-longe",
+    "name": "Textura de perto, casa de longe",
+    "family": "ads-capachos",
+    "familyName": "Capachos de fibra de coco",
+    "framework": "AIDA",
+    "look": "Capacho retangular de coco com trama grossa lisa, corredor terracota, banco de madeira e luz lateral difusa.",
+    "beats": [
+      "Mão pousa sobre a textura do capacho",
+      "Plano rasante revela fibras e borda",
+      "Câmera recua para mostrar o produto inteiro na entrada",
+      "Pessoa apoia a bolsa no banco e entra"
+    ],
+    "hook": "De perto, textura. De longe, parte da casa.",
+    "benefit": "A mudança de escala conecta material, objeto e ambiente.",
+    "objection": "A aproximação revela somente detalhes documentados do produto real.",
+    "cta": "Explore os detalhes do modelo",
+    "sound": "Fibra, bolsa e passos; cordas suaves",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Textura de perto, casa de longe. AMBIENTE E PRODUTO: Capacho retangular de coco com trama grossa lisa, corredor terracota, banco de madeira e luz lateral difusa.\nQUADRO 1: Mão pousa sobre a textura do capacho.\nQUADRO 2: Plano rasante revela fibras e borda.\nQUADRO 3: Câmera recua para mostrar o produto inteiro na entrada.\nQUADRO 4: Pessoa apoia a bolsa no banco e entra.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-capachos-boas-vindas-em-dois-ambientes",
+    "name": "Boas-vindas em dois ambientes",
+    "family": "ads-capachos",
+    "familyName": "Capachos de fibra de coco",
+    "framework": "AIDA",
+    "look": "Mesmo capacho liso de coco com borda grafite; duas entradas distintas, uma com azulejo verde e outra cimento claro.",
+    "beats": [
+      "Capacho é levantado de uma mesa de apoio",
+      "É posicionado diante de porta verde",
+      "Corte por gesto mostra o mesmo modelo em entrada de cimento",
+      "Casal recebe na entrada com o capacho em primeiro plano"
+    ],
+    "hook": "Um modelo, duas maneiras de receber.",
+    "benefit": "Ambientes diferentes mostram escolhas de composição, cor e escala.",
+    "objection": "A montagem não implica uso externo ou resistência não informados.",
+    "cta": "Encontre o modelo para sua entrada",
+    "sound": "Som de apoiar e portas; trilha com dois motivos",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Boas-vindas em dois ambientes. AMBIENTE E PRODUTO: Mesmo capacho liso de coco com borda grafite; duas entradas distintas, uma com azulejo verde e outra cimento claro.\nQUADRO 1: Capacho é levantado de uma mesa de apoio.\nQUADRO 2: É posicionado diante de porta verde.\nQUADRO 3: Corte por gesto mostra o mesmo modelo em entrada de cimento.\nQUADRO 4: Casal recebe na entrada com o capacho em primeiro plano.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-capachos-a-mudanca-comeca-na-soleira",
+    "name": "A mudança começa na soleira",
+    "family": "ads-capachos",
+    "familyName": "Capachos de fibra de coco",
+    "framework": "DBO",
+    "look": "Apartamento em mudança, caixa de papelão sem marca, porta lavanda e capacho retangular de coco puro.",
+    "beats": [
+      "Caixas ocupam a entrada da nova casa",
+      "Pessoa abre caixa e retira o capacho",
+      "Assenta o capacho e afasta a caixa",
+      "Amiga chega e as duas se cumprimentam"
+    ],
+    "hook": "A casa nova ainda não parece sua?",
+    "benefit": "Pequenos objetos ajudam a transformar chegada em rotina.",
+    "objection": "Escolha pela medida e orientação de uso, não só pela fotografia.",
+    "cta": "Veja a coleção para sua casa",
+    "sound": "Caixa, fita e cumprimento; música acolhedora",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A mudança começa na soleira. AMBIENTE E PRODUTO: Apartamento em mudança, caixa de papelão sem marca, porta lavanda e capacho retangular de coco puro.\nQUADRO 1: Caixas ocupam a entrada da nova casa.\nQUADRO 2: Pessoa abre caixa e retira o capacho.\nQUADRO 3: Assenta o capacho e afasta a caixa.\nQUADRO 4: Amiga chega e as duas se cumprimentam.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-capachos-o-caminho-de-quem-recebe",
+    "name": "O caminho de quem recebe",
+    "family": "ads-capachos",
+    "familyName": "Capachos de fibra de coco",
+    "framework": "AIDA",
+    "look": "Pequeno ateliê de cerâmica com porta azul-clara, capacho oval de coco sem desenho, avental e prateleiras reais.",
+    "beats": [
+      "Dona do ateliê vira a chave e abre a porta",
+      "Arruma o capacho oval na entrada",
+      "Cliente chega e pisa sobre o capacho",
+      "Vista interna enquadra a porta e o ambiente aberto"
+    ],
+    "hook": "Antes da conversa, existe a chegada.",
+    "benefit": "O cuidado com a entrada participa da experiência do lugar.",
+    "objection": "Capacidade de uso e manutenção dependem da ficha do modelo, sem inventar durabilidade comercial.",
+    "cta": "Conheça formatos para seu espaço",
+    "sound": "Chave, passos e cerâmica ao fundo; trilha orgânica",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O caminho de quem recebe. AMBIENTE E PRODUTO: Pequeno ateliê de cerâmica com porta azul-clara, capacho oval de coco sem desenho, avental e prateleiras reais.\nQUADRO 1: Dona do ateliê vira a chave e abre a porta.\nQUADRO 2: Arruma o capacho oval na entrada.\nQUADRO 3: Cliente chega e pisa sobre o capacho.\nQUADRO 4: Vista interna enquadra a porta e o ambiente aberto.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-advocacia-antes-da-assinatura-uma-conversa",
+    "name": "Antes da assinatura, uma conversa",
+    "family": "ads-advocacia",
+    "familyName": "Escritórios de advocacia",
+    "framework": "DBO",
+    "look": "Escritório sálvia, mesa de nogueira, advogada adulta de blazer carvão e cliente de camisa azul.",
+    "beats": [
+      "Cliente hesita diante de documento",
+      "Advogada escuta a dúvida",
+      "Cartões organizam os pontos da conversa",
+      "Profissional apresenta os canais de orientação"
+    ],
+    "hook": "Recebeu um contrato e não entendeu o que está assumindo?",
+    "benefit": "Uma conversa pode organizar perguntas sobre obrigações, prazos e condições.",
+    "objection": "Uma dúvida aparentemente pequena também pode merecer esclarecimento contextual.",
+    "cta": "Conheça nossa área de atuação",
+    "sound": "Papel e sala tranquila; piano discreto",
+    "heroIndex": 1,
+    "pilot": "03-advocacia.png",
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Antes da assinatura, uma conversa. AMBIENTE E PRODUTO: Escritório sálvia, mesa de nogueira, advogada adulta de blazer carvão e cliente de camisa azul.\nQUADRO 1: Cliente hesita diante de documento.\nQUADRO 2: Advogada escuta a dúvida.\nQUADRO 3: Cartões organizam os pontos da conversa.\nQUADRO 4: Profissional apresenta os canais de orientação.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-advocacia-a-pasta-que-conta-a-historia",
+    "name": "A pasta que conta a história",
+    "family": "ads-advocacia",
+    "familyName": "Escritórios de advocacia",
+    "framework": "DBO",
+    "look": "Mesa clara, pasta sanfonada azul, documentos fictícios sem dados legíveis, advogado negro de camisa e blazer leve.",
+    "beats": [
+      "Pessoa chega com papéis desorganizados",
+      "Profissional separa documentos com consentimento",
+      "Cliente encontra o comprovante solicitado",
+      "Pasta organizada fecha ao lado de caderno de dúvidas"
+    ],
+    "hook": "Não sabe quais documentos reunir para uma orientação?",
+    "benefit": "Organizar a sequência dos fatos ajuda a preparar a conversa.",
+    "objection": "A lista necessária depende do assunto e não substitui avaliação do caso.",
+    "cta": "Veja como preparar seu atendimento",
+    "sound": "Pasta e folhas; música sóbria com pausas",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A pasta que conta a história. AMBIENTE E PRODUTO: Mesa clara, pasta sanfonada azul, documentos fictícios sem dados legíveis, advogado negro de camisa e blazer leve.\nQUADRO 1: Pessoa chega com papéis desorganizados.\nQUADRO 2: Profissional separa documentos com consentimento.\nQUADRO 3: Cliente encontra o comprovante solicitado.\nQUADRO 4: Pasta organizada fecha ao lado de caderno de dúvidas.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-advocacia-uma-pergunta-por-vez",
+    "name": "Uma pergunta por vez",
+    "family": "ads-advocacia",
+    "familyName": "Escritórios de advocacia",
+    "framework": "AIDA",
+    "look": "Pequena sala de reunião com vidro fosco, cartões creme sem texto, advogada de cabelo curto grisalho.",
+    "beats": [
+      "Profissional recebe um cartão com pergunta",
+      "Ouve o cliente sem interromper",
+      "Separa três cartões para explicar pontos",
+      "Olha para a câmera em convite informativo"
+    ],
+    "hook": "Uma pergunta clara pode ser um bom começo.",
+    "benefit": "O vídeo mostra escuta, contexto e explicação em linguagem acessível.",
+    "objection": "Não apresenta resposta universal nem atendimento fictício como caso real.",
+    "cta": "Conheça os conteúdos de orientação",
+    "sound": "Cartões e cadeira; ambiente de conversa",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Uma pergunta por vez. AMBIENTE E PRODUTO: Pequena sala de reunião com vidro fosco, cartões creme sem texto, advogada de cabelo curto grisalho.\nQUADRO 1: Profissional recebe um cartão com pergunta.\nQUADRO 2: Ouve o cliente sem interromper.\nQUADRO 3: Separa três cartões para explicar pontos.\nQUADRO 4: Olha para a câmera em convite informativo.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-advocacia-decisao-com-contexto",
+    "name": "Decisão com contexto",
+    "family": "ads-advocacia",
+    "familyName": "Escritórios de advocacia",
+    "framework": "AIDA",
+    "look": "Escritório de pequenos negócios, agenda aberta sem números, contrato fictício, advogado e empreendedora.",
+    "beats": [
+      "Empreendedora mostra agenda e documento",
+      "Profissional aponta relações entre os materiais",
+      "Os dois anotam dúvidas separadamente",
+      "Empreendedora guarda material para analisar com calma"
+    ],
+    "hook": "Uma decisão não cabe só na última página.",
+    "benefit": "O contexto do negócio também participa da análise das condições.",
+    "objection": "A orientação considera particularidades e não promete eliminar riscos.",
+    "cta": "Saiba mais sobre a atuação consultiva",
+    "sound": "Caneta, páginas e escritório; trilha contida",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Decisão com contexto. AMBIENTE E PRODUTO: Escritório de pequenos negócios, agenda aberta sem números, contrato fictício, advogado e empreendedora.\nQUADRO 1: Empreendedora mostra agenda e documento.\nQUADRO 2: Profissional aponta relações entre os materiais.\nQUADRO 3: Os dois anotam dúvidas separadamente.\nQUADRO 4: Empreendedora guarda material para analisar com calma.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-advocacia-a-conversa-tambem-pode-ser-a-distancia",
+    "name": "A conversa também pode ser à distância",
+    "family": "ads-advocacia",
+    "familyName": "Escritórios de advocacia",
+    "framework": "DBO",
+    "look": "Home office real, notebook com chamada fictícia sem marca, advogado em sala clara e cliente em casa.",
+    "beats": [
+      "Cliente reúne documentos diante do computador",
+      "Profissional aparece em videochamada autorizada",
+      "Tela dividida mostra escuta e anotação",
+      "Cliente fecha caderno com próximos passos anotados fora de foco"
+    ],
+    "hook": "Está difícil encaixar um deslocamento na rotina?",
+    "benefit": "Quando disponível, o atendimento remoto permite conversar de outro lugar.",
+    "objection": "Formato, privacidade e documentos necessários devem ser confirmados com o escritório.",
+    "cta": "Consulte as modalidades de atendimento",
+    "sound": "Teclado e sala; trilha discreta sem notificação invasiva",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A conversa também pode ser à distância. AMBIENTE E PRODUTO: Home office real, notebook com chamada fictícia sem marca, advogado em sala clara e cliente em casa.\nQUADRO 1: Cliente reúne documentos diante do computador.\nQUADRO 2: Profissional aparece em videochamada autorizada.\nQUADRO 3: Tela dividida mostra escuta e anotação.\nQUADRO 4: Cliente fecha caderno com próximos passos anotados fora de foco.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-advocacia-do-termo-dificil-a-pergunta-certa",
+    "name": "Do termo difícil à pergunta certa",
+    "family": "ads-advocacia",
+    "familyName": "Escritórios de advocacia",
+    "framework": "AIDA",
+    "look": "Biblioteca jurídica contemporânea discreta, bloco amarelo-claro sem letras, advogada de blazer azul suave.",
+    "beats": [
+      "Pessoa para a leitura de um trecho difícil",
+      "Marca o ponto com tira de papel",
+      "Profissional organiza a explicação com objetos simples na mesa",
+      "Pessoa anota uma nova pergunta e continua a conversa"
+    ],
+    "hook": "Encontrou um termo que interrompeu a leitura?",
+    "benefit": "Transformar a dúvida em pergunta ajuda a buscar esclarecimento adequado.",
+    "objection": "Exemplo educativo não equivale a aconselhamento jurídico individual.",
+    "cta": "Acompanhe nossos conteúdos",
+    "sound": "Marcador e lápis; trilha serena sem drama",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Do termo difícil à pergunta certa. AMBIENTE E PRODUTO: Biblioteca jurídica contemporânea discreta, bloco amarelo-claro sem letras, advogada de blazer azul suave.\nQUADRO 1: Pessoa para a leitura de um trecho difícil.\nQUADRO 2: Marca o ponto com tira de papel.\nQUADRO 3: Profissional organiza a explicação com objetos simples na mesa.\nQUADRO 4: Pessoa anota uma nova pergunta e continua a conversa.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-masculina-a-camisa-acompanha-o-percurso",
+    "name": "A camisa acompanha o percurso",
+    "family": "ads-moda-masculina",
+    "familyName": "Roupas masculinas",
+    "framework": "AIDA",
+    "look": "Homem adulto de pele negra, camisa azul de algodão com bolso único, rua de bairro e café, cores lavadas.",
+    "beats": [
+      "Homem escolhe camisa no cabide",
+      "Abotoa o punho em detalhe",
+      "Caminha até café com a mesma peça",
+      "Senta e dobra discretamente a manga"
+    ],
+    "hook": "Uma camisa ganha sentido quando entra no seu dia.",
+    "benefit": "Punho, tecido e proporção aparecem em situações reais de uso.",
+    "objection": "A composição e as medidas devem ser conferidas antes da escolha.",
+    "cta": "Explore a coleção masculina",
+    "sound": "Botões, tecido e passos; groove leve",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A camisa acompanha o percurso. AMBIENTE E PRODUTO: Homem adulto de pele negra, camisa azul de algodão com bolso único, rua de bairro e café, cores lavadas.\nQUADRO 1: Homem escolhe camisa no cabide.\nQUADRO 2: Abotoa o punho em detalhe.\nQUADRO 3: Caminha até café com a mesma peça.\nQUADRO 4: Senta e dobra discretamente a manga.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-masculina-o-detalhe-que-a-foto-nao-mostra",
+    "name": "O detalhe que a foto não mostra",
+    "family": "ads-moda-masculina",
+    "familyName": "Roupas masculinas",
+    "framework": "DBO",
+    "look": "Camisa off-white de manga curta, bancada azul-acinzentada, homem grisalho, luz de janela.",
+    "beats": [
+      "Homem compara foto com peça no cabide",
+      "Mão mostra costura e botão",
+      "Plano lateral revela gola e espessura do tecido",
+      "Homem veste a camisa diante de espelho"
+    ],
+    "hook": "Escolher roupa só pela foto deixa dúvidas?",
+    "benefit": "Detalhes reais de construção e escala ajudam a decidir.",
+    "objection": "O vídeo não substitui tabela de medidas nem informa propriedades não testadas.",
+    "cta": "Confira os detalhes e medidas",
+    "sound": "Cabide, botão e tecido; música discreta",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O detalhe que a foto não mostra. AMBIENTE E PRODUTO: Camisa off-white de manga curta, bancada azul-acinzentada, homem grisalho, luz de janela.\nQUADRO 1: Homem compara foto com peça no cabide.\nQUADRO 2: Mão mostra costura e botão.\nQUADRO 3: Plano lateral revela gola e espessura do tecido.\nQUADRO 4: Homem veste a camisa diante de espelho.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-masculina-uma-mala-com-escolhas-claras",
+    "name": "Uma mala com escolhas claras",
+    "family": "ads-moda-masculina",
+    "familyName": "Roupas masculinas",
+    "framework": "DBO",
+    "look": "Mala pequena verde-oliva, bermuda bege e camiseta azul, quarto com luz suave, homem adulto.",
+    "beats": [
+      "Mala aberta e roupas demais sobre a cama",
+      "Homem escolhe bermuda e camiseta",
+      "Dobra as peças mostrando construção",
+      "Fecha a mala e sai usando a composição escolhida"
+    ],
+    "hook": "Vai sair por poucos dias e não sabe o que levar?",
+    "benefit": "Uma composição planejada pode orientar suas escolhas de roupa.",
+    "objection": "Quantidade e uso variam com a viagem; não prometer resistência a amassar.",
+    "cta": "Veja peças para suas combinações",
+    "sound": "Zíper e tecido; batida de viagem calma",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Uma mala com escolhas claras. AMBIENTE E PRODUTO: Mala pequena verde-oliva, bermuda bege e camiseta azul, quarto com luz suave, homem adulto.\nQUADRO 1: Mala aberta e roupas demais sobre a cama.\nQUADRO 2: Homem escolhe bermuda e camiseta.\nQUADRO 3: Dobra as peças mostrando construção.\nQUADRO 4: Fecha a mala e sai usando a composição escolhida.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-masculina-camadas-para-mudar-o-encontro",
+    "name": "Camadas para mudar o encontro",
+    "family": "ads-moda-masculina",
+    "familyName": "Roupas masculinas",
+    "framework": "AIDA",
+    "look": "Mesmo homem e camiseta branca, sobrecamisa terracota de sarja, casa e livraria.",
+    "beats": [
+      "Homem veste camiseta diante de porta espelhada",
+      "Adiciona sobrecamisa aberta",
+      "Encontra um amigo na livraria",
+      "Pendura a sobrecamisa na cadeira mostrando o tecido"
+    ],
+    "hook": "Às vezes, mudar uma camada muda a composição.",
+    "benefit": "A sobreposição cria outra leitura sem trocar todo o visual.",
+    "objection": "O caimento mostrado corresponde ao modelo fictício, não a todos os corpos.",
+    "cta": "Conheça as sobreposições da coleção",
+    "sound": "Tecido e livros; trilha de baixo suave",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Camadas para mudar o encontro. AMBIENTE E PRODUTO: Mesmo homem e camiseta branca, sobrecamisa terracota de sarja, casa e livraria.\nQUADRO 1: Homem veste camiseta diante de porta espelhada.\nQUADRO 2: Adiciona sobrecamisa aberta.\nQUADRO 3: Encontra um amigo na livraria.\nQUADRO 4: Pendura a sobrecamisa na cadeira mostrando o tecido.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-masculina-a-calca-em-movimento-real",
+    "name": "A calça em movimento real",
+    "family": "ads-moda-masculina",
+    "familyName": "Roupas masculinas",
+    "framework": "AIDA",
+    "look": "Calça reta de sarja marrom, camiseta creme, homem adulto de corpo robusto, passeio urbano real.",
+    "beats": [
+      "Pessoa ajusta o cós diante do espelho",
+      "Plano de costura e bolso com mão em uso",
+      "Sobe dois degraus naturalmente",
+      "Senta num banco e o tecido se acomoda"
+    ],
+    "hook": "A calça parada no cabide conta só parte da história.",
+    "benefit": "Caminhar e sentar revelam como a peça se apresenta no uso.",
+    "objection": "Não demonstrar elasticidade, conforto ou desempenho sem base no produto.",
+    "cta": "Veja a peça e consulte as medidas",
+    "sound": "Passos e tecido; percussão branda",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A calça em movimento real. AMBIENTE E PRODUTO: Calça reta de sarja marrom, camiseta creme, homem adulto de corpo robusto, passeio urbano real.\nQUADRO 1: Pessoa ajusta o cós diante do espelho.\nQUADRO 2: Plano de costura e bolso com mão em uso.\nQUADRO 3: Sobe dois degraus naturalmente.\nQUADRO 4: Senta num banco e o tecido se acomoda.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-masculina-escolha-pela-paleta-do-seu-dia",
+    "name": "Escolha pela paleta do seu dia",
+    "family": "ads-moda-masculina",
+    "familyName": "Roupas masculinas",
+    "framework": "DBO",
+    "look": "Três camisetas lisas areia, azul lavado e oliva, mesa de madeira clara, homem de cabelo cacheado.",
+    "beats": [
+      "Pessoa hesita entre três cores reais",
+      "Aproxima cada camiseta da mesma calça",
+      "Veste a azul diante de janela",
+      "Organiza as outras duas no armário"
+    ],
+    "hook": "Gostou do modelo, mas travou na cor?",
+    "benefit": "Comparar combinações ajuda a enxergar possibilidades na sua rotina.",
+    "objection": "As cores precisam ser mostradas com luz fiel e sem filtros que alterem o tecido.",
+    "cta": "Confira as cores disponíveis",
+    "sound": "Cabides e gaveta; trilha leve com pequenas variações",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Escolha pela paleta do seu dia. AMBIENTE E PRODUTO: Três camisetas lisas areia, azul lavado e oliva, mesa de madeira clara, homem de cabelo cacheado.\nQUADRO 1: Pessoa hesita entre três cores reais.\nQUADRO 2: Aproxima cada camiseta da mesma calça.\nQUADRO 3: Veste a azul diante de janela.\nQUADRO 4: Organiza as outras duas no armário.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-feminina-uma-peca-o-seu-dia",
+    "name": "Uma peça, o seu dia",
+    "family": "ads-moda-feminina",
+    "familyName": "Roupas femininas",
+    "framework": "AIDA",
+    "look": "Mulher adulta de pele morena e cachos, saia midi terracota com amarração e camiseta creme.",
+    "beats": [
+      "Escolhe a saia no armário",
+      "Amarra a cintura em detalhe",
+      "Caminha numa rua arborizada",
+      "Senta em café usando a mesma peça"
+    ],
+    "hook": "Olhe de novo para a peça que imaginou usar de um jeito só.",
+    "benefit": "Contextos diferentes mostram possibilidades de composição.",
+    "objection": "Confira medidas e composição: o vídeo não promete caimento universal.",
+    "cta": "Veja a coleção",
+    "sound": "Tecido, passos e café; groove leve",
+    "heroIndex": 1,
+    "pilot": "04-moda-feminina.png",
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Uma peça, o seu dia. AMBIENTE E PRODUTO: Mulher adulta de pele morena e cachos, saia midi terracota com amarração e camiseta creme.\nQUADRO 1: Escolhe a saia no armário.\nQUADRO 2: Amarra a cintura em detalhe.\nQUADRO 3: Caminha numa rua arborizada.\nQUADRO 4: Senta em café usando a mesma peça.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-feminina-o-provador-pela-sua-perspectiva",
+    "name": "O provador pela sua perspectiva",
+    "family": "ads-moda-feminina",
+    "familyName": "Roupas femininas",
+    "framework": "DBO",
+    "look": "Vestido azul de alças largas com botões frontais, mulher adulta de corpo robusto, quarto com espelho.",
+    "beats": [
+      "Pessoa examina vestido no cabide",
+      "Veste diante do espelho sem trocar sua identidade",
+      "Detalhe mostra botões e costura lateral",
+      "Plano sentado revela a peça no uso"
+    ],
+    "hook": "Quer ver mais do que uma pose de catálogo?",
+    "benefit": "Diferentes enquadramentos mostram construção e proporções da roupa.",
+    "objection": "A prova é ilustrativa; escolha pela tabela e informações reais da marca.",
+    "cta": "Veja medidas e detalhes",
+    "sound": "Cabide e tecido; música suave",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O provador pela sua perspectiva. AMBIENTE E PRODUTO: Vestido azul de alças largas com botões frontais, mulher adulta de corpo robusto, quarto com espelho.\nQUADRO 1: Pessoa examina vestido no cabide.\nQUADRO 2: Veste diante do espelho sem trocar sua identidade.\nQUADRO 3: Detalhe mostra botões e costura lateral.\nQUADRO 4: Plano sentado revela a peça no uso.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-feminina-o-tecido-entra-na-conversa",
+    "name": "O tecido entra na conversa",
+    "family": "ads-moda-feminina",
+    "familyName": "Roupas femininas",
+    "framework": "AIDA",
+    "look": "Blusa de linho verde-sálvia, janela e mesa creme, mulher madura de cabelo grisalho natural.",
+    "beats": [
+      "Mão abre a embalagem simples",
+      "Tecido é mostrado contra luz difusa",
+      "Mulher veste a blusa e ajeita a gola",
+      "Conversa à mesa revela volume natural das mangas"
+    ],
+    "hook": "Antes de escolher a combinação, olhe para o tecido.",
+    "benefit": "Textura, construção e movimento dão informação visual à peça.",
+    "objection": "Transparência e composição devem corresponder ao produto real, sem embelezamento artificial.",
+    "cta": "Descubra os detalhes da coleção",
+    "sound": "Papel e tecido; violão delicado",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O tecido entra na conversa. AMBIENTE E PRODUTO: Blusa de linho verde-sálvia, janela e mesa creme, mulher madura de cabelo grisalho natural.\nQUADRO 1: Mão abre a embalagem simples.\nQUADRO 2: Tecido é mostrado contra luz difusa.\nQUADRO 3: Mulher veste a blusa e ajeita a gola.\nQUADRO 4: Conversa à mesa revela volume natural das mangas.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-feminina-a-mesma-base-outra-intencao",
+    "name": "A mesma base, outra intenção",
+    "family": "ads-moda-feminina",
+    "familyName": "Roupas femininas",
+    "framework": "DBO",
+    "look": "Calça reta grafite e regata branca, mulher negra adulta, sapatos e camisa azul como acessórios de composição.",
+    "beats": [
+      "Pessoa observa uma combinação básica no espelho",
+      "Acrescenta camisa azul aberta",
+      "Troca acessórios mantendo a roupa-base",
+      "Sai de casa com a composição escolhida"
+    ],
+    "hook": "Seu guarda-roupa parece repetir sempre a mesma ideia?",
+    "benefit": "Mudar a composição pode revelar outras maneiras de usar a base.",
+    "objection": "São sugestões visuais, sem regras de corpo nem necessidade de comprar tudo.",
+    "cta": "Explore peças para combinar",
+    "sound": "Passos e acessórios; ritmo editorial leve",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A mesma base, outra intenção. AMBIENTE E PRODUTO: Calça reta grafite e regata branca, mulher negra adulta, sapatos e camisa azul como acessórios de composição.\nQUADRO 1: Pessoa observa uma combinação básica no espelho.\nQUADRO 2: Acrescenta camisa azul aberta.\nQUADRO 3: Troca acessórios mantendo a roupa-base.\nQUADRO 4: Sai de casa com a composição escolhida.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-feminina-do-cabide-ao-encontro",
+    "name": "Do cabide ao encontro",
+    "family": "ads-moda-feminina",
+    "familyName": "Roupas femininas",
+    "framework": "AIDA",
+    "look": "Vestido midi amarelo-manteiga com mangas curtas, mulher adulta asiática, casa e jardim de bairro.",
+    "beats": [
+      "Vestido é retirado do cabide",
+      "Pessoa fecha o botão traseiro com ajuda",
+      "Caminha pelo jardim com tecido em movimento",
+      "Encontra amiga e senta à mesa externa"
+    ],
+    "hook": "Uma roupa também participa da expectativa de um encontro.",
+    "benefit": "Os gestos de vestir e chegar conectam detalhe e ocasião.",
+    "objection": "Modelagem e cor permanecem constantes em todos os planos.",
+    "cta": "Conheça os vestidos da coleção",
+    "sound": "Cabide, botão e jardim; trilha acolhedora",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Do cabide ao encontro. AMBIENTE E PRODUTO: Vestido midi amarelo-manteiga com mangas curtas, mulher adulta asiática, casa e jardim de bairro.\nQUADRO 1: Vestido é retirado do cabide.\nQUADRO 2: Pessoa fecha o botão traseiro com ajuda.\nQUADRO 3: Caminha pelo jardim com tecido em movimento.\nQUADRO 4: Encontra amiga e senta à mesa externa.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-moda-feminina-escolher-sem-esconder-os-detalhes",
+    "name": "Escolher sem esconder os detalhes",
+    "family": "ads-moda-feminina",
+    "familyName": "Roupas femininas",
+    "framework": "DBO",
+    "look": "Saia jeans azul médio, mesa clara com fita de medida sem números, mulher adulta de estatura baixa.",
+    "beats": [
+      "Pessoa observa comprimento da saia no cabide",
+      "Mãos medem cós e comprimento",
+      "Detalhe mostra zíper e costura",
+      "Pessoa veste e caminha vista de frente e de lado"
+    ],
+    "hook": "Faltou uma informação para decidir sua compra?",
+    "benefit": "Medidas e detalhes visíveis ajudam a formular a escolha.",
+    "objection": "Não adivinhar tamanho ideal nem alterar proporções do corpo para favorecer a peça.",
+    "cta": "Consulte a tabela e os detalhes",
+    "sound": "Trena e zíper; trilha simples e contemporânea",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Escolher sem esconder os detalhes. AMBIENTE E PRODUTO: Saia jeans azul médio, mesa clara com fita de medida sem números, mulher adulta de estatura baixa.\nQUADRO 1: Pessoa observa comprimento da saia no cabide.\nQUADRO 2: Mãos medem cós e comprimento.\nQUADRO 3: Detalhe mostra zíper e costura.\nQUADRO 4: Pessoa veste e caminha vista de frente e de lado.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-biquinis-a-mala-comeca-pela-combinacao",
+    "name": "A mala começa pela combinação",
+    "family": "ads-biquinis",
+    "familyName": "Biquínis",
+    "framework": "AIDA",
+    "look": "Biquíni adulto verde-oliva de alças largas e cintura média, canga creme, mala azul, quarto iluminado.",
+    "beats": [
+      "Mãos abrem mala sobre cama",
+      "Combinam biquíni e canga",
+      "Detalhes mostram alça e costura",
+      "Mala pronta enquadra as duas peças e saída de praia"
+    ],
+    "hook": "A viagem começa nas escolhas que você faz antes de sair.",
+    "benefit": "Cor, construção e combinação aparecem num preparo real de mala.",
+    "objection": "Mostrar apenas itens incluídos ou identificar acessórios como composição.",
+    "cta": "Conheça as combinações disponíveis",
+    "sound": "Zíper e tecido; trilha de viagem leve",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A mala começa pela combinação. AMBIENTE E PRODUTO: Biquíni adulto verde-oliva de alças largas e cintura média, canga creme, mala azul, quarto iluminado.\nQUADRO 1: Mãos abrem mala sobre cama.\nQUADRO 2: Combinam biquíni e canga.\nQUADRO 3: Detalhes mostram alça e costura.\nQUADRO 4: Mala pronta enquadra as duas peças e saída de praia.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-biquinis-amarracao-vista-de-verdade",
+    "name": "Amarração vista de verdade",
+    "family": "ads-biquinis",
+    "familyName": "Biquínis",
+    "framework": "DBO",
+    "look": "Biquíni adulto terracota de amarração lateral, manequim de costura neutro e mãos adultas em estúdio de luz natural.",
+    "beats": [
+      "Peça deitada deixa dúvida sobre amarração",
+      "Mãos demonstram o laço no manequim",
+      "Plano lateral revela tiras e acabamento",
+      "Conjunto completo aparece ao lado de canga"
+    ],
+    "hook": "Quer entender como a peça se ajusta antes de escolher?",
+    "benefit": "A demonstração mostra a construção e o caminho das tiras.",
+    "objection": "Ajuste e tamanho dependem do modelo e do corpo; não prometer sustentação universal.",
+    "cta": "Confira a modelagem e as medidas",
+    "sound": "Tecido e laço; música delicada",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Amarração vista de verdade. AMBIENTE E PRODUTO: Biquíni adulto terracota de amarração lateral, manequim de costura neutro e mãos adultas em estúdio de luz natural.\nQUADRO 1: Peça deitada deixa dúvida sobre amarração.\nQUADRO 2: Mãos demonstram o laço no manequim.\nQUADRO 3: Plano lateral revela tiras e acabamento.\nQUADRO 4: Conjunto completo aparece ao lado de canga.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-biquinis-cor-entre-sombra-e-sol",
+    "name": "Cor entre sombra e sol",
+    "family": "ads-biquinis",
+    "familyName": "Biquínis",
+    "framework": "AIDA",
+    "look": "Biquíni adulto azul-petróleo liso em cabide e cadeira, mãos com mangas de camisa, varanda com luz natural.",
+    "beats": [
+      "Conjunto no cabide à sombra de varanda",
+      "Mão leva tecido à luz difusa",
+      "Conjunto completo aparece estendido sobre cadeira de praia",
+      "Mãos com mangas de camisa dobram o conjunto ao lado da canga"
+    ],
+    "hook": "A cor merece ser vista em mais de uma luz.",
+    "benefit": "A passagem entre ambientes mostra o produto de forma contextual.",
+    "objection": "Não exagerar saturação nem alterar tom da pele e tecido; luz não é prova de proteção UV.",
+    "cta": "Veja as cores da coleção",
+    "sound": "Varanda, tecido e mar; trilha orgânica",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Cor entre sombra e sol. AMBIENTE E PRODUTO: Biquíni adulto azul-petróleo liso em cabide e cadeira, mãos com mangas de camisa, varanda com luz natural.\nQUADRO 1: Conjunto no cabide à sombra de varanda.\nQUADRO 2: Mão leva tecido à luz difusa.\nQUADRO 3: Conjunto completo aparece estendido sobre cadeira de praia.\nQUADRO 4: Mãos com mangas de camisa dobram o conjunto ao lado da canga.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-biquinis-duas-pecas-uma-escolha-informada",
+    "name": "Duas peças, uma escolha informada",
+    "family": "ads-biquinis",
+    "familyName": "Biquínis",
+    "framework": "DBO",
+    "look": "Top adulto preto de alças largas e parte inferior verde-oliva, bancada creme, etiquetas reais substituídas por superfícies lisas no conceito.",
+    "beats": [
+      "Mãos separam partes do conjunto",
+      "Comparam medidas com fita sem números",
+      "Comparação em tela dividida mostra forro e costura de cada peça",
+      "Organizam composição final com informação gráfica posterior"
+    ],
+    "hook": "Prefere escolher cada parte com mais atenção?",
+    "benefit": "Mostrar top e parte inferior separadamente facilita entender a modelagem.",
+    "objection": "Venda avulsa e combinação de tamanhos só entram no anúncio quando existirem na marca.",
+    "cta": "Confira as opções de conjunto",
+    "sound": "Tecido e fita; ritmo minimalista",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Duas peças, uma escolha informada. AMBIENTE E PRODUTO: Top adulto preto de alças largas e parte inferior verde-oliva, bancada creme, etiquetas reais substituídas por superfícies lisas no conceito.\nQUADRO 1: Mãos separam partes do conjunto.\nQUADRO 2: Comparam medidas com fita sem números.\nQUADRO 3: Comparação em tela dividida mostra forro e costura de cada peça.\nQUADRO 4: Organizam composição final com informação gráfica posterior.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-biquinis-um-dia-sem-pose-de-catalogo",
+    "name": "Um dia sem pose de catálogo",
+    "family": "ads-biquinis",
+    "familyName": "Biquínis",
+    "framework": "AIDA",
+    "look": "Biquíni azul-acinzentado de cintura alta apresentado como produto sobre toalha, clube à beira-mar; pessoa adulta de camisa branca e calça de linho mantém-se completamente vestida.",
+    "beats": [
+      "Pessoa arruma bolsa e toalha",
+      "Pessoa completamente vestida organiza conjunto e toalha na espreguiçadeira",
+      "Close de mãos com mangas de camisa mostra as duas peças sobre a toalha",
+      "Conjunto aparece pendurado à sombra conforme cuidado ilustrativo"
+    ],
+    "hook": "O verão também acontece nos momentos entre uma foto e outra.",
+    "benefit": "Gestos cotidianos mostram a peça numa situação humana e real.",
+    "objection": "Sem retoque corporal, promessas de conforto universal ou instruções de lavagem não verificadas.",
+    "cta": "Explore a coleção",
+    "sound": "Bolsa, passos e vento leve; trilha descontraída",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Um dia sem pose de catálogo. AMBIENTE E PRODUTO: Biquíni azul-acinzentado de cintura alta apresentado como produto sobre toalha, clube à beira-mar; pessoa adulta de camisa branca e calça de linho mantém-se completamente vestida.\nQUADRO 1: Pessoa arruma bolsa e toalha.\nQUADRO 2: Pessoa completamente vestida organiza conjunto e toalha na espreguiçadeira.\nQUADRO 3: Close de mãos com mangas de camisa mostra as duas peças sobre a toalha.\nQUADRO 4: Conjunto aparece pendurado à sombra conforme cuidado ilustrativo.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-biquinis-o-acabamento-vira-protagonista",
+    "name": "O acabamento vira protagonista",
+    "family": "ads-biquinis",
+    "familyName": "Biquínis",
+    "framework": "DBO",
+    "look": "Biquíni adulto vinho de alças largas, lupa óptica de bancada, costuras e forro em luz natural suave.",
+    "beats": [
+      "Pessoa observa foto no celular sem detalhe suficiente",
+      "Mãos aproximam costura e acabamento",
+      "Virada controlada mostra o forro real",
+      "Conjunto inteiro retorna ao quadro para escala"
+    ],
+    "hook": "Na compra online, você também quer ver o avesso?",
+    "benefit": "Mostrar acabamento e forro oferece informação além da pose.",
+    "objection": "Não inventar reforço, material ou proteção que não estejam documentados.",
+    "cta": "Veja os detalhes do modelo",
+    "sound": "Tecido manuseado; trilha discreta",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O acabamento vira protagonista. AMBIENTE E PRODUTO: Biquíni adulto vinho de alças largas, lupa óptica de bancada, costuras e forro em luz natural suave.\nQUADRO 1: Pessoa observa foto no celular sem detalhe suficiente.\nQUADRO 2: Mãos aproximam costura e acabamento.\nQUADRO 3: Virada controlada mostra o forro real.\nQUADRO 4: Conjunto inteiro retorna ao quadro para escala.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-pijamas-o-dia-termina-em-outro-ritmo",
+    "name": "O dia termina em outro ritmo",
+    "family": "ads-pijamas",
+    "familyName": "Pijamas",
+    "framework": "AIDA",
+    "look": "Pijama adulto azul-claro com viés branco, mulher madura, quarto real com abajur âmbar e luz de fim de tarde.",
+    "beats": [
+      "Pessoa guarda celular sem tela legível",
+      "Retira pijama dobrado da gaveta",
+      "Veste e fecha um botão em detalhe",
+      "Senta com livro na cama e luz suave"
+    ],
+    "hook": "Tem um momento em que o dia pede outro ritmo.",
+    "benefit": "Trocar de roupa participa do ritual de desacelerar em casa.",
+    "objection": "Não atribuir melhora do sono ou efeito terapêutico à peça.",
+    "cta": "Conheça a coleção de pijamas",
+    "sound": "Gaveta, tecido e livro; trilha lenta natural",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O dia termina em outro ritmo. AMBIENTE E PRODUTO: Pijama adulto azul-claro com viés branco, mulher madura, quarto real com abajur âmbar e luz de fim de tarde.\nQUADRO 1: Pessoa guarda celular sem tela legível.\nQUADRO 2: Retira pijama dobrado da gaveta.\nQUADRO 3: Veste e fecha um botão em detalhe.\nQUADRO 4: Senta com livro na cama e luz suave.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-pijamas-o-pijama-fora-da-cama",
+    "name": "O pijama fora da cama",
+    "family": "ads-pijamas",
+    "familyName": "Pijamas",
+    "framework": "DBO",
+    "look": "Pijama adulto verde-sálvia de camiseta e calça, homem adulto, apartamento ensolarado e cozinha.",
+    "beats": [
+      "Homem abre a cortina usando pijama",
+      "Prepara café com a mesma peça",
+      "Senta à mesa e tecido se acomoda",
+      "Detalhe mostra gola e cós antes de guardar a caneca"
+    ],
+    "hook": "Quer imaginar a peça além da foto na cama?",
+    "benefit": "Cenas da manhã mostram proporção, construção e uso cotidiano.",
+    "objection": "O vídeo não prova conforto, temperatura ou desempenho do material.",
+    "cta": "Veja detalhes e medidas",
+    "sound": "Cortina e caneca; violão suave",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O pijama fora da cama. AMBIENTE E PRODUTO: Pijama adulto verde-sálvia de camiseta e calça, homem adulto, apartamento ensolarado e cozinha.\nQUADRO 1: Homem abre a cortina usando pijama.\nQUADRO 2: Prepara café com a mesma peça.\nQUADRO 3: Senta à mesa e tecido se acomoda.\nQUADRO 4: Detalhe mostra gola e cós antes de guardar a caneca.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-pijamas-presente-para-um-ritual",
+    "name": "Presente para um ritual",
+    "family": "ads-pijamas",
+    "familyName": "Pijamas",
+    "framework": "AIDA",
+    "look": "Pijama adulto de listras finas lavanda, caixa creme, fita oliva e pessoa adulta em ambiente doméstico.",
+    "beats": [
+      "Mãos escolhem peça dobrada",
+      "Detalhe revela botões e gola",
+      "Caixa recebe pijama e cartão sem letras",
+      "Outra pessoa abre e mostra a peça com expressão natural"
+    ],
+    "hook": "Um presente pode fazer parte dos pequenos rituais de alguém.",
+    "benefit": "A escolha combina textura, construção e apresentação da embalagem.",
+    "objection": "Conferir tamanho, troca e embalagem disponíveis sem inventar condições.",
+    "cta": "Veja opções para presentear",
+    "sound": "Papel e fita; piano leve",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Presente para um ritual. AMBIENTE E PRODUTO: Pijama adulto de listras finas lavanda, caixa creme, fita oliva e pessoa adulta em ambiente doméstico.\nQUADRO 1: Mãos escolhem peça dobrada.\nQUADRO 2: Detalhe revela botões e gola.\nQUADRO 3: Caixa recebe pijama e cartão sem letras.\nQUADRO 4: Outra pessoa abre e mostra a peça com expressão natural.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-pijamas-a-textura-antes-de-vestir",
+    "name": "A textura antes de vestir",
+    "family": "ads-pijamas",
+    "familyName": "Pijamas",
+    "framework": "DBO",
+    "look": "Pijama adulto cinza-mescla de malha, mesa de madeira clara, mãos adultas e luz lateral.",
+    "beats": [
+      "Pessoa segura tecido com dúvida",
+      "Plano próximo mostra trama sem ampliação inventada",
+      "Mão revela costura interna e etiqueta sem letras",
+      "Pessoa veste peça em enquadramento neutro de casa"
+    ],
+    "hook": "A imagem não responde tudo sobre uma peça?",
+    "benefit": "Detalhes visuais ajudam a conhecer acabamento e construção.",
+    "objection": "Sensação ao toque e composição devem vir do produto real, não de adjetivos inventados.",
+    "cta": "Confira a composição e os detalhes",
+    "sound": "Tecido e passos; trilha de poucos instrumentos",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A textura antes de vestir. AMBIENTE E PRODUTO: Pijama adulto cinza-mescla de malha, mesa de madeira clara, mãos adultas e luz lateral.\nQUADRO 1: Pessoa segura tecido com dúvida.\nQUADRO 2: Plano próximo mostra trama sem ampliação inventada.\nQUADRO 3: Mão revela costura interna e etiqueta sem letras.\nQUADRO 4: Pessoa veste peça em enquadramento neutro de casa.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-pijamas-duas-rotinas-um-comeco-leve",
+    "name": "Duas rotinas, um começo leve",
+    "family": "ads-pijamas",
+    "familyName": "Pijamas",
+    "framework": "AIDA",
+    "look": "Casal adulto em pijamas diferentes, azul e terracota, cozinha real, sem sexualização, pele e corpos naturais.",
+    "beats": [
+      "Uma pessoa abre a janela enquanto outra lê",
+      "As duas preparam café",
+      "Planos alternados revelam detalhes de cada pijama",
+      "Sentam à mesa em conversa cotidiana"
+    ],
+    "hook": "Cada pessoa tem um jeito de começar a manhã.",
+    "benefit": "Cenas paralelas apresentam duas peças sem transformar o cotidiano em pose.",
+    "objection": "Não presumir venda em conjunto, tamanhos ou composição iguais.",
+    "cta": "Explore os modelos da coleção",
+    "sound": "Janela, café e pratos; trilha acolhedora",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Duas rotinas, um começo leve. AMBIENTE E PRODUTO: Casal adulto em pijamas diferentes, azul e terracota, cozinha real, sem sexualização, pele e corpos naturais.\nQUADRO 1: Uma pessoa abre a janela enquanto outra lê.\nQUADRO 2: As duas preparam café.\nQUADRO 3: Planos alternados revelam detalhes de cada pijama.\nQUADRO 4: Sentam à mesa em conversa cotidiana.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-pijamas-o-tamanho-entra-na-escolha",
+    "name": "O tamanho entra na escolha",
+    "family": "ads-pijamas",
+    "familyName": "Pijamas",
+    "framework": "DBO",
+    "look": "Pijama adulto de algodão ilustrativo em tom areia, fita de medida sem números, pessoa adulta de corpo robusto.",
+    "beats": [
+      "Pijama sobre cama ao lado de peça pessoal de referência",
+      "Mãos comparam medidas sem esticar tecido",
+      "Pessoa veste em frente a espelho",
+      "Senta e mostra mangas e comprimento"
+    ],
+    "hook": "Ficou em dúvida entre dois tamanhos?",
+    "benefit": "Ver medidas e proporções pode ajudar a fazer perguntas melhores.",
+    "objection": "Não recomendar tamanho individual sem medidas nem alterar corpo para favorecer caimento.",
+    "cta": "Consulte a tabela de medidas",
+    "sound": "Fita e tecido; música discreta",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O tamanho entra na escolha. AMBIENTE E PRODUTO: Pijama adulto de algodão ilustrativo em tom areia, fita de medida sem números, pessoa adulta de corpo robusto.\nQUADRO 1: Pijama sobre cama ao lado de peça pessoal de referência.\nQUADRO 2: Mãos comparam medidas sem esticar tecido.\nQUADRO 3: Pessoa veste em frente a espelho.\nQUADRO 4: Senta e mostra mangas e comprimento.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-organicos-a-sacola-encontra-a-mesa",
+    "name": "A sacola encontra a mesa",
+    "family": "ads-organicos",
+    "familyName": "Alimentos orgânicos",
+    "framework": "AIDA",
+    "look": "Horta e cozinha simples, cenouras com rama e tomates de tamanhos variados, sacola de papel, luz suave.",
+    "beats": [
+      "Mãos colhem produtos em horta ilustrativa",
+      "Sacola chega à bancada",
+      "Produtos são lavados e preparados",
+      "Prato simples aparece à mesa com ingredientes reconhecíveis"
+    ],
+    "hook": "O caminho até a mesa também pode entrar na conversa.",
+    "benefit": "Mostrar origem documentada e preparo aproxima produto e uso.",
+    "objection": "A horta é fictícia no conceito; origem e certificação precisam ser comprovadas para a marca real.",
+    "cta": "Conheça os produtos e sua origem",
+    "sound": "Horta, água e corte; trilha acústica",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A sacola encontra a mesa. AMBIENTE E PRODUTO: Horta e cozinha simples, cenouras com rama e tomates de tamanhos variados, sacola de papel, luz suave.\nQUADRO 1: Mãos colhem produtos em horta ilustrativa.\nQUADRO 2: Sacola chega à bancada.\nQUADRO 3: Produtos são lavados e preparados.\nQUADRO 4: Prato simples aparece à mesa com ingredientes reconhecíveis.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-organicos-a-cesta-sem-misterio",
+    "name": "A cesta sem mistério",
+    "family": "ads-organicos",
+    "familyName": "Alimentos orgânicos",
+    "framework": "DBO",
+    "look": "Cesta de papelão com abobrinha, cenoura e folhas, mesa azul-clara e mãos adultas.",
+    "beats": [
+      "Pessoa abre cesta fechada",
+      "Retira cada item e organiza por tamanho",
+      "Mostra variedade e quantidade do pedido demonstrativo",
+      "Escolhe ingredientes para uma refeição"
+    ],
+    "hook": "Quer saber o que vem antes de pedir uma cesta?",
+    "benefit": "Uma apresentação clara mostra itens, quantidades e possibilidades de uso.",
+    "objection": "Conteúdo, preço e disponibilidade variam e devem ser confirmados na oferta real.",
+    "cta": "Confira a composição da cesta",
+    "sound": "Caixa, folhas e bancada; ritmo leve",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A cesta sem mistério. AMBIENTE E PRODUTO: Cesta de papelão com abobrinha, cenoura e folhas, mesa azul-clara e mãos adultas.\nQUADRO 1: Pessoa abre cesta fechada.\nQUADRO 2: Retira cada item e organiza por tamanho.\nQUADRO 3: Mostra variedade e quantidade do pedido demonstrativo.\nQUADRO 4: Escolhe ingredientes para uma refeição.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-organicos-o-ingrediente-ganha-duas-ideias",
+    "name": "O ingrediente ganha duas ideias",
+    "family": "ads-organicos",
+    "familyName": "Alimentos orgânicos",
+    "framework": "AIDA",
+    "look": "Abobrinha verde, cozinha de azulejo creme, frigideira e tábua, mãos de cozinheiro adulto.",
+    "beats": [
+      "Mão escolhe uma abobrinha",
+      "Fatias seguem para frigideira",
+      "Outra porção é preparada em fitas para prato frio",
+      "Dois pratos mostram usos diferentes do mesmo ingrediente"
+    ],
+    "hook": "Um ingrediente pode abrir mais de uma possibilidade.",
+    "benefit": "O preparo demonstra maneiras concretas de usar o alimento.",
+    "objection": "Receitas são sugestões e não alegações nutricionais ou terapêuticas.",
+    "cta": "Veja os produtos e ideias de preparo",
+    "sound": "Faca, frigideira e louça; música suave",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O ingrediente ganha duas ideias. AMBIENTE E PRODUTO: Abobrinha verde, cozinha de azulejo creme, frigideira e tábua, mãos de cozinheiro adulto.\nQUADRO 1: Mão escolhe uma abobrinha.\nQUADRO 2: Fatias seguem para frigideira.\nQUADRO 3: Outra porção é preparada em fitas para prato frio.\nQUADRO 4: Dois pratos mostram usos diferentes do mesmo ingrediente.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-organicos-ver-a-origem-fazer-perguntas",
+    "name": "Ver a origem, fazer perguntas",
+    "family": "ads-organicos",
+    "familyName": "Alimentos orgânicos",
+    "framework": "DBO",
+    "look": "Pequena feira, produtora adulta de chapéu simples, caixas de folhas e tomates, cartão de origem sem letras.",
+    "beats": [
+      "Cliente observa produtos e pergunta à produtora",
+      "Produtora mostra registro de origem sem dados legíveis",
+      "Mãos selecionam alimentos da banca",
+      "Cliente leva sacola e consulta informação no celular"
+    ],
+    "hook": "Quer entender melhor de onde vem o que compra?",
+    "benefit": "Informações verificáveis permitem conhecer fornecedor e procedência.",
+    "objection": "Não usar aparência rústica como prova de cultivo orgânico ou certificação.",
+    "cta": "Consulte a origem e a certificação",
+    "sound": "Feira e papel; trilha orgânica discreta",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Ver a origem, fazer perguntas. AMBIENTE E PRODUTO: Pequena feira, produtora adulta de chapéu simples, caixas de folhas e tomates, cartão de origem sem letras.\nQUADRO 1: Cliente observa produtos e pergunta à produtora.\nQUADRO 2: Produtora mostra registro de origem sem dados legíveis.\nQUADRO 3: Mãos selecionam alimentos da banca.\nQUADRO 4: Cliente leva sacola e consulta informação no celular.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-organicos-a-cor-real-do-preparo",
+    "name": "A cor real do preparo",
+    "family": "ads-organicos",
+    "familyName": "Alimentos orgânicos",
+    "framework": "AIDA",
+    "look": "Beterraba, cenoura e folhas, bancada de pedra clara, avental azul lavado, luz lateral.",
+    "beats": [
+      "Ingredientes inteiros são colocados na bancada",
+      "Corte revela cores naturais",
+      "Mãos montam prato com pedaços reconhecíveis",
+      "Pessoa leva a primeira garfada em contexto doméstico"
+    ],
+    "hook": "A cor aparece quando o preparo começa.",
+    "benefit": "Texturas e cortes tornam o alimento protagonista sem efeitos artificiais.",
+    "objection": "Preservar variedades e ingredientes reais; não adicionar brilho ou recheios inexistentes.",
+    "cta": "Explore os alimentos disponíveis",
+    "sound": "Corte, prato e garfo; trilha rítmica baixa",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A cor real do preparo. AMBIENTE E PRODUTO: Beterraba, cenoura e folhas, bancada de pedra clara, avental azul lavado, luz lateral.\nQUADRO 1: Ingredientes inteiros são colocados na bancada.\nQUADRO 2: Corte revela cores naturais.\nQUADRO 3: Mãos montam prato com pedaços reconhecíveis.\nQUADRO 4: Pessoa leva a primeira garfada em contexto doméstico.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-organicos-planejar-para-usar-melhor",
+    "name": "Planejar para usar melhor",
+    "family": "ads-organicos",
+    "familyName": "Alimentos orgânicos",
+    "framework": "DBO",
+    "look": "Bancada doméstica, folhas, cenoura e tomate, potes transparentes sem marcas, pessoa adulta.",
+    "beats": [
+      "Pessoa examina compras ainda na sacola",
+      "Separa alimentos para refeições distintas",
+      "Organiza porções em recipientes adequados",
+      "Retira uma porção para preparar o jantar"
+    ],
+    "hook": "Comprou os ingredientes e ainda não sabe por onde começar?",
+    "benefit": "Organizar usos ajuda a planejar o preparo da semana.",
+    "objection": "Conservação e validade dependem de orientações verificadas; não prometer durabilidade ou ausência de desperdício.",
+    "cta": "Confira produtos e orientações de uso",
+    "sound": "Sacola, potes e cozinha; música calma",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Planejar para usar melhor. AMBIENTE E PRODUTO: Bancada doméstica, folhas, cenoura e tomate, potes transparentes sem marcas, pessoa adulta.\nQUADRO 1: Pessoa examina compras ainda na sacola.\nQUADRO 2: Separa alimentos para refeições distintas.\nQUADRO 3: Organiza porções em recipientes adequados.\nQUADRO 4: Retira uma porção para preparar o jantar.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-barras-a-pausa-cabe-na-bolsa",
+    "name": "A pausa cabe na bolsa",
+    "family": "ads-barras",
+    "familyName": "Barras proteicas",
+    "framework": "DBO",
+    "look": "Barra fictícia de cobertura de chocolate e miolo bege, embalagem ameixa sem letras, bolsa oliva e camisa azul.",
+    "beats": [
+      "Pessoa procura lanche na bolsa",
+      "Abre embalagem e revela a barra",
+      "Quebra mostra textura interna documentável",
+      "Pausa à janela contextualiza o consumo"
+    ],
+    "hook": "A rotina muda e o lanche fica para depois?",
+    "benefit": "Uma opção separada na bolsa pode participar do planejamento.",
+    "objection": "Conheça textura, ingredientes e informações nutricionais antes de escolher.",
+    "cta": "Conheça os sabores",
+    "sound": "Embalagem, quebra e ambiente; groove discreto",
+    "heroIndex": 1,
+    "pilot": "05-barras.png",
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A pausa cabe na bolsa. AMBIENTE E PRODUTO: Barra fictícia de cobertura de chocolate e miolo bege, embalagem ameixa sem letras, bolsa oliva e camisa azul.\nQUADRO 1: Pessoa procura lanche na bolsa.\nQUADRO 2: Abre embalagem e revela a barra.\nQUADRO 3: Quebra mostra textura interna documentável.\nQUADRO 4: Pausa à janela contextualiza o consumo.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-barras-por-dentro-da-escolha",
+    "name": "Por dentro da escolha",
+    "family": "ads-barras",
+    "familyName": "Barras proteicas",
+    "framework": "DBO",
+    "look": "Barra fictícia sem cobertura, textura de aveia com pequenos pedaços de cacau, papel lilás e mesa azul.",
+    "beats": [
+      "Pessoa compara embalagens sem abrir",
+      "Abre uma barra em close",
+      "Corte limpo mostra o interior em escala",
+      "Produto inteiro e porção aparecem juntos"
+    ],
+    "hook": "A embalagem chama atenção, mas e o produto por dentro?",
+    "benefit": "A demonstração revela formato, porção e textura visível.",
+    "objection": "Ingredientes e valores nutricionais só podem vir do rótulo real.",
+    "cta": "Veja os detalhes de cada opção",
+    "sound": "Papel e corte; trilha mínima",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Por dentro da escolha. AMBIENTE E PRODUTO: Barra fictícia sem cobertura, textura de aveia com pequenos pedaços de cacau, papel lilás e mesa azul.\nQUADRO 1: Pessoa compara embalagens sem abrir.\nQUADRO 2: Abre uma barra em close.\nQUADRO 3: Corte limpo mostra o interior em escala.\nQUADRO 4: Produto inteiro e porção aparecem juntos.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-barras-da-gaveta-a-pausa",
+    "name": "Da gaveta à pausa",
+    "family": "ads-barras",
+    "familyName": "Barras proteicas",
+    "framework": "AIDA",
+    "look": "Barra fictícia de chocolate em embalagem azul-lavanda, escritório real e homem adulto de pele negra.",
+    "beats": [
+      "Homem fecha caderno entre tarefas",
+      "Abre gaveta organizada com uma barra",
+      "Desembala e observa o produto",
+      "Faz pausa na varanda com a mesma barra"
+    ],
+    "hook": "Entre uma tarefa e outra, cabe uma pausa.",
+    "benefit": "O produto entra numa situação cotidiana sem performance encenada.",
+    "objection": "Não afirmar saciedade, energia ou efeito esportivo sem comprovação.",
+    "cta": "Conheça a linha",
+    "sound": "Gaveta e embalagem; beat suave",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Da gaveta à pausa. AMBIENTE E PRODUTO: Barra fictícia de chocolate em embalagem azul-lavanda, escritório real e homem adulto de pele negra.\nQUADRO 1: Homem fecha caderno entre tarefas.\nQUADRO 2: Abre gaveta organizada com uma barra.\nQUADRO 3: Desembala e observa o produto.\nQUADRO 4: Faz pausa na varanda com a mesma barra.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-barras-o-sabor-comeca-no-detalhe",
+    "name": "O sabor começa no detalhe",
+    "family": "ads-barras",
+    "familyName": "Barras proteicas",
+    "framework": "AIDA",
+    "look": "Barra fictícia de chocolate amargo com miolo homogêneo bege, fundo de cozinha rosado e luz suave.",
+    "beats": [
+      "Mão coloca embalagem lisa na bancada",
+      "Abre lentamente a cobertura",
+      "Quebra ao meio revela textura realista",
+      "Pessoa prova em contexto natural sem exagero de reação"
+    ],
+    "hook": "Antes da primeira mordida, olhe para os detalhes.",
+    "benefit": "Cobertura e interior ajudam a apresentar a experiência proposta.",
+    "objection": "A reação é ficcional e não depoimento; sabor e composição precisam corresponder à variante real.",
+    "cta": "Explore os sabores disponíveis",
+    "sound": "Rasgo da embalagem e quebra; trilha sensorial discreta",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O sabor começa no detalhe. AMBIENTE E PRODUTO: Barra fictícia de chocolate amargo com miolo homogêneo bege, fundo de cozinha rosado e luz suave.\nQUADRO 1: Mão coloca embalagem lisa na bancada.\nQUADRO 2: Abre lentamente a cobertura.\nQUADRO 3: Quebra ao meio revela textura realista.\nQUADRO 4: Pessoa prova em contexto natural sem exagero de reação.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-barras-escolha-com-o-rotulo-a-vista",
+    "name": "Escolha com o rótulo à vista",
+    "family": "ads-barras",
+    "familyName": "Barras proteicas",
+    "framework": "DBO",
+    "look": "Embalagem de barra fictícia verde-musgo com área branca vazia, mãos adultas, bancada creme, lupa simples.",
+    "beats": [
+      "Pessoa vira embalagem para examinar informações",
+      "Plano próximo deixa espaço para rótulo real composto depois",
+      "Compara duas variantes preservando embalagens",
+      "Escolhe uma e guarda a outra"
+    ],
+    "hook": "Quer decidir além da chamada na frente da embalagem?",
+    "benefit": "A informação do rótulo faz parte da escolha do produto.",
+    "objection": "Não inventar proteína, açúcar, calorias, ingredientes ou alegações comparativas.",
+    "cta": "Consulte ingredientes e informações nutricionais",
+    "sound": "Embalagem e mesa; trilha clara e contida",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Escolha com o rótulo à vista. AMBIENTE E PRODUTO: Embalagem de barra fictícia verde-musgo com área branca vazia, mãos adultas, bancada creme, lupa simples.\nQUADRO 1: Pessoa vira embalagem para examinar informações.\nQUADRO 2: Plano próximo deixa espaço para rótulo real composto depois.\nQUADRO 3: Compara duas variantes preservando embalagens.\nQUADRO 4: Escolhe uma e guarda a outra.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-barras-um-lugar-na-mochila",
+    "name": "Um lugar na mochila",
+    "family": "ads-barras",
+    "familyName": "Barras proteicas",
+    "framework": "AIDA",
+    "look": "Barra fictícia retangular em embalagem coral, mochila cinza, trajeto de bairro, mulher adulta madura.",
+    "beats": [
+      "Pessoa organiza mochila com livro e barra",
+      "Sai caminhando pela rua",
+      "Senta num banco e abre o produto",
+      "Mostra barra e embalagem antes de guardar resíduos"
+    ],
+    "hook": "O que você escolhe levar para o seu dia?",
+    "benefit": "Uma pequena cena de preparo conecta objeto, percurso e pausa.",
+    "objection": "Não presumir conservação em calor ou condições inadequadas: seguir rótulo e fabricante.",
+    "cta": "Veja as opções da linha",
+    "sound": "Zíper, passos e embalagem; música de passeio",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Um lugar na mochila. AMBIENTE E PRODUTO: Barra fictícia retangular em embalagem coral, mochila cinza, trajeto de bairro, mulher adulta madura.\nQUADRO 1: Pessoa organiza mochila com livro e barra.\nQUADRO 2: Sai caminhando pela rua.\nQUADRO 3: Senta num banco e abre o produto.\nQUADRO 4: Mostra barra e embalagem antes de guardar resíduos.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-cereal-o-som-que-muda-a-manha",
+    "name": "O som que muda a manhã",
+    "family": "ads-cereal",
+    "familyName": "Cereal",
+    "framework": "AIDA",
+    "look": "Tigela azul, cereal dourado fictício, bancada amarelo-manteiga, iogurte e frutas como sugestão de consumo.",
+    "beats": [
+      "Tigela vazia inicia ritual",
+      "Cereal cai em fluxo plausível",
+      "Frutas e iogurte completam sugestão",
+      "Colher leva primeira porção"
+    ],
+    "hook": "Tem um som que convida a começar a manhã de outro jeito.",
+    "benefit": "Servir e combinar mostram textura e possibilidades de uso.",
+    "objection": "Frutas e iogurte são sugestões, não ingredientes atribuídos ao cereal.",
+    "cta": "Conheça a linha",
+    "sound": "Cereal, colher e louça; trilha leve",
+    "heroIndex": 1,
+    "pilot": "06-cereal.png",
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O som que muda a manhã. AMBIENTE E PRODUTO: Tigela azul, cereal dourado fictício, bancada amarelo-manteiga, iogurte e frutas como sugestão de consumo.\nQUADRO 1: Tigela vazia inicia ritual.\nQUADRO 2: Cereal cai em fluxo plausível.\nQUADRO 3: Frutas e iogurte completam sugestão.\nQUADRO 4: Colher leva primeira porção.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-cereal-a-tigela-alem-do-habitual",
+    "name": "A tigela além do habitual",
+    "family": "ads-cereal",
+    "familyName": "Cereal",
+    "framework": "DBO",
+    "look": "Cereal fictício de flocos simples, duas tigelas creme, cozinha azul e mãos adultas.",
+    "beats": [
+      "Pessoa olha a tigela e pensa numa variação",
+      "Serve cereal com ingrediente adicional separado",
+      "Monta segunda sugestão com fruta distinta",
+      "As duas tigelas aparecem juntas para escolher"
+    ],
+    "hook": "Seu café da manhã parece sempre igual?",
+    "benefit": "Duas sugestões visuais apresentam possibilidades com a mesma base.",
+    "objection": "Combinações não alteram a composição declarada do produto nem prometem benefício nutricional.",
+    "cta": "Veja sugestões e conheça o cereal",
+    "sound": "Flocos e cerâmica; música de dois motivos",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A tigela além do habitual. AMBIENTE E PRODUTO: Cereal fictício de flocos simples, duas tigelas creme, cozinha azul e mãos adultas.\nQUADRO 1: Pessoa olha a tigela e pensa numa variação.\nQUADRO 2: Serve cereal com ingrediente adicional separado.\nQUADRO 3: Monta segunda sugestão com fruta distinta.\nQUADRO 4: As duas tigelas aparecem juntas para escolher.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-cereal-o-detalhe-de-cada-floco",
+    "name": "O detalhe de cada floco",
+    "family": "ads-cereal",
+    "familyName": "Cereal",
+    "framework": "AIDA",
+    "look": "Cereal fictício de flocos de milho dourados, mesa de madeira lavada, colher azul e embalagem creme.",
+    "beats": [
+      "Mão abre a embalagem",
+      "Flocos pousam numa colher em escala real",
+      "Plano próximo mostra textura sem exagero",
+      "Colher retorna à tigela e pessoa começa o café"
+    ],
+    "hook": "O detalhe também faz parte do café da manhã.",
+    "benefit": "Uma mudança de escala mostra forma e textura do cereal.",
+    "objection": "Não inventar crocância, cobertura ou ingredientes ausentes; o som deve corresponder ao produto.",
+    "cta": "Explore os detalhes da linha",
+    "sound": "Papel, flocos e colher; trilha minimalista",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: O detalhe de cada floco. AMBIENTE E PRODUTO: Cereal fictício de flocos de milho dourados, mesa de madeira lavada, colher azul e embalagem creme.\nQUADRO 1: Mão abre a embalagem.\nQUADRO 2: Flocos pousam numa colher em escala real.\nQUADRO 3: Plano próximo mostra textura sem exagero.\nQUADRO 4: Colher retorna à tigela e pessoa começa o café.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-cereal-preparar-antes-da-correria",
+    "name": "Preparar antes da correria",
+    "family": "ads-cereal",
+    "familyName": "Cereal",
+    "framework": "DBO",
+    "look": "Pote simples, cereal fictício de aveia, fruta separada, bolsa ao lado da bancada, mulher adulta.",
+    "beats": [
+      "Pessoa organiza itens do café na bancada",
+      "Separa cereal em recipiente apropriado",
+      "Adiciona acompanhamento no momento de servir",
+      "Senta para comer antes de sair"
+    ],
+    "hook": "A manhã começa e a escolha fica para a última hora?",
+    "benefit": "Organizar os itens pode fazer parte do seu ritual.",
+    "objection": "Preparo e conservação devem seguir orientações reais; não prometer ganho de tempo medido.",
+    "cta": "Conheça opções para sua rotina",
+    "sound": "Pote, colher e bolsa; pulso suave",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Preparar antes da correria. AMBIENTE E PRODUTO: Pote simples, cereal fictício de aveia, fruta separada, bolsa ao lado da bancada, mulher adulta.\nQUADRO 1: Pessoa organiza itens do café na bancada.\nQUADRO 2: Separa cereal em recipiente apropriado.\nQUADRO 3: Adiciona acompanhamento no momento de servir.\nQUADRO 4: Senta para comer antes de sair.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-cereal-a-receita-muda-de-escala",
+    "name": "A receita muda de escala",
+    "family": "ads-cereal",
+    "familyName": "Cereal",
+    "framework": "AIDA",
+    "look": "Cereal fictício em flocos, copos de vidro baixos, iogurte e morangos separados, cozinha real.",
+    "beats": [
+      "Ingredientes aparecem em recipientes distintos",
+      "Mãos montam uma camada de iogurte",
+      "Acrescentam cereal e fruta em sequência",
+      "Dois copos são servidos numa mesa pequena"
+    ],
+    "hook": "A mesma base pode aparecer de outro jeito.",
+    "benefit": "Montar camadas transforma o servir em uma demonstração visual.",
+    "objection": "É sugestão de consumo: não confundir acompanhamentos com ingredientes do produto.",
+    "cta": "Veja a linha e experimente uma combinação",
+    "sound": "Vidro, colher e flocos; ritmo leve por ação",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: A receita muda de escala. AMBIENTE E PRODUTO: Cereal fictício em flocos, copos de vidro baixos, iogurte e morangos separados, cozinha real.\nQUADRO 1: Ingredientes aparecem em recipientes distintos.\nQUADRO 2: Mãos montam uma camada de iogurte.\nQUADRO 3: Acrescentam cereal e fruta em sequência.\nQUADRO 4: Dois copos são servidos numa mesa pequena.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  },
+  {
+    "id": "natural-cereal-abrir-conferir-escolher",
+    "name": "Abrir, conferir, escolher",
+    "family": "ads-cereal",
+    "familyName": "Cereal",
+    "framework": "DBO",
+    "look": "Embalagem fictícia azul-clara com verso branco sem letras, cereal de anéis simples, mesa creme e mãos maduras.",
+    "beats": [
+      "Pessoa compara frente e verso da embalagem",
+      "Área de informação recebe enquadramento legível para composição posterior",
+      "Uma porção realista é servida",
+      "Embalagem fica ao lado da tigela completa"
+    ],
+    "hook": "Quer conhecer o cereal além da foto da embalagem?",
+    "benefit": "Mostrar produto e informação juntos permite uma apresentação mais clara.",
+    "objection": "O rótulo real deve informar ingredientes, alergênicos e valores, sem números inventados.",
+    "cta": "Confira os ingredientes e conheça a linha",
+    "sound": "Embalagem e tigela; música discreta",
+    "heroIndex": 1,
+    "pilot": null,
+    "targetDurationRange": [
+      30,
+      45
+    ],
+    "prompt": "Generate a refined photographic storyboard contact sheet for an original naturalistic advertisement. EXACTLY FOUR equal portrait photographs in a 2 by 2 grid, order top-left, top-right, bottom-left, bottom-right. All four panels completely filled, edge-to-edge, with NO gutters, NO borders, NO text, NO letters, NO logos, NO captions, NO watermarks. Whole sheet portrait 2:3; each panel also 2:3. Images will be separated precisely at midpoints. Rich authentic human-shot smartphone aesthetics: natural light, moderate soft contrast, slightly lifted blacks but NO gray veil, honest material texture, normal human skin and believable anatomy, accurate product colors, subtle optical depth. Not glossy CGI, not stock-ad posing, not plain flat graphics, not a slideshow of identical compositions. Show actual physical actions and varied motivated framing. One coherent fictional product, same construction and exact color across all four frames, same adult characters with recognizable unchanged identities. Preserve natural body proportions and realistic garment fitting. No invented numbers or readable label data. All products, people and places are fictional demonstration examples; NOT real testimonial or performance proof. Environments should feel lived-in yet thoughtfully composed; layered foreground and background; beautiful but credible light. Avoid repeating the identical room, model or palette across unrelated concepts. Do not show words in this image: final subtitles and call-to-action are added later as editable text. Brazilian everyday context. Direction follows below in Portuguese.\nCONCEITO: Abrir, conferir, escolher. AMBIENTE E PRODUTO: Embalagem fictícia azul-clara com verso branco sem letras, cereal de anéis simples, mesa creme e mãos maduras.\nQUADRO 1: Pessoa compara frente e verso da embalagem.\nQUADRO 2: Área de informação recebe enquadramento legível para composição posterior.\nQUADRO 3: Uma porção realista é servida.\nQUADRO 4: Embalagem fica ao lado da tigela completa.\nUse genuinely different camera distances per beat, beautiful and legible details, action and consequence. No graphic template. End on a context or product composition suitable for an editable CTA overlay."
+  }
+]

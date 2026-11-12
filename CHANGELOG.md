@@ -1,3 +1,7 @@
+# 2.5.0 · 2026-11-12
+
+60 anúncios narrados em dez segmentos; catálogo 4.3 com 780 estilos. Quatro quadros por conceito, DBO/AIDA, narração, legendas e CTA no preset, pedido e planejador. Opção de 45 s e migração de favoritos Page preservada. Skill e plugin multimarcas atualizados, sem mudança da skill pessoal.
+
 # 2026-11-06 — Biblioteca somente de estilos
 
 - 540 estilos preservados, com galeria em largura total e escolha no briefing.

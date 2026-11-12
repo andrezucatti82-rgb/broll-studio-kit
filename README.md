@@ -14,9 +14,11 @@ Este repositório não apresenta um vídeo de demonstração. O arquivo `templat
 
 ## Biblioteca visual e publicidade
 
-**Edição 4.2 / skill 2.4.0:** os 720 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Navegação híbrida com categorias agrupadas na lateral, atalhos de estilos, explorador visual recolhível e menu deslizante no celular. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
+**60 anúncios novos:** joias, capachos, advocacia, moda masculina e feminina, biquínis, pijamas, orgânicos, barras proteicas e cereal. Seis conceitos por segmento, com DBO/AIDA, narração, legendas e CTA. [Como usar e limites](docs/NATURAL-ADS-4.3.md).
 
-[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 720 direções em 18 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 40 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
+**Edição 4.3 / skill 2.5.0:** os 780 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Navegação híbrida com categorias agrupadas na lateral, atalhos de estilos, explorador visual recolhível e menu deslizante no celular. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
+
+[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 780 direções em 28 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 40 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
 
 A primeira entrega é **roteiro e moodboard visual para aprovação; após o aceite, storyboard visual para aprovação própria e, depois, amostra de 10 segundos**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
 
@@ -121,7 +123,7 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 
 ## Pacotes de instalação e atualização
 
-[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.4.0, kit 2.4.0 e catálogo 4.2 (720 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
+[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.5.0, kit 2.5.0 e catálogo 4.3 (780 estilos/28 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
 
 ## Referências visuais para o pedido
 

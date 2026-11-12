@@ -7,14 +7,14 @@ import '../style-atlas/dist/workflow.js';
 const root=new URL('../style-atlas/',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const catalog=read('dist/catalog.json');
-const provenance=read('records/sequences-720/assets.json');
+const provenance=[...read('records/sequences-720/assets.json'),...read('records/natural-ads-60/assets.json')];
 const W=globalThis.AtlasWorkflow;
 
-test('720 distinct visual sequences preserve IDs, four complete frames and review boundaries',()=>{
- assert.equal(catalog.styles.length,720);
+test('780 distinct visual sequences preserve IDs, four complete frames and review boundaries',()=>{
+ assert.equal(catalog.styles.length,780);
  assert.equal(catalog.visualEditionStatus,'complete');
- assert.equal(provenance.length,720);
- assert.equal(new Set(catalog.styles.map(s=>s.id)).size,720);
+ assert.equal(provenance.length,780);
+ assert.equal(new Set(catalog.styles.map(s=>s.id)).size,780);
  const hashes=new Set();
  for(const s of catalog.styles){
   const record=provenance.find(r=>r.id===s.id);
@@ -23,7 +23,7 @@ test('720 distinct visual sequences preserve IDs, four complete frames and revie
   assert.equal(s.sequence.motionValidated,false);
   assert.equal(s.sequence.conceptOnly,true);
   assert.equal(record.motionValidated,false);
-  assert.ok(['approved_by_user_2026-11-11','pending_user_review'].includes(s.sequence.conceptApproval));
+  assert.ok(['approved_by_user_2026-11-11','approved_by_user_2026-11-12','pending_user_review'].includes(s.sequence.conceptApproval));
   for(const [i,f] of s.sequence.frames.entries()){
    assert.ok(f.width>=300&&f.height>=300,s.id);
    const data=fs.readFileSync(new URL('dist/'+f.src,root));
@@ -44,7 +44,7 @@ test('720 distinct visual sequences preserve IDs, four complete frames and revie
   assert.equal(s.executionPlan.movementLanguage,s.motion);
   assert.deepEqual(s.executionPlan.resources,s.resources);
  }
- assert.equal(hashes.size,2880,'each frame is a distinct file, never a repeated cover');
+ assert.equal(hashes.size,3120,'each frame is a distinct file, never a repeated cover');
 });
 
 test('old and expanded styles hand off the actual sequence, action plan and neutral approval rules',()=>{

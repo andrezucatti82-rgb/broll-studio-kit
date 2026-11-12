@@ -71,9 +71,10 @@
  const $=id=>document.getElementById(id),groups=[
   {id:'visual',name:'Linguagens visuais',families:['cinema','grafico','ilustracao','materiais','volume','hibridos']},
   {id:'movement',name:'Movimento e apresentação',families:['motion','motion-campanha','apresentacoes','avatares']},
-  {id:'business',name:'Aplicações e negócios',families:['tecnologia','anuncios','campanhas','imoveis','software','saude','ecommerce','infoprodutores']}
+  {id:'business',name:'Aplicações e negócios',families:['tecnologia','anuncios','campanhas','imoveis','software','saude','ecommerce','infoprodutores']},
+  {id:'natural-ads',name:'Anúncios por segmento',families:['ads-joias','ads-capachos','ads-advocacia','ads-moda-masculina','ads-moda-feminina','ads-biquinis','ads-pijamas','ads-organicos','ads-barras','ads-cereal']}
  ];
- const labels={cinema:'Cinema',grafico:'Editorial',ilustracao:'Ilustração',materiais:'Papel e materiais',volume:'Volume e 3D',hibridos:'Narrativas',motion:'Movimento', 'motion-campanha':'Motion de campanha',apresentacoes:'Apresentações',avatares:'Avatares',tecnologia:'Interfaces e dados',anuncios:'Produtos',campanhas:'Campanhas',imoveis:'Imóveis',software:'Softwares',saude:'Saúde e estética',ecommerce:'E-commerce',infoprodutores:'Educação'};
+ const labels={cinema:'Cinema',grafico:'Editorial',ilustracao:'Ilustração',materiais:'Papel e materiais',volume:'Volume e 3D',hibridos:'Narrativas',motion:'Movimento', 'motion-campanha':'Motion de campanha',apresentacoes:'Apresentações',avatares:'Avatares',tecnologia:'Interfaces e dados',anuncios:'Produtos',campanhas:'Campanhas',imoveis:'Imóveis',software:'Softwares',saude:'Saúde e estética',ecommerce:'E-commerce',infoprodutores:'Educação','ads-joias':'Joias artesanais','ads-capachos':'Capachos','ads-advocacia':'Advocacia','ads-moda-masculina':'Moda masculina','ads-moda-feminina':'Moda feminina','ads-biquinis':'Biquínis','ads-pijamas':'Pijamas','ads-organicos':'Orgânicos','ads-barras':'Barras proteicas','ads-cereal':'Cereal'};
  const paths={cinema:'M3 6h12v12H3z m12 4 6-3v10l-6-3',grafico:'M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3z M12 6v15',ilustracao:'m4 16 12-12 4 4L8 20H4z M13 7l4 4',materiais:'m12 3 10 5-10 5L2 8z M2 12l10 5 10-5 M2 16l10 5 10-5',volume:'m12 2 9 5v10l-9 5-9-5V7z M3 7l9 5 9-5 M12 12v10',hibridos:'M3 3h18v18H3z M7 3v18 M17 3v18 M3 8h4 M3 16h4 M17 8h4 M17 16h4',motion:'M9 5l10 7-10 7z M3 8h3 M2 12h4 M3 16h3',avatares:'M8 8a4 4 0 1 0 8 0 4 4 0 1 0-8 0 M4 22v-3a8 8 0 0 1 16 0v3',imoveis:'m2 11 10-9 10 9 M5 9v12h14V9 M10 21v-7h4v7',saude:'M9 3h6v6h6v6h-6v6H9v-6H3V9h6z',ecommerce:'M2 3h3l3 13h11l3-9H6 M9 20h1 M18 20h1',infoprodutores:'m2 9 10-6 10 6-10 6z M6 12v6l6 3 6-3v-6',business:'M3 7h18v14H3z M8 7V3h8v4 M3 12h18',default:'M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z'};
  const icon=id=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[id]||paths.default}"/></svg>`;
  let catalog,byFamily,activeGroup='visual',expanded='visual',lastFamily=null,query='',mobile,previousOverflow='';
@@ -96,7 +97,7 @@
  }
  function visual(){
   const g=groups.find(g=>g.id===activeGroup),current=family();
-  $('categoryExplorerTitle').textContent='Explore '+g.name;$('categoryTiles').style.setProperty('--category-columns',g.families.length);
+  $('categoryExplorerTitle').textContent='Explore '+g.name;$('categoryTiles').style.setProperty('--category-columns',g.families.length>8?5:g.families.length);
   $('categoryTiles').innerHTML=g.families.map(id=>{
    const f=byFamily.get(id),s=catalog.styles.find(s=>s.family===id);
    return `<button type="button" class="category-tile" data-visual-family="${id}" aria-pressed="${id===current}" aria-label="${esc(f.name)} · ${f.count} estilos"><span class="category-tile-image"><img src="${esc(thumb(s))}" alt="" width="140" height="100" loading="lazy"><span class="category-tile-check" aria-hidden="true">✓</span></span><strong>${esc(labels[id])}</strong><small>${f.count} estilos</small></button>`;
