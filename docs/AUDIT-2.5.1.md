@@ -25,3 +25,7 @@ Data: 12/11/2026. Mantidos os 780 estilos, 28 categorias, IDs, imagens, quatro t
 As sequências continuam conceituais. Não houve geração, playback nem escuta de novos vídeos. A coerência entre imagem e movimento, a naturalidade da voz e a fidelidade a produtos/pessoas reais continuam exigindo a amostra do projeto e comparação com originais. A instalação do plugin na conta de nuvem não é confirmada por atualizar o GitHub; o pacote e a instalação local do Codex são verificados separadamente.
 
 O próximo teste criativo útil é produzir, com autorização de recursos/custos, uma amostra de um estilo sem vídeo e avaliar as quatro travas contra seus quadros. Esta revisão não executa esse teste.
+
+## Publicação verificada
+
+Domínio principal e espelho publicados com sucesso. Os arquivos `app.js`, `workflow.js`, `gallery-views.js`, `download.html` e `download.js` servidos nos dois endereços tiveram hashes iguais aos candidatos testados. Chromium nas duas versões online: 375 e 1440 px sem overflow horizontal, 19 tipos disponíveis e download PNG concluído. A Page foi atualizada (sequência 53), sem certificação do visualizador nativo. Pacotes e Codex local: 2.5.1. O PR #6 permanece aberto, sem merge na main. Recibo: `style-atlas/records/audit-2.5.1/publication.json`.

@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-12",
+  "version": "2.5.1",
+  "sourceCommit": "b42f145a8c24a74522a8f29c06bdaefbd358e174",
+  "branch": "feat/visual-app-720",
+  "pullRequest": "https://github.com/andrezucatti82-rgb/broll-studio-kit/pull/6",
+  "mainMerged": false,
+  "primary": {
+    "runId": 43136880188,
+    "url": "https://videos.gerenciadordeanuncios.com.br/",
+    "status": "succeeded",
+    "verification": {
+      "url": "https://videos.gerenciadordeanuncios.com.br/",
+      "release": "atlas-20261112014732/",
+      "styles": 780,
+      "hashes": [
+        "app.js",
+        "workflow.js",
+        "gallery-views.js",
+        "download.html",
+        "download.js"
+      ],
+      "liveBrowser": [
+        375,
+        1440
+      ],
+      "PNGDownloaded": true,
+      "errors": []
+    }
+  },
+  "mirror": {
+    "projectId": "appgprj_6aec09533b208191aaa63ba6e104d2ce",
+    "version": 28,
+    "sourceCommit": "4c9b9520883fb8892f8596325f81b8c65e113cab",
+    "deploymentId": "appgdep_6af51befb1e08191b888bba059e5036b",
+    "status": "succeeded",
+    "verification": {
+      "url": "https://video-multimarcas-estilos.andrezucatti82.chatgpt.site/",
+      "release": "",
+      "styles": 780,
+      "hashes": [
+        "app.js",
+        "workflow.js",
+        "gallery-views.js",
+        "download.html",
+        "download.js"
+      ],
+      "liveBrowser": [
+        375,
+        1440
+      ],
+      "PNGDownloaded": true,
+      "errors": []
+    }
+  },
+  "page": {
+    "pageId": "page_05d0233621d081919b31df2863cab40b",
+    "visualSequence": 52,
+    "bodySequence": 53,
+    "nativeViewerTested": false
+  },
+  "codexLocalPluginVersion": "2.5.1",
+  "cloudPluginInstallationVerified": false,
+  "personalSkillModified": false,
+  "newVideoOrAudioGenerated": false
+}
