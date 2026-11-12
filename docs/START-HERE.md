@@ -6,9 +6,9 @@ Este é um kit para um agente de IA produzir vídeos. A página ajuda a escolher
 
 ## 1. Experimente sem instalar programas
 
-1. Abra a galeria. Compare estilos e clique em **Usar este estilo**. A página tem movimento suave, paralaxe discreta e ícones; a preferência de movimento reduzido do dispositivo desativa as animações. Uma direção complementar é opcional.
-2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Ver e comparar 24 tipografias** para ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 30 personagens fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
-3. Abra seu ChatGPT, entre na sua conta, cole o pedido e anexe suas fotos, logo, vídeos ou capturas. Envie a mensagem.
+1. Abra a galeria. Compare estilos e clique em **Usar este estilo**. A página tem movimento suave, paralaxe discreta e ícones; a preferência de movimento reduzido do dispositivo desativa as animações. Você pode combinar até nove direções complementares, definindo o papel de cada uma.
+2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Alterar**, em Tipografia, para comparar as 24 combinações para ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 40 direções com apresentadores fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
+3. Abra seu ChatGPT, entre na sua conta, cole o pedido e anexe suas fotos, logo, vídeos ou capturas. Os links dos quatro quadros acompanham o pedido; se o agente não conseguir abri-los, use os downloads da galeria e anexe os PNGs. Envie a mensagem.
 4. Se a skill não estiver instalada, o pedido ainda contém as regras principais. Para contexto completo, anexe o ZIP da skill ou adicione os arquivos ao projeto compatível.
 5. Peça ao agente para verificar suas ferramentas antes da produção. A primeira entrega será **roteiro, moodboard aprovado, storyboard aprovado e amostra de 10 segundos para aprovação**. O vídeo completo depende dessa aprovação.
 
@@ -21,7 +21,7 @@ Recomendado: Codex/ambiente de agente com acesso a arquivos, terminal e internet
 Instale Git, Node.js **22 ou superior**, FFmpeg e um navegador Chromium compatível com Remotion. Python 3 é necessário para o cliente HTTP direto do HeyGen; também é usado no empacotamento e na revisão. As instruções oficiais dos respectivos instaladores prevalecem sobre comandos específicos de um sistema operacional.
 
 ```bash
-git clone https://github.com/andrezucatti82-rgb/broll-studio-kit.git
+git clone --branch feat/visual-app-720 https://github.com/andrezucatti82-rgb/broll-studio-kit.git
 cd broll-studio-kit
 npm ci
 npm run doctor
@@ -30,7 +30,9 @@ npm test
 npm run validate
 ```
 
-Se você baixou o ZIP do GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
+Esta edição 2.6.0 está na branch `feat/visual-app-720`, ainda sem merge na main. O comando acima usa a edição revisada. Veja [fidelidade e verificações](FIDELITY-2.6.md).
+
+Se você baixou o ZIP dessa branch no GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
 
 ```bash
 npm run atlas
@@ -120,11 +122,11 @@ Se não conseguir gerar, o agente deve explicar a etapa bloqueada, o motivo conf
 
 ## Naturalidade e acabamento em todos os estilos
 
-Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e tratamento/edição final, com correção e nova revisão. A regra vale também para estilos anteriores e para a amostra de 10 segundos: fidelidade aos originais, continuidade, composição e áudio natural. Linguagens ilustradas mantêm seu estilo. Estudos estáticos não certificam vídeo pronto; sem playback e escuta reais, a revisão permanece pendente. Veja [o protocolo](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/natural-finish.md).
+Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e tratamento/edição final, com correção e nova revisão. A regra vale também para estilos anteriores e para a amostra de 10 segundos: fidelidade aos originais, continuidade, composição e áudio natural. Linguagens ilustradas mantêm seu estilo. Estudos estáticos não certificam vídeo pronto; sem playback e escuta reais, a revisão permanece pendente. Veja [o protocolo](../.agents/skills/video-multimarcas/references/natural-finish.md).
 
 ## Pessoas e preservação de identidade
 
-Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/identity-preservation.md).
+Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](../.agents/skills/video-multimarcas/references/identity-preservation.md).
 
 ## Infoprodutores: formato não é uma estética única
 
