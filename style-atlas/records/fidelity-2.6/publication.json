@@ -1,0 +1,65 @@
+{
+  "version": "2.6.0",
+  "date": "2026-11-12",
+  "siteSourceCommit": "4b4401c997fad98f4af26dc943c0b68a757da2ad",
+  "repositoryBranch": "feat/visual-app-720",
+  "mainMerged": false,
+  "primary": {
+    "runId": 43170673284,
+    "url": "https://videos.gerenciadordeanuncios.com.br/",
+    "status": "succeeded",
+    "verification": {
+      "url": "https://videos.gerenciadordeanuncios.com.br/",
+      "release": "atlas-20261112064822/",
+      "styles": 780,
+      "hashes": [
+        "app.js",
+        "workflow.js",
+        "gallery-views.js",
+        "download.html",
+        "download.js"
+      ],
+      "liveBrowser": [
+        375,
+        1440
+      ],
+      "PNGDownloaded": true,
+      "errors": []
+    }
+  },
+  "mirror": {
+    "version": 29,
+    "commit": "444130827ae067917cfa857d7b8b7fd890addffd",
+    "deploymentId": "appgdep_6af562543e688191be439a60b2703715",
+    "status": "succeeded",
+    "verification": {
+      "url": "https://video-multimarcas-estilos.andrezucatti82.chatgpt.site/",
+      "release": "",
+      "styles": 780,
+      "hashes": [
+        "app.js",
+        "workflow.js",
+        "gallery-views.js",
+        "download.html",
+        "download.js"
+      ],
+      "liveBrowser": [
+        375,
+        1440
+      ],
+      "PNGDownloaded": true,
+      "errors": []
+    }
+  },
+  "page": {
+    "id": "page_05d0233621d081919b31df2863cab40b",
+    "visualSequence": 54,
+    "bodySequence": 55,
+    "nativeViewerTested": false
+  },
+  "codexLocalPlugin": "2.6.0",
+  "cloudPluginUpdated": false,
+  "reasonCloud": "Exact editable Multimarcas plugin not located",
+  "newMediaGenerated": false,
+  "repositoryCodeCommit": "51e7574fda1a2c50b7855ab153d1627c65630d3c"
+}

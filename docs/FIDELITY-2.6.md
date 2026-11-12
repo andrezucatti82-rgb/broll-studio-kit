@@ -41,3 +41,7 @@ O teste criativo recomendado é escolher um estilo sem vídeo, preparar originai
 A execução da Page com recursos remotos reais revelou bloqueio CORS no fetch de `fonts.json`, que impedia concluir a inicialização. O build agora inclui os metadados das fontes na Page; os arquivos de fontes continuam usando suas URLs de origem compatíveis. O teste anterior com roteamento de arquivos candidatos não detectava esse problema.
 
 Chromium local: pedido com URLs completas, explicação recolhida, 375 e 1440 px sem overflow e Page com bridge simulado sem localStorage. O diagnóstico inicial executado no sandbox produziu EPERM para comandos instalados; a checagem autorizada fora dessa restrição confirmou os executáveis. Não confundir uma execução bloqueada com falta da ferramenta.
+
+## Publicação concluída
+
+Domínio principal e espelho verificados em produção: hashes dos arquivos correspondem à revisão testada, pedido com URLs completas e protocolo, desktop/celular sem overflow e download PNG concluído. Page atualizada para sequência 55, com metadados das fontes incorporados; prévia de fonte real testada com recursos remotos e bridge simulado. O visualizador nativo do ChatGPT continua não certificado. Codex local confirmado em 2.6.0. O PR #6 permanece aberto, sem merge. Recibo: `style-atlas/records/fidelity-2.6/publication.json`.
