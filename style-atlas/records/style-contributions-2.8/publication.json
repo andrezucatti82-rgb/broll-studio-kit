@@ -1,0 +1,47 @@
+{
+  "version": "2.8.1",
+  "status": "published_and_browser_verified",
+  "sourceCommit": "ad8df4ea79bb4c56743658ef9c23442d9f9f809a",
+  "completedAtUTC": "2026-11-13T05:02:46Z",
+  "hostingRunId": 43367405455,
+  "previousFailedAttempt": {
+    "hostingRunId": 43366511066,
+    "reason": "cPanel API reported unavailable functionality during its update; succeeded after retry"
+  },
+  "live": {
+    "domain": "https://videos.gerenciadordeanuncios.com.br/",
+    "release": "https://videos.gerenciadordeanuncios.com.br/atlas-20261113044423/",
+    "styles": 780,
+    "categories": 28,
+    "runtimeFilesMatchSource": {
+      "style-picker.js": "7855207ae86b65257efcafc19e3bb88ce9641f3b1084433c0f8d416453f186d3",
+      "workflow.js": "230acb314d495182ed46247eb35c3547f658bcab00c92830c3b8e04c2c299d92",
+      "app.js": "dc80f564d40b9396b77c1e4a69b56bcbfb43bc5d972194ba636acedb258388ff",
+      "app-shell.css": "c8d9f33e7747c18fe97b55410aab109196953c35054112a9f6ad65eb8b956495",
+      "guided.js": "738d2936e9558040d4f08edd87479c69caae6a2e5676c6685058c70695b8fc5c",
+      "guided-ui.js": "be8a4fbd7c26e5b8f45c11abaa6153e1afc922240bc6d6251457d7e4b29a2942",
+      "gallery-views.js": "1623d6d14954c57457904961a64018d0b74bca2a235147d929c74ea21a57ec92",
+      "app-shell.js": "9b7f9e6ff5b3285cd4d1633d94044cb508e22cc5a839f7087942cef438ef1aad",
+      "site-ui.js": "1b3d4e3b98037a02f9d524b74b29003333f412381d51c34d718dbab7c31dea88",
+      "styles.css": "6d07d9583320497e701a22b1f004f0475fb45cf6dab847847355b35dc1d5980b",
+      "catalog.json": "e4829536a9fdc301bf23d21c254346cd2896a7fa805bc41c0dab4dba49e18b9b",
+      "fonts.json": "c0dbd9077aab5ceb03115ec1cbe3e30023df006838055ba595a4cbf3ffc17100"
+    },
+    "liveBrowser": {
+      "desktop1440": true,
+      "mobile375": true,
+      "specificSelectionReplacesWhole": true,
+      "twoSourcesTwoCharacteristics": true,
+      "promptPrepared": true,
+      "reloadPreservedChoices": true,
+      "presetDownloaded": true,
+      "errors": []
+    },
+    "nativePageViewerTested": false,
+    "videoGenerated": false
+  },
+  "scope": "Software transport and interface verification. No AI media generated, no paid generation API called, no audiovisual quality approval.",
+  "packagesVersion": "2.8.1",
+  "accountPluginInstallation": "not_confirmed",
+  "personalSkillChanged": false
+}

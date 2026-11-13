@@ -59,5 +59,10 @@
     "accountPlugin": "not_confirmed",
     "personalSkillChanged": false
   },
-  "publication": "pending_final_release"
+  "publication": {
+    "status": "published_and_browser_verified",
+    "record": "publication.json",
+    "sourceCommit": "ad8df4ea79bb4c56743658ef9c23442d9f9f809a",
+    "release": "https://videos.gerenciadordeanuncios.com.br/atlas-20261113044423/"
+  }
 }
