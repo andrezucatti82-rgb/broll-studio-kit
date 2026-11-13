@@ -66,7 +66,7 @@ Galeria pública: https://videos.gerenciadordeanuncios.com.br/ ; espelho: https:
 
 ## Direções experimentais pesquisadas · edição 3.1
 
-O atlas acrescenta 140 direções, dez por categoria, com pesquisa Firecrawl/Exa documentada em `style-atlas/records/RESEARCH.md` no repositório público e em https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/style-atlas/records/RESEARCH.md . Ler `novelty.difference`, `motion`, `proof`, `researchRefs` e `audio` do preset; no briefing exportado, `research` resolve as fontes. A referência sustenta princípios de método, não fatos comerciais nem licença para copiar uma obra.
+O atlas acrescenta 140 direções, dez por categoria, com pesquisa Firecrawl/Exa documentada em `style-atlas/records/RESEARCH.md` no repositório público e em https://github.com/andrezucatti82-rgb/studio-kit-pro/blob/main/style-atlas/records/RESEARCH.md . Ler `novelty.difference`, `motion`, `proof`, `researchRefs` e `audio` do preset; no briefing exportado, `research` resolve as fontes. A referência sustenta princípios de método, não fatos comerciais nem licença para copiar uma obra.
 
 Preservar o mecanismo que diferencia o estilo: foco bifocal não é apenas macro, lenticular não é simples troca de imagem, fonte variável exige eixo real, termografia ilustrativa não mede temperatura. Dados e interfaces devem ser compostos em código ou capturados, com estados e fontes verificáveis. Ferrofluido, óptica, mecanismos e atuação de personagens exigem execução compatível; não prometer simulação física, rig ou movimento sem testá-los.
 
@@ -82,7 +82,7 @@ Comércio eletrônico: confirmar SKU, variante, rótulo, dimensões, compatibili
 
 Infoprodutores: pedir ementa, método, atividades, oferta, pré-requisitos, suporte e condições relevantes. Demonstrar ensino, prática e feedback reais. Trabalhos de alunos exigem autorização; não fabricar depoimentos, renda, empregabilidade ou reconhecimento de certificado. Distinguir assistir aulas de demonstrar aprendizagem. Reduzir estímulos que disputem atenção com explicação e tarefa.
 
-Os novos presets entram na coleta guiada e no diagnóstico: conferir anexos e ferramentas, pedir apenas faltas pertinentes, explicar bloqueio com causa verificada e alternativa. Aplicar `preproduction-approval.md`: aprovar moodboard e storyboard antes da amostra de 10 segundos. Pesquisa e fontes: https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/style-atlas/records/RESEARCH.md .
+Os novos presets entram na coleta guiada e no diagnóstico: conferir anexos e ferramentas, pedir apenas faltas pertinentes, explicar bloqueio com causa verificada e alternativa. Aplicar `preproduction-approval.md`: aprovar moodboard e storyboard antes da amostra de 10 segundos. Pesquisa e fontes: https://github.com/andrezucatti82-rgb/studio-kit-pro/blob/main/style-atlas/records/RESEARCH.md .
 
 ## Infoprodutores: formato não é uma estética única
 

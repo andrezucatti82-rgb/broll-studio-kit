@@ -26,8 +26,8 @@ Recomendado: Codex/ambiente de agente com acesso a arquivos, terminal e internet
 Instale Git, Node.js **22 ou superior**, FFmpeg e um navegador Chromium compatível com Remotion. Python 3 é necessário para o cliente HTTP direto do HeyGen; também é usado no empacotamento e na revisão. As instruções oficiais dos respectivos instaladores prevalecem sobre comandos específicos de um sistema operacional.
 
 ```bash
-git clone --branch feat/guided-production-2-7 https://github.com/andrezucatti82-rgb/broll-studio-kit.git
-cd broll-studio-kit
+git clone --branch feat/guided-production-2-7 https://github.com/andrezucatti82-rgb/studio-kit-pro.git
+cd studio-kit-pro
 npm ci
 npm run doctor
 npm run check

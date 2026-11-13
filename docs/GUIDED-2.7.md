@@ -49,3 +49,9 @@ O domínio principal concluiu a rotina de publicação 43311927878. Uma consulta
 O espelho permanece na versão anterior: seu endpoint Git retornou502 e o ambiente de execução ficou indisponível antes da nova tentativa. A verificação interativa pós-publicação também ficou pendente; os testes completos de navegador foram executados localmente antes da interrupção. O plugin da conta de nuvem não teve instalação confirmada. Nenhuma geração de vídeo, voz ou imagem foi executada.
 
 O [recibo de publicação](../style-atlas/records/guided-2.7/publication.json) registra esses estados. Para retomar no ambiente: preservar alterações locais, atualizar a branch por fast-forward quando possível, enviar app.js, workflow.js, index.html, app-shell.css, guided.js e guided-ui.js ao espelho, publicar sua versão e repetir os testes online. Não gerar os três casos pagos sem preço/escopo autorizados e aceites visuais.
+
+## Conferência posterior e menu simplificado
+
+O menu lateral passou a usar ícones uniformes nos atalhos de estilos. O site principal e a Page foram atualizados. A navegação e as imagens da galeria foram conferidas no domínio publicado em desktop e celular. Os três percursos guiados também passaram pela verificação interativa online, concluindo essa pendência da entrega anterior. O repositório foi renomeado para `studio-kit-pro`; remoto, links atuais de instalação e configuração de futuras publicações foram ajustados.
+
+O espelho foi preparado em commit e arquivo locais, mas o serviço Sites Git informa indisponibilidade para este cliente. Ele ainda não foi enviado nem publicado; o arquivo de preparação não constitui uma versão online. Recibo: `style-atlas/records/sidebar-icons/publication.json`.
