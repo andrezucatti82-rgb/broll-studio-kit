@@ -4,6 +4,12 @@ from pathlib import Path
 spec=importlib.util.spec_from_file_location('heygen_clips',Path(__file__).parents[1]/'scripts/heygen-clips.py')
 m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 class BudgetTests(unittest.TestCase):
+ def test_no_visual_approval_prevents_all_api_calls(self):
+  with tempfile.TemporaryDirectory() as directory:
+   job=Path(directory)/'job.json';job.write_text(json.dumps({'reserveUSD':1}))
+   with patch.object(m,'api') as api:
+    with self.assertRaisesRegex(ValueError,'Visual approval required'):m.submit(job,Path(directory)/'ledger.json',True)
+    api.assert_not_called()
  def ledger(self):return {'planningBRLPerUSD':7,'limitBRL':100,'pricingBasis':'Explicit estimate fixture','jobs':[]}
  def test_unknown_and_failed_charges_keep_reservation(self):
   d=self.ledger();d['jobs']=[{'reservedUSD':14,'chargedUSD':None,'status':'submission_unknown'}]
@@ -34,7 +40,7 @@ class BudgetTests(unittest.TestCase):
  def test_subscription_account_without_wallet_has_clear_block(self):
   with tempfile.TemporaryDirectory() as d:
    p=Path(d);job=p/'job.json';ledger=p/'ledger.json';job.write_text(json.dumps({'model':'heygen-video-1','duration':10,'mode':'text_to_video','reserveUSD':1}));ledger.write_text(json.dumps(self.ledger()))
-   with patch.object(m,'verify_direction'),patch.object(m,'api',return_value=({'data':{'wallet':None}},None)) as api:
+   with patch.object(m,'check_visual_approval'),patch.object(m,'verify_direction'),patch.object(m,'api',return_value=({'data':{'wallet':None}},None)) as api:
     with self.assertRaisesRegex(ValueError,'not interchangeable'):m.submit(job,ledger,True)
     api.assert_called_once_with('/v3/users/me')
 if __name__=='__main__'  :unittest.main()

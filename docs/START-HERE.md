@@ -26,7 +26,7 @@ Recomendado: Codex/ambiente de agente com acesso a arquivos, terminal e internet
 Instale Git, Node.js **22 ou superior**, FFmpeg e um navegador Chromium compatível com Remotion. Python 3 é necessário para o cliente HTTP direto do HeyGen; também é usado no empacotamento e na revisão. As instruções oficiais dos respectivos instaladores prevalecem sobre comandos específicos de um sistema operacional.
 
 ```bash
-git clone --branch feat/guided-production-2-7 https://github.com/andrezucatti82-rgb/studio-kit-pro.git
+git clone --branch main https://github.com/andrezucatti82-rgb/studio-kit-pro.git
 cd studio-kit-pro
 npm ci
 npm run doctor
@@ -35,7 +35,7 @@ npm test
 npm run validate
 ```
 
-Esta edição 2.7.0 está na branch `feat/guided-production-2-7`, ainda sem merge na main. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md) e [controles de fidelidade da edição anterior](FIDELITY-2.6.md).
+Esta edição 2.7.1 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
 
 Se você baixou o ZIP dessa branch no GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
 

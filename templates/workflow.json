@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "status": "planned",
+  "requiredComponents": [],
+  "artifacts": {
+    "visual": {"file": "", "sha256": "", "description": "Moodboard, styleframes e storyboard apresentados; para clipe isolado, quadros aprovados daquele clipe"},
+    "script": {"file": "", "sha256": ""},
+    "animatic": {"file": "", "sha256": ""},
+    "integrated_sample": {"file": "", "sha256": "", "components": [], "hardestShot": "", "transitionEvidence": ""}
+  },
+  "approvals": {},
+  "approvalRecordExample_NOT_APPROVAL": {"status": "pending", "by": "user", "sha256": "", "quote": "", "messageRef": "", "basis": {}},
+  "review": {
+    "sha256": "",
+    "technical": {"status": "not_run", "evidence": ""},
+    "playback": {"status": "not_run", "scope": "entire-video", "reviewer": "", "notes": ""},
+    "listening": {"status": "not_run", "scope": "entire-video", "reviewer": "", "notes": ""},
+    "issues": []
+  }
+}

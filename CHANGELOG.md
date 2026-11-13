@@ -1,3 +1,9 @@
+## 2.7.1 — edição consolidada na main
+
+- Integra os 780 estilos, modo guiado, ícones e documentação de instalação.
+- Preserva a regra universal de aprovação visual e seus gates de geração, render e entrega, junto ao contrato de fidelidade.
+- Pacotes regenerados de uma única skill neutra; instalação passa a apontar para main.
+
 ## 2.7.0 — produção guiada, receitas e continuidade
 
 - Percurso opcional de objetivo, aparência, materiais e preparação com sugestões locais explicáveis.

@@ -1,5 +1,7 @@
 # Vídeo Multimarcas
 
+Edição consolidada **2.7.1** na `main`: **780 estilos em 28 categorias**, modo guiado, ícones no menu, referências e pacotes completos. A política de aprovação visual da main foi preservada junto aos controles de fidelidade. Use [Comece aqui](docs/START-HERE.md) para instalar.
+
 **Skill pública de uso geral.** Identificador: `video-multimarcas`. Adapta cada produção à marca informada; não carrega identidade ou voz pessoal como padrão.
 
 **Uma temática vira um vídeo narrado, com pesquisa e identidade adaptada à sua marca.** Skill para agentes de IA, acompanhada de código editável para produção.
@@ -18,7 +20,7 @@ O botão **Criar meu vídeo** organiza objetivo, três sugestões visuais, mater
 
 A produção usa roteiro → moodboard aprovado → storyboard aprovado → amostra de 10 s → aprovação → vídeo completo. O agente traduz ajustes simples, registra responsabilidades e retoma a próxima dependência. O site público é estático: arquivos são enviados na conversa, e cada pessoa usa suas próprias conexões e créditos.
 
-Esta edição usa a branch `feat/guided-production-2-7`, sem merge na main. [Instalar a edição revisada](docs/INSTALL-SKILL.md).
+Esta edição está consolidada na branch `main`. [Instalar a edição revisada](docs/INSTALL-SKILL.md).
 
 ## Biblioteca visual e publicidade
 
@@ -26,7 +28,7 @@ Esta edição usa a branch `feat/guided-production-2-7`, sem merge na main. [Ins
 
 [Revisão e limites da versão 2.5.1](docs/AUDIT-2.5.1.md).
 
-**Edição 4.3 / skill 2.7.0:** os 780 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Navegação híbrida com categorias agrupadas na lateral, atalhos de estilos, explorador visual recolhível e menu deslizante no celular. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
+**Edição 4.3 / skill 2.7.1:** os 780 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Navegação híbrida com categorias agrupadas na lateral, atalhos de estilos, explorador visual recolhível e menu deslizante no celular. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
 
 [Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 780 direções em 28 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 40 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
 
@@ -154,7 +156,7 @@ As fichas incluem ação, uso, recursos, áudio, comparação com um conceito pr
 
 ## Execução dos estilos · histórico do pacote 2.3.2
 
-As instruções e o planejador agora preservam os critérios completos dos estilos em `style-execution-plan.json`: quadros, ação, áudio, recursos, prova esperada e fidelidade. Atribua papéis ao principal e a até nove complementares. O registro novo nasce pendente, é criado em retomadas antigas quando ausente e não sobrescreve decisões existentes. Moodboard, storyboard e amostra continuam com aprovações próprias. Esta edição está na branch `feat/atlas-720-directions` (PR #4), ainda sem merge na main.
+As instruções e o planejador agora preservam os critérios completos dos estilos em `style-execution-plan.json`: quadros, ação, áudio, recursos, prova esperada e fidelidade. Atribua papéis ao principal e a até nove complementares. O registro novo nasce pendente, é criado em retomadas antigas quando ausente e não sobrescreve decisões existentes. Moodboard, storyboard e amostra continuam com aprovações próprias. Esta edição está na branch `feat/atlas-720-directions` (PR #4), consolidada na main.
 
 ## Galeria mobile e revisão visual 2 · histórico
 
@@ -175,8 +177,14 @@ Cada direção recebe quatro estados conceituais e um plano de execução com ap
 
 As capas e miniaturas usam molduras uniformes com contenção: o enquadramento completo permanece visível, sem esticar ou recortar pessoas, produtos e texto. A proporção real de cada imagem é registrada; o formato final do vídeo é decidido no projeto. Mudanças nas referências reabrem os aceites afetados e preservam histórico e favoritos.
 
-Fontes: [implementação e limites](docs/VISUAL-APP-4.2.md), [procedência das sequências](style-atlas/records/sequences-720/) e [proposta aprovada](docs/WEBAPP-VISUAL-PROPOSAL.md). Branch de trabalho: `feat/visual-app-720`; sem merge automático na main.
+Fontes: [implementação e limites](docs/VISUAL-APP-4.2.md), [procedência das sequências](style-atlas/records/sequences-720/) e [proposta aprovada](docs/WEBAPP-VISUAL-PROPOSAL.md). Branch de trabalho: `feat/visual-app-720`; edição consolidada na main.
 
 ## Fidelidade da direção (2.6.0)
 
 Pedidos incluem links dos quadros, inspeção obrigatória e execução por plano. O adaptador pago exige o registro de referências, arquivos aprovados e compatibilidade antes de gerar. Veja [protocolo e conexões verificadas](docs/FIDELITY-2.6.md). `npm run fidelity-check -- projects/exemplo/fidelity-plan.json --phase sample` verifica registros e integridade, sem certificar qualidade criativa.
+
+## Aprovação visual antes de geração IA
+
+Leia [a regra universal](docs/VISUAL-APPROVAL.md). Comece por imagens aprovadas, inclusive para testes de avatar e B-roll. Copie `templates/workflow.json` para a pasta do projeto e registre aprovações reais. `node scripts/workflow-gate.mjs ai-video projects/exemplo/workflow.json` verifica o aceite visual. O cliente HeyGen exige `workflow` (caminho relativo ao job) e `visualSha256` antes de executar. `render` aceita `--stage animatic`, `--stage sample` (até 15 segundos) e, por padrão, `full-render`; `--stills` continua disponível para preparar imagens. O render completo exige as aprovações da amostra integrada. Nenhuma checagem automática assiste ou ouve o vídeo.
+
+Para aplicar a regra a outras skills locais de vídeo, use `scripts/apply-visual-policy.py` primeiro sem `--apply`, indicando `--root`, `--policy docs/VISUAL-APPROVAL.md` e uma pasta externa em `--backup`. Revise a seleção e então aplique. A ferramenta preserva backups e é idempotente; não altera serviços remotos.
