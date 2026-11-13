@@ -44,3 +44,7 @@ test('ten styles and granular scopes round-trip through a real portable planner 
 test('legacy four-group presets preserve their intent and require distribution, not fake precision',()=>{
  const c=choice();delete c.styleContributions;c.selectedStyles[0].selectedAspects=['typography'];const p=W.combinationPlan(c);assert.equal(p.explicit,false);assert.deepEqual(p.entries[0].contributions,[{aspect:'typographic_language',scope:'film'}]);assert.equal(p.entries[1].contributions[0].scope,'propose');assert.match(W.buildPrompt(c),/seleções antigas/);
 });
+
+test('whole-style direction scoped to the opening cannot impose its ad framework on the full film',()=>{
+ const s=catalog.styles.find(s=>s.advertising),c=choice([s]);c.styleContributions[s.id]=[{aspect:'style_direction',scope:'opening'}];assert.equal(W.scopedPromptStyle(c,c.selectedStyles[0]).advertising,undefined);assert.match(W.buildPrompt(c),/direção completa somente no escopo escolhido/);c.styleContributions[s.id][0].scope='film';assert.deepEqual(W.scopedPromptStyle(c,c.selectedStyles[0]).advertising,s.advertising);
+});
