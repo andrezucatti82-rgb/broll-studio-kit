@@ -1,0 +1,52 @@
+{
+  "source": "https://gerenciadordeanuncios.com.br/logo-gda.png",
+  "sha256": "f561ce8d7c814a450db633dd0852486e3855d9c02755951f74b391a62b3fa9d4",
+  "asset": "dist/assets/logo-gda.png",
+  "dimensions": [
+    120,
+    40
+  ],
+  "unchangedOriginal": true,
+  "locations": [
+    "desktop sidebar",
+    "mobile header",
+    "ChatGPT Page"
+  ],
+  "checks": {
+    "typecheck": "passed",
+    "nodeTestFiles": 10,
+    "pythonTests": 4,
+    "validation": "passed",
+    "mirrorBrowser": {
+      "desktop": [
+        1440,
+        900
+      ],
+      "mobile": [
+        375,
+        812
+      ],
+      "naturalSize": [
+        120,
+        40
+      ],
+      "computedSize": [
+        120,
+        40
+      ],
+      "horizontalOverflow": false,
+      "method": "Firecrawl hosted browser reported DOM measurements",
+      "scope": "header logo only; not a complete site or video review"
+    }
+  },
+  "sourceCommit": "22d6a1f5aef2b0737837389c0f28a239cccd61d6",
+  "mirrorVersion": 22,
+  "pageSequence": 44,
+  "primaryWorkflowRun": 43058085010,
+  "primaryRelease": "atlas-20261111162510",
+  "primaryPublication": "success",
+  "primaryReadback": {
+    "logoImages": 2,
+    "typedWordmarkRemoved": true
+  }
+}

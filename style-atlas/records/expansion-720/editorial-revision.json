@@ -1,0 +1,116 @@
+{
+  "revision": 3,
+  "scope": "Ten graphic/editorial references, IDs and production contracts unchanged",
+  "assets": [
+    {
+      "path": "assets/editorial-r3/grafico-31.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. Art-directed premium editorial still life, an oversized art book seen three-quarter from its fore-edge on a rich terracotta studio surface. The book is OPENING into a sculptural fan of ivory uncoated pages; page edges are printed in five crisp bands of cobalt, coral, saffron, aubergine and warm white. Large thick index tabs physically emerging at different depths, clear numbers 01 02 03 on ONLY three tabs. One coral chapter leaf gently curls forward, catches the sidelight, its broad typographic heading reads exactly 'IDEIAS'. Strong diagonal composition, hero book occupies 85 percent of picture, long precise cast shadows, paper fibers and edge ink, realistic binding. Contemporary collectible design monograph photographed for a design magazine, architectural composition, warm raking daylight. Not a spreadsheet, not a diagram, not a row of rectangles.",
+      "sourceSha256": "e1c453ea70c0065647ad3c55cd3f80ad11aea6e8f49a6db06da9b4215fca1f65",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "517283479a90adb3a95242303990b00bedf0ebc477f4b2f8964487338829e1a5",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-32.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. A spectacular physical wayfinding sculpture built from overlapping cobalt-blue and ivory ENAMELLED METAL signs, positioned in an elegant pale concrete architectural corner. View slightly from below with dynamic but believable perspective. Main rounded metal sign fills foreground at a slight angle, glossy cobalt enamel, folded thick edges, four beautiful chrome fasteners, bold condensed ivory typography reading exactly 'SIGA' and a huge sculptural white right arrow. A secondary narrow ivory blade sign stands perpendicular behind it and reads 'EM FRENTE' in cobalt. Small coral metal disc peeks behind. Beautiful contrast between glazed enamel reflections, brushed metal and matte concrete, hard diagonal sunlight, deep soft reflected shadows, luxury design studio photography, edge and material detail. Clearly crafted objects, not flat UI panels or an infographic.",
+      "sourceSha256": "0ae6394360ed75e1e715448b8856168a6df4835a19fb97bed4a36a741a618dec",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "74fc2f26dd25c4e9e110d93edcf342ce43221db356447fbad1bfd6cd8f9f764e",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-33.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. Experimental premium graphic editorial campaign about transparency. Oversized ivory document paper sheets arranged in a dramatic macro perspective on a charcoal table. Thick opaque black censor strips are physical matte black ribbons lifted off the paper, twisting once above it and casting beautiful suspended shadows. As one strip peels away it reveals ONE large word printed in sharp coral red: 'EVIDÊNCIA'. This word is the hero across the central cream sheet, fully legible. Behind it subtle ruled lines and abstract short typeset strokes without gibberish paragraphs; one deep embossed circular mark, translucent tracing paper offset to create sophisticated layers. Strict black/ivory/coral palette. Bold Swiss editorial art direction, radical scale, precise negative space, raking studio light, tactile paper. Not a dashboard, no list of identical bars.",
+      "sourceSha256": "9c3a2d1915300d756897891ad5feea093406769b90ce73bd79ea6ef5ed4e368a",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "49212e8c747d259c9f524e6ff82d9b3a3f761756748e81bc9cec4d15c237d203",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-34.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. Museum-quality fictional historical pharmaceutical packaging repurposed as an art/design archive, absolutely no medical claims, no real medicine names. Elegant physical still-life of three differently shaped folded paper boxes on warm peach plaster, forest green ink, ivory cotton board, narrow copper foil filets and fine embossed border rules. Main tall carton in foreground opens its geometric top flap revealing a peach folded accordion sheet. A smaller cube and a horizontal slipcase overlap at different depths. Main carton has large handsome letterpress serif typography reading exactly 'ARQUIVO' and a single oversized '03'. Other cartons only use simple abstract geometric emblems and thin rules. Sage shadows, rich peach and dark green, cinematic grazing side light reveals fibres and emboss, exquisite collectible packaging design photography. Close framing, sophisticated hierarchy, neither medical ad nor three plain flat rectangles.",
+      "sourceSha256": "49c440d53bdc0358f267e636012fce7fbd56094fdf48c627cb982177cc446108",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "737d246bed29a7da36c247374ec9da515762cc4b8e1763c1911bb55a071b20c8",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-35.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. Original sculptural modular alphabet installation on warm ivory tabletop, premium playful design studio photography. Oversized glossy cobalt blue and burnt orange CERAMIC letter segments with thick rounded extrusion and handcrafted glaze assemble into the readable word 'TIPO'. Four different recognisable letters, not repeated E shapes. The O is a cobalt ceramic ring with an orange quarter segment slightly separated; the T has a cobalt crossbar being fitted onto an orange vertical stem; the P and I use complementary shapes. Several small spare ceramic segments sit diagonally in foreground with realistic weight and contact shadows, no floating pieces. Frame fills with beautifully arranged typography, overhead three-quarter view, curved softbox reflection on glaze, asymmetric composition, strong tactile depth and daylight. Real ceramic irregularities subtle, bold collectible object design.",
+      "sourceSha256": "c996db4c13944729e004c573149742a64f2d56ea14d9cebc9d1dc13660e55db9",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "22313e900b2278206616c8aeeeda04ab77e229557510a43bc30fce14afd5bccf",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-36.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. Daring contemporary literary magazine cover photographed as a physical oversized ivory proof sheet on a deep vermilion worktable. Huge expressive black editorial SERIF type in two clear lines reads exactly 'MENOS' then 'RUÍDO'. A confident red proofreader mark strikes across the lower edge of MENOS without obscuring its readability; a red handwritten arrow flows around the typography and circles a tiny crop mark. One long red pencil rests diagonally over the margin, a second thin proof sheet slightly offset below. Visible deboss of black letterpress, soft fibre paper, tactile ink, tiny carefully controlled proof markings, giant typography occupying most of frame. Macro detail but whole composition visible. Gallery-quality graphic design, editorial sophistication, strong unexpected crop of the paper object within composition, warm side lighting. No word processor mockup, no centered small text.",
+      "sourceSha256": "e04632c2192e38623fbce337128ffb6b3a9074e6992c54102293e81b33705b6f",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "073818591d0dcba989c62c350461cbeb6236ce4a23552a20a84e06d34c0b3fc2",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-37.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. A beautiful contemporary aerogram mail sculpture for a travel/editorial campaign. Pale powder-blue lightweight paper letter physically unfolding into a broad zigzag, with rich coral diagonal airmail stripes at the perimeter, delicate cobalt route line looping over the folds and passing behind the paper. Main broad folded plane carries ONE large sophisticated condensed blue word exactly 'DISTÂNCIA'. A separate tiny invented postage stamp contains a simple sun symbol and '01', not a real postal mark. Contrasting tangerine background, long sunny shadow, paper translucency at folded edges, hand-cut precision, luxurious printed ephemera photography. Dynamic diagonal composition, believable folding geometry, one central mail object with 3D depth, wide enough to see the whole relevant object, no cartoon aircraft, no generic envelope icon.",
+      "sourceSha256": "53532dc2cdb8841a05b0aff6e4ca077773eb09bcdada7a8ba175b7dfc91cbaff",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "f80b4b7cd15f7c2a5646447ea036e14e651f038ea2dfa39ef51046caf821d787",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-38.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. Art-directed close still-life of an open forest-petrol enamel library card drawer, a beautifully machined brass handle in foreground. A sculptural cascade of thick warm cream archive cards, alternating tabs in burgundy and mint, recedes into the dark drawer. One hero card is pulled up toward camera at a diagonal, large confident black editorial typography reads 'ACHADO' and huge coral '07'; its three tiny catalog rules remain empty rather than gibberish text. Light rakes across layered paper edges, shallow but controlled depth of field, sharp main card and wooden/card material detail. A pleasing juxtaposition of contemporary typography and old library mechanisms. Imaginative editorial composition, no row of flat UI cards, hero card and drawer fill frame, rich physical shadows and warm natural light.",
+      "sourceSha256": "69a4690acef6723d81f91610b54ed692dcc15802c858103f9115d01f46f28dc9",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "a12036da216a1b42a14e2b6c9c408dd3aa72047cc84cf71650bfcdfd82725f18",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-39.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. Experimental luxury typography in glass and transparent acetate, visual identity key art. Two broad translucent acrylic sheets, one smoky charcoal and one brilliant transparent golden yellow, overlap in a diagonal physical composition above an ivory studio surface. Thick ink typography on their surfaces is split into complementary parts; at their overlap the complete huge word 'CLARO' is clearly readable, formed by aligned black stencil letter pieces. Very few objects, bold graphic optical idea. Offset faint letter reflections fall onto surface below, real refraction at polished edges, golden light transmitted through yellow plane, long soft shadow, controlled bright studio light. Sheets slightly tilted in real space, architectural volume, elegant minimalism with sophisticated material, NOT flat coloured squares, NOT frosted unreadable UI, no other writing.",
+      "sourceSha256": "0281065e7951ea1e6e326ee9f744881b5d4f0e3f84db0ce1b1c4ee1e8d5833e6",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "c6f618cac7fde587995aba46ce20734ec595d7133815d0f87d2ee7af6d1984f7",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    },
+    {
+      "path": "assets/editorial-r3/grafico-40.webp",
+      "provider": "OpenAI image generation tool",
+      "kind": "fictional AI editorial visual study",
+      "prompt": "Create ONE finished standalone visual reference artwork, landscape ratio exactly 9:8 (for example 1152 x 1024). Full bleed single composition, NOT a contact sheet, NOT a website screenshot, no borders, no watermark, no decorative captions or logos. Design at exceptionally high art-direction quality. All objects are fictional studies, no actual brand. The composition must remain compelling at thumbnail size. Only include the exact short words requested, no filler text. A daring tactile typographic textile installation, macro editorial key visual. Broad warm ivory cotton-paper ribbons and narrow midnight-blue woven straps interlace in a true over-under orthogonal basket weave. One ivory band carries enormous dark blue condensed word exactly 'TRAMA', while a second wider blue ribbon crosses beneath bearing ivory 'VIVA'. Letters are flat printed on the ribbons, fully legible, natural occlusion only at edges of words. One coral strip curls up from the weave in foreground exposing fibres and underside. Close diagonal top view makes the interwoven construction visible, thick paper and cotton texture, precise contact shadows at crossings, generous meaningful negative space at one corner. Sophisticated tactile graphic design, physically believable weaving, warm grazing light, not a flat grid infographic or simple rectangles.",
+      "sourceSha256": "6d6c83f3a9f09eb9c2ddd0ccda5cf6ed852508445711ce84d38193960a264b94",
+      "width": 1330,
+      "height": 1182,
+      "sha256": "23d5176860dff452c9356d594dd4675aaefcc019374e7c7372ca8d1c5c900b57",
+      "review": "Static individual visual inspection: material, composition, main-word spelling and full-frame layout. No movement validation; user creative approval pending."
+    }
+  ]
+}

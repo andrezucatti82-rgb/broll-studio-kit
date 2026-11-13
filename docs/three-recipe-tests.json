@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-12",
+  "scope": "Prepared test briefs only; no audiovisual generation or quality certification",
+  "totalEstimatedClipOnlyUSD": 0.8,
+  "totalIsNotABudgetOrQuote": true,
+  "nextAuthorization": "Apresentar o caso e o preço atual na conta do usuário antes de qualquer geração paga. Aprovar moodboard e storyboard antes da amostra.",
+  "cases": [
+    {
+      "id": "product-fictional-jewel",
+      "recipe": "product",
+      "brand": "Ateliê Vira — marca fictícia",
+      "topic": "Apresentar uma joia artesanal fictícia em uma embalagem de presente",
+      "styleId": "natural-joias-o-presente-antes-da-caixa",
+      "format": "9:16",
+      "targetDurationSeconds": 30,
+      "sampleSeconds": 10,
+      "materialsDeclared": [
+        "one_photo",
+        "logo"
+      ],
+      "materialsActuallyAvailable": [],
+      "inputsToPrepare": [
+        "Uma imagem canônica da joia e embalagem fictícias, aprovada como referência de teste",
+        "Ficha fictícia simples com características visíveis e CTA sem oferta real",
+        "Identidade e autorização/licenças dos elementos usados"
+      ],
+      "samplePlan": "Original da joia protegido em primeiro plano; tecido e mão entram sem invadir seu contorno; passagem por gesto para o contexto da embalagem. Sem virar a peça ou inventar seu verso.",
+      "hardestProof": "Integração e oclusão de camadas sem alteração de joia, rótulo ou marca.",
+      "route": "composite_with_optional_heygen_background_clip",
+      "paidClipEstimate": 1,
+      "estimatedClipOnlyUSD": 0.4,
+      "fallback": "Composição em código com ação de camadas e passagem motivada, apresentada para aprovação; pedir vídeo se for necessário manipular a joia de verdade.",
+      "status": "prepared_not_generated",
+      "readiness": "planned",
+      "generationAuthorized": false,
+      "paidGenerationRequested": false,
+      "pricingBasis": {
+        "referenceUSD": 0.4,
+        "referenceClipSeconds": 10,
+        "referenceDate": "2026-11-05",
+        "referenceSource": "style-atlas/dist/previews/automation-pilot/review.json",
+        "status": "historical_unconfirmed_for_new_account",
+        "excludes": [
+          "voice",
+          "editing",
+          "music_and_sfx_licenses",
+          "new_images",
+          "retries",
+          "resolution_multiplier",
+          "taxes_or_exchange"
+        ],
+        "pricingMustBeConfirmedInOwnAccount": true,
+        "budgetInherited": false
+      },
+      "approvals": {
+        "moodboard": "pending",
+        "storyboard": "pending",
+        "sample": "pending"
+      },
+      "reviewEvidence": [],
+      "acceptance": [
+        "Comparar aparência com os quadros e a direção aprovada",
+        "Ver ação interna e passagem na reprodução integral dos 10 s",
+        "Conferir texto/acentos/legibilidade editáveis",
+        "Comparar identidade, produto, marca e dados aos originais aplicáveis",
+        "Escutar voz, música e efeitos completos antes de afirmar acabamento aprovado"
+      ]
+    },
+    {
+      "id": "service-fictional-care",
+      "recipe": "service",
+      "brand": "Casa Clara — serviço fictício",
+      "topic": "Explicar como funciona uma visita de organização de ambientes, sem prometer resultados",
+      "styleId": "documental-observacional",
+      "format": "9:16",
+      "targetDurationSeconds": 30,
+      "sampleSeconds": 10,
+      "materialsDeclared": [
+        "video",
+        "website"
+      ],
+      "materialsActuallyAvailable": [],
+      "inputsToPrepare": [
+        "Escopo fictício do serviço e CTA informativa",
+        "Filmagem autorizada ou clipe demonstrativo fictício de mãos organizando uma mesa",
+        "Referências visuais e identidade fictícia, sem dados privados"
+      ],
+      "samplePlan": "Mostrar a sequência observar → organizar → conferir, com um gesto contínuo e corte de detalhe para plano aberto; locução explica uma etapa real do serviço fictício.",
+      "hardestProof": "Ação e continuidade entre enquadramentos, com mãos naturais e mensagem compreensível.",
+      "route": "licensed_footage_or_heygen_compatible_clip",
+      "paidClipEstimate": 1,
+      "estimatedClipOnlyUSD": 0.4,
+      "fallback": "Usar filmagem autorizada disponível; se faltar, explicar o bloqueio e apresentar demonstração editorial identificada para aprovação.",
+      "status": "prepared_not_generated",
+      "readiness": "planned",
+      "generationAuthorized": false,
+      "paidGenerationRequested": false,
+      "pricingBasis": {
+        "referenceUSD": 0.4,
+        "referenceClipSeconds": 10,
+        "referenceDate": "2026-11-05",
+        "referenceSource": "style-atlas/dist/previews/automation-pilot/review.json",
+        "status": "historical_unconfirmed_for_new_account",
+        "excludes": [
+          "voice",
+          "editing",
+          "music_and_sfx_licenses",
+          "new_images",
+          "retries",
+          "resolution_multiplier",
+          "taxes_or_exchange"
+        ],
+        "pricingMustBeConfirmedInOwnAccount": true,
+        "budgetInherited": false
+      },
+      "approvals": {
+        "moodboard": "pending",
+        "storyboard": "pending",
+        "sample": "pending"
+      },
+      "reviewEvidence": [],
+      "acceptance": [
+        "Comparar aparência com os quadros e a direção aprovada",
+        "Ver ação interna e passagem na reprodução integral dos 10 s",
+        "Conferir texto/acentos/legibilidade editáveis",
+        "Comparar identidade, produto, marca e dados aos originais aplicáveis",
+        "Escutar voz, música e efeitos completos antes de afirmar acabamento aprovado"
+      ]
+    },
+    {
+      "id": "interface-fictional-flow",
+      "recipe": "interface",
+      "brand": "Fluxo Clara — sistema demonstrativo fictício",
+      "topic": "Explicar como uma tarefa passa de recebida a concluída em um painel de demonstração",
+      "styleId": "campanhas-em-camadas",
+      "format": "9:16",
+      "targetDurationSeconds": 30,
+      "sampleSeconds": 10,
+      "materialsDeclared": [
+        "screens"
+      ],
+      "materialsActuallyAvailable": [],
+      "inputsToPrepare": [
+        "Tela de sistema fictício em código com dados demonstrativos identificados",
+        "Roteiro do fluxo: recebida → em andamento → concluída",
+        "Tipografia, ícones e áudio com licença compatível"
+      ],
+      "samplePlan": "Mover uma tarefa entre estados com mudança de widget e realce da informação, preservando texto editável, hierarquia e leitura em celular.",
+      "hardestProof": "Clareza e coerência de estados, relação entre ação, dados e locução; não fingir software real.",
+      "route": "editable_code_and_audio",
+      "paidClipEstimate": 0,
+      "estimatedClipOnlyUSD": 0,
+      "fallback": "Diagrama editável do fluxo quando capturas não existirem; captura de software real só após recebimento e conferência.",
+      "status": "prepared_not_generated",
+      "readiness": "planned",
+      "generationAuthorized": false,
+      "paidGenerationRequested": false,
+      "pricingBasis": {
+        "referenceUSD": 0.4,
+        "referenceClipSeconds": 10,
+        "referenceDate": "2026-11-05",
+        "referenceSource": "style-atlas/dist/previews/automation-pilot/review.json",
+        "status": "historical_unconfirmed_for_new_account",
+        "excludes": [
+          "voice",
+          "editing",
+          "music_and_sfx_licenses",
+          "new_images",
+          "retries",
+          "resolution_multiplier",
+          "taxes_or_exchange"
+        ],
+        "pricingMustBeConfirmedInOwnAccount": true,
+        "budgetInherited": false
+      },
+      "approvals": {
+        "moodboard": "pending",
+        "storyboard": "pending",
+        "sample": "pending"
+      },
+      "reviewEvidence": [],
+      "acceptance": [
+        "Comparar aparência com os quadros e a direção aprovada",
+        "Ver ação interna e passagem na reprodução integral dos 10 s",
+        "Conferir texto/acentos/legibilidade editáveis",
+        "Comparar identidade, produto, marca e dados aos originais aplicáveis",
+        "Escutar voz, música e efeitos completos antes de afirmar acabamento aprovado"
+      ]
+    }
+  ]
+}

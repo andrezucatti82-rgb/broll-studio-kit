@@ -1,5 +1,7 @@
 # Vídeo Multimarcas
 
+Edição consolidada **2.7.1** na `main`: **780 estilos em 28 categorias**, modo guiado, ícones no menu, referências e pacotes completos. A política de aprovação visual da main foi preservada junto aos controles de fidelidade. Use [Comece aqui](docs/START-HERE.md) para instalar.
+
 **Skill pública de uso geral.** Identificador: `video-multimarcas`. Adapta cada produção à marca informada; não carrega identidade ou voz pessoal como padrão.
 
 **Uma temática vira um vídeo narrado, com pesquisa e identidade adaptada à sua marca.** Skill para agentes de IA, acompanhada de código editável para produção.
@@ -12,11 +14,25 @@ Informe o assunto. Opcionalmente, acrescente o nome da marca, logotipo ou site. 
 
 Este repositório não apresenta um vídeo de demonstração. O arquivo `templates/project.json` é um rascunho técnico com espaços reservados, destinado à configuração do editor.
 
+## Produção guiada · 2.7.0
+
+O botão **Criar meu vídeo** organiza objetivo, três sugestões visuais, materiais e pedido para o ChatGPT. A biblioteca completa continua acessível. As receitas de produto, serviço e interfaces começam planejadas; ferramentas, arquivos e acabamento precisam ser verificados no projeto. [Como funciona e limites](docs/GUIDED-2.7.md) · [Três testes fictícios preparados](docs/three-recipe-tests.json).
+
+A produção usa roteiro → moodboard aprovado → storyboard aprovado → amostra de 10 s → aprovação → vídeo completo. O agente traduz ajustes simples, registra responsabilidades e retoma a próxima dependência. O site público é estático: arquivos são enviados na conversa, e cada pessoa usa suas próprias conexões e créditos.
+
+Esta edição está consolidada na branch `main`. [Instalar a edição revisada](docs/INSTALL-SKILL.md).
+
 ## Biblioteca visual e publicidade
 
-[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 540 direções em 18 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 30 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
+**60 anúncios novos:** joias, capachos, advocacia, moda masculina e feminina, biquínis, pijamas, orgânicos, barras proteicas e cereal. Seis conceitos por segmento, com DBO/AIDA, narração, legendas e CTA. [Como usar e limites](docs/NATURAL-ADS-4.3.md).
 
-A primeira entrega é **roteiro, storyboard visual e vídeo de 10 segundos para aprovação**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
+[Revisão e limites da versão 2.5.1](docs/AUDIT-2.5.1.md).
+
+**Edição 4.3 / skill 2.7.1:** os 780 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Navegação híbrida com categorias agrupadas na lateral, atalhos de estilos, explorador visual recolhível e menu deslizante no celular. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
+
+[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 780 direções em 28 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 40 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
+
+A primeira entrega é **roteiro e moodboard visual para aprovação; após o aceite, storyboard visual para aprovação própria e, depois, amostra de 10 segundos**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
 
 ## Qualidade na versão 2
 
@@ -97,11 +113,11 @@ Pesquisa web exige internet; geração por provedores pode ter custo e limites. 
 
 ## Naturalidade e acabamento em todos os estilos
 
-Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e tratamento/edição final, com correção e nova revisão. A regra vale também para estilos anteriores e para a amostra de 10 segundos: fidelidade aos originais, continuidade, composição e áudio natural. Linguagens ilustradas mantêm seu estilo. Estudos estáticos não certificam vídeo pronto; sem playback e escuta reais, a revisão permanece pendente. Veja [o protocolo](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/natural-finish.md).
+Os pedidos e presets incluem avaliação obrigatória de imagens IA, clipes IA e tratamento/edição final, com correção e nova revisão. A regra vale também para estilos anteriores e para a amostra de 10 segundos: fidelidade aos originais, continuidade, composição e áudio natural. Linguagens ilustradas mantêm seu estilo. Estudos estáticos não certificam vídeo pronto; sem playback e escuta reais, a revisão permanece pendente. Veja [o protocolo](.agents/skills/video-multimarcas/references/natural-finish.md).
 
 ## Pessoas e preservação de identidade
 
-Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/.agents/skills/video-multimarcas/references/identity-preservation.md).
+Regra global para todos os estilos: originais como referência principal, sem alterações físicas não solicitadas, planos compatíveis com as vistas disponíveis e teste curto de rosto/corpo em movimento antes do vídeo completo. Falhas perceptíveis bloqueiam avanço; limitações da ferramenta devem ser explicadas antes de consumir créditos. O kit exige registro, mas não faz reconhecimento facial automático. Veja [protocolo e evidências](.agents/skills/video-multimarcas/references/identity-preservation.md).
 
 ## Infoprodutores: revisão 3.2
 
@@ -119,7 +135,7 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 
 ## Pacotes de instalação e atualização
 
-[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.2.12, kit 2.3.0 e catálogo 4.0 (540 estilos/18 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
+[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.5.1, kit 2.5.1 e catálogo 4.3 (780 estilos/28 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
 
 ## Referências visuais para o pedido
 
@@ -128,9 +144,44 @@ Geração de vídeo: HeyGen via API HTTP direta é a primeira opção a avaliar.
 
 ## Automação de produção
 
-O atlas agora mostra materiais, ferramentas e maturidade dentro de cada ficha. O fluxo segue materiais → roteiro → storyboard → amostra, com aprovação criativa separada da revisão técnica. Consulte [produção retomável e HeyGen direto](docs/AUTOMATION.md) para `npm run plan`, orçamento local, consultas de jobs e limites de automação.
+O atlas agora mostra materiais, ferramentas e maturidade dentro de cada ficha. O fluxo segue materiais → roteiro → moodboard aprovado → storyboard aprovado → amostra, com aprovação criativa separada da revisão técnica. Consulte [produção retomável e HeyGen direto](docs/AUTOMATION.md) para `npm run plan`, orçamento local, consultas de jobs e limites de automação.
 
 [Primeira rodada de três amostras HeyGen](https://videos.gerenciadordeanuncios.com.br/automation-pilot.html): produto fictício, interface demonstrativa e explicação de agente de IA. Dez segundos cada, ainda com revisão audiovisual e aprovação criativa pendentes. Não são referências de acabamento aprovado.
+
+## Expansão 4.1 · 180 novas direções
+
+Cada uma das 18 categorias recebe dez propostas, passando a 40 estilos e 720 no total. Essa expansão está preservada no histórico do catálogo. Os 540 IDs e sua ordem anterior foram preservados para migrar favoritos e projetos. Há 140 estudos IA fictícios e 40 composições originais em código, cada um em arquivo individual; nenhum vídeo foi gerado nesta expansão.
+
+As fichas incluem ação, uso, recursos, áudio, comparação com um conceito próximo e critério da amostra. Técnicas podem ser compartilhadas; a diferenciação é editorial e não uma garantia de originalidade absoluta. Pesquisa, procedência e auditoria estão em [expansion-720](style-atlas/records/expansion-720/). A aprovação de moodboard, storyboard e amostra continua obrigatória.
+
+## Execução dos estilos · histórico do pacote 2.3.2
+
+As instruções e o planejador agora preservam os critérios completos dos estilos em `style-execution-plan.json`: quadros, ação, áudio, recursos, prova esperada e fidelidade. Atribua papéis ao principal e a até nove complementares. O registro novo nasce pendente, é criado em retomadas antigas quando ausente e não sobrescreve decisões existentes. Moodboard, storyboard e amostra continuam com aprovações próprias. Esta edição está na branch `feat/atlas-720-directions` (PR #4), consolidada na main.
+
+## Galeria mobile e revisão visual 2 · histórico
+
+As 180 amostras novas foram recompostas no formato próximo de 9:8, com molduras uniformes e sem cortes de assunto. No celular, imagens grandes em uma coluna, título e ações; a descrição completa fica na ficha. Categorias estão em um menu compacto, com busca, novidades, favoritos e filtro opcional por tipo. Desktop e Page compartilham o catálogo; a Page preserva o modo sem localStorage.
+
+## Piloto de sequências para aprovação
+
+O piloto local em `style-atlas/dist/sequencias.html` reúne 36 exemplos e os mockups desktop/mobile. São dois estilos existentes por categoria, com quatro quadros conceituais por sequência. A revisão inclui duas propostas mais elaboradas para Interfaces, dados e sistemas e duas para Motion Design de Campanha. O usuário também aprovou os três mockups da interface; a implementação 4.2 preserva os 720 IDs. Os 36 exemplos foram aprovados como direção visual pelo usuário, sem aprovação de movimento ou de vídeo final.
+
+Para abrir localmente: `npm ci`, `npm run atlas` e acesse `http://127.0.0.1:8770/sequencias.html`. Não é necessário conectar geradores ou gastar créditos para ver esta página. Preferências e comentários são locais; use “Baixar observações” para compartilhar a revisão. Consulte [procedência, limites e revisão](style-atlas/records/sequence-pilot/README.md).
+
+
+## Interface de aplicativo e sequências · 4.2
+
+A biblioteca mantém o site estático, público e sem login. A navegação agora separa Estilos, Meu vídeo e Como usar. O briefing termina em um resumo legível; o comando completo fica em uma seção recolhida. Combine até dez estilos, escolha formato e duração, baixe o quadro principal e a sequência, copie o pedido e anexe as imagens na conversa de produção. O site não envia arquivos nem inicia gerações no ChatGPT.
+
+Cada direção recebe quatro estados conceituais e um plano de execução com aparência, ações, câmera, profundidade, transição, texto editável, áudio, recursos e critérios de revisão. São referências visuais fictícias, não 720 vídeos executados. Os seis vídeos históricos continuam disponíveis com aviso de aprovação pendente e de que antecedem estas imagens. A validação de movimento depende de uma nova amostra.
+
+As capas e miniaturas usam molduras uniformes com contenção: o enquadramento completo permanece visível, sem esticar ou recortar pessoas, produtos e texto. A proporção real de cada imagem é registrada; o formato final do vídeo é decidido no projeto. Mudanças nas referências reabrem os aceites afetados e preservam histórico e favoritos.
+
+Fontes: [implementação e limites](docs/VISUAL-APP-4.2.md), [procedência das sequências](style-atlas/records/sequences-720/) e [proposta aprovada](docs/WEBAPP-VISUAL-PROPOSAL.md). Branch de trabalho: `feat/visual-app-720`; edição consolidada na main.
+
+## Fidelidade da direção (2.6.0)
+
+Pedidos incluem links dos quadros, inspeção obrigatória e execução por plano. O adaptador pago exige o registro de referências, arquivos aprovados e compatibilidade antes de gerar. Veja [protocolo e conexões verificadas](docs/FIDELITY-2.6.md). `npm run fidelity-check -- projects/exemplo/fidelity-plan.json --phase sample` verifica registros e integridade, sem certificar qualidade criativa.
 
 ## Aprovação visual antes de geração IA
 

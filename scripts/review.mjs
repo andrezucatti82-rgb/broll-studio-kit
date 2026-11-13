@@ -5,6 +5,7 @@ import {checkIdentityReview} from './identity-check.mjs';
 export const creativeChecks=['narrative','internalAction','depth','rhythm','transitions','readability','voice','sound'];
 export function checkReview(report,expectedHash){
  const errors=[];
+ const pre=report.preProduction;if(pre?.moodboardApproved!==true||pre?.storyboardApproved!==true||!Number.isInteger(pre?.moodboardVersion)||pre.moodboardVersion<1||!Number.isInteger(pre?.storyboardVersion)||pre.storyboardVersion<1||typeof pre?.evidence!=='string'||!pre.evidence.trim())errors.push('Moodboard and storyboard need approved versions and decision evidence');
  for(const key of ['appearance','movement','text','identity']){const lock=report.fidelityContract?.[key];if(lock?.status!=='passed'||lock.userApproval!==true||!lock.evidence?.trim())errors.push('Fidelity lock needs evidence and user approval: '+key);}
  if(report.schemaVersion!==1)errors.push('Unsupported review schema');
  if(report.videoSha256!==expectedHash)errors.push('Review does not match the current video hash');

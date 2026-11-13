@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-12",
+  "scope": "Read-only connection and local execution checks; no generated media",
+  "heygenDirectAPI": {
+    "authenticated": true,
+    "walletQueryable": true,
+    "generationTested": false
+  },
+  "heygenMCP": {
+    "authenticatedConnections": 2,
+    "sameMCPAccount": true,
+    "portugueseVoiceCapabilityListed": true,
+    "generationTested": false
+  },
+  "localCommands": {
+    "ffmpeg": true,
+    "ffprobe": true,
+    "chromium": true,
+    "blender": true,
+    "renderedProjectThisAudit": false
+  },
+  "imageAndAlternativeProviders": "declared in tool inventory, not generation-tested",
+  "cloudMultibrandPlugin": "exact editable plugin not located; no unrelated plugin modified",
+  "personalSkillModified": false,
+  "nativePageViewerTested": false,
+  "documentation": [
+    "https://developers.heygen.com/docs/models/heygen-video.md"
+  ],
+  "checks": [
+    "npm ci",
+    "npm run check",
+    "npm test: 12 Node files and 8 Python tests",
+    "npm run validate",
+    "Page build",
+    "Chromium: 375px and 1440px, reference URLs and real remote Page data"
+  ]
+}

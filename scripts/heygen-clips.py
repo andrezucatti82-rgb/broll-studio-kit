@@ -3,10 +3,10 @@
 Keep job files/ledger under ignored projects/. No credential or provider response belongs in Git.
 The ledger reserves estimates; it is not a provider-side spending cap or a quality approval.
 """
-import argparse, json, os, time, uuid, urllib.request, urllib.error, urllib.parse
+import argparse, json, os, time, uuid, urllib.request, urllib.error, urllib.parse, subprocess
 from decimal import Decimal
 from pathlib import Path
-import base64, subprocess
+import base64
 
 def check_visual_approval(job, directory):
     if not job.get('workflow'):
@@ -53,17 +53,37 @@ def api(route, payload=None, key=None):
         # Never print response bodies, credentials, redirects or private account fields.
         raise RuntimeError(f'HeyGen HTTP {e.code}; inspect job state before retrying') from None
 
+def image_input(file):
+    image=Path(file).resolve()
+    if image.suffix.lower() not in ['.png','.jpg','.jpeg']:raise ValueError('Reference must be PNG or JPEG')
+    if image.stat().st_size>5*1024*1024:raise ValueError('Reference exceeds 5 MiB')
+    return {'type':'base64','media_type':'image/png' if image.suffix.lower()=='.png' else 'image/jpeg','data':base64.b64encode(image.read_bytes()).decode()}
+
 def payload_for(job, directory):
     payload={k:job[k] for k in ['model','mode','prompt','duration','resolution','aspect_ratio','seed','prompt_enhancement'] if k in job}
     if payload.get('model')!='heygen-video-1':raise ValueError('This adapter supports heygen-video-1 only')
     if not isinstance(payload.get('duration'),int) or not 5<=payload['duration']<=15:raise ValueError('Pilot adapter accepts explicit durations from 5 to 15 seconds')
-    if payload.get('mode')=='image_to_video':
-        image=(directory/job['firstFrame']).resolve()
-        if image.suffix.lower() not in ['.png','.jpg','.jpeg']:raise ValueError('First frame must be PNG or JPEG')
-        if image.stat().st_size>5*1024*1024:raise ValueError('First frame exceeds 5 MiB')
-        payload['image']={'type':'base64','media_type':'image/png' if image.suffix.lower()=='.png' else 'image/jpeg','data':base64.b64encode(image.read_bytes()).decode()}
-    elif payload.get('mode')!='text_to_video':raise ValueError('Use text_to_video or image_to_video; references require a separate validated adapter')
+    # Approved detailed direction should not be silently rewritten by provider enhancement.
+    payload.setdefault('prompt_enhancement','disabled')
+    if payload['prompt_enhancement']!='disabled' and not job.get('enhancementApproval'):
+        raise ValueError('Prompt enhancement requires an explicit approved execution decision')
+    if payload.get('mode')=='image_to_video':payload['image']=image_input(directory/job['firstFrame'])
+    elif payload.get('mode')=='reference_to_video':
+        refs=job.get('referenceImages')
+        if not isinstance(refs,list) or not 1<=len(refs)<=9:raise ValueError('Reference mode needs 1 to 9 approved referenceImages')
+        if job.get('referenceVideos') or job.get('referenceAudio'):raise ValueError('This adapter has not implemented video/audio references; do not omit them silently')
+        payload['reference_images']=[image_input(directory/file) for file in refs]
+    elif payload.get('mode')!='text_to_video':raise ValueError('Unsupported mode')
     return payload
+
+def verify_direction(job, job_path):
+    if not job.get('fidelityPlan') or not job.get('shotId') or job.get('productionPhase') not in ['sample','final']:
+        raise ValueError('Before paid generation: fidelityPlan, shotId and productionPhase are required; use the approved production plan')
+    plan=(job_path.parent/job['fidelityPlan']).resolve()
+    command=['node',str(Path(__file__).parent/'fidelity-check.mjs'),str(plan),'--phase',job['productionPhase'],'--shot',job['shotId'],'--job',str(job_path)]
+    result=subprocess.run(command,capture_output=True,text=True,timeout=30)
+    if result.returncode!=0:
+        raise ValueError('Fidelity checkpoint blocked generation. Run npm run fidelity-check locally to inspect missing evidence; no paid API called')
 
 def submit(job_path, ledger_path, execute=False):
     job_path=Path(job_path).resolve();ledger_path=Path(ledger_path).resolve();job=read(job_path)
@@ -76,8 +96,9 @@ def submit(job_path, ledger_path, execute=False):
         if any(x['jobFile']==str(job_path) for x in ledger['jobs']):raise ValueError('Job already reserved/submitted; use status, do not submit again')
         check_budget(ledger,job['reserveUSD']);payload=payload_for(job,job_path.parent)
         if not execute:return {'status':'planned','reserveUSD':job['reserveUSD'],'duration':job['duration'],'provider':'heygen_direct_api'}
-        account,_=api('/v3/users/me');wallet=account['data'].get('wallet',{})
-        if wallet.get('currency')!='usd' or wallet.get('remaining_balance') is None:raise ValueError('USD wallet could not be verified')
+        verify_direction(job,job_path)
+        account,_=api('/v3/users/me');wallet=account['data'].get('wallet') or {}
+        if wallet.get('currency')!='usd' or wallet.get('remaining_balance') is None:raise ValueError('USD wallet could not be verified for this direct API account; subscription or MCP credits are not interchangeable. No generation submitted')
         balance=Decimal(str(wallet['remaining_balance']));reserve=Decimal(str(job['reserveUSD']))
         threshold=Decimal(str(wallet.get('auto_reload',{}).get('threshold_usd',0))) if wallet.get('auto_reload',{}).get('enabled') else Decimal(0)
         if balance-reserve<=threshold:raise ValueError('Insufficient safe balance or auto-reload threshold; no generation submitted')

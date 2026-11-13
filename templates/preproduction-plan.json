@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "status": "planning",
+  "policy": "Moodboard aprovado antes do storyboard; ambos aprovados antes da amostra. Não é aprovação nem mídia gerada.",
+  "moodboard": {
+    "version": 1,
+    "visualFiles": [],
+    "concept": "",
+    "atmosphere": "",
+    "palette": [],
+    "typography": [],
+    "texturesAndLighting": [],
+    "styleRoles": [],
+    "sourcesAndRights": [],
+    "userApproval": {
+      "status": "pending",
+      "decision": "",
+      "approvedVersion": null,
+      "evidence": ""
+    }
+  },
+  "storyboard": {
+    "version": 1,
+    "basedOnMoodboardVersion": null,
+    "visualFiles": [],
+    "shots": [
+      {
+        "id": "shot-1",
+        "order": 1,
+        "frameFile": "",
+        "initialState": "",
+        "action": "",
+        "result": "",
+        "framing": "",
+        "camera": "",
+        "editableText": "",
+        "narration": "",
+        "audio": "",
+        "transitionOut": "",
+        "durationSeconds": null,
+        "originalReferenceIds": []
+      }
+    ],
+    "userApproval": {
+      "status": "pending",
+      "decision": "",
+      "approvedVersion": null,
+      "evidence": ""
+    }
+  },
+  "sample": {
+    "blockedUntilBothApproved": true,
+    "targetSeconds": 10,
+    "representativeShotId": "",
+    "validatedInitialFrame": "",
+    "selectionReason": ""
+  }
+}

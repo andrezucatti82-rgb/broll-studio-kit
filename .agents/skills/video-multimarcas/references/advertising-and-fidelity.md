@@ -2,11 +2,11 @@
 
 ## Primeiro resultado revisável
 
-Entregar roteiro, storyboard com imagens e uma prévia de **10 segundos**, com locução, música e efeitos quando previstos. Não produzir o vídeo completo antes da aprovação dessa prévia, salvo autorização explícita posterior que dispense essa etapa. A prévia deve demonstrar a ação mais exigente e sua transição; uma prancha estática não prova motion, tracking, 360° ou som. Respeitar duração explicitamente diferente pedida pelo usuário.
+Entregar roteiro e moodboard visual para aprovação; após o aceite, storyboard completo com imagens para uma aprovação própria; só depois, uma prévia de **10 segundos**, com locução, música e efeitos quando previstos. Não produzir o vídeo completo antes da aprovação dessa prévia, salvo autorização explícita posterior que dispense essa etapa. A prévia deve demonstrar a ação mais exigente e sua transição; uma prancha estática não prova motion, tracking, 360° ou som. Respeitar duração explicitamente diferente pedida pelo usuário.
 
 ## Seleção de direção
 
-O [Atlas Vídeo Multimarcas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) tem 540 direções em 18 famílias, na edição 4.0. Não é uma lista exaustiva. Aceitar tema, estilo principal e complementar opcional, formato, tipografia e marca opcional. Ler o preset completo, `audio`, `requirements` e as referências fornecidas; nomes de estilos não substituem seus critérios. Os arquivos versionados estão em `style-atlas/` no repositório. A skill isolada funciona com este guia mesmo sem acesso à galeria.
+O [Atlas Vídeo Multimarcas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) tem 780 direções em 28 famílias, na edição 4.3. Não é uma lista exaustiva. Aceitar tema, um estilo principal e até nove complementares opcionais, formato, tipografia e marca opcional. Ler o preset completo, `audio`, `requirements` e as referências fornecidas; nomes de estilos não substituem seus critérios. Os arquivos versionados estão em `style-atlas/` no repositório. A skill isolada funciona com este guia mesmo sem acesso à galeria.
 
 No site externo, copiar o pedido e enviá-lo no ChatGPT. O site não envia automaticamente à conversa atual. Na Page, salvar a escolha no widget e usar o botão nativo de chat; confirmar o estado atual antes de produzir. Instalação e ferramentas dependem da superfície. Não alegar conexão ou instalação universal sem verificação.
 
@@ -56,17 +56,17 @@ Registrar fontes/licenças, atributos verificados, materiais faltantes, transfor
 
 ## Catálogo ampliado e avatares
 
-O repertório reúne 540 direções em 18 categorias de 30, incluindo 30 apresentadores fictícios adultos, dos quais dez em direções experimentais. Cada preset descreve uso, recursos, movimento e critérios; não confundir retrato com prova de animação. A galeria contém 24 combinações com prévias reais de fontes e frase editável; conferir o arquivo/licença e não substituir silenciosamente por fallback.
+O repertório reúne 780 direções: 18 categorias de 40 e dez segmentos de seis, incluindo 40 apresentadores fictícios adultos, dos quais dez em direções experimentais. Cada preset descreve uso, recursos, movimento e critérios; não confundir retrato com prova de animação. A galeria contém 24 combinações com prévias reais de fontes e frase editável; conferir o arquivo/licença e não substituir silenciosamente por fallback.
 
 Sem avatar por padrão. A seleção explícita de um preset da categoria Avatares e apresentadores habilita apenas o apresentador fictício desse projeto. Preservar identidade, roupa, anatomia e voz, olhar à câmera, corpo apoiado e recorte sólido até a borda inferior, sem degradê flutuante. Para pessoa real, obter autorização de imagem/voz e cumprir consentimento do provedor; identificar conteúdo sintético. Não fabricar depoimento, experiência pessoal ou presença real. Aprovar aparência, gestos e sincronização labial nos 10 segundos antes de expandir.
 
 ## Galeria e identidade da interface
 
-Galeria pública: https://videos.gerenciadordeanuncios.com.br/ ; espelho: https://video-multimarcas-estilos.andrezucatti82.chatgpt.site . A interface usa fundo creme, Geist e ícones GDA, com animações suaves e respeito a movimento reduzido. Isso não impõe essa direção ao vídeo: ler marca, estilo e tipografia escolhidos para cada produção. No site, preparar/copiar e enviar o pedido; na Page, salvar estado e usar o botão nativo de chat. A instalação e os conectores precisam existir na conta e superfície usadas, sem alegar sincronização universal.
+Galeria pública: https://videos.gerenciadordeanuncios.com.br/ ; espelho: https://video-multimarcas-estilos.andrezucatti82.chatgpt.site . A identidade da interface da galeria não impõe a direção do vídeo: ler marca, estilo e tipografia escolhidos para cada produção. No site, preparar/copiar e enviar o pedido; na Page, salvar estado e usar o botão nativo de chat. A instalação e os conectores precisam existir na conta e superfície usadas, sem alegar sincronização universal.
 
 ## Direções experimentais pesquisadas · edição 3.1
 
-O atlas acrescenta 140 direções, dez por categoria, com pesquisa Firecrawl/Exa documentada em `style-atlas/records/RESEARCH.md` no repositório público e em https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/style-atlas/records/RESEARCH.md . Ler `novelty.difference`, `motion`, `proof`, `researchRefs` e `audio` do preset; no briefing exportado, `research` resolve as fontes. A referência sustenta princípios de método, não fatos comerciais nem licença para copiar uma obra.
+O atlas acrescenta 140 direções, dez por categoria, com pesquisa Firecrawl/Exa documentada em `style-atlas/records/RESEARCH.md` no repositório público e em https://github.com/andrezucatti82-rgb/studio-kit-pro/blob/main/style-atlas/records/RESEARCH.md . Ler `novelty.difference`, `motion`, `proof`, `researchRefs` e `audio` do preset; no briefing exportado, `research` resolve as fontes. A referência sustenta princípios de método, não fatos comerciais nem licença para copiar uma obra.
 
 Preservar o mecanismo que diferencia o estilo: foco bifocal não é apenas macro, lenticular não é simples troca de imagem, fonte variável exige eixo real, termografia ilustrativa não mede temperatura. Dados e interfaces devem ser compostos em código ou capturados, com estados e fontes verificáveis. Ferrofluido, óptica, mecanismos e atuação de personagens exigem execução compatível; não prometer simulação física, rig ou movimento sem testá-los.
 
@@ -74,7 +74,7 @@ A prévia de 10 segundos deve provar a ação central e sua consequência com vo
 
 ## Saúde, comércio eletrônico e infoprodutores
 
-A edição 3.1 reúne 510 direções em 17 categorias de 30. As três novas categorias têm 30 propostas cada: saúde (dez estética, dez odontologia, dez medicina), e-commerce/marketplaces e infoprodutores. Ler a necessidade em `uses`, a distinção em `novelty`, os recursos, o movimento e a prova exigida. Escolher por problema real de comunicação, não só aparência.
+Na edição histórica 3.1 havia 510 direções em 17 categorias de 30. As três novas categorias têm 30 propostas cada: saúde (dez estética, dez odontologia, dez medicina), e-commerce/marketplaces e infoprodutores. Ler a necessidade em `uses`, a distinção em `novelty`, os recursos, o movimento e a prova exigida. Escolher por problema real de comunicação, não só aparência.
 
 Saúde: pedir serviço e informações revisadas pelo responsável; preservar identidade e características reais. Não inventar caso clínico, resultado, credencial, antes/depois, diagnóstico ou prazo individual. Anatomia, preparo, cuidados e alegações precisam de fontes e revisão habilitada. Casos reais exigem autorização e proteção de dados. Verificar regras profissionais e do canal; referências estrangeiras não substituem requisitos locais. Não orientar suspensão de medicamentos por inferência.
 
@@ -82,7 +82,7 @@ Comércio eletrônico: confirmar SKU, variante, rótulo, dimensões, compatibili
 
 Infoprodutores: pedir ementa, método, atividades, oferta, pré-requisitos, suporte e condições relevantes. Demonstrar ensino, prática e feedback reais. Trabalhos de alunos exigem autorização; não fabricar depoimentos, renda, empregabilidade ou reconhecimento de certificado. Distinguir assistir aulas de demonstrar aprendizagem. Reduzir estímulos que disputem atenção com explicação e tarefa.
 
-Os novos presets entram na coleta guiada e no diagnóstico: conferir anexos e ferramentas, pedir apenas faltas pertinentes, explicar bloqueio com causa verificada e alternativa. Preservar o marco de roteiro, storyboard visual e 10 segundos para aprovação. Pesquisa e fontes: https://github.com/andrezucatti82-rgb/broll-studio-kit/blob/main/style-atlas/records/RESEARCH.md .
+Os novos presets entram na coleta guiada e no diagnóstico: conferir anexos e ferramentas, pedir apenas faltas pertinentes, explicar bloqueio com causa verificada e alternativa. Aplicar `preproduction-approval.md`: aprovar moodboard e storyboard antes da amostra de 10 segundos. Pesquisa e fontes: https://github.com/andrezucatti82-rgb/studio-kit-pro/blob/main/style-atlas/records/RESEARCH.md .
 
 ## Infoprodutores: formato não é uma estética única
 
@@ -90,9 +90,9 @@ Na revisão 3.2, os 30 formatos separam necessidade e linguagem. Identifique pri
 
 O atlas contém 18 novos estudos fotográficos fictícios e 12 layouts/UI demonstrativos individuais para esta categoria. São referências de aparência, não vídeos, capturas reais, alunos ou prova de resultado. Para filmagens, falas, trabalhos, depoimentos e interfaces reais, pedir os originais autorizados; preservar identidade e informações. Não produzir avatar por inferência. Toda promessa visual precisa aparecer na prévia de 10 segundos. Recursos devem servir à decisão ou aprendizagem; composição chamativa não substitui clareza e execução. IDs das 30 opções foram mantidos, as direções e imagens foram revisadas.
 
-## Motion Design de Campanha · edição 4.0
+## Motion Design de Campanha · edição 4.1
 
-30 direções para anúncios, explicações, lançamentos e marca, com 12 estudos fotográficos IA fictícios, dez composições gráficas e oito cenas 3D originais. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. O acervo passa a 540 direções em 18 categorias, mantendo os 510 IDs anteriores.
+A categoria contém 40 direções. A edição 4.0 trouxe 30 estudos e a edição 4.1 acrescentou dez direções cenográficas. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. A edição 4.1 passou a 720 direções, preservando os 540 IDs anteriores. A edição 4.3 soma 780 direções em 28 categorias.
 
 Há três prévias audiovisuais de dez segundos: **Frase que reorganiza o quadro**, **Peça única em palco de íris** e **Janela óptica sobre fotografia**. São estudos para aprovação, não exemplos de vídeos finais aprovados. A lente amplia a mesma fotografia, sem inventar vistas; o frasco 3D é fictício. A fonte da animação, o mix e a proveniência acompanham o repositório em `style-atlas/records/motion-campaign/`. Veja as amostras em https://videos.gerenciadordeanuncios.com.br/motion-campaign.html .
 

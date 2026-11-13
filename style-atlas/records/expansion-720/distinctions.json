@@ -1,0 +1,938 @@
+{
+  "cinema": [
+    {
+      "nearestId": "arquivo-analogico",
+      "nearestName": "Arquivo analógico",
+      "difference": "Botanista fictícia numa estufa, retrato de placa úmida com prata nas bordas, ameixa e sépia. A direção depende de uma ação específica: A revelação química avança pelas bordas e encontra o olhar imóvel. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "noir",
+      "nearestName": "Noir",
+      "difference": "Padeiro numa cozinha noturna, contraste bleach bypass, aço prateado e sombras oliva. A direção depende de uma ação específica: Uma bandeja sai do forno; a exposição acompanha o vapor sem apagar os rostos. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "publicidade-cinematografica",
+      "nearestName": "Publicidade cinematográfica",
+      "difference": "Piscina modernista, guarda-sol vermelhão e água turquesa, fotografia de diapositivo saturado. A direção depende de uma ação específica: Uma boia cruza a água e suas ondas levam ao plano seguinte. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "infravermelho-botanico",
+      "nearestName": "Infravermelho botânico",
+      "difference": "Pedras fluorescentes ciano e magenta em fundo negro absoluto, macro científico. A direção depende de uma ação específica: A luz branca cede ao UV e revela emissão apenas nos minerais adequados. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "projecao-pratica-sobre-cenario",
+      "nearestName": "Projeção prática sobre cenário",
+      "difference": "Bouquet fotográfico em teatro preto, pétalas parcialmente cobertas por anteparo opaco. A direção depende de uma ação específica: Um anteparo físico atravessa o feixe e revela grupos de pétalas em sequência. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "perspectiva-forcada-pratica",
+      "nearestName": "Perspectiva forçada prática",
+      "difference": "Escadaria brutalista fotografada em grande formato, pedra quente e perspectiva corrigida. A direção depende de uma ação específica: Uma pessoa sobe e ocupa sucessivos patamares; a câmera conserva as verticais. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "cinema-estenopeico-de-longa-presenca",
+      "nearestName": "Cinema estenopeico de longa presença",
+      "difference": "Um jardim invertido projetado pela janela sobre a parede escura de um quarto real. A direção depende de uma ação específica: A janela abre, a projeção nasce e uma nuvem altera a luz do jardim. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "foco-bifocal-de-duas-historias",
+      "nearestName": "Foco bifocal de duas histórias",
+      "difference": "Dançarina de capa vermelha minúscula diante de muitas varandas rosas sobrepostas. A direção depende de uma ação específica: A dançarina percorre uma passarela enquanto os planos comprimidos ocultam e revelam sua silhueta. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "causticas-de-agua-sobre-materia",
+      "nearestName": "Cáusticas de água sobre matéria",
+      "difference": "Chá âmbar em vidro projeta desenho de líquido sobre reboco creme, mesa lateral iluminada. A direção depende de uma ação específica: A infusão gira e sua sombra muda; o desenho se estabiliza para o fechamento. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "viagem-e-natureza",
+      "nearestName": "Viagem e natureza",
+      "difference": "Pescador distante junto a ondas naturalmente luminosas, céu azul profundo e lua suave. A direção depende de uma ação específica: A onda quebra, ilumina a borda da praia e se apaga sem pulsação artificial. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "grafico": [
+    {
+      "nearestId": "editorial-de-revista",
+      "nearestName": "Editorial de revista",
+      "difference": "Livro visto de lado com faixas cromáticas nos cortes, etiquetas largas e fundo terracota. A direção depende de uma ação específica: Abas selecionam um capítulo e o corte colorido vira a faixa da mensagem. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "letreiro-vernacular",
+      "nearestName": "Letreiro vernacular",
+      "difference": "Placas azul-cobalto e marfim com cantos arredondados, parafusos e letras condensadas. A direção depende de uma ação específica: Uma placa de orientação gira no suporte e muda a hierarquia do aviso. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "brutalismo-grafico",
+      "nearestName": "Brutalismo gráfico",
+      "difference": "Documento grande em preto e creme com lacunas deliberadas e uma evidência destacada em coral. A direção depende de uma ação específica: Tarjas se afastam para revelar somente o trecho que sustenta a afirmação. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "microficha-editorial-ampliada",
+      "nearestName": "Microficha editorial ampliada",
+      "difference": "Caixas tipográficas fictícias de arquivo com filetes finos, pêssego e verde escuro. A direção depende de uma ação específica: Caixas abrem para organizar conceitos em doses editoriais sem alegações médicas. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "poesia-concreta-de-palavras-objeto",
+      "nearestName": "Poesia concreta de palavras-objeto",
+      "difference": "Letras montadas com segmentos cerâmicos azul e laranja sobre mesa clara. A direção depende de uma ação específica: Segmentos mudam de encaixe e compõem a palavra seguinte com estrutura visível. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "editorial-de-revista",
+      "nearestName": "Editorial de revista",
+      "difference": "Prova editorial com tipografia negra, marcas de revisão vermelhas e papel marfim. A direção depende de uma ação específica: Uma correção muda a frase e evidencia a decisão editorial. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "filatelia-editorial-de-colecao",
+      "nearestName": "Filatelia editorial de coleção",
+      "difference": "Envelope aberto azul pálido com borda aérea vermelha, linhas de rota e selo fictício. A direção depende de uma ação específica: A dobra do aerograma transforma remetente em mensagem e destinatário. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "microficha-editorial-ampliada",
+      "nearestName": "Microficha editorial ampliada",
+      "difference": "Gaveta de fichas verde-petróleo, índices tabulados creme e numeração tipográfica grande. A direção depende de uma ação específica: Uma ficha sai da sequência e organiza o argumento principal. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "lenticular-editorial-de-dois-sentidos",
+      "nearestName": "Lenticular editorial de dois sentidos",
+      "difference": "Dois alfabetos complementares impressos em lâminas fumê e amarelas, composição limpa. A direção depende de uma ação específica: Lâminas se alinham e tornam uma única palavra legível. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "bordado",
+      "nearestName": "Bordado",
+      "difference": "Tiras tipográficas largas atravessam uma trama ortogonal azul-noite e cru. A direção depende de uma ação específica: Uma tira passa por cima e por baixo; a frase aparece no ponto de entrelaçamento. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "ilustracao": [
+    {
+      "nearestId": "carvao-expressivo",
+      "nearestName": "Carvão expressivo",
+      "difference": "Desenho de mãos fazendo pão em giz vermelho-terra sobre papel amarelado. A direção depende de uma ação específica: O gesto é redesenhado com linhas de construção que permanecem brevemente. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pastel-seco",
+      "nearestName": "Pastel seco",
+      "difference": "Mariposa desenhada com lápis opaco turquesa e amarelo sobre papel negro texturado. A direção depende de uma ação específica: As asas abrem por poses desenhadas e o pigmento revela suas nervuras. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "guache",
+      "nearestName": "Guache",
+      "difference": "Prancha de surf e laranja em ilustração de aerógrafo, degradês precisos pêssego e azul. A direção depende de uma ação específica: O volume recebe luz progressiva; uma faixa de sombra atravessa a prancha. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "scratchboard-de-luz-escavada",
+      "nearestName": "Scratchboard de luz escavada",
+      "difference": "Retrato fictício surge em campo de grafite através de marcas claras de borracha. A direção depende de uma ação específica: A borracha esculpe a luz; o contorno do rosto mantém anatomia estável. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "line-art-tecnico",
+      "nearestName": "Line art técnico",
+      "difference": "Motocicleta desenhada inteiramente com hachura de caneta azul, papel branco. A direção depende de uma ação específica: Camadas de hachura revelam roda, quadro e motor na ordem da explicação. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "vitral-ilustrado",
+      "nearestName": "Vitral ilustrado",
+      "difference": "Peixes pintados no verso de vidro transparente, brilhos vítreos e fundo coral. A direção depende de uma ação específica: O vidro muda levemente de inclinação e revela profundidade entre tinta e reflexo. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "linha-continua",
+      "nearestName": "Linha contínua",
+      "difference": "Duas mãos reais desenham metades diferentes de uma cidade em carvão e azul. A direção depende de uma ação específica: Os traços se encontram no centro e resolvem uma rua compartilhada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "prancha-botanica-de-anatomia-pictorica",
+      "nearestName": "Prancha botânica de anatomia pictórica",
+      "difference": "Folhas reais estampadas viram uma ave com nervuras visíveis em verde e ferrugem. A direção depende de uma ação específica: As impressões se articulam preservando suas bordas e a ave dá um passo. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "gravura",
+      "nearestName": "Gravura",
+      "difference": "Rua noturna em impressão única com tinta azul arrastada e reflexos amarelos. A direção depende de uma ação específica: Uma passagem de rolo revela reflexos e o guarda-chuva se desloca por recortes. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "mosaico-ceramico",
+      "nearestName": "Mosaico cerâmico",
+      "difference": "Pequena cena de mercado em azulejos pintados azul e branco com craquelado real. A direção depende de uma ação específica: Uma ação atravessa a junta dos azulejos e termina numa banca inteira. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "materiais": [
+    {
+      "nearestId": "recorte-de-papel",
+      "nearestName": "Recorte de papel",
+      "difference": "Pera escultórica de polpa de papel rosa, fibras grossas, pedestal de cartão. A direção depende de uma ação específica: Camadas úmidas se depositam sobre a forma e secam até revelar o objeto. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "mosaico-ceramico",
+      "nearestName": "Mosaico cerâmico",
+      "difference": "Barco em peças de cortiça cortadas, poros visíveis e fundo azul profundo. A direção depende de uma ação específica: Peças de diferentes espessuras encaixam e criam relevo funcional. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "tecido-e-feltro",
+      "nearestName": "Tecido e feltro",
+      "difference": "Ondas desenhadas apenas pela orientação dos pelos de veludo verde escuro. A direção depende de uma ação específica: Uma escova passa, muda o brilho e revela a marca do gesto. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "serigrafia",
+      "nearestName": "Serigrafia",
+      "difference": "Bicicleta em marcas azuis transferidas de uma folha de carbono preta. A direção depende de uma ação específica: A pressão do traço imprime a cópia e o original é levantado. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "cianotipia",
+      "nearestName": "Cianotipia",
+      "difference": "Folha artesanal com sementes aparentes e forma botânica em baixo relevo. A direção depende de uma ação específica: Água escurece a fibra; um corte temporal identificado mostra germinação real. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "ceramica-esmaltada",
+      "nearestName": "Cerâmica esmaltada",
+      "difference": "Vaso raku negro com cobre iridescente e craquelado amplo sobre areia. A direção depende de uma ação específica: A peça sai da caixa de redução e a fumaça revela o acabamento específico. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "linha-continua",
+      "nearestName": "Linha contínua",
+      "difference": "Cadeira de fio de cobre dobrado com sombras finas sobre fundo azul. A direção depende de uma ação específica: O fio é dobrado em pontos definidos e termina numa estrutura estável. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "carimbos-e-xilogravura",
+      "nearestName": "Carimbos e xilogravura",
+      "difference": "Matriz de linóleo verde com sulcos de goiva e tinta creme fresca. A direção depende de uma ação específica: A goiva remove uma faixa e a tinta entra somente na superfície elevada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "massinha",
+      "nearestName": "Massinha",
+      "difference": "Discos de terra colorida comprimida com bordas quebradiças e relevo geométrico. A direção depende de uma ação específica: Uma prensa imprime uma matriz e o pó solto se acomoda ao redor. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "litofania-de-luz-atravessada",
+      "nearestName": "Litofania de luz atravessada",
+      "difference": "Lanterna de papel de arroz com fibras longas, estrutura de bambu e luz âmbar. A direção depende de uma ação específica: A lanterna se expande pela armação e a luz percorre suas fibras. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "tecnologia": [
+    {
+      "nearestId": "infografia-de-dados",
+      "nearestName": "Infografia de dados",
+      "difference": "Escadaria gráfica de pontos acumulados em fundo branco, azul e laranja. A direção depende de uma ação específica: Cada observação acrescenta um degrau; a curva informa a parcela atingida. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "rio-de-composicao-temporal",
+      "nearestName": "Rio de composição temporal",
+      "difference": "Linhas de permanência em verde e roxo sobre grade temporal clara. A direção depende de uma ação específica: Coortes começam juntas e revelam perdas em momentos distintos. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "linhas-de-inclinacao-entre-dois-momentos",
+      "nearestName": "Linhas de inclinação entre dois momentos",
+      "difference": "Pares de pontos conectados em linhas horizontais com rótulos grandes. A direção depende de uma ação específica: Pontos se afastam conforme o valor; a distância mostra a diferença. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "intervalos-que-mostram-a-duvida",
+      "nearestName": "Intervalos que mostram a dúvida",
+      "difference": "Linha histórica azul com leque de intervalos âmbar sobre fundo mineral. A direção depende de uma ação específica: O passado se traça; cenários se abrem com intervalos e premissas visíveis. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "diagrama-de-sistemas",
+      "nearestName": "Diagrama de sistemas",
+      "difference": "Três discos translúcidos de papel celofane com interseções legíveis. A direção depende de uma ação específica: Grupos entram e a área comum ganha destaque com exemplos reais. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "fluxos-sankey",
+      "nearestName": "Fluxos Sankey",
+      "difference": "Blocos de acréscimo e desconto formando ponte entre dois totais. A direção depende de uma ação específica: Cada variação entra na ordem contábil até reconciliar o saldo. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "matriz-de-decisao",
+      "nearestName": "Matriz de decisão",
+      "difference": "Barras horizontais com faixas neutras e marcador fino de meta. A direção depende de uma ação específica: A barra de valor cresce até a medida e para diante da referência. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "calendario-radial",
+      "nearestName": "Calendário radial",
+      "difference": "Anel de 24 horas com arcos proporcionais e centro vazio. A direção depende de uma ação específica: Faixas de atividade surgem em horário real e isolam sobreposições. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "cartograma-hexagonal",
+      "nearestName": "Cartograma hexagonal",
+      "difference": "Municípios fictícios em grade cromática azul e cobre, legenda quadrada grande. A direção depende de uma ação específica: Uma dimensão entra por cor, a outra por intensidade; a legenda acompanha. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "linha-do-tempo",
+      "nearestName": "Linha do tempo",
+      "difference": "Linha temporal com setas de entradas e saídas em alturas distintas. A direção depende de uma ação específica: Entradas e saídas ocupam suas datas, revelando o intervalo de necessidade. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "motion": [
+    {
+      "nearestId": "engrenagens-excentricas-de-ritmo",
+      "nearestName": "Engrenagens excêntricas de ritmo",
+      "difference": "Pêndulos de madeira em arcos diferentes sobre fundo azul acinzentado. A direção depende de uma ação específica: Oscilações independentes sincronizam por um instante e formam uma linha. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "zootropio-digital",
+      "nearestName": "Zootrópio digital",
+      "difference": "Imagem de cavalo em tiras verticais sob grade preta deslizante. A direção depende de uma ação específica: A grade atravessa as tiras e revela poses sequenciais sem mover a câmera. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "serigrafia",
+      "nearestName": "Serigrafia",
+      "difference": "Três cilindros impressos giram numa máquina editorial marfim e vermelho. A direção depende de uma ação específica: Um desenho passa de rolo a rolo e chega inteiro ao papel. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "eco-temporal-de-movimento",
+      "nearestName": "Eco temporal de movimento",
+      "difference": "Dançarino visto como um arco contínuo de tecido e corpo nítido final. A direção depende de uma ação específica: Uma ação deixa rastro seletivo e termina numa pose estável. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pinca-robotica-como-coreografa",
+      "nearestName": "Pinça robótica como coreógrafa",
+      "difference": "Peças geométricas grandes são erguidas por pequenos guindastes amarelos. A direção depende de uma ação específica: Cabos içam, giram e assentam peças com contato e peso coerentes. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "strata-cut-de-mundos-internos",
+      "nearestName": "Strata-cut de mundos internos",
+      "difference": "Disco de madeira mostra anéis concêntricos com pequenos cenários gravados. A direção depende de uma ação específica: Anéis surgem do centro para fora e revelam etapas de uma história. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "enxame-procedural",
+      "nearestName": "Enxame procedural",
+      "difference": "Pequenas esferas suspensas entre dois transdutores sobre bancada escura. A direção depende de uma ação específica: Esferas ocupam nós de uma onda e mudam de posição de forma controlada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "cordas-e-restricoes-fisicas",
+      "nearestName": "Cordas e restrições físicas",
+      "difference": "Carrinhos coloridos percorrem trilhos que se bifurcam numa mesa branca. A direção depende de uma ação específica: Uma agulha muda a rota de um carrinho e o leva ao destino destacado. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "teatro-de-silhuetas-articuladas",
+      "nearestName": "Teatro de silhuetas articuladas",
+      "difference": "Tambor translúcido giratório com formas recortadas e projeção âmbar. A direção depende de uma ação específica: O tambor gira e seus recortes projetam uma sequência no cenário. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "volumes-inflaveis",
+      "nearestName": "Volumes infláveis",
+      "difference": "Bolsas de tecido cilíndricas infladas em série sobre palco preto. A direção depende de uma ação específica: Válvulas liberam ar em sequência e as bolsas mudam de altura com estabilidade. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "volume": [
+    {
+      "nearestId": "vidro-e-refracao",
+      "nearestName": "Vidro e refração",
+      "difference": "Bloco de aerogel azul quase invisível, luz lateral e objeto visto através dele. A direção depende de uma ação específica: Uma luz contorna o bloco e revela o volume por espalhamento. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "metal-e-cromado",
+      "nearestName": "Metal e cromado",
+      "difference": "Peças de alumínio em oliva, cobre e azul com micro-ranhuras coerentes. A direção depende de uma ação específica: A luz percorre a escovação enquanto uma peça se encaixa na outra. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "cristais-procedurais",
+      "nearestName": "Cristais procedurais",
+      "difference": "Bacia rasa turquesa com crostas de sal branco e cristalização facetada. A direção depende de uma ação específica: A água recua em lapso temporal e os cristais crescem nas bordas. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "clay-render",
+      "nearestName": "Clay render",
+      "difference": "Três blocos de borracha fosca em cores minerais sob um peso comum. A direção depende de uma ação específica: O peso desce e cada bloco deforma conforme parâmetros declarados. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "fibras-e-pelagem-escultorica",
+      "nearestName": "Fibras e pelagem escultórica",
+      "difference": "Bolsa fictícia em couro conhaque com perfurações precisas e costura creme. A direção depende de uma ação específica: O fecho tensiona o couro e a costura acompanha sem atravessar a superfície. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "geologia-estratificada-procedural",
+      "nearestName": "Geologia estratificada procedural",
+      "difference": "Pedra basáltica escura com face polida e cavidades ásperas num fundo areia. A direção depende de uma ação específica: A peça gira parcialmente e alterna face lisa e porosa em luz rasante. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "litofania-de-luz-atravessada",
+      "nearestName": "Litofania de luz atravessada",
+      "difference": "Painel cinza atravessado por minúsculos pontos luminosos de fibras. A direção depende de uma ação específica: Uma mão passa atrás e a luz transmite sua sombra de forma descontínua. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "espuma-microcelular-translucida",
+      "nearestName": "Espuma microcelular translúcida",
+      "difference": "Escultura de espuma vítrea verde com poros amplos e bordas brilhantes. A direção depende de uma ação específica: A câmera cruza um poro real modelado e encontra a face posterior. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "membranas-tensionadas-em-pontos",
+      "nearestName": "Membranas tensionadas em pontos",
+      "difference": "Lâminas cerâmicas delgadas sobre suportes de cobre, geometria precisa. A direção depende de uma ação específica: Uma lâmina flexiona pouco sob acionamento e retorna com amortecimento. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "madeira-entalhada",
+      "nearestName": "Madeira entalhada",
+      "difference": "Prancha de madeira negra com escamas de carvão e veio quente exposto. A direção depende de uma ação específica: Uma escova remove fuligem solta e revela o relevo carbonizado. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "hibridos": [
+    {
+      "nearestId": "apresentador-de-terno-em-escritorio",
+      "nearestName": "Apresentador de terno em escritório",
+      "difference": "Cadeira vazia, casaco e janela numa sala real, enquadramento lateral. A direção depende de uma ação específica: Sons fora do quadro motivam pequenas mudanças nos objetos até revelar a chegada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pergunta-do-anuncio-em-recorte-de-evidencia",
+      "nearestName": "Pergunta do anúncio em recorte de evidência",
+      "difference": "Quatro bancadas reais muito diferentes unidas por um objeto comum. A direção depende de uma ação específica: A mesma pergunta recebe respostas concretas através de ações de cada ofício. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "matriz-de-decisao",
+      "nearestName": "Matriz de decisão",
+      "difference": "Mesa de teste com alternativas descartadas, marcas e resultado final. A direção depende de uma ação específica: Cada tentativa deixa um vestígio; o acerto incorpora o aprendizado anterior. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "produto-gigante-em-mundo-miniatura",
+      "nearestName": "Produto gigante em mundo miniatura",
+      "difference": "Régua vertical fixa acompanha cenas de crescimento diferentes. A direção depende de uma ação específica: O mundo muda ao redor da medida constante, tornando as diferenças legíveis. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "substituicao-impossivel-de-objetos",
+      "nearestName": "Substituição impossível de objetos",
+      "difference": "Pessoa guardando três objetos numa cápsula transparente com data fictícia. A direção depende de uma ação específica: Um objeto presente evoca um cenário futuro explicitamente hipotético. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "dialogo-visual-entre-geracoes",
+      "nearestName": "Diálogo visual entre gerações",
+      "difference": "Uma tarefa filmada em duas soluções igualmente válidas, contraste de materiais. A direção depende de uma ação específica: Os caminhos alternam e convergem no resultado, com limites de cada abordagem. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "relogio-visual-de-uma-decisao",
+      "nearestName": "Relógio visual de uma decisão",
+      "difference": "Fila de cadeiras e relógio de parede, pessoas reais em planos fixos. A direção depende de uma ação específica: O tempo entre ações revela o problema; a solução reorganiza as esperas. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "jornada-de-um-objeto",
+      "nearestName": "Jornada de um objeto",
+      "difference": "Guarda-chuva amarelo passa entre pessoas fictícias em espaços diversos. A direção depende de uma ação específica: Cada pessoa resolve uma necessidade e entrega o objeto à próxima. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "gravidade-em-revezamento",
+      "nearestName": "Gravidade em revezamento",
+      "difference": "Conjunto de objetos organizados e um único caso com regra diferente. A direção depende de uma ação específica: A regra aparece, o caso excepcional interrompe e a explicação resolve a diferença. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "jornada-de-um-objeto",
+      "nearestName": "Jornada de um objeto",
+      "difference": "Etiquetas de épocas diferentes junto ao mesmo objeto preservado. A direção depende de uma ação específica: Nomes são substituídos enquanto a câmera mantém o objeto como referência. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "anuncios": [
+    {
+      "nearestId": "arquitetura-de-papel-informativa",
+      "nearestName": "Arquitetura de papel informativa",
+      "difference": "Fone fictício sobre base de modelagem, linhas de corte e ferramentas de precisão. A direção depende de uma ação específica: Um molde de papel se ajusta ao produto e revela sua silhueta sem alterá-lo. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "vitrine-entre-placas-de-gelo-cenografico",
+      "nearestName": "Vitrine entre placas de gelo cenográfico",
+      "difference": "Frasco sem rótulo real entre vidros embaçados e folhas úmidas, verde frio. A direção depende de uma ação específica: A condensação escorre no vidro cenográfico e abre uma janela para o produto seco. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "portal-pelo-detalhe",
+      "nearestName": "Portal pelo detalhe",
+      "difference": "Relógio fictício sobre almofada vinho, cartão de catálogo e luz de inspeção. A direção depende de uma ação específica: A bandeja desliza para a luz e revela um detalhe por vez. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "o-cenario-desmonta-a-propria-promessa",
+      "nearestName": "O cenário desmonta a própria promessa",
+      "difference": "Caixa rígida coral vista por dentro com encaixes e produto intacto. A direção depende de uma ação específica: As paredes da embalagem se desdobram para mostrar organização e acesso. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "sombra-como-assinatura",
+      "nearestName": "Sombra como assinatura",
+      "difference": "Óculos fictícios numa mesa areia sob sombra precisa de um brise. A direção depende de uma ação específica: A sombra atravessa a mesa enquanto os óculos permanecem estáveis e legíveis. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pergunta-e-descoberta",
+      "nearestName": "Pergunta e descoberta",
+      "difference": "Tênis fictício visto em macro com costura laranja que conduz o olhar. A direção depende de uma ação específica: A câmera acompanha a costura até revelar o produto inteiro. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "embalagem-de-envio-em-corte-de-protecao",
+      "nearestName": "Embalagem de envio em corte de proteção",
+      "difference": "Luminária fictícia entre polpas moldadas de proteção como arquitetura monumental. A direção depende de uma ação específica: As peças de proteção se afastam fisicamente e deixam o objeto em uso. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "campanha-cenario-em-cortes-de-luz",
+      "nearestName": "Cenário em cortes de luz",
+      "difference": "Câmera fictícia em caixa de luz com painéis coloridos e refletores visíveis. A direção depende de uma ação específica: Painéis acendem alternadamente para explicar superfícies e controles. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "guia-em-diorama-mecanico",
+      "nearestName": "Guia em diorama mecânico",
+      "difference": "Bolsa fictícia apoiada numa bancada de cuidado com escova e pano. A direção depende de uma ação específica: Uma mão limpa uma área permitida, guarda acessórios e conclui com packshot. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "paisagem-sonora-de-ambientes-reais",
+      "nearestName": "Paisagem sonora de ambientes reais",
+      "difference": "Teclado mecânico fictício próximo a microfone e espuma acústica cinza. A direção depende de uma ação específica: Uma tecla é acionada; o som real abre espaço para o detalhe do mecanismo. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "campanhas": [
+    {
+      "nearestId": "arquitetura-de-papel-informativa",
+      "nearestName": "Arquitetura de papel informativa",
+      "difference": "Cozinha real com uma tampa teimosa e mãos em pausa, luz clara e enquadramento seco. A direção depende de uma ação específica: Três tentativas curtas tornam o incômodo visível; o gesto correto resolve com clareza. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "implante-como-conjunto-didatico-modular",
+      "nearestName": "Implante como conjunto didático modular",
+      "difference": "Duas ferramentas reais lado a lado em bancada de trabalho, sem placar fictício. A direção depende de uma ação específica: O mesmo gesto autorizado é executado nas mesmas condições e os limites ficam visíveis. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "consumo-em-janela-de-condicao-de-uso",
+      "nearestName": "Consumo em janela de condição de uso",
+      "difference": "Sala real com objetos ruidosos e um espaço de descanso bem iluminado. A direção depende de uma ação específica: Fontes sonoras cessam uma a uma até revelar a condição de uso do produto. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "encaustica-de-memoria-translucida",
+      "nearestName": "Encaústica de memória translúcida",
+      "difference": "Três objetos distintos junto a pequenos vestígios de hobbies em mesa de madeira. A direção depende de uma ação específica: Uma lembrança filmada motiva a escolha de cada presente. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pet-em-uso-cotidiano",
+      "nearestName": "Pet em uso cotidiano",
+      "difference": "Objeto cotidiano em uso com sinal discreto de desgaste real, luz de oficina. A direção depende de uma ação específica: Um detalhe pede atenção, a manutenção acontece e o uso é retomado. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "estafeta-entre-cenarios-de-uso",
+      "nearestName": "Estafeta entre cenários de uso",
+      "difference": "Uma ação cotidiana congelada em pose legível, pergunta tipográfica grande ao lado. A direção depende de uma ação específica: A ação pausa no ponto de decisão e continua após a explicação. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "percurso-de-acessibilidade",
+      "nearestName": "Percurso de acessibilidade",
+      "difference": "Mochila fictícia em trajeto documentado de ônibus, escada e mesa. A direção depende de uma ação específica: A mesma carga percorre o trajeto com continuidade de peso e posição. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "food-cinematografico",
+      "nearestName": "Food cinematográfico",
+      "difference": "Cenário publicitário com marcações de chão e equipe preparando um objeto. A direção depende de uma ação específica: A preparação é parte da história e culmina numa composição final limpa. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pet-em-uso-cotidiano",
+      "nearestName": "Pet em uso cotidiano",
+      "difference": "Objeto real sobre bancada com pegadores alternativos documentados. A direção depende de uma ação específica: Uma pessoa autorizada demonstra uma forma específica de uso com enquadramento claro. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "cronica-guiada-pelo-som",
+      "nearestName": "Crônica guiada pelo som",
+      "difference": "Utensílio em fundo claro junto a onda sonora desenhada por dados reais. A direção depende de uma ação específica: A ação acontece, o som é isolado e a imagem explica sua origem. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "imoveis": [
+    {
+      "nearestId": "oferta-em-recibo-de-condicoes-visiveis",
+      "nearestName": "Oferta em recibo de condições visíveis",
+      "difference": "Ambiente real com itens incluídos destacados por contornos finos, itens móveis neutros. A direção depende de uma ação específica: Cada item confirmado ganha identificação enquanto a câmera permanece no mesmo plano. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "areas-comuns-em-sequencia",
+      "nearestName": "Áreas comuns em sequência",
+      "difference": "Portaria, elevador e área técnica em sequência documental com ícones discretos. A direção depende de uma ação específica: Um serviço aparece em uso e sua responsabilidade é apresentada com fonte. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "percurso-de-acessibilidade",
+      "nearestName": "Percurso de acessibilidade",
+      "difference": "Carrinho de mudança diante de elevador real com medidas discretas em tela. A direção depende de uma ação específica: O percurso documentado segue portaria, elevador e entrada com restrições indicadas. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "percurso-de-acessibilidade",
+      "nearestName": "Percurso de acessibilidade",
+      "difference": "Vaga real com colunas e veículo autorizado, câmera fixa ampla e medidas confirmadas. A direção depende de uma ação específica: O veículo entra, manobra e estaciona numa única continuidade observável. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "infografia-de-dados",
+      "nearestName": "Infografia de dados",
+      "difference": "Planta, matrícula demonstrativa sem dados privados e pastas em mesa clara. A direção depende de uma ação específica: Documentos entram na ordem da análise e cada finalidade recebe explicação breve. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "avatar-do-corretor-sobre-fotos",
+      "nearestName": "Avatar do corretor sobre fotos",
+      "difference": "Fotos reais de ambiente vazio com discretos percursos de uso em linhas. A direção depende de uma ação específica: Trajetos de atividades aparecem sem inserir móveis ou alterar paredes. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "progresso-por-evidencias-de-pratica",
+      "nearestName": "Portfólio em revisão multicâmera",
+      "difference": "Tomadas, armários internos e registros reais em planos grandes e luz neutra. A direção depende de uma ação específica: Cada detalhe é aberto ou acionado em filmagem autorizada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "campanha-calendario-cenografico-de-lancamento",
+      "nearestName": "Calendário cenográfico de lançamento",
+      "difference": "Chaves, contrato demonstrativo e calendário físico numa mesa de entrada. A direção depende de uma ação específica: Datas confirmadas ocupam o calendário e revelam etapas da entrada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "blueprint",
+      "nearestName": "Blueprint",
+      "difference": "Foto real à esquerda e desenho técnico autorizado à direita com legenda permanente. A direção depende de uma ação específica: Uma proposta aparece em painel separado sem substituir a condição atual. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "painel-de-pinos-animados",
+      "nearestName": "Painel de pinos animados",
+      "difference": "Ambiente real filmado à altura sentada, com portas e comandos visíveis. A direção depende de uma ação específica: O percurso mostra alcance e campo de visão sem inventar dimensões. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "software": [
+    {
+      "nearestId": "tour-de-uma-funcionalidade",
+      "nearestName": "Tour de uma funcionalidade",
+      "difference": "Tela demonstrativa fiel em notebook, indicador offline e alterações locais legíveis. A direção depende de uma ação específica: A conexão cai, uma ação suportada é salva e sincroniza com confirmação real. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "campanha-manual-em-montagem-editorial",
+      "nearestName": "Manual em montagem editorial",
+      "difference": "Interface real de automação com proposta e botões de revisão em destaque. A direção depende de uma ação específica: O sistema propõe uma ação, o usuário revisa e o registro confirma a execução. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "busca-que-refina-resultados",
+      "nearestName": "Busca que refina resultados",
+      "difference": "Tela de busca real com termo válido sem retorno e alternativas documentadas. A direção depende de uma ação específica: A pesquisa falha, um filtro é corrigido e um resultado real aparece. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "comparacao-de-fluxo",
+      "nearestName": "Comparação de fluxo",
+      "difference": "Uma mesma tela real com funções disponíveis identificadas em camadas discretas. A direção depende de uma ação específica: O usuário tenta a tarefa e vê o plano e condição necessários sem promessa falsa. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "maquina-de-estados-a-vista",
+      "nearestName": "Máquina de estados à vista",
+      "difference": "Dashboard real e arquivo exportado lado a lado com colunas legíveis. A direção depende de uma ação específica: O filtro é aplicado, o arquivo exportado abre e os valores são conferidos. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "orcamento-em-simulacao-reversivel",
+      "nearestName": "Orçamento em simulação reversível",
+      "difference": "Editor real com uma alteração clara e histórico discreto. A direção depende de uma ação específica: Uma mudança é feita, desfeita e reaplicada sem edição enganosa. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "notificacao-do-gatilho-a-leitura",
+      "nearestName": "Notificação do gatilho à leitura",
+      "difference": "Calendário real com dois fusos identificados e um evento comum. A direção depende de uma ação específica: O horário é escolhido num fuso e a correspondência aparece no outro. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "resposta-visual-a-objecoes",
+      "nearestName": "Resposta visual a objeções",
+      "difference": "Resposta real de assistente ao lado de documento autorizado com trecho citado. A direção depende de uma ação específica: A resposta aponta sua fonte; o trecho é aberto e os limites são explicados. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "transparencia-do-tecido-em-luz-de-leitura",
+      "nearestName": "Transparência do tecido em luz de leitura",
+      "difference": "Painel real com selo textual de ambiente demonstrativo e dados sintéticos. A direção depende de uma ação específica: Uma regra é testada, o resultado inspecionado e a publicação permanece separada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "erro-e-recuperacao-guiada",
+      "nearestName": "Erro e recuperação guiada",
+      "difference": "Carrinho real de teste com falha de pagamento simulada identificada. A direção depende de uma ação específica: O erro explica o motivo disponível e o usuário escolhe a alternativa suportada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "apresentacoes": [
+    {
+      "nearestId": "minimalismo-de-luxo",
+      "nearestName": "Minimalismo de luxo",
+      "difference": "Uma frase curta em letras grandes sobre vasto fundo mineral, pequeno objeto de escala. A direção depende de uma ação específica: A frase permanece; uma única palavra muda após a evidência narrada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "historia-contada-por-comprovantes",
+      "nearestName": "História contada por comprovantes",
+      "difference": "Folhas grandes presas por argolas metálicas, tipografia serifada e marcações verdes. A direção depende de uma ação específica: Uma ficha mostra a afirmação e a próxima revela sua evidência específica. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "leitura-em-duas-distancias",
+      "nearestName": "Leitura em duas distâncias",
+      "difference": "Letra enorme ocupa o quadro e se revela parte de uma frase vista de longe. A direção depende de uma ação específica: A câmera recua por patamares de leitura com pausas suficientes. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "vidro-editorial-em-camadas",
+      "nearestName": "Vidro editorial em camadas",
+      "difference": "Camadas transparentes com premissas azuis e conclusão preta sobre mesa iluminada. A direção depende de uma ação específica: Cada premissa se acende e a conclusão aparece somente ao reuni-las. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "sinalizacao-de-conferencia",
+      "nearestName": "Sinalização de conferência",
+      "difference": "Placas suspensas pretas com letras creme e linhas cromáticas de percurso. A direção depende de uma ação específica: A câmera segue uma linha de leitura até a próxima ideia sinalizada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "contraste-de-ritmo",
+      "nearestName": "Contraste de ritmo",
+      "difference": "Duas massas tipográficas densas separadas por área vazia e uma linha fina. A direção depende de uma ação específica: O bloco anterior sai, o vazio sustenta a pausa e o próximo argumento entra. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "hipotese-que-se-desfaz-em-evidencia",
+      "nearestName": "Hipótese que se desfaz em evidência",
+      "difference": "Frase manuscrita a lápis com versão final tipográfica ao lado, fundo claro. A direção depende de uma ação específica: A hipótese recebe rasuras visíveis e se estabiliza após o teste. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "margens-que-pensam-junto",
+      "nearestName": "Margens que pensam junto",
+      "difference": "Parágrafos com recuos progressivos em coluna alta, acentos de cor pontuais. A direção depende de uma ação específica: Cada recuo revela nível de argumento sem reduzir excessivamente a fonte. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "dados-com-narrativa-editorial",
+      "nearestName": "Dados com narrativa editorial",
+      "difference": "Número grande acompanhado de objetos contáveis, sem símbolos abstratos decorativos. A direção depende de uma ação específica: Objetos entram em grupos legíveis e a unidade permanece junto ao número. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "campanha-oferta-por-subtracao-visual",
+      "nearestName": "Oferta por subtração visual",
+      "difference": "Frase longa em cartões físicos sobre mesa, palavra central em cor quente. A direção depende de uma ação específica: Termos acessórios saem até permanecer uma conclusão precisa. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "avatares": [
+    {
+      "nearestId": "curadora-ficticia-em-planetario-cenico",
+      "nearestName": "Curadora fictícia em planetário cênico",
+      "difference": "Mulher fictícia negra de cabelo curto, camisa terracota, estúdio de rádio com microfone e luz âmbar. A direção depende de uma ação específica: Olha para a câmera, apresenta um tópico e um insert mostra o material citado. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentadora-de-campo-em-jardim",
+      "nearestName": "Apresentadora de campo em jardim",
+      "difference": "Homem fictício asiático de meia-idade, avental azul, bicicleta em suporte numa oficina clara. A direção depende de uma ação específica: Fala à câmera com mãos livres; planos separados mostram a peça em uso. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentadora-casual-em-cozinha",
+      "nearestName": "Apresentadora casual em cozinha",
+      "difference": "Mulher fictícia madura de cabelos grisalhos, jaqueta verde, observatório em paisagem seca. A direção depende de uma ação específica: Apresenta à câmera e a montagem alterna instrumentos e céu documentado. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentadora-casual-em-cozinha",
+      "nearestName": "Apresentadora casual em cozinha",
+      "difference": "Homem fictício gordo de barba curta, uniforme creme, bancada de ensino culinário. A direção depende de uma ação específica: Fala de frente e entra um plano detalhe separado da técnica explicada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentadora-despojada-em-cafe-externo",
+      "nearestName": "Apresentadora despojada em café externo",
+      "difference": "Mulher fictícia de pele morena, cabelo cacheado, blazer violeta, auditório iluminado. A direção depende de uma ação específica: Abre a apresentação olhando para a câmera e o telão recebe tópicos editáveis. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentador-casual-na-praia",
+      "nearestName": "Apresentador casual na praia",
+      "difference": "Homem fictício idoso de pele clara, camisa casual, estufa com bancadas vegetais. A direção depende de uma ação específica: Fala de frente com gestos pequenos; inserts mostram folhas sem deformação. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "curadora-ficticia-em-planetario-cenico",
+      "nearestName": "Curadora fictícia em planetário cênico",
+      "difference": "Mulher fictícia asiática de meia-idade, roupa preta simples, gaveteiros e objetos protegidos. A direção depende de uma ação específica: Introduz a coleção à câmera; detalhes dos objetos entram em planos independentes. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "reporter-ficticio-entre-janelas-moveis",
+      "nearestName": "Repórter fictício entre janelas móveis",
+      "difference": "Homem fictício negro jovem adulto, roupa casual larga, pista ao amanhecer. A direção depende de uma ação específica: Fala em posição estável olhando à câmera e B-roll separado apresenta o ambiente. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentadora-urbana-ao-ar-livre",
+      "nearestName": "Apresentadora urbana ao ar livre",
+      "difference": "Mulher fictícia branca com cabelo raspado, jaleco sobre camiseta, bancada de amostras. A direção depende de uma ação específica: Explica à câmera; uma demonstração real ou ilustrativa identificada ocupa o insert. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentador-maduro-em-biblioteca",
+      "nearestName": "Apresentador maduro em biblioteca",
+      "difference": "Homem fictício de pele morena e cabelo grisalho, camisa de linho, marina em hora azul. A direção depende de uma ação específica: Apresenta à câmera com barco estável ao fundo e cortes de contexto. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "saude": [
+    {
+      "nearestId": "relogio-visual-de-uma-decisao",
+      "nearestName": "Relógio visual de uma decisão",
+      "difference": "Profissional real e paciente autorizado diante de opções em cartões grandes, luz calma. A direção depende de uma ação específica: Benefícios, riscos e alternativas são expostos sem pressionar uma escolha. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "diario-de-observacoes-em-trilhos-paralelos",
+      "nearestName": "Diário de observações em trilhos paralelos",
+      "difference": "Pessoa fictícia diante de diário visual com relógio, intensidade e contexto. A direção depende de uma ação específica: Uma observação é organizada em quando, onde e como para levar à consulta. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "cinema-com-dados",
+      "nearestName": "Cinema com dados",
+      "difference": "Embalagens reais autorizadas com dados privados ocultos e lista legível. A direção depende de uma ação específica: Itens são registrados sem sugerir mudança de dose ou suspensão. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "percurso-de-acessibilidade",
+      "nearestName": "Percurso de acessibilidade",
+      "difference": "Recepção real com luz suave, sinalização grande e poucos estímulos. A direção depende de uma ação específica: O percurso de chegada é mostrado lentamente com sons discretos. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "retorno-assistido-por-portas-de-contato",
+      "nearestName": "Retorno assistido por portas de contato",
+      "difference": "Mesa com instruções aprovadas e canais de contato visíveis, composição serena. A direção depende de uma ação específica: Cuidados esperados e sinais para procurar orientação aparecem em grupos separados. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "dados-com-narrativa-editorial",
+      "nearestName": "Dados com narrativa editorial",
+      "difference": "Consultório real e instrumentos sem exposição gráfica, iluminação acolhedora. A direção depende de uma ação específica: Uma pergunta por vez recebe explicação e indicação de avaliação individual. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "escovacao-em-teatro-de-superficies",
+      "nearestName": "Escovação em teatro de superfícies",
+      "difference": "Manequim dental e mãos demonstrando cuidado em bancada clara. A direção depende de uma ação específica: O gesto é mostrado de dois ângulos com pressão e sequência aprovadas. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pele-em-luz-padronizada",
+      "nearestName": "Pele em luz padronizada",
+      "difference": "Produto real, chapéu e sombra em cenário cotidiano com pele natural. A direção depende de uma ação específica: Ações complementares são demonstradas sem filtro de embelezamento. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "campanha-rastro-tecnico-sobre-gesto-real",
+      "nearestName": "Rastro técnico sobre gesto real",
+      "difference": "Boneco e equipamento demonstrativo numa sala real acolhedora. A direção depende de uma ação específica: O profissional explica a sequência no brinquedo antes do procedimento real. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentador-acessivel-em-coworking",
+      "nearestName": "Apresentador acessível em coworking",
+      "difference": "Pessoa fictícia e profissional em conversa à altura dos olhos, perguntas tipográficas grandes. A direção depende de uma ação específica: Uma pausa abre espaço à dúvida e a resposta é resumida para confirmação. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "ecommerce": [
+    {
+      "nearestId": "recebimento-em-mesa-de-conferencia",
+      "nearestName": "Recebimento em mesa de conferência",
+      "difference": "Produto fictício e todos os acessórios separados em fundo claro, numeração editorial. A direção depende de uma ação específica: Cada item sai da caixa e ocupa sua posição de conferência. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "consumivel-em-encaixe-de-reposicao",
+      "nearestName": "Consumível em encaixe de reposição",
+      "difference": "Conector real ao lado de identificação de modelo e versão em texto grande. A direção depende de uma ação específica: O código é conferido antes do encaixe documentado. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "diptico-documentado-entre-dia-e-hora-azul",
+      "nearestName": "Díptico documentado entre dia e hora azul",
+      "difference": "Carrinho ou objeto dobrável fictício em duas condições sobre piso quadriculado. A direção depende de uma ação específica: O mecanismo real abre e fecha com dimensões verificadas nas duas condições. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "cinema-subaquatico",
+      "nearestName": "Cinema subaquático",
+      "difference": "Fecho real de bolsa ou roupa em plano grande com mãos autorizadas. A direção depende de uma ação específica: Abrir e fechar acontece sem cortes que escondam dificuldade. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "campanha-manual-em-montagem-editorial",
+      "nearestName": "Manual em montagem editorial",
+      "difference": "Manual aprovado e objeto real numa bancada, página relevante ampliada. A direção depende de uma ação específica: A instrução é lida e executada numa ação contínua. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pele-em-luz-padronizada",
+      "nearestName": "Pele em luz padronizada",
+      "difference": "Material real ao lado de referência neutra de escala, luz lateral padronizada. A direção depende de uma ação específica: A mão mostra flexibilidade e textura sem alterar cor ou superfície. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "consumivel-em-encaixe-de-reposicao",
+      "nearestName": "Consumível em encaixe de reposição",
+      "difference": "Peça de reposição real, ferramenta necessária e objeto aberto conforme manual. A direção depende de uma ação específica: A peça antiga sai e a nova entra com encaixe e limites documentados. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "rotulo-como-painel-de-exposicao",
+      "nearestName": "Rótulo como painel de exposição",
+      "difference": "Embalagem real com área de lote ampliada por recorte de alta resolução. A direção depende de uma ação específica: O local do código é apontado e a leitura explica seu significado sem reescrever rótulo. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "escala-humana-comparada",
+      "nearestName": "Escala humana comparada",
+      "difference": "Mesmo produto real usado por pessoas autorizadas com referências de tamanho. A direção depende de uma ação específica: O gesto é repetido sem alterar escala do produto e mostra limites de alcance. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "rotulo-como-painel-de-exposicao",
+      "nearestName": "Rótulo como painel de exposição",
+      "difference": "Prévia de personalização fiel ao sistema ao lado do produto-base real. A direção depende de uma ação específica: Texto ou arte são conferidos numa prova antes da produção. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "infoprodutores": [
+    {
+      "nearestId": "caso-de-uso",
+      "nearestName": "Caso de uso",
+      "difference": "Instrutor real em bancada com três ferramentas de entrada e cenário claro. A direção depende de uma ação específica: Cada pré-requisito é verificado numa tarefa curta antes de começar. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "caso-de-aluno-em-evidencia-autorizada",
+      "nearestName": "Caso de aluno em documentário com evidências",
+      "difference": "Trabalho real de aluno autorizado ao lado de rubrica visual grande. A direção depende de uma ação específica: O avaliador aponta evidências para cada critério sem notas inventadas. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "primeira-aula-em-corredor-de-orientacao",
+      "nearestName": "Boas-vindas com professor em cenário real",
+      "difference": "Plataforma real do curso em tela grande com professor em insert discreto. A direção depende de uma ação específica: Uma aula, material e exercício reais são abertos com continuidade. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "estudo-solar-identificado",
+      "nearestName": "Estudo solar identificado",
+      "difference": "Agenda física com blocos reais de trabalho, descanso e estudo, luz cotidiana. A direção depende de uma ação específica: O curso é distribuído em intervalos plausíveis sem prometer resultado em prazo fixo. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "erro-e-recuperacao-guiada",
+      "nearestName": "Erro e recuperação guiada",
+      "difference": "Instrutor real errando uma tentativa e ajustando uma técnica em ambiente de trabalho. A direção depende de uma ação específica: O erro é mostrado, a correção explicada e nova tentativa comparada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "apresentador-esportivo-em-parque",
+      "nearestName": "Apresentador esportivo em parque",
+      "difference": "Exercício real grande em mesa ou tela, uma etapa resolvida e outra aberta. A direção depende de uma ação específica: O professor demonstra o raciocínio inicial e convida à prática restante. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "mapa-de-materiais-por-ambiente",
+      "nearestName": "Mapa de materiais por ambiente",
+      "difference": "Três percursos de aprendizagem em painéis físicos com materiais reais do curso. A direção depende de uma ação específica: Um diagnóstico simples indica percurso introdutório ou avançado com limites claros. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "aula-amostra-em-bancada-de-raciocinio",
+      "nearestName": "Mini-aula com demonstração multicâmera",
+      "difference": "Perguntas reais anonimizadas em etiquetas junto aos materiais de aula. A direção depende de uma ação específica: Uma dúvida recorrente escolhe o objeto e desencadeia demonstração filmada. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "garantia-em-camadas-de-cobertura",
+      "nearestName": "Garantia em camadas de cobertura",
+      "difference": "Projeto real autorizado com marcações de estrutura, técnica e acabamento. A direção depende de uma ação específica: Cada camada de feedback aparece com exemplo e ação de melhoria. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "caso-de-uso",
+      "nearestName": "Caso de uso",
+      "difference": "Portfólio, avaliação e certificado demonstrativo separados numa mesa institucional. A direção depende de uma ação específica: O que é exigido e o que o certificado não garante aparecem em sequência. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ],
+  "motion-campanha": [
+    {
+      "nearestId": "colagem-com-rotoscopia",
+      "nearestName": "Colagem com rotoscopia",
+      "difference": "Painéis triangulares de metal fosco formam uma abertura assimétrica diante de produto fictício. A direção depende de uma ação específica: Facetas giram por dobradiças diferentes e revelam o objeto com oclusão coerente. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "desafio-de-turma-em-mosaico-de-tentativas",
+      "nearestName": "Desafio em placar de tarefa",
+      "difference": "Plataformas de cena sobem em um poço editorial coral e azul, letras grandes. A direção depende de uma ação específica: Uma plataforma leva a ideia a outro nível e a mensagem final ocupa o topo. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pastel-seco",
+      "nearestName": "Pastel seco",
+      "difference": "Partículas minerais coloridas decantam num tanque transparente diante de fundo escuro. A direção depende de uma ação específica: Camadas se depositam por densidade e revelam uma composição estável. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "campanha-mecanica-em-transparencia-controlada",
+      "nearestName": "Mecânica em transparência controlada",
+      "difference": "Letras robustas em peças passam por gabaritos numa bancada branca. A direção depende de uma ação específica: Cada estação resolve um componente e a palavra termina legível. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "paisagem-de-materia-prima-confirmada",
+      "nearestName": "Paisagem de matéria-prima confirmada",
+      "difference": "Objetos reais e grandes painéis de sombra formam uma paisagem em estúdio. A direção depende de uma ação específica: Painéis se movem e a luz reconstrói o ambiente sem mover o produto. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "editorial-tipografico-em-profundidade",
+      "nearestName": "Editorial tipográfico em profundidade",
+      "difference": "Objetos em planos reais distintos com texto composto em profundidade controlada. A direção depende de uma ação específica: O foco passa do detalhe à evidência, enquanto o texto essencial permanece legível. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "canvas-de-raciocinio-causal",
+      "nearestName": "Canvas de raciocínio causal",
+      "difference": "Roda excêntrica e seguidor acionam um elemento de campanha em palco pastel. A direção depende de uma ação específica: O came gira, o seguidor sobe e o resultado demonstra uma relação causal. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "stop-motion",
+      "nearestName": "Stop motion",
+      "difference": "Letras grandes delimitam uma arena circular com objeto central em escala real. A direção depende de uma ação específica: A câmera percorre um arco curto e as palavras mudam de posição sem colidir. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "pontilhismo-cromatico",
+      "nearestName": "Pontilhismo cromático",
+      "difference": "Cabos coloridos atravessam pontos de ancoragem numa parede clara. A direção depende de uma ação específica: Cabos são tensionados até formar uma silhueta estável e reconhecível. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    },
+    {
+      "nearestId": "titulos-em-relevo-por-luz-rasante",
+      "nearestName": "Títulos em relevo por luz rasante",
+      "difference": "Superfície de tecido cobre pequenos atuadores formando relevo legível. A direção depende de uma ação específica: Atuadores levantam uma forma por vez e a superfície retorna sem tremulação. A distinção está na combinação de composição, mecanismo e necessidade; técnicas gerais podem ser compartilhadas com o acervo."
+    }
+  ]
+}

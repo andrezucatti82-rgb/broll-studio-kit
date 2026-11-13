@@ -1,0 +1,1663 @@
+{
+  "version": "sequence-pilot-1",
+  "families": [
+    {
+      "id": "cinema",
+      "name": "Cinema e fotografia"
+    },
+    {
+      "id": "grafico",
+      "name": "Design gráfico e editorial"
+    },
+    {
+      "id": "ilustracao",
+      "name": "Ilustração e desenho"
+    },
+    {
+      "id": "materiais",
+      "name": "Papel, impressão e materiais"
+    },
+    {
+      "id": "tecnologia",
+      "name": "Interfaces, dados e sistemas"
+    },
+    {
+      "id": "motion",
+      "name": "Movimento e montagem"
+    },
+    {
+      "id": "volume",
+      "name": "Volume e materiais digitais"
+    },
+    {
+      "id": "hibridos",
+      "name": "Narrativas e combinações"
+    },
+    {
+      "id": "anuncios",
+      "name": "Publicidade de produto"
+    },
+    {
+      "id": "campanhas",
+      "name": "Campanhas e demonstrações"
+    },
+    {
+      "id": "imoveis",
+      "name": "Imóveis e apresentação"
+    },
+    {
+      "id": "software",
+      "name": "Softwares, telas e dashboards"
+    },
+    {
+      "id": "apresentacoes",
+      "name": "Apresentações e tipografia"
+    },
+    {
+      "id": "avatares",
+      "name": "Avatares e apresentadores"
+    },
+    {
+      "id": "saude",
+      "name": "Saúde, estética e odontologia"
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-commerce e marketplaces"
+    },
+    {
+      "id": "infoprodutores",
+      "name": "Infoprodutores e educação"
+    },
+    {
+      "id": "motion-campanha",
+      "name": "Motion Design de Campanha"
+    }
+  ],
+  "examples": [
+    {
+      "key": "cinema-1",
+      "styleId": "publicidade-cinematografica",
+      "name": "Publicidade cinematográfica",
+      "family": "cinema",
+      "familyName": "Cinema e fotografia",
+      "theme": "Anúncio de um café fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/cinema-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Publicidade cinematográfica — abertura. A xícara vazia recebe a luz da máquina.",
+          "action": "A xícara vazia recebe a luz da máquina."
+        },
+        {
+          "src": "assets/film-sequences/cinema-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Publicidade cinematográfica — desenvolvimento. O café cai e a crema começa a se formar.",
+          "action": "O café cai e a crema começa a se formar."
+        },
+        {
+          "src": "assets/film-sequences/cinema-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Publicidade cinematográfica — transformação. A xícara pronta chega ao pires; o vapor revela a luz.",
+          "action": "A xícara pronta chega ao pires; o vapor revela a luz."
+        },
+        {
+          "src": "assets/film-sequences/cinema-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Publicidade cinematográfica — fechamento. O plano abre para a pausa e a assinatura.",
+          "action": "O plano abre para a pausa e a assinatura."
+        }
+      ],
+      "audio": "Voz próxima + trilha cinematográfica discreta + foley do produto.",
+      "productionPrompt": "ESTILO: Publicidade cinematográfica. EXEMPLO FICTÍCIO: Anúncio de um café fictício.\nDireção de base: Luz dramática, materiais táteis e enquadramentos de campanha.\nMovimento planejado: Travelling curto, detalhes em macro e cortes motivados pelo produto.\nPLANO 1: A xícara vazia recebe a luz da máquina.\nPLANO 2: O café cai e a crema começa a se formar.\nPLANO 3: A xícara pronta chega ao pires; o vapor revela a luz.\nPLANO 4: O plano abre para a pausa e a assinatura.\nRECURSOS: Filmagem ou B-roll licenciado, vídeo IA, color grading, foley.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "cinema-2",
+      "styleId": "exp-revelacao-por-bandeira-de-luz",
+      "name": "Revelação por bandeira de luz",
+      "family": "cinema",
+      "familyName": "Cinema e fotografia",
+      "theme": "Revelar uma coleção floral fictícia",
+      "frames": [
+        {
+          "src": "assets/film-sequences/cinema-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Revelação por bandeira de luz — abertura. O arranjo aparece parcialmente escondido na sombra.",
+          "action": "O arranjo aparece parcialmente escondido na sombra."
+        },
+        {
+          "src": "assets/film-sequences/cinema-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Revelação por bandeira de luz — desenvolvimento. A bandeira de luz atravessa as pétalas.",
+          "action": "A bandeira de luz atravessa as pétalas."
+        },
+        {
+          "src": "assets/film-sequences/cinema-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Revelação por bandeira de luz — transformação. O deslocamento revela a textura e o contorno do vaso.",
+          "action": "O deslocamento revela a textura e o contorno do vaso."
+        },
+        {
+          "src": "assets/film-sequences/cinema-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Revelação por bandeira de luz — fechamento. O conjunto fica iluminado para a mensagem final.",
+          "action": "O conjunto fica iluminado para a mensagem final."
+        }
+      ],
+      "audio": "Voz próxima + trilha cinematográfica discreta + foley do produto.",
+      "productionPrompt": "ESTILO: Revelação por bandeira de luz. EXEMPLO FICTÍCIO: Revelar uma coleção floral fictícia.\nDireção de base: Bouquet fotográfico em teatro preto, pétalas parcialmente cobertas por anteparo opaco.\nMovimento planejado: Um anteparo físico atravessa o feixe e revela grupos de pétalas em sequência..\nPLANO 1: O arranjo aparece parcialmente escondido na sombra.\nPLANO 2: A bandeira de luz atravessa as pétalas.\nPLANO 3: O deslocamento revela a textura e o contorno do vaso.\nPLANO 4: O conjunto fica iluminado para a mensagem final.\nRECURSOS: Captação ou geração de cena fictícia, Controle de lente e iluminação, Color grading por plano, Composição e foley.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "grafico-1",
+      "styleId": "exp-alfabeto-de-pecas-intercambiaveis",
+      "name": "Alfabeto de peças intercambiáveis",
+      "family": "grafico",
+      "familyName": "Design gráfico e editorial",
+      "theme": "Identidade modular de um estúdio fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/grafico-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Alfabeto de peças intercambiáveis — abertura. Peças de cerâmica aguardam sobre a mesa.",
+          "action": "Peças de cerâmica aguardam sobre a mesa."
+        },
+        {
+          "src": "assets/film-sequences/grafico-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Alfabeto de peças intercambiáveis — desenvolvimento. Os segmentos se aproximam e começam a formar letras.",
+          "action": "Os segmentos se aproximam e começam a formar letras."
+        },
+        {
+          "src": "assets/film-sequences/grafico-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Alfabeto de peças intercambiáveis — transformação. As letras se encaixam, mantendo espessura e material.",
+          "action": "As letras se encaixam, mantendo espessura e material."
+        },
+        {
+          "src": "assets/film-sequences/grafico-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Alfabeto de peças intercambiáveis — fechamento. A palavra completa vira a assinatura da campanha.",
+          "action": "A palavra completa vira a assinatura da campanha."
+        }
+      ],
+      "audio": "Voz editorial + pulso musical + encaixes e atrito dos materiais.",
+      "productionPrompt": "ESTILO: Alfabeto de peças intercambiáveis. EXEMPLO FICTÍCIO: Identidade modular de um estúdio fictício.\nDireção de base: Letras montadas com segmentos cerâmicos azul e laranja sobre mesa clara.\nMovimento planejado: Segmentos mudam de encaixe e compõem a palavra seguinte com estrutura visível..\nPLANO 1: Peças de cerâmica aguardam sobre a mesa.\nPLANO 2: Os segmentos se aproximam e começam a formar letras.\nPLANO 3: As letras se encaixam, mantendo espessura e material.\nPLANO 4: A palavra completa vira a assinatura da campanha.\nRECURSOS: Composição editorial em código ou vetores, Fontes licenciadas e texto editável, Camadas separadas, Animação de layout.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "grafico-2",
+      "styleId": "exp-letra-de-transparencia-encaixada",
+      "name": "Letra de transparência encaixada",
+      "family": "grafico",
+      "familyName": "Design gráfico e editorial",
+      "theme": "Clareza de mensagem de marca fictícia",
+      "frames": [
+        {
+          "src": "assets/film-sequences/grafico-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Letra de transparência encaixada — abertura. Placas translúcidas aparecem separadas.",
+          "action": "Placas translúcidas aparecem separadas."
+        },
+        {
+          "src": "assets/film-sequences/grafico-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Letra de transparência encaixada — desenvolvimento. Uma placa desliza diante da outra, criando sobreposições.",
+          "action": "Uma placa desliza diante da outra, criando sobreposições."
+        },
+        {
+          "src": "assets/film-sequences/grafico-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Letra de transparência encaixada — transformação. O alinhamento das camadas revela a palavra.",
+          "action": "O alinhamento das camadas revela a palavra."
+        },
+        {
+          "src": "assets/film-sequences/grafico-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Letra de transparência encaixada — fechamento. O conjunto se estabiliza com leitura clara.",
+          "action": "O conjunto se estabiliza com leitura clara."
+        }
+      ],
+      "audio": "Voz editorial + pulso musical + encaixes e atrito dos materiais.",
+      "productionPrompt": "ESTILO: Letra de transparência encaixada. EXEMPLO FICTÍCIO: Clareza de mensagem de marca fictícia.\nDireção de base: Dois alfabetos complementares impressos em lâminas fumê e amarelas, composição limpa.\nMovimento planejado: Lâminas se alinham e tornam uma única palavra legível..\nPLANO 1: Placas translúcidas aparecem separadas.\nPLANO 2: Uma placa desliza diante da outra, criando sobreposições.\nPLANO 3: O alinhamento das camadas revela a palavra.\nPLANO 4: O conjunto se estabiliza com leitura clara.\nRECURSOS: Composição editorial em código ou vetores, Fontes licenciadas e texto editável, Camadas separadas, Animação de layout.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "ilustracao-1",
+      "styleId": "linha-continua",
+      "name": "Linha contínua",
+      "family": "ilustracao",
+      "familyName": "Ilustração e desenho",
+      "theme": "Explicar um serviço de organização",
+      "frames": [
+        {
+          "src": "assets/film-sequences/ilustracao-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Linha contínua — abertura. Uma linha começa a desenhar a ideia.",
+          "action": "Uma linha começa a desenhar a ideia."
+        },
+        {
+          "src": "assets/film-sequences/ilustracao-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Linha contínua — desenvolvimento. O traço contínuo transforma o emaranhado em uma chave.",
+          "action": "O traço contínuo transforma o emaranhado em uma chave."
+        },
+        {
+          "src": "assets/film-sequences/ilustracao-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Linha contínua — transformação. A linha da chave se transforma no contorno de uma porta.",
+          "action": "A linha da chave se transforma no contorno de uma porta."
+        },
+        {
+          "src": "assets/film-sequences/ilustracao-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Linha contínua — fechamento. A porta aberta revela um caminho para a mensagem final.",
+          "action": "A porta aberta revela um caminho para a mensagem final."
+        }
+      ],
+      "audio": "Voz narrativa + trilha orgânica + traço, papel e ambiência.",
+      "productionPrompt": "ESTILO: Linha contínua. EXEMPLO FICTÍCIO: Explicar um serviço de organização.\nDireção de base: Desenho construído por um traço que conecta as ideias.\nMovimento planejado: O traço transforma um objeto em outro mantendo continuidade.\nPLANO 1: Uma linha começa a desenhar a ideia.\nPLANO 2: O traço contínuo transforma o emaranhado em uma chave.\nPLANO 3: A linha da chave se transforma no contorno de uma porta.\nPLANO 4: A porta aberta revela um caminho para a mensagem final.\nRECURSOS: Paths vetoriais, trim paths, tipografia, som sutil.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "ilustracao-2",
+      "styleId": "exp-monotipia-de-noite-chuvosa",
+      "name": "Monotipia de noite chuvosa",
+      "family": "ilustracao",
+      "familyName": "Ilustração e desenho",
+      "theme": "Pequena história urbana ilustrada",
+      "frames": [
+        {
+          "src": "assets/film-sequences/ilustracao-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Monotipia de noite chuvosa — abertura. A rua molhada surge em manchas de tinta.",
+          "action": "A rua molhada surge em manchas de tinta."
+        },
+        {
+          "src": "assets/film-sequences/ilustracao-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Monotipia de noite chuvosa — desenvolvimento. Uma figura atravessa reflexos e luzes.",
+          "action": "Uma figura atravessa reflexos e luzes."
+        },
+        {
+          "src": "assets/film-sequences/ilustracao-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Monotipia de noite chuvosa — transformação. Novas marcas revelam o encontro sob o guarda-chuva.",
+          "action": "Novas marcas revelam o encontro sob o guarda-chuva."
+        },
+        {
+          "src": "assets/film-sequences/ilustracao-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Monotipia de noite chuvosa — fechamento. A rua se afasta, preservando a textura da impressão.",
+          "action": "A rua se afasta, preservando a textura da impressão."
+        }
+      ],
+      "audio": "Voz narrativa + trilha orgânica + traço, papel e ambiência.",
+      "productionPrompt": "ESTILO: Monotipia de noite chuvosa. EXEMPLO FICTÍCIO: Pequena história urbana ilustrada.\nDireção de base: Rua noturna em impressão única com tinta azul arrastada e reflexos amarelos.\nMovimento planejado: Uma passagem de rolo revela reflexos e o guarda-chuva se desloca por recortes..\nPLANO 1: A rua molhada surge em manchas de tinta.\nPLANO 2: Uma figura atravessa reflexos e luzes.\nPLANO 3: Novas marcas revelam o encontro sob o guarda-chuva.\nPLANO 4: A rua se afasta, preservando a textura da impressão.\nRECURSOS: Ilustração original em camadas, Poses-chave e desenho de intervalos, Textura do meio declarado, Composição 2D.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "materiais-1",
+      "styleId": "papel-em-camadas",
+      "name": "Papel em camadas",
+      "family": "materiais",
+      "familyName": "Papel, impressão e materiais",
+      "theme": "Campanha de viagem com cenário de papel",
+      "frames": [
+        {
+          "src": "assets/film-sequences/materiais-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Papel em camadas — abertura. Uma folha recortada anuncia a paisagem.",
+          "action": "Uma folha recortada anuncia a paisagem."
+        },
+        {
+          "src": "assets/film-sequences/materiais-1-02.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Papel em camadas — desenvolvimento. As camadas se afastam para revelar profundidade.",
+          "action": "As camadas se afastam para revelar profundidade."
+        },
+        {
+          "src": "assets/film-sequences/materiais-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Papel em camadas — transformação. O caminho atravessa a floresta de papel.",
+          "action": "O caminho atravessa a floresta de papel."
+        },
+        {
+          "src": "assets/film-sequences/materiais-1-04.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Papel em camadas — fechamento. A paisagem se organiza ao redor da mensagem.",
+          "action": "A paisagem se organiza ao redor da mensagem."
+        }
+      ],
+      "audio": "Voz calma + música tátil + recortes, deslizamentos e encaixes.",
+      "productionPrompt": "ESTILO: Papel em camadas. EXEMPLO FICTÍCIO: Campanha de viagem com cenário de papel.\nDireção de base: Planos de papel sobrepostos formam paisagens profundas.\nMovimento planejado: Passar entre planos e revelar ambientes por oclusão.\nPLANO 1: Uma folha recortada anuncia a paisagem.\nPLANO 2: As camadas se afastam para revelar profundidade.\nPLANO 3: O caminho atravessa a floresta de papel.\nPLANO 4: A paisagem se organiza ao redor da mensagem.\nRECURSOS: Camadas independentes, máscaras, paralaxe, luz.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "materiais-2",
+      "styleId": "mosaico-ceramico",
+      "name": "Mosaico cerâmico",
+      "family": "materiais",
+      "familyName": "Papel, impressão e materiais",
+      "theme": "Identidade de espaço cultural fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/materiais-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Mosaico cerâmico — abertura. Fragmentos cerâmicos aparecem separados.",
+          "action": "Fragmentos cerâmicos aparecem separados."
+        },
+        {
+          "src": "assets/film-sequences/materiais-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Mosaico cerâmico — desenvolvimento. As peças avançam para a malha do mosaico.",
+          "action": "As peças avançam para a malha do mosaico."
+        },
+        {
+          "src": "assets/film-sequences/materiais-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Mosaico cerâmico — transformação. O encaixe revela desenho, juntas e relevos.",
+          "action": "O encaixe revela desenho, juntas e relevos."
+        },
+        {
+          "src": "assets/film-sequences/materiais-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Mosaico cerâmico — fechamento. A composição completa encerra a sequência.",
+          "action": "A composição completa encerra a sequência."
+        }
+      ],
+      "audio": "Voz calma + música tátil + recortes, deslizamentos e encaixes.",
+      "productionPrompt": "ESTILO: Mosaico cerâmico. EXEMPLO FICTÍCIO: Identidade de espaço cultural fictício.\nDireção de base: Peças esmaltadas e rejuntes visíveis constroem uma imagem tátil.\nMovimento planejado: Peças encaixam com contato e revelam o mosaico.\nPLANO 1: Fragmentos cerâmicos aparecem separados.\nPLANO 2: As peças avançam para a malha do mosaico.\nPLANO 3: O encaixe revela desenho, juntas e relevos.\nPLANO 4: A composição completa encerra a sequência.\nRECURSOS: Texturas ou peças reais, recortes, luz.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "tecnologia-1",
+      "styleId": "interface-demonstrativa",
+      "name": "Interface demonstrativa",
+      "family": "tecnologia",
+      "familyName": "Interfaces, dados e sistemas",
+      "theme": "Fluxo de aprovação de conteúdo em plataforma fictícia",
+      "frames": [
+        {
+          "src": "assets/film-sequences/tecnologia-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Interface demonstrativa — abertura. A solicitação aparece como pendente na interface.",
+          "action": "A solicitação aparece como pendente na interface."
+        },
+        {
+          "src": "assets/film-sequences/tecnologia-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Interface demonstrativa — desenvolvimento. O detalhe abre e destaca o que precisa ser revisado.",
+          "action": "O detalhe abre e destaca o que precisa ser revisado."
+        },
+        {
+          "src": "assets/film-sequences/tecnologia-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Interface demonstrativa — transformação. A confirmação muda o estado da solicitação.",
+          "action": "A confirmação muda o estado da solicitação."
+        },
+        {
+          "src": "assets/film-sequences/tecnologia-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Interface demonstrativa — fechamento. O painel mostra a conclusão e seu registro.",
+          "action": "O painel mostra a conclusão e seu registro."
+        }
+      ],
+      "audio": "Voz explicativa + trilha discreta + sons curtos de estado e confirmação.",
+      "productionPrompt": "ESTILO: Interface demonstrativa. EXEMPLO FICTÍCIO: Fluxo de aprovação de conteúdo em plataforma fictícia.\nDireção de base: Telas fictícias legíveis criadas para explicar um conceito.\nMovimento planejado: Mostrar entrada, ação e mudança de estado; identificar como ilustração.\nPLANO 1: A solicitação aparece como pendente na interface.\nPLANO 2: O detalhe abre e destaca o que precisa ser revisado.\nPLANO 3: A confirmação muda o estado da solicitação.\nPLANO 4: O painel mostra a conclusão e seu registro.\nRECURSOS: UI em HTML ou vetores, motion, dados fictícios, narração.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo.\nINTERFACE: usar captura autorizada ou reconstrução demonstrativa com componentes em código, tipografia nítida, grid consistente, estados e dados coerentes. Não animar números gerados na imagem como se fossem dados reais; validar valores, relações e sequência de ações."
+    },
+    {
+      "key": "tecnologia-2",
+      "styleId": "fluxos-sankey",
+      "name": "Fluxos Sankey",
+      "family": "tecnologia",
+      "familyName": "Interfaces, dados e sistemas",
+      "theme": "Distribuição de um orçamento fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/tecnologia-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Fluxos Sankey — abertura. Uma entrada de orçamento apresenta o total demonstrativo.",
+          "action": "Uma entrada de orçamento apresenta o total demonstrativo."
+        },
+        {
+          "src": "assets/film-sequences/tecnologia-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Fluxos Sankey — desenvolvimento. O fluxo se divide entre duas destinações.",
+          "action": "O fluxo se divide entre duas destinações."
+        },
+        {
+          "src": "assets/film-sequences/tecnologia-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Fluxos Sankey — transformação. O foco percorre um ramo e revela seu valor.",
+          "action": "O foco percorre um ramo e revela seu valor."
+        },
+        {
+          "src": "assets/film-sequences/tecnologia-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Fluxos Sankey — fechamento. A visão geral reúne origem, destinos e total.",
+          "action": "A visão geral reúne origem, destinos e total."
+        }
+      ],
+      "audio": "Voz explicativa + trilha discreta + sons curtos de estado e confirmação.",
+      "productionPrompt": "ESTILO: Fluxos Sankey. EXEMPLO FICTÍCIO: Distribuição de um orçamento fictício.\nDireção de base: Faixas proporcionais mostram distribuição entre origens e destinos.\nMovimento planejado: Faixas se conectam mantendo largura e unidade coerentes.\nPLANO 1: Uma entrada de orçamento apresenta o total demonstrativo.\nPLANO 2: O fluxo se divide entre duas destinações.\nPLANO 3: O foco percorre um ramo e revela seu valor.\nPLANO 4: A visão geral reúne origem, destinos e total.\nRECURSOS: Dados com fonte, diagrama proporcional, rótulos.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo.\nINTERFACE: usar captura autorizada ou reconstrução demonstrativa com componentes em código, tipografia nítida, grid consistente, estados e dados coerentes. Não animar números gerados na imagem como se fossem dados reais; validar valores, relações e sequência de ações."
+    },
+    {
+      "key": "motion-1",
+      "styleId": "tipografia-cinetica",
+      "name": "Tipografia cinética",
+      "family": "motion",
+      "familyName": "Movimento e montagem",
+      "theme": "Manifesto para uma marca de ideias",
+      "frames": [
+        {
+          "src": "assets/film-sequences/motion-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Tipografia cinética — abertura. Uma palavra ocupa o primeiro plano.",
+          "action": "Uma palavra ocupa o primeiro plano."
+        },
+        {
+          "src": "assets/film-sequences/motion-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Tipografia cinética — desenvolvimento. As letras mudam de posição e criam uma passagem.",
+          "action": "As letras mudam de posição e criam uma passagem."
+        },
+        {
+          "src": "assets/film-sequences/motion-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Tipografia cinética — transformação. A composição reorganiza a hierarquia da mensagem.",
+          "action": "A composição reorganiza a hierarquia da mensagem."
+        },
+        {
+          "src": "assets/film-sequences/motion-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Tipografia cinética — fechamento. O título final assenta e ganha tempo de leitura.",
+          "action": "O título final assenta e ganha tempo de leitura."
+        }
+      ],
+      "audio": "Voz rítmica + música sincronizada + transições pontuais.",
+      "productionPrompt": "ESTILO: Tipografia cinética. EXEMPLO FICTÍCIO: Manifesto para uma marca de ideias.\nDireção de base: Palavras ocupam o espaço e assumem função visual.\nMovimento planejado: Animar por sentido e ritmo da fala; preservar tempo de leitura.\nPLANO 1: Uma palavra ocupa o primeiro plano.\nPLANO 2: As letras mudam de posição e criam uma passagem.\nPLANO 3: A composição reorganiza a hierarquia da mensagem.\nPLANO 4: O título final assenta e ganha tempo de leitura.\nRECURSOS: Tipografia licenciada, motion, narração, trilha.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "motion-2",
+      "styleId": "morphing",
+      "name": "Morphing",
+      "family": "motion",
+      "familyName": "Movimento e montagem",
+      "theme": "Metáfora de transformação de um serviço",
+      "frames": [
+        {
+          "src": "assets/film-sequences/motion-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Morphing — abertura. Uma fita coral inicia uma curva.",
+          "action": "Uma fita coral inicia uma curva."
+        },
+        {
+          "src": "assets/film-sequences/motion-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Morphing — desenvolvimento. A fita muda de forma sem perder continuidade.",
+          "action": "A fita muda de forma sem perder continuidade."
+        },
+        {
+          "src": "assets/film-sequences/motion-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Morphing — transformação. A transformação cria um novo símbolo.",
+          "action": "A transformação cria um novo símbolo."
+        },
+        {
+          "src": "assets/film-sequences/motion-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Morphing — fechamento. O símbolo se resolve em uma assinatura estável.",
+          "action": "O símbolo se resolve em uma assinatura estável."
+        }
+      ],
+      "audio": "Voz rítmica + música sincronizada + transições pontuais.",
+      "productionPrompt": "ESTILO: Morphing. EXEMPLO FICTÍCIO: Metáfora de transformação de um serviço.\nDireção de base: Uma forma se transforma continuamente em outra.\nMovimento planejado: Manter uma característica reconhecível durante a mudança.\nPLANO 1: Uma fita coral inicia uma curva.\nPLANO 2: A fita muda de forma sem perder continuidade.\nPLANO 3: A transformação cria um novo símbolo.\nPLANO 4: O símbolo se resolve em uma assinatura estável.\nRECURSOS: Vetores compatíveis, paths, interpolação, composição.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "volume-1",
+      "styleId": "3d-fotorrealista",
+      "name": "3D fotorrealista",
+      "family": "volume",
+      "familyName": "Volume e materiais digitais",
+      "theme": "Produto fictício de áudio",
+      "frames": [
+        {
+          "src": "assets/film-sequences/volume-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "3D fotorrealista — abertura. O fone aparece como silhueta em um estúdio escuro.",
+          "action": "O fone aparece como silhueta em um estúdio escuro."
+        },
+        {
+          "src": "assets/film-sequences/volume-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "3D fotorrealista — desenvolvimento. A luz revela almofadas, metal e articulações.",
+          "action": "A luz revela almofadas, metal e articulações."
+        },
+        {
+          "src": "assets/film-sequences/volume-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "3D fotorrealista — transformação. O arco se move e revela a relação entre as peças.",
+          "action": "O arco se move e revela a relação entre as peças."
+        },
+        {
+          "src": "assets/film-sequences/volume-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "3D fotorrealista — fechamento. O produto se apresenta inteiro em seu enquadramento final.",
+          "action": "O produto se apresenta inteiro em seu enquadramento final."
+        }
+      ],
+      "audio": "Voz de campanha + trilha espacial + foley coerente com os materiais.",
+      "productionPrompt": "ESTILO: 3D fotorrealista. EXEMPLO FICTÍCIO: Produto fictício de áudio.\nDireção de base: Geometria e materiais buscam aparência de fotografia.\nMovimento planejado: Movimento motivado por uma característica do objeto.\nPLANO 1: O fone aparece como silhueta em um estúdio escuro.\nPLANO 2: A luz revela almofadas, metal e articulações.\nPLANO 3: O arco se move e revela a relação entre as peças.\nPLANO 4: O produto se apresenta inteiro em seu enquadramento final.\nRECURSOS: Modelagem, materiais PBR, iluminação, render, composição.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "volume-2",
+      "styleId": "clay-render",
+      "name": "Clay render",
+      "family": "volume",
+      "familyName": "Volume e materiais digitais",
+      "theme": "Explicar organização de tarefas em volumes",
+      "frames": [
+        {
+          "src": "assets/film-sequences/volume-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Clay render — abertura. Blocos de tarefas aguardam fora de ordem.",
+          "action": "Blocos de tarefas aguardam fora de ordem."
+        },
+        {
+          "src": "assets/film-sequences/volume-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Clay render — desenvolvimento. Um bloco se desloca para sua posição.",
+          "action": "Um bloco se desloca para sua posição."
+        },
+        {
+          "src": "assets/film-sequences/volume-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Clay render — transformação. Os demais se encaixam em uma estrutura organizada.",
+          "action": "Os demais se encaixam em uma estrutura organizada."
+        },
+        {
+          "src": "assets/film-sequences/volume-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Clay render — fechamento. A composição estabiliza com a tarefa concluída.",
+          "action": "A composição estabiliza com a tarefa concluída."
+        }
+      ],
+      "audio": "Voz de campanha + trilha espacial + foley coerente com os materiais.",
+      "productionPrompt": "ESTILO: Clay render. EXEMPLO FICTÍCIO: Explicar organização de tarefas em volumes.\nDireção de base: Volumes monocromáticos com acabamento de argila suave.\nMovimento planejado: Montar e revelar volumes com sombras claras.\nPLANO 1: Blocos de tarefas aguardam fora de ordem.\nPLANO 2: Um bloco se desloca para sua posição.\nPLANO 3: Os demais se encaixam em uma estrutura organizada.\nPLANO 4: A composição estabiliza com a tarefa concluída.\nRECURSOS: Modelagem, material fosco, luz, câmera, render.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "hibridos-1",
+      "styleId": "investigacao-visual",
+      "name": "Investigação visual",
+      "family": "hibridos",
+      "familyName": "Narrativas e combinações",
+      "theme": "Como investigar uma falha de entrega fictícia",
+      "frames": [
+        {
+          "src": "assets/film-sequences/hibridos-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Investigação visual — abertura. Um pedido e sua embalagem apresentam a dúvida.",
+          "action": "Um pedido e sua embalagem apresentam a dúvida."
+        },
+        {
+          "src": "assets/film-sequences/hibridos-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Investigação visual — desenvolvimento. O documento destaca o item que deveria ter sido enviado.",
+          "action": "O documento destaca o item que deveria ter sido enviado."
+        },
+        {
+          "src": "assets/film-sequences/hibridos-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Investigação visual — transformação. A caixa aberta revela o item recebido para comparação.",
+          "action": "A caixa aberta revela o item recebido para comparação."
+        },
+        {
+          "src": "assets/film-sequences/hibridos-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Investigação visual — fechamento. O diagrama aponta a divergência no processo.",
+          "action": "O diagrama aponta a divergência no processo."
+        }
+      ],
+      "audio": "Voz explicativa + pulso investigativo + sons de documentos e mecanismos.",
+      "productionPrompt": "ESTILO: Investigação visual. EXEMPLO FICTÍCIO: Como investigar uma falha de entrega fictícia.\nDireção de base: Pistas, documentos e relações revelam uma descoberta.\nMovimento planejado: Cada evidência responde uma pergunta e abre a próxima.\nPLANO 1: Um pedido e sua embalagem apresentam a dúvida.\nPLANO 2: O documento destaca o item que deveria ter sido enviado.\nPLANO 3: A caixa aberta revela o item recebido para comparação.\nPLANO 4: O diagrama aponta a divergência no processo.\nRECURSOS: Fontes verificadas, documentos autorizados, recortes, anotações.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "hibridos-2",
+      "styleId": "explicador-por-metafora",
+      "name": "Explicador por metáfora",
+      "family": "hibridos",
+      "familyName": "Narrativas e combinações",
+      "theme": "Explicar como um agente recebe, decide e executa",
+      "frames": [
+        {
+          "src": "assets/film-sequences/hibridos-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Explicador por metáfora — abertura. Uma solicitação entra em um sistema representado por peças.",
+          "action": "Uma solicitação entra em um sistema representado por peças."
+        },
+        {
+          "src": "assets/film-sequences/hibridos-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Explicador por metáfora — desenvolvimento. O agente encaminha a tarefa para uma ferramenta.",
+          "action": "O agente encaminha a tarefa para uma ferramenta."
+        },
+        {
+          "src": "assets/film-sequences/hibridos-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Explicador por metáfora — transformação. O retorno é comparado com o objetivo inicial.",
+          "action": "O retorno é comparado com o objetivo inicial."
+        },
+        {
+          "src": "assets/film-sequences/hibridos-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Explicador por metáfora — fechamento. O resultado aprovado sai do percurso.",
+          "action": "O resultado aprovado sai do percurso."
+        }
+      ],
+      "audio": "Voz explicativa + pulso investigativo + sons de documentos e mecanismos.",
+      "productionPrompt": "ESTILO: Explicador por metáfora. EXEMPLO FICTÍCIO: Explicar como um agente recebe, decide e executa.\nDireção de base: Uma situação concreta torna uma ideia abstrata compreensível.\nMovimento planejado: Ações da metáfora correspondem às etapas reais do conceito.\nPLANO 1: Uma solicitação entra em um sistema representado por peças.\nPLANO 2: O agente encaminha a tarefa para uma ferramenta.\nPLANO 3: O retorno é comparado com o objetivo inicial.\nPLANO 4: O resultado aprovado sai do percurso.\nRECURSOS: Roteiro, ilustração ou filmagem, diagramas, narração.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "anuncios-1",
+      "styleId": "hero-premium-sensorial",
+      "name": "Hero premium sensorial",
+      "family": "anuncios",
+      "familyName": "Publicidade de produto",
+      "theme": "Anúncio de perfume fictício sem rótulo comercial",
+      "frames": [
+        {
+          "src": "assets/film-sequences/anuncios-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Hero premium sensorial — abertura. O frasco surge entre reflexos e sombras.",
+          "action": "O frasco surge entre reflexos e sombras."
+        },
+        {
+          "src": "assets/film-sequences/anuncios-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Hero premium sensorial — desenvolvimento. Uma mudança de luz revela vidro e acabamento.",
+          "action": "Uma mudança de luz revela vidro e acabamento."
+        },
+        {
+          "src": "assets/film-sequences/anuncios-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Hero premium sensorial — transformação. O detalhe aproxima a relação entre tampa e frasco.",
+          "action": "O detalhe aproxima a relação entre tampa e frasco."
+        },
+        {
+          "src": "assets/film-sequences/anuncios-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Hero premium sensorial — fechamento. O produto inteiro se apresenta com espaço para a marca.",
+          "action": "O produto inteiro se apresenta com espaço para a marca."
+        }
+      ],
+      "audio": "Voz de campanha + música elegante + detalhes sonoros do produto.",
+      "productionPrompt": "ESTILO: Hero premium sensorial. EXEMPLO FICTÍCIO: Anúncio de perfume fictício sem rótulo comercial.\nDireção de base: Luz recorta o produto, matéria e reflexos criam desejo.\nMovimento planejado: Revelação por sombra, macro disponível e recuo para o packshot.\nPLANO 1: O frasco surge entre reflexos e sombras.\nPLANO 2: Uma mudança de luz revela vidro e acabamento.\nPLANO 3: O detalhe aproxima a relação entre tampa e frasco.\nPLANO 4: O produto inteiro se apresenta com espaço para a marca.\nRECURSOS: Packshot oficial, máscara precisa, fundo gerado, luz em camadas.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "anuncios-2",
+      "styleId": "vitrine-orbital-360",
+      "name": "Vitrine orbital 360°",
+      "family": "anuncios",
+      "familyName": "Publicidade de produto",
+      "theme": "Apresentação de uma bolsa fictícia",
+      "frames": [
+        {
+          "src": "assets/film-sequences/anuncios-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Vitrine orbital 360° — abertura. A bolsa aparece em um palco de campanha.",
+          "action": "A bolsa aparece em um palco de campanha."
+        },
+        {
+          "src": "assets/film-sequences/anuncios-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Vitrine orbital 360° — desenvolvimento. O ponto de vista muda para revelar a lateral.",
+          "action": "O ponto de vista muda para revelar a lateral."
+        },
+        {
+          "src": "assets/film-sequences/anuncios-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Vitrine orbital 360° — transformação. A vista traseira revela a construção e a textura da bolsa.",
+          "action": "A vista traseira revela a construção e a textura da bolsa."
+        },
+        {
+          "src": "assets/film-sequences/anuncios-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Vitrine orbital 360° — fechamento. O enquadramento abre para a apresentação final.",
+          "action": "O enquadramento abre para a apresentação final."
+        }
+      ],
+      "audio": "Voz de campanha + música elegante + detalhes sonoros do produto.",
+      "productionPrompt": "ESTILO: Vitrine orbital 360°. EXEMPLO FICTÍCIO: Apresentação de uma bolsa fictícia.\nDireção de base: Apresentação volumétrica com vistas contínuas e produto protagonista.\nMovimento planejado: Órbita com pausas em detalhes, sem deformar o produto.\nPLANO 1: A bolsa aparece em um palco de campanha.\nPLANO 2: O ponto de vista muda para revelar a lateral.\nPLANO 3: A vista traseira revela a construção e a textura da bolsa.\nPLANO 4: O enquadramento abre para a apresentação final.\nRECURSOS: Vídeo de giro real ou fotos multivista, modelo 3D validado, iluminação.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "campanhas-1",
+      "styleId": "food-asmr-com-narracao",
+      "name": "Food ASMR com narração",
+      "family": "campanhas",
+      "familyName": "Campanhas e demonstrações",
+      "theme": "Anúncio gastronômico fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/campanhas-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Food ASMR com narração — abertura. O croissant inteiro desperta a expectativa.",
+          "action": "O croissant inteiro desperta a expectativa."
+        },
+        {
+          "src": "assets/film-sequences/campanhas-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Food ASMR com narração — desenvolvimento. As mãos abrem a massa e revelam suas camadas.",
+          "action": "As mãos abrem a massa e revelam suas camadas."
+        },
+        {
+          "src": "assets/film-sequences/campanhas-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Food ASMR com narração — transformação. O mel escorre sobre a superfície recém-aberta.",
+          "action": "O mel escorre sobre a superfície recém-aberta."
+        },
+        {
+          "src": "assets/film-sequences/campanhas-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Food ASMR com narração — fechamento. A composição final reúne produto, bebida e mensagem.",
+          "action": "A composição final reúne produto, bebida e mensagem."
+        }
+      ],
+      "audio": "Voz próxima + trilha discreta + foley do alimento ou reparo.",
+      "productionPrompt": "ESTILO: Food ASMR com narração. EXEMPLO FICTÍCIO: Anúncio gastronômico fictício.\nDireção de base: Som de preparo e textura visual sustentam um anúncio sensorial.\nMovimento planejado: Derramar, aproximar e revelar resultado.\nPLANO 1: O croissant inteiro desperta a expectativa.\nPLANO 2: As mãos abrem a massa e revelam suas camadas.\nPLANO 3: O mel escorre sobre a superfície recém-aberta.\nPLANO 4: A composição final reúne produto, bebida e mensagem.\nRECURSOS: Captação real, macro, foley, microfone e mixagem.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "campanhas-2",
+      "styleId": "reparo-e-segunda-vida",
+      "name": "Reparo e segunda vida",
+      "family": "campanhas",
+      "familyName": "Campanhas e demonstrações",
+      "theme": "Reparo documentado de uma mochila fictícia",
+      "frames": [
+        {
+          "src": "assets/film-sequences/campanhas-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Reparo e segunda vida — abertura. A mochila apresenta a área que precisa de reparo.",
+          "action": "A mochila apresenta a área que precisa de reparo."
+        },
+        {
+          "src": "assets/film-sequences/campanhas-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Reparo e segunda vida — desenvolvimento. A costura começa a recuperar o material.",
+          "action": "A costura começa a recuperar o material."
+        },
+        {
+          "src": "assets/film-sequences/campanhas-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Reparo e segunda vida — transformação. O detalhe mostra a peça reparada.",
+          "action": "O detalhe mostra a peça reparada."
+        },
+        {
+          "src": "assets/film-sequences/campanhas-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Reparo e segunda vida — fechamento. A mochila volta ao uso no ambiente externo.",
+          "action": "A mochila volta ao uso no ambiente externo."
+        }
+      ],
+      "audio": "Voz próxima + trilha discreta + foley do alimento ou reparo.",
+      "productionPrompt": "ESTILO: Reparo e segunda vida. EXEMPLO FICTÍCIO: Reparo documentado de uma mochila fictícia.\nDireção de base: Uma manutenção documentada mostra continuidade de uso.\nMovimento planejado: Defeito documentado, reparo permitido e retorno ao uso.\nPLANO 1: A mochila apresenta a área que precisa de reparo.\nPLANO 2: A costura começa a recuperar o material.\nPLANO 3: O detalhe mostra a peça reparada.\nPLANO 4: A mochila volta ao uso no ambiente externo.\nRECURSOS: Captação real, manual, peça, fontes.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "imoveis-1",
+      "styleId": "satelite-ate-a-fachada",
+      "name": "Satélite até a fachada",
+      "family": "imoveis",
+      "familyName": "Imóveis e apresentação",
+      "theme": "Localização de um imóvel inteiramente fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/imoveis-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Satélite até a fachada — abertura. Um mapa fictício localiza a região.",
+          "action": "Um mapa fictício localiza a região."
+        },
+        {
+          "src": "assets/film-sequences/imoveis-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Satélite até a fachada — desenvolvimento. A aproximação chega ao lote indicado.",
+          "action": "A aproximação chega ao lote indicado."
+        },
+        {
+          "src": "assets/film-sequences/imoveis-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Satélite até a fachada — transformação. A fachada assume o quadro e situa a entrada.",
+          "action": "A fachada assume o quadro e situa a entrada."
+        },
+        {
+          "src": "assets/film-sequences/imoveis-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Satélite até a fachada — fechamento. A entrada conduz à apresentação do imóvel.",
+          "action": "A entrada conduz à apresentação do imóvel."
+        }
+      ],
+      "audio": "Voz de apresentação + trilha acolhedora + ambiência dos espaços.",
+      "productionPrompt": "ESTILO: Satélite até a fachada. EXEMPLO FICTÍCIO: Localização de um imóvel inteiramente fictício.\nDireção de base: Mapa situa o imóvel e conduz a uma imagem real da fachada.\nMovimento planejado: Zoom de cidade para bairro e corte correspondente para fachada.\nPLANO 1: Um mapa fictício localiza a região.\nPLANO 2: A aproximação chega ao lote indicado.\nPLANO 3: A fachada assume o quadro e situa a entrada.\nPLANO 4: A entrada conduz à apresentação do imóvel.\nRECURSOS: Endereço confirmado, mapa licenciado, coordenadas, foto real.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "imoveis-2",
+      "styleId": "exp-o-que-permanece-na-entrega",
+      "name": "O que permanece na entrega",
+      "family": "imoveis",
+      "familyName": "Imóveis e apresentação",
+      "theme": "Mostrar o que está incluído em imóvel fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/imoveis-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "O que permanece na entrega — abertura. O ambiente completo apresenta sua composição.",
+          "action": "O ambiente completo apresenta sua composição."
+        },
+        {
+          "src": "assets/film-sequences/imoveis-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "O que permanece na entrega — desenvolvimento. Um destaque aponta os elementos da entrega demonstrativa.",
+          "action": "Um destaque aponta os elementos da entrega demonstrativa."
+        },
+        {
+          "src": "assets/film-sequences/imoveis-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "O que permanece na entrega — transformação. O detalhe mostra um acabamento incluído.",
+          "action": "O detalhe mostra um acabamento incluído."
+        },
+        {
+          "src": "assets/film-sequences/imoveis-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "O que permanece na entrega — fechamento. O ambiente retorna com a distinção visual dos itens.",
+          "action": "O ambiente retorna com a distinção visual dos itens."
+        }
+      ],
+      "audio": "Voz de apresentação + trilha acolhedora + ambiência dos espaços.",
+      "productionPrompt": "ESTILO: O que permanece na entrega. EXEMPLO FICTÍCIO: Mostrar o que está incluído em imóvel fictício.\nDireção de base: Ambiente real com itens incluídos destacados por contornos finos, itens móveis neutros.\nMovimento planejado: Cada item confirmado ganha identificação enquanto a câmera permanece no mesmo plano..\nPLANO 1: O ambiente completo apresenta sua composição.\nPLANO 2: Um destaque aponta os elementos da entrega demonstrativa.\nPLANO 3: O detalhe mostra um acabamento incluído.\nPLANO 4: O ambiente retorna com a distinção visual dos itens.\nRECURSOS: Fotos e vídeos originais de todos os ambientes mostrados, Planta e medidas confirmadas quando usadas, Dados comerciais autorizados, Legendas editáveis e montagem documental.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "software-1",
+      "styleId": "trilha-de-auditoria",
+      "name": "Trilha de auditoria",
+      "family": "software",
+      "familyName": "Softwares, telas e dashboards",
+      "theme": "Explicar uma trilha de auditoria em sistema fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/software-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Trilha de auditoria — abertura. Um registro apresenta a alteração a investigar.",
+          "action": "Um registro apresenta a alteração a investigar."
+        },
+        {
+          "src": "assets/film-sequences/software-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Trilha de auditoria — desenvolvimento. O evento selecionado abre seus detalhes e horário.",
+          "action": "O evento selecionado abre seus detalhes e horário."
+        },
+        {
+          "src": "assets/film-sequences/software-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Trilha de auditoria — transformação. A comparação revela o título antes e depois da edição.",
+          "action": "A comparação revela o título antes e depois da edição."
+        },
+        {
+          "src": "assets/film-sequences/software-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Trilha de auditoria — fechamento. A trilha organiza a sequência de alterações.",
+          "action": "A trilha organiza a sequência de alterações."
+        }
+      ],
+      "audio": "Voz objetiva + trilha sutil + confirmações discretas da interface.",
+      "productionPrompt": "ESTILO: Trilha de auditoria. EXEMPLO FICTÍCIO: Explicar uma trilha de auditoria em sistema fictício.\nDireção de base: Registros datados mostram o que mudou e por quem em ambiente demo.\nMovimento planejado: Selecionar evento e revelar mudança correspondente.\nPLANO 1: Um registro apresenta a alteração a investigar.\nPLANO 2: O evento selecionado abre seus detalhes e horário.\nPLANO 3: A comparação revela o título antes e depois da edição.\nPLANO 4: A trilha organiza a sequência de alterações.\nRECURSOS: Captura real/demo, logs anonimizados, rótulos.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo.\nINTERFACE: usar captura autorizada ou reconstrução demonstrativa com componentes em código, tipografia nítida, grid consistente, estados e dados coerentes. Não animar números gerados na imagem como se fossem dados reais; validar valores, relações e sequência de ações."
+    },
+    {
+      "key": "software-2",
+      "styleId": "exp-exportacao-que-chega-ao-destino",
+      "name": "Exportação que chega ao destino",
+      "family": "software",
+      "familyName": "Softwares, telas e dashboards",
+      "theme": "Exportar e conferir um relatório fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/software-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Exportação que chega ao destino — abertura. A tabela de origem apresenta os dados demonstrativos.",
+          "action": "A tabela de origem apresenta os dados demonstrativos."
+        },
+        {
+          "src": "assets/film-sequences/software-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Exportação que chega ao destino — desenvolvimento. O comando de exportação é acionado.",
+          "action": "O comando de exportação é acionado."
+        },
+        {
+          "src": "assets/film-sequences/software-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Exportação que chega ao destino — transformação. O arquivo chega ao destino com as mesmas linhas.",
+          "action": "O arquivo chega ao destino com as mesmas linhas."
+        },
+        {
+          "src": "assets/film-sequences/software-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Exportação que chega ao destino — fechamento. A comparação fecha a sequência de conferência.",
+          "action": "A comparação fecha a sequência de conferência."
+        }
+      ],
+      "audio": "Voz objetiva + trilha sutil + confirmações discretas da interface.",
+      "productionPrompt": "ESTILO: Exportação que chega ao destino. EXEMPLO FICTÍCIO: Exportar e conferir um relatório fictício.\nDireção de base: Dashboard real e arquivo exportado lado a lado com colunas legíveis.\nMovimento planejado: O filtro é aplicado, o arquivo exportado abre e os valores são conferidos..\nPLANO 1: A tabela de origem apresenta os dados demonstrativos.\nPLANO 2: O comando de exportação é acionado.\nPLANO 3: O arquivo chega ao destino com as mesmas linhas.\nPLANO 4: A comparação fecha a sequência de conferência.\nRECURSOS: Capturas ou gravações reais da versão usada, Conta de demonstração sem dados privados, Interações verificadas, Cursor e destaques em código.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo.\nINTERFACE: usar captura autorizada ou reconstrução demonstrativa com componentes em código, tipografia nítida, grid consistente, estados e dados coerentes. Não animar números gerados na imagem como se fossem dados reais; validar valores, relações e sequência de ações."
+    },
+    {
+      "key": "apresentacoes-1",
+      "styleId": "editorial-tipografico-em-profundidade",
+      "name": "Editorial tipográfico em profundidade",
+      "family": "apresentacoes",
+      "familyName": "Apresentações e tipografia",
+      "theme": "Apresentar uma estratégia de marca",
+      "frames": [
+        {
+          "src": "assets/film-sequences/apresentacoes-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Editorial tipográfico em profundidade — abertura. O título abre a apresentação em um cenário editorial.",
+          "action": "O título abre a apresentação em um cenário editorial."
+        },
+        {
+          "src": "assets/film-sequences/apresentacoes-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Editorial tipográfico em profundidade — desenvolvimento. As camadas se separam e revelam a ideia central.",
+          "action": "As camadas se separam e revelam a ideia central."
+        },
+        {
+          "src": "assets/film-sequences/apresentacoes-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Editorial tipográfico em profundidade — transformação. O enquadramento conecta a ideia aos seus argumentos.",
+          "action": "O enquadramento conecta a ideia aos seus argumentos."
+        },
+        {
+          "src": "assets/film-sequences/apresentacoes-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Editorial tipográfico em profundidade — fechamento. A conclusão reúne a mensagem em uma hierarquia simples.",
+          "action": "A conclusão reúne a mensagem em uma hierarquia simples."
+        }
+      ],
+      "audio": "Voz clara + trilha com respiros + acentos sincronizados à mensagem.",
+      "productionPrompt": "ESTILO: Editorial tipográfico em profundidade. EXEMPLO FICTÍCIO: Apresentar uma estratégia de marca.\nDireção de base: Serifas grandes, espaço negativo e planos materiais organizam a ideia.\nMovimento planejado: Título se revela por oclusão e detalhe vira argumento; pausa de leitura.\nPLANO 1: O título abre a apresentação em um cenário editorial.\nPLANO 2: As camadas se separam e revelam a ideia central.\nPLANO 3: O enquadramento conecta a ideia aos seus argumentos.\nPLANO 4: A conclusão reúne a mensagem em uma hierarquia simples.\nRECURSOS: Tipografia licenciada, texto editável, papel, máscaras, luz.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "apresentacoes-2",
+      "styleId": "manifesto-de-tipografia-cinetica",
+      "name": "Manifesto de tipografia cinética",
+      "family": "apresentacoes",
+      "familyName": "Apresentações e tipografia",
+      "theme": "Manifesto de lançamento fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/apresentacoes-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Manifesto de tipografia cinética — abertura. Uma frase curta estabelece o manifesto.",
+          "action": "Uma frase curta estabelece o manifesto."
+        },
+        {
+          "src": "assets/film-sequences/apresentacoes-2-02.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Manifesto de tipografia cinética — desenvolvimento. A tipografia cresce e muda a escala da composição.",
+          "action": "A tipografia cresce e muda a escala da composição."
+        },
+        {
+          "src": "assets/film-sequences/apresentacoes-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Manifesto de tipografia cinética — transformação. Uma nova palavra assume o foco sem perder legibilidade.",
+          "action": "Uma nova palavra assume o foco sem perder legibilidade."
+        },
+        {
+          "src": "assets/film-sequences/apresentacoes-2-04.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Manifesto de tipografia cinética — fechamento. O manifesto se encerra com uma frase estável.",
+          "action": "O manifesto se encerra com uma frase estável."
+        }
+      ],
+      "audio": "Voz clara + trilha com respiros + acentos sincronizados à mensagem.",
+      "productionPrompt": "ESTILO: Manifesto de tipografia cinética. EXEMPLO FICTÍCIO: Manifesto de lançamento fictício.\nDireção de base: Palavras grandes, contraste e cortes musicais criam hierarquia.\nMovimento planejado: Escala e posição acompanham a fala; manter palavra principal nítida.\nPLANO 1: Uma frase curta estabelece o manifesto.\nPLANO 2: A tipografia cresce e muda a escala da composição.\nPLANO 3: Uma nova palavra assume o foco sem perder legibilidade.\nPLANO 4: O manifesto se encerra com uma frase estável.\nRECURSOS: Fonte condensada, curvas de animação, máscaras, locução real.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "avatares-1",
+      "styleId": "apresentadora-executiva-em-estudio",
+      "name": "Apresentadora executiva em estúdio",
+      "family": "avatares",
+      "familyName": "Avatares e apresentadores",
+      "theme": "Apresentadora fictícia explica um serviço",
+      "frames": [
+        {
+          "src": "assets/film-sequences/avatares-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Apresentadora executiva em estúdio — abertura. A apresentadora fictícia estabelece contato com a câmera.",
+          "action": "A apresentadora fictícia estabelece contato com a câmera."
+        },
+        {
+          "src": "assets/film-sequences/avatares-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Apresentadora executiva em estúdio — desenvolvimento. Um gesto discreto introduz o assunto.",
+          "action": "Um gesto discreto introduz o assunto."
+        },
+        {
+          "src": "assets/film-sequences/avatares-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Apresentadora executiva em estúdio — transformação. O enquadramento aproxima a explicação principal.",
+          "action": "O enquadramento aproxima a explicação principal."
+        },
+        {
+          "src": "assets/film-sequences/avatares-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Apresentadora executiva em estúdio — fechamento. A apresentadora encerra olhando para a câmera.",
+          "action": "A apresentadora encerra olhando para a câmera."
+        }
+      ],
+      "audio": "Voz natural + música baixa + ambiência coerente com o local.",
+      "productionPrompt": "ESTILO: Apresentadora executiva em estúdio. EXEMPLO FICTÍCIO: Apresentadora fictícia explica um serviço.\nDireção de base: Mulher negra adulta, blazer azul-marinho e fundo de estúdio cinza com luz suave.\nMovimento planejado: Cintura para cima, postura segura e mãos discretas. Gestos contidos; câmera estável ou aproximação suave sem perder contato visual..\nPLANO 1: A apresentadora fictícia estabelece contato com a câmera.\nPLANO 2: Um gesto discreto introduz o assunto.\nPLANO 3: O enquadramento aproxima a explicação principal.\nPLANO 4: A apresentadora encerra olhando para a câmera.\nRECURSOS: Retrato fictício consistente ou avatar autorizado, Ferramenta de animação de avatar disponível, Voz autorizada e sincronização labial, Cenário licenciado ou sintético identificado, Composição, legendas e revisão.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "avatares-2",
+      "styleId": "apresentador-casual-em-home-office",
+      "name": "Apresentador casual em home office",
+      "family": "avatares",
+      "familyName": "Avatares e apresentadores",
+      "theme": "Apresentador fictício demonstra uma rotina",
+      "frames": [
+        {
+          "src": "assets/film-sequences/avatares-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Apresentador casual em home office — abertura. O apresentador fictício introduz o tema em seu escritório.",
+          "action": "O apresentador fictício introduz o tema em seu escritório."
+        },
+        {
+          "src": "assets/film-sequences/avatares-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Apresentador casual em home office — desenvolvimento. Um gesto natural acompanha a explicação.",
+          "action": "Um gesto natural acompanha a explicação."
+        },
+        {
+          "src": "assets/film-sequences/avatares-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Apresentador casual em home office — transformação. O plano muda de escala mantendo identidade e ambiente.",
+          "action": "O plano muda de escala mantendo identidade e ambiente."
+        },
+        {
+          "src": "assets/film-sequences/avatares-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Apresentador casual em home office — fechamento. O apresentador encerra com contato visual.",
+          "action": "O apresentador encerra com contato visual."
+        }
+      ],
+      "audio": "Voz natural + música baixa + ambiência coerente com o local.",
+      "productionPrompt": "ESTILO: Apresentador casual em home office. EXEMPLO FICTÍCIO: Apresentador fictício demonstra uma rotina.\nDireção de base: Homem adulto moreno, camiseta lisa e sobrecamisa, escritório doméstico organizado.\nMovimento planejado: Meio corpo, sentado ou em pé com apoio real. Gestos contidos; câmera estável ou aproximação suave sem perder contato visual..\nPLANO 1: O apresentador fictício introduz o tema em seu escritório.\nPLANO 2: Um gesto natural acompanha a explicação.\nPLANO 3: O plano muda de escala mantendo identidade e ambiente.\nPLANO 4: O apresentador encerra com contato visual.\nRECURSOS: Retrato fictício consistente ou avatar autorizado, Ferramenta de animação de avatar disponível, Voz autorizada e sincronização labial, Cenário licenciado ou sintético identificado, Composição, legendas e revisão.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "saude-1",
+      "styleId": "exp-consentimento-explicado-em-mesa-de-opcoes",
+      "name": "Consentimento explicado em mesa de opções",
+      "family": "saude",
+      "familyName": "Saúde, estética e odontologia",
+      "theme": "Explicar consentimento sem prometer resultado",
+      "frames": [
+        {
+          "src": "assets/film-sequences/saude-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Consentimento explicado em mesa de opções — abertura. A conversa começa com as opções sobre a mesa.",
+          "action": "A conversa começa com as opções sobre a mesa."
+        },
+        {
+          "src": "assets/film-sequences/saude-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Consentimento explicado em mesa de opções — desenvolvimento. Um cartão apresenta uma alternativa de forma compreensível.",
+          "action": "Um cartão apresenta uma alternativa de forma compreensível."
+        },
+        {
+          "src": "assets/film-sequences/saude-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Consentimento explicado em mesa de opções — transformação. As opções são comparadas sem promessas de resultado.",
+          "action": "As opções são comparadas sem promessas de resultado."
+        },
+        {
+          "src": "assets/film-sequences/saude-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Consentimento explicado em mesa de opções — fechamento. A escolha é discutida com espaço para dúvidas.",
+          "action": "A escolha é discutida com espaço para dúvidas."
+        }
+      ],
+      "audio": "Voz acolhedora + trilha leve + ambiência sem efeitos alarmistas.",
+      "productionPrompt": "ESTILO: Consentimento explicado em mesa de opções. EXEMPLO FICTÍCIO: Explicar consentimento sem prometer resultado.\nDireção de base: Profissional real e paciente autorizado diante de opções em cartões grandes, luz calma.\nMovimento planejado: Benefícios, riscos e alternativas são expostos sem pressionar uma escolha..\nPLANO 1: A conversa começa com as opções sobre a mesa.\nPLANO 2: Um cartão apresenta uma alternativa de forma compreensível.\nPLANO 3: As opções são comparadas sem promessas de resultado.\nPLANO 4: A escolha é discutida com espaço para dúvidas.\nRECURSOS: Conteúdo revisado pelo profissional responsável, Referências e protocolos aplicáveis, Pessoas e ambientes autorizados, Legendas acessíveis e aprovação clínica.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "saude-2",
+      "styleId": "exp-exame-infantil-em-ensaio-com-brinquedo",
+      "name": "Exame infantil em ensaio com brinquedo",
+      "family": "saude",
+      "familyName": "Saúde, estética e odontologia",
+      "theme": "Preparar uma criança para conhecer um exame",
+      "frames": [
+        {
+          "src": "assets/film-sequences/saude-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Exame infantil em ensaio com brinquedo — abertura. A profissional apresenta o exame usando um brinquedo.",
+          "action": "A profissional apresenta o exame usando um brinquedo."
+        },
+        {
+          "src": "assets/film-sequences/saude-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Exame infantil em ensaio com brinquedo — desenvolvimento. O procedimento é ensaiado no ursinho.",
+          "action": "O procedimento é ensaiado no ursinho."
+        },
+        {
+          "src": "assets/film-sequences/saude-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Exame infantil em ensaio com brinquedo — transformação. O estetoscópio encosta no ursinho para demonstrar a próxima ação.",
+          "action": "O estetoscópio encosta no ursinho para demonstrar a próxima ação."
+        },
+        {
+          "src": "assets/film-sequences/saude-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Exame infantil em ensaio com brinquedo — fechamento. A conversa termina com acolhimento e sem pressão.",
+          "action": "A conversa termina com acolhimento e sem pressão."
+        }
+      ],
+      "audio": "Voz acolhedora + trilha leve + ambiência sem efeitos alarmistas.",
+      "productionPrompt": "ESTILO: Exame infantil em ensaio com brinquedo. EXEMPLO FICTÍCIO: Preparar uma criança para conhecer um exame.\nDireção de base: Boneco e equipamento demonstrativo numa sala real acolhedora.\nMovimento planejado: O profissional explica a sequência no brinquedo antes do procedimento real..\nPLANO 1: A profissional apresenta o exame usando um brinquedo.\nPLANO 2: O procedimento é ensaiado no ursinho.\nPLANO 3: O estetoscópio encosta no ursinho para demonstrar a próxima ação.\nPLANO 4: A conversa termina com acolhimento e sem pressão.\nRECURSOS: Conteúdo revisado pelo profissional responsável, Referências e protocolos aplicáveis, Pessoas e ambientes autorizados, Legendas acessíveis e aprovação clínica.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "ecommerce-1",
+      "styleId": "gabarito-de-encaixe-antes-da-compra",
+      "name": "Gabarito de encaixe antes da compra",
+      "family": "ecommerce",
+      "familyName": "E-commerce e marketplaces",
+      "theme": "Verificar encaixe de uma luminária fictícia",
+      "frames": [
+        {
+          "src": "assets/film-sequences/ecommerce-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Gabarito de encaixe antes da compra — abertura. A peça e o espaço disponível aparecem juntos.",
+          "action": "A peça e o espaço disponível aparecem juntos."
+        },
+        {
+          "src": "assets/film-sequences/ecommerce-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Gabarito de encaixe antes da compra — desenvolvimento. Um gabarito demonstra o encaixe necessário.",
+          "action": "Um gabarito demonstra o encaixe necessário."
+        },
+        {
+          "src": "assets/film-sequences/ecommerce-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Gabarito de encaixe antes da compra — transformação. O detalhe permite conferir a compatibilidade.",
+          "action": "O detalhe permite conferir a compatibilidade."
+        },
+        {
+          "src": "assets/film-sequences/ecommerce-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Gabarito de encaixe antes da compra — fechamento. A peça instalada encerra a demonstração fictícia.",
+          "action": "A peça instalada encerra a demonstração fictícia."
+        }
+      ],
+      "audio": "Voz demonstrativa + música leve + foley de encaixe e embalagem.",
+      "productionPrompt": "ESTILO: Gabarito de encaixe antes da compra. EXEMPLO FICTÍCIO: Verificar encaixe de uma luminária fictícia.\nDireção de base: Uma moldura recortada com dimensões confirmadas confronta produto e espaço disponível em vista ortográfica.\nMovimento planejado: O espaço é medido; o gabarito encontra o produto; a folga é mostrada.\nPLANO 1: A peça e o espaço disponível aparecem juntos.\nPLANO 2: Um gabarito demonstra o encaixe necessário.\nPLANO 3: O detalhe permite conferir a compatibilidade.\nPLANO 4: A peça instalada encerra a demonstração fictícia.\nRECURSOS: Medidas reais, fotos ortogonais, gabarito em escala.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "ecommerce-2",
+      "styleId": "exp-conteudo-da-caixa-em-ordem-de-conferencia",
+      "name": "Conteúdo da caixa em ordem de conferência",
+      "family": "ecommerce",
+      "familyName": "E-commerce e marketplaces",
+      "theme": "Conferir conteúdo de caixa de fone fictício",
+      "frames": [
+        {
+          "src": "assets/film-sequences/ecommerce-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Conteúdo da caixa em ordem de conferência — abertura. A caixa fechada apresenta o produto.",
+          "action": "A caixa fechada apresenta o produto."
+        },
+        {
+          "src": "assets/film-sequences/ecommerce-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Conteúdo da caixa em ordem de conferência — desenvolvimento. A embalagem abre e revela a organização interna.",
+          "action": "A embalagem abre e revela a organização interna."
+        },
+        {
+          "src": "assets/film-sequences/ecommerce-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Conteúdo da caixa em ordem de conferência — transformação. Cada componente é disposto para conferência.",
+          "action": "Cada componente é disposto para conferência."
+        },
+        {
+          "src": "assets/film-sequences/ecommerce-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Conteúdo da caixa em ordem de conferência — fechamento. O conjunto completo confirma o conteúdo demonstrativo.",
+          "action": "O conjunto completo confirma o conteúdo demonstrativo."
+        }
+      ],
+      "audio": "Voz demonstrativa + música leve + foley de encaixe e embalagem.",
+      "productionPrompt": "ESTILO: Conteúdo da caixa em ordem de conferência. EXEMPLO FICTÍCIO: Conferir conteúdo de caixa de fone fictício.\nDireção de base: Produto fictício e todos os acessórios separados em fundo claro, numeração editorial.\nMovimento planejado: Cada item sai da caixa e ocupa sua posição de conferência..\nPLANO 1: A caixa fechada apresenta o produto.\nPLANO 2: A embalagem abre e revela a organização interna.\nPLANO 3: Cada componente é disposto para conferência.\nPLANO 4: O conjunto completo confirma o conteúdo demonstrativo.\nRECURSOS: Produto e embalagem originais, Manual e variantes confirmadas, Demonstração real das características, Textos e dados comerciais editáveis.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "infoprodutores-1",
+      "styleId": "aula-amostra-em-bancada-de-raciocinio",
+      "name": "Mini-aula com demonstração multicâmera",
+      "family": "infoprodutores",
+      "familyName": "Infoprodutores e educação",
+      "theme": "Mini-aula realista de cerâmica",
+      "frames": [
+        {
+          "src": "assets/film-sequences/infoprodutores-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Mini-aula com demonstração multicâmera — abertura. A professora apresenta a tarefa e o material.",
+          "action": "A professora apresenta a tarefa e o material."
+        },
+        {
+          "src": "assets/film-sequences/infoprodutores-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Mini-aula com demonstração multicâmera — desenvolvimento. O detalhe acompanha a primeira ação com a argila.",
+          "action": "O detalhe acompanha a primeira ação com a argila."
+        },
+        {
+          "src": "assets/film-sequences/infoprodutores-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Mini-aula com demonstração multicâmera — transformação. Outro enquadramento esclarece o gesto e seu efeito.",
+          "action": "Outro enquadramento esclarece o gesto e seu efeito."
+        },
+        {
+          "src": "assets/film-sequences/infoprodutores-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Mini-aula com demonstração multicâmera — fechamento. A peça demonstra o resultado daquela etapa da aula.",
+          "action": "A peça demonstra o resultado daquela etapa da aula."
+        }
+      ],
+      "audio": "Voz didática + trilha baixa + sons reais da demonstração.",
+      "productionPrompt": "ESTILO: Mini-aula com demonstração multicâmera. EXEMPLO FICTÍCIO: Mini-aula realista de cerâmica.\nDireção de base: Filmagem de aula prática, luz lateral natural, plano médio e macro alternados, grafismo mínimo.\nMovimento planejado: Enunciar uma dificuldade; demonstrar um gesto; mostrar a diferença verificável no objeto, sem saltar a etapa.\nPLANO 1: A professora apresenta a tarefa e o material.\nPLANO 2: O detalhe acompanha a primeira ação com a argila.\nPLANO 3: Outro enquadramento esclarece o gesto e seu efeito.\nPLANO 4: A peça demonstra o resultado daquela etapa da aula.\nRECURSOS: Trecho de aula autorizado, tarefa demonstrável, duas coberturas de câmera, som direto.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "infoprodutores-2",
+      "styleId": "transferencia-em-contexto-inesperado",
+      "name": "Aplicação no trabalho em mini-documentário",
+      "family": "infoprodutores",
+      "familyName": "Infoprodutores e educação",
+      "theme": "Mostrar aplicação de um curso de fotografia",
+      "frames": [
+        {
+          "src": "assets/film-sequences/infoprodutores-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Aplicação no trabalho em mini-documentário — abertura. O fotógrafo encontra o desafio no local de trabalho.",
+          "action": "O fotógrafo encontra o desafio no local de trabalho."
+        },
+        {
+          "src": "assets/film-sequences/infoprodutores-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Aplicação no trabalho em mini-documentário — desenvolvimento. O ajuste de luz aplica o conteúdo ensinado.",
+          "action": "O ajuste de luz aplica o conteúdo ensinado."
+        },
+        {
+          "src": "assets/film-sequences/infoprodutores-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Aplicação no trabalho em mini-documentário — transformação. O detalhe mostra a decisão sendo executada.",
+          "action": "O detalhe mostra a decisão sendo executada."
+        },
+        {
+          "src": "assets/film-sequences/infoprodutores-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Aplicação no trabalho em mini-documentário — fechamento. O resultado é conferido no próprio ambiente de trabalho.",
+          "action": "O resultado é conferido no próprio ambiente de trabalho."
+        }
+      ],
+      "audio": "Voz didática + trilha baixa + sons reais da demonstração.",
+      "productionPrompt": "ESTILO: Aplicação no trabalho em mini-documentário. EXEMPLO FICTÍCIO: Mostrar aplicação de um curso de fotografia.\nDireção de base: Documental de campo, luz existente, pessoa em atividade e detalhes do ambiente; edição observacional estável.\nMovimento planejado: Situar a tarefa; mostrar uma escolha; explicar a aplicação e seus limites.\nPLANO 1: O fotógrafo encontra o desafio no local de trabalho.\nPLANO 2: O ajuste de luz aplica o conteúdo ensinado.\nPLANO 3: O detalhe mostra a decisão sendo executada.\nPLANO 4: O resultado é conferido no próprio ambiente de trabalho.\nRECURSOS: Caso autorizado, tarefa profissional, contexto, captação ou arquivo licenciado.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo."
+    },
+    {
+      "key": "motion-campanha-1",
+      "styleId": "campanha-peca-unica-em-palco-de-iris",
+      "name": "Peça única em palco de íris",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "theme": "Campanha sofisticada de produto fictício em palco mecânico",
+      "frames": [
+        {
+          "src": "assets/film-sequences/motion-campanha-1-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Peça única em palco de íris — abertura. Um palco metálico fechado cria expectativa.",
+          "action": "Um palco metálico fechado cria expectativa."
+        },
+        {
+          "src": "assets/film-sequences/motion-campanha-1-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Peça única em palco de íris — desenvolvimento. As lâminas articuladas da íris abrem e revelam o produto.",
+          "action": "As lâminas articuladas da íris abrem e revelam o produto."
+        },
+        {
+          "src": "assets/film-sequences/motion-campanha-1-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Peça única em palco de íris — transformação. Um plano próximo acompanha luz, encaixes e materiais.",
+          "action": "Um plano próximo acompanha luz, encaixes e materiais."
+        },
+        {
+          "src": "assets/film-sequences/motion-campanha-1-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Peça única em palco de íris — fechamento. O palco se estabiliza e valoriza o produto inteiro.",
+          "action": "O palco se estabiliza e valoriza o produto inteiro."
+        }
+      ],
+      "audio": "Voz de lançamento + trilha cinematográfica + foley mecânico e impactos controlados.",
+      "productionPrompt": "ESTILO: Peça única em palco de íris. EXEMPLO FICTÍCIO: Campanha sofisticada de produto fictício em palco mecânico.\nDireção de base: Cenografia 3D azul-petróleo e cobre, painéis radiais articulados, sombras de contato e câmera orbital curta.\nMovimento planejado: Painéis abrem em sequência; a luz encontra a peça; a câmera revela volume sem giro completo.\nPLANO 1: Um palco metálico fechado cria expectativa.\nPLANO 2: As lâminas articuladas da íris abrem e revelam o produto.\nPLANO 3: Um plano próximo acompanha luz, encaixes e materiais.\nPLANO 4: O palco se estabiliza e valoriza o produto inteiro.\nRECURSOS: Modelo 3D validado ou objeto fictício, materiais, luz, câmera, foley.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo.\nCENOGRAFIA: modelar espessura, pivôs e folgas das peças; luz principal, preenchimento e recorte com sombras de contato; separar primeiro plano, mecanismo e fundo. Provar abertura/fechamento sem interpenetração e conferir a transição inteira em movimento. Se a ferramenta não executar o mecanismo com estabilidade, informar a limitação e propor uma execução antes de gerar."
+    },
+    {
+      "key": "motion-campanha-2",
+      "styleId": "campanha-calendario-cenografico-de-lancamento",
+      "name": "Calendário cenográfico de lançamento",
+      "family": "motion-campanha",
+      "familyName": "Motion Design de Campanha",
+      "theme": "Campanha de lançamento em calendário cenográfico",
+      "frames": [
+        {
+          "src": "assets/film-sequences/motion-campanha-2-01.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Abertura",
+          "alt": "Calendário cenográfico de lançamento — abertura. Um calendário cenográfico apresenta a contagem.",
+          "action": "Um calendário cenográfico apresenta a contagem."
+        },
+        {
+          "src": "assets/film-sequences/motion-campanha-2-02.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Desenvolvimento",
+          "alt": "Calendário cenográfico de lançamento — desenvolvimento. Uma página de papel grosso gira em seu eixo e revela a próxima etapa.",
+          "action": "Uma página de papel grosso gira em seu eixo e revela a próxima etapa."
+        },
+        {
+          "src": "assets/film-sequences/motion-campanha-2-03.webp",
+          "width": 470,
+          "height": 836,
+          "label": "Transformação",
+          "alt": "Calendário cenográfico de lançamento — transformação. A próxima página avança a mensagem de lançamento.",
+          "action": "A próxima página avança a mensagem de lançamento."
+        },
+        {
+          "src": "assets/film-sequences/motion-campanha-2-04.webp",
+          "width": 471,
+          "height": 836,
+          "label": "Fechamento",
+          "alt": "Calendário cenográfico de lançamento — fechamento. A última página anuncia a chegada e a assinatura da marca.",
+          "action": "A última página anuncia a chegada e a assinatura da marca."
+        }
+      ],
+      "audio": "Voz de lançamento + trilha cinematográfica + foley mecânico e impactos controlados.",
+      "productionPrompt": "ESTILO: Calendário cenográfico de lançamento. EXEMPLO FICTÍCIO: Campanha de lançamento em calendário cenográfico.\nDireção de base: Palco 3D com lâminas de calendário em papel espesso, luz rosada e números editáveis.\nMovimento planejado: Uma lâmina vira; a seguinte revela a ação daquela fase; a data final permanece.\nPLANO 1: Um calendário cenográfico apresenta a contagem.\nPLANO 2: Uma página de papel grosso gira em seu eixo e revela a próxima etapa.\nPLANO 3: A próxima página avança a mensagem de lançamento.\nPLANO 4: A última página anuncia a chegada e a assinatura da marca.\nRECURSOS: Datas confirmadas, geometria, texto vetorial, som de lâminas.\nEXECUÇÃO: definir por plano estado inicial → ação → resultado; construir luz, profundidade e oclusão coerentes, com aceleração suave. Conectar os planos pela ação e pela locução, sem dividir o tempo igualmente. Zoom em fotografia não substitui a ação descrita. Compor todos os letreiros em código editável. Os quadros são conceitos, não prova de movimento ou de fidelidade. Não usar colagem como única referência de identidade: comparar quadros individuais com os originais do cliente. Gerar moodboard e storyboard para aceites separados, depois amostra de 10 s do trecho mais exigente. Validar aparência, movimento, texto e identidade com aprovação do usuário antes de concluir o vídeo.\nCENOGRAFIA: modelar espessura, pivôs e folgas das peças; luz principal, preenchimento e recorte com sombras de contato; separar primeiro plano, mecanismo e fundo. Provar abertura/fechamento sem interpenetração e conferir a transição inteira em movimento. Se a ferramenta não executar o mecanismo com estabilidade, informar a limitação e propor uma execução antes de gerar."
+    }
+  ]
+}

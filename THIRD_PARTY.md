@@ -32,3 +32,21 @@ Os três clipes de `style-atlas/dist/previews/automation-pilot/` foram gerados p
 ## Favicon GDA
 
 Os favicons em `style-atlas/dist/assets/` são uma adaptação visual do símbolo GDA fornecido pelo site do mantenedor, gerada para este site e convertida para tamanhos de navegador e ícone de toque. A licença do código não concede direito de uso da marca GDA em outros projetos.
+
+## Expansão 4.1
+
+180 quadros atuais em `style-atlas/dist/assets/expansion-720-r2/` (os originais históricos em `expansion-720/` foram preservados): 140 estudos fictícios gerados pela ferramenta de imagens OpenAI e 40 composições originais em código com Geist (OFL). Os painéis gerados foram separados geometricamente, sem ampliação artificial. Prompts, retângulos, dimensões e SHA256 em `style-atlas/records/expansion-720/assets.json`. O código de desenho fica no mesmo diretório de registros. As fontes pesquisadas servem a técnica e método; seus ativos não foram reutilizados. Imagens sintéticas não comprovam produtos, propriedades materiais, pessoas reais ou execução de movimento. Os termos do provedor continuam aplicáveis aos resultados gerados.
+
+Revisão editorial 3: dez composições de `grafico-31` a `grafico-40` foram substituídas por estudos individuais gerados pela ferramenta de imagens OpenAI, em `assets/editorial-r3/`. A seleção atual totaliza 150 estudos IA e 30 composições em código. Procedência e prompts em `style-atlas/records/expansion-720/editorial-revision.json`; os arquivos anteriores continuam disponíveis para referências antigas. Os textos dos quadros são estudos de aparência, não arquivos tipográficos editáveis nem evidência de produtos reais.
+
+## Piloto de sequências visuais
+
+Os 144 quadros de `style-atlas/dist/assets/film-sequences/` pertencem a 36 sequências conceituais geradas com a ferramenta de imagens OpenAI, com personagens, produtos, interfaces, imóveis e dados fictícios. Não são clipes de vídeo nem evidência de fidelidade a produtos reais. Prompts, recortes e hashes estão em `style-atlas/records/sequence-pilot/assets.json`. Os termos do provedor aplicam-se aos resultados. Nenhum ativo de cliente foi incluído. Os mockups de layout são propostas visuais geradas, não capturas de testes em navegador.
+
+## Sequências do catálogo 4.2
+
+Mais 684 sequências conceituais geradas com OpenAI image_gen completam os 720 estilos e 2.880 quadros. Arquivos extraídos e miniaturas em `assets/style-sequences/`; dimensões, recortes, prompts e hashes em `records/sequences-720/assets.json`. Os arquivos anteriores permanecem históricos. São exemplos fictícios de direção, incluindo pessoas, números, produtos, marcas ilustrativas, imóveis e interfaces. Não representam resultados, testes, certificações, propriedades físicas ou autorizações reais. Texto e dados devem ser reconstruídos em código e verificados na produção. Modelos anatômicos e mecanismos são ilustrações, não documentação científica. Não foram gerados novos vídeos. A revisão estática e suas limitações estão em `records/sequences-720/visual-review.json`; não equivale a aprovação de movimento ou fidelidade. Os termos do provedor aplicam-se às imagens geradas.
+
+## Anúncios naturais · catálogo 4.3
+
+60 sequências fictícias geradas com OpenAI image_gen, incluindo os seis pilotos aprovados como direção visual. Os 240 quadros e miniaturas estão em `assets/natural-ads-60/`; prompts efetivos, recortes, dimensões e hashes em `records/natural-ads-60/assets.json`. Não foram usados produtos, depoimentos ou documentos reais de clientes. Não há vídeo ou áudio gerado nesta expansão. Termos do provedor continuam aplicáveis. Dados de rótulos, origens, certificações e resultados não podem ser inferidos destas imagens. A revisão estática não comprova fidelidade ou movimento.

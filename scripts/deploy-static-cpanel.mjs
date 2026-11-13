@@ -4,10 +4,12 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {validateCatalog} from './validate.mjs';
 import {stableGalleryHtml,releaseEntryHtml} from './static-release.mjs';
+import {readPublicAsset} from './public-asset.mjs';
+import {boundedWork,retryIdempotent} from './bounded-work.mjs';
 const argv=process.argv.slice(2),get=k=>{const i=argv.indexOf(k);return i<0?undefined:argv[i+1]};
 const domain=get('--domain'),source=path.resolve(get('--source')||'style-atlas/dist');
 const apply=argv.includes('--apply');
-// Check the retained 540-style catalog before accessing hosting.
+// Check the expanded catalog and complete fidelity fields before accessing hosting.
 validateCatalog(JSON.parse(await readFile(path.join(source,'catalog.json'),'utf8')));
 const {CPANEL_HOST:host,CPANEL_USER:user,CPANEL_TOKEN:token}=process.env;
 const hash=b=>createHash('sha256').update(b).digest('hex');
@@ -23,10 +25,12 @@ async function api(module,fn,params={}){
  const raw=await r.json();const j=raw.result||raw;if(!r.ok||j.status!==1)throw Error(`cPanel ${module}/${fn} failed (HTTP ${r.status}): ${JSON.stringify(j.errors||[]).replaceAll(token,'[redacted]').replaceAll(user,'[account]').slice(0,700)}`);return j.data;
 }
 async function upload(dir,name,bytes){
+ return retryIdempotent(async()=>{
  const form=new FormData();form.set('dir',dir);form.set('overwrite','1');form.set('file-1',new Blob([bytes]),name);
  const r=await fetch(`${apiBase}/execute/Fileman/upload_files`,{method:'POST',headers,body:form,signal:AbortSignal.timeout(60000),redirect:'error'});
  const raw=await r.json();const j=raw.result||raw;const item=j.data?.uploads?.[0];if(!r.ok||j.status!==1||item?.status!==1)throw Error(`Upload failed for ${name}; HTTP ${r.status}.`);
- if(item.size!=null&&Number(item.size)!==bytes.length)throw Error(`Upload size mismatch: ${name}`);
+ if(item.size!=null&&Number(item.size)!==bytes.length)throw Error(`Upload size mismatch: ${name}; expected ${bytes.length}, received ${Number(item.size)}.`);
+ });
 }
 async function files(dir,rel=''){
  const out=[];for(const e of await readdir(path.join(dir,rel),{withFileTypes:true})){
@@ -73,9 +77,9 @@ for(let offset=0;offset<encodedBackup.length;offset+=512000){
  if(saved.content!==part)throw Error('Remote backup part verification failed; homepage not modified.');receipt.backupParts.push(name);
 }
 await upload(backupDir,'receipt.json',Buffer.from(JSON.stringify(receipt,null,2)));
-for(const rel of paths){if(rel==='index.html')continue;const dir=path.posix.join(root,release,path.posix.dirname(rel));await upload(dir,path.posix.basename(rel),await readFile(path.join(source,rel)));}
+await boundedWork(paths.filter(rel=>rel!=='index.html'),6,async rel=>{const dir=path.posix.join(root,release,path.posix.dirname(rel));await upload(dir,path.posix.basename(rel),await readFile(path.join(source,rel)));});
 // Verify immutable release assets before switching the homepage.
-for(const rel of paths){if(rel==='index.html')continue;const url=`https://${domain}/${release}/${rel}`;const r=await fetch(url,{headers:{'User-Agent':'GDA-Static-Deploy/1.0'},signal:AbortSignal.timeout(45000),redirect:'error'});if(!r.ok||hash(Buffer.from(await r.arrayBuffer()))!==hash(await readFile(path.join(source,rel))))throw Error(`Public release verification failed: ${rel}. Homepage unchanged.`);}
+await boundedWork(paths.filter(rel=>rel!=='index.html'),8,async rel=>{const url=`https://${domain}/${release}/${rel}`;const bytes=await readPublicAsset(url);if(hash(bytes)!==hash(await readFile(path.join(source,rel))))throw Error(`Public release verification failed: ${rel}. Homepage unchanged.`);});
 // A stable, bookmarked sample URL must resolve media from its immutable release.
 // Back up an existing sample page before replacing it, like the main entry.
 if(paths.includes('motion-campaign.html')){

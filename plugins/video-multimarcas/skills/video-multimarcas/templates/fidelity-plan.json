@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "phase": "planning",
+  "references": [],
+  "approvals": {
+    "moodboard": {
+      "status": "pending",
+      "file": "",
+      "sha256": "",
+      "decisionEvidence": ""
+    },
+    "storyboard": {
+      "status": "pending",
+      "file": "",
+      "sha256": "",
+      "decisionEvidence": "",
+      "directionSha256": ""
+    }
+  },
+  "capabilities": [],
+  "shots": [],
+  "sample": {
+    "file": "",
+    "sha256": "",
+    "durationSeconds": 10,
+    "selectionReason": "",
+    "comparisonFiles": [],
+    "playback": {
+      "status": "not_run",
+      "evidence": ""
+    },
+    "listening": {
+      "status": "not_run",
+      "evidence": ""
+    },
+    "locks": {
+      "appearance": {
+        "status": "pending",
+        "evidence": ""
+      },
+      "movement": {
+        "status": "pending",
+        "evidence": ""
+      },
+      "text": {
+        "status": "pending",
+        "evidence": ""
+      },
+      "identity": {
+        "status": "pending",
+        "evidence": ""
+      }
+    },
+    "userApproval": {
+      "status": "pending",
+      "sha256": "",
+      "decisionEvidence": "",
+      "directionSha256": ""
+    }
+  },
+  "deviations": [],
+  "expectedReferences": []
+}

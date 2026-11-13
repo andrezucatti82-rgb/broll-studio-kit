@@ -12,7 +12,7 @@ Para produto real, pedir fotos nítidas, rótulo e ficha da variante. Giro/parte
 
 Não pedir senhas, tokens ou chaves no chat. Usar conexões seguras da ferramenta. Não solicitar documentos pessoais sem necessidade. Não pedir que o usuário forneça um software como se fosse um arquivo de mídia. Conferir ferramentas e licenças de execução por conta própria.
 
-Enquanto aguarda, continuar pesquisa, roteiro e planejamento independentes. Não executar cenas que dependam de material ausente ou inventar fatos para preencher lacunas. Se a promessa visual precisar mudar, explicar a diferença e obter a escolha da alternativa: um zoom não substitui silenciosamente um giro 360°, nem fotos substituem um tour documentado. Não tratar o silêncio como aprovação. Após a coleta necessária, entregar roteiro, storyboard visual e amostra de 10 segundos para aprovação.
+Enquanto aguarda, continuar pesquisa, roteiro e planejamento independentes. Não executar cenas que dependam de material ausente ou inventar fatos para preencher lacunas. Se a promessa visual precisar mudar, explicar a diferença e obter a escolha da alternativa: um zoom não substitui silenciosamente um giro 360°, nem fotos substituem um tour documentado. Não tratar o silêncio como aprovação. Após a coleta necessária, entregar roteiro e moodboard visual; após aprovação, gerar storyboard visual para seu aceite; depois, amostra de 10 segundos para aprovação. Consulte `preproduction-approval.md`.
 
 ## Diagnóstico antes de prometer o vídeo
 
@@ -44,4 +44,13 @@ Saúde: serviço, identificação pública confirmada e informações revisadas 
 
 ## Prioridade de geração de vídeo
 
-Avalie primeiro o HeyGen pela API HTTP direta. Confirme na documentação oficial o endpoint/modelo apropriado à cena; autenticação por leitura não comprova saldo, acesso ao modelo ou fidelidade. Não faça geração paga apenas para testar conexão. Use outra solução quando houver necessidade comprovada, informando o motivo e preservando a direção aprovada. Montagem, motion em código, tipografia, som e revisão continuam etapas próprias.
+Avalie primeiro o HeyGen pela API HTTP direta. Confirme na documentação oficial o endpoint/modelo apropriado à cena; autenticação por leitura não comprova saldo, acesso ao modelo ou fidelidade. Não faça geração paga apenas para testar conexão. Se houver necessidade comprovada de outra execução, explique o motivo e proponha alternativa para aprovação. Não troque silenciosamente de provedor; respeite a preferência e as autorizações do usuário. Montagem, motion em código, tipografia, som e revisão continuam etapas próprias.
+
+
+## Anúncios por segmento
+
+Nos anúncios de joias, capachos, moda, biquínis, pijamas e alimentos, a lista de materiais deve incluir fotos originais e ficha da variante real. Para alimentos, incluir rótulo, ingredientes, alergênicos e fonte das alegações; orgânicos exigem documentação verificável. Para advocacia, pedir atuação e informações profissionais revisadas, canais oficiais e documentos demonstrativos sem dados privados. Não tratar escritório como produto físico. Interfaces, dados e sistemas podem exigir capturas e fontes de dados conforme o conteúdo. Priorizar essas faltas específicas no resumo, mantendo itens genéricos como marca opcionais.
+
+A numeração dos quadros (01–04) é cronológica, inclusive quando o quadro principal for 02 ou 04. Ela não determina a quantidade de cenas nem seus tempos. Preserve o campo avatar no pedido: false não impede filmagem autorizada de pessoas, mas não habilita criação de apresentador por inferência.
+
+Na Page, o download pode abrir uma aba própria para preparar o PNG sem restrições de canvas entre domínios. Oriente a baixar ali e anexar o arquivo manualmente na conversa. Abrir a aba não significa que o arquivo foi anexado ou que a produção iniciou.

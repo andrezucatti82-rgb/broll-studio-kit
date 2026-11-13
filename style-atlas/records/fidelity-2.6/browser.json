@@ -1,0 +1,12 @@
+{
+  "absoluteLinks": true,
+  "executionProtocol": true,
+  "viewports": [
+    375,
+    1440
+  ],
+  "pageBridgeSimulated": true,
+  "nativePageViewerTested": false,
+  "pageFontPreviewLoaded": true,
+  "errors": []
+}

@@ -113,5 +113,13 @@
       "evidence": "",
       "userApproval": false
     }
+  },
+  "preProduction": {
+    "record": "preproduction-plan.json",
+    "moodboardVersion": null,
+    "storyboardVersion": null,
+    "moodboardApproved": false,
+    "storyboardApproved": false,
+    "evidence": ""
   }
 }

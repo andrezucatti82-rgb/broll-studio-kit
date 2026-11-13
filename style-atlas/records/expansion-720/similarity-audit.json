@@ -1,0 +1,1265 @@
+{
+  "method": "TF-IDF lexical cross-catalog triage, not a semantic originality guarantee. Each record retains a comparison for editorial review.",
+  "pairs": [
+    {
+      "newName": "Retrato em colódio de prata",
+      "comparison": "Retrato em luz coreografada",
+      "score": 0.076,
+      "comparisonId": "campanha-retrato-em-luz-coreografada",
+      "newAction": "A revelação química avança pelas bordas e encontra o olhar imóvel"
+    },
+    {
+      "newName": "Prata retida de turno noturno",
+      "comparison": "Primeiro uso em sequência sem salto",
+      "score": 0.053,
+      "comparisonId": "primeiro-uso-em-sequencia-sem-salto",
+      "newAction": "Uma bandeja sai do forno; a exposição acompanha o vapor sem apagar os rostos"
+    },
+    {
+      "newName": "Sol de cromia reversível",
+      "comparison": "Aquarela",
+      "score": 0.047,
+      "comparisonId": "aquarela",
+      "newAction": "Uma boia cruza a água e suas ondas levam ao plano seguinte"
+    },
+    {
+      "newName": "Minerais sob luz ultravioleta",
+      "comparison": "Infravermelho botânico",
+      "score": 0.053,
+      "comparisonId": "infravermelho-botanico",
+      "newAction": "A luz branca cede ao UV e revela emissão apenas nos minerais adequados"
+    },
+    {
+      "newName": "Revelação por bandeira de luz",
+      "comparison": "Escovação em teatro de superfícies",
+      "score": 0.071,
+      "comparisonId": "escovacao-em-teatro-de-superficies",
+      "newAction": "Um anteparo físico atravessa o feixe e revela grupos de pétalas em sequência"
+    },
+    {
+      "newName": "Arquitetura de verticais precisas",
+      "comparison": "Cinema estenopeico de longa presença",
+      "score": 0.059,
+      "comparisonId": "cinema-estenopeico-de-longa-presenca",
+      "newAction": "Uma pessoa sobe e ocupa sucessivos patamares; a câmera conserva as verticais"
+    },
+    {
+      "newName": "Sala como câmera obscura",
+      "comparison": "Anfitrião de lã em jardim miniatura",
+      "score": 0.119,
+      "comparisonId": "anfitriao-de-la-em-jardim-miniatura",
+      "newAction": "A janela abre, a projeção nasce e uma nuvem altera a luz do jardim"
+    },
+    {
+      "newName": "Teleobjetiva de planos comprimidos",
+      "comparison": "Arquitetura de papel informativa",
+      "score": 0.054,
+      "comparisonId": "arquitetura-de-papel-informativa",
+      "newAction": "A dançarina percorre uma passarela enquanto os planos comprimidos ocultam e revelam sua silhueta"
+    },
+    {
+      "newName": "Fotografia por sombra de líquido",
+      "comparison": "Sombra como assinatura",
+      "score": 0.087,
+      "comparisonId": "sombra-como-assinatura",
+      "newAction": "A infusão gira e sua sombra muda; o desenho se estabiliza para o fechamento"
+    },
+    {
+      "newName": "Noite sob lua e bioluminescência",
+      "comparison": "Cianotipia",
+      "score": 0.059,
+      "comparisonId": "cianotipia",
+      "newAction": "A onda quebra, ilumina a borda da praia e se apaga sem pulsação artificial"
+    },
+    {
+      "newName": "Índice editorial de bordas pintadas",
+      "comparison": "Livro digital de capítulos",
+      "score": 0.095,
+      "comparisonId": "livro-digital-de-capitulos",
+      "newAction": "Abas selecionam um capítulo e o corte colorido vira a faixa da mensagem"
+    },
+    {
+      "newName": "Placas esmaltadas de utilidade pública",
+      "comparison": "Vitrine entre placas de gelo cenográfico",
+      "score": 0.102,
+      "comparisonId": "vitrine-entre-placas-de-gelo-cenografico",
+      "newAction": "Uma placa de orientação gira no suporte e muda a hierarquia do aviso"
+    },
+    {
+      "newName": "Tarja editorial de transparência",
+      "comparison": "O cenário desmonta a própria promessa",
+      "score": 0.082,
+      "comparisonId": "o-cenario-desmonta-a-propria-promessa",
+      "newAction": "Tarjas se afastam para revelar somente o trecho que sustenta a afirmação"
+    },
+    {
+      "newName": "Gráfico de embalagem farmacêutica histórica",
+      "comparison": "Arquivo analógico",
+      "score": 0.047,
+      "comparisonId": "arquivo-analogico",
+      "newAction": "Caixas abrem para organizar conceitos em doses editoriais sem alegações médicas"
+    },
+    {
+      "newName": "Alfabeto de peças intercambiáveis",
+      "comparison": "Vitral ilustrado",
+      "score": 0.077,
+      "comparisonId": "vitral-ilustrado",
+      "newAction": "Segmentos mudam de encaixe e compõem a palavra seguinte com estrutura visível"
+    },
+    {
+      "newName": "Margem de revisão em tinta vermelha",
+      "comparison": "Portfólio em revisão multicâmera",
+      "score": 0.102,
+      "comparisonId": "progresso-por-evidencias-de-pratica",
+      "newAction": "Uma correção muda a frase e evidencia a decisão editorial"
+    },
+    {
+      "newName": "Desenho postal de aerograma",
+      "comparison": "Origami",
+      "score": 0.049,
+      "comparisonId": "origami",
+      "newAction": "A dobra do aerograma transforma remetente em mensagem e destinatário"
+    },
+    {
+      "newName": "Ficha de biblioteca contemporânea",
+      "comparison": "Ficha imobiliária cinematográfica",
+      "score": 0.065,
+      "comparisonId": "ficha-imobiliaria-cinematografica",
+      "newAction": "Uma ficha sai da sequência e organiza o argumento principal"
+    },
+    {
+      "newName": "Letra de transparência encaixada",
+      "comparison": "Painel split-flap de ideias",
+      "score": 0.079,
+      "comparisonId": "painel-split-flap-de-ideias",
+      "newAction": "Lâminas se alinham e tornam uma única palavra legível"
+    },
+    {
+      "newName": "Quadrícula de tear editorial",
+      "comparison": "Quilling de espirais arquitetadas",
+      "score": 0.064,
+      "comparisonId": "quilling-de-espirais-arquitetadas",
+      "newAction": "Uma tira passa por cima e por baixo; a frase aparece no ponto de entrelaçamento"
+    },
+    {
+      "newName": "Sanguínea de gesto cotidiano",
+      "comparison": "Rastro técnico sobre gesto real",
+      "score": 0.087,
+      "comparisonId": "campanha-rastro-tecnico-sobre-gesto-real",
+      "newAction": "O gesto é redesenhado com linhas de construção que permanecem brevemente"
+    },
+    {
+      "newName": "Lápis de cor em papel negro",
+      "comparison": "Arquitetura de papel informativa",
+      "score": 0.059,
+      "comparisonId": "arquitetura-de-papel-informativa",
+      "newAction": "As asas abrem por poses desenhadas e o pigmento revela suas nervuras"
+    },
+    {
+      "newName": "Aerógrafo de poster ensolarado",
+      "comparison": "Fenda temporal cinematográfica",
+      "score": 0.057,
+      "comparisonId": "fenda-temporal-cinematografica",
+      "newAction": "O volume recebe luz progressiva; uma faixa de sombra atravessa a prancha"
+    },
+    {
+      "newName": "Desenho de grafite apagado",
+      "comparison": "Apresentadora entre desenho e presença",
+      "score": 0.087,
+      "comparisonId": "apresentadora-entre-desenho-e-presenca",
+      "newAction": "A borracha esculpe a luz; o contorno do rosto mantém anatomia estável"
+    },
+    {
+      "newName": "Tinta de esferográfica cruzada",
+      "comparison": "Infografia de dados",
+      "score": 0.134,
+      "comparisonId": "infografia-de-dados",
+      "newAction": "Camadas de hachura revelam roda, quadro e motor na ordem da explicação"
+    },
+    {
+      "newName": "Pintura de esmalte sobre vidro",
+      "comparison": "Esmalte cloisonné",
+      "score": 0.066,
+      "comparisonId": "esmalte-cloisonne",
+      "newAction": "O vidro muda levemente de inclinação e revela profundidade entre tinta e reflexo"
+    },
+    {
+      "newName": "Desenho simultâneo de duas mãos",
+      "comparison": "Desenho de luz neon",
+      "score": 0.073,
+      "comparisonId": "desenho-de-luz-neon",
+      "newAction": "Os traços se encontram no centro e resolvem uma rua compartilhada"
+    },
+    {
+      "newName": "Impressão de folhas como personagem",
+      "comparison": "Microficha editorial ampliada",
+      "score": 0.045,
+      "comparisonId": "microficha-editorial-ampliada",
+      "newAction": "As impressões se articulam preservando suas bordas e a ave dá um passo"
+    },
+    {
+      "newName": "Monotipia de noite chuvosa",
+      "comparison": "Still life espelhado",
+      "score": 0.061,
+      "comparisonId": "still-life-espelhado",
+      "newAction": "Uma passagem de rolo revela reflexos e o guarda-chuva se desloca por recortes"
+    },
+    {
+      "newName": "Pintura em azulejo narrativo",
+      "comparison": "Plano-sequência coreografado",
+      "score": 0.061,
+      "comparisonId": "plano-sequencia-coreografado",
+      "newAction": "Uma ação atravessa a junta dos azulejos e termina numa banca inteira"
+    },
+    {
+      "newName": "Papel machê de polpa aparente",
+      "comparison": "Papel em camadas",
+      "score": 0.087,
+      "comparisonId": "papel-em-camadas",
+      "newAction": "Camadas úmidas se depositam sobre a forma e secam até revelar o objeto"
+    },
+    {
+      "newName": "Cortiça em mosaico de espessuras",
+      "comparison": "Mosaico cerâmico",
+      "score": 0.143,
+      "comparisonId": "mosaico-ceramico",
+      "newAction": "Peças de diferentes espessuras encaixam e criam relevo funcional"
+    },
+    {
+      "newName": "Veludo escovado em duas direções",
+      "comparison": "Debate tipográfico em duas vozes",
+      "score": 0.045,
+      "comparisonId": "debate-tipografico-em-duas-vozes",
+      "newAction": "Uma escova passa, muda o brilho e revela a marca do gesto"
+    },
+    {
+      "newName": "Papel-carbono de transferência",
+      "comparison": "Ebru de pigmentos flutuantes",
+      "score": 0.071,
+      "comparisonId": "ebru-de-pigmentos-flutuantes",
+      "newAction": "A pressão do traço imprime a cópia e o original é levantado"
+    },
+    {
+      "newName": "Jornal de papel-semente",
+      "comparison": "Relevo seco de papel escultórico",
+      "score": 0.075,
+      "comparisonId": "relevo-seco-de-papel-escultorico",
+      "newAction": "Água escurece a fibra; um corte temporal identificado mostra germinação real"
+    },
+    {
+      "newName": "Cerâmica raku de fissuras",
+      "comparison": "Cerâmica esmaltada",
+      "score": 0.086,
+      "comparisonId": "ceramica-esmaltada",
+      "newAction": "A peça sai da caixa de redução e a fumaça revela o acabamento específico"
+    },
+    {
+      "newName": "Fio metálico em escultura contínua",
+      "comparison": "Palavras costuradas por continuidade",
+      "score": 0.104,
+      "comparisonId": "palavras-costuradas-por-continuidade",
+      "newAction": "O fio é dobrado em pontos definidos e termina numa estrutura estável"
+    },
+    {
+      "newName": "Marcas de ferramenta em linóleo",
+      "comparison": "Metal repuxado",
+      "score": 0.105,
+      "comparisonId": "metal-repuxado",
+      "newAction": "A goiva remove uma faixa e a tinta entra somente na superfície elevada"
+    },
+    {
+      "newName": "Pigmento prensado em argila seca",
+      "comparison": "Produto gigante em mundo miniatura",
+      "score": 0.073,
+      "comparisonId": "produto-gigante-em-mundo-miniatura",
+      "newAction": "Uma prensa imprime uma matriz e o pó solto se acomoda ao redor"
+    },
+    {
+      "newName": "Papel de arroz sob contraluz",
+      "comparison": "Arquitetura de papel informativa",
+      "score": 0.08,
+      "comparisonId": "arquitetura-de-papel-informativa",
+      "newAction": "A lanterna se expande pela armação e a luz percorre suas fibras"
+    },
+    {
+      "newName": "Curva acumulada como percurso",
+      "comparison": "Nuvem de pontos",
+      "score": 0.088,
+      "comparisonId": "nuvem-de-pontos",
+      "newAction": "Cada observação acrescenta um degrau; a curva informa a parcela atingida"
+    },
+    {
+      "newName": "Funil de sobrevivência por coortes",
+      "comparison": "Engrenagens excêntricas de ritmo",
+      "score": 0.083,
+      "comparisonId": "engrenagens-excentricas-de-ritmo",
+      "newAction": "Coortes começam juntas e revelam perdas em momentos distintos"
+    },
+    {
+      "newName": "Dot plot de diferenças pareadas",
+      "comparison": "Nuvem de pontos",
+      "score": 0.176,
+      "comparisonId": "nuvem-de-pontos",
+      "newAction": "Pontos se afastam conforme o valor; a distância mostra a diferença"
+    },
+    {
+      "newName": "Faixa de previsão em leque",
+      "comparison": "Vidro editorial em camadas",
+      "score": 0.077,
+      "comparisonId": "vidro-editorial-em-camadas",
+      "newAction": "O passado se traça; cenários se abrem com intervalos e premissas visíveis"
+    },
+    {
+      "newName": "Diagrama de Venn em recortes",
+      "comparison": "Arquitetura de papel informativa",
+      "score": 0.061,
+      "comparisonId": "arquitetura-de-papel-informativa",
+      "newAction": "Grupos entram e a área comum ganha destaque com exemplos reais"
+    },
+    {
+      "newName": "Waterfall de reconciliação",
+      "comparison": "Trim paths",
+      "score": 0.061,
+      "comparisonId": "trim-paths",
+      "newAction": "Cada variação entra na ordem contábil até reconciliar o saldo"
+    },
+    {
+      "newName": "Gráfico de bala de metas",
+      "comparison": "Dados em faixas de comparação",
+      "score": 0.09,
+      "comparisonId": "campanha-dados-em-faixas-de-comparacao",
+      "newAction": "A barra de valor cresce até a medida e para diante da referência"
+    },
+    {
+      "newName": "Mapa de acessos por arcos horários",
+      "comparison": "Fluxos Sankey",
+      "score": 0.058,
+      "comparisonId": "fluxos-sankey",
+      "newAction": "Faixas de atividade surgem em horário real e isolam sobreposições"
+    },
+    {
+      "newName": "Mapa bivariado de duas medidas",
+      "comparison": "Legenda como faixa editorial móvel",
+      "score": 0.074,
+      "comparisonId": "campanha-legenda-como-faixa-editorial-movel",
+      "newAction": "Uma dimensão entra por cor, a outra por intensidade; a legenda acompanha"
+    },
+    {
+      "newName": "Diagrama de fluxo de caixa por prazo",
+      "comparison": "Ventilação como diagrama verificado",
+      "score": 0.063,
+      "comparisonId": "ventilacao-como-diagrama-verificado",
+      "newAction": "Entradas e saídas ocupam suas datas, revelando o intervalo de necessidade"
+    },
+    {
+      "newName": "Pêndulos em fase que se encontram",
+      "comparison": "Blueprint",
+      "score": 0.093,
+      "comparisonId": "blueprint",
+      "newAction": "Oscilações independentes sincronizam por um instante e formam uma linha"
+    },
+    {
+      "newName": "Animação por máscara de grade",
+      "comparison": "Mosaico contínuo de raciocínio",
+      "score": 0.083,
+      "comparisonId": "campanha-mosaico-continuo-de-raciocinio",
+      "newAction": "A grade atravessa as tiras e revela poses sequenciais sem mover a câmera"
+    },
+    {
+      "newName": "Transferência por carrossel de rolos",
+      "comparison": "Manual impresso que ganha consequência",
+      "score": 0.039,
+      "comparisonId": "manual-impresso-que-ganha-consequencia",
+      "newAction": "Um desenho passa de rolo a rolo e chega inteiro ao papel"
+    },
+    {
+      "newName": "Ação em exposição de obturador",
+      "comparison": "Topografia de tecido em torno do objeto",
+      "score": 0.087,
+      "comparisonId": "topografia-de-tecido-em-torno-do-objeto",
+      "newAction": "Uma ação deixa rastro seletivo e termina numa pose estável"
+    },
+    {
+      "newName": "Balé de guindastes em miniatura",
+      "comparison": "Mosaico cerâmico",
+      "score": 0.096,
+      "comparisonId": "mosaico-ceramico",
+      "newAction": "Cabos içam, giram e assentam peças com contato e peso coerentes"
+    },
+    {
+      "newName": "Revelação em anéis de crescimento",
+      "comparison": "Calendário radial",
+      "score": 0.11,
+      "comparisonId": "calendario-radial",
+      "newAction": "Anéis surgem do centro para fora e revelam etapas de uma história"
+    },
+    {
+      "newName": "Composição por levitação acústica",
+      "comparison": "Stop motion",
+      "score": 0.096,
+      "comparisonId": "stop-motion",
+      "newAction": "Esferas ocupam nós de uma onda e mudam de posição de forma controlada"
+    },
+    {
+      "newName": "Percurso por trilhos de agulha",
+      "comparison": "E-commerce do catálogo ao pedido",
+      "score": 0.066,
+      "comparisonId": "e-commerce-do-catalogo-ao-pedido",
+      "newAction": "Uma agulha muda a rota de um carrinho e o leva ao destino destacado"
+    },
+    {
+      "newName": "Desenho em tambor de luz",
+      "comparison": "Toy design",
+      "score": 0.058,
+      "comparisonId": "toy-design",
+      "newAction": "O tambor gira e seus recortes projetam uma sequência no cenário"
+    },
+    {
+      "newName": "Coreografia de válvulas pneumáticas",
+      "comparison": "Painel de pinos animados",
+      "score": 0.073,
+      "comparisonId": "painel-de-pinos-animados",
+      "newAction": "Válvulas liberam ar em sequência e as bolsas mudam de altura com estabilidade"
+    },
+    {
+      "newName": "Aerogel de bordas luminosas",
+      "comparison": "Porcelana de luz subsuperficial",
+      "score": 0.068,
+      "comparisonId": "porcelana-de-luz-subsuperficial",
+      "newAction": "Uma luz contorna o bloco e revela o volume por espalhamento"
+    },
+    {
+      "newName": "Anodização em alumínio escovado",
+      "comparison": "Arcada em peças de função",
+      "score": 0.064,
+      "comparisonId": "arcada-em-pecas-de-funcao",
+      "newAction": "A luz percorre a escovação enquanto uma peça se encaixa na outra"
+    },
+    {
+      "newName": "Sal cristalizado em evaporação",
+      "comparison": "Aquarela",
+      "score": 0.042,
+      "comparisonId": "aquarela",
+      "newAction": "A água recua em lapso temporal e os cristais crescem nas bordas"
+    },
+    {
+      "newName": "Borrachas de durezas distintas",
+      "comparison": "Voxel",
+      "score": 0.043,
+      "comparisonId": "voxel",
+      "newAction": "O peso desce e cada bloco deforma conforme parâmetros declarados"
+    },
+    {
+      "newName": "Couro perfurado com costura funcional",
+      "comparison": "Foco bifocal de duas histórias",
+      "score": 0.052,
+      "comparisonId": "foco-bifocal-de-duas-historias",
+      "newAction": "O fecho tensiona o couro e a costura acompanha sem atravessar a superfície"
+    },
+    {
+      "newName": "Basalto poroso em corte lapidado",
+      "comparison": "Títulos em relevo por luz rasante",
+      "score": 0.055,
+      "comparisonId": "titulos-em-relevo-por-luz-rasante",
+      "newAction": "A peça gira parcialmente e alterna face lisa e porosa em luz rasante"
+    },
+    {
+      "newName": "Concreto translúcido de fibras ópticas",
+      "comparison": "Fibras e pelagem escultórica",
+      "score": 0.083,
+      "comparisonId": "fibras-e-pelagem-escultorica",
+      "newAction": "Uma mão passa atrás e a luz transmite sua sombra de forma descontínua"
+    },
+    {
+      "newName": "Vidro espumado de célula aberta",
+      "comparison": "Espuma microcelular translúcida",
+      "score": 0.049,
+      "comparisonId": "espuma-microcelular-translucida",
+      "newAction": "A câmera cruza um poro real modelado e encontra a face posterior"
+    },
+    {
+      "newName": "Lâminas piezoelétricas de flexão",
+      "comparison": "Calendário cenográfico de lançamento",
+      "score": 0.071,
+      "comparisonId": "campanha-calendario-cenografico-de-lancamento",
+      "newAction": "Uma lâmina flexiona pouco sob acionamento e retorna com amortecimento"
+    },
+    {
+      "newName": "Madeira carbonizada em escamas",
+      "comparison": "Carvão expressivo",
+      "score": 0.073,
+      "comparisonId": "carvao-expressivo",
+      "newAction": "Uma escova remove fuligem solta e revela o relevo carbonizado"
+    },
+    {
+      "newName": "História por aquilo que fica fora",
+      "comparison": "Apresentador de terno em escritório",
+      "score": 0.082,
+      "comparisonId": "apresentador-de-terno-em-escritorio",
+      "newAction": "Sons fora do quadro motivam pequenas mudanças nos objetos até revelar a chegada"
+    },
+    {
+      "newName": "Uma pergunta em quatro profissões",
+      "comparison": "Pergunta do anúncio em recorte de evidência",
+      "score": 0.073,
+      "comparisonId": "pergunta-do-anuncio-em-recorte-de-evidencia",
+      "newAction": "A mesma pergunta recebe respostas concretas através de ações de cada ofício"
+    },
+    {
+      "newName": "Receita de decisão com tentativas",
+      "comparison": "Matriz de decisão",
+      "score": 0.073,
+      "comparisonId": "matriz-de-decisao",
+      "newAction": "Cada tentativa deixa um vestígio; o acerto incorpora o aprendizado anterior"
+    },
+    {
+      "newName": "Narrativa por uma medida constante",
+      "comparison": "Produto gigante em mundo miniatura",
+      "score": 0.088,
+      "comparisonId": "produto-gigante-em-mundo-miniatura",
+      "newAction": "O mundo muda ao redor da medida constante, tornando as diferenças legíveis"
+    },
+    {
+      "newName": "Carta visual para o futuro",
+      "comparison": "Substituição impossível de objetos",
+      "score": 0.061,
+      "comparisonId": "substituicao-impossivel-de-objetos",
+      "newAction": "Um objeto presente evoca um cenário futuro explicitamente hipotético"
+    },
+    {
+      "newName": "Duas versões de uma mesma tarefa",
+      "comparison": "Diálogo visual entre gerações",
+      "score": 0.086,
+      "comparisonId": "dialogo-visual-entre-geracoes",
+      "newAction": "Os caminhos alternam e convergem no resultado, com limites de cada abordagem"
+    },
+    {
+      "newName": "História narrada pelo intervalo",
+      "comparison": "Relógio visual de uma decisão",
+      "score": 0.067,
+      "comparisonId": "relogio-visual-de-uma-decisao",
+      "newAction": "O tempo entre ações revela o problema; a solução reorganiza as esperas"
+    },
+    {
+      "newName": "Objeto emprestado entre desconhecidos",
+      "comparison": "Jornada de um objeto",
+      "score": 0.078,
+      "comparisonId": "jornada-de-um-objeto",
+      "newAction": "Cada pessoa resolve uma necessidade e entrega o objeto à próxima"
+    },
+    {
+      "newName": "Explicação pela exceção visível",
+      "comparison": "Gravidade em revezamento",
+      "score": 0.057,
+      "comparisonId": "gravidade-em-revezamento",
+      "newAction": "A regra aparece, o caso excepcional interrompe e a explicação resolve a diferença"
+    },
+    {
+      "newName": "Arquivo de uma coisa que mudou de nome",
+      "comparison": "Jornada de um objeto",
+      "score": 0.099,
+      "comparisonId": "jornada-de-um-objeto",
+      "newAction": "Nomes são substituídos enquanto a câmera mantém o objeto como referência"
+    },
+    {
+      "newName": "Produto em bancada de alfaiataria",
+      "comparison": "Arquitetura de papel informativa",
+      "score": 0.064,
+      "comparisonId": "arquitetura-de-papel-informativa",
+      "newAction": "Um molde de papel se ajusta ao produto e revela sua silhueta sem alterá-lo"
+    },
+    {
+      "newName": "Packshot em jardim de condensação",
+      "comparison": "Vitrine entre placas de gelo cenográfico",
+      "score": 0.07,
+      "comparisonId": "vitrine-entre-placas-de-gelo-cenografico",
+      "newAction": "A condensação escorre no vidro cenográfico e abre uma janela para o produto seco"
+    },
+    {
+      "newName": "Produto em balcão de leilão editorial",
+      "comparison": "Portal pelo detalhe",
+      "score": 0.066,
+      "comparisonId": "portal-pelo-detalhe",
+      "newAction": "A bandeja desliza para a luz e revela um detalhe por vez"
+    },
+    {
+      "newName": "Cinema de embalagem reaberta",
+      "comparison": "O cenário desmonta a própria promessa",
+      "score": 0.067,
+      "comparisonId": "o-cenario-desmonta-a-propria-promessa",
+      "newAction": "As paredes da embalagem se desdobram para mostrar organização e acesso"
+    },
+    {
+      "newName": "Produto em paisagem de sombra quadriculada",
+      "comparison": "Sombra como assinatura",
+      "score": 0.139,
+      "comparisonId": "sombra-como-assinatura",
+      "newAction": "A sombra atravessa a mesa enquanto os óculos permanecem estáveis e legíveis"
+    },
+    {
+      "newName": "Costura como rota de descoberta",
+      "comparison": "Pergunta e descoberta",
+      "score": 0.072,
+      "comparisonId": "pergunta-e-descoberta",
+      "newAction": "A câmera acompanha a costura até revelar o produto inteiro"
+    },
+    {
+      "newName": "Cenário de embalagem moldada",
+      "comparison": "Embalagem de envio em corte de proteção",
+      "score": 0.211,
+      "comparisonId": "embalagem-de-envio-em-corte-de-protecao",
+      "newAction": "As peças de proteção se afastam fisicamente e deixam o objeto em uso"
+    },
+    {
+      "newName": "Packshot em caixa de luz modular",
+      "comparison": "Cenário em cortes de luz",
+      "score": 0.095,
+      "comparisonId": "campanha-cenario-em-cortes-de-luz",
+      "newAction": "Painéis acendem alternadamente para explicar superfícies e controles"
+    },
+    {
+      "newName": "Produto e gesto de conservação",
+      "comparison": "Guia em diorama mecânico",
+      "score": 0.083,
+      "comparisonId": "guia-em-diorama-mecanico",
+      "newAction": "Uma mão limpa uma área permitida, guarda acessórios e conclui com packshot"
+    },
+    {
+      "newName": "Anúncio em mesa de gravação sonora",
+      "comparison": "Paisagem sonora de ambientes reais",
+      "score": 0.077,
+      "comparisonId": "paisagem-sonora-de-ambientes-reais",
+      "newAction": "Uma tecla é acionada; o som real abre espaço para o detalhe do mecanismo"
+    },
+    {
+      "newName": "Pequeno obstáculo em comédia de precisão",
+      "comparison": "Arquitetura de papel informativa",
+      "score": 0.048,
+      "comparisonId": "arquitetura-de-papel-informativa",
+      "newAction": "Três tentativas curtas tornam o incômodo visível; o gesto correto resolve com clareza"
+    },
+    {
+      "newName": "Bancada de comparação por esforço",
+      "comparison": "Implante como conjunto didático modular",
+      "score": 0.082,
+      "comparisonId": "implante-como-conjunto-didatico-modular",
+      "newAction": "O mesmo gesto autorizado é executado nas mesmas condições e os limites ficam visíveis"
+    },
+    {
+      "newName": "Campanha de silêncio conquistado",
+      "comparison": "Consumo em janela de condição de uso",
+      "score": 0.082,
+      "comparisonId": "consumo-em-janela-de-condicao-de-uso",
+      "newAction": "Fontes sonoras cessam uma a uma até revelar a condição de uso do produto"
+    },
+    {
+      "newName": "Guia de presente por histórias",
+      "comparison": "Encaústica de memória translúcida",
+      "score": 0.047,
+      "comparisonId": "encaustica-de-memoria-translucida",
+      "newAction": "Uma lembrança filmada motiva a escolha de cada presente"
+    },
+    {
+      "newName": "Campanha de manutenção preventiva",
+      "comparison": "Pet em uso cotidiano",
+      "score": 0.105,
+      "comparisonId": "pet-em-uso-cotidiano",
+      "newAction": "Um detalhe pede atenção, a manutenção acontece e o uso é retomado"
+    },
+    {
+      "newName": "Cena interrompida por pergunta útil",
+      "comparison": "Estafeta entre cenários de uso",
+      "score": 0.098,
+      "comparisonId": "estafeta-entre-cenarios-de-uso",
+      "newAction": "A ação pausa no ponto de decisão e continua após a explicação"
+    },
+    {
+      "newName": "Teste de transporte em percurso real",
+      "comparison": "Percurso de acessibilidade",
+      "score": 0.132,
+      "comparisonId": "percurso-de-acessibilidade",
+      "newAction": "A mesma carga percorre o trajeto com continuidade de peso e posição"
+    },
+    {
+      "newName": "Campanha em ensaio de montagem",
+      "comparison": "Food cinematográfico",
+      "score": 0.073,
+      "comparisonId": "food-cinematografico",
+      "newAction": "A preparação é parte da história e culmina numa composição final limpa"
+    },
+    {
+      "newName": "Produto acessível em gesto adaptado",
+      "comparison": "Pet em uso cotidiano",
+      "score": 0.119,
+      "comparisonId": "pet-em-uso-cotidiano",
+      "newAction": "Uma pessoa autorizada demonstra uma forma específica de uso com enquadramento claro"
+    },
+    {
+      "newName": "Uma função explicada por som e imagem",
+      "comparison": "Crônica guiada pelo som",
+      "score": 0.096,
+      "comparisonId": "cronica-guiada-pelo-som",
+      "newAction": "A ação acontece, o som é isolado e a imagem explica sua origem"
+    },
+    {
+      "newName": "O que permanece na entrega",
+      "comparison": "Oferta em recibo de condições visíveis",
+      "score": 0.073,
+      "comparisonId": "oferta-em-recibo-de-condicoes-visiveis",
+      "newAction": "Cada item confirmado ganha identificação enquanto a câmera permanece no mesmo plano"
+    },
+    {
+      "newName": "Condomínio explicado por serviços",
+      "comparison": "Áreas comuns em sequência",
+      "score": 0.06,
+      "comparisonId": "areas-comuns-em-sequencia",
+      "newAction": "Um serviço aparece em uso e sua responsabilidade é apresentada com fonte"
+    },
+    {
+      "newName": "Visita com percurso de mudança",
+      "comparison": "Percurso de acessibilidade",
+      "score": 0.128,
+      "comparisonId": "percurso-de-acessibilidade",
+      "newAction": "O percurso documentado segue portaria, elevador e entrada com restrições indicadas"
+    },
+    {
+      "newName": "Garagem em manobra documentada",
+      "comparison": "Percurso de acessibilidade",
+      "score": 0.07,
+      "comparisonId": "percurso-de-acessibilidade",
+      "newAction": "O veículo entra, manobra e estaciona numa única continuidade observável"
+    },
+    {
+      "newName": "Documentos da compra em mesa real",
+      "comparison": "Infografia de dados",
+      "score": 0.124,
+      "comparisonId": "infografia-de-dados",
+      "newAction": "Documentos entram na ordem da análise e cada finalidade recebe explicação breve"
+    },
+    {
+      "newName": "Imóvel vazio em leitura de rotina",
+      "comparison": "Avatar do corretor sobre fotos",
+      "score": 0.085,
+      "comparisonId": "avatar-do-corretor-sobre-fotos",
+      "newAction": "Trajetos de atividades aparecem sem inserir móveis ou alterar paredes"
+    },
+    {
+      "newName": "Visita de detalhes que costumam faltar",
+      "comparison": "Portfólio em revisão multicâmera",
+      "score": 0.06,
+      "comparisonId": "progresso-por-evidencias-de-pratica",
+      "newAction": "Cada detalhe é aberto ou acionado em filmagem autorizada"
+    },
+    {
+      "newName": "Locação em calendário de ocupação",
+      "comparison": "Calendário cenográfico de lançamento",
+      "score": 0.113,
+      "comparisonId": "campanha-calendario-cenografico-de-lancamento",
+      "newAction": "Datas confirmadas ocupam o calendário e revelam etapas da entrada"
+    },
+    {
+      "newName": "Reforma possível versus existente",
+      "comparison": "Blueprint",
+      "score": 0.067,
+      "comparisonId": "blueprint",
+      "newAction": "Uma proposta aparece em painel separado sem substituir a condição atual"
+    },
+    {
+      "newName": "Visita em altura de quem habita",
+      "comparison": "Painel de pinos animados",
+      "score": 0.078,
+      "comparisonId": "painel-de-pinos-animados",
+      "newAction": "O percurso mostra alcance e campo de visão sem inventar dimensões"
+    },
+    {
+      "newName": "Modo offline e reconciliação real",
+      "comparison": "Tour de uma funcionalidade",
+      "score": 0.074,
+      "comparisonId": "tour-de-uma-funcionalidade",
+      "newAction": "A conexão cai, uma ação suportada é salva e sincroniza com confirmação real"
+    },
+    {
+      "newName": "Comando com confirmação humana",
+      "comparison": "Manual em montagem editorial",
+      "score": 0.075,
+      "comparisonId": "campanha-manual-em-montagem-editorial",
+      "newAction": "O sistema propõe uma ação, o usuário revisa e o registro confirma a execução"
+    },
+    {
+      "newName": "Busca sem resultado que ensina",
+      "comparison": "Busca que refina resultados",
+      "score": 0.094,
+      "comparisonId": "busca-que-refina-resultados",
+      "newAction": "A pesquisa falha, um filtro é corrigido e um resultado real aparece"
+    },
+    {
+      "newName": "Comparação de planos por tarefa",
+      "comparison": "Comparação de fluxo",
+      "score": 0.067,
+      "comparisonId": "comparacao-de-fluxo",
+      "newAction": "O usuário tenta a tarefa e vê o plano e condição necessários sem promessa falsa"
+    },
+    {
+      "newName": "Exportação que chega ao destino",
+      "comparison": "Máquina de estados à vista",
+      "score": 0.093,
+      "comparisonId": "maquina-de-estados-a-vista",
+      "newAction": "O filtro é aplicado, o arquivo exportado abre e os valores são conferidos"
+    },
+    {
+      "newName": "Desfazer como rede de segurança",
+      "comparison": "Orçamento em simulação reversível",
+      "score": 0.051,
+      "comparisonId": "orcamento-em-simulacao-reversivel",
+      "newAction": "Uma mudança é feita, desfeita e reaplicada sem edição enganosa"
+    },
+    {
+      "newName": "Agendamento sob fusos diferentes",
+      "comparison": "Notificação do gatilho à leitura",
+      "score": 0.045,
+      "comparisonId": "notificacao-do-gatilho-a-leitura",
+      "newAction": "O horário é escolhido num fuso e a correspondência aparece no outro"
+    },
+    {
+      "newName": "IA com fonte rastreável",
+      "comparison": "Resposta visual a objeções",
+      "score": 0.091,
+      "comparisonId": "resposta-visual-a-objecoes",
+      "newAction": "A resposta aponta sua fonte; o trecho é aberto e os limites são explicados"
+    },
+    {
+      "newName": "Configuração segura em ambiente de teste",
+      "comparison": "Transparência do tecido em luz de leitura",
+      "score": 0.062,
+      "comparisonId": "transparencia-do-tecido-em-luz-de-leitura",
+      "newAction": "Uma regra é testada, o resultado inspecionado e a publicação permanece separada"
+    },
+    {
+      "newName": "Checkout recuperado com motivo claro",
+      "comparison": "Erro e recuperação guiada",
+      "score": 0.071,
+      "comparisonId": "erro-e-recuperacao-guiada",
+      "newAction": "O erro explica o motivo disponível e o usuário escolhe a alternativa suportada"
+    },
+    {
+      "newName": "Tese em pedestal de silêncio",
+      "comparison": "Palavras costuradas por continuidade",
+      "score": 0.099,
+      "comparisonId": "palavras-costuradas-por-continuidade",
+      "newAction": "A frase permanece; uma única palavra muda após a evidência narrada"
+    },
+    {
+      "newName": "Apresentação em fichário de evidências",
+      "comparison": "História contada por comprovantes",
+      "score": 0.062,
+      "comparisonId": "historia-contada-por-comprovantes",
+      "newAction": "Uma ficha mostra a afirmação e a próxima revela sua evidência específica"
+    },
+    {
+      "newName": "Argumento por escala de recuo",
+      "comparison": "Editorial tipográfico em profundidade",
+      "score": 0.084,
+      "comparisonId": "editorial-tipografico-em-profundidade",
+      "newAction": "A câmera recua por patamares de leitura com pausas suficientes"
+    },
+    {
+      "newName": "Apresentação por transparência de premissas",
+      "comparison": "Areia sobre luz",
+      "score": 0.095,
+      "comparisonId": "areia-sobre-luz",
+      "newAction": "Cada premissa se acende e a conclusão aparece somente ao reuni-las"
+    },
+    {
+      "newName": "Tipografia em placas de metrô",
+      "comparison": "Vitrine entre placas de gelo cenográfico",
+      "score": 0.137,
+      "comparisonId": "vitrine-entre-placas-de-gelo-cenografico",
+      "newAction": "A câmera segue uma linha de leitura até a próxima ideia sinalizada"
+    },
+    {
+      "newName": "Pausa gráfica entre argumentos",
+      "comparison": "Termografia como linguagem",
+      "score": 0.076,
+      "comparisonId": "termografia-como-linguagem",
+      "newAction": "O bloco anterior sai, o vazio sustenta a pausa e o próximo argumento entra"
+    },
+    {
+      "newName": "Apresentação de hipótese em lápis",
+      "comparison": "Hipótese que se desfaz em evidência",
+      "score": 0.125,
+      "comparisonId": "hipotese-que-se-desfaz-em-evidencia",
+      "newAction": "A hipótese recebe rasuras visíveis e se estabiliza após o teste"
+    },
+    {
+      "newName": "Tipografia de margem escalonada",
+      "comparison": "Legenda como faixa editorial móvel",
+      "score": 0.055,
+      "comparisonId": "campanha-legenda-como-faixa-editorial-movel",
+      "newAction": "Cada recuo revela nível de argumento sem reduzir excessivamente a fonte"
+    },
+    {
+      "newName": "Exposição de números por unidade",
+      "comparison": "Exposição de uma ideia",
+      "score": 0.075,
+      "comparisonId": "exposicao-de-uma-ideia",
+      "newAction": "Objetos entram em grupos legíveis e a unidade permanece junto ao número"
+    },
+    {
+      "newName": "Conclusão em desmontagem de frase",
+      "comparison": "Frase que reorganiza o quadro",
+      "score": 0.1,
+      "comparisonId": "campanha-frase-que-reorganiza-o-quadro",
+      "newAction": "Termos acessórios saem até permanecer uma conclusão precisa"
+    },
+    {
+      "newName": "Anfitriã em estação de rádio comunitária",
+      "comparison": "Curadora fictícia em planetário cênico",
+      "score": 0.071,
+      "comparisonId": "curadora-ficticia-em-planetario-cenico",
+      "newAction": "Olha para a câmera, apresenta um tópico e um insert mostra o material citado"
+    },
+    {
+      "newName": "Apresentador em oficina de bicicletas",
+      "comparison": "Apresentadora de campo em jardim",
+      "score": 0.058,
+      "comparisonId": "apresentadora-de-campo-em-jardim",
+      "newAction": "Fala à câmera com mãos livres; planos separados mostram a peça em uso"
+    },
+    {
+      "newName": "Guia em observatório de campo",
+      "comparison": "Apresentadora casual em cozinha",
+      "score": 0.071,
+      "comparisonId": "apresentadora-casual-em-cozinha",
+      "newAction": "Apresenta à câmera e a montagem alterna instrumentos e céu documentado"
+    },
+    {
+      "newName": "Anfitrião em cozinha de escola técnica",
+      "comparison": "Apresentadora casual em cozinha",
+      "score": 0.065,
+      "comparisonId": "apresentadora-casual-em-cozinha",
+      "newAction": "Fala de frente e entra um plano detalhe separado da técnica explicada"
+    },
+    {
+      "newName": "Mediadora em auditório vazio",
+      "comparison": "Apresentadora despojada em café externo",
+      "score": 0.066,
+      "comparisonId": "apresentadora-despojada-em-cafe-externo",
+      "newAction": "Abre a apresentação olhando para a câmera e o telão recebe tópicos editáveis"
+    },
+    {
+      "newName": "Apresentador em estufa de pesquisa",
+      "comparison": "Apresentador casual na praia",
+      "score": 0.077,
+      "comparisonId": "apresentador-casual-na-praia",
+      "newAction": "Fala de frente com gestos pequenos; inserts mostram folhas sem deformação"
+    },
+    {
+      "newName": "Curadora em reserva de museu",
+      "comparison": "Curadora fictícia em planetário cênico",
+      "score": 0.093,
+      "comparisonId": "curadora-ficticia-em-planetario-cenico",
+      "newAction": "Introduz a coleção à câmera; detalhes dos objetos entram em planos independentes"
+    },
+    {
+      "newName": "Anfitrião em pista de skate vazia",
+      "comparison": "Repórter fictício entre janelas móveis",
+      "score": 0.109,
+      "comparisonId": "reporter-ficticio-entre-janelas-moveis",
+      "newAction": "Fala em posição estável olhando à câmera e B-roll separado apresenta o ambiente"
+    },
+    {
+      "newName": "Apresentadora em laboratório de materiais",
+      "comparison": "Apresentadora urbana ao ar livre",
+      "score": 0.087,
+      "comparisonId": "apresentadora-urbana-ao-ar-livre",
+      "newAction": "Explica à câmera; uma demonstração real ou ilustrativa identificada ocupa o insert"
+    },
+    {
+      "newName": "Anfitrião em marina de trabalho",
+      "comparison": "Apresentador maduro em biblioteca",
+      "score": 0.114,
+      "comparisonId": "apresentador-maduro-em-biblioteca",
+      "newAction": "Apresenta à câmera com barco estável ao fundo e cortes de contexto"
+    },
+    {
+      "newName": "Consentimento explicado em mesa de opções",
+      "comparison": "Relógio visual de uma decisão",
+      "score": 0.082,
+      "comparisonId": "relogio-visual-de-uma-decisao",
+      "newAction": "Benefícios, riscos e alternativas são expostos sem pressionar uma escolha"
+    },
+    {
+      "newName": "Como descrever um sintoma",
+      "comparison": "Diário de observações em trilhos paralelos",
+      "score": 0.092,
+      "comparisonId": "diario-de-observacoes-em-trilhos-paralelos",
+      "newAction": "Uma observação é organizada em quando, onde e como para levar à consulta"
+    },
+    {
+      "newName": "Medicamentos organizados para consulta",
+      "comparison": "Cinema com dados",
+      "score": 0.07,
+      "comparisonId": "cinema-com-dados",
+      "newAction": "Itens são registrados sem sugerir mudança de dose ou suspensão"
+    },
+    {
+      "newName": "Sala de espera de baixa estimulação",
+      "comparison": "Percurso de acessibilidade",
+      "score": 0.064,
+      "comparisonId": "percurso-de-acessibilidade",
+      "newAction": "O percurso de chegada é mostrado lentamente com sons discretos"
+    },
+    {
+      "newName": "Pós-procedimento com sinais de contato",
+      "comparison": "Retorno assistido por portas de contato",
+      "score": 0.13,
+      "comparisonId": "retorno-assistido-por-portas-de-contato",
+      "newAction": "Cuidados esperados e sinais para procurar orientação aparecem em grupos separados"
+    },
+    {
+      "newName": "Perguntas sobre anestesia em cenário real",
+      "comparison": "Dados com narrativa editorial",
+      "score": 0.113,
+      "comparisonId": "dados-com-narrativa-editorial",
+      "newAction": "Uma pergunta por vez recebe explicação e indicação de avaliação individual"
+    },
+    {
+      "newName": "Odontologia preventiva para cuidadores",
+      "comparison": "Escovação em teatro de superfícies",
+      "score": 0.092,
+      "comparisonId": "escovacao-em-teatro-de-superficies",
+      "newAction": "O gesto é mostrado de dois ângulos com pressão e sequência aprovadas"
+    },
+    {
+      "newName": "Rotina de fotoproteção sem milagre",
+      "comparison": "Pele em luz padronizada",
+      "score": 0.067,
+      "comparisonId": "pele-em-luz-padronizada",
+      "newAction": "Ações complementares são demonstradas sem filtro de embelezamento"
+    },
+    {
+      "newName": "Exame infantil em ensaio com brinquedo",
+      "comparison": "Rastro técnico sobre gesto real",
+      "score": 0.047,
+      "comparisonId": "campanha-rastro-tecnico-sobre-gesto-real",
+      "newAction": "O profissional explica a sequência no brinquedo antes do procedimento real"
+    },
+    {
+      "newName": "Direito de perguntar em consulta",
+      "comparison": "Apresentador acessível em coworking",
+      "score": 0.094,
+      "comparisonId": "apresentador-acessivel-em-coworking",
+      "newAction": "Uma pausa abre espaço à dúvida e a resposta é resumida para confirmação"
+    },
+    {
+      "newName": "Conteúdo da caixa em ordem de conferência",
+      "comparison": "Recebimento em mesa de conferência",
+      "score": 0.114,
+      "comparisonId": "recebimento-em-mesa-de-conferencia",
+      "newAction": "Cada item sai da caixa e ocupa sua posição de conferência"
+    },
+    {
+      "newName": "Compatibilidade por versão exata",
+      "comparison": "Consumível em encaixe de reposição",
+      "score": 0.102,
+      "comparisonId": "consumivel-em-encaixe-de-reposicao",
+      "newAction": "O código é conferido antes do encaixe documentado"
+    },
+    {
+      "newName": "Produto dobrado versus em uso",
+      "comparison": "Díptico documentado entre dia e hora azul",
+      "score": 0.088,
+      "comparisonId": "diptico-documentado-entre-dia-e-hora-azul",
+      "newAction": "O mecanismo real abre e fecha com dimensões verificadas nas duas condições"
+    },
+    {
+      "newName": "Detalhe de fecho em gesto contínuo",
+      "comparison": "Cinema subaquático",
+      "score": 0.063,
+      "comparisonId": "cinema-subaquatico",
+      "newAction": "Abrir e fechar acontece sem cortes que escondam dificuldade"
+    },
+    {
+      "newName": "Leitura de manual em ação real",
+      "comparison": "Manual em montagem editorial",
+      "score": 0.134,
+      "comparisonId": "campanha-manual-em-montagem-editorial",
+      "newAction": "A instrução é lida e executada numa ação contínua"
+    },
+    {
+      "newName": "Textura comparada com objeto cotidiano",
+      "comparison": "Pele em luz padronizada",
+      "score": 0.145,
+      "comparisonId": "pele-em-luz-padronizada",
+      "newAction": "A mão mostra flexibilidade e textura sem alterar cor ou superfície"
+    },
+    {
+      "newName": "Reposição de peça em bancada limpa",
+      "comparison": "Consumível em encaixe de reposição",
+      "score": 0.194,
+      "comparisonId": "consumivel-em-encaixe-de-reposicao",
+      "newAction": "A peça antiga sai e a nova entra com encaixe e limites documentados"
+    },
+    {
+      "newName": "Validade e lote em leitura ampliada",
+      "comparison": "Rótulo como painel de exposição",
+      "score": 0.079,
+      "comparisonId": "rotulo-como-painel-de-exposicao",
+      "newAction": "O local do código é apontado e a leitura explica seu significado sem reescrever rótulo"
+    },
+    {
+      "newName": "Uso em mãos de tamanhos diferentes",
+      "comparison": "Escala humana comparada",
+      "score": 0.097,
+      "comparisonId": "escala-humana-comparada",
+      "newAction": "O gesto é repetido sem alterar escala do produto e mostra limites de alcance"
+    },
+    {
+      "newName": "Pedido personalizado em prova digital",
+      "comparison": "Rótulo como painel de exposição",
+      "score": 0.116,
+      "comparisonId": "rotulo-como-painel-de-exposicao",
+      "newAction": "Texto ou arte são conferidos numa prova antes da produção"
+    },
+    {
+      "newName": "Aula zero em laboratório de pré-requisitos",
+      "comparison": "Caso de uso",
+      "score": 0.05,
+      "comparisonId": "caso-de-uso",
+      "newAction": "Cada pré-requisito é verificado numa tarefa curta antes de começar"
+    },
+    {
+      "newName": "Uma habilidade em critério de domínio",
+      "comparison": "Caso de aluno em documentário com evidências",
+      "score": 0.086,
+      "comparisonId": "caso-de-aluno-em-evidencia-autorizada",
+      "newAction": "O avaliador aponta evidências para cada critério sem notas inventadas"
+    },
+    {
+      "newName": "Curso por dentro em visita guiada real",
+      "comparison": "Boas-vindas com professor em cenário real",
+      "score": 0.076,
+      "comparisonId": "primeira-aula-em-corredor-de-orientacao",
+      "newAction": "Uma aula, material e exercício reais são abertos com continuidade"
+    },
+    {
+      "newName": "Tempo de estudo em agenda possível",
+      "comparison": "Estudo solar identificado",
+      "score": 0.108,
+      "comparisonId": "estudo-solar-identificado",
+      "newAction": "O curso é distribuído em intervalos plausíveis sem prometer resultado em prazo fixo"
+    },
+    {
+      "newName": "Dificuldade assumida em bastidor de treino",
+      "comparison": "Erro e recuperação guiada",
+      "score": 0.107,
+      "comparisonId": "erro-e-recuperacao-guiada",
+      "newAction": "O erro é mostrado, a correção explicada e nova tentativa comparada"
+    },
+    {
+      "newName": "Prévia de exercício com solução parcial",
+      "comparison": "Apresentador esportivo em parque",
+      "score": 0.051,
+      "comparisonId": "apresentador-esportivo-em-parque",
+      "newAction": "O professor demonstra o raciocínio inicial e convida à prática restante"
+    },
+    {
+      "newName": "Mapa de trilhas por experiência prévia",
+      "comparison": "Mapa de materiais por ambiente",
+      "score": 0.05,
+      "comparisonId": "mapa-de-materiais-por-ambiente",
+      "newAction": "Um diagnóstico simples indica percurso introdutório ou avançado com limites claros"
+    },
+    {
+      "newName": "Biblioteca de dúvidas em objetos de cena",
+      "comparison": "Mini-aula com demonstração multicâmera",
+      "score": 0.078,
+      "comparisonId": "aula-amostra-em-bancada-de-raciocinio",
+      "newAction": "Uma dúvida recorrente escolhe o objeto e desencadeia demonstração filmada"
+    },
+    {
+      "newName": "Devolutiva em três camadas de trabalho",
+      "comparison": "Garantia em camadas de cobertura",
+      "score": 0.058,
+      "comparisonId": "garantia-em-camadas-de-cobertura",
+      "newAction": "Cada camada de feedback aparece com exemplo e ação de melhoria"
+    },
+    {
+      "newName": "Certificação explicada por evidências",
+      "comparison": "Caso de uso",
+      "score": 0.077,
+      "comparisonId": "caso-de-uso",
+      "newAction": "O que é exigido e o que o certificado não garante aparecem em sequência"
+    },
+    {
+      "newName": "Campanha em obturador de facetas",
+      "comparison": "Colagem com rotoscopia",
+      "score": 0.09,
+      "comparisonId": "colagem-com-rotoscopia",
+      "newAction": "Facetas giram por dobradiças diferentes e revelam o objeto com oclusão coerente"
+    },
+    {
+      "newName": "Mensagem em elevador cenográfico",
+      "comparison": "Desafio em placar de tarefa",
+      "score": 0.073,
+      "comparisonId": "desafio-de-turma-em-mosaico-de-tentativas",
+      "newAction": "Uma plataforma leva a ideia a outro nível e a mensagem final ocupa o topo"
+    },
+    {
+      "newName": "Campanha de pigmento em sedimentação",
+      "comparison": "Pastel seco",
+      "score": 0.089,
+      "comparisonId": "pastel-seco",
+      "newAction": "Camadas se depositam por densidade e revelam uma composição estável"
+    },
+    {
+      "newName": "Palavra em trilho de montagem industrial",
+      "comparison": "Mecânica em transparência controlada",
+      "score": 0.061,
+      "comparisonId": "campanha-mecanica-em-transparencia-controlada",
+      "newAction": "Cada estação resolve um componente e a palavra termina legível"
+    },
+    {
+      "newName": "Anúncio em cenário de contraluz recortável",
+      "comparison": "Paisagem de matéria-prima confirmada",
+      "score": 0.084,
+      "comparisonId": "paisagem-de-materia-prima-confirmada",
+      "newAction": "Painéis se movem e a luz reconstrói o ambiente sem mover o produto"
+    },
+    {
+      "newName": "Campanha por transição de focalização física",
+      "comparison": "Editorial tipográfico em profundidade",
+      "score": 0.065,
+      "comparisonId": "editorial-tipografico-em-profundidade",
+      "newAction": "O foco passa do detalhe à evidência, enquanto o texto essencial permanece legível"
+    },
+    {
+      "newName": "Benefício em mecanismo de came",
+      "comparison": "Canvas de raciocínio causal",
+      "score": 0.07,
+      "comparisonId": "canvas-de-raciocinio-causal",
+      "newAction": "O came gira, o seguidor sobe e o resultado demonstra uma relação causal"
+    },
+    {
+      "newName": "Campanha de arena tipográfica",
+      "comparison": "Stop motion",
+      "score": 0.079,
+      "comparisonId": "stop-motion",
+      "newAction": "A câmera percorre um arco curto e as palavras mudam de posição sem colidir"
+    },
+    {
+      "newName": "Identidade em painel de cabos tensionados",
+      "comparison": "Pontilhismo cromático",
+      "score": 0.067,
+      "comparisonId": "pontilhismo-cromatico",
+      "newAction": "Cabos são tensionados até formar uma silhueta estável e reconhecível"
+    },
+    {
+      "newName": "Mensagem em relevo de superfície mutável",
+      "comparison": "Títulos em relevo por luz rasante",
+      "score": 0.122,
+      "comparisonId": "titulos-em-relevo-por-luz-rasante",
+      "newAction": "Atuadores levantam uma forma por vez e a superfície retorna sem tremulação"
+    }
+  ]
+}

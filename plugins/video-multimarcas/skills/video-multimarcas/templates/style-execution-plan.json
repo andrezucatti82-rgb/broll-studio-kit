@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "status": "planning",
+  "catalogSnapshot": {
+    "version": "",
+    "source": "",
+    "sha256": ""
+  },
+  "targetDurationSeconds": null,
+  "selectedStyles": [],
+  "styleRoles": [],
+  "capabilities": [],
+  "deviations": [],
+  "preproductionRecord": "preproduction-plan.json",
+  "sample": {
+    "targetSeconds": 10,
+    "shotIds": [],
+    "selectionReason": "",
+    "file": "",
+    "sha256": "",
+    "appearance": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "movement": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "text": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "identity": {
+      "status": "not_run",
+      "evidence": []
+    },
+    "userApproval": {
+      "status": "pending",
+      "evidence": ""
+    }
+  },
+  "visualAlignment": [],
+  "sequenceInterpretation": "Quatro estados de referência; quantidade e duração dos planos definidas pelo roteiro e pela locução."
+}

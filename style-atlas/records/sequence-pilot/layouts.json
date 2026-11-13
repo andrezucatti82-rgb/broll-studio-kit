@@ -1,0 +1,24 @@
+[
+  {
+    "key": "layout-desktop",
+    "prompt": "Create a polished DESKTOP website UI concept image, wide 16:10. Use first attached approved layout as faithful design reference, cream background, navy Geist typography, electric blue GDA wordmark, thin borders, spacious professional editorial layout. Replace book content with the FOUR iris-stage film frames from second attachment. Preserve those compositions and product; display all frames complete with no cropping. Header gda | Biblioteca de estilos, secondary link Biblioteca completa. Top compact category selector Motion Design de Campanha. Title 'Peça única em palco de íris'. Left large portrait HERO uses the opening iris with bottle (top right of reference board). Right 3 portrait images: closed iris, close detail bottle, full final stage. Heading 'Como a história evolui'. Labels '01 · Abertura', '02 · Transformação', '03 · Fechamento'; short Portuguese captions about mechanical reveal. Bottom sound icon plus 'Voz + foley mecânico + trilha cinematográfica'. Buttons 'Gostei deste exemplo' blue and 'Ampliar sequência' outline. Footer 'Conceito estático · movimento depende da amostra.' Small upper eyebrow 'PROPOSTA VISUAL PARA APROVAÇÃO'. Minimal compact copy, imagery visually dominant. This is a design mockup for approval, not a screenshot of tested software. No phone frame, no fake play buttons.",
+    "src": "style-atlas/dist/assets/film-layouts/layout-desktop.webp",
+    "width": 1586,
+    "height": 992,
+    "sourceFile": "exec-0f362693-b1d9-47fc-a12f-78a17d16f5b1.png",
+    "sourceSHA256": "3160c4482ca38c660a4de9ff811a7de1fe9aa829906f4f8dedb9af06cf71805b",
+    "sha256": "fa05384eae8a520b9a6619a61ab481886c349ced06efa6d69366a83b4a12317e",
+    "type": "AI-generated UI concept, not a browser screenshot"
+  },
+  {
+    "key": "layout-mobile",
+    "prompt": "Create a MOBILE website layout concept screenshot, tall 9:16 canvas, cream/navy/electric-blue GDA design matching first attachment, using images from second attachment. Phone-width responsive UI without physical device bezel. Header gda and Biblioteca. Compact category dropdown 'Motion Design de Campanha'. Heading 'Peça única em palco de íris'. Large portrait image of opened copper iris exposing ivory bottle, full composition, dominant width of page and about half total screen height. Under it 'Como a história evolui' and 'Deslize para ver a sequência →'. Below horizontal carousel preview with two visible portrait thumbnails of closed iris and bottle detail and hint of next, captions 01 Abertura, 02 Transformação. Bottom action blue 'Gostei deste exemplo' and compact outline expand icon. Very short footer 'Conceito estático · aprovação pendente'. Premium clean UI, generous image, concise text, realistic touch sizes, no tiny paragraph, no distorted artwork. This is a layout concept for approval, not proof of browser testing. Keep full artwork in each visible thumbnail; carousel can extend offviewport but never crop the artwork within card.",
+    "src": "style-atlas/dist/assets/film-layouts/layout-mobile.webp",
+    "width": 941,
+    "height": 1672,
+    "sourceFile": "exec-0dcd3dc6-2a5e-4ff1-b0ff-f7d5ecf11cb8.png",
+    "sourceSHA256": "b139851f466236ef16b489cc9ceb76d5b0b12d8e925df2756ca318e84bb49faa",
+    "sha256": "b7311b0562306cbfa6f693ae1e14353b9af011133e5aea7dea7f369297aee511",
+    "type": "AI-generated UI concept, not a browser screenshot"
+  }
+]

@@ -24,4 +24,23 @@ class BudgetTests(unittest.TestCase):
    with self.assertRaises(ValueError):m.check_budget(d,1)
  def test_unsupported_media_mode_does_not_submit(self):
   with self.assertRaises(ValueError):m.payload_for({'model':'heygen-video-1','duration':10,'mode':'reference_to_video'},Path('.'))
-if __name__=='__main__':unittest.main()
+ def test_paid_generation_requires_direction_evidence(self):
+  with self.assertRaises(ValueError):m.verify_direction({},Path('/tmp/job.json'))
+ def test_reference_payload_keeps_order_and_disables_rewrite(self):
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d);(p/'one.png').write_bytes(b'fixture one');(p/'two.png').write_bytes(b'fixture two')
+   q=m.payload_for({'model':'heygen-video-1','duration':10,'mode':'reference_to_video','referenceImages':['two.png','one.png']},p)
+   self.assertEqual(q['prompt_enhancement'],'disabled');self.assertEqual(q['reference_images'][0]['data'],m.base64.b64encode(b'fixture two').decode())
+ def test_missing_checkpoint_never_calls_paid_api(self):
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d);job=p/'job.json';ledger=p/'ledger.json';job.write_text(json.dumps({'model':'heygen-video-1','duration':10,'mode':'text_to_video','reserveUSD':1}));ledger.write_text(json.dumps(self.ledger()))
+   with patch.object(m,'api') as api:
+    with self.assertRaises(ValueError):m.submit(job,ledger,True)
+    api.assert_not_called()
+ def test_subscription_account_without_wallet_has_clear_block(self):
+  with tempfile.TemporaryDirectory() as d:
+   p=Path(d);job=p/'job.json';ledger=p/'ledger.json';job.write_text(json.dumps({'model':'heygen-video-1','duration':10,'mode':'text_to_video','reserveUSD':1}));ledger.write_text(json.dumps(self.ledger()))
+   with patch.object(m,'check_visual_approval'),patch.object(m,'verify_direction'),patch.object(m,'api',return_value=({'data':{'wallet':None}},None)) as api:
+    with self.assertRaisesRegex(ValueError,'not interchangeable'):m.submit(job,ledger,True)
+    api.assert_called_once_with('/v3/users/me')
+if __name__=='__main__'  :unittest.main()

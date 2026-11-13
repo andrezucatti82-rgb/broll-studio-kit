@@ -1,0 +1,177 @@
+{
+  "scope": "Static concept review only; no playback or listening; no user approval of these new images.",
+  "reviews": [
+    {
+      "family": "apresentacoes",
+      "ids": "38 non-pilot styles in contact sheets 01–07",
+      "method": "Inspected all four states on contact sheets at 1500x1640 after 30 revisions.",
+      "observations": [
+        "Removed recurring unrelated presenter in 30 concepts.",
+        "Typography, glass, paper, scale, signage, evidence and physical objects now carry distinct narratives.",
+        "Changed hero for light-revealed relief to the final readable state; early frames intentionally show light before the title.",
+        "Six-unit example depicts six objects consistently.",
+        "Gear diagrams, data encodings and premise logic remain illustrative and require editable reconstruction and subject review."
+      ],
+      "decision": "Suitable as fictional static direction references; not proof of movement or final execution.",
+      "userApproval": "pending"
+    }
+  ],
+  "reviewedContactSheets": {
+    "apresentacoes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cinema": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "grafico": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "tecnologia": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "motion-campanha": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "ilustracao": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "materiais": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "motion": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "volume": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "hibridos": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "anuncios": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "campanhas": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "imoveis": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "software": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "avatares": [
+      1,
+      6
+    ],
+    "saude": [
+      1,
+      6
+    ],
+    "ecommerce": [
+      1
+    ],
+    "infoprodutores": [
+      1
+    ]
+  },
+  "limitations": [
+    "Contact-sheet inspection is not full-resolution proof of text, anatomy, physics or identity.",
+    "Some examples reuse similar fictional presenters; visual diversity is not uniform across the catalogue.",
+    "Reviewed concept directions are not audiovisual approvals; user approval is pending except the 36 pilots.",
+    "Magnetic-rod count and auxetic/rubber mechanics need reconstruction and verification, not scientific inference from these drawings.",
+    "Generated interfaces, medical copy, numbers and product claims require authorized sources and editable reconstruction before real production.",
+    "Browser rendering, touch interaction, canvas downloads and 375px inspection were unavailable in this session."
+  ],
+  "corrections": [
+    "cash flow dates and exits",
+    "data totals and energy-day comparison",
+    "fictional lot dimensions removed",
+    "counterexample logic refutes universal claim",
+    "mirror product copy",
+    "gear-axis concept",
+    "acoustic four-particle continuity"
+  ]
+}

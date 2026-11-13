@@ -1,0 +1,48 @@
+{
+  "sourceCommit": "d0a80b73fd37934a4ff1b765fe2c9a1f69fe363a",
+  "primary": {
+    "url": "https://videos.gerenciadordeanuncios.com.br/",
+    "workflowRun": 43354426228,
+    "status": "succeeded",
+    "desktopWidth": 1440,
+    "mobileWidth": 375,
+    "iconsPresent": true,
+    "shortcutNavigationPassed": true,
+    "galleryImagesPreserved": true,
+    "guidedProductionOnlineFlowsPassed": [
+      "product",
+      "service",
+      "interface"
+    ]
+  },
+  "page": {
+    "id": "page_05d0233621d081919b31df2863cab40b",
+    "visualSequence": 61,
+    "linkSequence": 62,
+    "nativeViewerTested": false
+  },
+  "repository": {
+    "id": 1446076282,
+    "canonical": "andrezucatti82-rgb/studio-kit-pro",
+    "renameVerified": true,
+    "mainMerged": false,
+    "futureDeploymentWorkflowUpdated": true
+  },
+  "mirror": {
+    "commit": "b366c38d71a6252eebe8fe9c3c18ee1626f60b8b",
+    "archive": "/workspace/deliveries/video-multimarcas-estilos/site.tar.gz",
+    "sha256": "b75ddd0c20b4b0c1cee70ef07161ec34b70caccbda8c23dbd3a16528c6b4b718",
+    "pushed": false,
+    "deployed": false,
+    "blocker": "Sites Git unavailable for this client; no existing Git authentication"
+  },
+  "checks": [
+    "npm ci",
+    "npm run check",
+    "npm test",
+    "npm run validate",
+    "Page build",
+    "local and online Chromium desktop/mobile",
+    "online guided production flows"
+  ]
+}

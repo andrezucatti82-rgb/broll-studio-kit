@@ -1,0 +1,1118 @@
+{
+  "cinema": [
+    {
+      "name": "Retrato em colódio de prata",
+      "scene": "Botanista fictícia numa estufa, retrato de placa úmida com prata nas bordas, ameixa e sépia",
+      "motion": "A revelação química avança pelas bordas e encontra o olhar imóvel",
+      "uses": "Retratos de ofícios, patrimônio e histórias de autoria"
+    },
+    {
+      "name": "Prata retida de turno noturno",
+      "scene": "Padeiro numa cozinha noturna, contraste bleach bypass, aço prateado e sombras oliva",
+      "motion": "Uma bandeja sai do forno; a exposição acompanha o vapor sem apagar os rostos",
+      "uses": "Bastidores industriais e campanhas de trabalho"
+    },
+    {
+      "name": "Sol de cromia reversível",
+      "scene": "Piscina modernista, guarda-sol vermelhão e água turquesa, fotografia de diapositivo saturado",
+      "motion": "Uma boia cruza a água e suas ondas levam ao plano seguinte",
+      "uses": "Turismo, verão e lazer com presença fotográfica"
+    },
+    {
+      "name": "Minerais sob luz ultravioleta",
+      "scene": "Pedras fluorescentes ciano e magenta em fundo negro absoluto, macro científico",
+      "motion": "A luz branca cede ao UV e revela emissão apenas nos minerais adequados",
+      "uses": "Exposições, ciência e materiais, sem atribuir fluorescência falsa"
+    },
+    {
+      "name": "Revelação por bandeira de luz",
+      "scene": "Bouquet fotográfico em teatro preto, pétalas parcialmente cobertas por anteparo opaco",
+      "motion": "Um anteparo físico atravessa o feixe e revela grupos de pétalas em sequência",
+      "uses": "Campanhas florais, iluminação e suspense elegante"
+    },
+    {
+      "name": "Arquitetura de verticais precisas",
+      "scene": "Escadaria brutalista fotografada em grande formato, pedra quente e perspectiva corrigida",
+      "motion": "Uma pessoa sobe e ocupa sucessivos patamares; a câmera conserva as verticais",
+      "uses": "Arquitetura autoral, escala e espaços institucionais"
+    },
+    {
+      "name": "Sala como câmera obscura",
+      "scene": "Um jardim invertido projetado pela janela sobre a parede escura de um quarto real",
+      "motion": "A janela abre, a projeção nasce e uma nuvem altera a luz do jardim",
+      "uses": "Educação óptica, hotéis e narrativas de descoberta"
+    },
+    {
+      "name": "Teleobjetiva de planos comprimidos",
+      "scene": "Dançarina de capa vermelha minúscula diante de muitas varandas rosas sobrepostas",
+      "motion": "A dançarina percorre uma passarela enquanto os planos comprimidos ocultam e revelam sua silhueta",
+      "uses": "Moda urbana, arquitetura e dança com escala"
+    },
+    {
+      "name": "Fotografia por sombra de líquido",
+      "scene": "Chá âmbar em vidro projeta desenho de líquido sobre reboco creme, mesa lateral iluminada",
+      "motion": "A infusão gira e sua sombra muda; o desenho se estabiliza para o fechamento",
+      "uses": "Bebidas, rituais e estudo fotográfico da transparência"
+    },
+    {
+      "name": "Noite sob lua e bioluminescência",
+      "scene": "Pescador distante junto a ondas naturalmente luminosas, céu azul profundo e lua suave",
+      "motion": "A onda quebra, ilumina a borda da praia e se apaga sem pulsação artificial",
+      "uses": "Turismo noturno e narrativas ambientais documentadas"
+    }
+  ],
+  "grafico": [
+    {
+      "name": "Índice editorial de bordas pintadas",
+      "scene": "Livro visto de lado com faixas cromáticas nos cortes, etiquetas largas e fundo terracota",
+      "motion": "Abas selecionam um capítulo e o corte colorido vira a faixa da mensagem",
+      "uses": "Séries editoriais e organização de serviços"
+    },
+    {
+      "name": "Placas esmaltadas de utilidade pública",
+      "scene": "Placas azul-cobalto e marfim com cantos arredondados, parafusos e letras condensadas",
+      "motion": "Uma placa de orientação gira no suporte e muda a hierarquia do aviso",
+      "uses": "Campanhas locais e informação prática"
+    },
+    {
+      "name": "Tarja editorial de transparência",
+      "scene": "Documento grande em preto e creme com lacunas deliberadas e uma evidência destacada em coral",
+      "motion": "Tarjas se afastam para revelar somente o trecho que sustenta a afirmação",
+      "uses": "Transparência, prestação de contas e divulgação de fontes"
+    },
+    {
+      "name": "Gráfico de embalagem farmacêutica histórica",
+      "scene": "Caixas tipográficas fictícias de arquivo com filetes finos, pêssego e verde escuro",
+      "motion": "Caixas abrem para organizar conceitos em doses editoriais sem alegações médicas",
+      "uses": "Conteúdo educativo com rigor e linguagem de arquivo"
+    },
+    {
+      "name": "Alfabeto de peças intercambiáveis",
+      "scene": "Letras montadas com segmentos cerâmicos azul e laranja sobre mesa clara",
+      "motion": "Segmentos mudam de encaixe e compõem a palavra seguinte com estrutura visível",
+      "uses": "Identidades flexíveis e mensagens de transformação"
+    },
+    {
+      "name": "Margem de revisão em tinta vermelha",
+      "scene": "Prova editorial com tipografia negra, marcas de revisão vermelhas e papel marfim",
+      "motion": "Uma correção muda a frase e evidencia a decisão editorial",
+      "uses": "Revisão, consultoria, escrita e melhoria de processos"
+    },
+    {
+      "name": "Desenho postal de aerograma",
+      "scene": "Envelope aberto azul pálido com borda aérea vermelha, linhas de rota e selo fictício",
+      "motion": "A dobra do aerograma transforma remetente em mensagem e destinatário",
+      "uses": "Comunicação internacional e histórias de conexão"
+    },
+    {
+      "name": "Ficha de biblioteca contemporânea",
+      "scene": "Gaveta de fichas verde-petróleo, índices tabulados creme e numeração tipográfica grande",
+      "motion": "Uma ficha sai da sequência e organiza o argumento principal",
+      "uses": "Curadoria, conhecimento e catálogos de serviços"
+    },
+    {
+      "name": "Letra de transparência encaixada",
+      "scene": "Dois alfabetos complementares impressos em lâminas fumê e amarelas, composição limpa",
+      "motion": "Lâminas se alinham e tornam uma única palavra legível",
+      "uses": "Parcerias e explicações de complementaridade"
+    },
+    {
+      "name": "Quadrícula de tear editorial",
+      "scene": "Tiras tipográficas largas atravessam uma trama ortogonal azul-noite e cru",
+      "motion": "Uma tira passa por cima e por baixo; a frase aparece no ponto de entrelaçamento",
+      "uses": "Marcas têxteis, colaboração e mensagens de conexão"
+    }
+  ],
+  "ilustracao": [
+    {
+      "name": "Sanguínea de gesto cotidiano",
+      "scene": "Desenho de mãos fazendo pão em giz vermelho-terra sobre papel amarelado",
+      "motion": "O gesto é redesenhado com linhas de construção que permanecem brevemente",
+      "uses": "Ofícios, alimentação e narrativas humanas"
+    },
+    {
+      "name": "Lápis de cor em papel negro",
+      "scene": "Mariposa desenhada com lápis opaco turquesa e amarelo sobre papel negro texturado",
+      "motion": "As asas abrem por poses desenhadas e o pigmento revela suas nervuras",
+      "uses": "Natureza, educação e editorial sensorial"
+    },
+    {
+      "name": "Aerógrafo de poster ensolarado",
+      "scene": "Prancha de surf e laranja em ilustração de aerógrafo, degradês precisos pêssego e azul",
+      "motion": "O volume recebe luz progressiva; uma faixa de sombra atravessa a prancha",
+      "uses": "Esporte, verão e publicidade nostálgica"
+    },
+    {
+      "name": "Desenho de grafite apagado",
+      "scene": "Retrato fictício surge em campo de grafite através de marcas claras de borracha",
+      "motion": "A borracha esculpe a luz; o contorno do rosto mantém anatomia estável",
+      "uses": "Retratos autorais e histórias de descoberta"
+    },
+    {
+      "name": "Tinta de esferográfica cruzada",
+      "scene": "Motocicleta desenhada inteiramente com hachura de caneta azul, papel branco",
+      "motion": "Camadas de hachura revelam roda, quadro e motor na ordem da explicação",
+      "uses": "Engenharia, oficinas e conteúdo de construção"
+    },
+    {
+      "name": "Pintura de esmalte sobre vidro",
+      "scene": "Peixes pintados no verso de vidro transparente, brilhos vítreos e fundo coral",
+      "motion": "O vidro muda levemente de inclinação e revela profundidade entre tinta e reflexo",
+      "uses": "Artesanato, cultura e coleções ilustradas"
+    },
+    {
+      "name": "Desenho simultâneo de duas mãos",
+      "scene": "Duas mãos reais desenham metades diferentes de uma cidade em carvão e azul",
+      "motion": "Os traços se encontram no centro e resolvem uma rua compartilhada",
+      "uses": "Cocriação, aprendizagem e colaboração"
+    },
+    {
+      "name": "Impressão de folhas como personagem",
+      "scene": "Folhas reais estampadas viram uma ave com nervuras visíveis em verde e ferrugem",
+      "motion": "As impressões se articulam preservando suas bordas e a ave dá um passo",
+      "uses": "Educação ambiental e personagens artesanais"
+    },
+    {
+      "name": "Monotipia de noite chuvosa",
+      "scene": "Rua noturna em impressão única com tinta azul arrastada e reflexos amarelos",
+      "motion": "Uma passagem de rolo revela reflexos e o guarda-chuva se desloca por recortes",
+      "uses": "Narrativas urbanas e projetos culturais"
+    },
+    {
+      "name": "Pintura em azulejo narrativo",
+      "scene": "Pequena cena de mercado em azulejos pintados azul e branco com craquelado real",
+      "motion": "Uma ação atravessa a junta dos azulejos e termina numa banca inteira",
+      "uses": "Patrimônio, turismo e gastronomia regional"
+    }
+  ],
+  "materiais": [
+    {
+      "name": "Papel machê de polpa aparente",
+      "scene": "Pera escultórica de polpa de papel rosa, fibras grossas, pedestal de cartão",
+      "motion": "Camadas úmidas se depositam sobre a forma e secam até revelar o objeto",
+      "uses": "Reciclagem e marcas de fazer manual"
+    },
+    {
+      "name": "Cortiça em mosaico de espessuras",
+      "scene": "Barco em peças de cortiça cortadas, poros visíveis e fundo azul profundo",
+      "motion": "Peças de diferentes espessuras encaixam e criam relevo funcional",
+      "uses": "Sustentabilidade e artesanato de materiais"
+    },
+    {
+      "name": "Veludo escovado em duas direções",
+      "scene": "Ondas desenhadas apenas pela orientação dos pelos de veludo verde escuro",
+      "motion": "Uma escova passa, muda o brilho e revela a marca do gesto",
+      "uses": "Têxteis, decoração e campanhas táteis"
+    },
+    {
+      "name": "Papel-carbono de transferência",
+      "scene": "Bicicleta em marcas azuis transferidas de uma folha de carbono preta",
+      "motion": "A pressão do traço imprime a cópia e o original é levantado",
+      "uses": "Cópia, memória e comunicação entre camadas"
+    },
+    {
+      "name": "Jornal de papel-semente",
+      "scene": "Folha artesanal com sementes aparentes e forma botânica em baixo relevo",
+      "motion": "Água escurece a fibra; um corte temporal identificado mostra germinação real",
+      "uses": "Produtos plantáveis e educação ambiental sem promessa universal"
+    },
+    {
+      "name": "Cerâmica raku de fissuras",
+      "scene": "Vaso raku negro com cobre iridescente e craquelado amplo sobre areia",
+      "motion": "A peça sai da caixa de redução e a fumaça revela o acabamento específico",
+      "uses": "Artesanato premium e processo de fabricação"
+    },
+    {
+      "name": "Fio metálico em escultura contínua",
+      "scene": "Cadeira de fio de cobre dobrado com sombras finas sobre fundo azul",
+      "motion": "O fio é dobrado em pontos definidos e termina numa estrutura estável",
+      "uses": "Design de objetos e explicação de estrutura"
+    },
+    {
+      "name": "Marcas de ferramenta em linóleo",
+      "scene": "Matriz de linóleo verde com sulcos de goiva e tinta creme fresca",
+      "motion": "A goiva remove uma faixa e a tinta entra somente na superfície elevada",
+      "uses": "Oficinas e materiais de impressão"
+    },
+    {
+      "name": "Pigmento prensado em argila seca",
+      "scene": "Discos de terra colorida comprimida com bordas quebradiças e relevo geométrico",
+      "motion": "Uma prensa imprime uma matriz e o pó solto se acomoda ao redor",
+      "uses": "Cosméticos sólidos e artesanato, com materiais reais confirmados"
+    },
+    {
+      "name": "Papel de arroz sob contraluz",
+      "scene": "Lanterna de papel de arroz com fibras longas, estrutura de bambu e luz âmbar",
+      "motion": "A lanterna se expande pela armação e a luz percorre suas fibras",
+      "uses": "Iluminação, acolhimento e projetos de interiores"
+    }
+  ],
+  "tecnologia": [
+    {
+      "name": "Curva acumulada como percurso",
+      "scene": "Escadaria gráfica de pontos acumulados em fundo branco, azul e laranja",
+      "motion": "Cada observação acrescenta um degrau; a curva informa a parcela atingida",
+      "uses": "Explicar distribuição e limites de desempenho"
+    },
+    {
+      "name": "Funil de sobrevivência por coortes",
+      "scene": "Linhas de permanência em verde e roxo sobre grade temporal clara",
+      "motion": "Coortes começam juntas e revelam perdas em momentos distintos",
+      "uses": "Retenção com dados reais e sem confundir correlação e causa"
+    },
+    {
+      "name": "Dot plot de diferenças pareadas",
+      "scene": "Pares de pontos conectados em linhas horizontais com rótulos grandes",
+      "motion": "Pontos se afastam conforme o valor; a distância mostra a diferença",
+      "uses": "Comparar produtos, períodos ou avaliações verificadas"
+    },
+    {
+      "name": "Faixa de previsão em leque",
+      "scene": "Linha histórica azul com leque de intervalos âmbar sobre fundo mineral",
+      "motion": "O passado se traça; cenários se abrem com intervalos e premissas visíveis",
+      "uses": "Previsões e planejamento sem certeza fictícia"
+    },
+    {
+      "name": "Diagrama de Venn em recortes",
+      "scene": "Três discos translúcidos de papel celofane com interseções legíveis",
+      "motion": "Grupos entram e a área comum ganha destaque com exemplos reais",
+      "uses": "Sobreposição de públicos, competências e conjuntos"
+    },
+    {
+      "name": "Waterfall de reconciliação",
+      "scene": "Blocos de acréscimo e desconto formando ponte entre dois totais",
+      "motion": "Cada variação entra na ordem contábil até reconciliar o saldo",
+      "uses": "Margem, custos e orçamento com origem de cada dado"
+    },
+    {
+      "name": "Gráfico de bala de metas",
+      "scene": "Barras horizontais com faixas neutras e marcador fino de meta",
+      "motion": "A barra de valor cresce até a medida e para diante da referência",
+      "uses": "Indicadores executivos e metas sem velocímetros decorativos"
+    },
+    {
+      "name": "Mapa de acessos por arcos horários",
+      "scene": "Anel de 24 horas com arcos proporcionais e centro vazio",
+      "motion": "Faixas de atividade surgem em horário real e isolam sobreposições",
+      "uses": "Uso de serviços, turnos e disponibilidade"
+    },
+    {
+      "name": "Mapa bivariado de duas medidas",
+      "scene": "Municípios fictícios em grade cromática azul e cobre, legenda quadrada grande",
+      "motion": "Uma dimensão entra por cor, a outra por intensidade; a legenda acompanha",
+      "uses": "Território e políticas, com fonte e limites geográficos"
+    },
+    {
+      "name": "Diagrama de fluxo de caixa por prazo",
+      "scene": "Linha temporal com setas de entradas e saídas em alturas distintas",
+      "motion": "Entradas e saídas ocupam suas datas, revelando o intervalo de necessidade",
+      "uses": "Educação financeira e planejamento sem promessas de retorno"
+    }
+  ],
+  "motion": [
+    {
+      "name": "Pêndulos em fase que se encontram",
+      "scene": "Pêndulos de madeira em arcos diferentes sobre fundo azul acinzentado",
+      "motion": "Oscilações independentes sincronizam por um instante e formam uma linha",
+      "uses": "Sincronização, equipe e ritmo de processos"
+    },
+    {
+      "name": "Animação por máscara de grade",
+      "scene": "Imagem de cavalo em tiras verticais sob grade preta deslizante",
+      "motion": "A grade atravessa as tiras e revela poses sequenciais sem mover a câmera",
+      "uses": "Divulgação cultural e demonstração de ilusão óptica"
+    },
+    {
+      "name": "Transferência por carrossel de rolos",
+      "scene": "Três cilindros impressos giram numa máquina editorial marfim e vermelho",
+      "motion": "Um desenho passa de rolo a rolo e chega inteiro ao papel",
+      "uses": "Processos, impressão e comunicação"
+    },
+    {
+      "name": "Ação em exposição de obturador",
+      "scene": "Dançarino visto como um arco contínuo de tecido e corpo nítido final",
+      "motion": "Uma ação deixa rastro seletivo e termina numa pose estável",
+      "uses": "Dança e esporte com leitura do gesto"
+    },
+    {
+      "name": "Balé de guindastes em miniatura",
+      "scene": "Peças geométricas grandes são erguidas por pequenos guindastes amarelos",
+      "motion": "Cabos içam, giram e assentam peças com contato e peso coerentes",
+      "uses": "Construção, logística e lançamentos de estrutura"
+    },
+    {
+      "name": "Revelação em anéis de crescimento",
+      "scene": "Disco de madeira mostra anéis concêntricos com pequenos cenários gravados",
+      "motion": "Anéis surgem do centro para fora e revelam etapas de uma história",
+      "uses": "Tempo, amadurecimento e legado"
+    },
+    {
+      "name": "Composição por levitação acústica",
+      "scene": "Pequenas esferas suspensas entre dois transdutores sobre bancada escura",
+      "motion": "Esferas ocupam nós de uma onda e mudam de posição de forma controlada",
+      "uses": "Ciência, inovação e metáforas identificadas de precisão"
+    },
+    {
+      "name": "Percurso por trilhos de agulha",
+      "scene": "Carrinhos coloridos percorrem trilhos que se bifurcam numa mesa branca",
+      "motion": "Uma agulha muda a rota de um carrinho e o leva ao destino destacado",
+      "uses": "Escolhas, roteamento e automação"
+    },
+    {
+      "name": "Desenho em tambor de luz",
+      "scene": "Tambor translúcido giratório com formas recortadas e projeção âmbar",
+      "motion": "O tambor gira e seus recortes projetam uma sequência no cenário",
+      "uses": "Identidades de eventos e artes de luz"
+    },
+    {
+      "name": "Coreografia de válvulas pneumáticas",
+      "scene": "Bolsas de tecido cilíndricas infladas em série sobre palco preto",
+      "motion": "Válvulas liberam ar em sequência e as bolsas mudam de altura com estabilidade",
+      "uses": "Tecnologia, respiração metafórica e instalações de marca"
+    }
+  ],
+  "volume": [
+    {
+      "name": "Aerogel de bordas luminosas",
+      "scene": "Bloco de aerogel azul quase invisível, luz lateral e objeto visto através dele",
+      "motion": "Uma luz contorna o bloco e revela o volume por espalhamento",
+      "uses": "Materiais e ciência com propriedades confirmadas"
+    },
+    {
+      "name": "Anodização em alumínio escovado",
+      "scene": "Peças de alumínio em oliva, cobre e azul com micro-ranhuras coerentes",
+      "motion": "A luz percorre a escovação enquanto uma peça se encaixa na outra",
+      "uses": "Eletrônicos e design industrial"
+    },
+    {
+      "name": "Sal cristalizado em evaporação",
+      "scene": "Bacia rasa turquesa com crostas de sal branco e cristalização facetada",
+      "motion": "A água recua em lapso temporal e os cristais crescem nas bordas",
+      "uses": "Processos naturais e materiais em transformação"
+    },
+    {
+      "name": "Borrachas de durezas distintas",
+      "scene": "Três blocos de borracha fosca em cores minerais sob um peso comum",
+      "motion": "O peso desce e cada bloco deforma conforme parâmetros declarados",
+      "uses": "Explicar elasticidade sem simular ensaio como prova real"
+    },
+    {
+      "name": "Couro perfurado com costura funcional",
+      "scene": "Bolsa fictícia em couro conhaque com perfurações precisas e costura creme",
+      "motion": "O fecho tensiona o couro e a costura acompanha sem atravessar a superfície",
+      "uses": "Moda e detalhes de fabricação"
+    },
+    {
+      "name": "Basalto poroso em corte lapidado",
+      "scene": "Pedra basáltica escura com face polida e cavidades ásperas num fundo areia",
+      "motion": "A peça gira parcialmente e alterna face lisa e porosa em luz rasante",
+      "uses": "Revestimentos e contrastes materiais"
+    },
+    {
+      "name": "Concreto translúcido de fibras ópticas",
+      "scene": "Painel cinza atravessado por minúsculos pontos luminosos de fibras",
+      "motion": "Uma mão passa atrás e a luz transmite sua sombra de forma descontínua",
+      "uses": "Arquitetura e materiais de iluminação"
+    },
+    {
+      "name": "Vidro espumado de célula aberta",
+      "scene": "Escultura de espuma vítrea verde com poros amplos e bordas brilhantes",
+      "motion": "A câmera cruza um poro real modelado e encontra a face posterior",
+      "uses": "Novos materiais e cenografia científica"
+    },
+    {
+      "name": "Lâminas piezoelétricas de flexão",
+      "scene": "Lâminas cerâmicas delgadas sobre suportes de cobre, geometria precisa",
+      "motion": "Uma lâmina flexiona pouco sob acionamento e retorna com amortecimento",
+      "uses": "Tecnologia de atuadores e explicações de movimento"
+    },
+    {
+      "name": "Madeira carbonizada em escamas",
+      "scene": "Prancha de madeira negra com escamas de carvão e veio quente exposto",
+      "motion": "Uma escova remove fuligem solta e revela o relevo carbonizado",
+      "uses": "Arquitetura, marcenaria e processos de superfície"
+    }
+  ],
+  "hibridos": [
+    {
+      "name": "História por aquilo que fica fora",
+      "scene": "Cadeira vazia, casaco e janela numa sala real, enquadramento lateral",
+      "motion": "Sons fora do quadro motivam pequenas mudanças nos objetos até revelar a chegada",
+      "uses": "Campanhas de expectativa e narrativa sem exposição direta"
+    },
+    {
+      "name": "Uma pergunta em quatro profissões",
+      "scene": "Quatro bancadas reais muito diferentes unidas por um objeto comum",
+      "motion": "A mesma pergunta recebe respostas concretas através de ações de cada ofício",
+      "uses": "Cultura de trabalho e posicionamento de marca"
+    },
+    {
+      "name": "Receita de decisão com tentativas",
+      "scene": "Mesa de teste com alternativas descartadas, marcas e resultado final",
+      "motion": "Cada tentativa deixa um vestígio; o acerto incorpora o aprendizado anterior",
+      "uses": "Processos criativos e educação sobre escolhas"
+    },
+    {
+      "name": "Narrativa por uma medida constante",
+      "scene": "Régua vertical fixa acompanha cenas de crescimento diferentes",
+      "motion": "O mundo muda ao redor da medida constante, tornando as diferenças legíveis",
+      "uses": "Evolução de projetos e comparações honestas"
+    },
+    {
+      "name": "Carta visual para o futuro",
+      "scene": "Pessoa guardando três objetos numa cápsula transparente com data fictícia",
+      "motion": "Um objeto presente evoca um cenário futuro explicitamente hipotético",
+      "uses": "Propósito, planejamento e campanhas de legado"
+    },
+    {
+      "name": "Duas versões de uma mesma tarefa",
+      "scene": "Uma tarefa filmada em duas soluções igualmente válidas, contraste de materiais",
+      "motion": "Os caminhos alternam e convergem no resultado, com limites de cada abordagem",
+      "uses": "Serviços, escolhas técnicas e decisões sem falsa dicotomia"
+    },
+    {
+      "name": "História narrada pelo intervalo",
+      "scene": "Fila de cadeiras e relógio de parede, pessoas reais em planos fixos",
+      "motion": "O tempo entre ações revela o problema; a solução reorganiza as esperas",
+      "uses": "Atendimento e eficiência sem números inventados"
+    },
+    {
+      "name": "Objeto emprestado entre desconhecidos",
+      "scene": "Guarda-chuva amarelo passa entre pessoas fictícias em espaços diversos",
+      "motion": "Cada pessoa resolve uma necessidade e entrega o objeto à próxima",
+      "uses": "Comunidade, circularidade e campanhas humanas"
+    },
+    {
+      "name": "Explicação pela exceção visível",
+      "scene": "Conjunto de objetos organizados e um único caso com regra diferente",
+      "motion": "A regra aparece, o caso excepcional interrompe e a explicação resolve a diferença",
+      "uses": "Educação, políticas e compreensão de limites"
+    },
+    {
+      "name": "Arquivo de uma coisa que mudou de nome",
+      "scene": "Etiquetas de épocas diferentes junto ao mesmo objeto preservado",
+      "motion": "Nomes são substituídos enquanto a câmera mantém o objeto como referência",
+      "uses": "História de serviços, linguagem e evolução de conceitos"
+    }
+  ],
+  "anuncios": [
+    {
+      "name": "Produto em bancada de alfaiataria",
+      "scene": "Fone fictício sobre base de modelagem, linhas de corte e ferramentas de precisão",
+      "motion": "Um molde de papel se ajusta ao produto e revela sua silhueta sem alterá-lo",
+      "uses": "Produtos personalizados e acabamento sob medida"
+    },
+    {
+      "name": "Packshot em jardim de condensação",
+      "scene": "Frasco sem rótulo real entre vidros embaçados e folhas úmidas, verde frio",
+      "motion": "A condensação escorre no vidro cenográfico e abre uma janela para o produto seco",
+      "uses": "Beleza e frescor sem atribuir resistência à água"
+    },
+    {
+      "name": "Produto em balcão de leilão editorial",
+      "scene": "Relógio fictício sobre almofada vinho, cartão de catálogo e luz de inspeção",
+      "motion": "A bandeja desliza para a luz e revela um detalhe por vez",
+      "uses": "Colecionáveis e valorização de design sem preço fictício"
+    },
+    {
+      "name": "Cinema de embalagem reaberta",
+      "scene": "Caixa rígida coral vista por dentro com encaixes e produto intacto",
+      "motion": "As paredes da embalagem se desdobram para mostrar organização e acesso",
+      "uses": "Embalagens premium e experiência de recebimento"
+    },
+    {
+      "name": "Produto em paisagem de sombra quadriculada",
+      "scene": "Óculos fictícios numa mesa areia sob sombra precisa de um brise",
+      "motion": "A sombra atravessa a mesa enquanto os óculos permanecem estáveis e legíveis",
+      "uses": "Moda e acessórios com contraste arquitetônico"
+    },
+    {
+      "name": "Costura como rota de descoberta",
+      "scene": "Tênis fictício visto em macro com costura laranja que conduz o olhar",
+      "motion": "A câmera acompanha a costura até revelar o produto inteiro",
+      "uses": "Moda, bolsas e qualidade de construção"
+    },
+    {
+      "name": "Cenário de embalagem moldada",
+      "scene": "Luminária fictícia entre polpas moldadas de proteção como arquitetura monumental",
+      "motion": "As peças de proteção se afastam fisicamente e deixam o objeto em uso",
+      "uses": "Design e embalagem, com materiais declarados"
+    },
+    {
+      "name": "Packshot em caixa de luz modular",
+      "scene": "Câmera fictícia em caixa de luz com painéis coloridos e refletores visíveis",
+      "motion": "Painéis acendem alternadamente para explicar superfícies e controles",
+      "uses": "Tecnologia e design de produto com geometria preservada"
+    },
+    {
+      "name": "Produto e gesto de conservação",
+      "scene": "Bolsa fictícia apoiada numa bancada de cuidado com escova e pano",
+      "motion": "Uma mão limpa uma área permitida, guarda acessórios e conclui com packshot",
+      "uses": "Durabilidade, cuidado e pós-compra"
+    },
+    {
+      "name": "Anúncio em mesa de gravação sonora",
+      "scene": "Teclado mecânico fictício próximo a microfone e espuma acústica cinza",
+      "motion": "Uma tecla é acionada; o som real abre espaço para o detalhe do mecanismo",
+      "uses": "Produtos cuja experiência sonora importa"
+    }
+  ],
+  "campanhas": [
+    {
+      "name": "Pequeno obstáculo em comédia de precisão",
+      "scene": "Cozinha real com uma tampa teimosa e mãos em pausa, luz clara e enquadramento seco",
+      "motion": "Três tentativas curtas tornam o incômodo visível; o gesto correto resolve com clareza",
+      "uses": "Anúncios de utilidade com humor físico sem exagerar eficácia"
+    },
+    {
+      "name": "Bancada de comparação por esforço",
+      "scene": "Duas ferramentas reais lado a lado em bancada de trabalho, sem placar fictício",
+      "motion": "O mesmo gesto autorizado é executado nas mesmas condições e os limites ficam visíveis",
+      "uses": "Demonstrações comparativas documentadas"
+    },
+    {
+      "name": "Campanha de silêncio conquistado",
+      "scene": "Sala real com objetos ruidosos e um espaço de descanso bem iluminado",
+      "motion": "Fontes sonoras cessam uma a uma até revelar a condição de uso do produto",
+      "uses": "Conforto acústico com gravações e medições reais quando alegadas"
+    },
+    {
+      "name": "Guia de presente por histórias",
+      "scene": "Três objetos distintos junto a pequenos vestígios de hobbies em mesa de madeira",
+      "motion": "Uma lembrança filmada motiva a escolha de cada presente",
+      "uses": "Datas comemorativas sem listas genéricas de produtos"
+    },
+    {
+      "name": "Campanha de manutenção preventiva",
+      "scene": "Objeto cotidiano em uso com sinal discreto de desgaste real, luz de oficina",
+      "motion": "Um detalhe pede atenção, a manutenção acontece e o uso é retomado",
+      "uses": "Serviços de manutenção e retenção de clientes"
+    },
+    {
+      "name": "Cena interrompida por pergunta útil",
+      "scene": "Uma ação cotidiana congelada em pose legível, pergunta tipográfica grande ao lado",
+      "motion": "A ação pausa no ponto de decisão e continua após a explicação",
+      "uses": "Educação de compra e demonstração de escolha"
+    },
+    {
+      "name": "Teste de transporte em percurso real",
+      "scene": "Mochila fictícia em trajeto documentado de ônibus, escada e mesa",
+      "motion": "A mesma carga percorre o trajeto com continuidade de peso e posição",
+      "uses": "Acessórios e uso cotidiano sem ensaios falsos de resistência"
+    },
+    {
+      "name": "Campanha em ensaio de montagem",
+      "scene": "Cenário publicitário com marcações de chão e equipe preparando um objeto",
+      "motion": "A preparação é parte da história e culmina numa composição final limpa",
+      "uses": "Transparência de produção e campanhas de lançamento"
+    },
+    {
+      "name": "Produto acessível em gesto adaptado",
+      "scene": "Objeto real sobre bancada com pegadores alternativos documentados",
+      "motion": "Uma pessoa autorizada demonstra uma forma específica de uso com enquadramento claro",
+      "uses": "Acessibilidade sem generalizar autonomia ou limitações"
+    },
+    {
+      "name": "Uma função explicada por som e imagem",
+      "scene": "Utensílio em fundo claro junto a onda sonora desenhada por dados reais",
+      "motion": "A ação acontece, o som é isolado e a imagem explica sua origem",
+      "uses": "Demonstração sensorial de mecanismos e utensílios"
+    }
+  ],
+  "imoveis": [
+    {
+      "name": "O que permanece na entrega",
+      "scene": "Ambiente real com itens incluídos destacados por contornos finos, itens móveis neutros",
+      "motion": "Cada item confirmado ganha identificação enquanto a câmera permanece no mesmo plano",
+      "uses": "Evitar dúvida sobre mobiliário e equipamentos incluídos"
+    },
+    {
+      "name": "Condomínio explicado por serviços",
+      "scene": "Portaria, elevador e área técnica em sequência documental com ícones discretos",
+      "motion": "Um serviço aparece em uso e sua responsabilidade é apresentada com fonte",
+      "uses": "Explicar condomínio e manutenção sem inventar custos"
+    },
+    {
+      "name": "Visita com percurso de mudança",
+      "scene": "Carrinho de mudança diante de elevador real com medidas discretas em tela",
+      "motion": "O percurso documentado segue portaria, elevador e entrada com restrições indicadas",
+      "uses": "Planejar mudança e acesso de móveis"
+    },
+    {
+      "name": "Garagem em manobra documentada",
+      "scene": "Vaga real com colunas e veículo autorizado, câmera fixa ampla e medidas confirmadas",
+      "motion": "O veículo entra, manobra e estaciona numa única continuidade observável",
+      "uses": "Mostrar acesso e limitações da garagem"
+    },
+    {
+      "name": "Documentos da compra em mesa real",
+      "scene": "Planta, matrícula demonstrativa sem dados privados e pastas em mesa clara",
+      "motion": "Documentos entram na ordem da análise e cada finalidade recebe explicação breve",
+      "uses": "Educação imobiliária, com revisão jurídica e sem garantia de regularidade"
+    },
+    {
+      "name": "Imóvel vazio em leitura de rotina",
+      "scene": "Fotos reais de ambiente vazio com discretos percursos de uso em linhas",
+      "motion": "Trajetos de atividades aparecem sem inserir móveis ou alterar paredes",
+      "uses": "Ajudar a imaginar uso respeitando dimensões verificadas"
+    },
+    {
+      "name": "Visita de detalhes que costumam faltar",
+      "scene": "Tomadas, armários internos e registros reais em planos grandes e luz neutra",
+      "motion": "Cada detalhe é aberto ou acionado em filmagem autorizada",
+      "uses": "Reduzir perguntas recorrentes antes da visita presencial"
+    },
+    {
+      "name": "Locação em calendário de ocupação",
+      "scene": "Chaves, contrato demonstrativo e calendário físico numa mesa de entrada",
+      "motion": "Datas confirmadas ocupam o calendário e revelam etapas da entrada",
+      "uses": "Explicar disponibilidade, vistoria e entrega de chaves"
+    },
+    {
+      "name": "Reforma possível versus existente",
+      "scene": "Foto real à esquerda e desenho técnico autorizado à direita com legenda permanente",
+      "motion": "Uma proposta aparece em painel separado sem substituir a condição atual",
+      "uses": "Apresentar potencial de reforma com limites técnicos claros"
+    },
+    {
+      "name": "Visita em altura de quem habita",
+      "scene": "Ambiente real filmado à altura sentada, com portas e comandos visíveis",
+      "motion": "O percurso mostra alcance e campo de visão sem inventar dimensões",
+      "uses": "Avaliar experiência de uso e acessibilidade específica"
+    }
+  ],
+  "software": [
+    {
+      "name": "Modo offline e reconciliação real",
+      "scene": "Tela demonstrativa fiel em notebook, indicador offline e alterações locais legíveis",
+      "motion": "A conexão cai, uma ação suportada é salva e sincroniza com confirmação real",
+      "uses": "Explicar continuidade offline somente quando existente"
+    },
+    {
+      "name": "Comando com confirmação humana",
+      "scene": "Interface real de automação com proposta e botões de revisão em destaque",
+      "motion": "O sistema propõe uma ação, o usuário revisa e o registro confirma a execução",
+      "uses": "Demonstrar agentes de IA e controles humanos"
+    },
+    {
+      "name": "Busca sem resultado que ensina",
+      "scene": "Tela de busca real com termo válido sem retorno e alternativas documentadas",
+      "motion": "A pesquisa falha, um filtro é corrigido e um resultado real aparece",
+      "uses": "Onboarding e redução de abandono"
+    },
+    {
+      "name": "Comparação de planos por tarefa",
+      "scene": "Uma mesma tela real com funções disponíveis identificadas em camadas discretas",
+      "motion": "O usuário tenta a tarefa e vê o plano e condição necessários sem promessa falsa",
+      "uses": "Explicar planos, limites e adequação de software"
+    },
+    {
+      "name": "Exportação que chega ao destino",
+      "scene": "Dashboard real e arquivo exportado lado a lado com colunas legíveis",
+      "motion": "O filtro é aplicado, o arquivo exportado abre e os valores são conferidos",
+      "uses": "Demonstrar relatórios e portabilidade"
+    },
+    {
+      "name": "Desfazer como rede de segurança",
+      "scene": "Editor real com uma alteração clara e histórico discreto",
+      "motion": "Uma mudança é feita, desfeita e reaplicada sem edição enganosa",
+      "uses": "Mostrar reversibilidade e reduzir medo de experimentar"
+    },
+    {
+      "name": "Agendamento sob fusos diferentes",
+      "scene": "Calendário real com dois fusos identificados e um evento comum",
+      "motion": "O horário é escolhido num fuso e a correspondência aparece no outro",
+      "uses": "Agendamento, suporte global e colaboração"
+    },
+    {
+      "name": "IA com fonte rastreável",
+      "scene": "Resposta real de assistente ao lado de documento autorizado com trecho citado",
+      "motion": "A resposta aponta sua fonte; o trecho é aberto e os limites são explicados",
+      "uses": "Demonstrar pesquisa assistida sem inventar precisão"
+    },
+    {
+      "name": "Configuração segura em ambiente de teste",
+      "scene": "Painel real com selo textual de ambiente demonstrativo e dados sintéticos",
+      "motion": "Uma regra é testada, o resultado inspecionado e a publicação permanece separada",
+      "uses": "Evitar erros de configuração e explicar ambientes"
+    },
+    {
+      "name": "Checkout recuperado com motivo claro",
+      "scene": "Carrinho real de teste com falha de pagamento simulada identificada",
+      "motion": "O erro explica o motivo disponível e o usuário escolhe a alternativa suportada",
+      "uses": "E-commerce SaaS e fluxos de recuperação honestos"
+    }
+  ],
+  "apresentacoes": [
+    {
+      "name": "Tese em pedestal de silêncio",
+      "scene": "Uma frase curta em letras grandes sobre vasto fundo mineral, pequeno objeto de escala",
+      "motion": "A frase permanece; uma única palavra muda após a evidência narrada",
+      "uses": "Palestras de posicionamento e mensagens de alto impacto"
+    },
+    {
+      "name": "Apresentação em fichário de evidências",
+      "scene": "Folhas grandes presas por argolas metálicas, tipografia serifada e marcações verdes",
+      "motion": "Uma ficha mostra a afirmação e a próxima revela sua evidência específica",
+      "uses": "Propostas, pesquisa e prestação de contas"
+    },
+    {
+      "name": "Argumento por escala de recuo",
+      "scene": "Letra enorme ocupa o quadro e se revela parte de uma frase vista de longe",
+      "motion": "A câmera recua por patamares de leitura com pausas suficientes",
+      "uses": "Introduções e síntese de conceitos amplos"
+    },
+    {
+      "name": "Apresentação por transparência de premissas",
+      "scene": "Camadas transparentes com premissas azuis e conclusão preta sobre mesa iluminada",
+      "motion": "Cada premissa se acende e a conclusão aparece somente ao reuni-las",
+      "uses": "Estratégia, decisões e explicações de raciocínio"
+    },
+    {
+      "name": "Tipografia em placas de metrô",
+      "scene": "Placas suspensas pretas com letras creme e linhas cromáticas de percurso",
+      "motion": "A câmera segue uma linha de leitura até a próxima ideia sinalizada",
+      "uses": "Conferências, orientação e sequências de passos"
+    },
+    {
+      "name": "Pausa gráfica entre argumentos",
+      "scene": "Duas massas tipográficas densas separadas por área vazia e uma linha fina",
+      "motion": "O bloco anterior sai, o vazio sustenta a pausa e o próximo argumento entra",
+      "uses": "Conteúdo denso que precisa de respiro e retenção"
+    },
+    {
+      "name": "Apresentação de hipótese em lápis",
+      "scene": "Frase manuscrita a lápis com versão final tipográfica ao lado, fundo claro",
+      "motion": "A hipótese recebe rasuras visíveis e se estabiliza após o teste",
+      "uses": "Pesquisa, produto e aprendizado iterativo"
+    },
+    {
+      "name": "Tipografia de margem escalonada",
+      "scene": "Parágrafos com recuos progressivos em coluna alta, acentos de cor pontuais",
+      "motion": "Cada recuo revela nível de argumento sem reduzir excessivamente a fonte",
+      "uses": "Explicar hierarquias, políticas e decisões"
+    },
+    {
+      "name": "Exposição de números por unidade",
+      "scene": "Número grande acompanhado de objetos contáveis, sem símbolos abstratos decorativos",
+      "motion": "Objetos entram em grupos legíveis e a unidade permanece junto ao número",
+      "uses": "Dados educativos e comunicação de escala"
+    },
+    {
+      "name": "Conclusão em desmontagem de frase",
+      "scene": "Frase longa em cartões físicos sobre mesa, palavra central em cor quente",
+      "motion": "Termos acessórios saem até permanecer uma conclusão precisa",
+      "uses": "Síntese, posicionamento e encerramento de apresentações"
+    }
+  ],
+  "avatares": [
+    {
+      "name": "Anfitriã em estação de rádio comunitária",
+      "scene": "Mulher fictícia negra de cabelo curto, camisa terracota, estúdio de rádio com microfone e luz âmbar",
+      "motion": "Olha para a câmera, apresenta um tópico e um insert mostra o material citado",
+      "uses": "Conteúdo local e explicações acolhedoras"
+    },
+    {
+      "name": "Apresentador em oficina de bicicletas",
+      "scene": "Homem fictício asiático de meia-idade, avental azul, bicicleta em suporte numa oficina clara",
+      "motion": "Fala à câmera com mãos livres; planos separados mostram a peça em uso",
+      "uses": "Serviços, reparos e educação de produto"
+    },
+    {
+      "name": "Guia em observatório de campo",
+      "scene": "Mulher fictícia madura de cabelos grisalhos, jaqueta verde, observatório em paisagem seca",
+      "motion": "Apresenta à câmera e a montagem alterna instrumentos e céu documentado",
+      "uses": "Ciência, turismo educativo e atividades externas"
+    },
+    {
+      "name": "Anfitrião em cozinha de escola técnica",
+      "scene": "Homem fictício gordo de barba curta, uniforme creme, bancada de ensino culinário",
+      "motion": "Fala de frente e entra um plano detalhe separado da técnica explicada",
+      "uses": "Cursos práticos e gastronomia educativa"
+    },
+    {
+      "name": "Mediadora em auditório vazio",
+      "scene": "Mulher fictícia de pele morena, cabelo cacheado, blazer violeta, auditório iluminado",
+      "motion": "Abre a apresentação olhando para a câmera e o telão recebe tópicos editáveis",
+      "uses": "Eventos, webinars e lançamentos educacionais"
+    },
+    {
+      "name": "Apresentador em estufa de pesquisa",
+      "scene": "Homem fictício idoso de pele clara, camisa casual, estufa com bancadas vegetais",
+      "motion": "Fala de frente com gestos pequenos; inserts mostram folhas sem deformação",
+      "uses": "Agro, ciência e sustentabilidade"
+    },
+    {
+      "name": "Curadora em reserva de museu",
+      "scene": "Mulher fictícia asiática de meia-idade, roupa preta simples, gaveteiros e objetos protegidos",
+      "motion": "Introduz a coleção à câmera; detalhes dos objetos entram em planos independentes",
+      "uses": "Patrimônio, coleções e curadoria"
+    },
+    {
+      "name": "Anfitrião em pista de skate vazia",
+      "scene": "Homem fictício negro jovem adulto, roupa casual larga, pista ao amanhecer",
+      "motion": "Fala em posição estável olhando à câmera e B-roll separado apresenta o ambiente",
+      "uses": "Cultura urbana e marcas jovens"
+    },
+    {
+      "name": "Apresentadora em laboratório de materiais",
+      "scene": "Mulher fictícia branca com cabelo raspado, jaleco sobre camiseta, bancada de amostras",
+      "motion": "Explica à câmera; uma demonstração real ou ilustrativa identificada ocupa o insert",
+      "uses": "Design, inovação e materiais"
+    },
+    {
+      "name": "Anfitrião em marina de trabalho",
+      "scene": "Homem fictício de pele morena e cabelo grisalho, camisa de linho, marina em hora azul",
+      "motion": "Apresenta à câmera com barco estável ao fundo e cortes de contexto",
+      "uses": "Serviços náuticos, turismo e negócios locais"
+    }
+  ],
+  "saude": [
+    {
+      "name": "Consentimento explicado em mesa de opções",
+      "scene": "Profissional real e paciente autorizado diante de opções em cartões grandes, luz calma",
+      "motion": "Benefícios, riscos e alternativas são expostos sem pressionar uma escolha",
+      "uses": "Apoiar conversa de consentimento com revisão profissional"
+    },
+    {
+      "name": "Como descrever um sintoma",
+      "scene": "Pessoa fictícia diante de diário visual com relógio, intensidade e contexto",
+      "motion": "Uma observação é organizada em quando, onde e como para levar à consulta",
+      "uses": "Educação para consulta sem diagnóstico automático"
+    },
+    {
+      "name": "Medicamentos organizados para consulta",
+      "scene": "Embalagens reais autorizadas com dados privados ocultos e lista legível",
+      "motion": "Itens são registrados sem sugerir mudança de dose ou suspensão",
+      "uses": "Preparação de consulta e reconciliação orientada por profissional"
+    },
+    {
+      "name": "Sala de espera de baixa estimulação",
+      "scene": "Recepção real com luz suave, sinalização grande e poucos estímulos",
+      "motion": "O percurso de chegada é mostrado lentamente com sons discretos",
+      "uses": "Reduzir incerteza de pacientes sensíveis a estímulos"
+    },
+    {
+      "name": "Pós-procedimento com sinais de contato",
+      "scene": "Mesa com instruções aprovadas e canais de contato visíveis, composição serena",
+      "motion": "Cuidados esperados e sinais para procurar orientação aparecem em grupos separados",
+      "uses": "Acompanhamento seguro com conteúdo validado pelo responsável"
+    },
+    {
+      "name": "Perguntas sobre anestesia em cenário real",
+      "scene": "Consultório real e instrumentos sem exposição gráfica, iluminação acolhedora",
+      "motion": "Uma pergunta por vez recebe explicação e indicação de avaliação individual",
+      "uses": "Reduzir ansiedade sem prometer ausência de dor ou risco"
+    },
+    {
+      "name": "Odontologia preventiva para cuidadores",
+      "scene": "Manequim dental e mãos demonstrando cuidado em bancada clara",
+      "motion": "O gesto é mostrado de dois ângulos com pressão e sequência aprovadas",
+      "uses": "Educação de cuidadores com protocolo profissional"
+    },
+    {
+      "name": "Rotina de fotoproteção sem milagre",
+      "scene": "Produto real, chapéu e sombra em cenário cotidiano com pele natural",
+      "motion": "Ações complementares são demonstradas sem filtro de embelezamento",
+      "uses": "Educação dermatológica revisada e sem promessa de proteção absoluta"
+    },
+    {
+      "name": "Exame infantil em ensaio com brinquedo",
+      "scene": "Boneco e equipamento demonstrativo numa sala real acolhedora",
+      "motion": "O profissional explica a sequência no brinquedo antes do procedimento real",
+      "uses": "Preparação pediátrica sem simular resultado clínico"
+    },
+    {
+      "name": "Direito de perguntar em consulta",
+      "scene": "Pessoa fictícia e profissional em conversa à altura dos olhos, perguntas tipográficas grandes",
+      "motion": "Uma pausa abre espaço à dúvida e a resposta é resumida para confirmação",
+      "uses": "Comunicação de saúde centrada na pessoa"
+    }
+  ],
+  "ecommerce": [
+    {
+      "name": "Conteúdo da caixa em ordem de conferência",
+      "scene": "Produto fictício e todos os acessórios separados em fundo claro, numeração editorial",
+      "motion": "Cada item sai da caixa e ocupa sua posição de conferência",
+      "uses": "Evitar dúvidas sobre acessórios incluídos e ausentes"
+    },
+    {
+      "name": "Compatibilidade por versão exata",
+      "scene": "Conector real ao lado de identificação de modelo e versão em texto grande",
+      "motion": "O código é conferido antes do encaixe documentado",
+      "uses": "Reduzir compra de peça ou acessório incompatível"
+    },
+    {
+      "name": "Produto dobrado versus em uso",
+      "scene": "Carrinho ou objeto dobrável fictício em duas condições sobre piso quadriculado",
+      "motion": "O mecanismo real abre e fecha com dimensões verificadas nas duas condições",
+      "uses": "Mostrar armazenamento e transporte sem inventar mecanismo"
+    },
+    {
+      "name": "Detalhe de fecho em gesto contínuo",
+      "scene": "Fecho real de bolsa ou roupa em plano grande com mãos autorizadas",
+      "motion": "Abrir e fechar acontece sem cortes que escondam dificuldade",
+      "uses": "Explicar manuseio e qualidade de acabamento"
+    },
+    {
+      "name": "Leitura de manual em ação real",
+      "scene": "Manual aprovado e objeto real numa bancada, página relevante ampliada",
+      "motion": "A instrução é lida e executada numa ação contínua",
+      "uses": "Reduzir erro de instalação e solicitações de suporte"
+    },
+    {
+      "name": "Textura comparada com objeto cotidiano",
+      "scene": "Material real ao lado de referência neutra de escala, luz lateral padronizada",
+      "motion": "A mão mostra flexibilidade e textura sem alterar cor ou superfície",
+      "uses": "Compra de tecidos, tapetes e revestimentos"
+    },
+    {
+      "name": "Reposição de peça em bancada limpa",
+      "scene": "Peça de reposição real, ferramenta necessária e objeto aberto conforme manual",
+      "motion": "A peça antiga sai e a nova entra com encaixe e limites documentados",
+      "uses": "Pós-venda e prolongamento de uso"
+    },
+    {
+      "name": "Validade e lote em leitura ampliada",
+      "scene": "Embalagem real com área de lote ampliada por recorte de alta resolução",
+      "motion": "O local do código é apontado e a leitura explica seu significado sem reescrever rótulo",
+      "uses": "Alimentos, cosméticos e rastreabilidade"
+    },
+    {
+      "name": "Uso em mãos de tamanhos diferentes",
+      "scene": "Mesmo produto real usado por pessoas autorizadas com referências de tamanho",
+      "motion": "O gesto é repetido sem alterar escala do produto e mostra limites de alcance",
+      "uses": "Acessórios e ergonomia sem generalizações"
+    },
+    {
+      "name": "Pedido personalizado em prova digital",
+      "scene": "Prévia de personalização fiel ao sistema ao lado do produto-base real",
+      "motion": "Texto ou arte são conferidos numa prova antes da produção",
+      "uses": "Presentes e produtos personalizados com aprovação explícita"
+    }
+  ],
+  "infoprodutores": [
+    {
+      "name": "Aula zero em laboratório de pré-requisitos",
+      "scene": "Instrutor real em bancada com três ferramentas de entrada e cenário claro",
+      "motion": "Cada pré-requisito é verificado numa tarefa curta antes de começar",
+      "uses": "Reduzir frustração e matrícula inadequada"
+    },
+    {
+      "name": "Uma habilidade em critério de domínio",
+      "scene": "Trabalho real de aluno autorizado ao lado de rubrica visual grande",
+      "motion": "O avaliador aponta evidências para cada critério sem notas inventadas",
+      "uses": "Mostrar o que o aluno aprenderá a executar"
+    },
+    {
+      "name": "Curso por dentro em visita guiada real",
+      "scene": "Plataforma real do curso em tela grande com professor em insert discreto",
+      "motion": "Uma aula, material e exercício reais são abertos com continuidade",
+      "uses": "Demonstrar conteúdo antes da compra"
+    },
+    {
+      "name": "Tempo de estudo em agenda possível",
+      "scene": "Agenda física com blocos reais de trabalho, descanso e estudo, luz cotidiana",
+      "motion": "O curso é distribuído em intervalos plausíveis sem prometer resultado em prazo fixo",
+      "uses": "Ajudar compradores a avaliar disponibilidade"
+    },
+    {
+      "name": "Dificuldade assumida em bastidor de treino",
+      "scene": "Instrutor real errando uma tentativa e ajustando uma técnica em ambiente de trabalho",
+      "motion": "O erro é mostrado, a correção explicada e nova tentativa comparada",
+      "uses": "Construir confiança e expectativas de aprendizagem realistas"
+    },
+    {
+      "name": "Prévia de exercício com solução parcial",
+      "scene": "Exercício real grande em mesa ou tela, uma etapa resolvida e outra aberta",
+      "motion": "O professor demonstra o raciocínio inicial e convida à prática restante",
+      "uses": "Captação por valor educativo sem esconder informação essencial"
+    },
+    {
+      "name": "Mapa de trilhas por experiência prévia",
+      "scene": "Três percursos de aprendizagem em painéis físicos com materiais reais do curso",
+      "motion": "Um diagnóstico simples indica percurso introdutório ou avançado com limites claros",
+      "uses": "Orientar escolha entre cursos e módulos"
+    },
+    {
+      "name": "Biblioteca de dúvidas em objetos de cena",
+      "scene": "Perguntas reais anonimizadas em etiquetas junto aos materiais de aula",
+      "motion": "Uma dúvida recorrente escolhe o objeto e desencadeia demonstração filmada",
+      "uses": "Conteúdo recorrente a partir de dúvidas reais"
+    },
+    {
+      "name": "Devolutiva em três camadas de trabalho",
+      "scene": "Projeto real autorizado com marcações de estrutura, técnica e acabamento",
+      "motion": "Cada camada de feedback aparece com exemplo e ação de melhoria",
+      "uses": "Valorizar mentoria e revisão sem depoimentos fabricados"
+    },
+    {
+      "name": "Certificação explicada por evidências",
+      "scene": "Portfólio, avaliação e certificado demonstrativo separados numa mesa institucional",
+      "motion": "O que é exigido e o que o certificado não garante aparecem em sequência",
+      "uses": "Esclarecer certificação, carga horária e critérios reais"
+    }
+  ],
+  "motion-campanha": [
+    {
+      "name": "Campanha em obturador de facetas",
+      "scene": "Painéis triangulares de metal fosco formam uma abertura assimétrica diante de produto fictício",
+      "motion": "Facetas giram por dobradiças diferentes e revelam o objeto com oclusão coerente",
+      "uses": "Lançamentos com revelação arquitetônica"
+    },
+    {
+      "name": "Mensagem em elevador cenográfico",
+      "scene": "Plataformas de cena sobem em um poço editorial coral e azul, letras grandes",
+      "motion": "Uma plataforma leva a ideia a outro nível e a mensagem final ocupa o topo",
+      "uses": "Evolução de serviço e campanhas de crescimento sem métricas falsas"
+    },
+    {
+      "name": "Campanha de pigmento em sedimentação",
+      "scene": "Partículas minerais coloridas decantam num tanque transparente diante de fundo escuro",
+      "motion": "Camadas se depositam por densidade e revelam uma composição estável",
+      "uses": "Processos, materiais e mensagens de clareza"
+    },
+    {
+      "name": "Palavra em trilho de montagem industrial",
+      "scene": "Letras robustas em peças passam por gabaritos numa bancada branca",
+      "motion": "Cada estação resolve um componente e a palavra termina legível",
+      "uses": "Métodos, manufatura e identidade de marca"
+    },
+    {
+      "name": "Anúncio em cenário de contraluz recortável",
+      "scene": "Objetos reais e grandes painéis de sombra formam uma paisagem em estúdio",
+      "motion": "Painéis se movem e a luz reconstrói o ambiente sem mover o produto",
+      "uses": "Decoração, iluminação e campanhas sensoriais"
+    },
+    {
+      "name": "Campanha por transição de focalização física",
+      "scene": "Objetos em planos reais distintos com texto composto em profundidade controlada",
+      "motion": "O foco passa do detalhe à evidência, enquanto o texto essencial permanece legível",
+      "uses": "Produtos e conceitos que exigem atenção seletiva"
+    },
+    {
+      "name": "Benefício em mecanismo de came",
+      "scene": "Roda excêntrica e seguidor acionam um elemento de campanha em palco pastel",
+      "motion": "O came gira, o seguidor sobe e o resultado demonstra uma relação causal",
+      "uses": "Explicação de funcionamento e campanhas de mecanismo"
+    },
+    {
+      "name": "Campanha de arena tipográfica",
+      "scene": "Letras grandes delimitam uma arena circular com objeto central em escala real",
+      "motion": "A câmera percorre um arco curto e as palavras mudam de posição sem colidir",
+      "uses": "Marca, esporte e mensagens de protagonismo"
+    },
+    {
+      "name": "Identidade em painel de cabos tensionados",
+      "scene": "Cabos coloridos atravessam pontos de ancoragem numa parede clara",
+      "motion": "Cabos são tensionados até formar uma silhueta estável e reconhecível",
+      "uses": "Conexão, estrutura e lançamentos institucionais"
+    },
+    {
+      "name": "Mensagem em relevo de superfície mutável",
+      "scene": "Superfície de tecido cobre pequenos atuadores formando relevo legível",
+      "motion": "Atuadores levantam uma forma por vez e a superfície retorna sem tremulação",
+      "uses": "Tecnologia, design e identidade com volume tátil"
+    }
+  ]
+}

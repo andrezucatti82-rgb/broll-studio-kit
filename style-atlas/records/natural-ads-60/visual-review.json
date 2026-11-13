@@ -1,0 +1,497 @@
+{
+  "date": "2026-11-12",
+  "scope": "60 concept boards reviewed as category contact sheets; flagged boards additionally reviewed individually. Not audiovisual validation.",
+  "observed": [
+    "Natural lighting, readable materials and varied human actions across ten segments",
+    "Four-panel layout corrections for luggage, skirt and two pajama boards",
+    "Oval mat continuity corrected",
+    "Bikini product-only views and one intentional split-detail composition aligned with direction"
+  ],
+  "limitations": [
+    "Fictional generated identities and products; not compared against customer originals",
+    "No video or audio generated or reviewed",
+    "Individual future executions require original product references, evidence and user approvals"
+  ],
+  "items": [
+    {
+      "id": "natural-joias-do-gesto-a-assinatura",
+      "sourceSHA256": "b506786bf6391080053fef7fa3d81b0fe6315ee5cc0d19a2e0399b1be941208f",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "approved_by_user_2026-11-12"
+    },
+    {
+      "id": "natural-joias-o-presente-antes-da-caixa",
+      "sourceSHA256": "c420dba12fe590a9c3a0b2dca275438e024b1c9c6dcd3ad6c8512e54d93f8b9e",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-joias-a-medida-do-detalhe",
+      "sourceSHA256": "3cff9578183f4f11e2349e981b1c491d2157e6a5878b847e18f55a2fddb27e08",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-joias-a-escolha-encontra-a-luz",
+      "sourceSHA256": "20d9ddd5ff6c2f2bd5bf3af64a11679943143131d087652d872782f09fd1b83c",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-joias-memoria-que-se-usa",
+      "sourceSHA256": "69a5f5f63abf35df2f3f1d0f15763d9d830ff066a0351bb3ea30141585d46830",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-joias-tres-jeitos-de-fazer-seu",
+      "sourceSHA256": "c4d753d01acdacf758f4af029a9865e4235a797117a3786b712adcddf99531d8",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-capachos-a-casa-comeca-antes-da-porta",
+      "sourceSHA256": "2c19343935333f3a94983e021adcf88631c3e876cae10dd57178589b7aaddf7b",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "approved_by_user_2026-11-12"
+    },
+    {
+      "id": "natural-capachos-antes-de-caber-medir",
+      "sourceSHA256": "66c499979c3351acc498bf27f147cc5338718243a88d701086184b330dc625c2",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-capachos-textura-de-perto-casa-de-longe",
+      "sourceSHA256": "292790902c1a420fcad90ac6e0cd010215e4f45aa76268203f2d784c92a18c9d",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-capachos-boas-vindas-em-dois-ambientes",
+      "sourceSHA256": "7b5594a96cfb7bf6e3fcee025055947570bfc9ad7560271f8cd065e87be44cb9",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-capachos-a-mudanca-comeca-na-soleira",
+      "sourceSHA256": "bef548cff951d08eaa8cada16391122933d105098ab7f499c72f739e987b190d",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-capachos-o-caminho-de-quem-recebe",
+      "sourceSHA256": "e7138e39347a05a529e2ed01e654fada926d181a8f70c71f170476aebca8f680",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-advocacia-antes-da-assinatura-uma-conversa",
+      "sourceSHA256": "28bebfd9119976a79649c50eada6cd62b4ade33c29c69e304fc389e43d88c0ef",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "approved_by_user_2026-11-12"
+    },
+    {
+      "id": "natural-advocacia-a-pasta-que-conta-a-historia",
+      "sourceSHA256": "0b4921dfe6f33dfdad5974ffcf4d1945bef96624471527b4d74fe58e46016212",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-advocacia-uma-pergunta-por-vez",
+      "sourceSHA256": "7e059c9a7e7fb4218243768fe85b81edc4d7b8b1da611fdb35487bf9cec3cd8c",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-advocacia-decisao-com-contexto",
+      "sourceSHA256": "e1c7b0ec1f0bbca53584fd47e9424ec53d2e89fb22e2d7002216d2df92da6a04",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-advocacia-a-conversa-tambem-pode-ser-a-distancia",
+      "sourceSHA256": "bc4b617510c0575d106591dfe527f8971244e6acb1477f131c3c5af5f5eba1dd",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-advocacia-do-termo-dificil-a-pergunta-certa",
+      "sourceSHA256": "8ff4194b7c3ebd52e665dde7b6732c25d67ba049512c231cbf7320eaa1f149e4",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-masculina-a-camisa-acompanha-o-percurso",
+      "sourceSHA256": "b141a8ae131155e04944628b4e9c0c6e10595f4090e379b0d186d2b9fc27944d",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-masculina-o-detalhe-que-a-foto-nao-mostra",
+      "sourceSHA256": "d4c7f8c78d7d9ed88370bdd140af5e7d67dbd39fcfbb1b280ee34b234ffb1605",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-masculina-uma-mala-com-escolhas-claras",
+      "sourceSHA256": "93151084e2cce94babe804c69ca442b9407c9d65c21da10aa6ca6dc294c5f2a0",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-masculina-camadas-para-mudar-o-encontro",
+      "sourceSHA256": "c186abfab3a715c63fb162bb5e15442c19209a83d3045cdbce591f6188079223",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-masculina-a-calca-em-movimento-real",
+      "sourceSHA256": "df730fd261cfa0d347415f4cf93a1e8b8cbd10308f208ced5cf8c565316306bd",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-masculina-escolha-pela-paleta-do-seu-dia",
+      "sourceSHA256": "1170c40631323ea4c9763ab10b1c0c752e7ffd0605e4f15029f299080983ddb6",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-feminina-uma-peca-o-seu-dia",
+      "sourceSHA256": "2a942d222b7ded51e03c2239ca15ffd55ebe7b5ae2e1c1d06ced571d2f2d5d69",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "approved_by_user_2026-11-12"
+    },
+    {
+      "id": "natural-moda-feminina-o-provador-pela-sua-perspectiva",
+      "sourceSHA256": "ac9e4367a380be25feb13fb5d8f6e46e49417c46159b03f326dc9c0ea3c47e63",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-feminina-o-tecido-entra-na-conversa",
+      "sourceSHA256": "db1ecefda831b6c698f581e0803955fd6cc7f205c9e14f30ff7f7c91deebd858",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-feminina-a-mesma-base-outra-intencao",
+      "sourceSHA256": "221bc3da08aff138d6c034a8dc4cb2d2d49382344ab195adfc7786e2aa39bc10",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-feminina-do-cabide-ao-encontro",
+      "sourceSHA256": "e26ac723118df0b34297a99d8be4222145d28e7deaeca5cd8482c8f5b1fe88fa",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-moda-feminina-escolher-sem-esconder-os-detalhes",
+      "sourceSHA256": "a9ac806cf9de4856c95cce84074d06e47bb0efaaafc3353c3ea042d415299100",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-biquinis-a-mala-comeca-pela-combinacao",
+      "sourceSHA256": "81bab4bae1b7e950b2b0e239ed7d4d6e52acc7578b20532d4f90bca42093cbf1",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-biquinis-amarracao-vista-de-verdade",
+      "sourceSHA256": "dade0891e3ba74273d84e8ae42dc149736c7acb27764f30c778948c7630ea8b5",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-biquinis-cor-entre-sombra-e-sol",
+      "sourceSHA256": "edd8060c1819298b75fd2792fc3de090fe5d5872d240d2e44b4d3c651bab2e51",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-biquinis-duas-pecas-uma-escolha-informada",
+      "sourceSHA256": "e493c39ca459ba80083c9c61c0fa7e4fa86542beaafb26e93cf84912dfc2a624",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-biquinis-um-dia-sem-pose-de-catalogo",
+      "sourceSHA256": "4e033799bc4319304328ba21b8615e8e769aa1c7b342fa782ea73a2d18009bd5",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-biquinis-o-acabamento-vira-protagonista",
+      "sourceSHA256": "f22b95127e99e13032cfef251ac90749c70230cd8b2d2b2f8059cfd01bf07af0",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-pijamas-o-dia-termina-em-outro-ritmo",
+      "sourceSHA256": "cec62003bac0e9b10cc36aadf9d42ee115abf0099b7e80e4b8a80aa868715779",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-pijamas-o-pijama-fora-da-cama",
+      "sourceSHA256": "55b5740c38fc6108c96e46d5b292bd14ed2cb5c4064a2b53e6262978555ada67",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-pijamas-presente-para-um-ritual",
+      "sourceSHA256": "1a4db39f2dbc648e0fabbe1c43813c53f5a63cf3928ecb9d7500de2bc6a495a3",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-pijamas-a-textura-antes-de-vestir",
+      "sourceSHA256": "46f4824886b6f38408334de2efdcd9d8ccc417e2b69d5c2349a81a3d8007fb51",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-pijamas-duas-rotinas-um-comeco-leve",
+      "sourceSHA256": "af6d6915a95fe726f7d7717a2a2e203b615a402b5fc6f103b337afecf3c4194f",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-pijamas-o-tamanho-entra-na-escolha",
+      "sourceSHA256": "8f5adddd68c792eb05c4ea6c5238e3d81921dc77d748ffe43452248e3b4daac9",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-organicos-a-sacola-encontra-a-mesa",
+      "sourceSHA256": "2a3d03fde2645cd128269b1a4f0a106c643e1a0cf44a88b40ab47b3af6609513",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-organicos-a-cesta-sem-misterio",
+      "sourceSHA256": "37c19046ae701ca8a950e52bce0dff66454d68a6cd6939814777370b086584c3",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-organicos-o-ingrediente-ganha-duas-ideias",
+      "sourceSHA256": "20d7e8f46a798ed3e9db1259318a6815c6184b1590ba1b951c26f498c5419509",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-organicos-ver-a-origem-fazer-perguntas",
+      "sourceSHA256": "eddd8ece471bcb8a50105023293661a8e334357854d53ceba1d3a7b02cfa5f40",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-organicos-a-cor-real-do-preparo",
+      "sourceSHA256": "5461405870078baeb8a96ac4b4f61d0d87e7ff6995d29bba2922a39ebcbc1657",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-organicos-planejar-para-usar-melhor",
+      "sourceSHA256": "c17e67fe36cb64140614dfa76e6cba7c51d20a94f561ce0607841cae595e79cf",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-barras-a-pausa-cabe-na-bolsa",
+      "sourceSHA256": "f3a075c63d6102041a0f9fab273f1705f8f59979473f83ac630d5ac099ce6e40",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "approved_by_user_2026-11-12"
+    },
+    {
+      "id": "natural-barras-por-dentro-da-escolha",
+      "sourceSHA256": "044ffdb83ce52bed912846696f0ea4c834f036953efe727e5269eab21a6ac1eb",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-barras-da-gaveta-a-pausa",
+      "sourceSHA256": "3b7cfae3e09512088fea6093011302ff89e525a686431b30c70f3b0bf03f0428",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-barras-o-sabor-comeca-no-detalhe",
+      "sourceSHA256": "fe6ec964536e79ea8f3f0d96a0686d2312584b1813d916fbd2f347c09c96122c",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-barras-escolha-com-o-rotulo-a-vista",
+      "sourceSHA256": "9ef6c4598ab37b692f829759ca1418875fe033d69a5c3bc30ef551dbb938ea53",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-barras-um-lugar-na-mochila",
+      "sourceSHA256": "6aa3a4aa42ed101b779bf501b937237377e29b6b61532ef7085c2c35e203c7ab",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-cereal-o-som-que-muda-a-manha",
+      "sourceSHA256": "e8ef8b812ad4574035ed727d6af87d5451b7cf57a9fdc8326df5a3746babf25b",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "approved_by_user_2026-11-12"
+    },
+    {
+      "id": "natural-cereal-a-tigela-alem-do-habitual",
+      "sourceSHA256": "507da2021ae4ff7b154913a1d4b7ed23e36e7fa239d3e0c31be259e145534501",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-cereal-o-detalhe-de-cada-floco",
+      "sourceSHA256": "aa4e3ca64cd8144259851777703421c2fa15beb14d364eee9344bb8796c282ec",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-cereal-preparar-antes-da-correria",
+      "sourceSHA256": "8d1027234679e2462674cebf495c913df7a855c6fc470ff10c3db8b7b762cbfe",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-cereal-a-receita-muda-de-escala",
+      "sourceSHA256": "f1e9187411a787e517f3c6c83ef9bf5c8fd07575e70b364c242f1f80def700f1",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    },
+    {
+      "id": "natural-cereal-abrir-conferir-escolher",
+      "sourceSHA256": "7b3e8270162cda2decccf0755adf195051755fc478ce77b38430930aadbdda38",
+      "conceptLayoutReviewed": true,
+      "motionValidated": false,
+      "realProductValidated": false,
+      "userApproval": "pending_user_review"
+    }
+  ]
+}

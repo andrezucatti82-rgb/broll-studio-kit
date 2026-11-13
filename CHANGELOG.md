@@ -1,9 +1,35 @@
-# 2.3.1 — Aprovação visual anterior à geração IA
+## 2.7.1 — edição consolidada na main
 
-- Política aplicável a testes, avatares, B-roll e amostras em qualquer provedor.
-- Aprovações separadas por escopo e arquivo; styleframes, animatic e amostra integrada.
-- Bloqueio no cliente HeyGen antes da API e no render completo; testes de regressão.
-- Aplicador local reversível e política portátil para skills e plugins.
+- Integra os 780 estilos, modo guiado, ícones e documentação de instalação.
+- Preserva a regra universal de aprovação visual e seus gates de geração, render e entrega, junto ao contrato de fidelidade.
+- Pacotes regenerados de uma única skill neutra; instalação passa a apontar para main.
+
+## 2.7.0 — produção guiada, receitas e continuidade
+
+- Percurso opcional de objetivo, aparência, materiais e preparação com sugestões locais explicáveis.
+- Receitas planejadas de produto, serviço e interfaces/gráficos, com responsabilidades e entregas registradas.
+- Adaptação ao material, ajustes por intenção, retomada e pacote de contexto do projeto.
+- Skill neutra com protocolo guiado e ficha de coordenação; identidade pessoal preservada.
+- Três testes fictícios preparados com base de custo histórica. Sem certificação audiovisual ou autorização de gastos inferida.
+
+## 2.6.0 — referências acessíveis e execução com evidências
+
+- Manifesto com links completos e inspeção por quadro nos pedidos dos 780 estilos.
+- Rota por plano, ferramentas verificadas e orientação simples ao usuário.
+- Controle de arquivos/direção aprovados antes da API paga; suporte a referências de imagem e reescrita automática desativada por padrão.
+- Comparação lado a lado e vínculo da aprovação com a amostra exata. Sem promessa de reprodução idêntica.
+
+## 2.5.1 — revisão de materiais, navegação e sequência
+
+- Coleta específica para os dez segmentos de anúncios e interfaces.
+- Todos os tipos do catálogo disponíveis no filtro; numeração cronológica dos quadros.
+- Estado inválido e fragmentos de URL não impedem inicialização; preferência de avatar explícita no pedido.
+- Download da Page abre uma página na origem das imagens, evitando canvas entre domínios.
+- Sem novos vídeos, alteração de IDs ou aprovação audiovisual implícita.
+
+# 2.5.0 · 2026-11-12
+
+60 anúncios narrados em dez segmentos; catálogo 4.3 com 780 estilos. Quatro quadros por conceito, DBO/AIDA, narração, legendas e CTA no preset, pedido e planejador. Opção de 45 s e migração de favoritos Page preservada. Skill e plugin multimarcas atualizados, sem mudança da skill pessoal.
 
 # 2026-11-06 — Biblioteca somente de estilos
 
