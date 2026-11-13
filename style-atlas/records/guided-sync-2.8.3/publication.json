@@ -1,0 +1,52 @@
+{
+  "live": true,
+  "release": "https://videos.gerenciadordeanuncios.com.br/atlas-20261113070346/",
+  "runtimeFilesMatchSource": {
+    "app.js": "de2081a60e08b6b8877ee0f712aa6bf788f8167ea9b78715c5e1265195810740",
+    "guided-ui.js": "0f44ccde3f883324b5ba739e87c4955ae33bceef519e6a8498775388c01abc70",
+    "app-shell.css": "15978b66c9b8d988dd314ff00260314934a2b9091554190307cf68caaa9a66ff",
+    "app-shell.js": "510ff091a5c0303d11dc0d9702b6a168ce4bdc5bd8ab202790d32caa11811ea3",
+    "workflow.js": "230acb314d495182ed46247eb35c3547f658bcab00c92830c3b8e04c2c299d92",
+    "gallery-views.js": "1623d6d14954c57457904961a64018d0b74bca2a235147d929c74ea21a57ec92",
+    "guided.js": "738d2936e9558040d4f08edd87479c69caae6a2e5676c6685058c70695b8fc5c",
+    "style-picker.js": "7855207ae86b65257efcafc19e3bb88ce9641f3b1084433c0f8d416453f186d3",
+    "catalog.json": "e4829536a9fdc301bf23d21c254346cd2896a7fa805bc41c0dab4dba49e18b9b"
+  },
+  "principalPinnedOutsideRecommendations": true,
+  "refreshRetainsPrincipal": true,
+  "preparePreservesTwoStylesAndContributions": true,
+  "explicitSwapImmediatelyUpdatesBrief": true,
+  "swapPreservesComplementaryScope": true,
+  "reloadRetainsSwap": true,
+  "dirtyDraftAdoptsLatestBriefFields": true,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "noHorizontalOverflow": true,
+  "pageBridgeNoLocalStorageAndIncomingState": false,
+  "nativePageViewerTested": false,
+  "physicalDeviceTested": false,
+  "paidGenerationCalls": 0,
+  "errors": [],
+  "version": "2.8.3",
+  "sourceCommit": "7bceda8c42cd26bd5cf07fb0fc9766766347bebc",
+  "implementationPullRequest": "https://github.com/andrezucatti82-rgb/studio-kit-pro/pull/13",
+  "publicationRun": 43382984910,
+  "publicationConclusion": "success",
+  "publicationFinishedUTC": "2026-11-13T07:17:40Z",
+  "page": {
+    "id": "page_05d0233621d081919b31df2863cab40b",
+    "sequence": 71,
+    "htmlBytes": 188678,
+    "visualizationUpdated": true,
+    "guideUpdated": true,
+    "bridgeSimulatedTestPassed": true,
+    "nativeViewerTested": false
+  },
+  "genericPackagesVersion": "2.8.3",
+  "chatGPTAccountPluginInstallationConfirmed": false,
+  "personalSkillChanged": false
+}
