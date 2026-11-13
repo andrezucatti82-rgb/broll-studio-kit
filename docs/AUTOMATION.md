@@ -15,12 +15,15 @@ O comando cria `brief.json`, `production.json` e `START.md`. Ele organiza as eta
 
 ## Gerar um clipe pela API HTTP do HeyGen
 
-Requer Python 3, acesso de rede e `HEYGEN_API_KEY` configurada como segredo no ambiente. Nunca cole a chave no chat ou no preset. Consulte a documentação atual do modelo e confirme preço, referências, saldo e direitos antes de executar. O adaptador atual suporta apenas `heygen-video-1`, `text_to_video` ou `image_to_video`, de 5 a 15 segundos. Outros endpoints exigem adaptação e validação próprias.
+Requer Python 3, acesso de rede e `HEYGEN_API_KEY` configurada como segredo no ambiente. Nunca cole a chave no chat ou no preset. Consulte a documentação atual do modelo e confirme preço, referências, saldo e direitos antes de executar. O adaptador atual suporta `heygen-video-1`, nos modos `text_to_video`, `image_to_video` e `reference_to_video` (até nove imagens conferidas), de 5 a 15 segundos. Outros endpoints exigem adaptação e validação próprias.
 
 Crie em `projects/meu-video/` um `job.json`, por exemplo:
 
 ```json
 {
+  "fidelityPlan": "fidelity-plan.json",
+  "shotId": "shot-1",
+  "productionPhase": "sample",
   "model": "heygen-video-1",
   "mode": "image_to_video",
   "firstFrame": "quadro-validado.png",
@@ -31,6 +34,8 @@ Crie em `projects/meu-video/` um `job.json`, por exemplo:
   "reserveUSD": 2
 }
 ```
+
+O exemplo não está pronto para executar: requer `workflow.json`, `fidelity-plan.json`, arquivos originais/quadro inicial e aprovações reais vinculadas à direção. Consulte [fidelidade](FIDELITY-2.6.md) e [aprovações visuais](VISUAL-APPROVAL.md); não preencha aceites só para passar no gate.
 
 Crie `budget.private.json` no mesmo diretório:
 
