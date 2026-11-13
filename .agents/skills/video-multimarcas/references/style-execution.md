@@ -11,7 +11,7 @@ Use este protocolo quando receber um pedido, preset ou seleção do atlas. A edi
 
 ## Combinar sem perder a direção
 
-Um estilo principal define a linguagem dominante. Para cada complementar, registre o que aproveitar (composição, luz, material, tipografia, ação, transição ou áudio), em quais planos e o que não incorporar. Dez escolhas não significam dez estilos por cena nem cenas de mesma duração. Resolva conflitos no moodboard antes de gerar clipes; não descarte uma escolha silenciosamente. Ao adaptar ao tema, preserve o mecanismo que diferencia o estilo, e não somente sua paleta.
+Quando styleContributions estiver presente, aplique primeiro references/style-contributions.md: somente as características e escopos escolhidos podem ser importados. A direção completa funciona como base quando selecionada. Um estilo principal define a linguagem dominante nas escolhas antigas. Para cada complementar, registre o que aproveitar (composição, luz, material, tipografia, ação, transição ou áudio), em quais planos e o que não incorporar. Dez escolhas não significam dez estilos por cena nem cenas de mesma duração. Resolva conflitos no moodboard antes de gerar clipes; não descarte uma escolha silenciosamente. Ao adaptar ao tema, preserve o mecanismo que diferencia o estilo, e não somente sua paleta.
 
 Preencha `templates/style-execution-plan.json`: `selectedStyles` guarda os critérios e quadros de origem; `styleRoles` descreve principal/complementares e planos; `capabilities` registra recurso, ferramenta comprovada, materiais, custo e bloqueio; `deviations` registra diferenças e decisões do usuário. Registre evidências, não preencha aprovações por inferência. O kit cria esse arquivo junto do plano de produção; a skill isolada pode preenchê-lo manualmente.
 

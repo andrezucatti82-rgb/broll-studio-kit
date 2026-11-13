@@ -37,8 +37,12 @@
     "userApproval": {
       "status": "pending",
       "evidence": ""
-    }
+    },
+    "contributionChecks": [],
+    "remainingContributionChecks": []
   },
   "visualAlignment": [],
-  "sequenceInterpretation": "Quatro estados de referência; quantidade e duração dos planos definidas pelo roteiro e pela locução."
+  "sequenceInterpretation": "Quatro estados de referência; quantidade e duração dos planos definidas pelo roteiro e pela locução.",
+  "contributionBindings": [],
+  "styleCombination": null
 }

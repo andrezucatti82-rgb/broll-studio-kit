@@ -47,7 +47,9 @@
         "coverageAndMovementLimits": "",
         "testEvidence": "",
         "status": "not_run"
-      }
+      },
+      "narrativeRole": "",
+      "styleContributions": []
     }
   ],
   "identityPlan": {

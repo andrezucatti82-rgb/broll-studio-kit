@@ -1,0 +1,42 @@
+/* Fine-grained style choices. The same contract is consumed by prompt and planner. */
+(function(){
+ function init(){
+  if(!window.AtlasApp||document.getElementById('stylePicker'))return;
+  const W=AtlasWorkflow,$=id=>document.getElementById(id),esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const dialog=document.createElement('dialog');dialog.id='stylePicker';dialog.setAttribute('aria-labelledby','stylePickerTitle');
+  dialog.innerHTML='<header class="picker-head"><div><p class="eyebrow">COMBINAR ESTILOS</p><h2 id="stylePickerTitle">O que aproveitar deste estilo?</h2><p id="pickerSource"></p></div><button type="button" id="pickerClose" aria-label="Fechar sem aplicar">×</button></header><div class="picker-search"><label for="pickerSearch">Buscar característica</label><input id="pickerSearch" type="search" placeholder="Ex.: tipografia, luz, textura, cores…" autocomplete="off"></div><div class="picker-layout"><nav id="pickerGroups" aria-label="Tipos de característica"></nav><div id="pickerOptions"></div></div><section class="picker-chosen"><h3>Suas escolhas e onde aplicar</h3><div id="pickerChosen"></div><p class="small">Os momentos serão definidos no roteiro. Uma imagem não comprova movimento ou som.</p></section><p id="pickerError" role="alert"></p><footer class="picker-footer"><span id="pickerCount"></span><button type="button" class="outline" id="pickerClear">Limpar</button><button type="button" class="primary" id="pickerApply">Aplicar escolhas</button></footer>';
+  document.body.append(dialog);
+  const summary=document.createElement('section');summary.id='styleCombinationSummary';summary.className='style-combination-summary';$('selectionList').after(summary);
+  let currentId=null,draft=[],group='popular',opener=null;
+  const popular=new Set(['style_direction','typographic_language','lighting','palette','texture','depth','camera_movement','transitions','sound_direction']);
+  function groupButtons(){return '<button type="button" data-picker-group="popular" aria-pressed="'+(group==='popular')+'">Mais usadas</button>'+Object.entries(W.contributionGroups).map(([id,label])=>'<button type="button" data-picker-group="'+id+'" aria-pressed="'+(group===id)+'">'+esc(label)+'</button>').join('');}
+  function renderOptions(){
+   const q=$('pickerSearch').value.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
+   const options=W.contributionOptions.filter(o=>(q||group==='popular'?q||popular.has(o.id):o.group===group)&&(!q||(o.label+' '+W.contributionGroups[o.group]).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().includes(q)));
+   $('pickerGroups').innerHTML=groupButtons();$('pickerOptions').innerHTML=options.map(o=>'<label class="picker-option"><input type="checkbox" data-picker-aspect="'+o.id+'" '+(draft.some(v=>v.aspect===o.id)?'checked':'')+'><span><strong>'+esc(o.label)+'</strong><small>'+esc(o.evidence==='motion'?'Validar em movimento':o.evidence==='audio'?'Validar por escuta':o.evidence==='mixed'?'Proposta para aprovação':'Direção visual da referência')+'</small></span></label>').join('')||'<p>Nenhuma característica encontrada.</p>';
+  }
+  function renderChosen(){
+   $('pickerChosen').innerHTML=draft.map(v=>{const o=W.contributionOptions.find(o=>o.id===v.aspect);return '<div class="picker-binding"><label for="scope-'+o.id+'">'+esc(o.label)+'</label><select id="scope-'+o.id+'" data-picker-scope="'+o.id+'" aria-label="Onde aplicar '+esc(o.label)+'">'+Object.entries(W.contributionScopes).map(([id,label])=>'<option value="'+id+'" '+(v.scope===id?'selected':'')+'>'+esc(label)+'</option>').join('')+'</select><button type="button" data-picker-remove="'+o.id+'" aria-label="Remover '+esc(o.label)+'">×</button></div>';}).join('')||'<p class="small">Marque uma ou mais características acima.</p>';
+   $('pickerCount').textContent=draft.length+'/12 características';$('pickerError').textContent='';
+  }
+  function open(id,button){if(!AtlasCurrentChoice().selectedStyles.some(s=>s.id===id))return;currentId=id;draft=AtlasApp.getStyleContributions(id);group='popular';opener=button||document.activeElement;$('pickerSource').textContent=AtlasApp.getStyle(id).name;$('pickerSearch').value='';renderOptions();renderChosen();dialog.showModal();$('pickerSearch').focus();}
+  function restoreFocus(){const target=opener?.isConnected?opener:$('selectionList').querySelector('[data-contributions="'+currentId+'"]');target?.focus?.({preventScroll:true});}function close(){dialog.close();restoreFocus();}
+  function renderSummary(){
+   const c=AtlasCurrentChoice(),p=W.combinationPlan(c);if(c.selectedStyles.length)$('selectionList').closest('details')?.setAttribute('open','');if(c.selectedStyles.length<2&&!c.selectedStyles.some(s=>c.styleContributions[s.id]?.some(v=>v.aspect!=='style_direction'))){summary.hidden=true;return}summary.hidden=false;
+   summary.innerHTML='<h3>Como os estilos entram no vídeo</h3>'+p.entries.map(e=>'<article><strong>'+esc(c.selectedStyles.find(s=>s.id===e.styleId).name)+'</strong><div>'+ (e.contributions.length?e.contributions.map(v=>'<span class="contribution-chip">'+esc(W.contributionOptions.find(o=>o.id===v.aspect).label)+' <small>· '+esc(W.contributionScopes[v.scope])+'</small></span>').join(''):'<button type="button" class="contribution-open missing" data-contributions="'+e.styleId+'">Escolher o que aproveitar</button>')+'</div></article>').join('')+(p.conflicts.length?'<div class="combination-conflicts" role="alert"><strong>Há escolhas concorrentes no mesmo momento.</strong><p>Escolha uma fonte ou mude onde aplicar a outra característica.</p>'+p.conflicts.map(x=>'<p>'+esc(W.contributionOptions.find(o=>o.id===x.aspect).label)+' × '+esc(W.contributionOptions.find(o=>o.id===x.otherAspect).label)+' · '+esc(W.contributionScopes[x.scope])+'<br>'+x.styleIds.map(id=>'<button type="button" class="contribution-open" data-contributions="'+id+'">Ajustar '+esc(c.selectedStyles.find(s=>s.id===id).name)+'</button>').join(' ')+'</p>').join('')+'</div>':'')+'<p class="small">O ChatGPT detalhará esse mapa no roteiro, moodboard e storyboard para aprovação. As imagens do catálogo continuam sendo referências.</p>';
+   if(c.selectedStyles.length>1)$('selectionList').closest('details')?.setAttribute('open','');
+  }
+  document.addEventListener('click',e=>{const b=e.target.closest('[data-contributions]');if(b)open(b.dataset.contributions,b);});
+  $('pickerGroups').addEventListener('click',e=>{const b=e.target.closest('[data-picker-group]');if(b){group=b.dataset.pickerGroup;$('pickerSearch').value='';renderOptions();$('pickerGroups').querySelector('[data-picker-group="'+group+'"]')?.focus();}});
+  $('pickerSearch').addEventListener('input',renderOptions);
+  $('pickerOptions').addEventListener('change',e=>{const id=e.target.dataset.pickerAspect;if(!id)return;if(e.target.checked){if(draft.length>=12){e.target.checked=false;$('pickerError').textContent='Escolha até 12 características por estilo.';return}draft.push({aspect:id,scope:id==='style_direction'&&AtlasCurrentChoice().selectedStyles[0]?.id===currentId?'film':'propose'});}else draft=draft.filter(v=>v.aspect!==id);renderChosen();});
+  $('pickerChosen').addEventListener('change',e=>{const id=e.target.dataset.pickerScope;if(id){draft=draft.map(v=>v.aspect===id?{...v,scope:e.target.value}:v);$('pickerError').textContent='';}});
+  $('pickerChosen').addEventListener('click',e=>{const b=e.target.closest('[data-picker-remove]');if(b){draft=draft.filter(v=>v.aspect!==b.dataset.pickerRemove);renderChosen();renderOptions();}});
+  $('pickerClear').onclick=()=>{draft=[];renderChosen();renderOptions();};$('pickerClose').onclick=close;
+  $('pickerApply').onclick=()=>{try{if(!draft.length)throw Error('Escolha pelo menos uma característica.');AtlasApp.setStyleContributions(currentId,draft);renderSummary();close();}catch(e){$('pickerError').textContent=e.message;}};
+  dialog.addEventListener('cancel',()=>{setTimeout(restoreFocus,0);});
+  window.addEventListener('atlas:state',renderSummary);
+  window.AtlasContributions={open,openFirstIssue(){const p=W.combinationPlan(AtlasCurrentChoice()),id=p.unassigned[0]||p.conflicts[0]?.styleIds[0];if(id)open(id);},render:renderSummary};renderSummary();
+ }
+ if(window.ATLAS_READY)init();else window.addEventListener('atlas:ready',init,{once:true});
+})();

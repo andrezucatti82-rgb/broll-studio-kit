@@ -56,8 +56,12 @@
       "sha256": "",
       "decisionEvidence": "",
       "directionSha256": ""
-    }
+    },
+    "shotIds": [],
+    "contributionChecks": [],
+    "remainingContributionChecks": []
   },
   "deviations": [],
-  "expectedReferences": []
+  "expectedReferences": [],
+  "contributionBindings": []
 }

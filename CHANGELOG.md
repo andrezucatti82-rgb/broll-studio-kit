@@ -1,3 +1,11 @@
+# 2.8.0 — Características e escopos por estilo
+
+- Seletor pesquisável com características de aparência, letras, câmera, movimento, montagem, grafismos, pessoas e som.
+- Contrato único para os 780 estilos: seleção e aplicação seguem no pedido, preset, ficha e planejador.
+- Concorrência no mesmo escopo bloqueia o pedido; mudanças renovam aceites dependentes.
+- Fidelidade vincula as características a planos, referências e à impressão digital da direção aprovada.
+- Preservados catálogo, IDs, mídia, identidade visual e modo Page sem localStorage. Testes de transporte não certificam acabamento audiovisual.
+
 ## 2.7.1 — edição consolidada na main
 
 - Integra os 780 estilos, modo guiado, ícones e documentação de instalação.

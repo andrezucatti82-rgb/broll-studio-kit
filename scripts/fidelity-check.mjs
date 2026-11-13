@@ -2,10 +2,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {pathToFileURL} from 'node:url';
+import '../style-atlas/dist/workflow.js';
 const text=v=>typeof v==='string'&&v.trim().length>0;
 const hash=v=>/^[a-f0-9]{64}$/i.test(v||'');
 function canonical(value){if(Array.isArray(value))return value.map(canonical);if(value&&typeof value==='object')return Object.fromEntries(Object.keys(value).sort().map(k=>[k,canonical(value[k])]));return value;}
-export function directionFingerprint(plan){const fields=['id','styleId','referenceIds','originalReferenceIds','initialState','action','result','camera','transition','narration','audio','preserve','editableText','realSubject','route','capabilityId','initialFrame','inputReferenceIds','appearanceCritical','appearanceExceptionApproval','generationPrompt','durationSeconds','generationSettings'];const data={references:(plan.references||[]).map(r=>({id:r.id,sha256:r.sha256,role:r.role})),moodboard:plan.approvals?.moodboard?.sha256,storyboard:plan.approvals?.storyboard?.sha256,shots:(plan.shots||[]).map(s=>Object.fromEntries(fields.filter(k=>k in s).map(k=>[k,s[k]]))),tools:(plan.capabilities||[]).map(c=>({id:c.id,tool:c.tool,mode:c.mode,scope:c.scope}))};return crypto.createHash('sha256').update(JSON.stringify(canonical(data))).digest('hex');}
+export function directionFingerprint(plan){const fields=['id','styleId','narrativeRole','styleContributions','referenceIds','originalReferenceIds','initialState','action','result','camera','transition','narration','audio','preserve','editableText','realSubject','route','capabilityId','initialFrame','inputReferenceIds','appearanceCritical','appearanceExceptionApproval','generationPrompt','durationSeconds','generationSettings'];const data={...(plan.styleCombination!==undefined?{styleCombination:plan.styleCombination,contributionBindings:(plan.contributionBindings||[]).map(b=>Object.fromEntries(['styleId','aspect','scope','resolvedScope','shotIds','referenceIds','referenceBasis','decision'].filter(k=>k in b).map(k=>[k,b[k]])))}:{}),references:(plan.references||[]).map(r=>({id:r.id,sha256:r.sha256,role:r.role})),moodboard:plan.approvals?.moodboard?.sha256,storyboard:plan.approvals?.storyboard?.sha256,shots:(plan.shots||[]).map(s=>Object.fromEntries(fields.filter(k=>k in s).map(k=>[k,s[k]]))),tools:(plan.capabilities||[]).map(c=>({id:c.id,tool:c.tool,mode:c.mode,scope:c.scope}))};return crypto.createHash('sha256').update(JSON.stringify(canonical(data))).digest('hex');}
 export function checkFidelity(plan,{phase='sample',directory='.',shotId,job,jobDirectory=directory}={}){
  const errors=[],root=path.resolve(directory),refs=new Map(),caps=new Map();
  const fail=m=>errors.push(m);
@@ -22,6 +23,28 @@ export function checkFidelity(plan,{phase='sample',directory='.',shotId,job,jobD
  for(const c of plan.capabilities||[]){if(!text(c.id)||caps.has(c.id))fail('Capacidade sem ID único');caps.set(c.id,c);}
  const shots=plan.shots||[];if(!Array.isArray(shots)||!shots.length)fail('Plano de execução vazio');
  if(new Set(shots.map(s=>s.id)).size!==shots.length)fail('Planos com ID duplicado');
+ if(plan.styleCombination!==undefined){
+  try{
+   const c=plan.styleCombination;
+   if(c.version!==1||c.explicit!==true||!Array.isArray(c.entries)||!c.entries.length)throw Error('Mapa inválido');
+   const expected=AtlasWorkflow.combinationPlan({selectedStyles:c.entries.map(e=>({id:e.styleId})),styleContributions:Object.fromEntries(c.entries.map(e=>[e.styleId,e.contributions]))},{requireResolved:true});
+   if(JSON.stringify(canonical(c))!==JSON.stringify(canonical(expected)))throw Error('Mapa alterado');
+   const bindings=plan.contributionBindings;
+   if(!Array.isArray(bindings)||bindings.length!==c.entries.reduce((n,e)=>n+e.contributions.length,0))throw Error('Vínculos ausentes');
+   const keys=new Set();
+   for(const entry of c.entries)for(const contribution of entry.contributions){
+    const key=entry.styleId+':'+contribution.aspect,matching=bindings.filter(b=>b.styleId===entry.styleId&&b.aspect===contribution.aspect);
+    if(keys.has(key)||matching.length!==1)throw Error('Vínculo duplicado');keys.add(key);
+    const b=matching[0],option=AtlasWorkflow.contributionOptions.find(o=>o.id===b.aspect);
+    const scope=contribution.scope==='propose'?b.resolvedScope:contribution.scope;
+    if(b.scope!==contribution.scope||!Object.hasOwn(AtlasWorkflow.contributionScopes,scope)||scope==='propose'||!text(b.decision)||!Array.isArray(b.shotIds)||!b.shotIds.length||new Set(b.shotIds).size!==b.shotIds.length||b.shotIds.some(id=>!shots.some(s=>s.id===id)))throw Error('Distribuição incompleta');
+    if(scope==='film'&&shots.some(s=>!b.shotIds.includes(s.id)))throw Error('Escopo global incompleto');
+    if(scope!=='film'&&b.shotIds.some(id=>shots.find(s=>s.id===id)?.narrativeRole!==scope))throw Error('Plano fora do escopo');
+    if(!Array.isArray(b.referenceIds)||!b.referenceIds.length||b.referenceIds.some(id=>!refs.has(id))||!b.referenceIds.some(id=>(plan.expectedReferences||[]).some(r=>r.id===id&&r.styleId===entry.styleId)))throw Error('Referência de estilo ausente');
+    if(!['observed_image','observed_video','observed_audio','approved_proposal'].includes(b.referenceBasis)||['motion','audio','mixed'].includes(option.evidence)&&b.referenceBasis==='observed_image')throw Error('Imagem não comprova movimento ou áudio');
+   }
+  }catch{fail('Mapa de características sem vínculos válidos: característica, escopo, planos, referência inspecionada e decisão são obrigatórios');}
+ }
  if(shotId&&!shots.some(s=>s.id===shotId))fail('Plano solicitado não encontrado');
  for(const s of shots){
   for(const k of ['id','styleId','initialState','action','result','camera','transition','narration','audio'])if(!text(s[k]))fail('Plano incompleto: '+s.id+'/'+k);
@@ -41,6 +64,15 @@ export function checkFidelity(plan,{phase='sample',directory='.',shotId,job,jobD
  if(job){const s=shots.find(s=>s.id===shotId);if(!s||job.mode!==s.route)fail('Modo do job difere do plano');if(s&&(job.prompt!==s.generationPrompt||job.duration!==s.durationSeconds||Object.entries(s.generationSettings||{}).some(([k,v])=>(job[k]??(k==='prompt_enhancement'?'disabled':undefined))!==v)))fail('Prompt ou parâmetros do job diferem da direção aprovada');if(s?.route==='reference_to_video'){try{const expected=s.inputReferenceIds.map(id=>refs.get(id).sha256);const actual=job.referenceImages.map(f=>crypto.createHash('sha256').update(fs.readFileSync(path.resolve(jobDirectory,f))).digest('hex'));if(JSON.stringify(actual)!==JSON.stringify(expected))fail('Job usa referências ou ordem diferentes da direção aprovada');}catch{fail('Referências do job indisponíveis');}}if(s?.route==='image_to_video'){try{const p=path.resolve(jobDirectory,job.firstFrame);if(crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex')!==s.initialFrame.sha256)fail('Job usa quadro diferente do aprovado');}catch{fail('Quadro do job indisponível');}}}
  if(phase==='final'){
   const s=plan.sample;artifact(s,'Amostra');if(s?.durationSeconds!==10||!text(s?.selectionReason))fail('Amostra representativa de 10 s necessária');
+  if(plan.styleCombination!==undefined){
+   const ids=s?.shotIds,bindings=Array.isArray(plan.contributionBindings)?plan.contributionBindings:[];
+   if(!Array.isArray(ids)||!ids.length||ids.some(id=>!shots.some(shot=>shot.id===id)))fail('Declare os planos realmente cobertos pela amostra');
+   else{
+    const covered=bindings.filter(b=>b.shotIds?.some(id=>ids.includes(id))),remaining=bindings.filter(b=>!covered.includes(b));
+    for(const b of covered){const check=s.contributionChecks?.find(v=>v.styleId===b.styleId&&v.aspect===b.aspect);if(check?.status!=='passed'||!text(check.evidence)||!Array.isArray(check.shotIds)||b.shotIds.filter(id=>ids.includes(id)).some(id=>!check.shotIds.includes(id))||check.shotIds.some(id=>!ids.includes(id)||!b.shotIds.includes(id)))fail('Característica não comparada na amostra: '+b.styleId+'/'+b.aspect);}
+    for(const b of remaining)if(!s.remainingContributionChecks?.some(v=>v.styleId===b.styleId&&v.aspect===b.aspect&&text(v.plan)))fail('Declare como conferir as características fora da amostra: '+b.styleId+'/'+b.aspect);
+   }
+  }
   if(!s?.comparisonFiles?.length)fail('Comparação lado a lado ausente');for(const a of s?.comparisonFiles||[])artifact(a,'Comparação');
   for(const k of ['playback','listening'])if(s?.[k]?.status!=='passed'||!text(s[k].evidence))fail('Revisão audiovisual pendente: '+k);
   for(const k of ['appearance','movement','text','identity'])if(s?.locks?.[k]?.status!=='passed'||!text(s.locks[k].evidence))fail('Trava pendente: '+k);

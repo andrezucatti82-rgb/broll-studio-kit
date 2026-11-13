@@ -35,7 +35,7 @@ npm test
 npm run validate
 ```
 
-Esta edição 2.7.1 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
+Esta edição 2.8.0 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
 
 Se você baixou o ZIP dessa branch no GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
 
@@ -156,3 +156,5 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 Use intenções simples como “Mais natural”, “Produto maior”, “Menos efeitos”, “Voz mais rápida”, “Texto mais legível” e “Mais próximo da referência”. O agente explica a alteração, preserva versões e reapresenta os aceites afetados. Não há autorização automática para gerar ao selecionar um ajuste.
 
 Ao baixar/reimportar o pacote do projeto, confira briefing, estilos, referências, materiais, decisões e próxima ação. Referências por URL não são originais enviados no chat; anexe novamente o que não estiver disponível na nova conversa. O site só sabe o que foi salvo/importado. O agente retoma a primeira dependência pendente e aproveita os aceites comprovados da mesma versão.
+
+Para combinar tipografia, luz, textura e cores de referências diferentes, leia [características dos estilos](STYLE-CONTRIBUTIONS-2.8.md).
