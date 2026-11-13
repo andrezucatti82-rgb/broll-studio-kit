@@ -1,0 +1,62 @@
+{
+  "version": "2.8.0",
+  "kind": "software_and_interface_verification",
+  "scope": "Selection, prompt, preset, project sheet and planner; not audiovisual certification",
+  "catalog": {
+    "styles": 780,
+    "categories": 28,
+    "frames": 3120,
+    "idsAndMediaChanged": false
+  },
+  "automated": {
+    "npmCi": "passed",
+    "check": "passed",
+    "nodeTestFiles": 15,
+    "pythonTests": 9,
+    "validate": "passed",
+    "all780Prompts": "passed"
+  },
+  "browser": {
+    "desktop1440": true,
+    "mobile375": true,
+    "widths": [
+      320,
+      375,
+      768,
+      1440
+    ],
+    "fourSourcesFourCharacteristics": true,
+    "sameScopeConflictBlocked": true,
+    "cancelPreservesSelection": true,
+    "focusReturn": true,
+    "presetDownload": true,
+    "projectReimport": true,
+    "localReload": true,
+    "pageBridgeSimulated": true,
+    "pageUsesNoLocalStorage": true,
+    "nativePageViewerTested": false,
+    "videoGenerated": false,
+    "errors": []
+  },
+  "capacity": {
+    "styles": 10,
+    "aspects": 120,
+    "bytes": 15363,
+    "nativeModalFocusTrap": true,
+    "pageBridgeSimulated": true
+  },
+  "pageEmbedBytes": 186174,
+  "audiovisual": {
+    "mediaGenerated": false,
+    "paidApisCalled": false,
+    "playback": "not_run",
+    "listening": "not_run",
+    "userCreativeApproval": "not_requested"
+  },
+  "installation": {
+    "repositorySkillAndPackages": "2.8.0",
+    "accountPlugin": "not_confirmed",
+    "personalSkillChanged": false
+  },
+  "publication": "pending"
+}

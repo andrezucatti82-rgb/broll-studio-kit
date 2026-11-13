@@ -16,7 +16,7 @@ async function boot({page=false,saved=null,hash=""}={}){
   Object.defineProperty(el,'options',{get(){return [...this.querySelectorAll('option')]}});
  }
  for(const el of document.querySelectorAll('select'))patchSelect(el);
- const create=document.createElement.bind(document);document.createElement=(tag,...args)=>{const el=create(tag,...args);if(tag==='select')patchSelect(el);el.focus=()=>{};return el};
+ const create=document.createElement.bind(document);document.createElement=(tag,...args)=>{const el=create(tag,...args);if(tag==='select')patchSelect(el);if(tag==='dialog'){el.showModal=function(){this.open=true};el.close=function(){this.open=false}}el.focus=()=>{};return el};
  for(const el of document.querySelectorAll('dialog')){el.show=function(){this.open=true};el.showModal=el.show;el.close=function(){const was=this.open;this.open=false;if(was)this.dispatchEvent(new dom.Event('close'))};}
  for(const el of document.querySelectorAll('*')){el.focus=()=>{};el.scrollIntoView=()=>{};el.reportValidity=()=>true;}
  document.getElementById('briefForm').requestSubmit=function(){this.dispatchEvent(new dom.Event('submit',{bubbles:true,cancelable:true}))};
@@ -32,7 +32,7 @@ async function boot({page=false,saved=null,hash=""}={}){
  };
  document.fonts={add(){}};ctx.window=ctx;ctx.globalThis=ctx;
  vm.createContext(ctx);
- for(const name of ['guided.js','workflow.js','gallery-views.js','app-shell.js','app.js','guided-ui.js'])vm.runInContext(await read(name),ctx,{filename:name});
+ for(const name of ['guided.js','workflow.js','gallery-views.js','app-shell.js','app.js','guided-ui.js','style-picker.js'])vm.runInContext(await read(name),ctx,{filename:name});
  for(let i=0;i<150&&!ctx.ATLAS_READY&&!errors.length;i++)await new Promise(r=>setTimeout(r,10));
  assert.equal(errors.map(e=>e.stack).join('\n'),'');assert.equal(ctx.ATLAS_READY,true,'app initialized');
  const click=selector=>{const el=document.querySelector(selector);assert.ok(el,selector);el.dispatchEvent(new dom.Event('click',{bubbles:true}));};
@@ -45,6 +45,8 @@ test('app: choose ten, prepare 90 seconds, keep technical prompt collapsed, pers
  const ids=[...d.querySelectorAll('#grid [data-choose]')].slice(0,11).map(x=>x.dataset.choose);
  for(const id of ids)click(`#grid [data-choose="${id}"]`);
  assert.equal(ctx.AtlasCurrentChoice().selectedStyles.length,10);
+ assert.throws(()=>ctx.AtlasApp.prompt(),/Escolha/);
+ for(const style of ctx.AtlasCurrentChoice().selectedStyles.slice(1))ctx.AtlasApp.setStyleContributions(style.id,[{aspect:'lighting',scope:'propose'}]);
  click('#openBrief');assert.equal(d.body.dataset.view,'brief');
  change('topic','<script>alert(1)</script> Um agente de IA');change('duration','custom');change('customDuration','90');
  d.getElementById('briefForm').dispatchEvent(new ctx.Event('submit',{bubbles:true,cancelable:true}));
@@ -203,3 +205,18 @@ test('requesting adjustment retains history but invalidates affected approvals',
 
 test('portable bundle round-trips through import and rejects invalid sheet without losing choices',async()=>{const a=await boot();a.click('#grid [data-choose]');a.change('topic','Projeto mantido');const bundle=a.ctx.AtlasApp.exportBundle(),input=a.document.getElementById('importProject');Object.defineProperty(input,'files',{configurable:true,value:[{size:1000,text:async()=>JSON.stringify(bundle)}]});await input.onchange({target:input});assert.equal(a.ctx.AtlasCurrentChoice().topic,'Projeto mantido');bundle.project.styles=['unknown'];Object.defineProperty(input,'files',{configurable:true,value:[{size:1000,text:async()=>JSON.stringify(bundle)}]});await input.onchange({target:input});assert.equal(a.ctx.AtlasCurrentChoice().topic,'Projeto mantido');assert.equal(a.ctx.AtlasCurrentChoice().selectedStyles.length,1);assert.match(a.document.getElementById('projectMessage').textContent,/recusada/);});
 test('revising storyboard preserves moodboard and history; project next action remains usable',async()=>{const a=await boot();a.click('#grid [data-choose]');const c=a.ctx.AtlasCurrentChoice();c.projectState.preProductionApprovals.moodboard.status='approved';c.projectState.preProductionApprovals.visual_storyboard.status='approved';a.ctx.AtlasApp.requestRevision('visual_storyboard');assert.equal(c.projectState.preProductionApprovals.moodboard.status,'approved');assert.equal(c.projectState.preProductionApprovals.visual_storyboard.status,'pending');a.click('#projectNext');assert.equal(a.document.body.dataset.view,'brief');});
+
+test('granular choices reach prompt and Page state; changes invalidate approvals without deleting history',async()=>{
+ const a=await boot({page:true});a.click('#grid [data-choose]');const id=a.ctx.AtlasCurrentChoice().selectedStyles[0].id;a.ctx.AtlasApp.setStyleContributions(id,[{aspect:'typographic_language',scope:'film'}]);
+ const c=a.ctx.AtlasCurrentChoice();c.projectState.history.push({etapa:'visual_storyboard',estado:'concluido',versao:1,custoInformadoUSD:0,resumo:'Fixture only',pendencias:[]});c.projectState.preProductionApprovals.moodboard.status='approved';c.projectState.preProductionApprovals.visual_storyboard.status='approved';
+ a.ctx.AtlasApp.setStyleContributions(id,[{aspect:'lighting',scope:'opening'}]);assert.equal(c.projectState.history.length,1);assert.equal(c.projectState.preProductionApprovals.moodboard.status,'pending');assert.equal(c.projectState.preProductionApprovals.visual_storyboard.status,'pending');assert.equal(a.ctx.AtlasCurrentChoice().requestPrepared,false);
+ assert.equal(a.getStorageReads(),0);assert.equal(a.getState().modelContent.styleContributions[id][0].aspect,'lighting');assert.equal(a.getState().modelContent.styleContributions[id][0].scope,'opening');assert.match(a.ctx.AtlasApp.prompt(),/"aspect":"lighting","scope":"opening"/);
+ const resumed=await boot({page:true,saved:a.getState()});assert.equal(resumed.ctx.AtlasCurrentChoice().styleContributions[id][0].scope,'opening');
+});
+test('popup cancellation retains original selection and conflicting scope blocks a prepared request',async()=>{
+ const a=await boot();a.click('#grid [data-choose]');const first=a.ctx.AtlasCurrentChoice().selectedStyles[0].id;a.ctx.AtlasContributions.open(first);a.click('#pickerClear');a.click('#pickerClose');assert.equal(a.ctx.AtlasApp.getStyleContributions(first)[0].aspect,'style_direction');
+ const button=[...a.document.querySelectorAll('#grid [data-choose]')].find(b=>b.dataset.choose!==first);a.click('#grid [data-choose="'+button.dataset.choose+'"]');assert.throws(()=>a.ctx.AtlasApp.prompt(),/Escolha/);a.ctx.AtlasApp.setStyleContributions(first,[{aspect:'palette',scope:'film'}]);a.ctx.AtlasApp.setStyleContributions(button.dataset.choose,[{aspect:'palette',scope:'film'}]);assert.throws(()=>a.ctx.AtlasApp.prompt(),/concorrentes/);assert.ok(a.document.querySelector('.combination-conflicts'));a.ctx.AtlasApp.setStyleContributions(button.dataset.choose,[{aspect:'palette',scope:'opening'}]);assert.doesNotThrow(()=>a.ctx.AtlasApp.prompt());
+});
+test('invalid contribution sheet is refused before replacing the current project',async()=>{
+ const a=await boot();a.click('#grid [data-choose]');const id=a.ctx.AtlasCurrentChoice().selectedStyles[0].id;a.ctx.AtlasApp.setStyleContributions(id,[{aspect:'texture',scope:'details'}]);const bundle=a.ctx.AtlasApp.exportBundle(),input=a.document.getElementById('importProject');bundle.project.styleContributions[id][0].scope='unknown';Object.defineProperty(input,'files',{configurable:true,value:[{size:1000,text:async()=>JSON.stringify(bundle)}]});await input.onchange({target:input});assert.equal(a.ctx.AtlasCurrentChoice().styleContributions[id][0].scope,'details');assert.match(a.document.getElementById('projectMessage').textContent,/recusada/);
+});

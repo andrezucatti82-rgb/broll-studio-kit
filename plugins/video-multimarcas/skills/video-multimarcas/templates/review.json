@@ -121,5 +121,10 @@
     "moodboardApproved": false,
     "storyboardApproved": false,
     "evidence": ""
+  },
+  "contributionReview": {
+    "status": "not_run",
+    "items": [],
+    "rule": "Comparar cada característica somente nos planos cobertos; registrar playback e escuta reais, e listar verificações restantes."
   }
 }

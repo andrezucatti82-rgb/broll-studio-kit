@@ -1,0 +1,50 @@
+{
+  "topic": "Anúncio de um capacho fictício: textura, uso e entrada acolhedora",
+  "brand": "Marca fictícia a definir",
+  "format": "9:16",
+  "typography": "auto",
+  "catalogVersion": "4.3",
+  "targetDurationSeconds": 30,
+  "firstDeliverySeconds": 10,
+  "selectedStyles": [
+    {
+      "id": "tipografia-cinetica"
+    },
+    {
+      "id": "publicidade-cinematografica"
+    },
+    {
+      "id": "macrofotografia"
+    },
+    {
+      "id": "natural-capachos-a-casa-comeca-antes-da-porta"
+    }
+  ],
+  "styleContributions": {
+    "tipografia-cinetica": [
+      {
+        "aspect": "typographic_language",
+        "scope": "film"
+      }
+    ],
+    "publicidade-cinematografica": [
+      {
+        "aspect": "lighting",
+        "scope": "film"
+      }
+    ],
+    "macrofotografia": [
+      {
+        "aspect": "texture",
+        "scope": "details"
+      }
+    ],
+    "natural-capachos-a-casa-comeca-antes-da-porta": [
+      {
+        "aspect": "palette",
+        "scope": "film"
+      }
+    ]
+  },
+  "approvalRequiredBeforeFullVideo": true
+}

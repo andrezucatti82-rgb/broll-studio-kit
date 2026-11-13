@@ -14,3 +14,20 @@ test('approved direction cannot silently change after acceptance',()=>fixture((p
 test('submitted prompt cannot diverge from approved scene',()=>fixture((p,o,a)=>{const r=checkFidelity(p,{...o,shotId:'shot',job:{mode:'image_to_video',firstFrame:a.file,prompt:'Different scene',duration:10,model:'heygen-video-1',resolution:'768p',aspect_ratio:'9:16'}});assert.equal(r.ready,false);assert.ok(r.errors.some(e=>e.includes('parâmetros')));}));
 
 test('direction fingerprint ignores JSON key order and output review notes',()=>fixture((p,o)=>{const original=directionFingerprint(p);p.shots[0]=Object.fromEntries(Object.entries(p.shots[0]).reverse());p.shots[0].outputReviewNotes='Added after generation';assert.equal(directionFingerprint(p),original);assert.equal(checkFidelity(p,o).ready,true);}));
+
+test('granular contributions require inspected references, shot coverage and honest reference basis',()=>fixture((p,o)=>{
+ p.expectedReferences[0].styleId='style';p.styleCombination=W.combinationPlan({selectedStyles:[{id:'style'}],styleContributions:{style:[{aspect:'lighting',scope:'film'}]}});
+ const bind={styleId:'style',aspect:'lighting',scope:'film',shotIds:['shot'],referenceIds:['ref'],referenceBasis:'observed_image',decision:'Fixture light direction, no claim of real visual validation'};p.contributionBindings=[bind];p.approvals.storyboard.directionSha256=directionFingerprint(p);
+ assert.equal(checkFidelity(p,o).ready,true);
+ for(const mutate of [q=>q.contributionBindings=[],q=>q.contributionBindings[0].shotIds=['unknown'],q=>q.contributionBindings[0].referenceIds=['unknown'],q=>q.expectedReferences[0].styleId='another',q=>q.contributionBindings[0].decision='',q=>q.contributionBindings[0].scope='opening',q=>q.styleCombination.entries[0].contributions[0].aspect='unknown']){const q=structuredClone(p);mutate(q);q.approvals.storyboard.directionSha256=directionFingerprint(q);assert.equal(checkFidelity(q,o).ready,false);}
+ const original=directionFingerprint(p);p.contributionBindings[0].decision='A different light direction';assert.notEqual(directionFingerprint(p),original);assert.equal(checkFidelity(p,o).ready,false);
+}));
+test('motion and audio cannot be certified from an image; scoped shot roles are enforced',()=>fixture((p,o)=>{
+ p.expectedReferences[0].styleId='style';p.styleCombination=W.combinationPlan({selectedStyles:[{id:'style'}],styleContributions:{style:[{aspect:'music',scope:'closing'}]}});p.shots[0].narrativeRole='closing';p.contributionBindings=[{styleId:'style',aspect:'music',scope:'closing',shotIds:['shot'],referenceIds:['ref'],referenceBasis:'observed_image',decision:'Fixture proposed music, not actual listening'}];p.approvals.storyboard.directionSha256=directionFingerprint(p);assert.equal(checkFidelity(p,o).ready,false);
+ p.contributionBindings[0].referenceBasis='approved_proposal';p.approvals.storyboard.directionSha256=directionFingerprint(p);assert.equal(checkFidelity(p,o).ready,true);
+ p.shots[0].narrativeRole='opening';p.approvals.storyboard.directionSha256=directionFingerprint(p);assert.equal(checkFidelity(p,o).ready,false);
+}));
+test('sample coverage is recorded by characteristic and cannot approve unseen moments',()=>fixture((p,o)=>{
+ p.expectedReferences[0].styleId='style';p.styleCombination=W.combinationPlan({selectedStyles:[{id:'style'}],styleContributions:{style:[{aspect:'lighting',scope:'film'}]}});p.contributionBindings=[{styleId:'style',aspect:'lighting',scope:'film',shotIds:['shot'],referenceIds:['ref'],referenceBasis:'observed_image',decision:'Fixture planned illumination'}];p.approvals.storyboard.directionSha256=directionFingerprint(p);p.sample.userApproval.directionSha256=directionFingerprint(p);
+ assert.equal(checkFidelity(p,{...o,phase:'final'}).ready,false);p.sample.shotIds=['shot'];p.sample.contributionChecks=[{styleId:'style',aspect:'lighting',shotIds:['shot'],status:'passed',evidence:'Synthetic fixture only, no real review claimed'}];assert.equal(checkFidelity(p,{...o,phase:'final'}).ready,true);p.sample.contributionChecks[0].shotIds=['unseen'];assert.equal(checkFidelity(p,{...o,phase:'final'}).ready,false);
+}));
