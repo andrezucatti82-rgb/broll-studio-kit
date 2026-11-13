@@ -1,3 +1,7 @@
+# 2.8.1 — Escolher partes substitui direção completa
+
+- Marcar uma característica específica desmarca a direção completa; marcar direção completa substitui partes no seletor. Evita incorporar aparência, movimento ou áudio que a pessoa não quis selecionar.
+
 # 2.8.0 — Características e escopos por estilo
 
 - Seletor pesquisável com características de aparência, letras, câmera, movimento, montagem, grafismos, pessoas e som.

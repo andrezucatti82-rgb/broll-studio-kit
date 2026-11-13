@@ -220,3 +220,9 @@ test('popup cancellation retains original selection and conflicting scope blocks
 test('invalid contribution sheet is refused before replacing the current project',async()=>{
  const a=await boot();a.click('#grid [data-choose]');const id=a.ctx.AtlasCurrentChoice().selectedStyles[0].id;a.ctx.AtlasApp.setStyleContributions(id,[{aspect:'texture',scope:'details'}]);const bundle=a.ctx.AtlasApp.exportBundle(),input=a.document.getElementById('importProject');bundle.project.styleContributions[id][0].scope='unknown';Object.defineProperty(input,'files',{configurable:true,value:[{size:1000,text:async()=>JSON.stringify(bundle)}]});await input.onchange({target:input});assert.equal(a.ctx.AtlasCurrentChoice().styleContributions[id][0].scope,'details');assert.match(a.document.getElementById('projectMessage').textContent,/recusada/);
 });
+
+test('choosing a characteristic replaces whole-style selection without requiring Clear',async()=>{
+ const a=await boot();a.click('#grid [data-choose]');const id=a.ctx.AtlasCurrentChoice().selectedStyles[0].id;a.ctx.AtlasContributions.open(id);
+ const lighting=a.document.querySelector('[data-picker-aspect="lighting"]');lighting.checked=true;lighting.dispatchEvent(new a.ctx.Event('change',{bubbles:true}));assert.equal(a.document.querySelector('[data-picker-aspect="style_direction"]').checked,false);a.click('#pickerApply');assert.equal(a.ctx.AtlasApp.getStyleContributions(id).length,1);assert.equal(a.ctx.AtlasApp.getStyleContributions(id)[0].aspect,'lighting');
+ a.ctx.AtlasContributions.open(id);const whole=a.document.querySelector('[data-picker-aspect="style_direction"]');whole.checked=true;whole.dispatchEvent(new a.ctx.Event('change',{bubbles:true}));assert.equal(a.document.querySelector('[data-picker-aspect="lighting"]').checked,false);a.click('#pickerApply');assert.equal(a.ctx.AtlasApp.getStyleContributions(id).length,1);assert.equal(a.ctx.AtlasApp.getStyleContributions(id)[0].aspect,'style_direction');
+});

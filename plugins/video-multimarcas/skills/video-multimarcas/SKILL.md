@@ -18,7 +18,7 @@ Não substituir recursos prometidos por uma solução visual mais simples sem ap
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.8.0**. O atlas contém **780 estilos em 28 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.8.1**. O atlas contém **780 estilos em 28 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
 
 ## Provedor prioritário para geração de vídeo
 

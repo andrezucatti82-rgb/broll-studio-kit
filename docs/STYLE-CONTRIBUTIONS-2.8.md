@@ -2,7 +2,7 @@
 
 A edição 2.8 permite escolher o que aproveitar de cada referência: tipografia de uma, iluminação de outra, textura de uma terceira e cores de uma quarta. O menu oferece busca, grupos e escolhas de aplicação. Você pode combinar até dez estilos e até 12 características por estilo.
 
-No briefing, use o botão de características abaixo do nome de cada estilo. Marque as opções e indique onde entram: filme inteiro, abertura, detalhes, demonstração, encerramento ou momentos que serão propostos no roteiro. O resumo mostra o mapa escolhido. Características concorrentes no mesmo escopo precisam ser resolvidas antes do pedido. Uma substituição local explícita só atua no trecho indicado.
+No briefing, use o botão de características abaixo do nome de cada estilo. Marcar uma parte específica desmarca a direção completa; marcar a direção completa substitui as partes no seletor. Marque as opções e indique onde entram: filme inteiro, abertura, detalhes, demonstração, encerramento ou momentos que serão propostos no roteiro. O resumo mostra o mapa escolhido. Características concorrentes no mesmo escopo precisam ser resolvidas antes do pedido. Uma substituição local explícita só atua no trecho indicado.
 
 As características se distribuem entre direção completa, aparência, tipografia, câmera, movimento, montagem, elementos gráficos, pessoas e som. Imagem não comprova áudio ou movimento; o agente deve inspecionar uma referência adequada ou propor uma execução para aprovação. Aparência de fonte não garante o arquivo tipográfico exato. Os originais e a marca do projeto prevalecem.
 
