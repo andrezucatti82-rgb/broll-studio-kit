@@ -1,0 +1,53 @@
+{
+  "domain": "https://videos.gerenciadordeanuncios.com.br/",
+  "release": "https://videos.gerenciadordeanuncios.com.br/atlas-20261113054429/",
+  "runtimeFilesMatchSource": {
+    "style-picker.js": "7855207ae86b65257efcafc19e3bb88ce9641f3b1084433c0f8d416453f186d3",
+    "workflow.js": "230acb314d495182ed46247eb35c3547f658bcab00c92830c3b8e04c2c299d92",
+    "app.js": "83ae14042618879842eaf66facd5b19617f90801c5251493dd6a284b8ef1ee88",
+    "app-shell.css": "bad1b0887901d95ce4863e6dd622c1e0581c5306363326a38a4fb3e3da2c3808",
+    "guided.js": "738d2936e9558040d4f08edd87479c69caae6a2e5676c6685058c70695b8fc5c",
+    "guided-ui.js": "be8a4fbd7c26e5b8f45c11abaa6153e1afc922240bc6d6251457d7e4b29a2942",
+    "gallery-views.js": "1623d6d14954c57457904961a64018d0b74bca2a235147d929c74ea21a57ec92",
+    "app-shell.js": "510ff091a5c0303d11dc0d9702b6a168ce4bdc5bd8ab202790d32caa11811ea3",
+    "site-ui.js": "1b3d4e3b98037a02f9d524b74b29003333f412381d51c34d718dbab7c31dea88",
+    "styles.css": "6d07d9583320497e701a22b1f004f0475fb45cf6dab847847355b35dc1d5980b",
+    "catalog.json": "e4829536a9fdc301bf23d21c254346cd2896a7fa805bc41c0dab4dba49e18b9b",
+    "fonts.json": "c0dbd9077aab5ceb03115ec1cbe3e30023df006838055ba595a4cbf3ffc17100"
+  },
+  "liveBrowser": {
+    "desktop1440": true,
+    "mobile375": true,
+    "twoMobileColumns": true,
+    "sixParentsTwentyEightSubcategories": true,
+    "styleExamplesRemoved": true,
+    "parentAndChildFiltering": true,
+    "fourFramesInDetail": true,
+    "reloadPreservedContributions": true,
+    "noHorizontalOverflow": true,
+    "primaryButtonsDoNotOverlap": true,
+    "errors": []
+  },
+  "physicalDeviceTested": false,
+  "nativePageViewerTested": false,
+  "videoGenerated": false,
+  "version": "2.8.2",
+  "sourceCommit": "4aef12635688a6d0f2c6faf8ac52980f83500ada",
+  "implementationPullRequest": "https://github.com/andrezucatti82-rgb/studio-kit-pro/pull/11",
+  "publicationRun": 43373949629,
+  "publicationConclusion": "success",
+  "publicationFinishedUTC": "2026-11-13T05:58:29Z",
+  "page": {
+    "id": "page_05d0233621d081919b31df2863cab40b",
+    "sequence": 69,
+    "htmlBytes": 187227,
+    "visualizationUpdated": true,
+    "navigationGuideUpdated": true,
+    "nativeViewerTested": false
+  },
+  "genericPackagesVersion": "2.8.2",
+  "chatGPTAccountPluginInstallationConfirmed": false,
+  "personalSkillChanged": false,
+  "newImagesGenerated": false,
+  "paidGenerationCalls": 0
+}
