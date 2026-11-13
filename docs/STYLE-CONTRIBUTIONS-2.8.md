@@ -31,3 +31,9 @@ npm run plan -- --preset examples/contributions/four-sources.json --out projects
 ```
 
 O teste real permanece bloqueado até criar e aprovar visuais concretos e confirmar orçamento. Compare o fluxo anterior e o novo nas quatro travas, usando o mesmo assunto, originais e duração. A amostra deve demonstrar a combinação e a passagem mais exigentes; registre o que ela não cobre. Não há promessa de fidelidade total.
+
+## Publicação verificada
+
+A versão 2.8.1 está publicada no domínio principal. A conferência em Chromium comparou os hashes de 12 arquivos públicos com o código, preparou um pedido com tipografia e iluminação de fontes diferentes, confirmou a substituição de direção completa por características, restaurou a seleção após recarregar e baixou o preset. Conferidas as larguras de 1440 e 375 px. O cPanel apresentou manutenção na tentativa anterior; a nova execução terminou com sucesso. [Recibo de publicação](../style-atlas/records/style-contributions-2.8/publication.json).
+
+A Page da biblioteca também recebeu o seletor e o protocolo de características. O visualizador nativo ainda não foi conferido. Os pacotes de skill/plugin estão atualizados; não foi localizada uma instalação Multimarcas editável na conta nesta sessão. Nenhum vídeo foi gerado; a comprovação audiovisual depende de um piloto com visuais e orçamento aprovados.
