@@ -32,8 +32,12 @@ A grade intercala os 11 nichos na coleção e alterna direções naturais e elab
 
 ## Verificações desta entrega
 
-`npm ci`, `npm run check`, `npm test` e `npm run validate` passaram: 118 testes Node e nove Python. O build da Page gerou 191.767 bytes, abaixo do limite de 256 KiB; o endereço real dos assets será registrado após a publicação. Chromium verificou as 11 subcategorias de 40, pedido de 45 segundos com contrato completo, download da sequência, recarga, migração de URL antiga e telas de 320, 375, 768, 1440 e 1920 px sem overflow horizontal. O celular mantém duas colunas; a inspeção é em viewport emulada.
+`npm ci`, `npm run check`, `npm test` e `npm run validate` passaram: 118 testes Node e nove Python. O build da Page gerou 191.793 bytes, abaixo do limite de 256 KiB, com assets na edição publicada `atlas-20261113120608`. Chromium verificou as 11 subcategorias de 40, pedido de 45 segundos com contrato completo, download da sequência, recarga, migração de URL antiga e telas de 320, 375, 768, 1440 e 1920 px sem overflow horizontal. O celular mantém duas colunas; a inspeção é em viewport emulada.
 
 Foram examinadas 38 folhas de contato do conjunto novo, com foco em composição, variedade e artefatos evidentes, além de alguns quadros completos. Corrigidos códigos fictícios e objetos soltos em duas cenas de berço. Isso não certifica especificações, uso seguro de produtos fictícios, ausência de todo artefato sutil ou identidade real. Consulte os registros `browser-local.json`, `verification.json` e `visual-review.json`.
 
 Não foram gerados vídeos, ouvidos áudios novos, medidos resultados de vendas ou testados aparelhos físicos e o visualizador nativo da Page nesta etapa. A atualização dos pacotes não comprova instalação global do plugin em contas do ChatGPT.
+
+O site foi publicado a partir do commit `057e0dfff6de7075f510c722d2b5d47c9a6c3346`, após verificação dos 9.887 arquivos da edição. A conferência em Chromium no domínio confirmou hashes dos arquivos principais, as 11 subcategorias de 40, download PNG, pedido, recarga e as cinco larguras acima. A Page foi atualizada e seu HTML relido com igualdade exata; a ponte sem localStorage e o download por nova aba foram testados em host simulado, usando os assets públicos reais. Esse teste não equivale ao visualizador nativo do ChatGPT. Recibos: `publication.json`, `browser-live.json`, `browser-page-bridge.json` e `page-download.json` no registro desta expansão.
+
+A busca nesta conta não encontrou um plugin Vídeo Multimarcas elegível para edição. Os pacotes 2.9.0 no repositório estão atualizados; nenhum plugin diferente foi substituído e a skill pessoal não foi alterada.

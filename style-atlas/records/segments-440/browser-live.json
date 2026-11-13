@@ -1,0 +1,47 @@
+{
+  "live": true,
+  "release": "https://videos.gerenciadordeanuncios.com.br/atlas-20261113120608/",
+  "styleCount": 1160,
+  "adStyleCount": 440,
+  "families": [
+    "ads-moda",
+    "ads-alimentacao",
+    "ads-casa",
+    "ads-joias",
+    "ads-juridico",
+    "ads-pets",
+    "ads-automotivo",
+    "ads-turismo",
+    "ads-beleza",
+    "ads-servicos",
+    "ads-infantil"
+  ],
+  "allSubcategoriesHave40": true,
+  "detailsHaveFourFrames": true,
+  "requestDuration45AndResearchAndNeutrality": true,
+  "reloadPreservesPrincipalAndDuration": true,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440,
+    1920
+  ],
+  "mobileColumns": 2,
+  "noHorizontalOverflow": true,
+  "previewAspectRatio": "2:3",
+  "noExampleStyleMenu": true,
+  "runtimeHashes": {
+    "app.js": "ef0f031e6fb16a148d86ac18d77bbb1227aa4ef5f298139a2443d0964eae67dd",
+    "guided-ui.js": "0f44ccde3f883324b5ba739e87c4955ae33bceef519e6a8498775388c01abc70",
+    "app-shell.js": "559e5d93664e39c34bd51ddd83fc9b540a87f8d6fbc46434ef256db76ed0e946",
+    "workflow.js": "36148daf79f0fe6ffaae1d379ca55a7699cc4ea8bee551f9957df35144005305",
+    "guided.js": "af3ddb9d6ce8d84ce185cd99f428e690cd0731dc466810f3c9b701421cf14344",
+    "catalog.json": "bc50ac54561a05e8f246036056284d4c2d0026ad53c4162ef4011c417580ed72",
+    "research.html": "f60348d84a2f415e9f9723fa765536b7029e42eb3f731056fdec390ef53ae8e9"
+  },
+  "nativePageViewerTested": false,
+  "physicalDeviceTested": false,
+  "videoGeneration": false,
+  "errors": []
+}

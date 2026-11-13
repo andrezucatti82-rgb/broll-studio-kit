@@ -33,11 +33,8 @@
   "noExampleStyleMenu": true,
   "runtimeHashes": {},
   "screenshots": [
-    "320.png",
-    "375.png",
-    "768.png",
-    "1440.png",
-    "1920.png"
+    "mobile.png",
+    "desktop.png"
   ],
   "nativePageViewerTested": false,
   "physicalDeviceTested": false,
@@ -45,5 +42,6 @@
   "errors": [],
   "legacyCategoryURLMigration": true,
   "freshMobileExplorerCollapsed": true,
-  "server": "npm run atlas / port 8770"
+  "server": "npm run atlas / port 8770",
+  "screenshotScope": "Representative 375 px and 1920 px captures published; all recorded viewports were checked."
 }
