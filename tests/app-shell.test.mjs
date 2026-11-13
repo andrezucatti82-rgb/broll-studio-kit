@@ -110,29 +110,52 @@ test('Page migration retains 4.1 favourites and resets approvals when reference 
  assert.equal(resumed.getStorageReads(),0);
 });
 
-test('hybrid categories: all 28 remain reachable, group visuals and style shortcuts share catalogue state',async()=>{
- const {document:d,ctx,click}=await boot();
- assert.equal(ctx.AtlasNavigation.groups.flatMap(g=>g.families).length,28);
- assert.equal(new Set(ctx.AtlasNavigation.groups.flatMap(g=>g.families)).size,28);
+test('two-level categories partition all 780 styles and never render example-style shortcuts',async()=>{
+ const {document:d,ctx,click}=await boot();const catalog=ctx.AtlasApp.getCatalog(),groups=ctx.AtlasNavigation.groups;
+ assert.equal(groups.length,6);
+ const families=groups.flatMap(g=>g.families);
+ assert.equal(families.length,28);assert.equal(new Set(families).size,28);
+ assert.deepEqual(new Set(families),new Set(catalog.families.map(f=>f.id)));
+ assert.equal(catalog.styles.filter(s=>families.includes(s.family)).length,780);
  assert.equal(d.querySelectorAll('#categoryGroups [data-nav-family]').length,28);
- assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,6);
+ assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,3);
+ for(const [id,total] of [['commercial',120],['natural-ads',60],['business',120],['technology',80],['movement',160],['visual',240]]){
+  click('[data-nav-group="'+id+'"]');
+  assert.match(d.getElementById('resultCount').textContent,new RegExp('^'+total+' estilos'));
+  assert.equal(ctx.AtlasApp.categorySelection().group,id);
+  assert.equal(d.querySelectorAll('#grid .card').length,40);
+  assert.equal(d.querySelectorAll('[data-nav-style],.category-shortcuts,[data-explore-family]').length,0);
+  assert.equal(d.querySelector('[data-nav-group="'+id+'"]').getAttribute('aria-current'),'true');
+ }
  click('[data-nav-family="cinema"]');
  assert.equal(d.querySelectorAll('#grid .card').length,40);
- assert.equal(d.querySelectorAll('.category-shortcuts [data-nav-style]').length,3);
+ assert.equal(ctx.AtlasApp.categorySelection().group,'');
  assert.match(d.getElementById('categoryResultsTitle').textContent,/Cinema e fotografia/);
- click('[data-nav-style="publicidade-cinematografica"]');
+ click('#grid [data-detail="publicidade-cinematografica"]');
  assert.equal(d.getElementById('detailDialog').open,true);
  assert.match(d.getElementById('detailContent').textContent,/Publicidade cinematográfica/);
  d.getElementById('detailDialog').close();
- click('[data-nav-group="business"]');
- assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,8);
+ click('[data-nav-group="technology"]');
+ assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,2);
  click('[data-visual-family="software"]');
  assert.equal(d.getElementById('familySelect').value,'software');
  assert.equal(d.querySelectorAll('#grid .card').length,40);
  assert.equal(d.querySelector('[data-nav-family="software"]').getAttribute('aria-current'),'true');
  assert.equal(ctx.AtlasCurrentChoice().selectedStyles.length,0,'navigation does not change the brief');
  click('.category-all');assert.equal(d.getElementById('familySelect').value,'');
+ assert.equal(ctx.AtlasApp.categorySelection().group,'');
+ assert.match(d.getElementById('resultCount').textContent,/^780 estilos/);
  assert.equal(d.querySelectorAll('#grid .card').length,24);
+});
+test('browsing parents and subcategories preserves selected styles, contributions and approvals',async()=>{
+ const {document:d,ctx,click}=await boot();
+ click('#grid [data-choose="publicidade-cinematografica"]');
+ ctx.AtlasApp.setStyleContributions('publicidade-cinematografica',[{aspect:'lighting',scope:'film'}]);
+ const before=JSON.stringify(ctx.AtlasApp.exportBundle());
+ for(const group of ctx.AtlasNavigation.groups){click('[data-nav-group="'+group.id+'"]');for(const id of group.families)click('[data-nav-family="'+id+'"]');}
+ click('.category-all');
+ assert.equal(JSON.stringify(ctx.AtlasApp.exportBundle()),before);
+ assert.equal(d.querySelectorAll('[data-nav-style],.category-shortcuts').length,0);
 });
 test('hybrid category search, mobile drawer, focus target and Page mode without localStorage',async()=>{
  const app=await boot({page:true});const {document:d,ctx,click}=app;
