@@ -1,0 +1,33 @@
+{
+  "live": false,
+  "release": null,
+  "runtimeFilesMatchSource": {},
+  "principalPinnedOutsideRecommendations": true,
+  "refreshRetainsPrincipal": true,
+  "preparePreservesTwoStylesAndContributions": true,
+  "explicitSwapImmediatelyUpdatesBrief": true,
+  "swapPreservesComplementaryScope": true,
+  "reloadRetainsSwap": true,
+  "dirtyDraftAdoptsLatestBriefFields": true,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "noHorizontalOverflow": true,
+  "pageBridgeNoLocalStorageAndIncomingState": true,
+  "nativePageViewerTested": false,
+  "physicalDeviceTested": false,
+  "paidGenerationCalls": 0,
+  "errors": [],
+  "automatedChecks": {
+    "npm ci": "passed",
+    "npm run check": "passed",
+    "npm test": "passed: 15 Node test files and 9 Python tests",
+    "npm run validate": "passed"
+  },
+  "sixRegressionCases": "tests/app-shell.test.mjs",
+  "redThenGreenObserved": true,
+  "catalogUnmodifiedFromBaseline": true
+}

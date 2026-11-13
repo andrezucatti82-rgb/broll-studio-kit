@@ -35,7 +35,7 @@ npm test
 npm run validate
 ```
 
-Esta edição 2.8.2 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
+Esta edição 2.8.3 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
 
 Se você baixou o ZIP dessa branch no GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
 
