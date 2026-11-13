@@ -69,31 +69,35 @@
 /* Hybrid category navigation. It filters the existing catalogue; it never changes a brief. */
 (()=>{
  const $=id=>document.getElementById(id),groups=[
-  {id:'visual',name:'Linguagens visuais',families:['cinema','grafico','ilustracao','materiais','volume','hibridos']},
-  {id:'movement',name:'Movimento e apresentação',families:['motion','motion-campanha','apresentacoes','avatares']},
-  {id:'business',name:'Aplicações e negócios',families:['tecnologia','anuncios','campanhas','imoveis','software','saude','ecommerce','infoprodutores']},
-  {id:'natural-ads',name:'Anúncios por segmento',families:['ads-joias','ads-capachos','ads-advocacia','ads-moda-masculina','ads-moda-feminina','ads-biquinis','ads-pijamas','ads-organicos','ads-barras','ads-cereal']}
+  {id:'commercial',name:'Publicidade e vendas',icon:'commercial',families:['anuncios','campanhas','ecommerce']},
+  {id:'natural-ads',name:'Anúncios por segmento',icon:'ecommerce',families:['ads-joias','ads-moda-feminina','ads-moda-masculina','ads-biquinis','ads-pijamas','ads-capachos','ads-organicos','ads-barras','ads-cereal','ads-advocacia']},
+  {id:'business',name:'Serviços e educação',icon:'infoprodutores',families:['imoveis','saude','infoprodutores']},
+  {id:'technology',name:'Tecnologia e sistemas',icon:'technology',families:['software','tecnologia']},
+  {id:'movement',name:'Motion e apresentações',icon:'motion',families:['motion-campanha','motion','apresentacoes','avatares']},
+  {id:'visual',name:'Estéticas e narrativas',icon:'materiais',families:['cinema','grafico','ilustracao','materiais','volume','hibridos']}
  ];
  const labels={cinema:'Cinema',grafico:'Editorial',ilustracao:'Ilustração',materiais:'Papel e materiais',volume:'Volume e 3D',hibridos:'Narrativas',motion:'Movimento', 'motion-campanha':'Motion de campanha',apresentacoes:'Apresentações',avatares:'Avatares',tecnologia:'Interfaces e dados',anuncios:'Produtos',campanhas:'Campanhas',imoveis:'Imóveis',software:'Softwares',saude:'Saúde e estética',ecommerce:'E-commerce',infoprodutores:'Educação','ads-joias':'Joias artesanais','ads-capachos':'Capachos','ads-advocacia':'Advocacia','ads-moda-masculina':'Moda masculina','ads-moda-feminina':'Moda feminina','ads-biquinis':'Biquínis','ads-pijamas':'Pijamas','ads-organicos':'Orgânicos','ads-barras':'Barras proteicas','ads-cereal':'Cereal'};
- const paths={cinema:'M3 6h12v12H3z m12 4 6-3v10l-6-3',grafico:'M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3z M12 6v15',ilustracao:'m4 16 12-12 4 4L8 20H4z M13 7l4 4',materiais:'m12 3 10 5-10 5L2 8z M2 12l10 5 10-5 M2 16l10 5 10-5',volume:'m12 2 9 5v10l-9 5-9-5V7z M3 7l9 5 9-5 M12 12v10',hibridos:'M3 3h18v18H3z M7 3v18 M17 3v18 M3 8h4 M3 16h4 M17 8h4 M17 16h4',motion:'M9 5l10 7-10 7z M3 8h3 M2 12h4 M3 16h3',avatares:'M8 8a4 4 0 1 0 8 0 4 4 0 1 0-8 0 M4 22v-3a8 8 0 0 1 16 0v3',imoveis:'m2 11 10-9 10 9 M5 9v12h14V9 M10 21v-7h4v7',saude:'M9 3h6v6h6v6h-6v6H9v-6H3V9h6z',ecommerce:'M2 3h3l3 13h11l3-9H6 M9 20h1 M18 20h1',infoprodutores:'m2 9 10-6 10 6-10 6z M6 12v6l6 3 6-3v-6',business:'M3 7h18v14H3z M8 7V3h8v4 M3 12h18',default:'M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z'};
+ const paths={commercial:'m3 10 14-6v16L3 14z M6 15l2 6h3l-2-5 M20 8l2-2 M20 16l2 2',technology:'M3 4h18v14H3z M8 22h8 M12 18v4 M7 8h4 M7 12h10',cinema:'M3 6h12v12H3z m12 4 6-3v10l-6-3',grafico:'M3 4h7l2 2 2-2h7v15h-7l-2 2-2-2H3z M12 6v15',ilustracao:'m4 16 12-12 4 4L8 20H4z M13 7l4 4',materiais:'m12 3 10 5-10 5L2 8z M2 12l10 5 10-5 M2 16l10 5 10-5',volume:'m12 2 9 5v10l-9 5-9-5V7z M3 7l9 5 9-5 M12 12v10',hibridos:'M3 3h18v18H3z M7 3v18 M17 3v18 M3 8h4 M3 16h4 M17 8h4 M17 16h4',motion:'M9 5l10 7-10 7z M3 8h3 M2 12h4 M3 16h3',avatares:'M8 8a4 4 0 1 0 8 0 4 4 0 1 0-8 0 M4 22v-3a8 8 0 0 1 16 0v3',imoveis:'m2 11 10-9 10 9 M5 9v12h14V9 M10 21v-7h4v7',saude:'M9 3h6v6h6v6h-6v6H9v-6H3V9h6z',ecommerce:'M2 3h3l3 13h11l3-9H6 M9 20h1 M18 20h1',infoprodutores:'m2 9 10-6 10 6-10 6z M6 12v6l6 3 6-3v-6',business:'M3 7h18v14H3z M8 7V3h8v4 M3 12h18',default:'M3 3h7v7H3z M14 3h7v7h-7z M3 14h7v7H3z M14 14h7v7h-7z'};
  const icon=id=>`<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${paths[id]||paths.default}"/></svg>`;
- let catalog,byFamily,activeGroup='visual',expanded='visual',lastFamily=null,query='',mobile,previousOverflow='';
+ let catalog,byFamily,activeGroup='commercial',expanded='',lastFamily=null,query='',mobile,previousOverflow='';
  const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
  const family=()=>$('familySelect').value;
+ const parent=()=>window.AtlasApp?.categorySelection?.().group||'';
+ const groupCount=g=>g.families.reduce((n,id)=>n+byFamily.get(id).count,0);
  const thumb=s=>{const f=s.sequence.frames[s.sequence.heroIndex??1];return (window.ATLAS_ASSET_BASE||'')+(f.thumbnail||f.src)};
  const esc=s=>AtlasViews.esc(s);
  function sidebar(){
   const current=family(),q=norm(query.trim());let count=0;
   $('categoryGroups').innerHTML=groups.map(g=>{
-   const families=g.families.map(id=>byFamily.get(id)).filter(f=>!q||norm(f.name+' '+g.name).includes(q));count+=families.length;
+   const families=g.families.map(id=>byFamily.get(id)).filter(f=>!q||norm(f.name+' '+(labels[f.id]||'')+' '+g.name).includes(q));count+=families.length;
    if(!families.length)return '';
    const open=!!q||expanded===g.id;
-   return `<section class="category-group"><button type="button" class="category-group-toggle" data-nav-group="${g.id}" aria-expanded="${open}" aria-controls="category-group-${g.id}">${icon(g.id==='visual'?'materiais':g.id==='movement'?'motion':'business')}<strong>${esc(g.name)}</strong><small>${g.families.length}</small><span class="category-chevron" aria-hidden="true">⌄</span></button><div id="category-group-${g.id}" ${open?'':'hidden'}>${families.map(f=>{
-    const active=current===f.id,styles=catalog.styles.filter(s=>s.family===f.id).slice(0,3);
-    return `<div class="category-branch"><button type="button" class="category-link" data-nav-family="${f.id}" aria-current="${active?'true':'false'}">${icon(f.id)}<span>${esc(f.name)}</span><small>${f.count}</small></button>${active?`<div class="category-shortcuts" aria-label="Atalhos de ${esc(f.name)}">${styles.map(s=>`<button type="button" data-nav-style="${esc(s.id)}" aria-label="Ver direção: ${esc(s.name)}"><span class="style-shortcut-icon">${icon('default')}</span><span>${esc(s.name)}</span></button>`).join('')}<button type="button" class="category-see-all" data-explore-family="${f.id}">Ver os ${f.count} estilos</button></div>`:''}</div>`;
+   return `<section class="category-group"><button type="button" class="category-group-toggle" data-nav-group="${g.id}" aria-current="${parent()===g.id?'true':'false'}" aria-label="${esc(g.name)} · ${groupCount(g)} estilos · ${g.families.length} subcategorias" aria-expanded="${open}" aria-controls="category-group-${g.id}">${icon(g.icon)}<strong>${esc(g.name)}</strong><small title="Estilos neste grupo">${groupCount(g)}</small><span class="category-chevron" aria-hidden="true">⌄</span></button><div id="category-group-${g.id}" ${open?'':'hidden'}>${families.map(f=>{
+    const active=current===f.id;
+    return `<button type="button" class="category-link" data-nav-family="${f.id}" aria-current="${active?'true':'false'}" title="${esc(f.name)}">${icon(f.id)}<span>${esc(f.name)}</span><small>${f.count}</small></button>`;
    }).join('')}</div></section>`;
   }).join('');
-  $('categoryNoResults').hidden=count!==0;$('categoryNavigation').querySelector('.category-all').setAttribute('aria-current',current?'false':'true');
+  $('categoryNoResults').hidden=count!==0;$('categoryNavigation').querySelector('.category-all').setAttribute('aria-current',current||parent()?'false':'true');
  }
  function visual(){
   const g=groups.find(g=>g.id===activeGroup),current=family();
@@ -104,11 +108,11 @@
   }).join('');
  }
  function sync(){
-  if(!catalog)return;const f=family();if(f===lastFamily)return;lastFamily=f;
-  const g=groups.find(g=>g.families.includes(f));if(g){activeGroup=g.id;expanded=g.id}
-  sidebar();visual();const name=byFamily.get(f)?.name;
-  $('categoryResultsTitle').textContent=name?`${name} · ${byFamily.get(f).count} estilos`:'Todos os estilos';
-  $('exploreCategory').textContent=name?`Explorar ${byFamily.get(f).count} estilos`:'Explorar todos os estilos';
+  if(!catalog)return;const f=family(),parentId=parent(),key=f+'|'+parentId;if(key===lastFamily)return;lastFamily=key;
+  const g=groups.find(g=>g.families.includes(f)||g.id===parentId);if(g){activeGroup=g.id;expanded=g.id}else expanded='';
+  sidebar();visual();const name=byFamily.get(f)?.name||g?.name,count=f?byFamily.get(f).count:g?groupCount(g):catalog.styles.length;
+  $('categoryResultsTitle').textContent=name?`${name} · ${count} estilos`:'Todos os estilos';
+  $('exploreCategory').textContent=name?`Explorar ${count} estilos`:'Explorar todos os estilos';
  }
  function choose(id,{close=false}={}){
   if(id&&!byFamily.has(id))return;
@@ -137,14 +141,12 @@
    else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}
   });
   mobile.addEventListener('change',()=>{if(!mobile.matches)closeDrawer()});
-  $('exploreCategory').onclick=()=>choose(family(),{close:true});
+  $('exploreCategory').onclick=()=>{if(parent()){closeDrawer();$('categoryResultsTitle').focus({preventScroll:true});$('categoryResultsTitle').scrollIntoView({block:'start',behavior:'auto'})}else choose(family(),{close:true})};
   $('categorySearch').addEventListener('input',()=>{query=$('categorySearch').value;sidebar()});
   document.addEventListener('click',e=>{
-   const group=e.target.closest('[data-nav-group]');if(group){const id=group.dataset.navGroup;activeGroup=id;expanded=expanded===id?'':id;sidebar();visual();$('categoryGroups').querySelector(`[data-nav-group="${id}"]`)?.focus();}
+   const group=e.target.closest('[data-nav-group]');if(group){const id=group.dataset.navGroup;const collapse=expanded===id;activeGroup=id;window.AtlasApp.setCategoryGroup(id);expanded=collapse?'':id;sidebar();visual();$('categoryGroups').querySelector(`[data-nav-group="${id}"]`)?.focus();}
    const item=e.target.closest('[data-nav-family]');if(item){const id=item.dataset.navFamily;choose(id);$('categoryNavigation').querySelector(`[data-nav-family="${id}"]`)?.focus();}
    const tile=e.target.closest('[data-visual-family]');if(tile){const id=tile.dataset.visualFamily;choose(id);$('categoryTiles').querySelector(`[data-visual-family="${id}"]`)?.focus();}
-   const all=e.target.closest('[data-explore-family]');if(all)choose(all.dataset.exploreFamily,{close:true});
-   const style=e.target.closest('[data-nav-style]');if(style){closeDrawer();window.AtlasApp.detail(style.dataset.navStyle)}
    if(e.target.closest('#categorySidebar [data-app-view]'))closeDrawer();
   });
   window.AtlasNavigation={sync,groups};sync();

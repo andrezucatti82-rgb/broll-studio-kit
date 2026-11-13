@@ -1,0 +1,72 @@
+{
+  "viewports": {
+    "320": {
+      "columns": 2,
+      "noHorizontalOverflow": true,
+      "consistentImageSize": true
+    },
+    "375": {
+      "columns": 2,
+      "noHorizontalOverflow": true,
+      "consistentImageSize": true
+    },
+    "390": {
+      "columns": 2,
+      "noHorizontalOverflow": true,
+      "consistentImageSize": true
+    },
+    "430": {
+      "columns": 2,
+      "noHorizontalOverflow": true,
+      "consistentImageSize": true
+    },
+    "700": {
+      "columns": 2,
+      "noHorizontalOverflow": true,
+      "consistentImageSize": true
+    },
+    "768": {
+      "columns": 3,
+      "noHorizontalOverflow": true,
+      "consistentImageSize": true
+    },
+    "1440": {
+      "columns": 3,
+      "noHorizontalOverflow": true,
+      "consistentImageSize": true
+    },
+    "1920": {
+      "columns": 5,
+      "noHorizontalOverflow": true,
+      "consistentImageSize": true
+    }
+  },
+  "twoLevelMenu": true,
+  "parentCounts": [
+    120,
+    60,
+    120,
+    80,
+    160,
+    240
+  ],
+  "all780IdsPreserved": true,
+  "detailHasFourFrames": true,
+  "favoriteCompareSelection": true,
+  "reloadPreservedSelectionAndFavorite": true,
+  "categorySearch": true,
+  "drawerKeyboardAndFocus": true,
+  "pageBridgeSimulatedNoLocalStorage": true,
+  "nativePageViewerTested": false,
+  "physicalDeviceTested": false,
+  "videoGenerated": false,
+  "errors": [],
+  "automatedChecks": {
+    "npm ci": "passed",
+    "npm run check": "passed",
+    "npm test": "passed: 15 Node test files and 9 Python tests",
+    "npm run validate": "passed",
+    "node --check": "passed: app.js and app-shell.js"
+  },
+  "catalogUnmodifiedFromBaseline": true
+}

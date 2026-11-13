@@ -1,21 +1,37 @@
-# Navegação híbrida de categorias
+# Categorias e galeria no celular — 2.8.2
 
-A biblioteca mantém os mesmos 720 estilos, IDs e 18 categorias. A navegação aprovada combina:
+A navegação tem somente dois níveis. Os 780 estilos conservam seus IDs, imagens, sequências, famílias de origem e presets. Os grupos do menu não alteram a ordem do catálogo usada para restaurar favoritos no modo Page.
 
-- Menu lateral em três grupos: Linguagens visuais (6), Movimento e apresentação (4), Aplicações e negócios (8).
-- Três atalhos de estilos dentro da categoria selecionada e acesso às suas 40 opções.
-- Explorador visual recolhível, com miniaturas extraídas das sequências existentes, sem novas imagens geradas.
-- Busca de categoria sem distinção de acentos, nomes completos na lateral e nomes curtos nas miniaturas.
-- Menu deslizante no celular, com fechamento por Esc, retorno de foco ao botão Categorias e ciclo de Tab/Shift+Tab dentro do diálogo.
+| Categoria principal | Subcategorias | Estilos |
+| --- | --- | ---: |
+| Publicidade e vendas | Publicidade de produto; Campanhas e demonstrações; E-commerce e marketplaces | 120 |
+| Anúncios por segmento | Joias; Moda feminina; Moda masculina; Biquínis; Pijamas; Capachos; Orgânicos; Barras proteicas; Cereal; Advocacia | 60 |
+| Serviços e educação | Imóveis; Saúde, estética e odontologia; Infoprodutores e educação | 120 |
+| Tecnologia e sistemas | Softwares, telas e dashboards; Interfaces, dados e sistemas | 80 |
+| Motion e apresentações | Motion Design de Campanha; Movimento e montagem; Apresentações e tipografia; Avatares e apresentadores | 160 |
+| Estéticas e narrativas | Cinema e fotografia; Design gráfico e editorial; Ilustração e desenho; Papel, impressão e materiais; Volume e materiais digitais; Narrativas e combinações | 240 |
 
-No celular, o explorador começa recolhido. A lateral tem rolagem própria. O menu não altera o briefing nem a seleção de até dez estilos. A seleção de categoria e os filtros da galeria continuam sincronizados. O modo Page permanece sem localStorage.
+Selecionar uma categoria principal filtra todos os seus estilos. Selecionar uma subcategoria restringe a galeria. Recolher o grupo mantém o filtro; “Todas as categorias” remove o filtro de categoria. Outros filtros continuam valendo. A busca do menu considera nomes, abreviações e o grupo principal, sem distinguir acentos.
 
-## Verificações
+Não há mais os três estilos de exemplo nem “Ver os 40 estilos” dentro da lateral, no desktop ou no celular. Escolher categorias não muda a seleção de até dez estilos, as contribuições, o pedido nem as aprovações do projeto.
 
-`npm ci`, `npm run check`, `npm test` e `npm run validate` passaram após a implementação principal. Os ajustes posteriores de CSS e foco tiveram nova execução dos testes DOM da aplicação. O teste específico do ciclo de foco passou com as medidas de layout simuladas; ele não substitui a checagem real.
+Até 700 px, a galeria usa duas colunas e prioriza capa, título, favorito e escolha. As três miniaturas adicionais ficam na ficha, onde os quatro quadros completos continuam disponíveis. A imagem conserva sua proporção e o enquadramento da sequência. O menu móvel mantém fechamento por Esc, retorno de foco e ciclo de Tab dentro do diálogo. O explorador visual começa recolhido no celular.
 
-O espelho público foi inspecionado em navegador remoto. Foram conferidas seleção de Cinema (40 estilos e três atalhos), seleção de Softwares pelo painel visual e correspondência da categoria ativa. Em 375 × 812 foram verificados abertura do diálogo, abertura de uma ficha por atalho, fechamento por Esc, restauração da rolagem e retorno de foco. Após corrigir o ciclo de teclado, Shift+Tab levou ao botão Explorar categoria e Tab retornou ao botão Fechar, mantendo o foco dentro do diálogo. Sem overflow horizontal nessa checagem.
+O modo Page continua sem localStorage. Os pacotes 2.8.2 documentam esta organização; atualizar os arquivos não instala automaticamente um plugin em outra conta.
 
-Capturas reais de desktop (1440 px) e celular (375 px) ficam em `style-atlas/records/hybrid-navigation/`. A inspeção não cobre todos os navegadores ou aparelhos físicos. A renderização dentro do ChatGPT não foi inspecionada visualmente; a Page teve seu HTML atualizado e o comportamento sem localStorage passou nos testes DOM.
+## Possíveis coleções futuras
 
-O catálogo e os protocolos de produção permanecem iguais. Esta alteração de interface não exige nova versão das skills ou geração de vídeos.
+A leitura dos metadados dos 780 estilos sugere estas coleções, sem criar estilos repetidos ou um terceiro nível no menu. São propostas, ainda não adicionadas como filtros públicos:
+
+- **Gastronomia e alimentos:** reunir, por exemplo, `food-cinematografico`, os anúncios de orgânicos, barras e cereal. O tema hoje atravessa várias subcategorias.
+- **Casa e decoração:** aproximar `decoracao-em-ambientes`, `ceramica-esmaltada` e anúncios de capachos, preservando a distinção entre produto real e imóvel.
+- **Demonstração e conteúdo de criador:** reunir `demonstracao-de-produto`, `demonstracao-com-maos`, `unboxing-artesanal` e direções naturais por segmento.
+- **Tutoriais e explicações:** reunir `tutorial-de-interface`, `quadro-de-giz` e direções de ensino, sem confundir aparência com objetivo do vídeo.
+
+Essas coleções seriam caminhos alternativos para os mesmos IDs, não novas amostras nem categorias inferidas automaticamente. A correspondência precisa de revisão editorial antes de virar uma classificação pública. A distribuição atual e a cobertura dos IDs ficam no registro de revisão da entrega.
+
+## Verificação e limites
+
+Os testes DOM cobrem a partição dos 780 estilos nas 28 subcategorias, totais por grupo, remoção do terceiro nível, filtros, busca e preservação do projeto. Eles não medem layout. O registro `style-atlas/records/mobile-navigation-2.8.2/` documenta separadamente as verificações efetivamente executadas em Chromium, a publicação e seus limites. Capturas antigas em `hybrid-navigation/` são históricas e mostram a navegação anterior.
+
+Não se trata de teste em aparelho físico ou no visualizador nativo de Pages. Nenhum vídeo ou nova imagem foi gerado para esta alteração.
