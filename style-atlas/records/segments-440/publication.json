@@ -1,0 +1,23 @@
+{
+  "status": "published",
+  "url": "https://videos.gerenciadordeanuncios.com.br/",
+  "release": "atlas-20261113120608",
+  "previousSha256": "7193022238373fbf1e7b936dbe7f5161dffb284f5831d1960d619a518551c6c2",
+  "newSha256": "ea843f0cd2d4cd07a1c721d2314a89749a2a13b3c74bff991ac16ba6cdb160ca",
+  "sourceCommit": "057e0dfff6de7075f510c722d2b5d47c9a6c3346",
+  "pullRequest": 15,
+  "workflowRunId": 43422294485,
+  "files": 9887,
+  "styles": 1160,
+  "adStyles": 440,
+  "completedAt": "2026-11-13T12:30:05Z",
+  "liveBrowserVerified": true,
+  "pageEmbed": {
+    "updated": true,
+    "readBackMatched": true,
+    "utf8Bytes": 191793,
+    "sha256": "f9619b4c792ed43c739e1884384472f0e65d6b8165acec762c9abbe3b56c293e",
+    "assetOrigin": "https://videos.gerenciadordeanuncios.com.br/atlas-20261113120608/",
+    "nativeViewerTested": false
+  }
+}

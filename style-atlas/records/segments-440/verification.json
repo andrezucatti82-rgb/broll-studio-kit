@@ -8,9 +8,12 @@
   },
   "npmValidate": "passed",
   "pageBuild": {
-    "utf8Bytes": 191767,
+    "utf8Bytes": 191793,
     "status": "passed",
-    "publication": "pending_real_asset_origin"
+    "publication": "updated_and_read_back",
+    "download": "page-download.json",
+    "bridge": "browser-page-bridge.json",
+    "nativeViewerTested": false
   },
   "browser": "browser-local.json",
   "visualReview": "visual-review.json",
@@ -19,5 +22,13 @@
     "No sales/conversion test performed.",
     "No physical mobile device or native Page viewer tested.",
     "Account-level ChatGPT plugin installation not verified."
-  ]
+  ],
+  "accountPluginDiscovery": {
+    "exactGenericMatch": false,
+    "editablePersonalInventoryExhausted": true,
+    "unrelatedPluginsChanged": false,
+    "repositoryPackagesVersion": "2.9.0"
+  },
+  "liveBrowser": "browser-live.json",
+  "publication": "publication.json"
 }
