@@ -50,3 +50,9 @@ Mais 684 sequências conceituais geradas com OpenAI image_gen completam os 720 e
 ## Anúncios naturais · catálogo 4.3
 
 60 sequências fictícias geradas com OpenAI image_gen, incluindo os seis pilotos aprovados como direção visual. Os 240 quadros e miniaturas estão em `assets/natural-ads-60/`; prompts efetivos, recortes, dimensões e hashes em `records/natural-ads-60/assets.json`. Não foram usados produtos, depoimentos ou documentos reais de clientes. Não há vídeo ou áudio gerado nesta expansão. Termos do provedor continuam aplicáveis. Dados de rótulos, origens, certificações e resultados não podem ser inferidos destas imagens. A revisão estática não comprova fidelidade ou movimento.
+
+## Expansão de anúncios por segmento — catálogo 4.4
+
+Os 380 novos estudos usam imagens conceituais fictícias geradas com OpenAI image_gen, extraídas em quatro quadros completos e miniaturas. Prompts, hashes, recortes e limites da revisão constam em style-atlas/records/segments-440/. Não são fotos de produtos reais, depoimentos ou provas de execução e vendas. Os 780 estudos anteriores permanecem preservados.
+
+A pesquisa da Meta e de campanhas públicas é distribuída somente como links, metadados selecionados e trechos curtos. Capturas de anúncios, filmes, músicas, rostos e ativos reais das campanhas não são redistribuídos nem incorporados aos estudos. Consultar sources.json, meta-references.json e RESEARCH.md para escopo e atribuição.

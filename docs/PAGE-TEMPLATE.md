@@ -4,7 +4,7 @@ Use este roteiro com um agente que tenha as ferramentas Pages. Não cole identif
 
 1. Leia a skill Pages e a documentação de visualizações disponível na sessão.
 2. Crie uma Page pessoal, inicialmente privada, para seu briefing.
-3. Gere o HTML com `python style-atlas/records/build_page.py` (requer `beautifulsoup4`). A galeria usa assets públicos do atlas; confira o endereço em `build_page.py` se hospedar uma cópia própria.
+3. Instale as dependências com `python -m pip install -r style-atlas/requirements-build.txt`. Gere o HTML com `python style-atlas/records/build_page.py --asset-origin https://SEU-DOMINIO/PASTA-DA-EDICAO/`. Use a pasta pública real que contém `catalog.json` e `assets/`, incluindo o script `catalog-data-*.js` produzido pelo build. Publique esses arquivos antes de inserir o HTML na Page. `--output caminho.html` permite uma saída de preparação; sem essa opção, o destino é `style-atlas/records/page-embed.html`.
 4. Insira `style-atlas/records/page-embed.html` com a ferramenta de visualização da Page. O HTML deve ter menos de 256 KiB. A produção usa `window.openai.setWidgetState` quando suportada, sem chaves no navegador.
 5. Inclua um bloco nativo `codex-prompt` com o pedido abaixo. Abrir a Page não executa o pedido; o usuário aciona o botão nativo.
 6. Teste salvar/ler o estado no ambiente real. Não afirme que um teste com host simulado prova execução no ChatGPT. Se o estado não estiver disponível, peça o preset ou pedido copiado.

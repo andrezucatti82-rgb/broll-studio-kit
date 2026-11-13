@@ -12,23 +12,36 @@
   if(materials.includes('photos'))materials=materials.filter(v=>v!=='one_photo');
   return {objective:OBJECTIVES.includes(b.objective)?b.objective:'other',subject:clean(b.subject),materials:materials.length?materials:['idea'],complexity:['simple','balanced','advanced'].includes(b.complexity)?b.complexity:'balanced'};
  }
- const families={product:['anuncios','ecommerce','campanhas','ads-joias','ads-capachos','ads-moda-masculina','ads-moda-feminina','ads-biquinis','ads-pijamas','ads-organicos','ads-barras','ads-cereal'],service:['campanhas','hibridos','cinema','ads-advocacia','saude'],explain:['software','tecnologia','apresentacoes','infoprodutores','motion'],brand:['cinema','grafico','motion-campanha','hibridos','campanhas'],other:['cinema','grafico','hibridos','apresentacoes']};
+ const families={product:['anuncios','ecommerce','campanhas','ads-joias','ads-casa','ads-moda','ads-alimentacao','ads-pets','ads-automotivo','ads-beleza','ads-infantil'],service:['campanhas','hibridos','cinema','ads-juridico','ads-turismo','ads-servicos','ads-pets','ads-automotivo','saude'],explain:['software','tecnologia','apresentacoes','infoprodutores','motion'],brand:['cinema','grafico','motion-campanha','hibridos','campanhas'],other:['cinema','grafico','hibridos','apresentacoes']};
  const topics=[
   [/\b(joia|joias|anel|aneis|brinco|brincos|colar|colares)\b/,'ads-joias','joias'],
-  [/\b(capacho|capachos|fibra de coco)\b/,'ads-capachos','capachos'],
-  [/\b(advogado|advogada|advocacia|juridico|escritorio de advocacia)\b/,'ads-advocacia','serviços jurídicos'],
-  [/\b(masculino|masculina|masculinas|masculinos)\b/,'ads-moda-masculina','moda masculina'],
-  [/\b(feminino|feminina|femininas|femininos)\b/,'ads-moda-feminina','moda feminina'],
-  [/\b(biquini|biquinis|moda praia)\b/,'ads-biquinis','moda praia'],
-  [/\b(pijama|pijamas)\b/,'ads-pijamas','pijamas'],
-  [/\b(organico|organicos|organica|organicas)\b/,'ads-organicos','alimentos orgânicos'],
-  [/\b(proteica|proteicas|proteico|proteicos)\b/,'ads-barras','barras proteicas'],
-  [/\b(cereal|cereais)\b/,'ads-cereal','cereais'],
+  [/\b(capacho|capachos|fibra de coco|decoracao|luminaria|cortina|tapete)\b/,'ads-casa','casa e decoração'],
+  [/\b(advogad[oa]s?|advocacia|juridic[oa]s?|escritorio de advocacia)\b/,'ads-juridico','serviços jurídicos'],
+  [/\b(masculino|masculina|masculinas|masculinos|feminino|feminina|femininas|femininos|roupa|roupas|vestuario|biquini|biquinis|moda praia|pijama|pijamas)\b/,'ads-moda','moda e vestuário'],
+  [/\b(organico|organicos|organica|organicas|proteica|proteicas|proteico|proteicos|cereal|cereais|alimento|alimentos|bebida|bebidas|cafe)\b/,'ads-alimentacao','alimentação e bebidas'],
+  [/\b(pet|pets|cao|caes|cachorro|cachorros|gato|gatos|racao|veterinario|banho e tosa)\b/,'ads-pets','pets e cuidados animais'],
+  [/\b(carro|carros|moto|motos|automotivo|oficina|pneu|pneus|bicicleta|mobilidade)\b/,'ads-automotivo','automotivo e mobilidade'],
+  [/\b(turismo|viagem|viagens|hotel|hoteis|hospedagem|pousada)\b/,'ads-turismo','turismo e hospedagem'],
+  [/\b(beleza|cosmetico|cosmeticos|perfume|skincare|maquiagem|sabonete|shampoo)\b/,'ads-beleza','beleza e autocuidado'],
+  [/\b(diarista|limpeza residencial|eletricista|encanador|montador|servicos residenciais|ar condicionado)\b/,'ads-servicos','serviços residenciais'],
+  [/\b(bebe|bebes|infantil|maternidade|fralda|fraldas|carrinho de bebe|brinquedo|brinquedos)\b/,'ads-infantil','infantil e maternidade'],
   [/\b(imovel|imoveis|apartamento|casa|corretor|corretora)\b/,'imoveis','imóveis'],
   [/\b(software|sistema|sistemas|dashboard|dashboards|aplicativo|ga4|meta ads|google ads)\b/,'software','softwares e telas'],
   [/\b(dentista|dentistas|odontologia|medico|medica|clinica|estetica)\b/,'saude','saúde e estética'],
   [/\b(curso|cursos|aula|aulas|mentoria|infoproduto|infoprodutos)\b/,'infoprodutores','educação']
  ];
+ // Display order only. Persistent catalogue positions, IDs and objects never change.
+ function advertisingOrder(styles,familyOrder=[]){
+  const rows=Array.isArray(styles)?styles:[],present=[...new Set(rows.map(s=>s.family))];
+  const families=[...new Set([...familyOrder.filter(id=>present.includes(id)),...present])];
+  const queues=families.map(id=>{
+   const subset=rows.filter(s=>s.family===id),campaign=subset.filter(s=>s.creativeMode==='campaign_composite'),natural=subset.filter(s=>s.creativeMode!=='campaign_composite'),queue=[];
+   while(campaign.length||natural.length){if(campaign.length)queue.push(campaign.shift());if(natural.length)queue.push(natural.shift())}
+   return queue;
+  });
+  const ordered=[];while(queues.some(q=>q.length))for(const q of queues)if(q.length)ordered.push(q.shift());
+  return ordered;
+ }
  function recommend(styles,value){
   const b=normalizeBrief(value),subject=norm(b.subject),tokens=[...new Set(subject.split(/[^a-z0-9]+/).filter(t=>t.length>3&&!['para','como','sobre','quero','video','fazer','criar','mostrar','minha','meus','meus','desta','este','essa'].includes(t)))];
   const topicMatches=topics.filter(([rx])=>rx.test(subject)),has=k=>b.materials.includes(k);
@@ -36,8 +49,10 @@
    let score=0;const reasons=[];const family=s.family||'';
    if(families[b.objective].includes(family)){score+=30;reasons.push({weight:30,text:{product:'Direção orientada a apresentar produtos e apoiar uma decisão de compra.',service:'Direção adequada para explicar o serviço e tornar seu valor visível.',explain:'Ajuda a organizar explicações e destacar a mensagem.',brand:'Trabalha a presença e a linguagem visual da marca.',other:'Uma direção versátil para desenvolver sua ideia.'}[b.objective]});}
    for(const [,target,label] of topicMatches)if(family===target){score+=65;reasons.push({weight:65,text:'Tem propostas específicas para '+label+'.'});}
-   const full=norm([s.name,s.signature,s.uses,s.kind,s.familyName].join(' '));const hits=tokens.filter(t=>full.includes(t)).length;
+   const full=norm([s.name,s.signature,s.uses,s.kind,s.familyName,s.adSubniche,s.legacyFamilyName].join(' '));const hits=tokens.filter(t=>full.includes(t)).length;
    if(hits){score+=Math.min(hits*5,25);reasons.push({weight:15,text:'O tema aparece nos usos ou na direção deste estilo.'});}
+   const specific=norm([s.adSubniche,s.legacyFamilyName,s.exampleTopic].join(' ')),specificHits=tokens.filter(t=>specific.includes(t)).length;
+   if(specificHits&&family.startsWith('ads-')){score+=Math.min(specificHits*22,66);reasons.push({weight:66,text:'A proposta aborda especificamente '+(s.adSubniche||s.exampleTopic||s.familyName)+'.'});}
    if(has('screens')&&['software','tecnologia','apresentacoes'].includes(family)){score+=38;reasons.push({weight:38,text:'Aproveita suas capturas de tela com composição e textos editáveis.'});}
    if(has('video')&&['cinema','hibridos','campanhas'].includes(family)){score+=24;reasons.push({weight:24,text:'Permite priorizar ações e detalhes da filmagem que você já tem.'});}
    if((has('photos')||has('one_photo'))&&['anuncios','ecommerce',...families.product.filter(f=>f.startsWith('ads-'))].includes(family)){score+=20;reasons.push({weight:20,text:has('one_photo')?'Pode partir da sua foto com o produto protegido; movimentos dependem da cobertura.':'Pode aproveitar seus ângulos originais, após conferir a cobertura.'});}
@@ -113,5 +128,5 @@
   if(done('final_video'))return output('final_video','O vídeo foi marcado como entregue.','Confira o arquivo e as pendências registradas. Este site depende das informações trazidas da conversa.');
   return output('final_video','A amostra foi aprovada. Vamos produzir o vídeo completo.','A produção ainda precisa cumprir as mesmas quatro travas em todos os planos; para 60 s ou mais, aprovar blocos.');
  }
- g.AtlasGuided={normalizeBrief,recommend,materialPlan,recipe,adjustment,nextStep};
+ g.AtlasGuided={normalizeBrief,recommend,advertisingOrder,materialPlan,recipe,adjustment,nextStep};
 })(globalThis);

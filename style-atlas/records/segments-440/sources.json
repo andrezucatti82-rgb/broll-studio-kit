@@ -1,0 +1,454 @@
+[
+  {
+    "id": "ads26-ref-meta",
+    "title": "Meta · Fundamentos criativos para Reels",
+    "url": "https://developers.facebook.com/blog/post/2024/11/07/unlock-the-power-of-reel-ads/",
+    "kind": "official_guidance",
+    "lesson": "Vertical, áudio e área segura; estudos citados de lembrança de marca não provam vendas de um criativo.",
+    "families": [
+      "ads-moda",
+      "ads-alimentacao",
+      "ads-casa",
+      "ads-joias",
+      "ads-juridico",
+      "ads-pets",
+      "ads-automotivo",
+      "ads-turismo",
+      "ads-beleza",
+      "ads-servicos",
+      "ads-infantil"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-moda-riachuelo",
+    "title": "Monks · Riachuelo: instalações e engajamento",
+    "url": "https://www.monks.com/pt/case-studies/instalacoes-engajamento-dupla-de-sucesso",
+    "kind": "agency_case",
+    "lesson": "Relacionar ocasião de compra, variedade e decisão; resultado relatado pela agência não garante desempenho em outra campanha.",
+    "families": [
+      "ads-moda"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-food-bold",
+    "title": "Saliva · BOLD: lançamento e ocasiões de consumo",
+    "url": "https://saliva.ag/projetos/bold/",
+    "kind": "agency_case",
+    "lesson": "Rotinas, receitas e versatilidade como demonstrações; não transferir alegações nutricionais para produtos fictícios.",
+    "families": [
+      "ads-alimentacao"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-casa-westwing",
+    "title": "Westwing · Campanhas e produtos em ambientes",
+    "url": "https://www.westwing.com.br/guiar/propaganda-westwing/",
+    "kind": "brand_campaign",
+    "lesson": "Relação entre produto, uso, ambiente e descoberta; referência de narrativa, sem reutilizar filmes ou música.",
+    "families": [
+      "ads-casa"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-joias-vivara",
+    "title": "Vibe Films · Vivara: desenhando joias",
+    "url": "https://vibefilms.com.br/portfolio/vivara-desenhando-joias/",
+    "kind": "production_portfolio",
+    "lesson": "Processo, detalhes e gesto de presentear; geometria e construção da joia real continuam dependentes dos originais.",
+    "families": [
+      "ads-joias"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-legal-oab",
+    "title": "OAB · Provimento 205/2021",
+    "url": "https://www.oab.org.br/leisnormas/legislacao/provimentos/205-2021",
+    "kind": "official_professional_rule",
+    "lesson": "Conteúdo informativo, verdadeiro e sóbrio, sem captação, promessa de resultado ou oferta de honorários.",
+    "families": [
+      "ads-juridico"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-legal-editorial",
+    "title": "Mattos Filho · Portal editorial Único",
+    "url": "https://www.mattosfilho.com.br/unico/",
+    "kind": "brand_editorial",
+    "lesson": "Dúvida concreta e explicação especializada. Conteúdo editorial consultado, não anúncio da firma confirmado na Meta.",
+    "families": [
+      "ads-juridico"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-pets-petlove",
+    "title": "Vitishnu · Petlove não vende",
+    "url": "https://vitishnu.com/Petlove-nao-vende",
+    "kind": "creator_portfolio",
+    "lesson": "Relação entre tutor, rotina e cuidado; não inventar efeito clínico ou recomendação veterinária.",
+    "families": [
+      "ads-pets"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-pets-cobasi",
+    "title": "Artplan · Cobasi: o pet perfeito",
+    "url": "https://artplan.com.br/trabalho/cobasi/cobasi-o-pet-perfeito/",
+    "kind": "agency_case",
+    "lesson": "Vínculo e comportamentos cotidianos, com animal seguro e natural; não copiar personagem ou campanha.",
+    "families": [
+      "ads-pets"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-auto-bmw",
+    "title": "Shuttlerock · BMW: produção criativa",
+    "url": "https://www.shuttlerock.com/bmw",
+    "kind": "agency_case_international",
+    "lesson": "Variação de enquadramento e mensagem por aplicação; referência internacional selecionada, sem transferir desempenho.",
+    "families": [
+      "ads-automotivo"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-turismo-airbnb",
+    "title": "Pinterest · Airbnb Brasil",
+    "url": "https://business.pinterest.com/pt-br/success-stories/airbnb-brasil/",
+    "kind": "platform_case",
+    "lesson": "Descoberta, planejamento e contexto de viagem; preservar localização e comodidades reais.",
+    "families": [
+      "ads-turismo"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-beauty-boticario",
+    "title": "AlmapBBDO · O Boticário: Glow da Pele",
+    "url": "https://www.almapbbdo.com.br/pt/trabalhos/o-boticario-glow-da-pele+543",
+    "kind": "agency_case",
+    "lesson": "Textura, experiência sensorial e gesto de aplicação; sem fabricar eficácia ou alterar pele.",
+    "families": [
+      "ads-beleza"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-servicos-leroy",
+    "title": "Leroy Merlin · Tudo o que sua casa pode ser",
+    "url": "https://grandesnomesdapropaganda.com.br/anunciantes/leroy-merlin-apresenta-novo-conceito-tudo-o-que-sua-casa-pode-ser-em-campanha/",
+    "kind": "campaign_press",
+    "lesson": "Necessidade residencial e processo de solução; mostrar escopo e condições reais, sem falso antes/depois.",
+    "families": [
+      "ads-servicos"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-infantil-pampers",
+    "title": "Publicis · Pampers: trocar virou uma bagunça",
+    "url": "https://publicis.com.br/cases/trocar-virou-uma-bagunca",
+    "kind": "agency_case",
+    "lesson": "Dificuldade cotidiana do responsável e demonstração de uso; não transferir alegações ou garantias da marca.",
+    "families": [
+      "ads-infantil"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text_not_full_video_playback",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1001341406000795",
+    "title": "Riachuelo · Meta Ad Library · 1001341406000795",
+    "url": "https://www.facebook.com/ads/library/?id=1001341406000795",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-moda"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-2541585592925029",
+    "title": "Lupo Sport · Meta Ad Library · 2541585592925029",
+    "url": "https://www.facebook.com/ads/library/?id=2541585592925029",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-moda"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-2163630044527609",
+    "title": "BOLD Snacks · Meta Ad Library · 2163630044527609",
+    "url": "https://www.facebook.com/ads/library/?id=2163630044527609",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-alimentacao"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1454562703212285",
+    "title": "Westwing - Casa & Decoração · Meta Ad Library · 1454562703212285",
+    "url": "https://www.facebook.com/ads/library/?id=1454562703212285",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-casa"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1649825579692073",
+    "title": "Tok&Stok · Meta Ad Library · 1649825579692073",
+    "url": "https://www.facebook.com/ads/library/?id=1649825579692073",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-casa"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1837130984375057",
+    "title": "Life by Vivara · Meta Ad Library · 1837130984375057",
+    "url": "https://www.facebook.com/ads/library/?id=1837130984375057",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-joias"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1679237723743069",
+    "title": "Vivara · Meta Ad Library · 1679237723743069",
+    "url": "https://www.facebook.com/ads/library/?id=1679237723743069",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Legenda e metadados consultados.",
+    "families": [
+      "ads-joias"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "caption_and_metadata_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-2106371819912886",
+    "title": "Petlove · Meta Ad Library · 2106371819912886",
+    "url": "https://www.facebook.com/ads/library/?id=2106371819912886",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-pets"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1236181565306531",
+    "title": "Cobasi - Essencial para a vida · Meta Ad Library · 1236181565306531",
+    "url": "https://www.facebook.com/ads/library/?id=1236181565306531",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-pets"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-2613657049064416",
+    "title": "DPaschoal · Meta Ad Library · 2613657049064416",
+    "url": "https://www.facebook.com/ads/library/?id=2613657049064416",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-automotivo"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1556859249344245",
+    "title": "Bosch Car Service Brasil · Meta Ad Library · 1556859249344245",
+    "url": "https://www.facebook.com/ads/library/?id=1556859249344245",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-automotivo"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-2228953654508559",
+    "title": "CVC Viagens · Meta Ad Library · 2228953654508559",
+    "url": "https://www.facebook.com/ads/library/?id=2228953654508559",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-turismo"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1707561180510048",
+    "title": "Airbnb · Meta Ad Library · 1707561180510048",
+    "url": "https://www.facebook.com/ads/library/?id=1707561180510048",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-turismo"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1104525462485315",
+    "title": "Natura · Meta Ad Library · 1104525462485315",
+    "url": "https://www.facebook.com/ads/library/?id=1104525462485315",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Legenda e metadados consultados.",
+    "families": [
+      "ads-beleza"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "caption_and_metadata_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-2145912399473625",
+    "title": "O Boticário · Meta Ad Library · 2145912399473625",
+    "url": "https://www.facebook.com/ads/library/?id=2145912399473625",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-beleza"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-976700784900197",
+    "title": "GetNinjas · Meta Ad Library · 976700784900197",
+    "url": "https://www.facebook.com/ads/library/?id=976700784900197",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-servicos"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-989725387267734",
+    "title": "Parafuzo · Meta Ad Library · 989725387267734",
+    "url": "https://www.facebook.com/ads/library/?id=989725387267734",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Legenda e metadados consultados.",
+    "families": [
+      "ads-servicos"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "caption_and_metadata_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-1681458690340013",
+    "title": "Pampers · Meta Ad Library · 1681458690340013",
+    "url": "https://www.facebook.com/ads/library/?id=1681458690340013",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-infantil"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-meta-2553013108537543",
+    "title": "Huggies · Meta Ad Library · 2553013108537543",
+    "url": "https://www.facebook.com/ads/library/?id=2553013108537543",
+    "kind": "meta_library_record",
+    "lesson": "Registro público consultado; argumento e apresentação como referência, sem métricas privadas ou prova de vendas. Quadro de prévia inspecionado.",
+    "families": [
+      "ads-infantil"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "preview_keyframe_only",
+    "salesPerformanceVerified": false
+  },
+  {
+    "id": "ads26-ref-legal-review-2026",
+    "title": "OAB Goiás · Revisão das regras de publicidade em debate (16/06/2026)",
+    "url": "https://www.oabgo.org.br/conselho-federal-atualizacao-das-normas-de-publicidade-da-advocacia-e-tema-de-debate/",
+    "kind": "official_professional_update",
+    "lesson": "Notícia sobre propostas em discussão, não nova norma aprovada. Confirmar regras vigentes e revisão profissional antes de publicar.",
+    "families": [
+      "ads-juridico"
+    ],
+    "access": "2026-11-13",
+    "inspectionScope": "published_text",
+    "salesPerformanceVerified": false
+  }
+]

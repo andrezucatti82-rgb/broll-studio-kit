@@ -18,7 +18,7 @@ Não substituir recursos prometidos por uma solução visual mais simples sem ap
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.8.3**. O atlas contém **780 estilos em 28 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.9.0**. O atlas contém **1.160 estilos em 29 subcategorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
 
 ## Provedor prioritário para geração de vídeo
 
@@ -113,7 +113,7 @@ Ao receber seleção do atlas, aplique [do estilo à execução](references/styl
 
 ## Anúncios narrados de aparência natural
 
-Para os 60 estilos de anúncios por segmento, aplique [anúncios narrados](references/narrated-natural-ads.md). Preserve `advertising` no planejamento: DBO (Dor, Benefício, Objeção + CTA) ou AIDA, duração sugerida de 30–45 s, narração em português brasileiro, legendas sincronizadas editáveis e chamada final. Os quadros são estudos fictícios; o acabamento natural, a ação, o som e a fidelidade continuam sujeitos a revisão e aprovação.
+Para os 440 estilos de anúncios por segmento, aplique [anúncios narrados](references/narrated-natural-ads.md). Preserve `advertising` no planejamento: DBO (Dor, Benefício, Objeção + CTA) ou AIDA, duração sugerida de 30–45 s, narração em português brasileiro, legendas sincronizadas editáveis e chamada final. Os quadros são estudos fictícios; o acabamento natural, a ação, o som e a fidelidade continuam sujeitos a revisão e aprovação.
 
 ## Características específicas dos estilos
 

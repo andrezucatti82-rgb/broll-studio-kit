@@ -1,0 +1,23 @@
+{
+  "npmCi": "passed",
+  "npmCheck": "passed",
+  "npmTest": {
+    "node": 118,
+    "python": 9,
+    "failed": 0
+  },
+  "npmValidate": "passed",
+  "pageBuild": {
+    "utf8Bytes": 191767,
+    "status": "passed",
+    "publication": "pending_real_asset_origin"
+  },
+  "browser": "browser-local.json",
+  "visualReview": "visual-review.json",
+  "notVerified": [
+    "No generated video or audio reviewed.",
+    "No sales/conversion test performed.",
+    "No physical mobile device or native Page viewer tested.",
+    "Account-level ChatGPT plugin installation not verified."
+  ]
+}

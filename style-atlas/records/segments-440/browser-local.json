@@ -1,0 +1,49 @@
+{
+  "live": false,
+  "release": null,
+  "styleCount": 1160,
+  "adStyleCount": 440,
+  "families": [
+    "ads-moda",
+    "ads-alimentacao",
+    "ads-casa",
+    "ads-joias",
+    "ads-juridico",
+    "ads-pets",
+    "ads-automotivo",
+    "ads-turismo",
+    "ads-beleza",
+    "ads-servicos",
+    "ads-infantil"
+  ],
+  "allSubcategoriesHave40": true,
+  "detailsHaveFourFrames": true,
+  "requestDuration45AndResearchAndNeutrality": true,
+  "reloadPreservesPrincipalAndDuration": true,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440,
+    1920
+  ],
+  "mobileColumns": 2,
+  "noHorizontalOverflow": true,
+  "previewAspectRatio": "2:3",
+  "noExampleStyleMenu": true,
+  "runtimeHashes": {},
+  "screenshots": [
+    "320.png",
+    "375.png",
+    "768.png",
+    "1440.png",
+    "1920.png"
+  ],
+  "nativePageViewerTested": false,
+  "physicalDeviceTested": false,
+  "videoGeneration": false,
+  "errors": [],
+  "legacyCategoryURLMigration": true,
+  "freshMobileExplorerCollapsed": true,
+  "server": "npm run atlas / port 8770"
+}

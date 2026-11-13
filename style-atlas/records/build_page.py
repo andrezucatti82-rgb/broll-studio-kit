@@ -1,11 +1,13 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
-import json,re,gzip,base64,io,hashlib
+import json,re,gzip,base64,io,hashlib,argparse
 from collections import Counter
 from fontTools.ttLib import TTFont
 from fontTools import subset
 r=Path(__file__).resolve().parents[1]
-origin='https://video-multimarcas-estilos.andrezucatti82.chatgpt.site/'
+parser=argparse.ArgumentParser();parser.add_argument('--asset-origin',required=True);parser.add_argument('--output');args=parser.parse_args()
+origin=args.asset_origin.rstrip('/')+'/'
+if not origin.startswith('https://'):raise ValueError('HTTPS asset origin required')
 catalog=json.loads((r/'dist/catalog.json').read_text())
 # Audio remains at top-level and travels in widget state; omit duplicate preset copy.
 for item in catalog['styles']:
@@ -60,5 +62,5 @@ boot=soup.new_tag('script');boot.string='window.ATLAS_PAGE_MODE=true;window.ATLA
 app=soup.new_tag('script');app.string='(async()=>{async function inflate(s){return await new Response(new Blob([Uint8Array.from(atob(s),c=>c.charCodeAt(0))]).stream().pipeThrough(new DecompressionStream("gzip"))).text();}const css=await inflate('+json.dumps(pack(css))+');const style=document.createElement("style");style.textContent=css;document.head.append(style);const source=await inflate('+json.dumps(pack((r/'dist/guided.js').read_text()+'\n'+(r/'dist/workflow.js').read_text()+'\n'+(r/'dist/site-ui.js').read_text()+'\n'+(r/'dist/gallery-views.js').read_text()+'\n'+(r/'dist/app-shell.js').read_text()+'\n'+(r/'dist/app.js').read_text()+'\n'+(r/'dist/guided-ui.js').read_text()+'\n'+(r/'dist/style-picker.js').read_text()))+');const script=document.createElement("script");script.textContent=source;document.body.append(script);})().catch(()=>{document.getElementById("grid").textContent="Não foi possível abrir a biblioteca nesta superfície. Use o site público."});';soup.body.append(app)
 # Catalogue uses standard gzip decompression in modern browsers, without eval.
 html=str(soup);assert len(html.encode())<262144,len(html.encode())
-(r/'records/page-embed.html').write_text(html)
+(Path(args.output) if args.output else r/'records/page-embed.html').write_text(html)
 print('Page embed bytes:',len(html.encode()))

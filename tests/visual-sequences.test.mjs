@@ -7,14 +7,14 @@ import '../style-atlas/dist/workflow.js';
 const root=new URL('../style-atlas/',import.meta.url);
 const read=p=>JSON.parse(fs.readFileSync(new URL(p,root),'utf8'));
 const catalog=read('dist/catalog.json');
-const provenance=[...read('records/sequences-720/assets.json'),...read('records/natural-ads-60/assets.json')];
+const provenance=[...read('records/sequences-720/assets.json'),...read('records/natural-ads-60/assets.json'),...read('records/segments-440/assets.json')];
 const W=globalThis.AtlasWorkflow;
 
-test('780 distinct visual sequences preserve IDs, four complete frames and review boundaries',()=>{
- assert.equal(catalog.styles.length,780);
+test('1160 distinct visual sequences preserve IDs, four complete frames and review boundaries',()=>{
+ assert.equal(catalog.styles.length,1160);
  assert.equal(catalog.visualEditionStatus,'complete');
- assert.equal(provenance.length,780);
- assert.equal(new Set(catalog.styles.map(s=>s.id)).size,780);
+ assert.equal(provenance.length,1160);
+ assert.equal(new Set(catalog.styles.map(s=>s.id)).size,1160);
  const hashes=new Set();
  for(const s of catalog.styles){
   const record=provenance.find(r=>r.id===s.id);
@@ -44,7 +44,7 @@ test('780 distinct visual sequences preserve IDs, four complete frames and revie
   assert.equal(s.executionPlan.movementLanguage,s.motion);
   assert.deepEqual(s.executionPlan.resources,s.resources);
  }
- assert.equal(hashes.size,3120,'each frame is a distinct file, never a repeated cover');
+ assert.equal(hashes.size,4640,'each frame is a distinct file, never a repeated cover');
 });
 
 test('old and expanded styles hand off the actual sequence, action plan and neutral approval rules',()=>{
