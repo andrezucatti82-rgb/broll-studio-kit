@@ -39,12 +39,15 @@ export function validate(p){
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href){const input=JSON.parse(fs.readFileSync(process.argv[2]||'templates/project.json','utf8'));(input.selectedStyles?validatePreset:validate)(input);console.log('Project valid. This does not certify creative quality.');}
 
 export function validateCatalog(c){
- if(c.styles.length!==780||new Set(c.styles.map(s=>s.id)).size!==780)throw Error('780 unique styles required');
+ if(c.styles.length!==1160||new Set(c.styles.map(s=>s.id)).size!==1160)throw Error('1160 unique styles required');
+ if(c.families.length!==29)throw Error('29 subcategories required');
+ for(const f of c.families.slice(18))if(f.count!==40||c.styles.filter(s=>s.family===f.id).length!==40)throw Error('Forty ads per grouped segment required: '+f.id);
  const safe=v=>typeof v==='string'&&/^assets\/[a-zA-Z0-9_,./-]+\.webp$/.test(v)&&!v.includes('..');
  for(const s of c.styles){
   if(!s.proof||!s.requirements||!s.preset?.productFidelity||!['voice','music','sfx','mix'].every(k=>s.audio?.[k]))throw Error('Incomplete fidelity fields: '+s.id);
   if(c.visualEdition==='film-sequences-1'){
-   if(s.edition==='4.3'){const a=s.advertising;if(!a||!['DBO','AIDA'].includes(a.framework)||a.narrationRequired!==true||a.captionsRequired!==true||!a.cta||a.captions?.editable!==true||a.captions?.synchronized!==true||a.targetDurationRange?.[0]!==30||a.targetDurationRange?.[1]!==45||s.audio.narrationRequired!==true||s.audio.captionsRequired!==true)throw Error('Incomplete narrated ad contract: '+s.id);}
+   if(['4.3','4.4'].includes(s.edition)){const a=s.advertising;if(!a||!['DBO','AIDA'].includes(a.framework)||a.narrationRequired!==true||a.captionsRequired!==true||!a.cta||a.captions?.editable!==true||a.captions?.synchronized!==true||a.targetDurationRange?.[0]!==30||a.targetDurationRange?.[1]!==45||s.audio.narrationRequired!==true||s.audio.captionsRequired!==true)throw Error('Incomplete narrated ad contract: '+s.id);}
+   if(s.edition==='4.4'&&(!s.advertising.researchBasis?.sources?.every(r=>/^https:\/\//.test(r.url))||s.advertising.researchBasis.sources.length<2||s.advertising.researchBasis.salesPerformanceVerified!==false||!s.executionPlan.visualLayout))throw Error('Missing researched concept contract: '+s.id);
    const seq=s.sequence,plan=s.executionPlan;
    if(!seq||seq.conceptOnly!==true||seq.motionValidated!==false||!Array.isArray(seq.frames)||seq.frames.length!==4||new Set(seq.frames.map(f=>f.src)).size!==4)throw Error('Four unvalidated concept frames required: '+s.id);
    for(const f of seq.frames)if(!safe(f.src)||!safe(f.thumbnail)||!Number.isInteger(f.width)||!Number.isInteger(f.height)||f.width<300||f.height<300||!f.label||!f.action)throw Error('Invalid sequence frame: '+s.id);

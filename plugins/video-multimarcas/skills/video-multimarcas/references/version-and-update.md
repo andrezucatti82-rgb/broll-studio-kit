@@ -1,6 +1,6 @@
 # Versão, instalação e atualização
 
-Esta edição é `video-multimarcas` **2.8.3**, genérica e independente de `video-b-roll`. O kit executável é 2.8.3; estilos são catálogo 4.3 (780/28 categorias). Não confunda versão da skill, do plugin, do kit e dos catálogos.
+Esta edição é `video-multimarcas` **2.9.0**, genérica e independente de `video-b-roll`. O kit executável é 2.9.0; estilos são catálogo 4.4 (1.160/29 subcategorias). Não confunda versão da skill, do plugin, do kit e dos catálogos.
 
 Fontes públicas:
 - Repositório: https://github.com/andrezucatti82-rgb/studio-kit-pro
@@ -13,7 +13,7 @@ Ao informar a versão ao usuário, confira o arquivo efetivamente carregado e o 
 A instalação não fornece gerador de vídeo, contas, créditos ou credenciais. Descubra as capacidades reais e explique bloqueios verificados conforme `intake-and-diagnostics.md`. Nunca altere permissões, remova plugins ou troque uma skill pessoal pela genérica para tentar resolver uma atualização.
 
 
-Confira os 780 estilos, os quadros individuais, o contrato de fidelidade, o moodboard e storyboard com aprovações próprias, e a amostra de 10 segundos.
+Confira os 1.160 estilos, os quadros individuais, o contrato de fidelidade, o moodboard e storyboard com aprovações próprias, e a amostra de 10 segundos.
 
 A edição 2.7 acrescenta produção guiada, três receitas planejadas, ajustes por intenção e coordenação registrada. Conferir `references/guided-production.md` e `templates/coordinator-plan.json`. Preparar um pedido ou uma receita não comprova geração/revisão audiovisual.
 
@@ -22,3 +22,5 @@ A edição 2.8 acrescenta características específicas, escopos por contribuiç
 A revisão 2.8.2 organiza a navegação em seis categorias principais e 28 subcategorias, com galeria de duas colunas no celular. Os 780 IDs, quadros, presets, contribuições e protocolos de aprovação permanecem iguais. A organização do menu não é uma nova linguagem visual nem uma garantia de execução.
 
 A revisão 2.8.3 mantém uma única seleção de principal entre galeria, assistente e briefing. Trocas explícitas são salvas imediatamente; preparar o pedido conserva os complementares e suas contribuições. Sugestões são alternativas e não substituem escolhas automaticamente.
+
+A edição 2.9.0 acrescenta 380 conceitos e reorganiza os anúncios em 11 subcategorias de 40. Mantém os 780 IDs e quadros anteriores na mesma ordem, migrando favoritos 4.3. As referências públicas são hipóteses criativas; anúncio ativo não comprova vendas. Leia narrated-natural-ads.md para limites por segmento e adaptação jurídica informativa.

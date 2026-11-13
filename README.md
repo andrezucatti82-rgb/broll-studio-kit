@@ -1,6 +1,6 @@
 # Vídeo Multimarcas
 
-Edição consolidada **2.8.3** na `main`: **780 estilos em 28 categorias**, modo guiado, ícones no menu, referências e pacotes completos. A política de aprovação visual da main foi preservada junto aos controles de fidelidade. A revisão [2.8.3 corrige a sincronização do estilo principal](docs/GUIDED-PRINCIPAL-SYNC.md). Use [Comece aqui](docs/START-HERE.md) para instalar.
+Edição consolidada **2.9.0** na `main`: **1.160 estilos em 29 subcategorias**, modo guiado, ícones no menu, referências e pacotes completos. A política de aprovação visual da main foi preservada junto aos controles de fidelidade. A expansão [2.9.0 reorganiza os anúncios por segmento](docs/SEGMENT-ADS-4.4.md). Use [Comece aqui](docs/START-HERE.md) para instalar.
 
 **Skill pública de uso geral.** Identificador: `video-multimarcas`. Adapta cada produção à marca informada; não carrega identidade ou voz pessoal como padrão.
 
@@ -24,13 +24,13 @@ Esta edição está consolidada na branch `main`. [Instalar a edição revisada]
 
 ## Biblioteca visual e publicidade
 
-**60 anúncios novos:** joias, capachos, advocacia, moda masculina e feminina, biquínis, pijamas, orgânicos, barras proteicas e cereal. Seis conceitos por segmento, com DBO/AIDA, narração, legendas e CTA. [Como usar e limites](docs/NATURAL-ADS-4.3.md).
+**440 anúncios por segmento:** 11 subcategorias com 40 propostas cada, reunindo os 60 anúncios anteriores e 380 novos. Moda; alimentação e bebidas; casa e decoração; joias; serviços jurídicos; pets; automotivo; turismo; beleza; serviços residenciais; infantil e maternidade. Direções naturais/UGC e campanhas elaboradas, com DBO/AIDA, narração, legendas editáveis e CTA. [Pesquisa, uso e limites](docs/SEGMENT-ADS-4.4.md).
 
 [Revisão e limites da versão 2.5.1](docs/AUDIT-2.5.1.md).
 
-**Edição 4.3 / skill 2.8.3:** os 780 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Menu em dois níveis: seis categorias principais e 28 subcategorias, sem atalhos de estilos. Galeria com duas colunas no celular, explorador visual recolhível e menu deslizante. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
+**Edição 4.4 / skill 2.9.0:** os 1.160 estilos têm capa e três momentos adicionais, com plano de execução no pedido. Menu em dois níveis: seis categorias principais e 29 subcategorias, sem atalhos de estilos. Galeria com duas colunas no celular, explorador visual recolhível e menu deslizante. [Detalhes e verificações](docs/HYBRID-NAVIGATION.md). [Como usar](docs/VISUAL-APP-4.2.md) · [Testes e limites da entrega](docs/VISUAL-APP-4.2-DELIVERY.md).
 
-[Abrir o Atlas público](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site): 780 direções em 28 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 40 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
+[Abrir o Atlas público](https://videos.gerenciadordeanuncios.com.br/): 1.160 direções em 29 famílias, imagens, usos, recursos, comparação, tipografia e briefing. Inclui produtos, imóveis, softwares, apresentações e 40 avatares fictícios, além de 24 combinações tipográficas com prévia real. Código e assets genéricos em [style-atlas/](style-atlas/).
 
 A primeira entrega é **roteiro e moodboard visual para aprovação; após o aceite, storyboard visual para aprovação própria e, depois, amostra de 10 segundos**. O site externo copia o pedido; não envia automaticamente ao chat. Fotos, vídeos e capturas reais são anexados na conversa de produção. O agente preserva produto/rótulo, arquitetura/entorno e interface; não inventa vistas ocultas ou resultados. Veja [regras de publicidade e fidelidade](.agents/skills/video-multimarcas/references/advertising-and-fidelity.md).
 
@@ -135,7 +135,7 @@ Verificar quadros de início, meio, fim e transições, além de reprodução in
 
 ## Pacotes de instalação e atualização
 
-[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.8.3, kit 2.8.3 e catálogo 4.3 (780 estilos/28 categorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
+[Skill](dist/video-multimarcas.skill) · [ZIP da skill](dist/video-multimarcas.zip) · [Plugin Codex](dist/video-multimarcas-plugin.zip) · [Versões e hashes](dist/release-manifest.json) · [Instalar ou atualizar](docs/INSTALL-SKILL.md). Plugin 2.9.0, kit 2.9.0 e catálogo 4.4 (1.160 estilos/29 subcategorias). O marketplace público distribui somente `video-multimarcas`; a skill pessoal `video-b-roll` permanece separada. Importação na conta do ChatGPT depende da interface disponível e não acontece automaticamente ao atualizar este repositório.
 
 ## Referências visuais para o pedido
 

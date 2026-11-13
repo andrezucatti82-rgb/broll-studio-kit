@@ -6,11 +6,11 @@ import {validateCatalog} from '../scripts/validate.mjs';
 const read=p=>JSON.parse(fs.readFileSync(new URL('../'+p,import.meta.url)));
 const c=read('style-atlas/dist/catalog.json'),W=globalThis.AtlasWorkflow;
 test('60 narrated concepts append to the unchanged 720 IDs in ten balanced segments',()=>{
- assert.equal(c.styles.length,780);assert.equal(c.families.length,28);
+ assert.equal(c.styles.length,1160);assert.equal(c.families.length,29);
  assert.deepEqual(c.styles.slice(0,720).map(s=>s.id),read('style-atlas/records/natural-ads-60/previous-ids.json'));
- assert.equal(new Set(c.styles.map(s=>s.name.toLocaleLowerCase('pt-BR'))).size,780);
- const newStyles=c.styles.slice(720);assert.equal(newStyles.length,60);
- for(const f of c.families.slice(18)){const a=newStyles.filter(s=>s.family===f.id);assert.equal(f.count,6);assert.equal(a.length,6);assert.deepEqual(new Set(a.map(s=>s.advertising.framework)),new Set(['DBO','AIDA']));}
+ assert.equal(new Set(c.styles.map(s=>s.name.toLocaleLowerCase('pt-BR'))).size,1160);
+ const newStyles=c.styles.slice(720,780);assert.equal(newStyles.length,60);
+ for(const id of new Set(newStyles.map(s=>s.legacyFamily||s.family))){const a=newStyles.filter(s=>(s.legacyFamily||s.family)===id);assert.equal(a.length,6);assert.deepEqual(new Set(a.map(s=>s.advertising.framework)),new Set(['DBO','AIDA']));}
  validateCatalog(c);
 });
 test('every new prompt preserves narration, editable captions, structure, real evidence and closing CTA',()=>{
@@ -35,6 +35,6 @@ test('presenter preference is explicit in prompts for avatar and non-avatar styl
 });
 
 
-test('all 780 style prompts retain proof, materials and explicit presenter settings',()=>{
+test('all 1160 style prompts retain proof, materials and explicit presenter settings',()=>{
  for(const s of c.styles){const p=W.buildPrompt({selectedStyles:[{...s,referenceFrame:W.referenceFrame(s),visualSequence:s.sequence}],topic:'Demonstração',format:'9:16',targetDurationSeconds:30,typography:'auto',scenePlan:W.estimateScenePlan(30),qualityPolicy:c.qualityPolicy,identityPolicy:c.identityPolicy,fidelityContract:W.fidelityContract,intake:{items:[]}});assert.doesNotMatch(p,/\bGDA\b|\[object Object\]|undefined/);assert.ok(p.includes(s.proof));assert.ok(p.includes(s.requirements));assert.ok(p.includes('"avatar":'+String(s.preset.avatar===true)));}
 });

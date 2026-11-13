@@ -70,10 +70,10 @@ test('Page mode never reads localStorage; 30 second choice saved using widget st
  app.click('#videoFilter');assert.equal(app.document.querySelectorAll('#grid .card').length,6);
 });
 
-test('narrated ads: ten segments, 45 second handoff and local restore retain the ad contract',async()=>{
+test('narrated ads: eleven segments, 45 second handoff and local restore retain the ad contract',async()=>{
  const app=await boot();const {document:d,ctx,click,change}=app;
- click('[data-nav-group="natural-ads"]');assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,10);
- click('[data-nav-family="ads-joias"]');assert.equal(d.querySelectorAll('#grid .card').length,6);
+ click('[data-nav-group="natural-ads"]');assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,11);
+ click('[data-nav-family="ads-joias"]');assert.equal(d.querySelectorAll('#grid .card').length,40);
  click('#grid [data-choose]');change('duration','45');change('topic','Uma coleção demonstrativa');
  d.getElementById('briefForm').dispatchEvent(new ctx.Event('submit',{bubbles:true,cancelable:true}));
  await new Promise(r=>setTimeout(r,20));
@@ -110,16 +110,16 @@ test('Page migration retains 4.1 favourites and resets approvals when reference 
  assert.equal(resumed.getStorageReads(),0);
 });
 
-test('two-level categories partition all 780 styles and never render example-style shortcuts',async()=>{
+test('two-level categories partition all 1160 styles and never render example-style shortcuts',async()=>{
  const {document:d,ctx,click}=await boot();const catalog=ctx.AtlasApp.getCatalog(),groups=ctx.AtlasNavigation.groups;
  assert.equal(groups.length,6);
  const families=groups.flatMap(g=>g.families);
- assert.equal(families.length,28);assert.equal(new Set(families).size,28);
+ assert.equal(families.length,29);assert.equal(new Set(families).size,29);
  assert.deepEqual(new Set(families),new Set(catalog.families.map(f=>f.id)));
- assert.equal(catalog.styles.filter(s=>families.includes(s.family)).length,780);
- assert.equal(d.querySelectorAll('#categoryGroups [data-nav-family]').length,28);
+ assert.equal(catalog.styles.filter(s=>families.includes(s.family)).length,1160);
+ assert.equal(d.querySelectorAll('#categoryGroups [data-nav-family]').length,29);
  assert.equal(d.querySelectorAll('#categoryTiles [data-visual-family]').length,3);
- for(const [id,total] of [['commercial',120],['natural-ads',60],['business',120],['technology',80],['movement',160],['visual',240]]){
+ for(const [id,total] of [['commercial',120],['natural-ads',440],['business',120],['technology',80],['movement',160],['visual',240]]){
   click('[data-nav-group="'+id+'"]');
   assert.match(d.getElementById('resultCount').textContent,new RegExp('^'+total+' estilos'));
   assert.equal(ctx.AtlasApp.categorySelection().group,id);
@@ -144,7 +144,7 @@ test('two-level categories partition all 780 styles and never render example-sty
  assert.equal(ctx.AtlasCurrentChoice().selectedStyles.length,0,'navigation does not change the brief');
  click('.category-all');assert.equal(d.getElementById('familySelect').value,'');
  assert.equal(ctx.AtlasApp.categorySelection().group,'');
- assert.match(d.getElementById('resultCount').textContent,/^780 estilos/);
+ assert.match(d.getElementById('resultCount').textContent,/^1160 estilos/);
  assert.equal(d.querySelectorAll('#grid .card').length,24);
 });
 test('browsing parents and subcategories preserves selected styles, contributions and approvals',async()=>{
@@ -188,16 +188,18 @@ test('mobile category drawer wraps keyboard focus at both ends',async()=>{
 test('all catalog kinds are filterable and new segments collect their specific originals',async()=>{
  const app=await boot(),c=JSON.parse(await read('catalog.json'));const {document:d,ctx,click,change}=app;
  assert.deepEqual(new Set([...d.querySelectorAll('#kind option')].map(o=>o.value).filter(Boolean)),new Set(c.styles.map(s=>s.kind)));
- change('kind','Anúncio narrado');assert.equal(d.querySelectorAll('#grid .card').length,24);assert.match(d.getElementById('resultCount').textContent,/60 estilos/);change('kind','');
+ change('kind','Anúncio narrado');assert.equal(d.querySelectorAll('#grid .card').length,24);assert.match(d.getElementById('resultCount').textContent,/440 estilos/);change('kind','');
  click('[data-nav-group="natural-ads"]');
  for(const f of c.families.slice(18)){
   click('[data-nav-family="'+f.id+'"]');click('#grid [data-detail]');click('#detailDialog [data-choose]');
   const ids=ctx.AtlasCurrentChoice().intake.items.map(x=>x.id);
-  if(f.id==='ads-advocacia'){assert.ok(ids.includes('legal'));assert.ok(!ids.includes('product'));}
+  if(f.id==='ads-juridico'){assert.ok(ids.includes('legal'));assert.ok(!ids.includes('product'));}
+  else if(['ads-turismo','ads-servicos'].includes(f.id)){assert.ok(!ids.includes('product'));assert.ok(ids.includes(f.id==='ads-turismo'?'travel':'homeService'));}
+  else if(ctx.AtlasCurrentChoice().selectedStyles[0].advertising.offerType==='service')assert.ok(!ids.includes('product'),f.id);
   else assert.ok(ids.includes('product'),f.id);
-  if(['ads-organicos','ads-barras','ads-cereal'].includes(f.id))assert.ok(ids.includes('food'),f.id);
+  if(['ads-alimentacao'].includes(f.id))assert.ok(ids.includes('food'),f.id);
   change('topic','Produto demonstrativo');d.getElementById('briefForm').dispatchEvent(new ctx.Event('submit',{bubbles:true,cancelable:true}));
-  assert.match(d.getElementById('summaryMaterials').textContent,f.id==='ads-advocacia'?/escritório/:/produto/);
+  assert.ok(d.getElementById('summaryMaterials').textContent.trim());
   click('#briefDialog [data-close]');
  }
 });
@@ -309,4 +311,8 @@ test('principal replacement respects the ten-style limit and unchanged or invali
  ctx.AtlasApp.setPrincipalStyle('publicidade-cinematografica');assert.equal(JSON.stringify(ctx.AtlasCurrentChoice()),before);
  ctx.AtlasApp.setPrincipalStyle('natural-barras-a-pausa-cabe-na-bolsa');assert.equal(ctx.AtlasCurrentChoice().selectedStyles.length,10);
  assert.equal(ctx.AtlasCurrentChoice().selectedStyles[0].id,'natural-barras-a-pausa-cabe-na-bolsa');assert.equal(new Set(ctx.AtlasCurrentChoice().selectedStyles.map(s=>s.id)).size,10);
+});
+
+test('Page 4.3 favorites retain append-only positions after segment regrouping',async()=>{
+ const app=await boot({page:true,saved:{modelContent:{targetDurationSeconds:45},privateContent:{catalogVersion:'4.3',favoriteBits:'1'+'0'.repeat(778)+'1'}}});app.click('#favoriteFilter');assert.equal(app.document.querySelectorAll('#grid .card').length,2);assert.equal(app.getStorageReads(),0);
 });

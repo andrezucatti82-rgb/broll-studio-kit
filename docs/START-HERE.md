@@ -35,7 +35,7 @@ npm test
 npm run validate
 ```
 
-Esta edição 2.8.3 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
+Esta edição 2.9.0 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
 
 Se você baixou o ZIP dessa branch no GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
 
@@ -117,7 +117,7 @@ A GDA é a identidade da galeria hospedada. O vídeo é adaptado à marca do bri
 
 ## Novas direções da edição 3.1
 
-Na galeria, explore seis categorias principais e suas 28 subcategorias. No celular, os cards aparecem em duas colunas; abra a ficha para examinar os quatro quadros. O menu não inclui estilos de exemplo nem um terceiro nível. Há 780 presets em 28 categorias: 18 famílias de 40 e dez segmentos de anúncios com seis direções cada. A ficha mostra diferenças, recursos, áudio e referências; esses dados acompanham o pedido e o JSON exportado. Atualize o repositório com `git pull` e reimporte o pacote da skill na superfície que exigir instalação própria. Atualizar GitHub ou o site não atualiza automaticamente plugins já importados em outras contas. Consulte [a pesquisa](../style-atlas/records/RESEARCH.md).
+Na galeria, explore seis categorias principais e suas 29 subcategorias. No celular, os cards aparecem em duas colunas; abra a ficha para examinar os quatro quadros. O menu não inclui estilos de exemplo nem um terceiro nível. Há 1.160 presets em 29 subcategorias: 18 famílias de 40 e 11 segmentos de anúncios com 40 direções cada. A ficha mostra diferenças, recursos, áudio e referências; esses dados acompanham o pedido e o JSON exportado. Atualize o repositório com `git pull` e reimporte o pacote da skill na superfície que exigir instalação própria. Atualizar GitHub ou o site não atualiza automaticamente plugins já importados em outras contas. Consulte [a pesquisa](../style-atlas/records/RESEARCH.md).
 
 ## Materiais e solução de bloqueios
 
@@ -141,7 +141,7 @@ O atlas contém 18 novos estudos fotográficos fictícios e 12 layouts/UI demons
 
 ## Motion Design de Campanha · edição 4.0
 
-30 direções para anúncios, explicações, lançamentos e marca, com 12 estudos fotográficos IA fictícios, dez composições gráficas e oito cenas 3D originais. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. Naquela edição, o acervo passou a 540 direções em 18 categorias, mantendo os 510 IDs anteriores. A edição atual tem 780 estilos em 28 categorias.
+30 direções para anúncios, explicações, lançamentos e marca, com 12 estudos fotográficos IA fictícios, dez composições gráficas e oito cenas 3D originais. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. Naquela edição, o acervo passou a 540 direções em 18 categorias, mantendo os 510 IDs anteriores. A edição atual tem 1.160 estilos em 29 subcategorias.
 
 Há três prévias audiovisuais de dez segundos: **Frase que reorganiza o quadro**, **Peça única em palco de íris** e **Janela óptica sobre fotografia**. São estudos para aprovação, não exemplos de vídeos finais aprovados. A lente amplia a mesma fotografia, sem inventar vistas; o frasco 3D é fictício. A fonte da animação, o mix e a proveniência acompanham o repositório em `style-atlas/records/motion-campaign/`. Veja as amostras em https://videos.gerenciadordeanuncios.com.br/motion-campaign.html .
 

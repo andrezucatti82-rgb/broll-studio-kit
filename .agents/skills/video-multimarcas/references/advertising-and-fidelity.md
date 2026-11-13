@@ -6,7 +6,7 @@ Entregar roteiro e moodboard visual para aprovação; após o aceite, storyboard
 
 ## Seleção de direção
 
-O [Atlas Vídeo Multimarcas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) tem 780 direções em 28 famílias, na edição 4.3. Não é uma lista exaustiva. Aceitar tema, um estilo principal e até nove complementares opcionais, formato, tipografia e marca opcional. Ler o preset completo, `audio`, `requirements` e as referências fornecidas; nomes de estilos não substituem seus critérios. Os arquivos versionados estão em `style-atlas/` no repositório. A skill isolada funciona com este guia mesmo sem acesso à galeria.
+O [Atlas Vídeo Multimarcas](https://videos.gerenciadordeanuncios.com.br/) tem 1.160 direções em 29 famílias, na edição 4.4. Não é uma lista exaustiva. Aceitar tema, um estilo principal e até nove complementares opcionais, formato, tipografia e marca opcional. Ler o preset completo, `audio`, `requirements` e as referências fornecidas; nomes de estilos não substituem seus critérios. Os arquivos versionados estão em `style-atlas/` no repositório. A skill isolada funciona com este guia mesmo sem acesso à galeria.
 
 No site externo, copiar o pedido e enviá-lo no ChatGPT. O site não envia automaticamente à conversa atual. Na Page, salvar a escolha no widget e usar o botão nativo de chat; confirmar o estado atual antes de produzir. Instalação e ferramentas dependem da superfície. Não alegar conexão ou instalação universal sem verificação.
 
@@ -56,13 +56,13 @@ Registrar fontes/licenças, atributos verificados, materiais faltantes, transfor
 
 ## Catálogo ampliado e avatares
 
-O repertório reúne 780 direções: 18 categorias de 40 e dez segmentos de seis, incluindo 40 apresentadores fictícios adultos, dos quais dez em direções experimentais. Cada preset descreve uso, recursos, movimento e critérios; não confundir retrato com prova de animação. A galeria contém 24 combinações com prévias reais de fontes e frase editável; conferir o arquivo/licença e não substituir silenciosamente por fallback.
+O repertório reúne 1.160 direções: 18 famílias de 40 e 11 segmentos de 40, incluindo 40 apresentadores fictícios adultos, dos quais dez em direções experimentais. Cada preset descreve uso, recursos, movimento e critérios; não confundir retrato com prova de animação. A galeria contém 24 combinações com prévias reais de fontes e frase editável; conferir o arquivo/licença e não substituir silenciosamente por fallback.
 
 Sem avatar por padrão. A seleção explícita de um preset da categoria Avatares e apresentadores habilita apenas o apresentador fictício desse projeto. Preservar identidade, roupa, anatomia e voz, olhar à câmera, corpo apoiado e recorte sólido até a borda inferior, sem degradê flutuante. Para pessoa real, obter autorização de imagem/voz e cumprir consentimento do provedor; identificar conteúdo sintético. Não fabricar depoimento, experiência pessoal ou presença real. Aprovar aparência, gestos e sincronização labial nos 10 segundos antes de expandir.
 
 ## Galeria e identidade da interface
 
-Galeria pública: https://videos.gerenciadordeanuncios.com.br/ ; espelho: https://video-multimarcas-estilos.andrezucatti82.chatgpt.site . A identidade da interface da galeria não impõe a direção do vídeo: ler marca, estilo e tipografia escolhidos para cada produção. No site, preparar/copiar e enviar o pedido; na Page, salvar estado e usar o botão nativo de chat. A instalação e os conectores precisam existir na conta e superfície usadas, sem alegar sincronização universal.
+Galeria pública: https://videos.gerenciadordeanuncios.com.br/ ; espelho: https://videos.gerenciadordeanuncios.com.br/ . A identidade da interface da galeria não impõe a direção do vídeo: ler marca, estilo e tipografia escolhidos para cada produção. No site, preparar/copiar e enviar o pedido; na Page, salvar estado e usar o botão nativo de chat. A instalação e os conectores precisam existir na conta e superfície usadas, sem alegar sincronização universal.
 
 ## Direções experimentais pesquisadas · edição 3.1
 
@@ -92,7 +92,7 @@ O atlas contém 18 novos estudos fotográficos fictícios e 12 layouts/UI demons
 
 ## Motion Design de Campanha · edição 4.1
 
-A categoria contém 40 direções. A edição 4.0 trouxe 30 estudos e a edição 4.1 acrescentou dez direções cenográficas. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. A edição 4.1 passou a 720 direções, preservando os 540 IDs anteriores. A edição 4.3 soma 780 direções em 28 categorias.
+A categoria contém 40 direções. A edição 4.0 trouxe 30 estudos e a edição 4.1 acrescentou dez direções cenográficas. Escolher pelo objetivo, não pela quantidade de efeitos: ler necessidade, ação, materiais, distinção e áudio de cada preset. A edição 4.1 passou a 720 direções, preservando os 540 IDs anteriores. A edição 4.4 soma 780 direções em 28 categorias.
 
 Há três prévias audiovisuais de dez segundos: **Frase que reorganiza o quadro**, **Peça única em palco de íris** e **Janela óptica sobre fotografia**. São estudos para aprovação, não exemplos de vídeos finais aprovados. A lente amplia a mesma fotografia, sem inventar vistas; o frasco 3D é fictício. A fonte da animação, o mix e a proveniência acompanham o repositório em `style-atlas/records/motion-campaign/`. Veja as amostras em https://videos.gerenciadordeanuncios.com.br/motion-campaign.html .
 

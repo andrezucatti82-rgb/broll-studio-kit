@@ -1,6 +1,6 @@
-# Anúncios narrados com acabamento natural
+# Anúncios narrados: natural/UGC e campanha elaborada
 
-O catálogo 4.3 acrescenta 60 direções em dez segmentos, com seis conceitos por segmento: joias artesanais, capachos de fibra de coco, advocacia, roupas masculinas, roupas femininas, biquínis, pijamas, alimentos orgânicos, barras proteicas e cereal. Total: 780 estilos em 28 categorias. Os 720 IDs anteriores permanecem na mesma ordem.
+O catálogo 4.4 contém 440 direções de anúncios em 11 subcategorias, com 40 conceitos em cada: moda e vestuário; alimentação e bebidas; casa e decoração; joias e acessórios; serviços jurídicos; pets; automotivo e mobilidade; turismo e hospedagem; beleza e autocuidado; serviços residenciais; infantil e maternidade. Total: 1.160 estilos em 29 subcategorias. Os 780 IDs e quadros anteriores permanecem na mesma ordem. Os 380 novos são conceitos fictícios pendentes de aprovação do usuário, com quatro quadros por proposta.
 
 ## Do preset ao filme
 
@@ -29,3 +29,19 @@ Legendas são texto composto em código ou editor, nunca letras geradas na fotog
 ## Revisão
 
 Compare o plano e os quadros com o resultado; a presença da frase “preservar identidade” não é prova. Revise imagens, clipes e montagem separadamente. Inspecione contato, anatomia, continuidade, rótulo, roupa e cor; assista à ação e escute voz, mixagem e pausas. Verifique gancho, benefício sustentado, objeção ou desenvolvimento do desejo e CTA. Os seis pilotos têm aprovação de direção visual; a expansão não recebe selo de vídeo aprovado sem prova e aprovação próprias. Não há áudio embutido nas imagens da galeria.
+
+## Pesquisa e novos segmentos
+
+Leia researchBasis, visualLayout e professionalConstraints junto do plano. As referências pesquisadas orientam hipóteses de argumento e composição, sem copiar marca, pessoa, campanha ou música. Registro de anúncio ativo, duração em veiculação e aparência não comprovam vendas ou ROAS; relatos de fornecedores não garantem outra campanha. Confirmar os fatos da marca e testar o desempenho na própria conta.
+
+- Turismo: originais, arquitetura, vistas, localização, comodidades, datas e condições confirmados; sem inventar espaço, percurso ou serviço incluído.
+- Automotivo: aplicação, veículo e componentes reais; sem diagnóstico, compatibilidade, segurança ou homologação inventados.
+- Pets: preservar espécie, porte, anatomia e comportamento natural; ação segura supervisionada, sem cura ou aceitação garantida.
+- Beleza: preservar pele e cabelo, rótulo e instruções; sem retocar resultado ou fabricar antes/depois e eficácia.
+- Serviços residenciais: escopo, condições, processo e evidência reais; não simular cliente satisfeito ou resultado como prova.
+- Infantil e maternidade: comunicação aos responsáveis adultos, uso seguro segundo fabricante, sem pressão por culpa, promessa de saúde ou desenvolvimento.
+- Jurídico: a restrição informativa prevalece sobre DBO/AIDA; não usar pressão de venda, autoengrandecimento, promessa de êxito, captação, oferta de honorários ou caso real inventado. Confirmar regras atuais e revisão do responsável. CTA informativa sóbria.
+
+Equilibrar naturalidade e publicidade elaborada conforme creativeMode e a direção de cada conceito. Naturalidade não exige montagem simples; campanha elaborada pode usar cenografia, luz, materiais, composição e motion editável sem perder fidelidade. Não afirmar que imagens sintéticas foram filmadas por humanos.
+
+Use offerType para diferenciar produto, serviço ou oferta mista. Pedir originais do produto quando ele for mostrado e material autorizado do processo quando o anúncio explicar um atendimento; não exigir fotos de uma mercadoria inexistente. A edição pública intercala nichos e propostas naturais/elaboradas sem alterar os IDs persistentes.

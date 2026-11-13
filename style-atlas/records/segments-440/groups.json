@@ -1,0 +1,105 @@
+[
+  {
+    "id": "ads-moda",
+    "name": "Moda e vestuário",
+    "newCount": 16,
+    "legacyFamilies": [
+      "ads-moda-masculina",
+      "ads-moda-feminina",
+      "ads-biquinis",
+      "ads-pijamas"
+    ],
+    "totalCount": 40,
+    "naturalNewCount": 0
+  },
+  {
+    "id": "ads-alimentacao",
+    "name": "Alimentação e bebidas",
+    "newCount": 22,
+    "legacyFamilies": [
+      "ads-organicos",
+      "ads-barras",
+      "ads-cereal"
+    ],
+    "totalCount": 40,
+    "naturalNewCount": 2
+  },
+  {
+    "id": "ads-casa",
+    "name": "Casa e decoração",
+    "newCount": 34,
+    "legacyFamilies": [
+      "ads-capachos"
+    ],
+    "totalCount": 40,
+    "naturalNewCount": 14
+  },
+  {
+    "id": "ads-joias",
+    "name": "Joias e acessórios",
+    "newCount": 34,
+    "legacyFamilies": [
+      "ads-joias"
+    ],
+    "totalCount": 40,
+    "naturalNewCount": 14
+  },
+  {
+    "id": "ads-juridico",
+    "name": "Serviços jurídicos",
+    "newCount": 34,
+    "legacyFamilies": [
+      "ads-advocacia"
+    ],
+    "totalCount": 40,
+    "naturalNewCount": 14
+  },
+  {
+    "id": "ads-pets",
+    "name": "Pets e cuidados animais",
+    "newCount": 40,
+    "legacyFamilies": [],
+    "totalCount": 40,
+    "naturalNewCount": 20
+  },
+  {
+    "id": "ads-automotivo",
+    "name": "Automotivo e mobilidade",
+    "newCount": 40,
+    "legacyFamilies": [],
+    "totalCount": 40,
+    "naturalNewCount": 20
+  },
+  {
+    "id": "ads-turismo",
+    "name": "Turismo e hospedagem",
+    "newCount": 40,
+    "legacyFamilies": [],
+    "totalCount": 40,
+    "naturalNewCount": 20
+  },
+  {
+    "id": "ads-beleza",
+    "name": "Beleza e autocuidado",
+    "newCount": 40,
+    "legacyFamilies": [],
+    "totalCount": 40,
+    "naturalNewCount": 20
+  },
+  {
+    "id": "ads-servicos",
+    "name": "Serviços residenciais",
+    "newCount": 40,
+    "legacyFamilies": [],
+    "totalCount": 40,
+    "naturalNewCount": 20
+  },
+  {
+    "id": "ads-infantil",
+    "name": "Infantil e maternidade",
+    "newCount": 40,
+    "legacyFamilies": [],
+    "totalCount": 40,
+    "naturalNewCount": 20
+  }
+]
