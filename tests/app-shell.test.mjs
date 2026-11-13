@@ -19,6 +19,7 @@ async function boot({page=false,saved=null,hash=""}={}){
  const create=document.createElement.bind(document);document.createElement=(tag,...args)=>{const el=create(tag,...args);if(tag==='select')patchSelect(el);el.focus=()=>{};return el};
  for(const el of document.querySelectorAll('dialog')){el.show=function(){this.open=true};el.showModal=el.show;el.close=function(){const was=this.open;this.open=false;if(was)this.dispatchEvent(new dom.Event('close'))};}
  for(const el of document.querySelectorAll('*')){el.focus=()=>{};el.scrollIntoView=()=>{};el.reportValidity=()=>true;}
+ document.getElementById('briefForm').requestSubmit=function(){this.dispatchEvent(new dom.Event('submit',{bubbles:true,cancelable:true}))};
  const events=new dom.EventTarget();
  const ctx={document,Event:dom.Event,URL,URLSearchParams,Blob,console:{error:e=>errors.push(e)},setTimeout,clearTimeout,
   location:{search:'',hash,href:'https://example.org/release/index.html'},matchMedia:()=>({matches:true,addEventListener(){}}),requestAnimationFrame:()=>0,cancelAnimationFrame(){},
@@ -31,7 +32,7 @@ async function boot({page=false,saved=null,hash=""}={}){
  };
  document.fonts={add(){}};ctx.window=ctx;ctx.globalThis=ctx;
  vm.createContext(ctx);
- for(const name of ['workflow.js','gallery-views.js','app-shell.js','app.js'])vm.runInContext(await read(name),ctx,{filename:name});
+ for(const name of ['guided.js','workflow.js','gallery-views.js','app-shell.js','app.js','guided-ui.js'])vm.runInContext(await read(name),ctx,{filename:name});
  for(let i=0;i<150&&!ctx.ATLAS_READY&&!errors.length;i++)await new Promise(r=>setTimeout(r,10));
  assert.equal(errors.map(e=>e.stack).join('\n'),'');assert.equal(ctx.ATLAS_READY,true,'app initialized');
  const click=selector=>{const el=document.querySelector(selector);assert.ok(el,selector);el.dispatchEvent(new dom.Event('click',{bubbles:true}));};
@@ -192,3 +193,13 @@ test('sequence numbering matches frame indices including the principal frame',as
 });
 
 test('prepared request carries absolute catalog and individual frame URLs',async()=>{const a=await boot();a.click('#grid [data-choose]');a.change('topic','Teste');const c=a.ctx.AtlasCurrentChoice();assert.equal(c.catalogUrl,'https://example.org/release/catalog.json');const p=a.ctx.AtlasWorkflow.buildPrompt(c);assert.match(p,/https:\/\/example.org\/release\/assets\//);assert.match(p,/Agora \/ Entrega \/ Preciso de você \/ Próximo passo/);});
+
+
+test('guided wizard preserves neutral recipe and materials through handoff and reload',async()=>{
+ const a=await boot();a.click('#startGuided');a.change('guidedObjective','product');a.change('guidedSubject','Joias artesanais');a.click('#guidedNext');assert.equal(a.document.querySelectorAll('[data-guided-pick]').length,3);a.click('[data-guided-pick]');a.click('#guidedNext');a.document.querySelector('#guidedMaterials input[value="one_photo"]').setAttribute('checked','');a.click('#guidedNext');a.click('#guidedNext');await new Promise(r=>setTimeout(r,30));const c=a.ctx.AtlasCurrentChoice();assert.equal(c.guidedBrief.objective,'product');assert.equal(c.recipe.status,'planned');assert.equal(c.guidedBrief.materials[0],'one_photo');assert.match(a.document.getElementById('promptOutput').value,/protected_photo_composite/);const saved=JSON.parse(a.store.get('video-multimarcas-atlas-v1'));const b=await boot({saved});assert.equal(b.ctx.AtlasCurrentChoice().guidedBrief.materials[0],'one_photo');const bundle=b.ctx.AtlasApp.exportBundle();assert.equal(bundle.packageVersion,1);assert.ok(bundle.request.includes('Joias artesanais'));assert.equal(bundle.project.guidedBrief.objective,'product');
+});
+test('requesting adjustment retains history but invalidates affected approvals',async()=>{const a=await boot();a.click('#grid [data-choose]');const c=a.ctx.AtlasCurrentChoice();c.projectState.history.push({etapa:'sample',estado:'concluido',versao:1,custoInformadoUSD:0,resumo:'reported sample',pendencias:[]});c.projectState.preProductionApprovals.moodboard.status='approved';c.projectState.preProductionApprovals.visual_storyboard.status='approved';a.ctx.AtlasApp.requestAdjustment('voice');assert.equal(c.projectState.history.length,1);assert.equal(c.projectState.preProductionApprovals.moodboard.status,'approved');assert.equal(c.projectState.preProductionApprovals.visual_storyboard.status,'pending');assert.equal(a.ctx.AtlasWorkflow.activeProjectState(c.projectState).history.length,0);assert.match(a.ctx.AtlasApp.prompt(),/ritmo da locução/);});
+
+
+test('portable bundle round-trips through import and rejects invalid sheet without losing choices',async()=>{const a=await boot();a.click('#grid [data-choose]');a.change('topic','Projeto mantido');const bundle=a.ctx.AtlasApp.exportBundle(),input=a.document.getElementById('importProject');Object.defineProperty(input,'files',{configurable:true,value:[{size:1000,text:async()=>JSON.stringify(bundle)}]});await input.onchange({target:input});assert.equal(a.ctx.AtlasCurrentChoice().topic,'Projeto mantido');bundle.project.styles=['unknown'];Object.defineProperty(input,'files',{configurable:true,value:[{size:1000,text:async()=>JSON.stringify(bundle)}]});await input.onchange({target:input});assert.equal(a.ctx.AtlasCurrentChoice().topic,'Projeto mantido');assert.equal(a.ctx.AtlasCurrentChoice().selectedStyles.length,1);assert.match(a.document.getElementById('projectMessage').textContent,/recusada/);});
+test('revising storyboard preserves moodboard and history; project next action remains usable',async()=>{const a=await boot();a.click('#grid [data-choose]');const c=a.ctx.AtlasCurrentChoice();c.projectState.preProductionApprovals.moodboard.status='approved';c.projectState.preProductionApprovals.visual_storyboard.status='approved';a.ctx.AtlasApp.requestRevision('visual_storyboard');assert.equal(c.projectState.preProductionApprovals.moodboard.status,'approved');assert.equal(c.projectState.preProductionApprovals.visual_storyboard.status,'pending');a.click('#projectNext');assert.equal(a.document.body.dataset.view,'brief');});

@@ -1,6 +1,6 @@
 {
   "name": "video-multimarcas-kit",
-  "version": "2.6.0",
+  "version": "2.7.1",
   "private": true,
   "type": "module",
   "description": "Brand-adaptive B-roll agent skill and editable production starter",
@@ -12,7 +12,7 @@
     "render": "node scripts/render.mjs",
     "stills": "node scripts/render.mjs --stills",
     "check": "tsc --noEmit",
-    "test": "node --test tests/*.test.mjs && python3 tests/heygen-budget.test.py",
+    "test": "node --test tests/*.test.mjs && node scripts/test-python.mjs",
     "new": "node scripts/new-project.mjs",
     "validate": "node scripts/validate.mjs",
     "review": "node scripts/review.mjs",

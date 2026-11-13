@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-12",
+  "version": "2.7.0",
+  "branch": "feat/guided-production-2-7",
+  "sourceCommit": "e7ba0cef3c834098d9d2ae769ab6eb616c1a760d",
+  "pullRequest": "https://github.com/andrezucatti82-rgb/broll-studio-kit/pull/7",
+  "mainMerged": false,
+  "primary": {
+    "url": "https://videos.gerenciadordeanuncios.com.br/",
+    "workflowRun": 43311927878,
+    "status": "succeeded",
+    "release": "atlas-20261112213652",
+    "freshHTTPStatus": 200,
+    "guidedControlsAndModulesPresent": true,
+    "postPublicationInteractiveBrowserTested": false
+  },
+  "page": {
+    "id": "page_05d0233621d081919b31df2863cab40b",
+    "visualSequence": 56,
+    "latestTextSequence": 60,
+    "nativeViewerTested": false
+  },
+  "codexLocal": {
+    "version": "2.7.0",
+    "installationConfirmedBeforeEnvironmentOutage": true
+  },
+  "mirror": {
+    "status": "not_updated",
+    "liveVersion": 29,
+    "reason": "Source Git endpoint returned HTTP502 before commit/push; execution environment then became unavailable before retry."
+  },
+  "tests": {
+    "npmCi": true,
+    "check": true,
+    "nodeTestFiles": 13,
+    "pythonTests": 8,
+    "validate": true,
+    "pageBuild": true,
+    "localChromium": {
+      "flows": [
+        "product",
+        "service",
+        "interface"
+      ],
+      "bundleRoundTrip": true,
+      "adjustments": true,
+      "restore": true,
+      "viewports": [
+        320,
+        375,
+        768,
+        1440
+      ],
+      "pageBridgeSimulated": true,
+      "realRemoteAssets": true
+    }
+  },
+  "mediaGenerationExecuted": false,
+  "cloudPluginInstallationConfirmed": false,
+  "remaining": [
+    "Update mirror after environment recovery",
+    "Repeat interactive browser checks on live primary/mirror",
+    "Prepare approved visual assets and confirm current total price before paid audiovisual tests"
+  ]
+}

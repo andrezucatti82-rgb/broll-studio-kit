@@ -3,11 +3,22 @@ name: video-multimarcas
 description: Skill de uso geral para qualquer marca. Produz vídeos B-roll narrados a partir de uma temática, pesquisando fontes e adaptando roteiro, identidade visual e direção à marca informada por nome, logotipo ou site. Sem avatar por padrão. Exige direção por plano, ação interna, profundidade coerente, ritmo pela locução e revisão contínua com escuta antes de aprovar acabamento.
 ---
 
+
+<!-- universal-visual-approval:start -->
+## Aprovação visual antes de qualquer vídeo IA
+
+Regra do usuário para toda produção de vídeo: apresentar imagens concretas e obter aprovação visual explícita ANTES de gerar qualquer vídeo com IA, inclusive testes gratuitos, prévias de avatar, B-roll e amostras pagas, em qualquer provedor. Não gerar primeiro para pedir aprovação depois. Orçamento, roteiro, voz, escolha de avatar e “pode continuar” não aprovam visuais ainda não apresentados. Registrar escopo, versão/hash e mensagem do usuário; nunca aprovar pelo usuário. Reutilizar somente aprovações válidas do material atual.
+
+Em novas produções: moodboard → styleframes → storyboard visual → aprovação visual → animatic → amostra integrada aprovada → filme completo → revisão audiovisual integral. Para um clipe isolado, apresentar e aprovar os quadros daquele clipe; para edição simples sem geração IA, limitar ao ajuste pedido. Shooting board, beat board e color script entram quando pertinentes. Aprovar aparência não aprova automaticamente movimento ou edição. Mudança visual material invalida a aprovação afetada.
+
+Não substituir recursos prometidos por uma solução visual mais simples sem apresentar a mudança. Testes técnicos e quadros extraídos não equivalem a assistir e ouvir o vídeo inteiro. Sem essa revisão, usar `review_pending` e nome de prévia/candidato; nunca chamar de final. Esta regra antecede receitas de geração e exemplos abaixo. Leia [protocolo visual](references/universal-visual-approval.md) antes da produção.
+<!-- universal-visual-approval:end -->
+
 # Vídeo Multimarcas
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.6.0**. O atlas contém **780 estilos em 28 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.7.1**. O atlas contém **780 estilos em 28 categorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
 
 ## Provedor prioritário para geração de vídeo
 
@@ -41,6 +52,10 @@ Leia [automação com evidências](references/automation.md). Priorize materiais
 ## Correspondência com as imagens e ferramentas
 
 Aplique [execução fiel com evidências](references/execution-fidelity.md) antes de gerar. O pedido inclui manifesto de URLs; abra os quadros, registre observações e ligue cada plano a uma rota compatível e seus assets. Use `templates/fidelity-plan.json`; o kit oferece `npm run fidelity-check` e bloqueia o adaptador pago sem evidências e aceites. Comparação lado a lado, playback, escuta e aprovação do arquivo exato continuam humanos; conexão ou validador não comprovam qualidade. Oriente com Agora / Entrega / Preciso de você / Próximo passo.
+
+## Modo guiado, receitas e coordenação
+
+Aplique [produção guiada](references/guided-production.md) quando receber objetivo, recomendações de estilo, materiais declarados, receita ou pedido de ajuste. Confira os anexos realmente disponíveis, adapte a execução e continue de forma simples: Agora / Entrega / Preciso de você / Próximo passo. As três receitas iniciais são planejadas; teste de interface ou conexão não as certifica em vídeo. Preencha `templates/coordinator-plan.json` com responsabilidades, executores e evidências reais, mantendo uma fonte de decisões compartilhadas e os registros de fidelidade. Traduza ajustes por intenção em mudanças concretas e renove somente os aceites afetados. A ficha informa escolhas e estado salvo/importado; o site não acompanha a conversa por conta própria. Arquivos continuam sendo enviados no chat.
 
 ## Fluxo completo
 

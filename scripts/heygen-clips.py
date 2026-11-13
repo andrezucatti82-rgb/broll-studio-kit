@@ -8,16 +8,27 @@ from decimal import Decimal
 from pathlib import Path
 import base64
 
+def check_visual_approval(job, directory):
+    if not job.get('workflow'):
+        raise ValueError('Visual approval required before any AI video, including previews; set workflow')
+    record=(directory/job['workflow']).resolve()
+    workflow=read(record)
+    if not job.get('visualSha256') or job['visualSha256']!=workflow.get('artifacts',{}).get('visual',{}).get('sha256'):
+        raise ValueError('Job must reference the approved visual version using visualSha256')
+    result=subprocess.run(['node',str(Path(__file__).with_name('workflow-gate.mjs')),'ai-video',str(record)],capture_output=True,text=True)
+    if result.returncode:
+        raise ValueError('Visual approval missing, stale or incomplete; no generation submitted')
+
 class NoRedirect(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, *args, **kwargs):
         return None
 
 def read(path):
-    return json.loads(Path(path).read_text())
+    return json.loads(Path(path).read_text(encoding='utf-8'))
 
 def write(path, value):
     path=Path(path); temp=path.with_suffix(path.suffix+'.tmp')
-    temp.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n');temp.replace(path)
+    temp.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');temp.replace(path)
 
 def check_budget(ledger, estimate):
     rate=Decimal(str(ledger['planningBRLPerUSD']));cap=Decimal(str(ledger['limitBRL']))
@@ -76,6 +87,7 @@ def verify_direction(job, job_path):
 
 def submit(job_path, ledger_path, execute=False):
     job_path=Path(job_path).resolve();ledger_path=Path(ledger_path).resolve();job=read(job_path)
+    if execute:check_visual_approval(job,job_path.parent)
     lock=ledger_path.with_suffix(ledger_path.suffix+'.lock')
     try:fd=os.open(lock,os.O_CREAT|os.O_EXCL|os.O_WRONLY)
     except FileExistsError:raise ValueError('Ledger is locked; inspect active/unknown submission before proceeding')

@@ -6,8 +6,13 @@ Este é um kit para um agente de IA produzir vídeos. A página ajuda a escolher
 
 ## 1. Experimente sem instalar programas
 
+Use **Criar meu vídeo** para um percurso guiado de quatro passos: Objetivo → Aparência → Materiais → Preparar produção. O site sugere três direções com uma explicação; você também pode explorar a biblioteca completa. Informe os materiais que possui e confira a execução proposta. As caixas de materiais são declarações; o envio e a inspeção dos arquivos acontecem na conversa de produção.
+
+As três receitas iniciais são planejadas: anúncio de produto, apresentação de serviço e explicação com interfaces/gráficos. Nenhuma recebe aprovação audiovisual apenas por estar no catálogo. Veja [o modo guiado e seus limites](GUIDED-2.7.md).
+
+
 1. Abra a galeria. Compare estilos e clique em **Usar este estilo**. A página tem movimento suave, paralaxe discreta e ícones; a preferência de movimento reduzido do dispositivo desativa as animações. Você pode combinar até nove direções complementares, definindo o papel de cada uma.
-2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Alterar**, em Tipografia, para comparar as 24 combinações para ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 40 direções com apresentadores fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
+2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Alterar**, em Tipografia, para comparar as 24 combinações, ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 40 direções com apresentadores fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
 3. Abra seu ChatGPT, entre na sua conta, cole o pedido e anexe suas fotos, logo, vídeos ou capturas. Os links dos quatro quadros acompanham o pedido; se o agente não conseguir abri-los, use os downloads da galeria e anexe os PNGs. Envie a mensagem.
 4. Se a skill não estiver instalada, o pedido ainda contém as regras principais. Para contexto completo, anexe o ZIP da skill ou adicione os arquivos ao projeto compatível.
 5. Peça ao agente para verificar suas ferramentas antes da produção. A primeira entrega será **roteiro, moodboard aprovado, storyboard aprovado e amostra de 10 segundos para aprovação**. O vídeo completo depende dessa aprovação.
@@ -21,8 +26,8 @@ Recomendado: Codex/ambiente de agente com acesso a arquivos, terminal e internet
 Instale Git, Node.js **22 ou superior**, FFmpeg e um navegador Chromium compatível com Remotion. Python 3 é necessário para o cliente HTTP direto do HeyGen; também é usado no empacotamento e na revisão. As instruções oficiais dos respectivos instaladores prevalecem sobre comandos específicos de um sistema operacional.
 
 ```bash
-git clone --branch feat/visual-app-720 https://github.com/andrezucatti82-rgb/broll-studio-kit.git
-cd broll-studio-kit
+git clone --branch main https://github.com/andrezucatti82-rgb/studio-kit-pro.git
+cd studio-kit-pro
 npm ci
 npm run doctor
 npm run check
@@ -30,7 +35,7 @@ npm test
 npm run validate
 ```
 
-Esta edição 2.6.0 está na branch `feat/visual-app-720`, ainda sem merge na main. O comando acima usa a edição revisada. Veja [fidelidade e verificações](FIDELITY-2.6.md).
+Esta edição 2.7.1 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
 
 Se você baixou o ZIP dessa branch no GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
 
@@ -145,3 +150,9 @@ Definir estado inicial → ação → resultado; planejar uma transição motiva
 Verificar quadros de início, meio, fim e transições, além de reprodução integral com escuta. Registrar separadamente o que foi observado, medido e ainda depende de revisão. `review_pending` continua pendente até aprovação; renderização, metadados e medição de áudio não certificam acabamento. Pedir somente os materiais pertinentes ao estilo e explicar ferramenta ausente, limite de fidelidade ou cota antes de consumir créditos. Trocar de ferramenta não autoriza clonar voz nem reutilizar identidade de outro projeto.
 
 
+
+## Ajustar e retomar
+
+Use intenções simples como “Mais natural”, “Produto maior”, “Menos efeitos”, “Voz mais rápida”, “Texto mais legível” e “Mais próximo da referência”. O agente explica a alteração, preserva versões e reapresenta os aceites afetados. Não há autorização automática para gerar ao selecionar um ajuste.
+
+Ao baixar/reimportar o pacote do projeto, confira briefing, estilos, referências, materiais, decisões e próxima ação. Referências por URL não são originais enviados no chat; anexe novamente o que não estiver disponível na nova conversa. O site só sabe o que foi salvo/importado. O agente retoma a primeira dependência pendente e aproveita os aceites comprovados da mesma versão.

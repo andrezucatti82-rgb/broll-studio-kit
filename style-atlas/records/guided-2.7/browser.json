@@ -1,0 +1,21 @@
+{
+  "guidedFlows": [
+    "product",
+    "service",
+    "interface"
+  ],
+  "bundleDownloadAndReimport": true,
+  "adjustments": true,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "localRestore": true,
+  "pageBridgeSimulated": true,
+  "realRemoteAssets": true,
+  "nativePageViewerTested": false,
+  "newMediaGenerated": false,
+  "errors": []
+}

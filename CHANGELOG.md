@@ -1,3 +1,17 @@
+## 2.7.1 — edição consolidada na main
+
+- Integra os 780 estilos, modo guiado, ícones e documentação de instalação.
+- Preserva a regra universal de aprovação visual e seus gates de geração, render e entrega, junto ao contrato de fidelidade.
+- Pacotes regenerados de uma única skill neutra; instalação passa a apontar para main.
+
+## 2.7.0 — produção guiada, receitas e continuidade
+
+- Percurso opcional de objetivo, aparência, materiais e preparação com sugestões locais explicáveis.
+- Receitas planejadas de produto, serviço e interfaces/gráficos, com responsabilidades e entregas registradas.
+- Adaptação ao material, ajustes por intenção, retomada e pacote de contexto do projeto.
+- Skill neutra com protocolo guiado e ficha de coordenação; identidade pessoal preservada.
+- Três testes fictícios preparados com base de custo histórica. Sem certificação audiovisual ou autorização de gastos inferida.
+
 ## 2.6.0 — referências acessíveis e execução com evidências
 
 - Manifesto com links completos e inspeção por quadro nos pedidos dos 780 estilos.
