@@ -74,3 +74,7 @@ body[data-category-navigation=hybrid] .controls .category-menu{display:none}.dra
 }
 /* Once styles are selected, the selection tray provides the primary action. */
 body[data-view="library"]:has(#selectionTray:not([hidden])) .guided-launch{display:none}
+
+/* The wizard displays the same principal as the gallery and briefing. */
+.guided-current-style{padding:16px;margin:16px 0 20px;background:#eef1e7;border:1px solid #d7dece;border-radius:16px}.guided-current-style .guided-choice{align-items:center}.guided-current-style .eyebrow{margin:0 0 5px}.guided-current-style strong{display:block;font-size:19px;line-height:1.3}.guided-current-style .small{margin:9px 0}.guided-current-style .text-button{padding:4px 0;text-align:left}.guided-current-style img{width:88px;height:132px;flex:0 0 88px}.guided-complements{border-top:1px solid #d7dece;padding-top:12px}#guidedAlternatives{margin:18px 0}#guidedAlternatives>summary{font-weight:600;padding:10px 0;cursor:pointer}#guidedAlternatives>.small{line-height:1.6}.guided-current-style[hidden]{display:none}
+@media(max-width:700px){.guided-current-style{padding:13px}.guided-current-style .guided-choice{gap:13px}.guided-current-style img{width:70px;height:105px;flex-basis:70px}.guided-current-style strong{font-size:16px}.guided-current-style .small{font-size:12px}.guided-current-style .text-button{font-size:12px}}

@@ -1,6 +1,6 @@
 # Versão, instalação e atualização
 
-Esta edição é `video-multimarcas` **2.8.2**, genérica e independente de `video-b-roll`. O kit executável é 2.8.2; estilos são catálogo 4.3 (780/28 categorias). Não confunda versão da skill, do plugin, do kit e dos catálogos.
+Esta edição é `video-multimarcas` **2.8.3**, genérica e independente de `video-b-roll`. O kit executável é 2.8.3; estilos são catálogo 4.3 (780/28 categorias). Não confunda versão da skill, do plugin, do kit e dos catálogos.
 
 Fontes públicas:
 - Repositório: https://github.com/andrezucatti82-rgb/studio-kit-pro
@@ -20,3 +20,5 @@ A edição 2.7 acrescenta produção guiada, três receitas planejadas, ajustes 
 A edição 2.8 acrescenta características específicas, escopos por contribuição, resolução de concorrência, mapa no pedido/preset/ficha e vínculos de execução. Consultar references/style-contributions.md. Transporte verificado não certifica fidelidade audiovisual.
 
 A revisão 2.8.2 organiza a navegação em seis categorias principais e 28 subcategorias, com galeria de duas colunas no celular. Os 780 IDs, quadros, presets, contribuições e protocolos de aprovação permanecem iguais. A organização do menu não é uma nova linguagem visual nem uma garantia de execução.
+
+A revisão 2.8.3 mantém uma única seleção de principal entre galeria, assistente e briefing. Trocas explícitas são salvas imediatamente; preparar o pedido conserva os complementares e suas contribuições. Sugestões são alternativas e não substituem escolhas automaticamente.

@@ -249,3 +249,64 @@ test('choosing a characteristic replaces whole-style selection without requiring
  const lighting=a.document.querySelector('[data-picker-aspect="lighting"]');lighting.checked=true;lighting.dispatchEvent(new a.ctx.Event('change',{bubbles:true}));assert.equal(a.document.querySelector('[data-picker-aspect="style_direction"]').checked,false);a.click('#pickerApply');assert.equal(a.ctx.AtlasApp.getStyleContributions(id).length,1);assert.equal(a.ctx.AtlasApp.getStyleContributions(id)[0].aspect,'lighting');
  a.ctx.AtlasContributions.open(id);const whole=a.document.querySelector('[data-picker-aspect="style_direction"]');whole.checked=true;whole.dispatchEvent(new a.ctx.Event('change',{bubbles:true}));assert.equal(a.document.querySelector('[data-picker-aspect="lighting"]').checked,false);a.click('#pickerApply');assert.equal(a.ctx.AtlasApp.getStyleContributions(id).length,1);assert.equal(a.ctx.AtlasApp.getStyleContributions(id)[0].aspect,'style_direction');
 });
+
+test('wizard keeps a gallery principal outside recommendations and preserves contributions at handoff',async()=>{
+ const a=await boot(),{ctx,document:d,click,change}=a;
+ const main='natural-barras-a-pausa-cabe-na-bolsa';assert.ok(ctx.AtlasApp.getStyle(main));ctx.AtlasApp.chooseStyle(main);
+ click('#grid [data-choose="publicidade-cinematografica"]');
+ ctx.AtlasApp.setStyleContributions(main,[{aspect:'palette',scope:'film'}]);
+ ctx.AtlasApp.setStyleContributions('publicidade-cinematografica',[{aspect:'lighting',scope:'closing'}]);
+ change('topic','Um anúncio com sugestão de uso do produto, estilo UGC');const before=JSON.stringify(ctx.AtlasCurrentChoice().styleContributions);
+ click('#startGuided');click('#guidedNext');
+ assert.ok(d.querySelector('#guidedCurrentStyle [data-detail="'+main+'"]'),'current principal stays visible');
+ assert.equal(d.getElementById('guidedAlternatives').open,false);
+ click('#guidedNext');click('#guidedNext');click('#guidedRefresh');
+ assert.ok(d.querySelector('#guidedCurrentStyle [data-detail="'+main+'"]'));
+ click('#guidedNext');click('#guidedNext');click('#guidedNext');await new Promise(r=>setTimeout(r,20));
+ assert.equal(ctx.AtlasCurrentChoice().selectedStyles[0].id,main);
+ assert.equal(ctx.AtlasCurrentChoice().selectedStyles.length,2);
+ assert.equal(JSON.stringify(ctx.AtlasCurrentChoice().styleContributions),before);
+ assert.match(d.getElementById('promptOutput').value,/A pausa cabe na bolsa/);
+});
+test('explicit wizard replacement immediately updates briefing, storage and keeps complementary choices',async()=>{
+ const a=await boot(),{ctx,document:d,click,change}=a;
+ ctx.AtlasApp.chooseStyle('natural-barras-a-pausa-cabe-na-bolsa');click('#grid [data-choose="publicidade-cinematografica"]');
+ ctx.AtlasApp.setStyleContributions('publicidade-cinematografica',[{aspect:'lighting',scope:'closing'}]);change('topic','Anúncio de barras proteicas');
+ click('#startGuided');click('#guidedNext');const target=[...d.querySelectorAll('[data-guided-pick]')].find(b=>!['natural-barras-a-pausa-cabe-na-bolsa','publicidade-cinematografica'].includes(b.dataset.guidedPick)).dataset.guidedPick;
+ click('[data-guided-pick="'+target+'"]');
+ assert.equal(ctx.AtlasCurrentChoice().selectedStyles[0].id,target);
+ assert.equal(ctx.AtlasCurrentChoice().selectedStyles.length,2);
+ assert.equal(ctx.AtlasCurrentChoice().selectedStyles[1].id,'publicidade-cinematografica');
+ assert.equal(ctx.AtlasApp.getStyleContributions('publicidade-cinematografica')[0].scope,'closing');
+ assert.ok(d.getElementById('briefVisual').textContent.includes(ctx.AtlasApp.getStyle(target).name));
+ assert.equal(JSON.parse(a.store.get('video-multimarcas-atlas-v1')).modelContent.selectedStyles[0].id,target);
+ d.getElementById('guidedDialog').close();const resumed=await boot({saved:JSON.parse(a.store.get('video-multimarcas-atlas-v1'))});
+ assert.equal(resumed.ctx.AtlasCurrentChoice().selectedStyles[0].id,target);
+});
+test('reopening a dirty wizard adopts newer briefing fields and the actual gallery principal',async()=>{
+ const a=await boot(),{ctx,document:d,click,change}=a;
+ click('#startGuided');change('guidedSubject','Rascunho antigo');click('#guidedNext');d.getElementById('guidedDialog').close();
+ ctx.AtlasApp.chooseStyle('natural-barras-a-pausa-cabe-na-bolsa');change('topic','Tema atualizado no briefing');change('brand','Marca atual');
+ click('#startGuided');assert.equal(d.getElementById('guidedSubject').value,'Tema atualizado no briefing');assert.equal(d.getElementById('guidedBrand').value,'Marca atual');
+ click('#guidedNext');assert.ok(d.querySelector('#guidedCurrentStyle [data-detail="natural-barras-a-pausa-cabe-na-bolsa"]'));
+});
+test('Page wizard saves an explicit principal swap without localStorage',async()=>{
+ const a=await boot({page:true}),{ctx,document:d,click,change}=a;ctx.AtlasApp.chooseStyle('natural-barras-a-pausa-cabe-na-bolsa');change('topic','Anúncio de barras proteicas');
+ click('#startGuided');click('#guidedNext');const target=[...d.querySelectorAll('[data-guided-pick]')].find(b=>!['natural-barras-a-pausa-cabe-na-bolsa','publicidade-cinematografica'].includes(b.dataset.guidedPick)).dataset.guidedPick;click('[data-guided-pick="'+target+'"]');await new Promise(r=>setTimeout(r,10));
+ assert.equal(ctx.AtlasCurrentChoice().selectedStyles[0].id,target);
+ assert.equal(a.getState().modelContent.selectedStyles[0].id,target);assert.equal(a.getStorageReads(),0);
+});
+
+test('Page incoming choices refresh the principal displayed in an open wizard',async()=>{
+ const a=await boot({page:true}),{ctx,document:d,click,change}=a;ctx.AtlasApp.chooseStyle('natural-barras-a-pausa-cabe-na-bolsa');change('topic','Tema demonstrativo');click('#startGuided');click('#guidedNext');
+ const incoming=JSON.parse(JSON.stringify(a.getState()));incoming.modelContent.selectedStyles=[{id:'publicidade-cinematografica'}];incoming.modelContent.styleContributions={'publicidade-cinematografica':[{aspect:'style_direction',scope:'film'}]};
+ const event=new ctx.Event('openai:set_globals');event.detail={globals:{widgetState:incoming}};ctx.dispatchEvent(event);
+ assert.ok(d.querySelector('#guidedCurrentStyle [data-detail="publicidade-cinematografica"]'));assert.equal(a.getStorageReads(),0);
+});
+test('principal replacement respects the ten-style limit and unchanged or invalid choices preserve the project',async()=>{
+ const {ctx,document:d,click}=await boot();for(const b of [...d.querySelectorAll('#grid [data-choose]')].slice(0,10))click('#grid [data-choose="'+b.dataset.choose+'"]');
+ const before=JSON.stringify(ctx.AtlasCurrentChoice());assert.throws(()=>ctx.AtlasApp.setPrincipalStyle('missing'));assert.equal(JSON.stringify(ctx.AtlasCurrentChoice()),before);
+ ctx.AtlasApp.setPrincipalStyle('publicidade-cinematografica');assert.equal(JSON.stringify(ctx.AtlasCurrentChoice()),before);
+ ctx.AtlasApp.setPrincipalStyle('natural-barras-a-pausa-cabe-na-bolsa');assert.equal(ctx.AtlasCurrentChoice().selectedStyles.length,10);
+ assert.equal(ctx.AtlasCurrentChoice().selectedStyles[0].id,'natural-barras-a-pausa-cabe-na-bolsa');assert.equal(new Set(ctx.AtlasCurrentChoice().selectedStyles.map(s=>s.id)).size,10);
+});
