@@ -23,8 +23,14 @@ with sync_playwright() as p:
   path=root/name;d.value.save_as(str(path));files[name]=path.read_text()
  assert files['pedido.txt']==page.locator('#promptOutput').input_value();bundle=json.loads(files['projeto-video.json']);assert bundle['project']['conversationPlatform']=='claude';passed('Four independent starter downloads with complete request and canonical project')
  for attr in ['data-frame','data-board']:
-  with page.expect_download() as d:page.locator('#referenceFiles ['+attr+']').first.click()
+  if os.environ.get('GDA_QA_FRAME_MODE')=='popup':
+   with page.expect_popup() as pop:page.locator('#referenceFiles ['+attr+']').first.click()
+   popup=pop.value;popup.locator('#save:not([disabled])').wait_for(timeout=60000)
+   with popup.expect_download() as d:popup.locator('#save').click()
+  else:
+   with page.expect_download() as d:page.locator('#referenceFiles ['+attr+']').first.click()
   path=root/d.value.suggested_filename;d.value.save_as(str(path));assert path.read_bytes()[:8]==b'\x89PNG\r\n\x1a\n'
+  if os.environ.get('GDA_QA_FRAME_MODE')=='popup':popup.close()
  passed('Reference frame and four-frame sequence download as PNG')
  page.reload();page.wait_for_function('window.ATLAS_READY===true');assert page.evaluate('AtlasCurrentChoice().topic')=='Anunciar joias artesanais fictícias';assert page.evaluate('AtlasCurrentChoice().conversationPlatform')=='claude';passed('Reload restores selected style, briefing and platform')
  page.locator('#importProject').set_input_files(str(root/'projeto-video.json'));page.wait_for_function('document.getElementById("projectMessage").textContent==="Ficha importada."')

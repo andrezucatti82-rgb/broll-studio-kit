@@ -31,3 +31,9 @@ node scripts/deploy-static-cpanel.mjs --domain videos.seudominio.com --source st
 Guarde `deployment-backup/receipt.json` e o backup em armazenamento privado. Nunca publique backups no repositório público. Para desfazer, restaure o `index.html` preservado pelo gerenciador de arquivos/API e confira a URL. As pastas versionadas podem ser removidas posteriormente, após confirmar que não estão em uso e preservar as versões necessárias.
 
 Fontes da API: https://api.docs.cpanel.net/specifications/cpanel.openapi/manage-files/ e https://api.docs.cpanel.net/specifications/cpanel.openapi/domain-information/ . A disponibilidade varia com a versão do servidor.
+
+## Espelho Sites: mídia compartilhada
+
+A origem opcional `window.ATLAS_IMAGE_ASSET_BASE` permite servir o frontend, catálogo e fontes localmente e reutilizar imagens na edição pública imutável do mantenedor. Sem essa opção, o site principal mantém o comportamento anterior. O manifesto do pedido aponta para a origem real das imagens; downloads abrem o helper nessa origem, evitando canvas entre domínios. Não alterar ou degradar as imagens para contornar limites de hospedagem.
+
+No espelho, o build estático deve incluir apenas os arquivos usados, fontes e prévias, declarando o diretório correto no manifesto de Sites. O serviço recusou o pacote integral acima de 256 MiB; as tentativas por build remoto também excederam limites. O frontend leve foi conferido localmente com imagens reais, fonte, exportação e PNGs por nova aba. Publicação online só é confirmada pelo recibo e leitura posterior. Preservar registros históricos e originais; não excluí-los para facilitar o deploy.

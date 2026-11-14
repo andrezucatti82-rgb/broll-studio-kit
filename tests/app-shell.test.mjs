@@ -7,7 +7,7 @@ import {parseHTML} from 'linkedom';
 const root=new URL('../style-atlas/dist/',import.meta.url);
 const read=name=>readFile(new URL(name,root),'utf8');
 // DOM integration tests: no layout engine, playback, canvas export or browser QA implied.
-async function boot({page=false,saved=null,hash=""}={}){
+async function boot({page=false,saved=null,hash="",imageOrigin=null}={}){
  const {document,window:dom}=parseHTML(await read('index.html'));
  const errors=[],store=new Map(saved?[['video-multimarcas-atlas-v1',JSON.stringify(saved)]]:[]);
  let state=saved,storageReads=0;
@@ -28,7 +28,7 @@ async function boot({page=false,saved=null,hash=""}={}){
   navigator:{clipboard:{writeText:async text=>{ctx.copied=text}}},
   localStorage:{getItem(k){storageReads++;return store.get(k)||null},setItem(k,v){store.set(k,v)},removeItem(k){store.delete(k)}},
   addEventListener:(...a)=>events.addEventListener(...a),dispatchEvent:(...a)=>events.dispatchEvent(...a),
-  ATLAS_PAGE_MODE:page,openai:{widgetState:saved,setWidgetState:async x=>{state=x}}
+  ATLAS_IMAGE_ASSET_BASE:imageOrigin,ATLAS_PAGE_MODE:page,openai:{widgetState:saved,setWidgetState:async x=>{state=x}}
  };
  document.fonts={add(){}};ctx.window=ctx;ctx.globalThis=ctx;
  vm.createContext(ctx);
@@ -348,3 +348,7 @@ test('an explicit style link renews visual approvals, preserves history and reta
  const same=await boot({saved,hash:'#estilo=publicidade-cinematografica'});assert.equal(same.ctx.AtlasCurrentChoice().projectState.preProductionApprovals.moodboard.status,'approved');assert.equal(same.ctx.AtlasApp.getStyleContributions('publicidade-cinematografica')[0].aspect,'lighting');
  const changed=await boot({saved,hash:'#estilo=natural-barras-a-pausa-cabe-na-bolsa'});assert.equal(changed.ctx.AtlasCurrentChoice().projectState.preProductionApprovals.moodboard.status,'pending');assert.equal(changed.ctx.AtlasCurrentChoice().projectState.history[0].resumo,'Fixture script');assert.equal(changed.ctx.AtlasApp.getStyleContributions('natural-barras-a-pausa-cabe-na-bolsa')[0].aspect,'style_direction');
 });
+
+ test('optional image origin keeps the catalogue local and all reference links on the real media origin',async()=>{
+ const origin='https://media.example.org/verified-release/';const a=await boot({imageOrigin:origin});a.ctx.AtlasApp.chooseStyle('publicidade-cinematografica');const c=a.ctx.AtlasCurrentChoice();assert.ok(a.document.querySelector('#grid img').getAttribute('src').startsWith(origin));assert.ok(c.catalogUrl.includes('example.org/release/catalog.json'));assert.equal(c.referenceAssetOrigin,origin);const m=a.ctx.AtlasWorkflow.referenceManifest(c);assert.ok(m.styles[0].principal.startsWith(origin));assert.ok(m.styles[0].frames.every(f=>f.url.startsWith(origin)));assert.equal(c.productionContract.references.styles[0].principal,m.styles[0].principal);assert.equal(a.getStorageReads()>0,true);
+ });
