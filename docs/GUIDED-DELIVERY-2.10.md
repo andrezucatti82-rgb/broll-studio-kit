@@ -33,7 +33,7 @@ Exemplo ilustrativo da primeira resposta quando ainda faltam anexos e os links n
 
 ## Verificações e estados
 
-O registro desta continuação separa testes de software, navegador real em viewport emulada, bridge Page simulada e publicações. Os comandos exigidos são `npm ci`, `npm run check`, `npm test`, `npm run validate` e `git diff --check`. Passaram 134 testes Node + 9 Python, check, validate e diff --check. Chromium conferiu cópia, downloads, importação/recarga, nomes longos, teclado, movimento reduzido e telas 320–1920 px. A Page compilada passou com bridge simulada e localStorage proibido. [Registro técnico](../style-atlas/records/guided-start-2.10/verification.json). Publicações são verificadas separadamente.
+O registro desta continuação separa testes de software, navegador real em viewport emulada, bridge Page simulada e publicações. Os comandos exigidos são `npm ci`, `npm run check`, `npm test`, `npm run validate` e `git diff --check`. Passaram 135 testes Node + 9 Python, check, validate e diff --check. Chromium conferiu cópia, downloads, importação/recarga, nomes longos, teclado, movimento reduzido e telas 320–1920 px. A Page compilada passou com bridge simulada e localStorage proibido. [Registro técnico](../style-atlas/records/guided-start-2.10/verification.json). Publicações são verificadas separadamente.
 
 Permanecem sem comprovação: conversa de produção real no ChatGPT ou Claude, usabilidade observada com pessoa sem conhecimento técnico, visualizador nativo da Page e uma receita audiovisual completa. Arquivo JSON válido, instruções ou testes não comprovam qualidade de vídeo. Nenhum estilo ou receita recebe maturidade audiovisual nova nesta entrega.
 
@@ -51,3 +51,17 @@ Commit, merge, publicação e instalação são estados distintos. Pacotes gerad
 Produto fictício com uma foto utilizável, variante e atributos confirmados. Primeiro apresentar roteiro, moodboard/styleframes, storyboard e animatic conforme a política visual. Após os aceites, cotar a amostra de 10s da ação/passagem mais exigentes na rota HeyGen direta compatível, incluindo voz, imagens e tentativas. Aguardar autorização financeira específica — R$50 é teto de planejamento, não permissão de gasto.
 
 Comparar originais, referências, direção aprovada e amostra nas quatro travas; reproduzir e escutar integralmente; pedir avaliação do usuário. O teste completo só termina quando uma pessoa sem conhecimento técnico consegue acessar, reproduzir e avaliar o arquivo produzido. Medir decisões, perguntas repetidas, reenvios, bloqueios, ajuda, tempos, tentativas e custo por vídeo aprovado. Esse piloto não foi executado nesta entrega.
+
+## Estado confirmado em 14/11/2026
+
+- **GitHub:** PR #17 integrado em `4211898957d70e8edd78a93a10d886b65c534c07`; adaptador do espelho via PR #18 em `de05c34202c879051e24c3b7d190d5e42a3b1503`. Os três pacotes 2.10.0 foram relidos na main pública e os hashes conferidos.
+- **Espelho:** publicado, versão Sites 32, fonte `d1fd6f2ff5cc8b3b0ea079555d5fdcc8a3443e24`. Arquivos do frontend relidos com igualdade de hash; Chromium conferiu o percurso online, incluindo PNGs por nova aba, teclado e larguras 320–1920 px. O build tem cerca de 37 MiB e reutiliza a biblioteca pública imutável de imagens; os 4.640 originais não foram alterados. Registros históricos preservados.
+- **Page:** interface e instruções nativas atualizadas, sequência 76. HTML relido com igualdade exata (208.688 bytes); o bloco nativo corresponde ao gerador compartilhado. Catálogo e primeiras seis imagens foram carregados de URLs públicas reais em host local. O visualizador nativo do ChatGPT não foi inspecionado.
+- **Domínio principal:** **não atualizado nesta entrega**. Chromium confirmou HTTP 200 e edição anterior `atlas-20261113120608`. Faltam as credenciais do cPanel neste ambiente. A busca nos arquivos locais e no Drive não localizou o token; foi solicitada a localização do backup mencionado pelo usuário, sem pedir valor secreto no chat.
+- **Instalações:** código, skill e pacotes do repositório atualizados. Não foi feita nem confirmada instalação global nas contas do ChatGPT/Claude ou em outro dispositivo. Skill pessoal preservada.
+
+Duas tentativas de publicar o acervo integral no espelho falharam por limites de tamanho do serviço. A publicação final usa um arquivo estático leve e conserva as imagens na origem real, inclusive no manifesto do pedido. Não houve nova contratação ou geração paga.
+
+A revisão automática rejeitou retirar `records/` do índice do espelho. A alteração foi revertida antes de qualquer publicação; os registros foram preservados e comparados com a origem. Não há aprovação pendente para essa exclusão, pois ela não faz parte da solução entregue.
+
+[Recibo por destino](../style-atlas/records/guided-start-2.10/publication.json) · [Navegador online](../style-atlas/records/guided-start-2.10/mirror-live-browser.json) · [Hashes públicos](../style-atlas/records/guided-start-2.10/mirror-live-hashes.json). O trabalho está parcialmente publicado: a atualização do domínio principal continua bloqueada pelo acesso de hospedagem.

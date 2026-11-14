@@ -5,7 +5,7 @@
     "npm ci": "passed",
     "npm run check": "passed",
     "npm test": {
-      "node": 134,
+      "node": 135,
       "python": 9,
       "failed": 0
     },
@@ -24,5 +24,6 @@
   "realClaudeConversation": "not_run",
   "noviceObservedToVideo": "not_run",
   "audiovisualGenerationReview": "not_run",
-  "paidCalls": 0
+  "paidCalls": 0,
+  "additionalCheck": "Optional shared image origin; full live mirror workflow with PNG helper"
 }

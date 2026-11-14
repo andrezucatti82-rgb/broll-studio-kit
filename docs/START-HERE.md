@@ -2,6 +2,8 @@
 
 [Galeria GDA Vídeos](https://videos.gerenciadordeanuncios.com.br/) · [Espelho do atlas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) · [Baixar skill](../dist/video-multimarcas.skill) · [ZIP](../dist/video-multimarcas.zip) · [Plugin](../dist/video-multimarcas-plugin.zip) · [Instalar ou atualizar](INSTALL-SKILL.md)
 
+A versão 2.10 está disponível no **espelho** acima. O domínio principal ainda usa a edição anterior enquanto o acesso de hospedagem é recuperado. [Publicações confirmadas e bloqueio](GUIDED-DELIVERY-2.10.md).
+
 Este é um kit para um agente de IA produzir vídeos. A página ajuda a escolher direção e montar o pedido; não renderiza vídeos sozinha. Cada pessoa usa sua própria conta do ChatGPT ou Claude, seus materiais e suas conexões. Não há acesso à conta, voz, chaves ou créditos da GDA.
 
 ## 1. Experimente sem instalar programas

@@ -1,0 +1,14 @@
+{
+  "checks": [
+    "375px: one-photo declaration, three alternatives, selection, materials and prepared request",
+    "Claude destination and actual clipboard copy",
+    "Four independent starter downloads with complete request and canonical project",
+    "Reference frame and four-frame sequence download as PNG",
+    "Reload restores selected style, briefing and platform",
+    "Valid import and rejected invalid import without project loss",
+    "Persistent storage failure warning without losing open choices",
+    "Library without horizontal overflow at 320, 375, 768, 1440 and 1920px; mobile retains two columns",
+    "Receipt fixture avoids automatic re-request; long filename wraps; reduced motion and keyboard handoff controls work"
+  ],
+  "errors": []
+}

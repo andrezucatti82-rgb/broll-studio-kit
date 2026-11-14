@@ -1,0 +1,60 @@
+{
+  "kitVersion": "2.10.0",
+  "coreCommit": "4211898957d70e8edd78a93a10d886b65c534c07",
+  "mediaAdapterCommit": "de05c34202c879051e24c3b7d190d5e42a3b1503",
+  "githubPackages": "main_readback_sha256_verified",
+  "mirror": {
+    "url": "https://video-multimarcas-estilos.andrezucatti82.chatgpt.site",
+    "status": "succeeded",
+    "version": 32,
+    "deploymentId": "appgdep_6af7bac502848191914d418b062de7fb",
+    "sourceCommit": "d1fd6f2ff5cc8b3b0ea079555d5fdcc8a3443e24",
+    "media": "Existing immutable public originals on the main domain; no image degradation",
+    "records": "preserved",
+    "frontendReadback": "hashes verified and critical workflow passed in Chromium"
+  },
+  "page": {
+    "url": "https://chatgpt.com/space/page_05d0233621d081919b31df2863cab40b",
+    "status": "updated_readback_exact",
+    "sequence": 76,
+    "reference": "visualize:fde1_bGliZmlsZV9LeERDb3BYei03WWhNTnBNRFRxNy1B_FileDrive_bb2d275d5f00819191b05d59fafc6334",
+    "sha256": "bdc15db726da39c282aa8f8bb11c3b9d5c6f5453c279cfc08711fbdbe8fcbbc3",
+    "bytes": 208688,
+    "nativeViewer": "not_verified",
+    "nativePrompt": "readback_matches_shared_generator"
+  },
+  "domain": {
+    "url": "https://videos.gerenciadordeanuncios.com.br/",
+    "status": "not_updated_missing_cpanel_credentials",
+    "lastKnownRelease": "atlas-20261113120608",
+    "backupSearch": "Credential not located in accessible local files and targeted Drive searches; specific backup location requested",
+    "readback": {
+      "status": 200,
+      "release": "atlas-20261113120608",
+      "newKitMarker": false
+    },
+    "backupLocationRequired": true
+  },
+  "tests": {
+    "node": 135,
+    "python": 9,
+    "browser": "Local and live mirror; clipboard, files, PNG helper, import/reload, 320–1920px, keyboard/reduced motion",
+    "pageBridge": "simulated_no_localStorage",
+    "realChatGPTConversation": "not_run",
+    "realClaudeConversation": "not_run",
+    "noviceToVideo": "not_run",
+    "newAudiovisualReview": "not_run"
+  },
+  "paidCalls": 0,
+  "newContracts": 0,
+  "automaticReview": {
+    "rejected": "Removing records from mirror source index",
+    "resolution": "Reverted; records preserved; lightweight frontend reuses unchanged public original images"
+  },
+  "installations": {
+    "repositorySkill": "2.10.0",
+    "pluginPackages": "2.10.0, hashes verified on public GitHub main",
+    "globalChatGPTOrClaude": "not_installed_or_verified",
+    "personalVideoBRoll": "untouched"
+  }
+}

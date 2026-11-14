@@ -2,6 +2,8 @@
 
 Edição **2.10.0**: **1.160 estilos em 29 subcategorias**, modo guiado, ícones no menu, referências e pacotes completos. A política de aprovação visual da main foi preservada junto aos controles de fidelidade. A expansão [2.9.0 reorganiza os anúncios por segmento](docs/SEGMENT-ADS-4.4.md). Use [Comece aqui](docs/START-HERE.md) para instalar.
 
+A experiência 2.10 está publicada no [espelho autorizado](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site). O domínio principal aguarda acesso ao cPanel para receber a atualização. [Estado verificado por destino](docs/GUIDED-DELIVERY-2.10.md).
+
 **Skill pública de uso geral.** Identificador: `video-multimarcas`. Adapta cada produção à marca informada; não carrega identidade ou voz pessoal como padrão.
 
 **Uma temática vira um vídeo narrado, com pesquisa e identidade adaptada à sua marca.** Skill para agentes de IA, acompanhada de código editável para produção.
