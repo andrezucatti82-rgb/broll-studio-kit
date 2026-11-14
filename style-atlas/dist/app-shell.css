@@ -101,3 +101,9 @@ body[data-view="library"]:has(#selectionTray:not([hidden])) .guided-launch{displ
  .guided-option>button:first-child img{height:min(29dvh,240px)}.guided-option strong{font-size:16px;padding:7px 12px}.guided-option button>span{font-size:12px;line-height:1.4;padding:0 12px 8px}.guided-option b{font-size:13px;padding:0 12px 8px}.guided-frame-label{font-size:9px;padding:4px 12px 0}.guided-option .film-strip{padding:6px}.guided-option .film-strip img{max-height:58px}.guided-option>.text-button{font-size:12px;min-height:36px;margin-bottom:6px}
  .guided-current-style{margin:10px 0;padding:10px}.guided-current-style .small{font-size:11px}
 }
+/* The step title already names the decision; keep the choice above the sticky footer. */
+#guidedStep1>h3{display:none}#guidedAppearanceHelp{margin:8px 0}#guidedAlternatives{margin:8px 0}#guidedAlternatives>summary{padding:6px 0}#guidedAlternatives>.small{margin:6px 0 12px}
+.guided-option button>span{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;padding-bottom:0;margin-bottom:10px}
+@media(min-width:701px){.guided-option>button:first-child img{height:clamp(150px,27dvh,255px)}.guided-progress{margin-bottom:14px}}
+#briefDialog[data-stage="review"] .guided-launch{display:none}
+@media(max-width:700px){#briefDialog[data-stage="review"] .brief-preview{order:1}}

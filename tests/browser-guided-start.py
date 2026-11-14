@@ -32,7 +32,7 @@ with sync_playwright() as p:
  for width in [320,375,768,1440,1920]:
   tab=browser.new_page(viewport={'width':width,'height':900});tab.goto('http://127.0.0.1:8770/');tab.wait_for_function('window.ATLAS_READY===true');assert tab.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),width
   if width==375:assert tab.locator('#grid').evaluate('(e)=>getComputedStyle(e).gridTemplateColumns.split(" ").length')==2
-  tab.screenshot(path=str(root/f'library-{width}.png'),animations='disabled');tab.close()
+  tab.wait_for_function('Array.from(document.images).filter(i=>{const r=i.getBoundingClientRect();return i.checkVisibility()&&r.top<innerHeight&&r.bottom>0}).every(i=>i.complete&&i.naturalWidth>0)');tab.screenshot(path=str(root/f'library-{width}.png'),animations='disabled');tab.close()
  passed('Library without horizontal overflow at 320, 375, 768, 1440 and 1920px; mobile retains two columns')
  browser.close()
 assert not out['errors'],out['errors']
