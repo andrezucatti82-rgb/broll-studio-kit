@@ -54,3 +54,7 @@ Nos anúncios de joias, capachos, moda, biquínis, pijamas e alimentos, a lista 
 A numeração dos quadros (01–04) é cronológica, inclusive quando o quadro principal for 02 ou 04. Ela não determina a quantidade de cenas nem seus tempos. Preserve o campo avatar no pedido: false não impede filmagem autorizada de pessoas, mas não habilita criação de apresentador por inferência.
 
 Na Page, o download pode abrir uma aba própria para preparar o PNG sem restrições de canvas entre domínios. Oriente a baixar ali e anexar o arquivo manualmente na conversa. Abrir a aba não significa que o arquivo foi anexado ou que a produção iniciou.
+
+## Condução e continuidade 2.10
+
+Aplicar [conversa e continuidade](conversation-and-continuity.md): primeira resposta curta, arquivos realmente acessíveis, até três perguntas pertinentes com alternativa textual, coleta condicional e atualização da ficha canônica. Declaração não comprova recebimento; registro não comprova execução ou aprovação. O kit não transfere mídia nem exige leitura de ZIP.

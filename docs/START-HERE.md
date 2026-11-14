@@ -2,7 +2,7 @@
 
 [Galeria GDA Vídeos](https://videos.gerenciadordeanuncios.com.br/) · [Espelho do atlas](https://video-multimarcas-estilos.andrezucatti82.chatgpt.site) · [Baixar skill](../dist/video-multimarcas.skill) · [ZIP](../dist/video-multimarcas.zip) · [Plugin](../dist/video-multimarcas-plugin.zip) · [Instalar ou atualizar](INSTALL-SKILL.md)
 
-Este é um kit para um agente de IA produzir vídeos. A página ajuda a escolher direção e montar o pedido; não renderiza vídeos sozinha. Cada pessoa usa sua própria conta do ChatGPT, seus materiais e suas conexões. Não há acesso à conta, voz, chaves ou créditos da GDA.
+Este é um kit para um agente de IA produzir vídeos. A página ajuda a escolher direção e montar o pedido; não renderiza vídeos sozinha. Cada pessoa usa sua própria conta do ChatGPT ou Claude, seus materiais e suas conexões. Não há acesso à conta, voz, chaves ou créditos da GDA.
 
 ## 1. Experimente sem instalar programas
 
@@ -11,13 +11,17 @@ Use **Criar meu vídeo** para um percurso guiado de quatro passos: Objetivo → 
 As três receitas iniciais são planejadas: anúncio de produto, apresentação de serviço e explicação com interfaces/gráficos. Nenhuma recebe aprovação audiovisual apenas por estar no catálogo. Veja [o modo guiado e seus limites](GUIDED-2.7.md).
 
 
-1. Abra a galeria. Compare estilos e clique em **Usar este estilo**. A página tem movimento suave, paralaxe discreta e ícones; a preferência de movimento reduzido do dispositivo desativa as animações. Você pode combinar até nove direções complementares, definindo o papel de cada uma.
-2. Informe o tema, a marca/site se houver, formato e tipografia. Use **Alterar**, em Tipografia, para comparar as 24 combinações, ver os arquivos reais, testar uma frase e escolher. A categoria **Avatares e apresentadores** oferece 40 direções com apresentadores fictícios; escolhê-la habilita esse apresentador no pedido. Clique em **Preparar pedido** e **Copiar pedido**.
-3. Abra seu ChatGPT, entre na sua conta, cole o pedido e anexe suas fotos, logo, vídeos ou capturas. Os links dos quatro quadros acompanham o pedido; se o agente não conseguir abri-los, use os downloads da galeria e anexe os PNGs. Envie a mensagem.
-4. Se a skill não estiver instalada, o pedido ainda contém as regras principais. Para contexto completo, anexe o ZIP da skill ou adicione os arquivos ao projeto compatível.
-5. Peça ao agente para verificar suas ferramentas antes da produção. A primeira entrega será **roteiro, moodboard aprovado, storyboard aprovado e amostra de 10 segundos para aprovação**. O vídeo completo depende dessa aprovação.
+1. Abra **Criar meu vídeo**. Conte o resultado desejado e declare se tem uma foto, várias fotos, vídeos, telas ou somente uma ideia. Nada é enviado ao site.
+2. Escolha uma das três sugestões. Uma direção basta; combinar partes de outros estilos é opcional. No celular, use as setas para comparar as três e abra a sequência para entender a evolução.
+3. Confira os materiais e prepare o pedido. Escolha **ChatGPT** ou **Claude**, copie e cole o pedido e anexe os originais indicados. Se os links não abrirem, baixe os quadros/seqüência PNG identificados e anexe-os.
+4. Em **Salvar o kit e retomar depois**, baixe pedido TXT, projeto JSON, instruções TXT e manifesto JSON separadamente. O JSON guarda escolhas e registros, não os arquivos de mídia. Guarde os originais e entregas da conversa também. Não é necessário conseguir abrir ZIP nem instalar a skill para usar o pedido.
+5. A IA confere anexos e capacidades, resume o entendimento e pergunta somente o necessário. Deve preparar roteiro e visuais concretos para aprovação; só depois dos aceites e da confirmação de custo pode gerar a amostra representativa de 10s. A política visual inclui styleframes e animatic conforme [aprovação visual](VISUAL-APPROVAL.md).
 
-Abrir ChatGPT não envia o pedido automaticamente. Uma conta do ChatGPT, sozinha, não garante acesso a pesquisa, síntese de voz, geração de vídeo ou execução de render. A disponibilidade varia por plano, região, superfície e conexões. Quando faltar uma capacidade, o agente deve apontar exatamente qual, concluir etapas independentes e não dizer que gerou um vídeo inexistente.
+**O que devo receber?** Uma primeira resposta curta com o que já existe, o que falta e a próxima entrega. Até três perguntas pertinentes por rodada, em menu quando disponível ou opções numeradas. Não repita escolhas já claras. Se a IA pedir o mesmo arquivo, indique o nome já anexado e peça que verifique acesso antes de reenviar.
+
+**Como retomar?** Continue na conversa com as entregas e a ficha atualizada. Para outra conversa, envie o pedido/JSON e os arquivos relevantes. Confira a etapa, pendências e versões. Para voltar ao site, reimporte o projeto JSON; uma ficha inválida deve ser recusada sem apagar o projeto atual. Status e aceites importados não substituem evidências originais. O site não lê a conversa nem recebe mídia automaticamente.
+
+Abrir a conversa não envia mensagens, transfere arquivos, instala ferramentas ou autoriza cobranças. Assinatura de chat não comprova acesso a APIs, saldo, montagem ou revisão. Se faltar capacidade, a IA deve explicar etapa, causa verificada ou desconhecida, entregas existentes, solução e alternativa; continuar etapas independentes. R$50 é apenas teto inicial de planejamento, não autorização. [Condução e continuidade](../.agents/skills/video-multimarcas/references/conversation-and-continuity.md).
 
 ## 2. Instale o repositório para produzir e renderizar
 
@@ -35,7 +39,7 @@ npm test
 npm run validate
 ```
 
-Esta edição 2.9.0 está consolidada na branch `main`. O comando acima usa a edição revisada. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
+A `main` e o site continuam na edição 2.9.0. Esta revisão 2.10.0 está na branch `feat/guided-start-and-continuity`, sem merge ou publicação. Para revisá-la, use `git switch feat/guided-start-and-continuity` após obter a branch. O clone acima traz a edição pública. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
 
 Se você baixou o ZIP dessa branch no GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
 

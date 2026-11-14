@@ -14,9 +14,11 @@ Informe o assunto. Opcionalmente, acrescente o nome da marca, logotipo ou site. 
 
 Este repositório não apresenta um vídeo de demonstração. O arquivo `templates/project.json` é um rascunho técnico com espaços reservados, destinado à configuração do editor.
 
-## Produção guiada · 2.7.0
+## Produção guiada · candidata 2.10.0
 
-O botão **Criar meu vídeo** organiza objetivo, três sugestões visuais, materiais e pedido para o ChatGPT. A biblioteca completa continua acessível. As receitas de produto, serviço e interfaces começam planejadas; ferramentas, arquivos e acabamento precisam ser verificados no projeto. [Como funciona e limites](docs/GUIDED-2.7.md) · [Três testes fictícios preparados](docs/three-recipe-tests.json).
+A candidata **2.10.0** na branch `feat/guided-start-and-continuity` organiza objetivo, três sugestões visuais, materiais e kit de início para ChatGPT ou Claude. O kit oferece arquivos individuais, continuidade rica e orientação condicional sem exigir instalação. [Mudanças, verificações e limites](docs/GUIDED-START-2.10.md). Não foi publicada nem instalada em contas.
+
+O botão **Criar meu vídeo** organiza objetivo, três sugestões visuais, materiais e pedido. A biblioteca completa continua acessível. As receitas de produto, serviço e interfaces começam planejadas; ferramentas, arquivos e acabamento precisam ser verificados no projeto. [Como funciona e limites](docs/GUIDED-2.7.md) · [Três testes fictícios preparados](docs/three-recipe-tests.json).
 
 A produção usa roteiro → moodboard aprovado → storyboard aprovado → amostra de 10 s → aprovação → vídeo completo. O agente traduz ajustes simples, registra responsabilidades e retoma a próxima dependência. O site público é estático: arquivos são enviados na conversa, e cada pessoa usa suas próprias conexões e créditos.
 

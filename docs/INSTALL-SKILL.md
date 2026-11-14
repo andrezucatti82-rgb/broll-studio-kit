@@ -18,7 +18,7 @@ codex plugin list --json
 
 Para usar um checkout local, substitua o primeiro comando por `codex plugin marketplace add /caminho/absoluto/studio-kit-pro`. Use a origem já configurada quando atualizar uma instalação existente; não instale uma segunda cópia com outro nome de marketplace sem necessidade. Não remova a configuração pessoal `video-b-roll`.
 
-A versão do plugin é **2.9.0**, a do kit executável **2.9.0** e a do catálogo **4.4**, com **1.160 estilos em 29 subcategorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
+A versão do plugin é **2.10.0**, a do kit executável **2.10.0** e a do catálogo **4.4**, com **1.160 estilos em 29 subcategorias**. São componentes diferentes. `dist/release-manifest.json` registra versões e hashes. Para regenerar todos os pacotes após editar a skill, execute `python scripts/package-skill.py`; a pasta `plugins/video-multimarcas/` é gerada a partir de `.agents/skills/video-multimarcas/`.
 
 ## Atualizar uma instalação existente do Codex
 
@@ -38,4 +38,4 @@ Se o marketplace usa um checkout local, execute `git pull --ff-only` nesse check
 Instalar no Codex deste computador ou ambiente não atualiza o pacote da conta do ChatGPT nem outro computador. Se sua interface oferecer importação de plugins personalizados, use o ZIP do plugin no fluxo de atualização existente. Se ela aceitar apenas skills, use `.skill` ou o ZIP correspondente. Não há um botão universal garantido para todos os planos e superfícies. Sem importação compatível, use o pedido da galeria e anexe as instruções no projeto/conversa.
 
 
-Esta edição está consolidada na branch `main`. Para receber 2.9.0, use essa referência ou o checkout correspondente; a main contém a edição consolidada. O pacote inclui os registros de execução e fidelidade e, nesta edição, `references/guided-production.md` e `templates/coordinator-plan.json`. Eles organizam as receitas planejadas, a execução conforme os materiais e os ajustes por intenção, preservando as aprovações de pré-produção.
+A edição 2.10.0 é candidata na branch `feat/guided-start-and-continuity`; não foi mesclada nem publicada. A main e o site permanecem 2.9.0 até implantação autorizada. Para revisar a candidata, use o checkout dessa branch e os pacotes nela gerados. O pacote inclui `references/conversation-and-continuity.md`, `templates/continuity-record.json`, produção guiada e coordenação. Gerar ou baixar estes pacotes não atualiza instalações nem a conta do ChatGPT/Claude.

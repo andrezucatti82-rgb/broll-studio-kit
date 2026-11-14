@@ -1,13 +1,13 @@
 {
   "name": "video-multimarcas",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "Produção de vídeo para qualquer marca, com pesquisa, fidelidade, teste curto e revisão.",
   "skills": "./skills/",
   "interface": {
     "displayName": "Vídeo Multimarcas",
     "shortDescription": "Produção de vídeo para qualquer marca, com pesquisa, fidelidade, teste curto e revisão.",
     "defaultPrompt": [
-      "Use $video-multimarcas. Siga as características e escopos de styleContributions quando fornecidos, inspecione os quadros e mostre o mapa do filme. Prepare roteiro, moodboard e storyboard visuais com aprovações separadas; depois gere a amostra de 10 segundos da combinação mais difícil para aprovação."
+      "Use $video-multimarcas. Siga as características e escopos de styleContributions quando fornecidos, inspecione os quadros e mostre o mapa do filme. Prepare roteiro, moodboard e storyboard visuais com aprovações separadas; depois gere a amostra de 10 segundos da combinação mais difícil para aprovação. Confira anexos e capacidades; use até três perguntas pertinentes com alternativa textual no ChatGPT ou Claude. Preserve decisões e ofereça a ficha de continuidade atualizada sem afirmar transferência de arquivos."
     ]
   }
 }
