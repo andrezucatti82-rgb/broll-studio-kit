@@ -61,6 +61,7 @@ export function validateCatalog(c){
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)validateCatalog(JSON.parse(fs.readFileSync(new URL('../style-atlas/dist/catalog.json',import.meta.url))));
 
 export function validatePreset(p){
+ if(p.projectState?.continuity!==undefined)AtlasWorkflow.validateContinuity(p.projectState.continuity);if(p.continuity!==undefined)AtlasWorkflow.validateContinuity(p.continuity);
  if(!p.fidelityContract||!['appearance','movement','text','identity'].every(k=>typeof p.fidelityContract[k]==='string'&&p.fidelityContract[k]))throw Error('Four fidelity locks required');
  if(p.firstDeliverySeconds!==10||!Number.isInteger(p.targetDurationSeconds)||p.targetDurationSeconds<15||!p.scenePlan?.budgetOnly)throw Error('Separate target and sample duration required');
  if(!Array.isArray(p.selectedStyles)||p.selectedStyles.length<1||p.selectedStyles.length>AtlasWorkflow.MAX_SELECTED_STYLES)throw Error('Choose one to ten styles');
