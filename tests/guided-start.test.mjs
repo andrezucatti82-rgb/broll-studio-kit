@@ -11,7 +11,7 @@ test('handoff carries complete history, pending items and actual artifact record
  c.projectState.approvals.appearance={status:'correction',correction:'DECISAO-9461'};
  c.projectState.continuity=W.emptyContinuity();c.projectState.continuity.artifacts.push({id:'sample-1',stage:'sample',version:1,file:'previa.mp4',sha256:'a'.repeat(64),availability:'reported',notes:'ARQUIVO-9461'});
  const text=W.buildPrompt(c);for(const marker of ['HISTORICO-9461','PENDENCIA-9461','DECISAO-9461','ARQUIVO-9461'])assert.ok(text.includes(marker));
- for(const value of ['PRIMEIRA RESPOSTA','até três','Claude','não transfere','R$ 50'])assert.ok(text.includes(value),value);
+ for(const value of ['PRIMEIRA RESPOSTA','até três','Claude','não transfere','R$ 50','ESQUEMA DO REGISTRO','artifactId','Respeite invalidatedAfter'])assert.ok(text.includes(value),value);
  assert.doesNotMatch(text,/\bGDA\b|wa\.me/);assert.equal(c.projectState.approvals.movement.status,'pending');
 });
 test('continuity roundtrips without granting approval and rejects unknown keys or oversized records',()=>{
