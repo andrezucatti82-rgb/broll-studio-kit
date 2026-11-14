@@ -48,7 +48,7 @@ A ficha técnica `version: 1` contém estilos, duração, formato, contribuiçõ
 
 O campo `continuity` versão 1 usa o template `templates/continuity-record.json`:
 
-- `materials`: `id`, `label`, `status`; opcionais `file`, `sha256`, `notes`. Estados `declared`, `received`, `inspected`, `limited`, `missing`, `optional`, `to_produce`.
+- `materials`: `id`, `label`, `status`; opcionais `adequacy`, `file`, `sha256`, `notes`. Adequação `unverified`, `adequate`, `limited`, `unsuitable`, separada do recebimento. Estados `declared`, `received`, `inspected`, `limited`, `missing`, `optional`, `to_produce`.
 - `capabilities`: `id`, `label`, `status`, `evidence`; opcional `limitations`. Estados `announced`, `authenticated`, `compatible`, `tested_in_media`, `unavailable`, `unverified`.
 - `artifacts`: `id`, `stage`, `version`, `file`, `availability`; opcionais `sha256`, `notes`, `kind`. Disponibilidade `reported`, `accessible`, `inspected`, `unavailable`.
 - `decisions`: `id`, `stage`, `text`; opcional `evidence`.
@@ -69,3 +69,9 @@ R$50 é teto inicial de planejamento por vídeo aprovado, não crédito ou autor
 Quando bloquear: etapa afetada, causa verificada ou desconhecida, arquivos realmente existentes, ação necessária, alternativa e impacto. Continuar etapas independentes. Não repetir chamada paga sem diagnóstico.
 
 Em cada etapa: **Agora / Entrega / Preciso de você / Próximo passo**. Mostrar arquivos concretos e oferecer Aprovar / Ajustar / Voltar. Primeiro roteiro, moodboard/styleframes e storyboard aprovados, animatic conforme política visual, depois amostra representativa de 10s com a ação e passagem mais exigentes. Duração completa ajustável; 60s ou mais por blocos. Comparar referência, direção aprovada e resultado nas quatro travas. Arquivo final acessível e reproduzível; somente declarar revisão audiovisual após assistir e escutar integralmente. Uma receita permanece planejada sem essa execução e revisão reais.
+
+## Contrato compartilhado e dependências
+
+O site deriva `productionContract` com `AtlasWorkflow.productionContract` em pedido e preset; a Page usa o mesmo núcleo em `pagePrompt`. O planejador cria `production-contract.json` sem sobrescrever um registro existente. A ficha versão 1 continua sendo a fonte portátil canônica e o contrato é recomposto após importar, preservando compatibilidade.
+
+Cada dependência contém id, label, why, stage, how, alternative, status, adequacy e action. IDs iniciais: one_photo, photos, video, screens, idea, facts, logo, website. Registre arquivos já recebidos com o ID pertinente; mantenha outros registros como contexto. `verify_access` significa conferir novamente o acesso nesta conversa antes de pedir reenvio, não pedir o mesmo arquivo automaticamente. `request_replacement` se aplica a original registrado como inadequado. `request_if_missing` exige primeiro conferir briefing, anexos e histórico; não é questionário obrigatório. Inspecionar não implica adequação. O site mostra registros importados e não verifica arquivos.

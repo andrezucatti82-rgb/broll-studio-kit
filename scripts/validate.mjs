@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import '../style-atlas/dist/guided.js';
 import '../style-atlas/dist/workflow.js';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
@@ -61,6 +62,7 @@ export function validateCatalog(c){
 if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)validateCatalog(JSON.parse(fs.readFileSync(new URL('../style-atlas/dist/catalog.json',import.meta.url))));
 
 export function validatePreset(p){
+ if(p.productionContract!==undefined&&JSON.stringify(p.productionContract)!==JSON.stringify(AtlasWorkflow.productionContract(p)))throw Error('Production contract differs from the current choices');
  if(p.projectState?.continuity!==undefined)AtlasWorkflow.validateContinuity(p.projectState.continuity);if(p.continuity!==undefined)AtlasWorkflow.validateContinuity(p.continuity);
  if(!p.fidelityContract||!['appearance','movement','text','identity'].every(k=>typeof p.fidelityContract[k]==='string'&&p.fidelityContract[k]))throw Error('Four fidelity locks required');
  if(p.firstDeliverySeconds!==10||!Number.isInteger(p.targetDurationSeconds)||p.targetDurationSeconds<15||!p.scenePlan?.budgetOnly)throw Error('Separate target and sample duration required');

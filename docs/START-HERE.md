@@ -39,7 +39,7 @@ npm test
 npm run validate
 ```
 
-A `main` e o site continuam na edição 2.9.0. Esta revisão 2.10.0 está na branch `feat/guided-start-and-continuity`, sem merge ou publicação. Para revisá-la, use `git switch feat/guided-start-and-continuity` após obter a branch. O clone acima traz a edição pública. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
+A edição 2.10.0 reúne o kit individual ChatGPT/Claude, conferência de recebimento, dependências de materiais e continuidade. Confira [integração, publicações e limitações](GUIDED-DELIVERY-2.10.md) antes de afirmar qual instalação ou destino recebeu a atualização. Veja [produção guiada](GUIDED-2.7.md), [aprovação visual](VISUAL-APPROVAL.md) e [controles de fidelidade](FIDELITY-2.6.md).
 
 Se você baixou o ZIP dessa branch no GitHub, extraia a pasta e execute a partir de `npm ci`. Para abrir a galeria local:
 

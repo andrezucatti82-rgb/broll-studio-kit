@@ -107,3 +107,5 @@ body[data-view="library"]:has(#selectionTray:not([hidden])) .guided-launch{displ
 @media(min-width:701px){.guided-option>button:first-child img{height:clamp(150px,27dvh,255px)}.guided-progress{margin-bottom:14px}}
 #briefDialog[data-stage="review"] .guided-launch{display:none}
 @media(max-width:700px){#briefDialog[data-stage="review"] .brief-preview{order:1}}
+/* Imported file names are data and may be long. */
+.summary-materials span{white-space:normal;overflow-wrap:anywhere;max-width:100%}

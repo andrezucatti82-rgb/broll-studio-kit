@@ -89,3 +89,7 @@ python tests/browser-guided-page.py
 Merge, publicação e piloto pago continuam pendentes de autorização. A branch é a versão candidata; o site público e a main não são alterados por esta entrega.
 
 Capturas da candidata local: [aparência no desktop](assets/guided-start-2.10/desktop.png), [aparência no celular](assets/guided-start-2.10/mobile.png) e [revisão no celular](assets/guided-start-2.10/handoff-mobile.png). São capturas de interface, não amostras audiovisuais.
+
+## Continuação autorizada
+
+Em 14/11/2026 o usuário autorizou finalizar, integrar e publicar, sem despesas ou geração paga. A continuação verificou contrato compartilhado, dependências e estados de recebimento/adequação, núcleo nativo da Page e correção de links diretos. O estado final dos destinos está em [registro da entrega](GUIDED-DELIVERY-2.10.md); os parágrafos anteriores descrevem a candidata e não anulam essa autorização posterior.

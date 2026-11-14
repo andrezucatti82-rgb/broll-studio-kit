@@ -50,3 +50,7 @@ test('portable project is canonical over an older bundle brief and keeps continu
   const record=JSON.parse(fs.readFileSync(path.join(out,'continuity.json')));assert.equal(record.project.topic,'Most recent project topic');assert.equal(record.project.history[0].resumo,'Existing reported script');assert.equal(record.project.continuity.decisions[0].id,'keep');assert.equal(JSON.parse(fs.readFileSync(path.join(out,'production.json'))).stages.script.status,'pending');
  }finally{fs.rmSync(tmp,{recursive:true,force:true});}
 });
+
+test('production writes the same derived contract and preserves it on resume',()=>{
+ const tmp=fs.mkdtempSync(path.join(os.tmpdir(),'shared-contract-'));try{const file=path.join(tmp,'preset.json'),out=path.join(tmp,'production');fs.writeFileSync(file,JSON.stringify({topic:'Serviço fictício',format:'9:16',targetDurationSeconds:45,selectedStyles:[{id:'publicidade-cinematografica'}],guidedBrief:{objective:'service',subject:'Serviço fictício',materials:['idea'],complexity:'balanced'}}));prepareProduction(file,out);const contract=JSON.parse(fs.readFileSync(path.join(out,'production-contract.json')));assert.equal(contract.brief.targetDurationSeconds,45);assert.equal(contract.recipe.id,'service');assert.equal(contract.materials.filesReceived,false);assert.equal(contract.sampleSeconds,10);const raw=fs.readFileSync(path.join(out,'production-contract.json'),'utf8');prepareProduction(file,out);assert.equal(fs.readFileSync(path.join(out,'production-contract.json'),'utf8'),raw);}finally{fs.rmSync(tmp,{recursive:true,force:true});}
+});

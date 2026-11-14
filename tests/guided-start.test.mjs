@@ -38,3 +38,28 @@ test('approval receipt must match an existing artifact version and hash',()=>{
  const r=W.emptyContinuity();r.artifacts=[{id:'board-v1',stage:'visual_storyboard',version:1,file:'storyboard.png',sha256:'b'.repeat(64),availability:'reported'}];r.approvals=[{id:'decision-1',stage:'visual_storyboard',artifactId:'board-v1',version:1,sha256:'b'.repeat(64),scope:'film',decision:'approved',evidence:'Fixture only; not a real creative approval'}];assert.deepEqual(W.validateContinuity(r),r);
  for(const mutate of [v=>v.approvals[0].version=2,v=>v.approvals[0].sha256='c'.repeat(64),v=>v.artifacts=[]]){const invalid=structuredClone(r);mutate(invalid);assert.throws(()=>W.validateContinuity(invalid),/vínculo/);}
 });
+
+test('shared production contract carries dependencies and distinguishes receipts from declarations',()=>{
+ for(const b of [{objective:'product',materials:['one_photo']},{objective:'service',materials:['idea']},{objective:'explain',materials:['screens']}]){
+  const c=choice();c.guidedBrief=G.normalizeBrief({...b,subject:c.topic});const contract=W.productionContract(c);
+  assert.equal(contract.version,1);assert.equal(contract.brief.subject,c.topic);assert.equal(contract.recipe.status,'planned');assert.equal(contract.references.styles.length,1);assert.equal(contract.sampleSeconds,10);
+  for(const n of contract.materials.dependencies)for(const k of ['id','label','why','stage','how','alternative','status','adequacy'])assert.ok(n[k],k);
+  assert.deepEqual(contract.approvalCriteria,W.fidelityContract);assert.ok(W.buildPrompt(c).includes(JSON.stringify(contract)));assert.doesNotMatch(JSON.stringify(contract),/\bGDA\b|wa\.me/);
+ }
+ const c=choice();c.guidedBrief=G.normalizeBrief({objective:'product',subject:c.topic,materials:['one_photo','logo']});c.projectState.continuity=W.emptyContinuity();c.projectState.continuity.materials=[{id:'one_photo',label:'Foto original',status:'inspected',adequacy:'adequate',file:'produto.png'},{id:'logo',label:'Logo',status:'inspected',adequacy:'unsuitable',file:'logo-pequeno.jpg'}];
+ const contract=W.productionContract(c);const photo=contract.materials.dependencies.find(x=>x.id==='one_photo'),logo=contract.materials.dependencies.find(x=>x.id==='logo');assert.equal(photo.action,'verify_access');assert.equal(photo.file,'produto.png');assert.equal(logo.action,'request_replacement');assert.equal(logo.adequacy,'unsuitable');assert.equal(W.isApproved(c.projectState.approvals),false);
+ assert.doesNotThrow(()=>W.validateContinuity(c.projectState.continuity));assert.throws(()=>W.validateContinuity({...c.projectState.continuity,materials:[{id:'x',label:'x',status:'inspected',adequacy:'guaranteed'}]}));
+});
+
+test('Page startup shares conversation and visual gates without assuming an installed skill or native menu',()=>{
+ const page=W.pagePrompt('https://example.org/catalog.json');assert.ok(page.includes(W.conversationProtocol));for(const t of ['styleContributions','invalidatedAfter','qualityPolicy','identityPolicy','REGRA UNIVERSAL','STATUS_PROJETO','https://example.org/catalog.json','contributionBindings'])assert.ok(page.includes(t),t);assert.doesNotMatch(page,/\bGDA\b|wa\.me/);
+});
+
+test('dependency scenarios preserve real inputs without inferring suitability or hidden views',()=>{
+ const b={objective:'product',subject:'Produto fictício',materials:['one_photo','logo'],complexity:'balanced'};
+ const declared=G.handoffMaterials(b);assert.equal(declared.dependencies.find(x=>x.id==='one_photo').status,'declared');assert.equal(declared.dependencies.find(x=>x.id==='one_photo').action,'request_if_missing');assert.equal(declared.filesReceived,false);
+ const received=G.handoffMaterials(b,[{id:'one_photo',label:'Já anexada',status:'received',file:'foto.jpg'}]);const item=received.dependencies.find(x=>x.id==='one_photo');assert.equal(item.action,'verify_access');assert.equal(item.adequacy,'unverified');assert.match(item.alternative,/vista|ação/);
+ for(const [material,route] of [['photos','verified_angles'],['screens','capture_and_code'],['video','footage_editing']])assert.equal(G.materialPlan({...b,materials:[material]}).route,route);
+ const service=G.handoffMaterials({objective:'service',subject:'Serviço fictício',materials:['idea']});assert.ok(!service.dependencies.some(x=>['one_photo','logo','photos'].includes(x.id)));assert.ok(service.dependencies.every(x=>x.stage==='script'));
+ const c=choice();c.guidedBrief=G.normalizeBrief(b);c.styleContributions={[c.selectedStyles[0].id]:[{aspect:'lighting',scope:'details'}]};c.projectState.history=[{etapa:'materials_and_resources',estado:'concluido',versao:1,custoInformadoUSD:0,resumo:'Fixture',pendencias:[]},{etapa:'script',estado:'concluido',versao:1,custoInformadoUSD:0,resumo:'Fixture',pendencias:[]}];assert.equal(W.productionContract(c).currentStep.stage,'moodboard');assert.equal(W.productionContract(c).combination.entries[0].contributions[0].scope,'details');assert.equal(W.isPreProductionApproved(c.projectState.preProductionApprovals),false);
+});
