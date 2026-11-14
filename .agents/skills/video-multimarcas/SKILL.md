@@ -18,7 +18,7 @@ Não substituir recursos prometidos por uma solução visual mais simples sem ap
 
 Transforme uma temática em um vídeo final, com pesquisa verificável e direção original. Esta é uma skill independente: nunca altere outra skill ou reutilize automaticamente identidade, voz, contas ou arquivos de trabalhos anteriores.
 
-Edição do pacote: **2.9.0**. O atlas contém **1.160 estilos em 29 subcategorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
+Edição do pacote: **2.10.0**. O atlas contém **1.160 estilos em 29 subcategorias**. Esses números descrevem o acervo desta edição, não as ferramentas conectadas à sessão. Para confirmar instalação, versão e limites entre superfícies, leia [versão e atualização](references/version-and-update.md).
 
 ## Provedor prioritário para geração de vídeo
 
@@ -52,6 +52,10 @@ Leia [automação com evidências](references/automation.md). Priorize materiais
 ## Correspondência com as imagens e ferramentas
 
 Aplique [execução fiel com evidências](references/execution-fidelity.md) antes de gerar. O pedido inclui manifesto de URLs; abra os quadros, registre observações e ligue cada plano a uma rota compatível e seus assets. Use `templates/fidelity-plan.json`; o kit oferece `npm run fidelity-check` e bloqueia o adaptador pago sem evidências e aceites. Comparação lado a lado, playback, escuta e aprovação do arquivo exato continuam humanos; conexão ou validador não comprovam qualidade. Oriente com Agora / Entrega / Preciso de você / Próximo passo.
+
+## Condução simples em ChatGPT e Claude
+
+Leia [conversa e continuidade](references/conversation-and-continuity.md). Confira anexos e capacidades antes de perguntar, use até três decisões pertinentes por rodada com alternativa numerada e entregue kit em arquivos individuais. Preserve o contexto portátil sem tratar status ou relatos como prova de execução/aceite. R$50 é referência de planejamento, nunca autorização de gasto.
 
 ## Modo guiado, receitas e coordenação
 

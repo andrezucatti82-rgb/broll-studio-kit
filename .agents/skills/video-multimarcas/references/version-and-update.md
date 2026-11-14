@@ -1,6 +1,6 @@
 # Versão, instalação e atualização
 
-Esta edição é `video-multimarcas` **2.9.0**, genérica e independente de `video-b-roll`. O kit executável é 2.9.0; estilos são catálogo 4.4 (1.160/29 subcategorias). Não confunda versão da skill, do plugin, do kit e dos catálogos.
+Esta edição é `video-multimarcas` **2.10.0**, genérica e independente de `video-b-roll`. O kit executável é 2.10.0; estilos são catálogo 4.4 (1.160/29 subcategorias). Não confunda versão da skill, do plugin, do kit e dos catálogos.
 
 Fontes públicas:
 - Repositório: https://github.com/andrezucatti82-rgb/studio-kit-pro
@@ -24,3 +24,5 @@ A revisão 2.8.2 organiza a navegação em seis categorias principais e 28 subca
 A revisão 2.8.3 mantém uma única seleção de principal entre galeria, assistente e briefing. Trocas explícitas são salvas imediatamente; preparar o pedido conserva os complementares e suas contribuições. Sugestões são alternativas e não substituem escolhas automaticamente.
 
 A edição 2.9.0 acrescenta 380 conceitos e reorganiza os anúncios em 11 subcategorias de 40. Mantém os 780 IDs e quadros anteriores na mesma ordem, migrando favoritos 4.3. As referências públicas são hipóteses criativas; anúncio ativo não comprova vendas. Leia narrated-natural-ads.md para limites por segmento e adaptação jurídica informativa.
+
+A edição 2.10.0 acrescenta kit TXT/JSON/PNG individual, destino ChatGPT/Claude, declaração inicial leve de materiais, contrato compartilhado, conferência de recebimento e continuidade rica. Leia conversation-and-continuity.md. Commit, publicação e instalação são estados separados; confira o destino e a versão efetivamente recebidos. Gerar pacotes não os instala em contas.

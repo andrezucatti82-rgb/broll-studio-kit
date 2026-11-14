@@ -14,7 +14,9 @@
     "fidelity": "fidelity-plan.json",
     "preproduction": "preproduction-plan.json",
     "review": "review.json",
-    "shotPlan": "shot-plan.json"
+    "shotPlan": "shot-plan.json",
+    "continuity": "continuity.json",
+    "productionContract": "production-contract.json"
   },
   "sharedDecisions": [],
   "materialChecks": [],

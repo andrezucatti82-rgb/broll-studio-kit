@@ -84,3 +84,7 @@ Na retomada, conferir versão e integridade, reutilizar os aceites comprovados e
 Conferir conta, autenticação, modo, arquivos e orçamento antes de gastar. Use as estimativas históricas apenas para planejamento, com data e exclusões. O valor real é confirmado na conta e pode incluir voz, montagem, resoluções e tentativas diferentes. Não herdar o orçamento de outro projeto.
 
 Se faltar capacidade, explicar etapa, causa verificada ou desconhecida, entrega existente, ação necessária e uma alternativa com impacto. Não simplificar a direção nem trocar de provedor silenciosamente. Antes de testes pagos, apresentar caso concreto e estimativa para autorização. A receita segue planejada até existir resultado audiovisual revisado e aprovado.
+
+## Condução e continuidade 2.10
+
+Aplicar [conversa e continuidade](conversation-and-continuity.md): primeira resposta curta, arquivos realmente acessíveis, até três perguntas pertinentes com alternativa textual, coleta condicional e atualização da ficha canônica. Declaração não comprova recebimento; registro não comprova execução ou aprovação. O kit não transfere mídia nem exige leitura de ZIP.

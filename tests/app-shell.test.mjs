@@ -235,7 +235,7 @@ test('granular choices reach prompt and Page state; changes invalidate approvals
  const a=await boot({page:true});a.click('#grid [data-choose]');const id=a.ctx.AtlasCurrentChoice().selectedStyles[0].id;a.ctx.AtlasApp.setStyleContributions(id,[{aspect:'typographic_language',scope:'film'}]);
  const c=a.ctx.AtlasCurrentChoice();c.projectState.history.push({etapa:'visual_storyboard',estado:'concluido',versao:1,custoInformadoUSD:0,resumo:'Fixture only',pendencias:[]});c.projectState.preProductionApprovals.moodboard.status='approved';c.projectState.preProductionApprovals.visual_storyboard.status='approved';
  a.ctx.AtlasApp.setStyleContributions(id,[{aspect:'lighting',scope:'opening'}]);assert.equal(c.projectState.history.length,1);assert.equal(c.projectState.preProductionApprovals.moodboard.status,'pending');assert.equal(c.projectState.preProductionApprovals.visual_storyboard.status,'pending');assert.equal(a.ctx.AtlasCurrentChoice().requestPrepared,false);
- assert.equal(a.getStorageReads(),0);assert.equal(a.getState().modelContent.styleContributions[id][0].aspect,'lighting');assert.equal(a.getState().modelContent.styleContributions[id][0].scope,'opening');assert.match(a.ctx.AtlasApp.prompt(),/"aspect":"lighting","scope":"opening"/);
+ await a.ctx.AtlasApp.save();assert.equal(a.getStorageReads(),0);assert.equal(a.getState().modelContent.styleContributions[id][0].aspect,'lighting');assert.equal(a.getState().modelContent.styleContributions[id][0].scope,'opening');assert.match(a.ctx.AtlasApp.prompt(),/"aspect":"lighting","scope":"opening"/);
  const resumed=await boot({page:true,saved:a.getState()});assert.equal(resumed.ctx.AtlasCurrentChoice().styleContributions[id][0].scope,'opening');
 });
 test('popup cancellation retains original selection and conflicting scope blocks a prepared request',async()=>{
@@ -301,7 +301,7 @@ test('Page wizard saves an explicit principal swap without localStorage',async()
 
 test('Page incoming choices refresh the principal displayed in an open wizard',async()=>{
  const a=await boot({page:true}),{ctx,document:d,click,change}=a;ctx.AtlasApp.chooseStyle('natural-barras-a-pausa-cabe-na-bolsa');change('topic','Tema demonstrativo');click('#startGuided');click('#guidedNext');
- const incoming=JSON.parse(JSON.stringify(a.getState()));incoming.modelContent.selectedStyles=[{id:'publicidade-cinematografica'}];incoming.modelContent.styleContributions={'publicidade-cinematografica':[{aspect:'style_direction',scope:'film'}]};
+ await ctx.AtlasApp.save();const incoming=JSON.parse(JSON.stringify(a.getState()));incoming.modelContent.selectedStyles=[{id:'publicidade-cinematografica'}];incoming.modelContent.styleContributions={'publicidade-cinematografica':[{aspect:'style_direction',scope:'film'}]};
  const event=new ctx.Event('openai:set_globals');event.detail={globals:{widgetState:incoming}};ctx.dispatchEvent(event);
  assert.ok(d.querySelector('#guidedCurrentStyle [data-detail="publicidade-cinematografica"]'));assert.equal(a.getStorageReads(),0);
 });
@@ -315,4 +315,36 @@ test('principal replacement respects the ten-style limit and unchanged or invali
 
 test('Page 4.3 favorites retain append-only positions after segment regrouping',async()=>{
  const app=await boot({page:true,saved:{modelContent:{targetDurationSeconds:45},privateContent:{catalogVersion:'4.3',favoriteBits:'1'+'0'.repeat(778)+'1'}}});app.click('#favoriteFilter');assert.equal(app.document.querySelectorAll('#grid .card').length,2);assert.equal(app.getStorageReads(),0);
+});
+test('unchanged guided handoff and same contributions preserve valid decisions; audio edits keep moodboard',async()=>{
+ const a=await boot(),{ctx}=a;ctx.AtlasApp.chooseStyle('publicidade-cinematografica');
+ ctx.AtlasApp.setGuidedBrief({objective:'product',subject:'Produto fictício',materials:['one_photo'],complexity:'balanced'});
+ const c=ctx.AtlasCurrentChoice();c.projectState.preProductionApprovals.moodboard.status='approved';c.projectState.preProductionApprovals.visual_storyboard.status='approved';
+ ctx.AtlasApp.applyGuidedBrief({brief:c.guidedBrief,brand:c.brand,format:c.format,duration:c.targetDurationSeconds});
+ assert.equal(c.projectState.preProductionApprovals.moodboard.status,'approved');assert.equal(c.projectState.preProductionApprovals.visual_storyboard.status,'approved');
+ const id=c.selectedStyles[0].id;ctx.AtlasApp.setStyleContributions(id,ctx.AtlasApp.getStyleContributions(id));assert.equal(c.projectState.preProductionApprovals.moodboard.status,'approved');
+ ctx.AtlasApp.setStyleContributions(id,[{aspect:'voice_tone',scope:'closing'}]);
+ c.projectState.preProductionApprovals.moodboard.status='approved';c.projectState.preProductionApprovals.visual_storyboard.status='approved';
+ ctx.AtlasApp.setStyleContributions(id,[{aspect:'voice_pacing',scope:'closing'}]);assert.equal(c.projectState.preProductionApprovals.moodboard.status,'approved');assert.equal(c.projectState.preProductionApprovals.visual_storyboard.status,'pending');
+});
+test('Claude destination survives restore without invalidating creative decisions',async()=>{
+ const a=await boot();a.click('#grid [data-choose]');const c=a.ctx.AtlasCurrentChoice();c.projectState.preProductionApprovals.moodboard.status='approved';a.change('handoffPlatform','claude');
+ assert.equal(c.projectState.preProductionApprovals.moodboard.status,'approved');assert.equal(a.document.getElementById('chatLink').getAttribute('href'),'https://claude.ai/new');
+ const b=await boot({saved:JSON.parse(a.store.get('video-multimarcas-atlas-v1'))});assert.equal(b.ctx.AtlasCurrentChoice().conversationPlatform,'claude');
+});
+test('Page writes are ordered and saving failure remains visible without touching localStorage',async()=>{
+ const a=await boot({page:true});const writes=[];a.ctx.openai.setWidgetState=async value=>{await new Promise(r=>setTimeout(r,5));writes.push(value)};
+ a.click('#grid [data-choose]');a.change('topic','Primeiro');a.change('topic','Mais recente');await a.ctx.AtlasApp.save();assert.equal(writes.at(-1).modelContent.topic,'Mais recente');assert.equal(a.getStorageReads(),0);
+ a.ctx.openai.setWidgetState=async()=>{throw Error('fixture unavailable')};assert.equal(await a.ctx.AtlasApp.save(),false);assert.match(a.document.getElementById('storageStatus').textContent,/Não foi possível salvar/);assert.equal(a.ctx.AtlasCurrentChoice().topic,'Mais recente');
+});
+
+ test('platform change keeps displayed, copied and downloaded request in sync',async()=>{
+ const a=await boot();a.ctx.AtlasApp.chooseStyle('publicidade-cinematografica');a.change('topic','Teste fictício');a.click('#openBrief');a.document.getElementById('briefForm').dispatchEvent(new a.ctx.Event('submit',{bubbles:true,cancelable:true}));await new Promise(r=>setTimeout(r,20));
+ a.change('handoffPlatform','claude');a.click('#copyPrompt');await new Promise(r=>setTimeout(r,10));const downloaded=a.ctx.AtlasWorkflow.starterFiles(a.ctx.AtlasCurrentChoice()).find(f=>f.name==='pedido.txt').text;assert.equal(a.ctx.copied,downloaded);assert.equal(a.document.getElementById('promptOutput').value,downloaded);
+ });
+
+test('an explicit style link renews visual approvals, preserves history and retains all choices for the same principal',async()=>{
+ const a=await boot();a.ctx.AtlasApp.chooseStyle('publicidade-cinematografica');a.ctx.AtlasApp.setStyleContributions('publicidade-cinematografica',[{aspect:'lighting',scope:'details'}]);const state=a.ctx.AtlasCurrentChoice().projectState;state.history.push({etapa:'script',estado:'concluido',versao:1,custoInformadoUSD:0,resumo:'Fixture script',pendencias:[]});state.preProductionApprovals.moodboard.status='approved';state.preProductionApprovals.visual_storyboard.status='approved';await a.ctx.AtlasApp.save();const saved=JSON.parse(a.store.get('video-multimarcas-atlas-v1'));
+ const same=await boot({saved,hash:'#estilo=publicidade-cinematografica'});assert.equal(same.ctx.AtlasCurrentChoice().projectState.preProductionApprovals.moodboard.status,'approved');assert.equal(same.ctx.AtlasApp.getStyleContributions('publicidade-cinematografica')[0].aspect,'lighting');
+ const changed=await boot({saved,hash:'#estilo=natural-barras-a-pausa-cabe-na-bolsa'});assert.equal(changed.ctx.AtlasCurrentChoice().projectState.preProductionApprovals.moodboard.status,'pending');assert.equal(changed.ctx.AtlasCurrentChoice().projectState.history[0].resumo,'Fixture script');assert.equal(changed.ctx.AtlasApp.getStyleContributions('natural-barras-a-pausa-cabe-na-bolsa')[0].aspect,'style_direction');
 });

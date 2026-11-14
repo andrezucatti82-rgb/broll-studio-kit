@@ -1,0 +1,28 @@
+{
+  "version": "2.10.0",
+  "date": "2026-11-14",
+  "commands": {
+    "npm ci": "passed",
+    "npm run check": "passed",
+    "npm test": {
+      "node": 134,
+      "python": 9,
+      "failed": 0
+    },
+    "npm run validate": "passed",
+    "git diff --check": "passed"
+  },
+  "catalog": {
+    "version": "4.4",
+    "styles": 1160,
+    "subcategories": 29,
+    "ids_order_assets_readiness": "unchanged from 97b7ceec4a764819fbd0dc32bfcf4cd90eeab3fb"
+  },
+  "browser": "Chromium headless; emulated viewports; actual clipboard/download/import/reload; keyboard/reduced-motion checks",
+  "page": "compiled HTML with simulated state bridge; no localStorage",
+  "realChatGPTConversation": "not_run",
+  "realClaudeConversation": "not_run",
+  "noviceObservedToVideo": "not_run",
+  "audiovisualGenerationReview": "not_run",
+  "paidCalls": 0
+}

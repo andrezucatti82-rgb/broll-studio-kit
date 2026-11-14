@@ -3,7 +3,7 @@
  const $=id=>document.getElementById(id);let selected=[],stage='briefing',ready=false,viewerStyle=null,viewerIndex=0,returnFocus=null;
  const base=()=>window.ATLAS_ASSET_BASE||'';
  function view(name){
-  document.body.dataset.view=name;
+  document.body.dataset.view=name;if(name==='library')document.querySelector('.library-actions').prepend($('startGuided'));else if(name==='project')document.querySelector('.project-heading').append($('startGuided'));
   document.querySelectorAll('[data-app-view]').forEach(b=>{const active=b.dataset.appView===name;b.setAttribute('aria-current',active?'page':'false')});
   if(name!=='brief'&&$('briefDialog').open)$('briefDialog').close();
   if(name==='project'){$('myProject').hidden=false;$('projectTitle').focus({preventScroll:true})}
@@ -17,7 +17,7 @@
  }
  function openBrief(){
   if(!selected.length){view('library');$('libraryTitle').focus({preventScroll:true});return}
-  document.body.dataset.view='brief';
+  document.body.dataset.view='brief';document.querySelector('.brief-heading').append($('startGuided'));
   if(!$('briefDialog').open)$('briefDialog').show();
   const prepared=window.AtlasCurrentChoice?.().requestPrepared;
   setStage(prepared?'review':'briefing');
@@ -40,8 +40,19 @@
   $('requestSummary').innerHTML=[['Tema',c.topic||'Definir no briefing'],['Marca ou site',c.brand||'Identidade a definir'],['Formato e duração',`${c.format} · ${c.targetDurationSeconds} segundos`],['Tipografia',c.typography==='auto'?'Seguir o estilo e a marca':c.typography]].map(([k,v])=>`<div><dt>${esc(k)}</dt><dd>${esc(v)}</dd><button type="button" data-edit-brief aria-label="Editar ${esc(k)}">✎</button></div>`).join('');
   const ids=new Set(['product','property','ui','data','clinical','course','coverage','presenter','legal','food','pets','automotive','travel','beauty','homeService','childcare','identity','voice','brand','facts']);
   const materials=c.intake.items.filter(x=>ids.has(x.id)).sort((a,b)=>Number(['brand','facts','identity','voice'].includes(a.id))-Number(['brand','facts','identity','voice'].includes(b.id)));
-  $('summaryMaterials').replaceChildren(...materials.slice(0,4).map(x=>{const row=document.createElement('li');const title=document.createElement('strong');title.textContent=x.title;const hint=document.createElement('span');hint.textContent=x.id==='brand'?'Opcional':'Conforme o conteúdo';row.append(title,hint);return row}));
+  const plan=c.productionContract.materials;
+  $('summaryMaterials').replaceChildren(...plan.now.map(text=>{const row=document.createElement('li');const title=document.createElement('strong');title.textContent=text;row.append(title);const need=plan.dependencies.find(x=>x.label===text);if(need&&need.action==='verify_access'){const note=document.createElement('span');note.textContent='Já registrado'+(need.file?' · '+need.file:'')+'; conferir acesso na conversa';row.append(note)}else if(need&&need.action==='request_replacement'){const note=document.createElement('span');note.textContent='Original registrado como inadequado; '+need.alternative;row.append(note)}return row}));
+  $('handoffMaterialNotes').replaceChildren();for(const [label,items] of [['Opcional',plan.optional],['Somente se o roteiro precisar',plan.later]]){const p=document.createElement('p');p.textContent=label+': '+items.join(' ');$('handoffMaterialNotes').append(p)}
+  $('referenceFiles').innerHTML='<h3>Referências para anexar</h3>'+c.selectedStyles.map(s=>`<div class="reference-file"><strong>${esc(s.name)}</strong><div><button type="button" class="text-button" data-frame="${esc(s.id)}">Baixar quadro · PNG</button><button type="button" class="text-button" data-board="${esc(s.id)}">Baixar sequência · PNG</button></div></div>`).join('')+'<p class="small">Arquivos identificados pelo ID do estilo. Eles mostram a direção; os originais do seu assunto continuam sendo a referência principal.</p>';
+  updatePlatform();
  }
+
+ function updatePlatform(){
+  const platform=$('handoffPlatform').value==='claude'?'claude':'chatgpt',name=platform==='claude'?'Claude':'ChatGPT';
+  $('chatLink').href=platform==='claude'?'https://claude.ai/new':'https://chatgpt.com/';$('chatLink').textContent='Abrir '+name+' ↗';$('chatLink').hidden=!!window.ATLAS_PAGE_MODE&&platform==='chatgpt';
+  $('handoffHelp').textContent=window.ATLAS_PAGE_MODE&&platform==='chatgpt'?'Se disponível, use a ação nativa de conversa da Page; você também pode copiar o pedido. Estado salvo não equivale a arquivos anexados.':'Cole o pedido no '+name+' e anexe os arquivos. Abrir não envia mensagens, transfere arquivos, instala ferramentas ou autoriza cobranças.';
+ }
+
  function showFrame(id,index,trigger){
   const s=window.AtlasApp?.getStyle(id);if(!s?.sequence)return;
   viewerStyle=s;viewerIndex=Number.isInteger(index)&&index>=0&&index<4?index:0;returnFocus=trigger;updateFrame();$('sequenceDialog').showModal();
@@ -52,7 +63,9 @@
   $('sequencePrev').disabled=viewerIndex===0;$('sequenceNext').disabled=viewerIndex===3;
   $('sequenceDownload').dataset.sequenceDownload=viewerStyle.id;$('sequenceDownload').dataset.frameIndex=viewerIndex;
  }
+ document.addEventListener('change',e=>{if(e.target.id==='handoffPlatform'){updatePlatform();if(window.AtlasCurrentChoice?.().requestPrepared)$('promptOutput').value=window.AtlasApp.prompt();window.AtlasApp?.save()}});
  document.addEventListener('click',e=>{
+  const file=e.target.closest('[data-starter-file]');if(file){const item=AtlasWorkflow.starterFiles(AtlasCurrentChoice()).find(f=>f.name===file.dataset.starterFile);if(item){const url=URL.createObjectURL(new Blob([item.text],{type:item.type+';charset=utf-8'})),a=document.createElement('a');a.href=url;a.download=item.name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000)}}
   const nav=e.target.closest('[data-app-view]');if(nav){nav.dataset.appView==='brief'?openBrief():view(nav.dataset.appView)}
   if(e.target.closest('[data-edit-brief]'))setStage('briefing');
   const step=e.target.closest('[data-brief-stage]');if(step){if(step.dataset.briefStage==='styles')view('library');else if(step.dataset.briefStage==='review')$('briefForm').requestSubmit();else setStage('briefing')}

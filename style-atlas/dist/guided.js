@@ -88,6 +88,36 @@
   return {route,summary,limitations,needed:[...new Set(needed)]};
  }
  const sequence=['materials_and_resources','script','moodboard','visual_storyboard','sample','technical_review','user_approval','final_video'];
+
+ function handoffMaterials(value,records=[]){
+  const b=normalizeBrief(value),has=k=>b.materials.includes(k),now=[],optional=[],later=[];
+  if(has('one_photo'))now.push('Uma foto original nítida do produto ou assunto, na variante que deve aparecer.');
+  if(has('photos'))now.push('As fotos originais da mesma variante, identificando as vistas disponíveis.');
+  if(has('video'))now.push('Vídeos originais com os trechos úteis e autorização de uso.');
+  if(has('screens'))now.push('Telas atuais ou gravação autorizada, fluxo correto e dados reais autorizados ou demonstrativos identificados.');
+  if(has('idea'))now.push('A ideia e as informações confirmadas; a IA propõe roteiro e os visuais que precisarão de aprovação.');
+  if(b.objective==='product')now.push('Nome/variante, características confirmadas e destino da chamada final.');
+  else if(b.objective==='service')now.push('Serviço oferecido, processo real e canal da chamada final.');
+  else if(b.objective==='explain')now.push('Mensagem principal, sequência da explicação e fonte dos dados quando houver.');
+  if(has('logo'))now.push('O logotipo original que você declarou, se a marca aparecer.');else optional.push('Logotipo ou guia da marca, se quiser usar uma marca; não é obrigatório.');
+  if(has('website'))now.push('Endereço oficial do site declarado para conferir as informações.');
+  optional.push('Roteiro, voz ou trilha já disponíveis e autorizados, se quiser aproveitá-los.');
+  later.push('Outros ângulos ou vistas somente se a ação aprovada depender deles; uma foto não comprova verso, interior ou giro 360°.','Referências e autorizações de pessoa/imóvel real somente quando participarem da execução.');
+  const ids=['one_photo','photos','video','screens','idea'].filter(has);if(['product','service','explain'].includes(b.objective))ids.push('facts');if(has('logo'))ids.push('logo');if(has('website'))ids.push('website');
+  const meta={
+   one_photo:['moodboard','Preservar a aparência real na vista disponível.','Anexe a foto original no chat.','Planejar a vista disponível; pedir outra apenas se a ação depender dela.'],
+   photos:['moodboard','Conferir cobertura e consistência entre vistas.','Anexe os originais com os nomes das vistas.','Limitar o enquadramento às vistas utilizáveis.'],
+   video:['visual_storyboard','Identificar ações já filmadas para evitar gerar de novo.','Anexe os vídeos e indique os trechos úteis, se souber.','Propor planos compatíveis com a cobertura e os recursos disponíveis.'],
+   screens:['visual_storyboard','Mostrar o fluxo correto sem inventar controles ou dados.','Anexe telas atuais ou uma gravação autorizada.','Planejar uma demonstração identificada, sujeita à aprovação.'],
+   idea:['script','Definir uma mensagem sustentada antes de produzir imagens.','Descreva a ideia e aproveite informações já no briefing.','A IA propõe roteiro e uma lista curta de materiais.'],
+   facts:['script','Sustentar a mensagem e o fechamento sem inventar benefícios.','Responda somente às lacunas que não estejam no briefing, anexos ou site oficial.','Usar afirmações gerais verificáveis ou deixar a informação pendente.'],
+   logo:['moodboard','Aplicar a marca com nitidez e proporções corretas, quando previsto.','Anexe o original; SVG ou PNG transparente quando apropriado.','Usar outro original utilizável ou propor versão sem logo para aprovação.'],
+   website:['script','Conferir informações e condições na fonte oficial.','Envie o endereço oficial se ainda não estiver no briefing.','Enviar os dados ou arquivos pertinentes se o endereço não abrir.']
+  };
+  const dependencies=now.map((label,i)=>{const id=ids[i],m=meta[id],r=Array.isArray(records)?records.find(x=>x.id===id):null;return {id,label,stage:m[0],why:m[1],how:m[2],alternative:m[3],status:r?.status||'declared',adequacy:r?.adequacy||'unverified',file:r?.file||'',action:r?.adequacy==='unsuitable'?'request_replacement':['received','inspected','limited'].includes(r?.status)?'verify_access':'request_if_missing',source:'declared_or_imported_not_session_proof'}});
+  return {now,optional,later,dependencies,filesReceived:false,instruction:'Cole o pedido e anexe estes arquivos na conversa. Marcar materiais no site não os envia nem comprova que foram inspecionados.'};
+ }
+
  function recipe(value){
   const b=normalizeBrief(value),m=materialPlan(b),type=b.objective==='product'?'product':b.objective==='explain'||b.materials.includes('screens')?'interface':'service';
   const variants={product:{name:'Anúncio de produto',focus:'Ação do produto, atributo verificável, benefício e chamada final; preservar forma, cor, proporções, marca e rótulo.',extra:['Identificar variante e preservar o produto em camadas quando necessário.','Só demonstrar um atributo com referência ou prova disponível.']},service:{name:'Apresentação de serviço',focus:'Problema atendido, processo real, valor do serviço e próximo passo; imagens relevantes e afirmações comprovadas.',extra:['Confirmar o processo e as informações profissionais.','Não fabricar clientes, depoimentos ou resultados.']},interface:{name:'Explicação com interfaces ou gráficos',focus:'Problema, ação, estado resultante e mensagem; telas legíveis, dados conferidos e tipografia editável.',extra:['Captura autorizada ou reprodução em código conferida.','Dados demonstrativos identificados e estados coerentes entre planos.']}};
@@ -128,5 +158,5 @@
   if(done('final_video'))return output('final_video','O vídeo foi marcado como entregue.','Confira o arquivo e as pendências registradas. Este site depende das informações trazidas da conversa.');
   return output('final_video','A amostra foi aprovada. Vamos produzir o vídeo completo.','A produção ainda precisa cumprir as mesmas quatro travas em todos os planos; para 60 s ou mais, aprovar blocos.');
  }
- g.AtlasGuided={normalizeBrief,recommend,advertisingOrder,materialPlan,recipe,adjustment,nextStep};
+ g.AtlasGuided={handoffMaterials,normalizeBrief,recommend,advertisingOrder,materialPlan,recipe,adjustment,nextStep};
 })(globalThis);

@@ -1,6 +1,6 @@
 # Vídeo Multimarcas
 
-Edição consolidada **2.9.0** na `main`: **1.160 estilos em 29 subcategorias**, modo guiado, ícones no menu, referências e pacotes completos. A política de aprovação visual da main foi preservada junto aos controles de fidelidade. A expansão [2.9.0 reorganiza os anúncios por segmento](docs/SEGMENT-ADS-4.4.md). Use [Comece aqui](docs/START-HERE.md) para instalar.
+Edição **2.10.0**: **1.160 estilos em 29 subcategorias**, modo guiado, ícones no menu, referências e pacotes completos. A política de aprovação visual da main foi preservada junto aos controles de fidelidade. A expansão [2.9.0 reorganiza os anúncios por segmento](docs/SEGMENT-ADS-4.4.md). Use [Comece aqui](docs/START-HERE.md) para instalar.
 
 **Skill pública de uso geral.** Identificador: `video-multimarcas`. Adapta cada produção à marca informada; não carrega identidade ou voz pessoal como padrão.
 
@@ -14,9 +14,11 @@ Informe o assunto. Opcionalmente, acrescente o nome da marca, logotipo ou site. 
 
 Este repositório não apresenta um vídeo de demonstração. O arquivo `templates/project.json` é um rascunho técnico com espaços reservados, destinado à configuração do editor.
 
-## Produção guiada · 2.7.0
+## Produção guiada · 2.10.0
 
-O botão **Criar meu vídeo** organiza objetivo, três sugestões visuais, materiais e pedido para o ChatGPT. A biblioteca completa continua acessível. As receitas de produto, serviço e interfaces começam planejadas; ferramentas, arquivos e acabamento precisam ser verificados no projeto. [Como funciona e limites](docs/GUIDED-2.7.md) · [Três testes fictícios preparados](docs/three-recipe-tests.json).
+A edição **2.10.0** organiza objetivo, três sugestões visuais, materiais e kit de início para ChatGPT ou Claude. O kit oferece arquivos individuais, continuidade rica e orientação condicional sem exigir instalação. [Mudanças, verificações e limites](docs/GUIDED-START-2.10.md). Integração e publicação são verificadas separadamente; [estado da entrega](docs/GUIDED-DELIVERY-2.10.md). Pacotes não se instalam em contas automaticamente.
+
+O botão **Criar meu vídeo** organiza objetivo, três sugestões visuais, materiais e pedido. A biblioteca completa continua acessível. As receitas de produto, serviço e interfaces começam planejadas; ferramentas, arquivos e acabamento precisam ser verificados no projeto. [Como funciona e limites](docs/GUIDED-2.7.md) · [Três testes fictícios preparados](docs/three-recipe-tests.json).
 
 A produção usa roteiro → moodboard aprovado → storyboard aprovado → amostra de 10 s → aprovação → vídeo completo. O agente traduz ajustes simples, registra responsabilidades e retoma a próxima dependência. O site público é estático: arquivos são enviados na conversa, e cada pessoa usa suas próprias conexões e créditos.
 

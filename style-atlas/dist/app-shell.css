@@ -78,3 +78,34 @@ body[data-view="library"]:has(#selectionTray:not([hidden])) .guided-launch{displ
 /* The wizard displays the same principal as the gallery and briefing. */
 .guided-current-style{padding:16px;margin:16px 0 20px;background:#eef1e7;border:1px solid #d7dece;border-radius:16px}.guided-current-style .guided-choice{align-items:center}.guided-current-style .eyebrow{margin:0 0 5px}.guided-current-style strong{display:block;font-size:19px;line-height:1.3}.guided-current-style .small{margin:9px 0}.guided-current-style .text-button{padding:4px 0;text-align:left}.guided-current-style img{width:88px;height:132px;flex:0 0 88px}.guided-complements{border-top:1px solid #d7dece;padding-top:12px}#guidedAlternatives{margin:18px 0}#guidedAlternatives>summary{font-weight:600;padding:10px 0;cursor:pointer}#guidedAlternatives>.small{line-height:1.6}.guided-current-style[hidden]{display:none}
 @media(max-width:700px){.guided-current-style{padding:13px}.guided-current-style .guided-choice{gap:13px}.guided-current-style img{width:70px;height:105px;flex-basis:70px}.guided-current-style strong{font-size:16px}.guided-current-style .small{font-size:12px}.guided-current-style .text-button{font-size:12px}}
+/* Guided start 2.10: retain the visual library; keep technical choices optional. */
+.library-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.guided-launch{position:static;box-shadow:0 4px 12px #0038ff14;flex-shrink:0}
+.brief-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.storage-status{font-size:12px;color:#48684c;margin:8px 0 14px;overflow-wrap:anywhere}
+.storage-status.save-error{color:#8b301f;background:#fff0df;border:1px solid #d1a06a;border-radius:10px;padding:12px}
+.reference-files{margin:18px 0}.reference-file{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:13px}.reference-file>div{display:flex;gap:8px;flex-wrap:wrap}.reference-file .text-button{font-size:12px}
+.handoff-platform{display:grid;gap:6px;margin:18px 0;font-size:13px;font-weight:600}.handoff-platform select{max-width:280px}
+.help-topic{padding:18px 0;border-bottom:1px solid var(--line)}.help-topic p{max-width:80ch;color:var(--muted)}
+.guided-step-count{font-size:12px;font-weight:600;color:var(--accent);margin:0 0 14px}
+.guided-dialog h2{font-size:30px;line-height:1.15;margin:0 0 8px}.guided-dialog header>.eyebrow{margin-bottom:10px}
+.guided-preferences{margin:12px 0}.guided-preferences>summary{font-size:13px}.guided-material-checklist{font-size:13px}.guided-material-checklist p{margin:10px 0}
+.suggestion-nav{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:10px 0}.suggestion-nav>span{font-size:13px;font-weight:600}.suggestion-nav button{min-width:44px}
+.suggestion-reason{font-size:12px;margin:0 12px 8px}.suggestion-reason p{margin:8px 0}
+@media(max-width:700px){
+ .section-head h1{font-size:28px;line-height:1.1;letter-spacing:-1px}.library-actions{margin-top:12px}.library-actions>button{font-size:12px;padding:9px 12px}
+ .brief-heading h1{font-size:28px}.brief-heading .guided-launch{font-size:12px}.reference-file{display:block}.reference-file>div{margin-top:6px}
+ .guided-dialog{padding:16px;max-height:96dvh;width:96vw}.guided-dialog header>.eyebrow{display:none}.guided-dialog h2{font-size:24px;line-height:1.15;margin:0 0 6px}.guided-step-count{margin:0 0 10px}
+ .guided-progress{margin:0 0 12px}.guided-progress li{padding:7px 4px}.guided-dialog section>h3{font-size:17px;margin:10px 0}.guided-dialog label{margin:10px 0}.guided-dialog footer{bottom:-16px;margin-top:10px;padding:12px 0}
+ #guidedAlternatives{margin:8px 0}#guidedAlternatives>summary{padding:8px 0}#guidedAlternatives>.small{display:none}#guidedAppearanceHelp{font-size:12px;margin:8px 0}
+ .guided-option>button:first-child img{height:min(29dvh,240px)}.guided-option strong{font-size:16px;padding:7px 12px}.guided-option button>span{font-size:12px;line-height:1.4;padding:0 12px 8px}.guided-option b{font-size:13px;padding:0 12px 8px}.guided-frame-label{font-size:9px;padding:4px 12px 0}.guided-option .film-strip{padding:6px}.guided-option .film-strip img{max-height:58px}.guided-option>.text-button{font-size:12px;min-height:36px;margin-bottom:6px}
+ .guided-current-style{margin:10px 0;padding:10px}.guided-current-style .small{font-size:11px}
+}
+/* The step title already names the decision; keep the choice above the sticky footer. */
+#guidedStep1>h3{display:none}#guidedAppearanceHelp{margin:8px 0}#guidedAlternatives{margin:8px 0}#guidedAlternatives>summary{padding:6px 0}#guidedAlternatives>.small{margin:6px 0 12px}
+.guided-option button>span{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;padding-bottom:0;margin-bottom:10px}
+@media(min-width:701px){.guided-option>button:first-child img{height:clamp(150px,27dvh,255px)}.guided-progress{margin-bottom:14px}}
+#briefDialog[data-stage="review"] .guided-launch{display:none}
+@media(max-width:700px){#briefDialog[data-stage="review"] .brief-preview{order:1}}
+/* Imported file names are data and may be long. */
+.summary-materials span{white-space:normal;overflow-wrap:anywhere;max-width:100%}
