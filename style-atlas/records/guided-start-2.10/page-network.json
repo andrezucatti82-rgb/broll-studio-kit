@@ -1,0 +1,7 @@
+{
+  "configuration": "Local Chromium with actual public catalogue script and image URLs; no catalogue interception",
+  "ready": true,
+  "firstSixImagesLoaded": true,
+  "consoleErrors": [],
+  "nativeChatGPTViewer": "not_verified"
+}
