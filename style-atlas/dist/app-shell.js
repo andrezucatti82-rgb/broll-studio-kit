@@ -58,7 +58,7 @@
   viewerStyle=s;viewerIndex=Number.isInteger(index)&&index>=0&&index<4?index:0;returnFocus=trigger;updateFrame();$('sequenceDialog').showModal();
  }
  function updateFrame(){
-  const f=viewerStyle.sequence.frames[viewerIndex];$('sequenceImage').src=base()+f.src;$('sequenceImage').alt=f.alt||f.caption||viewerStyle.name;
+  const f=viewerStyle.sequence.frames[viewerIndex];$('sequenceImage').src=(window.ATLAS_IMAGE_ASSET_BASE||base())+f.src;$('sequenceImage').alt=f.alt||f.caption||viewerStyle.name;
   $('sequenceTitle').textContent=viewerStyle.name;$('sequenceCaption').textContent=f.label+' · '+(f.caption||f.action||'');$('sequencePosition').textContent=`${viewerIndex+1} / 4`;
   $('sequencePrev').disabled=viewerIndex===0;$('sequenceNext').disabled=viewerIndex===3;
   $('sequenceDownload').dataset.sequenceDownload=viewerStyle.id;$('sequenceDownload').dataset.frameIndex=viewerIndex;
@@ -98,7 +98,7 @@
  const family=()=>$('familySelect').value;
  const parent=()=>window.AtlasApp?.categorySelection?.().group||'';
  const groupCount=g=>g.families.reduce((n,id)=>n+byFamily.get(id).count,0);
- const thumb=s=>{const f=s.sequence.frames[s.sequence.heroIndex??1];return (window.ATLAS_ASSET_BASE||'')+(f.thumbnail||f.src)};
+ const thumb=s=>{const f=s.sequence.frames[s.sequence.heroIndex??1];return (window.ATLAS_IMAGE_ASSET_BASE||window.ATLAS_ASSET_BASE||'')+(f.thumbnail||f.src)};
  const esc=s=>AtlasViews.esc(s);
  function sidebar(){
   const current=family(),q=norm(query.trim());let count=0;

@@ -3,7 +3,7 @@
  const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  const hero=s=>s.sequence?.heroIndex??1;
  const others=s=>[0,1,2,3].filter(i=>i!==hero(s));
- const picture=(s,i,base='',cls='',small=false)=>{const f=s.sequence?.frames?.[i];return f?`<img class="${cls}" src="${esc(base+(small?f.thumbnail||f.src:f.src))}" alt="${esc(f.alt||s.name+' · '+f.label)}" width="${f.width}" height="${f.height}" loading="lazy" decoding="async">`:''};
+ const picture=(s,i,base='',cls='',small=false)=>{const f=s.sequence?.frames?.[i];return f?`<img class="${cls}" src="${esc((globalThis.ATLAS_IMAGE_ASSET_BASE||base)+(small?f.thumbnail||f.src:f.src))}" alt="${esc(f.alt||s.name+' · '+f.label)}" width="${f.width}" height="${f.height}" loading="lazy" decoding="async">`:''};
  function strip(s,base=''){
   if(!s.sequence?.frames?.length)return '';
   return `<div class="sequence-strip" aria-label="Momentos da sequência">${others(s).map((i,n)=>`<button type="button" data-sequence="${esc(s.id)}" data-frame-index="${i}" aria-label="Ampliar ${esc(s.sequence.frames[i].label)} de ${esc(s.name)}">${picture(s,i,base,'',true)}<span>${String(i+1).padStart(2,'0')}</span></button>`).join('')}</div>`;
